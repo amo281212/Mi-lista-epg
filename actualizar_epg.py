@@ -3,32 +3,18 @@ import gzip
 import urllib.request
 import xml.etree.ElementTree as ET
 
-# Fuentes EPG con cobertura en Latinoamérica
+# Fuentes EPG gratuitas
 FUENTES_EPG = [
     "https://iptv-epg.org/files/epg-cl.xml",
     "https://iptv-epg.org/files/epg-ar.xml",
-    "https://iptv-epg.org/files/epg-uy.xml",
-    "https://iptv-epg.org/files/epg-co.xml",
     "https://iptv-epg.org/files/epg-ec.xml",
-    "https://iptv-epg.org/files/epg-bo.xml"
+    "https://iptv-epg.org/files/epg-co.xml"
 ]
 
-# Variantes exactas encontradas en iptv-epg.org
 MAPEO_CANALES = {
-    'StudioUniversal.cl': [
-        'StudioUniversal.cl', 'StudioUniversal.ar', 'StudioUniversal.co', 
-        'StudioUniversal.bo', 'StudioUniversal.lat', 'Studio Universal'
-    ],
-    'EEntertainment.cl': [
-        'E!.cl', 'EEntertainment.cl', 'E_EntertainmentTelevision.bo', 
-        'E!EntertainmentTelevisionAndes.ec', 'E_EntertainmentTelevision.dr', 
-        'E! Entertainment', 'EEntertainment.lat'
-    ],
-    'TelemundoInternacional.ar': [
-        'TelemundoInternacional.ar', 'TelemundoInternacional.ec', 
-        'TelemundoInternacional.cl', 'Telemundo Internacional', 'Telemundo.ar'
-    ],
-    # Demás canales de tu lista
+    'StudioUniversal.cl': ['StudioUniversal.cl', 'StudioUniversal.ar', 'StudioUniversal.co', 'Studio Universal'],
+    'EEntertainment.cl': ['E!.cl', 'EEntertainment.cl', 'E_EntertainmentTelevision.bo', 'E! Entertainment'],
+    'TelemundoInternacional.ar': ['TelemundoInternacional.ar', 'TelemundoInternacional.ec', 'Telemundo Internacional'],
     'SONYMOVIES.uy': ['SONYMOVIES.uy', 'SonyMovies.uy', 'Sony Movies'],
     'film&arts.cl': ['film&arts.cl', 'FilmAndArts.cl', 'Film & Arts'],
     'USANetwork.bo': ['USANetwork.bo', 'USA Network'],
@@ -46,14 +32,14 @@ CANALES_NOTICIAS = [
 ]
 
 RESPALDO_CANALES = {
-    'ENTChannel.cl': ('ENT Channel', 'Cine / Películas', 'Selección de Cine 24/7', 'Las mejores producciones cinematográficas en emisión continua.'),
-    'StudioUniversal.cl': ('Studio Universal', 'Cine / Películas', 'Cine & Éxitos Studio Universal', 'Grandes producciones cinematográficas y películas las 24 horas.'),
-    'EEntertainment.cl': ('E! Entertainment', 'Espectáculos / Reality', 'E! Pop Culture & Realitys', 'Noticias de espectáculos, moda y reality shows.'),
-    'TelemundoInternacional.ar': ('Telemundo Internacional', 'Telenovelas / Series', 'Programación Telemundo', 'Series, telenovelas y producciones dramáticas internacionales.')
+    'ENTChannel.cl': ('ENT Channel', 'Cine / Películas', 'Selección de Cine 24/7', 'Las mejores producciones cinematográficas.'),
+    'StudioUniversal.cl': ('Studio Universal', 'Cine / Películas', 'Cine Studio Universal', 'Películas y producciones cinematográficas en emisión continua.'),
+    'EEntertainment.cl': ('E! Entertainment', 'Espectáculos', 'E! Pop Culture & Realitys', 'Noticias de espectáculos, moda y reality shows.'),
+    'TelemundoInternacional.ar': ('Telemundo Internacional', 'Series / Novelas', 'Programación Telemundo', 'Series, telenovelas y producciones dramáticas.')
 }
 
 def descargar_xml(url):
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+    headers = {'User-Agent': 'Mozilla/5.0'}
     req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req) as response:
         content = response.read()
@@ -89,16 +75,16 @@ try:
     root_chile = ET.Element('tv')
     canales_exitosos = set()
     
-    print("1. Descargando fuentes EPG...")
+    print("--- 1. Descargando EPG externas ---")
     for url in FUENTES_EPG:
         try:
             guiaroot = descargar_xml(url)
             todas_las_guias.append(guiaroot)
-            print(f"    ✔ Cargada fuente: {url}")
-        except Exception as e_url:
-            print(f"    ⚠ No se pudo cargar {url}: {e_url}")
+            print(f"✔ Fuente cargada: {url}")
+        except Exception as e:
+            print(f"❌ Error al cargar {url}: {e}")
 
-    print("2. Rastreando programación REAL...")
+    print("\n--- 2. Buscando guía real ---")
     for id_m3u, terminos_busqueda in MAPEO_CANALES.items():
         encontrado = False
         for g_root in todas_las_guias:
@@ -108,10 +94,10 @@ try:
                 ch_id = channel.get('id', '')
                 ch_name = channel.findtext('display-name', '')
                 
+                # Comprobar coincidencia exacta o en minusculas
                 if any(t.lower() == ch_id.lower() or t.lower() == ch_name.lower() for t in terminos_busqueda):
                     programas = [p for p in g_root.findall('programme') if p.get('channel') == ch_id]
-                    
-                    if len(programas) > 3:
+                    if len(programas) > 0:
                         new_chan = ET.Element('channel', id=id_m3u)
                         new_name = ET.SubElement(new_chan, 'display-name')
                         new_name.text = ch_name if ch_name else id_m3u
@@ -124,23 +110,25 @@ try:
                             
                         encontrado = True
                         canales_exitosos.add(id_m3u)
-                        print(f"    ✔ ¡Guía REAL enlazada para {id_m3u} desde '{ch_id}'! ({len(programas)} programas)")
+                        print(f"  ✔ GUÍA REAL ENCONTRADA: {id_m3u} (desde ID '{ch_id}', {len(programas)} eventos)")
                         break
+        if not encontrado:
+            print(f"  ⚠ No se encontró guía externa para: {id_m3u}")
 
-    print("3. Generando noticias...")
+    print("\n--- 3. Generando noticias ---")
     for ch_id, ch_name in CANALES_NOTICIAS:
-        agregar_bloque_respaldo(root_chile, ch_id, ch_name, "Noticias", "Noticias en Vivo", "Transmisión continua de noticias en vivo.")
+        agregar_bloque_respaldo(root_chile, ch_id, ch_name, "Noticias", "Noticias en Vivo", "Transmisión continua de noticias.")
 
-    print("4. Verificando respaldos de seguridad...")
+    print("\n--- 4. Generando respaldos garantizados ---")
     for ch_id, (ch_name, cat, tit, desc) in RESPALDO_CANALES.items():
         if ch_id not in canales_exitosos:
             agregar_bloque_respaldo(root_chile, ch_id, ch_name, cat, tit, desc)
-            print(f"    ✔ Respaldo asignado a: {ch_id}")
+            print(f"  ✔ Respaldo asignado obligatoriamente a: {ch_id}")
 
     tree = ET.ElementTree(root_chile)
     tree.write("epg_final.xml", encoding="utf-8", xml_declaration=True)
-    print("¡Proceso finalizado con éxito!")
+    print("\n¡Archivo epg_final.xml generado correctamente!")
 
 except Exception as e:
-    print(f"Error: {e}")
+    print(f"Error fatal: {e}")
     raise e
