@@ -3,23 +3,26 @@ import gzip
 import urllib.request
 import xml.etree.ElementTree as ET
 
-# Fuentes EPG
-URL_EPG_CHILE = "https://iptv-epg.org/files/epg-cl.xml"
-URL_EPG_LATAM = "https://epg.lat/files/latam.xml.gz"
+# Fuentes EPG por país (específicas y livianas)
+FUENTES_EPG = [
+    "https://iptv-epg.org/files/epg-cl.xml", # Chile
+    "https://iptv-epg.org/files/epg-ar.xml", # Argentina
+    "https://iptv-epg.org/files/epg-uy.xml"  # Uruguay
+]
 
 # Mapeo exacto con los tvg-id de tu lista M3U8
 MAPEO_CANALES = {
-    'SONYMOVIES.uy': ['SonyMovies.uy', 'SonyMovies.lat', 'Sony Movies', 'SonyMovies.cl'],
+    'SONYMOVIES.uy': ['SonyMovies.uy', 'SonyMovies.lat', 'Sony Movies', 'SonyMovies.cl', 'SonyMovies.ar'],
     'StudioUniversal.ar': ['StudioUniversal.ar', 'StudioUniversal.lat', 'Studio Universal', 'StudioUniversal.cl'],
-    'film&arts.cl': ['film&arts.cl', 'FilmAndArts.cl', 'FilmAndArts.lat', 'Film & Arts'],
-    'USANetwork.bo': ['USANetwork.bo', 'USANetwork.lat', 'USA Network'],
-    'A&E.cl': ['A&E.cl', 'AE.cl', 'AE.lat', 'A&E'],
-    'E!.cl': ['E!.cl', 'EEntertainment.cl', 'EEntertainment.lat', 'E! Entertainment', 'E! Entertainment Television'],
+    'film&arts.cl': ['film&arts.cl', 'FilmAndArts.cl', 'FilmAndArts.lat', 'Film & Arts', 'FilmAndArts.ar'],
+    'USANetwork.bo': ['USANetwork.bo', 'USANetwork.lat', 'USA Network', 'USANetwork.cl', 'USANetwork.ar'],
+    'A&E.cl': ['A&E.cl', 'AE.cl', 'AE.lat', 'A&E', 'AE.ar'],
+    'E!.cl': ['E!.cl', 'EEntertainment.cl', 'EEntertainment.lat', 'E! Entertainment', 'E! Entertainment Television', 'EEntertainment.ar'],
     'NickJr.ar': ['NickJr.ar', 'NickJr.lat', 'Nick Jr', 'NickJr.cl'],
-    'FOODNETWORK.uy': ['FoodNetwork.uy', 'FoodNetwork.lat', 'Food Network', 'FoodNetwork.cl'],
+    'FOODNETWORK.uy': ['FoodNetwork.uy', 'FoodNetwork.lat', 'Food Network', 'FoodNetwork.cl', 'FoodNetwork.ar'],
     'HGTV.ar': ['HGTV.ar', 'HGTV.lat', 'HGTV', 'HGTV.cl'],
-    'DiscoveryHome&Health.cl': ['DiscoveryHome&Health.cl', 'HomeAndHealth.cl', 'HomeAndHealth.lat', 'Discovery Home & Health', 'H&H'],
-    'PASIONES.uy': ['Pasiones.uy', 'Pasiones.lat', 'Pasiones', 'Pasiones.cl'],
+    'DiscoveryHome&Health.cl': ['DiscoveryHome&Health.cl', 'HomeAndHealth.cl', 'HomeAndHealth.lat', 'Discovery Home & Health', 'H&H', 'HomeAndHealth.ar'],
+    'PASIONES.uy': ['Pasiones.uy', 'Pasiones.lat', 'Pasiones', 'Pasiones.cl', 'Pasiones.ar'],
     'TelemundoInternacional.ar': ['Telemundo.ar', 'Telemundo.lat', 'Telemundo Internacional', 'Telemundo.cl']
 }
 
@@ -50,18 +53,16 @@ def descargar_xml(url):
     return ET.fromstring(content)
 
 def generar_programas_noticias(root, channel_id, channel_name):
-    # Crear la etiqueta del canal
     ch_elem = ET.Element('channel', id=channel_id)
     dn_elem = ET.SubElement(ch_elem, 'display-name')
     dn_elem.text = channel_name
     root.append(ch_elem)
     
-    # Generar bloques de 3 horas de noticias para ayer, hoy y los próximos 2 días
     ahora = datetime.datetime.now(datetime.timezone.utc)
     inicio_base = ahora.replace(hour=0, minute=0, second=0, microsecond=0) - datetime.timedelta(days=1)
     
-    for dia in range(4): # 4 días de programación
-        for bloque in range(8): # 8 bloques de 3 horas por día
+    for dia in range(4):
+        for bloque in range(8):
             start_dt = inicio_base + datetime.timedelta(days=dia, hours=bloque*3)
             stop_dt = start_dt + datetime.timedelta(hours=3)
             
@@ -79,15 +80,24 @@ def generar_programas_noticias(root, channel_id, channel_name):
             root.append(prog)
 
 try:
-    print("1. Descargando guía principal de Chile...")
-    root_chile = descargar_xml(URL_EPG_CHILE)
+    todas_las_guias = []
+    root_chile = None
     
-    print("2. Descargando guía secundaria Latam...")
-    root_latam = descargar_xml(URL_EPG_LATAM)
-    
-    todas_las_guias = [root_chile, root_latam]
-    
-    print("3. Procesando canales de cable mapeados a tu M3U8...")
+    print("1. Descargando guías por país (Chile, Argentina, Uruguay)...")
+    for url in FUENTES_EPG:
+        try:
+            guiaroot = descargar_xml(url)
+            todas_las_guias.append(guiaroot)
+            if root_chile is None:
+                root_chile = guiaroot
+            print(f"    ✔ Cargada fuente: {url}")
+        except Exception as e_url:
+            print(f"    ⚠ No se pudo cargar {url}: {e_url}")
+
+    if root_chile is None:
+        root_chile = ET.Element('tv')
+
+    print("2. Procesando canales de cable mapeados a tu M3U8...")
     for id_m3u, terminos_busqueda in MAPEO_CANALES.items():
         print(f" -> Buscando programación para ID M3U: {id_m3u}...")
         encontrado = False
@@ -103,13 +113,11 @@ try:
                 coincide = any(t.lower() == ch_id.lower() or t.lower() == ch_name.lower() for t in terminos_busqueda)
                 
                 if coincide:
-                    # Crear canal con el ID exacto de tu M3U8
                     new_chan = ET.Element('channel', id=id_m3u)
                     new_name = ET.SubElement(new_chan, 'display-name')
                     new_name.text = ch_name
                     root_chile.append(new_chan)
                     
-                    # Copiar programas asignándoles tu ID M3U8
                     programas_hallados = 0
                     for prog in g_root.findall('programme'):
                         if prog.get('channel') == ch_id:
@@ -123,12 +131,12 @@ try:
                         print(f"    ✔ ¡Mapeado con éxito {id_m3u} ({programas_hallados} programas)!")
                         break
 
-    print("4. Generando programación automática para canales de noticias...")
+    print("3. Generando programación automática para canales de noticias...")
     for ch_id, ch_name in CANALES_NOTICIAS:
         generar_programas_noticias(root_chile, ch_id, ch_name)
         print(f"    ✔ Creada guía 'Noticias en vivo' para: {ch_id}")
 
-    print("5. Aplicando correcciones de horario si aplican...")
+    print("4. Aplicando correcciones de horario si aplican...")
     for programme in root_chile.findall('programme'):
         channel_id = programme.get('channel')
         if channel_id in CANALES_MAS_1h:
