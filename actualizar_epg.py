@@ -11,7 +11,17 @@ FUENTES_EPG = [
     "https://iptv-epg.org/files/epg-co.xml"
 ]
 
-# Canales específicos con alias o respaldo garantizado
+# 🕒 ZONA DE JUEGO: DESFASE HORARIO POR CANAL
+# Quita el '#' de la línea y ajusta las horas:
+# Número negativo (ej: -3) -> Aatrasa el reloj si la guía va adelantada
+# Número positivo (ej: 2)  -> Adelanta el reloj si la guía va atrasada
+DESFASE_CANALES = {
+    # 'Chilevision.cl': -3,
+    # 'TVN.cl': -1,
+    # 'StudioUniversal.cl': 2,
+}
+
+# Canales clave con respaldo garantizado por si fallan las fuentes externas
 DATOS_RESPALDO = {
     'TVN.cl': ('TVN', 'General', 'Programación TVN', 'Noticias, matinales, teleseries y entretención.'),
     'Canal13.cl': ('Canal 13', 'General', 'Programación Canal 13', 'Noticieros, realitys y programas en vivo.'),
@@ -36,6 +46,18 @@ DATOS_RESPALDO = {
     'DiscoveryHome&Health.cl': ('Discovery Home & Health', 'Estilo de Vida', 'Bienestar & Estilo', 'Salud, hogar y estilo de vida.'),
     'PASIONES.uy': ('Pasiones', 'Telenovelas', 'Novelas & Dramas', 'Telenovelas internacionales y grandes historias.')
 }
+
+def ajustar_hora(time_str, horas_desfase):
+    if not time_str or len(time_str) < 14:
+        return time_str
+    try:
+        dt_part = time_str[:14]
+        tz_part = time_str[14:] if len(time_str) > 14 else ""
+        dt = datetime.datetime.strptime(dt_part, "%Y%m%d%H%M%S")
+        dt += datetime.timedelta(hours=horas_desfase)
+        return dt.strftime("%Y%m%d%H%M%S") + tz_part
+    except Exception:
+        return time_str
 
 def descargar_xml(url):
     headers = {'User-Agent': 'Mozilla/5.0'}
@@ -89,7 +111,6 @@ try:
     for url in FUENTES_EPG:
         try:
             guiaroot = descargar_xml(url)
-            # Copiar TODOS los canales y programas sin borrar ninguno
             for elem in guiaroot:
                 if elem.tag == 'channel':
                     ch_id = elem.get('id')
@@ -97,6 +118,11 @@ try:
                         canales_existentes.add(ch_id)
                         root_final.append(elem)
                 elif elem.tag == 'programme':
+                    ch_id = elem.get('channel')
+                    if ch_id in DESFASE_CANALES:
+                        horas = DESFASE_CANALES[ch_id]
+                        elem.set('start', ajustar_hora(elem.get('start', ''), horas))
+                        elem.set('stop', ajustar_hora(elem.get('stop', ''), horas))
                     root_final.append(elem)
             print(f" ✔ Cargada guía completa: {url}")
         except Exception as e:
@@ -111,7 +137,7 @@ try:
     tree = ET.ElementTree(root_final)
     ET.indent(tree, space="  ", level=0)
     tree.write("epg_final.xml", encoding="utf-8", xml_declaration=True)
-    print("¡Proceso finalizado con éxito! Todos los canales guardados.")
+    print("¡Proceso finalizado con éxito!")
 
 except Exception as e:
     print(f"Error fatal: {e}")
