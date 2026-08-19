@@ -3,49 +3,80 @@ import gzip
 import urllib.request
 import xml.etree.ElementTree as ET
 
-# Fuentes EPG por país (específicas)
+# Red de fuentes EPG de toda Latinoamérica para máxima cobertura
 FUENTES_EPG = [
     "https://iptv-epg.org/files/epg-cl.xml", # Chile
     "https://iptv-epg.org/files/epg-ar.xml", # Argentina
-    "https://iptv-epg.org/files/epg-uy.xml"  # Uruguay
+    "https://iptv-epg.org/files/epg-uy.xml", # Uruguay
+    "https://iptv-epg.org/files/epg-co.xml", # Colombia
+    "https://iptv-epg.org/files/epg-mx.xml", # México
+    "https://iptv-epg.org/files/epg-pe.xml"  # Perú
 ]
 
-# Mapeo super extendido con todas las posibles variantes de IDs en las guías
+# Lista masiva de alias para que Python explore miles de posibilidades por canal
 MAPEO_CANALES = {
-    'SONYMOVIES.uy': ['SONYMOVIES.uy', 'SonyMovies.uy', 'SonyMovies.lat', 'Sony Movies', 'SonyMovies.cl', 'SonyMovies.ar', 'Sony Movies HD'],
-    'StudioUniversal.ar': ['StudioUniversal.ar', 'StudioUniversal.lat', 'Studio Universal', 'StudioUniversal.cl', 'Studio Universal HD', 'StudioUniversal.uy'],
-    'film&arts.cl': ['film&arts.cl', 'FilmAndArts.cl', 'FilmAndArts.lat', 'Film & Arts', 'FilmAndArts.ar', 'Film & Arts HD', 'FilmAndArts.uy', 'FilmArts.cl'],
-    'USANetwork.bo': ['USANetwork.bo', 'USANetwork.lat', 'USA Network', 'USANetwork.cl', 'USANetwork.ar', 'USA Network HD'],
-    'A&E.cl': ['A&E.cl', 'AE.cl', 'AE.lat', 'A&E', 'AE.ar', 'A&E HD', 'A&E Chile'],
-    'E!.cl': ['E!.cl', 'EEntertainment.cl', 'EEntertainment.lat', 'E! Entertainment', 'E! Entertainment Television', 'EEntertainment.ar', 'E! Entertainment HD', 'E!'],
-    'NickJr.ar': ['NickJr.ar', 'NickJr.lat', 'Nick Jr', 'NickJr.cl', 'Nick Jr.'],
-    'FOODNETWORK.uy': ['FoodNetwork.uy', 'FOODNETWORK.uy', 'FoodNetwork.lat', 'Food Network', 'FoodNetwork.cl', 'FoodNetwork.ar', 'Food Network HD'],
-    'HGTV.ar': ['HGTV.ar', 'HGTV.lat', 'HGTV', 'HGTV.cl', 'HGTV HD'],
-    'DiscoveryHome&Health.cl': ['DiscoveryHome&Health.cl', 'HomeAndHealth.cl', 'HomeAndHealth.lat', 'Discovery Home & Health', 'H&H', 'HomeAndHealth.ar', 'Discovery Home & Health HD'],
-    'PASIONES.uy': ['Pasiones.uy', 'PASIONES.uy', 'Pasiones.lat', 'Pasiones', 'Pasiones.cl', 'Pasiones.ar', 'Pasiones HD'],
-    'TelemundoInternacional.ar': ['TelemundoInternacional.ar', 'Telemundo.ar', 'Telemundo.lat', 'Telemundo Internacional', 'Telemundo.cl', 'Telemundo', 'Telemundo HD']
+    'SONYMOVIES.uy': [
+        'SONYMOVIES.uy', 'SonyMovies.uy', 'SonyMovies.lat', 'Sony Movies', 'SonyMovies.cl', 
+        'SonyMovies.ar', 'Sony Movies HD', 'SonyMovies.co', 'SonyMovies.mx', 'Sony Movies Latin America'
+    ],
+    'StudioUniversal.ar': [
+        'StudioUniversal.ar', 'StudioUniversal.lat', 'Studio Universal', 'StudioUniversal.cl', 
+        'Studio Universal HD', 'StudioUniversal.uy', 'StudioUniversal.co', 'StudioUniversal.mx', 'Studio Universal Latin'
+    ],
+    'film&arts.cl': [
+        'film&arts.cl', 'FilmAndArts.cl', 'FilmAndArts.lat', 'Film & Arts', 'FilmAndArts.ar', 
+        'Film & Arts HD', 'FilmAndArts.uy', 'FilmArts.cl', 'FilmAndArts.co', 'FilmAndArts.mx', 'Film & Arts Latin America'
+    ],
+    'USANetwork.bo': [
+        'USANetwork.bo', 'USANetwork.lat', 'USA Network', 'USANetwork.cl', 'USANetwork.ar', 
+        'USA Network HD', 'USANetwork.co', 'USANetwork.mx', 'USA Network Latin America', 'USA.cl', 'USA.ar'
+    ],
+    'A&E.cl': [
+        'A&E.cl', 'AE.cl', 'AE.lat', 'A&E', 'AE.ar', 'A&E HD', 'A&E Chile', 'A&E Latin America', 
+        'A&E.co', 'A&E.mx', 'A&E.uy', 'AeNetwork.cl'
+    ],
+    'E!.cl': [
+        'E!.cl', 'EEntertainment.cl', 'EEntertainment.lat', 'E! Entertainment', 'E! Entertainment Television', 
+        'EEntertainment.ar', 'E! Entertainment HD', 'E!', 'EEntertainment.co', 'EEntertainment.mx', 'E! Latin America'
+    ],
+    'NickJr.ar': [
+        'NickJr.ar', 'NickJr.lat', 'Nick Jr', 'NickJr.cl', 'Nick Jr.', 'NickJr.co', 'NickJr.mx', 'Nick Jr HD'
+    ],
+    'FOODNETWORK.uy': [
+        'FoodNetwork.uy', 'FOODNETWORK.uy', 'FoodNetwork.lat', 'Food Network', 'FoodNetwork.cl', 
+        'FoodNetwork.ar', 'Food Network HD', 'FoodNetwork.co', 'FoodNetwork.mx'
+    ],
+    'HGTV.ar': [
+        'HGTV.ar', 'HGTV.lat', 'HGTV', 'HGTV.cl', 'HGTV HD', 'HGTV.co', 'HGTV.mx', 'HGTV Latin America'
+    ],
+    'DiscoveryHome&Health.cl': [
+        'DiscoveryHome&Health.cl', 'HomeAndHealth.cl', 'HomeAndHealth.lat', 'Discovery Home & Health', 
+        'H&H', 'HomeAndHealth.ar', 'Discovery Home & Health HD', 'HomeAndHealth.co', 'HomeAndHealth.mx', 'Discovery Home and Health'
+    ],
+    'PASIONES.uy': [
+        'Pasiones.uy', 'PASIONES.uy', 'Pasiones.lat', 'Pasiones', 'Pasiones.cl', 'Pasiones.ar', 
+        'Pasiones HD', 'Pasiones.co', 'Pasiones.mx'
+    ],
+    'TelemundoInternacional.ar': [
+        'TelemundoInternacional.ar', 'Telemundo.ar', 'Telemundo.lat', 'Telemundo Internacional', 
+        'Telemundo.cl', 'Telemundo', 'Telemundo HD', 'Telemundo.co', 'Telemundo.mx', 'TelemundoInternacional.cl'
+    ]
 }
 
-# Canales de noticias para generarles guía automática
 CANALES_NOTICIAS = [
     ('CHVNoticias.cl', 'CHV Noticias'),
     ('T13Noticias.cl', 'T13 En Vivo')
 ]
 
-# Canales de cine continuo con bloques temáticos
-BLOQUES_CINE = [
-    ("00:00", "03:00", "Cine Nocturno: Selección de Medianoche", "Las mejores producciones cinematográficas para acompañar la madrugada."),
-    ("03:00", "06:00", "Cine Continuo 24/7", "Transmisión ininterrumpida con el mejor entretenimiento cinematográfico."),
-    ("06:00", "09:00", "Cine Matinal: Éxitos de la Pantalla", "Comienza el día con una selección especial de películas de catálogo y clásicos modernos."),
-    ("09:00", "12:00", "Grandes Historias del Séptimo Arte", "Largometrajes destacados de diversos géneros e historias atrapantes."),
-    ("12:00", "15:00", "Cine de Mediodía: Selección Especial", "Una propuesta cinematográfica ideal para disfrutar a mitad de jornada."),
-    ("15:00", "18:00", "Maratón de Cine & Entretenimiento", "Bloque continuo de películas seleccionadas con las mejores historias de la pantalla."),
-    ("18:00", "21:00", "Cine Estelar: Grandes Producciones", "Películas aclamadas, títulos destacados y el mejor cine sin interrupciones."),
-    ("21:00", "00:00", "Noche de Película: Selección Premium", "Lo mejor del catálogo cinematográfico para disfrutar en el horario estelar.")
-]
-
-CANALES_MAS_1h = []
-CANALES_MENOS_1h = []
+# Red de seguridad: si no se encuentra en NINGUNA guía de Latam, se aplica esto
+RESPALDO_CANALES = {
+    'ENTChannel.cl': ('ENT Channel', 'Cine / Películas', 'Selección de Cine 24/7', 'Las mejores producciones cinematográficas y largometrajes en emisión continua.'),
+    'TelemundoInternacional.ar': ('Telemundo Internacional', 'Telenovelas / Series', 'Programación Telemundo', 'Series, telenovelas y producciones dramáticas internacionales en emisión continua.'),
+    'DiscoveryHome&Health.cl': ('Discovery Home & Health', 'Estilo de Vida', 'Estilo de Vida & Bienestar', 'Programas de salud, hogar, estilo de vida y entretenidos docu-realitys.'),
+    'A&E.cl': ('A&E', 'Series / Acción', 'Especiales & Series A&E', 'Series de acción, drama, investigación y grandes producciones de entretenimiento.'),
+    'USANetwork.bo': ('USA Network', 'Series / Películas', 'Programación USA Network', 'El mejor entretenimiento con series exclusivas y producciones cinematográficas.'),
+    'film&arts.cl': ('Film & Arts', 'Arte / Cultura', 'Especiales Film & Arts', 'Cine de autor, arte, música, series y espectáculos de nivel internacional.')
+}
 
 def ajustar_hora(time_str, horas_diferencia):
     try:
@@ -91,7 +122,7 @@ def generar_programas_noticias(root, channel_id, channel_name):
             
             root.append(prog)
 
-def generar_programas_cine(root, channel_id, channel_name):
+def generar_programas_respaldo(root, channel_id, channel_name, categoria, titulo_prog, desc_prog):
     ch_elem = ET.Element('channel', id=channel_id)
     dn_elem = ET.SubElement(ch_elem, 'display-name')
     dn_elem.text = channel_name
@@ -101,35 +132,29 @@ def generar_programas_cine(root, channel_id, channel_name):
     inicio_base = ahora.replace(hour=0, minute=0, second=0, microsecond=0) - datetime.timedelta(days=1)
     
     for dia in range(4):
-        fecha_dia = inicio_base + datetime.timedelta(days=dia)
-        for h_ini, h_fin, titulo, descripcion in BLOQUES_CINE:
-            h_i, m_i = map(int, h_ini.split(':'))
-            h_f, m_f = map(int, h_fin.split(':'))
+        for bloque in range(8):
+            start_dt = inicio_base + datetime.timedelta(days=dia, hours=bloque*3)
+            stop_dt = start_dt + datetime.timedelta(hours=3)
             
-            start_dt = fecha_dia.replace(hour=h_i, minute=m_i)
-            if h_fin == "00:00":
-                stop_dt = start_dt + datetime.timedelta(hours=3)
-            else:
-                stop_dt = fecha_dia.replace(hour=h_f, minute=m_f)
-                
             start_str = start_dt.strftime("%Y%m%d%H%M%S +0000")
             stop_str = stop_dt.strftime("%Y%m%d%H%M%S +0000")
             
             prog = ET.Element('programme', start=start_str, stop=stop_str, channel=channel_id)
             title = ET.SubElement(prog, 'title', lang='es')
-            title.text = titulo
+            title.text = f"{channel_name}: {titulo_prog}"
             desc = ET.SubElement(prog, 'desc', lang='es')
-            desc.text = descripcion
+            desc.text = desc_prog
             category = ET.SubElement(prog, 'category', lang='es')
-            category.text = "Cine / Películas"
+            category.text = categoria
             
             root.append(prog)
 
 try:
     todas_las_guias = []
     root_chile = None
+    canales_exitosos = set()
     
-    print("1. Descargando guías por país (Chile, Argentina, Uruguay)...")
+    print("1. Descargando guías masivas de Latinoamérica (Chile, Argentina, Uruguay, Colombia, México, Perú)...")
     for url in FUENTES_EPG:
         try:
             guiaroot = descargar_xml(url)
@@ -143,9 +168,9 @@ try:
     if root_chile is None:
         root_chile = ET.Element('tv')
 
-    print("2. Procesando canales de cable mapeados a tu M3U8...")
+    print("2. Buscando programación en la red para tus canales...")
     for id_m3u, terminos_busqueda in MAPEO_CANALES.items():
-        print(f" -> Buscando programación para ID M3U: {id_m3u}...")
+        print(f" -> Rastreando guía para: {id_m3u}...")
         encontrado = False
         
         for g_root in todas_las_guias:
@@ -156,6 +181,7 @@ try:
                 ch_id = channel.get('id', '')
                 ch_name = channel.findtext('display-name', '')
                 
+                # Revisa si coincide con la extensa lista de alias
                 coincide = any(t.lower() == ch_id.lower() or t.lower() == ch_name.lower() for t in terminos_busqueda)
                 
                 if coincide:
@@ -174,31 +200,25 @@ try:
                             
                     if programas_hallados > 0:
                         encontrado = True
-                        print(f"    ✔ ¡Mapeado con éxito {id_m3u} ({programas_hallados} programas creados desde {ch_id})!")
+                        canales_exitosos.add(id_m3u)
+                        print(f"    ✔ ¡ENCONTRADO Y ENLAZADO! {id_m3u} desde ID original '{ch_id}' ({programas_hallados} programas en vivo).")
                         break
 
-    print("3. Generando programación automática para canales de noticias...")
+    print("3. Generando noticias automáticas...")
     for ch_id, ch_name in CANALES_NOTICIAS:
         generar_programas_noticias(root_chile, ch_id, ch_name)
-        print(f"    ✔ Creada guía 'Noticias en vivo' para: {ch_id}")
+        print(f"    ✔ Noticias listas para: {ch_id}")
 
-    print("4. Generando programación temática para ENT Channel...")
-    generar_programas_cine(root_chile, 'ENTChannel.cl', 'ENT Channel')
-    print("    ✔ Creados bloques de cine variados para: ENTChannel.cl")
+    print("4. Aplicando respaldos inteligentes a los canales restantes...")
+    for ch_id, (ch_name, cat, tit, desc) in RESPALDO_CANALES.items():
+        if ch_id not in canales_exitosos:
+            generar_programas_respaldo(root_chile, ch_id, ch_name, cat, tit, desc)
+            print(f"    ✔ Respaldo automático asignado a: {ch_id}")
 
-    print("5. Aplicando correcciones de horario si aplican...")
-    for programme in root_chile.findall('programme'):
-        channel_id = programme.get('channel')
-        if channel_id in CANALES_MAS_1h:
-            if 'start' in programme.attrib:
-                programme.set('start', ajustar_hora(programme.get('start'), 1))
-            if 'stop' in programme.attrib:
-                programme.set('stop', ajustar_hora(programme.get('stop'), -1))
-
-    # Guardar archivo optimizado
+    # Guardar archivo EPG final
     tree = ET.ElementTree(root_chile)
     tree.write("epg_final.xml", encoding="utf-8", xml_declaration=True)
-    print("¡Éxito! El archivo EPG personalizado se ha creado de forma impecable.")
+    print("¡Éxito total! Archivo EPG súper optimizado y guardado.")
 
 except Exception as e:
     print(f"Error procesando la EPG: {e}")
