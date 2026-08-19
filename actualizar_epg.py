@@ -9,7 +9,8 @@ FUENTES_EPG = [
     "https://iptv-epg.org/files/epg-ar.xml",
     "https://iptv-epg.org/files/epg-ec.xml",
     "https://iptv-epg.org/files/epg-co.xml",
-    "https://iptv-epg.org/files/epg-uy.xml"
+    "https://iptv-epg.org/files/epg-uy.xml",
+    "https://iptv-epg.org/files/epg-bo.xml"
 ]
 
 # 🕒 ZONA DE JUEGO: DESFASE HORARIO POR CANAL
@@ -17,7 +18,8 @@ FUENTES_EPG = [
 # Número negativo (ej: -3) -> Aatrasa el reloj si la guía va adelantada
 # Número positivo (ej: 2)  -> Adelanta el reloj si la guía va atrasada
 DESFASE_CANALES = {
-    # 'Chilevision.cl': -3,
+    'StudioUniversal.bo': -4,
+    'E_EntertainmentTelevision.bo': -4
     # 'TVN.cl': -1,
     # 'StudioUniversal.cl': 2,
 }
