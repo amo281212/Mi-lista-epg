@@ -2,9 +2,11 @@ name: Actualizar EPG Automáticamente
 
 on:
   schedule:
-    # Se ejecutará automáticamente todos los días a las 06:00 UTC (02:00 / 03:00 am hora de Chile)
     - cron: '0 6 * * *'
-  workflow_dispatch: # Permite ejecutarlo manualmente cuando tú quieras probar
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
