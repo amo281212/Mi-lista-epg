@@ -3,25 +3,30 @@ import gzip
 import urllib.request
 import xml.etree.ElementTree as ET
 
-# Fuentes EPG (Chile + Latinoamérica para canales de cable)
+# Fuentes EPG
 URL_EPG_CHILE = "https://iptv-epg.org/files/epg-cl.xml"
 URL_EPG_LATAM = "https://epg.lat/files/latam.xml.gz"
 
-# Canales específicos que queremos buscar y agregar desde la lista Latam
-CANALES_EXTRA_DESEADOS = [
-    "Sony Movies", "SonyMovies.cl", "SonyMovies.lat",
-    "Studio Universal", "StudioUniversal.cl", "StudioUniversal.lat",
-    "Film & Arts", "FilmAndArts.cl", "FilmAndArts.lat",
-    "A&E", "AE.cl", "AE.lat",
-    "Nick Jr", "NickJr.cl", "NickJr.lat",
-    "Food Network", "FoodNetwork.cl", "FoodNetwork.lat",
-    "HGTV", "HGTV.cl", "HGTV.lat",
-    "Discovery Home & Health", "HomeAndHealth.cl", "HomeAndHealth.lat", "H&H",
-    "Pasiones", "Pasiones.cl", "Pasiones.lat",
-    "Telemundo", "Telemundo.cl", "Telemundo.lat",
-    "CHV Noticias", "CHVNoticias.cl",
-    "T13 En Vivo", "T13.cl", "T13Noticias.cl",
-    "E! Entertainment", "E! Entertainment Television", "E! Entertainment Television (Chile)", "E! Entertainment (Chile)", "EEntertainment.cl", "EEntertainment.lat"
+# Mapeo exacto con los tvg-id de tu lista M3U8
+MAPEO_CANALES = {
+    'SONYMOVIES.uy': ['SonyMovies.uy', 'SonyMovies.lat', 'Sony Movies', 'SonyMovies.cl'],
+    'StudioUniversal.ar': ['StudioUniversal.ar', 'StudioUniversal.lat', 'Studio Universal', 'StudioUniversal.cl'],
+    'film&arts.cl': ['film&arts.cl', 'FilmAndArts.cl', 'FilmAndArts.lat', 'Film & Arts'],
+    'USANetwork.bo': ['USANetwork.bo', 'USANetwork.lat', 'USA Network'],
+    'A&E.cl': ['A&E.cl', 'AE.cl', 'AE.lat', 'A&E'],
+    'E!.cl': ['E!.cl', 'EEntertainment.cl', 'EEntertainment.lat', 'E! Entertainment', 'E! Entertainment Television'],
+    'NickJr.ar': ['NickJr.ar', 'NickJr.lat', 'Nick Jr', 'NickJr.cl'],
+    'FOODNETWORK.uy': ['FoodNetwork.uy', 'FoodNetwork.lat', 'Food Network', 'FoodNetwork.cl'],
+    'HGTV.ar': ['HGTV.ar', 'HGTV.lat', 'HGTV', 'HGTV.cl'],
+    'DiscoveryHome&Health.cl': ['DiscoveryHome&Health.cl', 'HomeAndHealth.cl', 'HomeAndHealth.lat', 'Discovery Home & Health', 'H&H'],
+    'PASIONES.uy': ['Pasiones.uy', 'Pasiones.lat', 'Pasiones', 'Pasiones.cl'],
+    'TelemundoInternacional.ar': ['Telemundo.ar', 'Telemundo.lat', 'Telemundo Internacional', 'Telemundo.cl']
+}
+
+# Canales de noticias para generarles guía automática
+CANALES_NOTICIAS = [
+    ('CHVNoticias.cl', 'CHV Noticias'),
+    ('T13Noticias.cl', 'T13 En Vivo')
 ]
 
 CANALES_MAS_1h = []
@@ -44,49 +49,86 @@ def descargar_xml(url):
         content = gzip.decompress(content)
     return ET.fromstring(content)
 
+def generar_programas_noticias(root, channel_id, channel_name):
+    # Crear la etiqueta del canal
+    ch_elem = ET.Element('channel', id=channel_id)
+    dn_elem = ET.SubElement(ch_elem, 'display-name')
+    dn_elem.text = channel_name
+    root.append(ch_elem)
+    
+    # Generar bloques de 3 horas de noticias para ayer, hoy y los próximos 2 días
+    ahora = datetime.datetime.now(datetime.timezone.utc)
+    inicio_base = ahora.replace(hour=0, minute=0, second=0, microsecond=0) - datetime.timedelta(days=1)
+    
+    for dia in range(4): # 4 días de programación
+        for bloque in range(8): # 8 bloques de 3 horas por día
+            start_dt = inicio_base + datetime.timedelta(days=dia, hours=bloque*3)
+            stop_dt = start_dt + datetime.timedelta(hours=3)
+            
+            start_str = start_dt.strftime("%Y%m%d%H%M%S +0000")
+            stop_str = stop_dt.strftime("%Y%m%d%H%M%S +0000")
+            
+            prog = ET.Element('programme', start=start_str, stop=stop_str, channel=channel_id)
+            title = ET.SubElement(prog, 'title', lang='es')
+            title.text = f"{channel_name} - Noticias en Vivo"
+            desc = ET.SubElement(prog, 'desc', lang='es')
+            desc.text = "Transmisión continua de noticias, información de último minuto y actualización de titulares en vivo."
+            category = ET.SubElement(prog, 'category', lang='es')
+            category.text = "Noticias"
+            
+            root.append(prog)
+
 try:
     print("1. Descargando guía principal de Chile...")
     root_chile = descargar_xml(URL_EPG_CHILE)
     
-    # Mapear canales y verificar cuáles tienen programación real
-    canales_con_programacion = set()
-    for programme in root_chile.findall('programme'):
-        canales_con_programacion.add(programme.get('channel'))
+    print("2. Descargando guía secundaria Latam...")
+    root_latam = descargar_xml(URL_EPG_LATAM)
     
-    canales_existentes = {c.get('id'): c for c in root_chile.findall('channel')}
+    todas_las_guias = [root_chile, root_latam]
     
-    print("2. Descargando guía Latam para canales faltantes o sin datos...")
-    try:
-        root_latam = descargar_xml(URL_EPG_LATAM)
+    print("3. Procesando canales de cable mapeados a tu M3U8...")
+    for id_m3u, terminos_busqueda in MAPEO_CANALES.items():
+        print(f" -> Buscando programación para ID M3U: {id_m3u}...")
+        encontrado = False
         
-        # Filtrar canales extra necesarios
-        ids_extra_encontrados = set()
-        
-        for channel in root_latam.findall('channel'):
-            ch_id = channel.get('id', '')
-            ch_name = channel.findtext('display-name', '')
-            
-            # Verificar si coincide con alguno de nuestros canales deseados
-            for deseado in CANALES_EXTRA_DESEADOS:
-                if deseado.lower() in ch_id.lower() or deseado.lower() in ch_name.lower():
-                    # Si no existe en la guía o si existía pero no tenía programas (como E!)
-                    if ch_id not in canales_con_programacion:
-                        if ch_id not in canales_existentes:
-                            root_chile.append(channel)
-                            canales_existentes[ch_id] = channel
-                        ids_extra_encontrados.add(ch_id)
-                        print(f" -> Rescatando/Añadiendo datos para: {ch_name} ({ch_id})")
-                    break
-
-        # Traer la programación de los canales rescatados
-        for programme in root_latam.findall('programme'):
-            if programme.get('channel') in ids_extra_encontrados:
-                root_chile.append(programme)
+        for g_root in todas_las_guias:
+            if encontrado:
+                break
                 
-    except Exception as e_latam:
-        print(f"Nota: No se pudo procesar la guía Latam secundaria: {e_latam}")
+            for channel in g_root.findall('channel'):
+                ch_id = channel.get('id', '')
+                ch_name = channel.findtext('display-name', '')
+                
+                coincide = any(t.lower() == ch_id.lower() or t.lower() == ch_name.lower() for t in terminos_busqueda)
+                
+                if coincide:
+                    # Crear canal con el ID exacto de tu M3U8
+                    new_chan = ET.Element('channel', id=id_m3u)
+                    new_name = ET.SubElement(new_chan, 'display-name')
+                    new_name.text = ch_name
+                    root_chile.append(new_chan)
+                    
+                    # Copiar programas asignándoles tu ID M3U8
+                    programas_hallados = 0
+                    for prog in g_root.findall('programme'):
+                        if prog.get('channel') == ch_id:
+                            new_prog = ET.fromstring(ET.tostring(prog))
+                            new_prog.set('channel', id_m3u)
+                            root_chile.append(new_prog)
+                            programas_hallados += 1
+                            
+                    if programas_hallados > 0:
+                        encontrado = True
+                        print(f"    ✔ ¡Mapeado con éxito {id_m3u} ({programas_hallados} programas)!")
+                        break
 
-    print("3. Ajustando horarios de canales...")
+    print("4. Generando programación automática para canales de noticias...")
+    for ch_id, ch_name in CANALES_NOTICIAS:
+        generar_programas_noticias(root_chile, ch_id, ch_name)
+        print(f"    ✔ Creada guía 'Noticias en vivo' para: {ch_id}")
+
+    print("5. Aplicando correcciones de horario si aplican...")
     for programme in root_chile.findall('programme'):
         channel_id = programme.get('channel')
         if channel_id in CANALES_MAS_1h:
@@ -103,7 +145,7 @@ try:
     # Guardar archivo optimizado
     tree = ET.ElementTree(root_chile)
     tree.write("epg_final.xml", encoding="utf-8", xml_declaration=True)
-    print("¡Éxito! Archivo epg_final.xml guardado y optimizado.")
+    print("¡Éxito! El archivo EPG personalizado se ha creado de forma impecable.")
 
 except Exception as e:
     print(f"Error procesando la EPG: {e}")
