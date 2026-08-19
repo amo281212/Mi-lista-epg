@@ -14,14 +14,13 @@ FUENTES_EPG = [
 ]
 
 # 🕒 ZONA DE JUEGO: DESFASE HORARIO POR CANAL
-# Quita el '#' de la línea y ajusta las horas:
+# Quita el '#' de la línea y ajusta las horas, el símbolo # solo es para dejar notas aquí, una vez quitándolo se activa el codigo:
 # Número negativo (ej: -3) -> Aatrasa el reloj si la guía va adelantada
 # Número positivo (ej: 2)  -> Adelanta el reloj si la guía va atrasada
 DESFASE_CANALES = {
-    'StudioUniversal.bo': -4,
-    'E_EntertainmentTelevision.bo': -4
+    # 'StudioUniversal.bo': -4,
+    # 'E_EntertainmentTelevision.bo': -4
     # 'TVN.cl': -1,
-    # 'StudioUniversal.cl': 2,
 }
 
 # Canales clave con respaldo garantizado por si fallan las fuentes externas
