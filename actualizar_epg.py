@@ -8,7 +8,8 @@ FUENTES_EPG = [
     "https://iptv-epg.org/files/epg-cl.xml",
     "https://iptv-epg.org/files/epg-ar.xml",
     "https://iptv-epg.org/files/epg-ec.xml",
-    "https://iptv-epg.org/files/epg-co.xml"
+    "https://iptv-epg.org/files/epg-co.xml",
+    "https://iptv-epg.org/files/epg-uy.xml"
 ]
 
 # 🕒 ZONA DE JUEGO: DESFASE HORARIO POR CANAL
