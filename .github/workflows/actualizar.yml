@@ -1,33 +1,29 @@
-name: Actualizar EPG Automáticamente
+name: Actualizar EPG Automatizado
 
 on:
   schedule:
-    - cron: '0 6 * * *'
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    - cron: '0 */6 * * *' # Se ejecuta automáticamente cada 6 horas
+  workflow_dispatch: # Permite ejecutarlo manualmente con un botón
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Descargar el código
-      uses: actions/checkout@v4
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
 
-    - name: Configurar Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.x'
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
 
-    - name: Ejecutar script de EPG
-      run: python actualizar_epg.py
+      - name: Ejecutar script Python
+        run: python actualizar_epg.py
 
-    - name: Guardar y publicar el archivo actualizado
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add epg_final.xml
-        git commit -m "EPG actualizada automáticamente" || exit 0
-        git push
+      - name: Guardar epg_final.xml en GitHub
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add epg_final.xml
+          git commit -m "EPG actualizada automáticamente" || exit 0
+          git push
