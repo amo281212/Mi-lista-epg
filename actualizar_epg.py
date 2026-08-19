@@ -2,7 +2,7 @@ import datetime
 import gzip
 import urllib.request
 import xml.etree.ElementTree as ET
-
+f
 # Fuentes EPG gratuitas
 FUENTES_EPG = [
     "https://iptv-epg.org/files/epg-cl.xml",
