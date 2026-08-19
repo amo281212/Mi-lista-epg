@@ -3,7 +3,7 @@ import gzip
 import urllib.request
 import xml.etree.ElementTree as ET
 
-# Fuentes EPG
+# Fuentes EPG gratuitas
 FUENTES_EPG = [
     "https://iptv-epg.org/files/epg-cl.xml",
     "https://iptv-epg.org/files/epg-ar.xml",
@@ -11,7 +11,7 @@ FUENTES_EPG = [
     "https://iptv-epg.org/files/epg-co.xml"
 ]
 
-# Mapeo de IDs M3U8 con sus búsquedas externas
+# Todos tus canales unificados (antiguos + nuevos)
 MAPEO_CANALES = {
     'StudioUniversal.cl': ['StudioUniversal.cl', 'StudioUniversal.ar', 'StudioUniversal.co', 'Studio Universal'],
     'EEntertainment.cl': ['E!.cl', 'EEntertainment.cl', 'E_EntertainmentTelevision.bo', 'E! Entertainment'],
@@ -32,6 +32,7 @@ CANALES_NOTICIAS = [
     ('T13Noticias.cl', 'T13 En Vivo')
 ]
 
+# Respaldos automáticos para evitar vacíos
 RESPALDO_CANALES = {
     'ENTChannel.cl': ('ENT Channel', 'Cine / Películas', 'Selección de Cine 24/7', 'Las mejores producciones cinematográficas en emisión continua.'),
     'StudioUniversal.cl': ('Studio Universal', 'Cine / Películas', 'Cine Studio Universal', 'Películas y producciones cinematográficas en emisión continua.'),
@@ -58,7 +59,6 @@ def descargar_xml(url):
     return ET.fromstring(content)
 
 def agregar_bloque_respaldo(root, channel_id, channel_name, categoria, titulo_prog, desc_prog):
-    # Agregar nodo de canal
     ch_elem = ET.SubElement(root, 'channel', id=channel_id)
     dn_elem = ET.SubElement(ch_elem, 'display-name')
     dn_elem.text = channel_name
@@ -115,12 +115,10 @@ try:
                 if any(t.lower() == ch_id.lower() or t.lower() == ch_name.lower() for t in terminos_busqueda):
                     programas = [p for p in g_root.findall('programme') if p.get('channel') == ch_id]
                     if len(programas) > 0:
-                        # Agregar canal
                         new_chan = ET.SubElement(root_chile, 'channel', id=id_m3u)
                         new_name = ET.SubElement(new_chan, 'display-name')
                         new_name.text = ch_name if ch_name else id_m3u
                         
-                        # Copiar programas actualizando id de canal
                         for p in programas:
                             new_p = ET.SubElement(
                                 root_chile, 
@@ -141,15 +139,14 @@ try:
     for ch_id, ch_name in CANALES_NOTICIAS:
         agregar_bloque_respaldo(root_chile, ch_id, ch_name, "Noticias", "Noticias en Vivo", "Transmisión continua de noticias en vivo.")
 
-    print("4. Aplicando respaldos...")
+    print("4. Aplicando respaldos a faltantes...")
     for ch_id, (ch_name, cat, tit, desc) in RESPALDO_CANALES.items():
         if ch_id not in canales_exitosos:
             agregar_bloque_respaldo(root_chile, ch_id, ch_name, cat, tit, desc)
             print(f" ✔ Respaldo aplicado a: {ch_id}")
 
-    # Guardar archivo con formato XML estricto
     tree = ET.ElementTree(root_chile)
-    ET.indent(tree, space="  ", level=0)  # Da formato limpio al XML
+    ET.indent(tree, space="  ", level=0)
     tree.write("epg_final.xml", encoding="utf-8", xml_declaration=True)
     print("¡Proceso finalizado con éxito!")
 
