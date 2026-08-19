@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Configurar Python
         uses: actions/setup-python@v5
@@ -28,5 +30,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add -f epg_final.xml
-          git commit -m "EPG actualizada automáticamente" || echo "Sin cambios"
+          git commit -m "EPG actualizada" || exit 0
           git push origin HEAD:${{ github.ref_name }}
