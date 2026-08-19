@@ -31,11 +31,21 @@ CANALES_NOTICIAS = [
     ('T13Noticias.cl', 'T13 En Vivo')
 ]
 
+# Respaldo completo para TODOS los canales por si la guía externa falla
 RESPALDO_CANALES = {
     'ENTChannel.cl': ('ENT Channel', 'Cine / Películas', 'Selección de Cine 24/7', 'Las mejores producciones cinematográficas.'),
     'StudioUniversal.cl': ('Studio Universal', 'Cine / Películas', 'Cine Studio Universal', 'Películas y producciones cinematográficas en emisión continua.'),
     'EEntertainment.cl': ('E! Entertainment', 'Espectáculos', 'E! Pop Culture & Realitys', 'Noticias de espectáculos, moda y reality shows.'),
-    'TelemundoInternacional.ar': ('Telemundo Internacional', 'Series / Novelas', 'Programación Telemundo', 'Series, telenovelas y producciones dramáticas.')
+    'TelemundoInternacional.ar': ('Telemundo Internacional', 'Series / Novelas', 'Programación Telemundo', 'Series, telenovelas y producciones dramáticas.'),
+    'SONYMOVIES.uy': ('Sony Movies', 'Cine / Películas', 'Cine Sony Movies', 'Películas de Hollywood y éxitos cinematográficos.'),
+    'film&arts.cl': ('Film & Arts', 'Arte / Cultura', 'Especiales Film & Arts', 'Cine de autor, arte, música y espectáculos.'),
+    'USANetwork.bo': ('USA Network', 'Series / Películas', 'Programación USA Network', 'Series exclusivas y cine de acción.'),
+    'A&E.cl': ('A&E', 'Series / Acción', 'Especiales A&E', 'Series de investigación, drama y acción.'),
+    'NickJr.ar': ('Nick Jr.', 'Infantil', 'Programación Nick Jr.', 'Dibujos animados y programas educativos.'),
+    'FOODNETWORK.uy': ('Food Network', 'Cocina', 'Gastronomía Internacional', 'Programas de cocina y competencias culinarias.'),
+    'HGTV.ar': ('HGTV', 'Hogar / Diseño', 'Hogar & Remodelación', 'Diseño de interiores y remodelación de casas.'),
+    'DiscoveryHome&Health.cl': ('Discovery Home & Health', 'Estilo de Vida', 'Bienestar & Estilo', 'Programas de salud, hogar y estilo de vida.'),
+    'PASIONES.uy': ('Pasiones', 'Telenovelas', 'Novelas & Dramas', 'Telenovelas internacionales y grandes dramas.')
 }
 
 def descargar_xml(url):
@@ -94,7 +104,6 @@ try:
                 ch_id = channel.get('id', '')
                 ch_name = channel.findtext('display-name', '')
                 
-                # Comprobar coincidencia exacta o en minusculas
                 if any(t.lower() == ch_id.lower() or t.lower() == ch_name.lower() for t in terminos_busqueda):
                     programas = [p for p in g_root.findall('programme') if p.get('channel') == ch_id]
                     if len(programas) > 0:
@@ -110,10 +119,10 @@ try:
                             
                         encontrado = True
                         canales_exitosos.add(id_m3u)
-                        print(f"  ✔ GUÍA REAL ENCONTRADA: {id_m3u} (desde ID '{ch_id}', {len(programas)} eventos)")
+                        print(f"  ✔ GUÍA REAL ENCONTRADA: {id_m3u} ({len(programas)} eventos)")
                         break
         if not encontrado:
-            print(f"  ⚠ No se encontró guía externa para: {id_m3u}")
+            print(f"  ⚠ Sin guía externa para {id_m3u}. Se aplicará respaldo.")
 
     print("\n--- 3. Generando noticias ---")
     for ch_id, ch_name in CANALES_NOTICIAS:
@@ -123,7 +132,7 @@ try:
     for ch_id, (ch_name, cat, tit, desc) in RESPALDO_CANALES.items():
         if ch_id not in canales_exitosos:
             agregar_bloque_respaldo(root_chile, ch_id, ch_name, cat, tit, desc)
-            print(f"  ✔ Respaldo asignado obligatoriamente a: {ch_id}")
+            print(f"  ✔ Respaldo asignado a: {ch_id}")
 
     tree = ET.ElementTree(root_chile)
     tree.write("epg_final.xml", encoding="utf-8", xml_declaration=True)
