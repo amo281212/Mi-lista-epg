@@ -3,7 +3,7 @@ import gzip
 import urllib.request
 import xml.etree.ElementTree as ET
 
-# 🎯 TUS CANALES CON SUS IDS EXACTOS
+# 🎯 TUS CANALES CON SUS IDS EXACTOS Y CORREGIDOS
 MIS_CANALES = {
     'TVN.cl',
     'Mega.cl',
@@ -26,8 +26,10 @@ MIS_CANALES = {
     'StudioUniversal.bo',
     'TNT.cl',
     'TNTSeries.cl',
+    'FilmAndArts.ar',
     'film&arts.cl',
     'USANetwork.bo',
+    'AE.ar',
     'A&E.cl',
     'AXN.cl',
     'ComedyCentral.cl',
@@ -62,9 +64,10 @@ MIS_CANALES = {
     'ElGourmet.cl',
     'FOODNETWORK.uy',
     'HGTV.ar',
+    'DiscoveryHomeAndHealth.ar',
     'DiscoveryHome&Health.cl',
     'History.cl',
-    'History2.cl1',
+    'History2.cl',
     'InvestigationDiscovery.cl',
     'NationalGeographic.cl',
     'LasEstrellas.cl',
@@ -113,13 +116,17 @@ DATOS_RESPALDO = {
     'TelemundoInternacional.ar': ('Telemundo Internacional', 'Series', 'Programación Telemundo', 'Series, telenovelas y producciones.'),
     'SONYMOVIES.uy': ('Sony Movies', 'Cine', 'Cine Sony Movies', 'Películas de Hollywood y éxitos de taquilla.'),
     'film&arts.cl': ('Film & Arts', 'Cultura', 'Especiales Film & Arts', 'Cine de autor, arte, música y espectáculos.'),
+    'FilmAndArts.ar': ('Film & Arts', 'Cultura', 'Especiales Film & Arts', 'Cine de autor, arte, música y espectáculos.'),
     'USANetwork.bo': ('USA Network', 'Series', 'Programación USA Network', 'Series exclusivas y cine de acción.'),
     'A&E.cl': ('A&E', 'Series', 'Especiales A&E', 'Series de investigación, drama y acción.'),
+    'AE.ar': ('A&E', 'Series', 'Especiales A&E', 'Series de investigación, drama y acción.'),
     'NickJr.ar': ('Nick Jr.', 'Infantil', 'Programación Nick Jr.', 'Dibujos animados y contenidos educativos.'),
     'FOODNETWORK.uy': ('Food Network', 'Cocina', 'Gastronomía Internacional', 'Programas de cocina y competencias culinarias.'),
     'HGTV.ar': ('HGTV', 'Hogar', 'Hogar & Remodelación', 'Diseño de interiores y remodelación de espacios.'),
     'DiscoveryHome&Health.cl': ('Discovery Home & Health', 'Estilo de Vida', 'Bienestar & Estilo', 'Salud, hogar y estilo de vida.'),
-    'PASIONES.uy': ('Pasiones', 'Telenovelas', 'Novelas & Dramas', 'Telenovelas internacionales y grandes historias.')
+    'DiscoveryHomeAndHealth.ar': ('Discovery Home & Health', 'Estilo de Vida', 'Bienestar & Estilo', 'Salud, hogar y estilo de vida.'),
+    'PASIONES.uy': ('Pasiones', 'Telenovelas', 'Novelas & Dramas', 'Telenovelas internacionales y grandes historias.'),
+    'History2.cl': ('History 2', 'Documentales', 'Programación History 2', 'Documentales, historia y ciencia.')
 }
 
 def ajustar_hora(time_str, horas_desfase):
@@ -210,10 +217,9 @@ try:
             agregar_bloque_respaldo(root_final, ch_id)
             print(f" ✔ Respaldo creado para: {ch_id}")
 
-    # 🧼 SANEAMIENTO SOLO EN LOS TEXTOS (Sin tocar IDs de canal)
+    # 🧼 SANEAMIENTO SOLO EN LOS TEXTOS
     for elem in root_final.iter():
         if elem.text:
-            # Reemplaza & sueltos únicamente dentro de los títulos/descripciones
             elem.text = elem.text.replace('&', '&amp;').replace('&amp;amp;', '&amp;')
 
     tree = ET.ElementTree(root_final)
