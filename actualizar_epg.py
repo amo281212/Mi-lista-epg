@@ -3,13 +3,13 @@ import gzip
 import urllib.request
 import xml.etree.ElementTree as ET
 
-# 🎯 CANALES QUE TU LISTA M3U ESPERA
+# 🎯 TUS CANALES CON IDS LIMPIOS (SIN & EN LAS ETIQUETAS TVG-ID)
 MIS_CANALES = {
     'TVN.cl', 'Mega.cl', 'Chilevision.cl', 'Canal13.cl', 'AMC.cl',
     'Cinecanal.cl', 'Cinemax.cl', 'Golden.cl', 'GoldenEdge.cl', 'HBO.cl',
     'HBO2.cl', 'HBOFamily.cl', 'HBOPop.cl', 'HBOXtreme.cl', 'ENTChannel.cl',
     'SONYMOVIES.uy', 'Sony.cl', 'Space.cl', 'StudioUniversal.bo', 'TNT.cl',
-    'TNTSeries.cl', 'film&arts.cl', 'USANetwork.bo', 'A&E.cl', 'AXN.cl',
+    'TNTSeries.cl', 'FilmAndArts.cl', 'USANetwork.bo', 'AE.cl', 'AXN.cl',
     'ComedyCentral.cl', 'E_EntertainmentTelevision.bo', 'FX.cl', 'StarChannel.cl',
     'UniversalTV.cl', 'WarnerChannel.cl', 'DIRECTVSports.cl', 'ESPN.cl',
     'ESPN2.cl', 'ESPN3.cl', 'ESPN4.cl', 'ESPN5.cl', 'ESPN6.cl', 'ESPN7.cl',
@@ -17,35 +17,21 @@ MIS_CANALES = {
     'DisneyChannel.cl', 'DisneyJunior.cl', 'NickJr.ar', 'Nick.cl', 'Tooncast.cl',
     'AnimalPlanet.cl', 'Discovery.cl', 'DiscoveryScience.cl', 'DiscoveryTheater.cl',
     'DiscoveryTurbo.cl', 'DiscoveryWorld.cl', 'ElGourmet.cl', 'FOODNETWORK.uy',
-    'HGTV.ar', 'DiscoveryHome&Health.cl', 'History.cl', 'History2.cl1',
+    'HGTV.ar', 'DiscoveryHomeAndHealth.cl', 'History.cl', 'History2.cl1',
     'InvestigationDiscovery.cl', 'NationalGeographic.cl', 'LasEstrellas.cl',
     'PASIONES.uy', 'TelemundoInternacional.ar', 'TLNovelas.cl', 'EnlaceTBN.cl',
     'CNNChile.cl', 'CHVNoticias.cl', 'T13Noticias.cl', '24Horas.cl',
 }
 
-# 🔄 MAPEO COMPLETO Y EXPLICITO DESDE TODAS LAS FUENTES POSIBLES
+# 🔄 MAPEO: Toma todas las variantes externas y las convierte al ID limpio de tu M3U
 MAPEO_IDS = {
-    # Discovery Home & Health
-    'DiscoveryHomeAndHealth.cl': 'DiscoveryHome&Health.cl',
-    'DiscoveryHomeAndHealth.ar': 'DiscoveryHome&Health.cl',
-    'DiscoveryHome&Health.cl': 'DiscoveryHome&Health.cl',
-    'DiscoveryHome&Health.ar': 'DiscoveryHome&Health.cl',
-
-    # Film & Arts
-    'FilmAndArts.cl': 'film&arts.cl',
-    'FilmAndArts.ar': 'film&arts.cl',
-    'film&arts.cl': 'film&arts.cl',
-    'film&arts.ar': 'film&arts.cl',
-
-    # A&E
-    'AE.cl': 'A&E.cl',
-    'AE.ar': 'A&E.cl',
-    'A&E.cl': 'A&E.cl',
-    'A&E.ar': 'A&E.cl',
-
-    # History 2
+    'DiscoveryHomeAndHealth.ar': 'DiscoveryHomeAndHealth.cl',
+    'DiscoveryHome&Health.cl': 'DiscoveryHomeAndHealth.cl',
+    'FilmAndArts.ar': 'FilmAndArts.cl',
+    'film&arts.cl': 'FilmAndArts.cl',
+    'AE.ar': 'AE.cl',
+    'A&E.cl': 'AE.cl',
     'History2.cl': 'History2.cl1',
-    'History2.cl1': 'History2.cl1',
 }
 
 FUENTES_EPG = [
@@ -72,23 +58,19 @@ DATOS_RESPALDO = {
     'Canal13.cl': ('Canal 13', 'General', 'Programación Canal 13', 'Noticieros, realitys y programas en vivo.'),
     'Mega.cl': ('Mega', 'General', 'Programación Mega', 'Teleseries nacionales, noticias y entretención.'),
     'Chilevision.cl': ('Chilevisión', 'General', 'Programas de entretención, noticias y deportes.'),
-    'LaRed.cl': ('La Red', 'General', 'Programación La Red', 'Cultura, conversación e información.'),
-    'TVMas.cl': ('TV+', 'General', 'Programación TV+', 'Programación variada y entretención nocturna.'),
-    'Telecanal.cl': ('Telecanal', 'General', 'Programación Telecanal', 'Cine, series y animación.'),
     'CHVNoticias.cl': ('CHV Noticias', 'Noticias', 'Noticias en Vivo', 'Información continua las 24 horas.'),
     'T13Noticias.cl': ('T13 En Vivo', 'Noticias', 'Noticias T13', 'Actualidad y noticias nacionales e internacionales.'),
     'ENTChannel.cl': ('ENT Channel', 'Cine', 'Selección de Cine 24/7', 'Las mejores producciones cinematográficas.'),
     'StudioUniversal.cl': ('Studio Universal', 'Cine', 'Cine Studio Universal', 'Películas y producciones cinematográficas.'),
-    'EEntertainment.cl': ('E! Entertainment', 'Espectáculos', 'E! Pop Culture', 'Noticias de espectáculos, moda y realitys.'),
     'TelemundoInternacional.ar': ('Telemundo Internacional', 'Series', 'Programación Telemundo', 'Series, telenovelas y producciones.'),
     'SONYMOVIES.uy': ('Sony Movies', 'Cine', 'Cine Sony Movies', 'Películas de Hollywood y éxitos de taquilla.'),
-    'film&arts.cl': ('Film & Arts', 'Cultura', 'Especiales Film & Arts', 'Cine de autor, arte, música y espectáculos.'),
+    'FilmAndArts.cl': ('Film & Arts', 'Cultura', 'Especiales Film & Arts', 'Cine de autor, arte, música y espectáculos.'),
     'USANetwork.bo': ('USA Network', 'Series', 'Programación USA Network', 'Series exclusivas y cine de acción.'),
-    'A&E.cl': ('A&E', 'Series', 'Especiales A&E', 'Series de investigación, drama y acción.'),
+    'AE.cl': ('A&E', 'Series', 'Especiales A&E', 'Series de investigación, drama y acción.'),
     'NickJr.ar': ('Nick Jr.', 'Infantil', 'Programación Nick Jr.', 'Dibujos animados y contenidos educativos.'),
     'FOODNETWORK.uy': ('Food Network', 'Cocina', 'Gastronomía Internacional', 'Programas de cocina y competencias culinarias.'),
     'HGTV.ar': ('HGTV', 'Hogar', 'Hogar & Remodelación', 'Diseño de interiores y remodelación de espacios.'),
-    'DiscoveryHome&Health.cl': ('Discovery Home & Health', 'Estilo de Vida', 'Bienestar & Estilo', 'Salud, hogar y estilo de vida.'),
+    'DiscoveryHomeAndHealth.cl': ('Discovery Home & Health', 'Estilo de Vida', 'Bienestar & Estilo', 'Salud, hogar y estilo de vida.'),
     'PASIONES.uy': ('Pasiones', 'Telenovelas', 'Novelas & Dramas', 'Telenovelas internacionales y grandes historias.'),
     'History2.cl1': ('History 2', 'Documentales', 'Programación History 2', 'Documentales, historia y ciencia.')
 }
@@ -143,7 +125,7 @@ def agregar_bloque_respaldo(root, channel_id):
             desc = ET.SubElement(prog, 'desc', lang='es')
             desc.text = desc_prog
             category = ET.SubElement(prog, 'category', lang='es')
-            category.text = categoria
+            category.text = category
 
 try:
     root_final = ET.Element('tv', {
@@ -190,8 +172,6 @@ try:
 
     tree = ET.ElementTree(root_final)
     ET.indent(tree, space="  ", level=0)
-    
-    # Escribir directamente codificado en UTF-8 para garantizar validez de sintaxis XML
     tree.write("epg_final.xml", encoding="utf-8", xml_declaration=True)
         
     print("¡Proceso finalizado con éxito!")
