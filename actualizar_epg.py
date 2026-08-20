@@ -3,7 +3,7 @@ import gzip
 import urllib.request
 import xml.etree.ElementTree as ET
 
-# 🎯 ZONA DE EDICIÓN: AGREGA AQUÍ TUS CANALES
+# 🎯 TUS CANALES CON SUS IDS EXACTOS
 MIS_CANALES = {
     'TVN.cl',
     'Mega.cl',
@@ -64,7 +64,7 @@ MIS_CANALES = {
     'HGTV.ar',
     'DiscoveryHome&Health.cl',
     'History.cl',
-    'History2.cl',
+    'History2.cl1',
     'InvestigationDiscovery.cl',
     'NationalGeographic.cl',
     'LasEstrellas.cl',
@@ -78,7 +78,6 @@ MIS_CANALES = {
     '24Horas.cl',
 }
 
-# Fuentes EPG
 FUENTES_EPG = [
     "https://iptv-epg.org/files/epg-cl.xml",
     "https://iptv-epg.org/files/epg-ar.xml",
@@ -88,7 +87,6 @@ FUENTES_EPG = [
     "https://iptv-epg.org/files/epg-bo.xml"
 ]
 
-# 🕒 ZONA DE JUEGO: DESFASE HORARIO POR CANAL
 DESFASE_CANALES = {
     'ESPN3.cl': -1,
     'ESPN4.cl': -1,
@@ -99,7 +97,6 @@ DESFASE_CANALES = {
     'TyCSports.cl': -1,
 }
 
-# Canales clave con respaldo garantizado por si fallan las fuentes externas
 DATOS_RESPALDO = {
     'TVN.cl': ('TVN', 'General', 'Programación TVN', 'Noticias, matinales, teleseries y entretención.'),
     'Canal13.cl': ('Canal 13', 'General', 'Programación Canal 13', 'Noticieros, realitys y programas en vivo.'),
@@ -213,20 +210,18 @@ try:
             agregar_bloque_respaldo(root_final, ch_id)
             print(f" ✔ Respaldo creado para: {ch_id}")
 
-    # 🧼 CONVERSIÓN Y LIMPIEZA DE '&' PARA COMPATIBILIDAD CON SMART TV
+    # 🧼 SANEAMIENTO SOLO EN LOS TEXTOS (Sin tocar IDs de canal)
+    for elem in root_final.iter():
+        if elem.text:
+            # Reemplaza & sueltos únicamente dentro de los títulos/descripciones
+            elem.text = elem.text.replace('&', '&amp;').replace('&amp;amp;', '&amp;')
+
     tree = ET.ElementTree(root_final)
     ET.indent(tree, space="  ", level=0)
     
-    xml_str = ET.tostring(root_final, encoding='utf-8').decode('utf-8')
-    # Reemplaza los & sueltos por &amp; seguros sin duplicar
-    xml_str = xml_str.replace('&', '&amp;').replace('&amp;amp;', '&amp;')
-    
-    xml_final = '<?xml version="1.0" encoding="utf-8"?>\n' + xml_str
-    
-    with open("epg_final.xml", "w", encoding="utf-8") as f:
-        f.write(xml_final)
+    tree.write("epg_final.xml", encoding="utf-8", xml_declaration=True)
         
-    print("¡Proceso finalizado con éxito! Guía ultraligera y compatible generada.")
+    print("¡Proceso finalizado con éxito! Guía generada manteniendo IDs intactos.")
 
 except Exception as e:
     print(f"Error fatal: {e}")
