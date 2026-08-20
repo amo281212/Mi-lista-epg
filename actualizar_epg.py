@@ -3,7 +3,7 @@ import gzip
 import urllib.request
 import xml.etree.ElementTree as ET
 
-# 🎯 CANALES QUE TU LISTA M3U ESPERA (TUS IDS OFICIALES)
+# 🎯 CANALES QUE TU LISTA M3U ESPERA (IDS EXACTOS DE TU M3U)
 MIS_CANALES = {
     'TVN.cl', 'Mega.cl', 'Chilevision.cl', 'Canal13.cl', 'AMC.cl',
     'Cinecanal.cl', 'Cinemax.cl', 'Golden.cl', 'GoldenEdge.cl', 'HBO.cl',
@@ -23,11 +23,22 @@ MIS_CANALES = {
     'CNNChile.cl', 'CHVNoticias.cl', 'T13Noticias.cl', '24Horas.cl',
 }
 
-# 🔄 MAPEO: Busca en la guía externa el ID 'Origen' y lo renombra al ID 'TuM3U'
+# 🔄 MAPEO COMPLETO: Mapea CUALQUIER variante de la fuente externa a TU ID exacto
 MAPEO_IDS = {
+    # Discovery Home & Health
+    'DiscoveryHomeAndHealth.cl': 'DiscoveryHome&Health.cl',
     'DiscoveryHomeAndHealth.ar': 'DiscoveryHome&Health.cl',
+    
+    # Film & Arts
+    'FilmAndArts.cl': 'film&arts.cl',
     'FilmAndArts.ar': 'film&arts.cl',
+    
+    # A&E
+    'AE.cl': 'A&E.cl',
     'AE.ar': 'A&E.cl',
+    
+    # History 2 (Mapea el real de la fuente al tuyo con el '1')
+    'History2.cl': 'History2.cl1',
 }
 
 FUENTES_EPG = [
@@ -170,7 +181,7 @@ try:
             agregar_bloque_respaldo(root_final, ch_id)
             print(f" ✔ Respaldo creado para: {ch_id}")
 
-    # 🧼 SANEAMIENTO DE TEXTOS
+    # 🧼 SANEAMIENTO DE TEXTOS (Escapa ampersands sueltos sin duplicar)
     for elem in root_final.iter():
         if elem.text:
             elem.text = elem.text.replace('&', '&amp;').replace('&amp;amp;', '&amp;')
