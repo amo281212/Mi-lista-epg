@@ -3,82 +3,31 @@ import gzip
 import urllib.request
 import xml.etree.ElementTree as ET
 
-# 🎯 TUS CANALES CON SUS IDS EXACTOS Y CORREGIDOS
+# 🎯 CANALES QUE TU LISTA M3U ESPERA (TUS IDS OFICIALES)
 MIS_CANALES = {
-    'TVN.cl',
-    'Mega.cl',
-    'Chilevision.cl',
-    'Canal13.cl',
-    'AMC.cl',
-    'Cinecanal.cl',
-    'Cinemax.cl',
-    'Golden.cl',
-    'GoldenEdge.cl',
-    'HBO.cl',
-    'HBO2.cl',
-    'HBOFamily.cl',
-    'HBOPop.cl',
-    'HBOXtreme.cl',
-    'ENTChannel.cl',
-    'SONYMOVIES.uy',
-    'Sony.cl',
-    'Space.cl',
-    'StudioUniversal.bo',
-    'TNT.cl',
-    'TNTSeries.cl',
-    'FilmAndArts.ar',
-    'film&arts.cl',
-    'USANetwork.bo',
-    'AE.ar',
-    'A&E.cl',
-    'AXN.cl',
-    'ComedyCentral.cl',
-    'E_EntertainmentTelevision.bo',
-    'FX.cl',
-    'StarChannel.cl',
-    'UniversalTV.cl',
-    'WarnerChannel.cl',
-    'DIRECTVSports.cl',
-    'ESPN.cl',
-    'ESPN2.cl',
-    'ESPN3.cl',
-    'ESPN4.cl',
-    'ESPN5.cl',
-    'ESPN6.cl',
-    'ESPN7.cl',
-    'TNTSportsPremium.cl',
-    'TyCSports.cl',
-    'CartoonNetwork.cl',
-    'DiscoveryKids.cl',
-    'DisneyChannel.cl',
-    'DisneyJunior.cl',
-    'NickJr.ar',
-    'Nick.cl',
-    'Tooncast.cl',
-    'AnimalPlanet.cl',
-    'Discovery.cl',
-    'DiscoveryScience.cl',
-    'DiscoveryTheater.cl',
-    'DiscoveryTurbo.cl',
-    'DiscoveryWorld.cl',
-    'ElGourmet.cl',
-    'FOODNETWORK.uy',
-    'HGTV.ar',
-    'DiscoveryHomeAndHealth.ar',
-    'DiscoveryHome&Health.cl',
-    'History.cl',
-    'History2.cl',
-    'InvestigationDiscovery.cl',
-    'NationalGeographic.cl',
-    'LasEstrellas.cl',
-    'PASIONES.uy',
-    'TelemundoInternacional.ar',
-    'TLNovelas.cl',
-    'EnlaceTBN.cl',
-    'CNNChile.cl',
-    'CHVNoticias.cl',
-    'T13Noticias.cl',
-    '24Horas.cl',
+    'TVN.cl', 'Mega.cl', 'Chilevision.cl', 'Canal13.cl', 'AMC.cl',
+    'Cinecanal.cl', 'Cinemax.cl', 'Golden.cl', 'GoldenEdge.cl', 'HBO.cl',
+    'HBO2.cl', 'HBOFamily.cl', 'HBOPop.cl', 'HBOXtreme.cl', 'ENTChannel.cl',
+    'SONYMOVIES.uy', 'Sony.cl', 'Space.cl', 'StudioUniversal.bo', 'TNT.cl',
+    'TNTSeries.cl', 'film&arts.cl', 'USANetwork.bo', 'A&E.cl', 'AXN.cl',
+    'ComedyCentral.cl', 'E_EntertainmentTelevision.bo', 'FX.cl', 'StarChannel.cl',
+    'UniversalTV.cl', 'WarnerChannel.cl', 'DIRECTVSports.cl', 'ESPN.cl',
+    'ESPN2.cl', 'ESPN3.cl', 'ESPN4.cl', 'ESPN5.cl', 'ESPN6.cl', 'ESPN7.cl',
+    'TNTSportsPremium.cl', 'TyCSports.cl', 'CartoonNetwork.cl', 'DiscoveryKids.cl',
+    'DisneyChannel.cl', 'DisneyJunior.cl', 'NickJr.ar', 'Nick.cl', 'Tooncast.cl',
+    'AnimalPlanet.cl', 'Discovery.cl', 'DiscoveryScience.cl', 'DiscoveryTheater.cl',
+    'DiscoveryTurbo.cl', 'DiscoveryWorld.cl', 'ElGourmet.cl', 'FOODNETWORK.uy',
+    'HGTV.ar', 'DiscoveryHome&Health.cl', 'History.cl', 'History2.cl1',
+    'InvestigationDiscovery.cl', 'NationalGeographic.cl', 'LasEstrellas.cl',
+    'PASIONES.uy', 'TelemundoInternacional.ar', 'TLNovelas.cl', 'EnlaceTBN.cl',
+    'CNNChile.cl', 'CHVNoticias.cl', 'T13Noticias.cl', '24Horas.cl',
+}
+
+# 🔄 MAPEO: Busca en la guía externa el ID 'Origen' y lo renombra al ID 'TuM3U'
+MAPEO_IDS = {
+    'DiscoveryHomeAndHealth.ar': 'DiscoveryHome&Health.cl',
+    'FilmAndArts.ar': 'film&arts.cl',
+    'AE.ar': 'A&E.cl',
 }
 
 FUENTES_EPG = [
@@ -116,17 +65,14 @@ DATOS_RESPALDO = {
     'TelemundoInternacional.ar': ('Telemundo Internacional', 'Series', 'Programación Telemundo', 'Series, telenovelas y producciones.'),
     'SONYMOVIES.uy': ('Sony Movies', 'Cine', 'Cine Sony Movies', 'Películas de Hollywood y éxitos de taquilla.'),
     'film&arts.cl': ('Film & Arts', 'Cultura', 'Especiales Film & Arts', 'Cine de autor, arte, música y espectáculos.'),
-    'FilmAndArts.ar': ('Film & Arts', 'Cultura', 'Especiales Film & Arts', 'Cine de autor, arte, música y espectáculos.'),
     'USANetwork.bo': ('USA Network', 'Series', 'Programación USA Network', 'Series exclusivas y cine de acción.'),
     'A&E.cl': ('A&E', 'Series', 'Especiales A&E', 'Series de investigación, drama y acción.'),
-    'AE.ar': ('A&E', 'Series', 'Especiales A&E', 'Series de investigación, drama y acción.'),
     'NickJr.ar': ('Nick Jr.', 'Infantil', 'Programación Nick Jr.', 'Dibujos animados y contenidos educativos.'),
     'FOODNETWORK.uy': ('Food Network', 'Cocina', 'Gastronomía Internacional', 'Programas de cocina y competencias culinarias.'),
     'HGTV.ar': ('HGTV', 'Hogar', 'Hogar & Remodelación', 'Diseño de interiores y remodelación de espacios.'),
     'DiscoveryHome&Health.cl': ('Discovery Home & Health', 'Estilo de Vida', 'Bienestar & Estilo', 'Salud, hogar y estilo de vida.'),
-    'DiscoveryHomeAndHealth.ar': ('Discovery Home & Health', 'Estilo de Vida', 'Bienestar & Estilo', 'Salud, hogar y estilo de vida.'),
     'PASIONES.uy': ('Pasiones', 'Telenovelas', 'Novelas & Dramas', 'Telenovelas internacionales y grandes historias.'),
-    'History2.cl': ('History 2', 'Documentales', 'Programación History 2', 'Documentales, historia y ciencia.')
+    'History2.cl1': ('History 2', 'Documentales', 'Programación History 2', 'Documentales, historia y ciencia.')
 }
 
 def ajustar_hora(time_str, horas_desfase):
@@ -196,14 +142,21 @@ try:
             for elem in guiaroot:
                 if elem.tag == 'channel':
                     ch_id = elem.get('id')
-                    if ch_id in MIS_CANALES and ch_id not in canales_existentes:
-                        canales_existentes.add(ch_id)
+                    target_id = MAPEO_IDS.get(ch_id, ch_id)
+                    
+                    if target_id in MIS_CANALES and target_id not in canales_existentes:
+                        canales_existentes.add(target_id)
+                        elem.set('id', target_id)
                         root_final.append(elem)
+                        
                 elif elem.tag == 'programme':
                     ch_id = elem.get('channel')
-                    if ch_id in MIS_CANALES:
-                        if ch_id in DESFASE_CANALES:
-                            horas = DESFASE_CANALES[ch_id]
+                    target_id = MAPEO_IDS.get(ch_id, ch_id)
+                    
+                    if target_id in MIS_CANALES:
+                        elem.set('channel', target_id)
+                        if target_id in DESFASE_CANALES:
+                            horas = DESFASE_CANALES[target_id]
                             elem.set('start', ajustar_hora(elem.get('start', ''), horas))
                             elem.set('stop', ajustar_hora(elem.get('stop', ''), horas))
                         root_final.append(elem)
@@ -213,11 +166,11 @@ try:
 
     print("2. Verificando respaldos únicamente para tus canales...")
     for ch_id in MIS_CANALES:
-        if ch_id in DATOS_RESPALDO and ch_id not in canales_existentes:
+        if ch_id not in canales_existentes:
             agregar_bloque_respaldo(root_final, ch_id)
             print(f" ✔ Respaldo creado para: {ch_id}")
 
-    # 🧼 SANEAMIENTO SOLO EN LOS TEXTOS
+    # 🧼 SANEAMIENTO DE TEXTOS
     for elem in root_final.iter():
         if elem.text:
             elem.text = elem.text.replace('&', '&amp;').replace('&amp;amp;', '&amp;')
@@ -227,7 +180,7 @@ try:
     
     tree.write("epg_final.xml", encoding="utf-8", xml_declaration=True)
         
-    print("¡Proceso finalizado con éxito! Guía generada manteniendo IDs intactos.")
+    print("¡Proceso finalizado con éxito!")
 
 except Exception as e:
     print(f"Error fatal: {e}")
