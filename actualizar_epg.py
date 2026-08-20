@@ -3,6 +3,84 @@ import gzip
 import urllib.request
 import xml.etree.ElementTree as ET
 
+# 🎯 ZONA DE EDICIÓN: AGREGA AQUÍ TUS CANALES
+# Agrega o quita los IDs exactos de tus canales.
+# Regla: Cada canal debe ir entre comillas simples '' y llevar una coma ',' al final.
+MIS_CANALES = {
+    'TVN.cl',
+    'Mega.cl',
+    'Chilevision.cl',
+    'Canal13.cl',
+    'AMC.cl',
+    'Cinecanal.cl',
+    'Cinemax.cl',
+    'Golden.cl',
+    'GoldenEdge.cl',
+    'HBO.cl',
+    'HBO2.cl',
+    'HBOFamily.cl',
+    'HBOPop.cl',
+    'HBOXtreme.cl',
+    'ENTChannel.cl',
+    'SONYMOVIES.uy',
+    'Sony.cl',
+    'Space.cl',
+    'StudioUniversal.bo',
+    'TNT.cl',
+    'TNTSeries.cl',
+    'film&arts.cl',
+    'USANetwork.bo',
+    'A&E.cl',
+    'AXN.cl',
+    'ComedyCentral.cl',
+    'E_EntertainmentTelevision.bo',
+    'FX.cl',
+    'StarChannel.cl',
+    'UniversalTV.cl',
+    'WarnerChannel.cl',
+    'DIRECTVSports.cl',
+    'ESPN.cl',
+    'ESPN2.cl',
+    'ESPN3.cl',
+    'ESPN4.cl',
+    'ESPN5.cl',
+    'ESPN6.cl',
+    'ESPN7.cl',
+    'TNTSportsPremium.cl',
+    'TyCSports.cl',
+    'CartoonNetwork.cl',
+    'DiscoveryKids.cl',
+    'DisneyChannel.cl',
+    'DisneyJunior.cl',
+    'NickJr.ar',
+    'Nick.cl',
+    'Tooncast.cl',
+    'AnimalPlanet.cl',
+    'Discovery.cl',
+    'DiscoveryScience.cl',
+    'DiscoveryTheater.cl',
+    'DiscoveryTurbo.cl',
+    'DiscoveryWorld.cl',
+    'ElGourmet.cl',
+    'FOODNETWORK.uy',
+    'HGTV.ar',
+    'DiscoveryHome&Health.cl',
+    'History.cl',
+    'History2.cl1',
+    'InvestigationDiscovery.cl',
+    'NationalGeographic.cl',
+    'LasEstrellas.cl',
+    'PASIONES.uy',
+    'TelemundoInternacional.ar',
+    'TLNovelas.cl',
+    'EnlaceTBN.cl',
+    'CNNChile.cl',
+    'CHVNoticias.cl',
+    'T13Noticias.cl',
+    '24Horas.cl',
+    # 👈 Sigue agregando tus canales hacia abajo
+}
+
 # Fuentes EPG
 FUENTES_EPG = [
     "https://iptv-epg.org/files/epg-cl.xml",
@@ -13,14 +91,8 @@ FUENTES_EPG = [
     "https://iptv-epg.org/files/epg-bo.xml"
 ]
 
-# 🕒 ZONA DE JUEGO: DESFASE HORARIO POR CANAL
-# Quita el '#' de la línea y ajusta las horas, el símbolo # solo es para dejar notas aquí, una vez quitándolo se activa el codigo:
-# Número negativo (ej: -3) -> Aatrasa el reloj si la guía va adelantada
-# Número positivo (ej: 2)  -> Adelanta el reloj si la guía va atrasada
+# 🕒 ZONA DE JUEGO: DESFASE HORARIO POR CANAL. Por ejemplo Si la EPG o programación está atrasada 1 hora, mostrando algo que ya pasó, se aplica -1.
 DESFASE_CANALES = {
-    # 'StudioUniversal.bo': -4,
-    # 'E_EntertainmentTelevision.bo': -4
-    # 'TVN.cl': -1,
     'ESPN3.cl': -1,
     'ESPN4.cl': -1,
     'ESPN5.cl': -1,
@@ -35,7 +107,7 @@ DATOS_RESPALDO = {
     'TVN.cl': ('TVN', 'General', 'Programación TVN', 'Noticias, matinales, teleseries y entretención.'),
     'Canal13.cl': ('Canal 13', 'General', 'Programación Canal 13', 'Noticieros, realitys y programas en vivo.'),
     'Mega.cl': ('Mega', 'General', 'Programación Mega', 'Teleseries nacionales, noticias y entretención.'),
-    'Chilevision.cl': ('Chilevisión', 'General', 'Programación CHV', 'Programas de entretención, noticias y deportes.'),
+    'Chilevision.cl': ('Chilevisión', 'General', 'Programas de entretención, noticias y deportes.'),
     'LaRed.cl': ('La Red', 'General', 'Programación La Red', 'Cultura, conversación e información.'),
     'TVMas.cl': ('TV+', 'General', 'Programación TV+', 'Programación variada y entretención nocturna.'),
     'Telecanal.cl': ('Telecanal', 'General', 'Programación Telecanal', 'Cine, series y animación.'),
@@ -116,37 +188,40 @@ try:
     
     canales_existentes = set()
     
-    print("1. Cargando todos los canales de las guías originales...")
+    print("1. Cargando y filtrando canales de las guías originales...")
     for url in FUENTES_EPG:
         try:
             guiaroot = descargar_xml(url)
             for elem in guiaroot:
                 if elem.tag == 'channel':
                     ch_id = elem.get('id')
-                    if ch_id and ch_id not in canales_existentes:
+                    # FILTRO: Solo guardamos el canal si está en tu lista personalizada
+                    if ch_id in MIS_CANALES and ch_id not in canales_existentes:
                         canales_existentes.add(ch_id)
                         root_final.append(elem)
                 elif elem.tag == 'programme':
                     ch_id = elem.get('channel')
-                    if ch_id in DESFASE_CANALES:
-                        horas = DESFASE_CANALES[ch_id]
-                        elem.set('start', ajustar_hora(elem.get('start', ''), horas))
-                        elem.set('stop', ajustar_hora(elem.get('stop', ''), horas))
-                    root_final.append(elem)
-            print(f" ✔ Cargada guía completa: {url}")
+                    # FILTRO: Solo guardamos la programación si pertenece a tus canales
+                    if ch_id in MIS_CANALES:
+                        if ch_id in DESFASE_CANALES:
+                            horas = DESFASE_CANALES[ch_id]
+                            elem.set('start', ajustar_hora(elem.get('start', ''), horas))
+                            elem.set('stop', ajustar_hora(elem.get('stop', ''), horas))
+                        root_final.append(elem)
+            print(f" ✔ Cargada guía filtrada: {url}")
         except Exception as e:
             print(f" ❌ Error en {url}: {e}")
 
-    print("2. Verificando respaldos para canales clave...")
-    for ch_id in DATOS_RESPALDO.keys():
-        if ch_id not in canales_existentes:
+    print("2. Verificando respaldos únicamente para tus canales...")
+    for ch_id in MIS_CANALES:
+        if ch_id in DATOS_RESPALDO and ch_id not in canales_existentes:
             agregar_bloque_respaldo(root_final, ch_id)
             print(f" ✔ Respaldo creado para: {ch_id}")
 
     tree = ET.ElementTree(root_final)
     ET.indent(tree, space="  ", level=0)
     tree.write("epg_final.xml", encoding="utf-8", xml_declaration=True)
-    print("¡Proceso finalizado con éxito!")
+    print("¡Proceso finalizado con éxito! Guía liviana generada.")
 
 except Exception as e:
     print(f"Error fatal: {e}")
