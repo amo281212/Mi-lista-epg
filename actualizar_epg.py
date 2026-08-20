@@ -50,6 +50,7 @@ DESFASE_CANALES = {
     'ESPN6.cl': -1,
     'ESPN7.cl': -1,
     'DIRECTVSports.cl': -1,
+    'TNTSportsPremium.cl': -1,
     'TyCSports.cl': -1,
 }
 
