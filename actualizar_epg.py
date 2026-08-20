@@ -27,6 +27,7 @@ DESFASE_CANALES = {
     'ESPN6.cl': -1,
     'ESPN7.cl': -1,
     'DIRECTVSports.cl': -1,
+    'TyCSports.cl': -1,
 }
 
 # Canales clave con respaldo garantizado por si fallan las fuentes externas
