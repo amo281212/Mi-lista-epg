@@ -21,11 +21,11 @@ DESFASE_CANALES = {
     # 'StudioUniversal.bo': -4,
     # 'E_EntertainmentTelevision.bo': -4
     # 'TVN.cl': -1,
-    'ESPN3.cl': +1
-    'ESPN4.cl': +1
-    'ESPN5.cl': +1
-    'ESPN6.cl': +1
-    'ESPN7.cl': +1
+    'ESPN3.cl': +1,
+    'ESPN4.cl': +1,
+    'ESPN5.cl': +1,
+    'ESPN6.cl': +1,
+    'ESPN7.cl': +1,
 }
 
 # Canales clave con respaldo garantizado por si fallan las fuentes externas
