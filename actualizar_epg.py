@@ -4,8 +4,6 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 # 🎯 ZONA DE EDICIÓN: AGREGA AQUÍ TUS CANALES
-# Agrega o quita los IDs exactos de tus canales.
-# Regla: Cada canal debe ir entre comillas simples '' y llevar una coma ',' al final.
 MIS_CANALES = {
     'TVN.cl',
     'Mega.cl',
@@ -66,7 +64,7 @@ MIS_CANALES = {
     'HGTV.ar',
     'DiscoveryHome&Health.cl',
     'History.cl',
-    'History2.cl1',
+    'History2.cl',
     'InvestigationDiscovery.cl',
     'NationalGeographic.cl',
     'LasEstrellas.cl',
@@ -78,7 +76,6 @@ MIS_CANALES = {
     'CHVNoticias.cl',
     'T13Noticias.cl',
     '24Horas.cl',
-    # 👈 Sigue agregando tus canales hacia abajo
 }
 
 # Fuentes EPG
@@ -91,7 +88,7 @@ FUENTES_EPG = [
     "https://iptv-epg.org/files/epg-bo.xml"
 ]
 
-# 🕒 ZONA DE JUEGO: DESFASE HORARIO POR CANAL. Por ejemplo Si la EPG o programación está atrasada 1 hora, mostrando algo que ya pasó, se aplica -1.
+# 🕒 ZONA DE JUEGO: DESFASE HORARIO POR CANAL
 DESFASE_CANALES = {
     'ESPN3.cl': -1,
     'ESPN4.cl': -1,
@@ -195,13 +192,11 @@ try:
             for elem in guiaroot:
                 if elem.tag == 'channel':
                     ch_id = elem.get('id')
-                    # FILTRO: Solo guardamos el canal si está en tu lista personalizada
                     if ch_id in MIS_CANALES and ch_id not in canales_existentes:
                         canales_existentes.add(ch_id)
                         root_final.append(elem)
                 elif elem.tag == 'programme':
                     ch_id = elem.get('channel')
-                    # FILTRO: Solo guardamos la programación si pertenece a tus canales
                     if ch_id in MIS_CANALES:
                         if ch_id in DESFASE_CANALES:
                             horas = DESFASE_CANALES[ch_id]
@@ -218,10 +213,20 @@ try:
             agregar_bloque_respaldo(root_final, ch_id)
             print(f" ✔ Respaldo creado para: {ch_id}")
 
+    # 🧼 CONVERSIÓN Y LIMPIEZA DE '&' PARA COMPATIBILIDAD CON SMART TV
     tree = ET.ElementTree(root_final)
     ET.indent(tree, space="  ", level=0)
-    tree.write("epg_final.xml", encoding="utf-8", xml_declaration=True)
-    print("¡Proceso finalizado con éxito! Guía liviana generada.")
+    
+    xml_str = ET.tostring(root_final, encoding='utf-8').decode('utf-8')
+    # Reemplaza los & sueltos por &amp; seguros sin duplicar
+    xml_str = xml_str.replace('&', '&amp;').replace('&amp;amp;', '&amp;')
+    
+    xml_final = '<?xml version="1.0" encoding="utf-8"?>\n' + xml_str
+    
+    with open("epg_final.xml", "w", encoding="utf-8") as f:
+        f.write(xml_final)
+        
+    print("¡Proceso finalizado con éxito! Guía ultraligera y compatible generada.")
 
 except Exception as e:
     print(f"Error fatal: {e}")
