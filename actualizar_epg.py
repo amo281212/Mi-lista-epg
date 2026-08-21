@@ -87,13 +87,11 @@ MAPEO_IDS = {
     'AE.ar': 'AE.cl',
     'A&E.cl': 'AE.cl',
     'History2.cl': 'History2.cl1',
-    'ESPN2.py': 'ESPN.cl',  # 👈 Mapea la guía de ESPN2 Paraguay hacia tu ESPN Chile
 }
 
 FUENTES_EPG = [
     "https://iptv-epg.org/files/epg-cl.xml",
     "https://iptv-epg.org/files/epg-ar.xml",
-    "https://iptv-epg.org/files/epg-py.xml",  # 👈 Fuente de Paraguay agregada
     "https://iptv-epg.org/files/epg-ec.xml",
     "https://iptv-epg.org/files/epg-co.xml",
     "https://iptv-epg.org/files/epg-uy.xml",
