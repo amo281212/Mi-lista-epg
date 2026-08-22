@@ -99,6 +99,7 @@ FUENTES_EPG = [
 ]
 
 DESFASE_CANALES = {
+    'Cinemax.cl': +1,
     'ESPN2.cl': -1,
     'ESPN3.cl': -1,
     'ESPN4.cl': -1,
