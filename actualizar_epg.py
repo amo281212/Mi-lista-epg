@@ -146,6 +146,26 @@ def ajustar_hora(time_str, horas_desfase):
     except Exception:
         return time_str
 
+def normalizar_a_utc(time_str):
+    """Convierte cualquier timestamp XMLTV a una marca estándar YYYYMMDDHHMM en UTC."""
+    if not time_str or len(time_str) < 14:
+        return time_str
+    try:
+        clean = time_str.strip()
+        dt_part = clean[:14]
+        tz_part = clean[14:].strip()
+        dt = datetime.datetime.strptime(dt_part, "%Y%m%d%H%M%S")
+        
+        if tz_part and (tz_part.startswith('+') or tz_part.startswith('-')):
+            sign = -1 if tz_part[0] == '+' else 1
+            tz_hours = int(tz_part[1:3])
+            tz_mins = int(tz_part[3:5]) if len(tz_part) >= 5 else 0
+            dt += datetime.timedelta(hours=sign * tz_hours, minutes=sign * tz_mins)
+            
+        return dt.strftime("%Y%m%d%H%M")
+    except Exception:
+        return time_str[:12]
+
 def descargar_xml(url):
     headers = {'User-Agent': 'Mozilla/5.0'}
     req = urllib.request.Request(url, headers=headers)
@@ -193,7 +213,7 @@ try:
     })
     
     canales_existentes = set()
-    programas_registrados = set()  # 💡 Evita duplicar programas si ya los agregaste desde tu guía manual
+    programas_registrados = set()  # Controla duplicados de forma homogénea en UTC
 
     print("1. Cargando y filtrando canales de las guías originales...")
     for url in FUENTES_EPG:
@@ -216,7 +236,7 @@ try:
                     if target_id in MIS_CANALES:
                         start_time = elem.get('start', '')
                         
-                        # Aplicar desfase si corresponde
+                        # Aplicar desfase horario si aplica
                         if target_id in DESFASE_CANALES:
                             horas = DESFASE_CANALES[target_id]
                             start_time = ajustar_hora(start_time, horas)
@@ -225,8 +245,10 @@ try:
 
                         elem.set('channel', target_id)
                         
-                        # PRIORIDAD: Si la hora de inicio no la ocupó tu guía manual, la agrega
-                        llave_programa = (target_id, start_time[:12])
+                        # PRIORIDAD: Generar clave estandarizada en UTC
+                        utc_key = normalizar_a_utc(start_time)
+                        llave_programa = (target_id, utc_key)
+                        
                         if llave_programa not in programas_registrados:
                             programas_registrados.add(llave_programa)
                             root_final.append(elem)
