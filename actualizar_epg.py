@@ -90,6 +90,7 @@ MAPEO_IDS = {
 }
 
 FUENTES_EPG = [
+    "https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml",
     "https://iptv-epg.org/files/epg-cl.xml",
     "https://iptv-epg.org/files/epg-ar.xml",
     "https://iptv-epg.org/files/epg-ec.xml",
@@ -192,7 +193,8 @@ try:
     })
     
     canales_existentes = set()
-    
+    programas_registrados = set()  # 💡 Evita duplicar programas si ya los agregaste desde tu guía manual
+
     print("1. Cargando y filtrando canales de las guías originales...")
     for url in FUENTES_EPG:
         try:
@@ -212,12 +214,23 @@ try:
                     target_id = MAPEO_IDS.get(ch_id, ch_id)
                     
                     if target_id in MIS_CANALES:
-                        elem.set('channel', target_id)
+                        start_time = elem.get('start', '')
+                        
+                        # Aplicar desfase si corresponde
                         if target_id in DESFASE_CANALES:
                             horas = DESFASE_CANALES[target_id]
-                            elem.set('start', ajustar_hora(elem.get('start', ''), horas))
+                            start_time = ajustar_hora(start_time, horas)
+                            elem.set('start', start_time)
                             elem.set('stop', ajustar_hora(elem.get('stop', ''), horas))
-                        root_final.append(elem)
+
+                        elem.set('channel', target_id)
+                        
+                        # PRIORIDAD: Si la hora de inicio no la ocupó tu guía manual, la agrega
+                        llave_programa = (target_id, start_time[:12])
+                        if llave_programa not in programas_registrados:
+                            programas_registrados.add(llave_programa)
+                            root_final.append(elem)
+
             print(f" ✔ Cargada guía filtrada: {url}")
         except Exception as e:
             print(f" ❌ Error en {url}: {e}")
