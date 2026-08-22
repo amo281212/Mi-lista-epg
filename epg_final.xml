@@ -1,5 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="CustomEPGGenerator" generator-info-url="https://github.com">
+  <channel id="ESPN.cl">
+    <display-name>ESPN</display-name>
+  </channel>
+  <programme start="20260822150000 -0400" stop="20260822170000 -0400" channel="ESPN.cl">
+    <title lang="es">Programa de Prueba</title>
+    <desc lang="es">Descripción de prueba para mi EPG manual.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
   <channel id="History2.cl1">
     <display-name>CL1 - CL - History 2</display-name>
     <icon src="https://iptv-epg.org/images/JuJDQtb2hit9Uw20_5eMl5NU08kOkJQFyzU2D1jm2Km6K8AsaGk3cMxqozafc9v_2bIMQqOneZtdJ4BNpuRXYIUPUSTnqkmHlZjjK5cfrxEE" />
@@ -95,10 +103,6 @@
   <channel id="EnlaceTBN.cl">
     <display-name>CL - Enlace TBN</display-name>
     <icon src="https://iptv-epg.org/images/S1n20JrW69OwXj663DJEzSTf8yKNTuc6BI_yDh22khV07G1evNzXJoCbHORPnqrsFVMls6gbLLzpPx8LEjLm0l-RYPv-LOJvjLHS2524nE4x" />
-  </channel>
-  <channel id="ESPN.cl">
-    <display-name>CL - ESPN</display-name>
-    <icon src="https://iptv-epg.org/images/W3kBsM1Fe1NL-PqKDZkx7nsALfQM0q1LwQN6o8ZIuPEl000VlMglvuRjWekjGzFs8fZ4_nINPjMuwgmyhzWUzErgY0Qd-sgB89t7sw" />
   </channel>
   <channel id="ESPN2.cl">
     <display-name>CL - ESPN 2</display-name>
@@ -16303,11 +16307,6 @@ Stan está celoso de la amistad que se ha desarrollado entre Kyle y Tolkien, por
     <title lang="es">Botafogo vs. Cienciano</title>
   </programme>
   <programme start="20260821023000 +0000" stop="20260821023000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">De Fútbol Se Habla Así Chile</title>
-  </programme>
-  <programme start="20260821023000 +0000" stop="20260821033000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">De Fútbol Se Habla Así Chile</title>
@@ -34617,10 +34616,6 @@ Un ministerio de intercesión profética, cuyo objetivo es brindar dirección al
     <category lang="es">Auto</category>
     <title lang="es">Gran Premio de los Países Bajos: Clasificación de esprint</title>
   </programme>
-  <programme start="20260822034000 +0000" stop="20260822043500 +0000" channel="ESPN.cl">
-    <category lang="es">Auto</category>
-    <title lang="es">Gran Premio de los Países Bajos: Clasificación de esprint</title>
-  </programme>
   <programme start="20260822043500 +0000" stop="20260822050400 +0000" channel="ESPN.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -34738,11 +34733,6 @@ Un ministerio de intercesión profética, cuyo objetivo es brindar dirección al
     <category>Sports</category>
     <title lang="es">West Ham United vs. Charlton Athletic</title>
   </programme>
-  <programme start="20260823030000 +0000" stop="20260823050000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">West Ham United vs. Charlton Athletic</title>
-  </programme>
   <programme start="20260823050000 +0000" stop="20260823060500 +0000" channel="ESPN.cl">
     <category lang="es">Auto</category>
     <title lang="es">Gran Premio de los Países Bajos: Carrera esprint</title>
@@ -34846,10 +34836,6 @@ Un ministerio de intercesión profética, cuyo objetivo es brindar dirección al
     <category lang="es">Auto</category>
     <title lang="es">El Show de la F1</title>
   </programme>
-  <programme start="20260821023000 +0000" stop="20260821033000 +0000" channel="ESPN2.cl">
-    <category lang="es">Auto</category>
-    <title lang="es">El Show de la F1</title>
-  </programme>
   <programme start="20260821033000 +0000" stop="20260821040000 +0000" channel="ESPN2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -34926,11 +34912,6 @@ Un ministerio de intercesión profética, cuyo objetivo es brindar dirección al
     <title lang="es">ATP: Cuartos de final</title>
   </programme>
   <programme start="20260822010000 +0000" stop="20260822010000 +0000" channel="ESPN2.cl">
-    <category lang="es">Boxing</category>
-    <category>Sports</category>
-    <title lang="es">Eric Miloc vs. Roberto Carlos Sánchez Torres</title>
-  </programme>
-  <programme start="20260822010000 +0000" stop="20260822040000 +0000" channel="ESPN2.cl">
     <category lang="es">Boxing</category>
     <category>Sports</category>
     <title lang="es">Eric Miloc vs. Roberto Carlos Sánchez Torres</title>
@@ -35020,10 +35001,6 @@ Un ministerio de intercesión profética, cuyo objetivo es brindar dirección al
     <title lang="es">Semifinales WTA</title>
   </programme>
   <programme start="20260823020000 +0000" stop="20260823020000 +0000" channel="ESPN2.cl">
-    <category lang="es">Auto</category>
-    <title lang="es">Gran Premio de los Países Bajos: Carrera esprint</title>
-  </programme>
-  <programme start="20260823020000 +0000" stop="20260823030500 +0000" channel="ESPN2.cl">
     <category lang="es">Auto</category>
     <title lang="es">Gran Premio de los Países Bajos: Carrera esprint</title>
   </programme>
@@ -35179,11 +35156,6 @@ Un ministerio de intercesión profética, cuyo objetivo es brindar dirección al
     <title lang="es">ESPN KnockOut</title>
   </programme>
   <programme start="20260822010000 +0000" stop="20260822010000 +0000" channel="ESPN3.cl">
-    <category lang="es">Boxing</category>
-    <category>Sports</category>
-    <title lang="es">Legacy Fighting Alliance 239</title>
-  </programme>
-  <programme start="20260822010000 +0000" stop="20260822040000 +0000" channel="ESPN3.cl">
     <category lang="es">Boxing</category>
     <category>Sports</category>
     <title lang="es">Legacy Fighting Alliance 239</title>
@@ -35345,11 +35317,6 @@ Un ministerio de intercesión profética, cuyo objetivo es brindar dirección al
     <title lang="es">Grandes Partidos de la UEFA</title>
   </programme>
   <programme start="20260821020000 +0000" stop="20260821020000 +0000" channel="ESPN4.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Olimpia vs. Vasco da Gama</title>
-  </programme>
-  <programme start="20260821020000 +0000" stop="20260821040000 +0000" channel="ESPN4.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Olimpia vs. Vasco da Gama</title>
@@ -35809,10 +35776,6 @@ Un ministerio de intercesión profética, cuyo objetivo es brindar dirección al
     <category lang="es">default</category>
     <title lang="es">ATP Masters 1000: Cincinnati Open, Semifinal 2</title>
   </programme>
-  <programme start="20260823020000 +0000" stop="20260823033000 +0000" channel="ESPN5.cl">
-    <category lang="es">default</category>
-    <title lang="es">ATP Masters 1000: Cincinnati Open, Semifinal 2</title>
-  </programme>
   <programme start="20260823033000 +0000" stop="20260823050000 +0000" channel="ESPN5.cl">
     <category lang="es">default</category>
     <title lang="es">ATP Masters 1000: Cincinnati Open, Semifinal 2</title>
@@ -36089,11 +36052,6 @@ Un ministerio de intercesión profética, cuyo objetivo es brindar dirección al
     <category>Sports</category>
     <title lang="es">Fenerbahçe vs. Olympique Lyonnais</title>
   </programme>
-  <programme start="20260823020000 +0000" stop="20260823040000 +0000" channel="ESPN6.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Fenerbahçe vs. Olympique Lyonnais</title>
-  </programme>
   <programme start="20260823040000 +0000" stop="20260823060000 +0000" channel="ESPN6.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -36297,11 +36255,6 @@ Un ministerio de intercesión profética, cuyo objetivo es brindar dirección al
     <category>Sports</category>
     <title lang="es">Celtic vs. LASK</title>
   </programme>
-  <programme start="20260822020000 +0000" stop="20260822040000 +0000" channel="ESPN7.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Celtic vs. LASK</title>
-  </programme>
   <programme start="20260822040000 +0000" stop="20260822050000 +0000" channel="ESPN7.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -36403,11 +36356,6 @@ Un ministerio de intercesión profética, cuyo objetivo es brindar dirección al
     <title lang="es">Lincoln City vs. Portsmouth</title>
   </programme>
   <programme start="20260823020000 +0000" stop="20260823020000 +0000" channel="ESPN7.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Borussia Dortmund vs. Bayern Munich</title>
-  </programme>
-  <programme start="20260823020000 +0000" stop="20260823040000 +0000" channel="ESPN7.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Borussia Dortmund vs. Bayern Munich</title>
@@ -55958,10 +55906,6 @@ Mientras que Patrick es parte de una trampa para atrapar a un mafioso sospechoso
     <category lang="es">Talk</category>
     <title lang="es">Todos somos técnicos</title>
   </programme>
-  <programme start="20260821013000 +0000" stop="20260821033000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">Todos somos técnicos</title>
-  </programme>
   <programme start="20260821033000 +0000" stop="20260821051000 +0000" channel="TNTSportsPremium.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -60834,10 +60778,6 @@ El informe meteorológico de nuestro país y de Sudamérica, proyecciones y pron
     <category lang="es">Talk</category>
     <title lang="es">La noche de TyC Sports</title>
   </programme>
-  <programme start="20260821013000 +0000" stop="20260821033000 +0000" channel="TyCSports.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">La noche de TyC Sports</title>
-  </programme>
   <programme start="20260821033000 +0000" stop="20260821043000 +0000" channel="TyCSports.cl">
     <category lang="es">Talk</category>
     <title lang="es">Sportia</title>
@@ -61000,11 +60940,6 @@ El informe meteorológico de nuestro país y de Sudamérica, proyecciones y pron
     <title lang="es">Newell's vs. Banfield</title>
   </programme>
   <programme start="20260823020000 +0000" stop="20260823020000 +0000" channel="TyCSports.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Atlético Tucumán vs. Instituto</title>
-  </programme>
-  <programme start="20260823020000 +0000" stop="20260823040000 +0000" channel="TyCSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">Atlético Tucumán vs. Instituto</title>
@@ -64000,22 +63935,6 @@ Tarek y Christina encuentran una casa en el deseado vecindario de Torrance.</des
     <title lang="es">Rescatando propiedades</title>
     <title lang="en">Flip or Flop</title>
   </programme>
-  <programme start="20260821090000 +0000" stop="20260821104000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <desc lang="es">S7 E17 — La historia de Cillas
-La adicción a la comida de Cillas hace que no pueda estar con su prometida, Jessica, y las tres hijas de ella. Si no pierde peso pronto, perderá a sus mujeres o su vida.</desc>
-    <episode-num>S7 E17</episode-num>
-    <icon src="https://iptv-epg.org/images/EsdB3whCRfOgH2H7wOW1iS4G46zsY9VFyb-nYgil9pWZdtxlf4VJy8mGk8Z15DYMoc8Rq9j-1aPSvOrmXdcYKDi3RCtui1ly4Dth1LvW2jS1xJD-nIcK9ruGgNSkvDegBdk9a5Zq_7ftmoBLVzUj8igeGaBU2w" />
-    <title lang="es">Kilos mortales</title>
-    <title lang="en">My 600-lb Life</title>
-  </programme>
-  <programme start="20260821104000 +0000" stop="20260821113000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <desc lang="es">S2 E1 — Lillino
-Lillino, un hombre de 21 años, empezó a comer en exceso tras separarse de su esposa. Ahora pesa 250 kg y su intervención es muy delicada.</desc>
-    <episode-num>S2 E1</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Historias de peso: clínica de obesidad</title>
-    <title lang="en">La Clinica Per Rinascere: Obesity Center Caserta</title>
-  </programme>
   <programme start="20260821113000 +0000" stop="20260821120000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <desc lang="es">Variedades
 Programación a confirmar.</desc>
@@ -64234,36 +64153,6 @@ Tarek y Christina se enteran de que se vende una casa en el deseado vecindario d
     <title lang="es">Rescatando propiedades</title>
     <title lang="en">Flip or Flop</title>
   </programme>
-  <programme start="20260822090000 +0000" stop="20260822095000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <desc lang="es">S4 E16 — Mi lipoma pulpo
-El lipoma de Steven es tan grande que su hija cree que tiene un monstruo creciendo en la espalda. El bulto en el brazo de Catherine ha crecido tanto que casi le llega a la axila. Ethan sufre un molesto sarpullido.</desc>
-    <episode-num>S4 E16</episode-num>
-    <icon src="https://iptv-epg.org/images/n-Cg_0TKCWBSCkKS_wiHyaSmfyCOxatnqJ7hFP1H7zkE-zQ45dSRJkdVpgz8-YMKcJkZRa6u5MwHdopWB1qmmdweB-7utrxg4iow833zqSlIvtXm_A_lN8B06wzLm70H4TDjQu_EG_iG9yai-Mp9KfiCcU431H_qwe2l1Btl6R8ca8NnsA" />
-    <title lang="es">Dra. Sandra Lee: especialista en piel</title>
-    <title lang="en">Dr. Pimple Popper</title>
-  </programme>
-  <programme start="20260822095000 +0000" stop="20260822104000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <desc lang="es">S4 E17 — Meterle velocidad
-John perdió la vista a temprana edad y poco después le comenzaron a aparecer bultos en su cuerpo. Por su parte, Lynette tiene cientos de bultos del tamaño de piedras en los brazos, el pecho y el vientre.</desc>
-    <episode-num>S4 E17</episode-num>
-    <icon src="https://iptv-epg.org/images/BsSp1kYZE-oMFbrJnLAnqZ5ZbhWr3pGbXNU8JUAEgCf1V4oG2r2MhsJuzt35ri58RyjM2dgjSY8Stvsk4EgGV014_SGI0he3y85-MW8z4UcBOvx8XsrbzLe5xEHQL69u7gffQ9GbTlufN6IqRjTNb3lr8u31Uf--ioQWvvxq7fsNHuKjgc73" />
-    <title lang="es">Dra. Sandra Lee: especialista en piel</title>
-    <title lang="en">Dr. Pimple Popper</title>
-  </programme>
-  <programme start="20260822104000 +0000" stop="20260822113000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <desc lang="es">S4 E18 — Ciste rockero
-La marca de nacimiento de Casey cubre la mayor parte de su rostro, cabeza y cuello. James tiene crecimientos en el muslo y el abdomen que son desconcertantes.</desc>
-    <episode-num>S4 E18</episode-num>
-    <icon src="https://iptv-epg.org/images/Wefq2uR89BBqn8pc6kZ11TUML708HR8TbhGCxDzK8cYeOTyVwgTprMC4JPhWYTH1283dd2YoF2LgAoGFxWcoQP3IhOBGD2XgtqW4cM70CdSbG4j4nnZybnkkxU8QIIox5guGwxGgeKtDPBHli8OkSbYqZ46IJ0SdK3qrNCx7_x_EeQw" />
-    <title lang="es">Dra. Sandra Lee: especialista en piel</title>
-    <title lang="en">Dr. Pimple Popper</title>
-  </programme>
-  <programme start="20260822113000 +0000" stop="20260822120000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <desc lang="es">Variedades
-Programación a confirmar.</desc>
-    <icon src="https://iptv-epg.org/images/NnJQglmzuwvtjfKBgM9OX9b8eycGhm2n3Ztt8j8m598DyGnuGqbBt7mwBSON5pb5XbbvCjkiwIkHWyFfnAYq0Opn2bZxMXzi5YAf_1d1VYG4BNQW0FM" />
-    <title lang="es">A confirmar</title>
-  </programme>
   <programme start="20260822120000 +0000" stop="20260822123000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <desc lang="es">Variedades
 Programación a confirmar.</desc>
@@ -64451,14 +64340,6 @@ Christina recibe un correo electrónico de un agente de bienes raíces que tiene
     <title lang="es">Rescatando propiedades</title>
     <title lang="en">Flip or Flop</title>
   </programme>
-  <programme start="20260823090000 +0000" stop="20260823104000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <desc lang="es">S7 E16 — La historia de LaShanta
-Lashanta es una madre con cuatro hijos que está en cama hace dos años y necesita que sus hijos se ocupen de asearla y alimentarla. Su última oportunidad de dejar la adicción a la comida es unirse al programa del Dr. Now, pero no será fácil.</desc>
-    <episode-num>S7 E16</episode-num>
-    <icon src="https://iptv-epg.org/images/gzF_znXk_0VQ76Gig9PDJg6zrw0PYs6lyIUjJ2-Zf5RkXghbAXtNQze9YJFtVl1mu1ZZGh9JazhAmkc6hlqPI1I1ylXkJgpz5Q_N8KRlTyTd9_32DahYPDKpWOlX2fd3jv8k1dr0fVdVuVar3yBkLhXrgdirht_E" />
-    <title lang="es">Kilos mortales</title>
-    <title lang="en">My 600-lb Life</title>
-  </programme>
   <programme start="20260823104000 +0000" stop="20260823113000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <desc lang="es">S1 E4 — Dame más
 Nesha planea un glamping de cumpleaños para animar a Jaz. Luego, Nesha y Jol tienen su primera cita. Más tarde, aumenta la tensión entre las roomies, porque Jaz lucha con un dolor insoportable.</desc>
@@ -64521,14 +64402,6 @@ Una vez aliviada la terrible crisis de salud de su hija, una madre está lista p
     <desc lang="es">S5 E7 — Vender una casa querida
 Lyndsay y Leslie toman las riendas para ayudar a un padre a separarse de su hogar familiar. Es una casa centenaria con características de múltiples épocas, por lo que buscan hacer una actualización coherente y moderna.</desc>
     <episode-num>S5 E7</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Casas imposibles de vender</title>
-    <title lang="en">Unsellable Houses</title>
-  </programme>
-  <programme start="20260823162600 +0000" stop="20260823171200 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <desc lang="es">S5 E8 — Vender con un beso
-Después de ayudar a unos amigos a instalarse en una casa familiar nueva y más grande, Lyndsay y Leslie ocupan su antiguo lugar. Se arremangan y buscan hacer actualizaciones con la esperanza de aprovechar al máximo su antigua casa.</desc>
-    <episode-num>S5 E8</episode-num>
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Casas imposibles de vender</title>
     <title lang="en">Unsellable Houses</title>
@@ -64706,14 +64579,6 @@ Tarek y Christina obtienen una pista sobre una casa en Anaheim, California, que 
     <title lang="es">Rescatando propiedades</title>
     <title lang="en">Flip or Flop</title>
   </programme>
-  <programme start="20260824090000 +0000" stop="20260824095000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <desc lang="es">S10 E3 — El secreto / Salvemos al bebé / La tormenta
-Le disparan a una mujer embarazada en el abdomen, pero se niega a aceptar el tratamiento y pone en riesgo su vida y la de su bebé.</desc>
-    <episode-num>S10 E3</episode-num>
-    <icon src="https://iptv-epg.org/images/bdYfc_TXjn1G_5-VV2fR3vwnQU8gUaWdPagWkHdjJWrbCjUBziYZXL-p5-g0ENKvydNGqkTAhJWg8a0S_pYv-92pUdjc_PbljW-vyPJTvhOd4jFHUE5fQsg3Df9EnQ_tmttFCVbLu8VLZeWIN_RjP4JMQ-N7P0Vz-10zcu2TMd1j-2msXu_9uZ9VVbCdfiGBVo26ZS5BDKirnFWXVZ_ETw" />
-    <title lang="es">Sala de emergencias: historias inéditas</title>
-    <title lang="en">Untold Stories of the ER</title>
-  </programme>
   <programme start="20260824095000 +0000" stop="20260824104000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <desc lang="es">S10 E4 — Puro músculo / El anillo / El tiroteo
 Una mujer casi pierde el dedo por probarse un anillo de compromiso de tamaño inadecuado; un físicoculturista no puede respirar y la razón de ello sorprende a los médicos; una persona baleada casi atropella a quien luego será su médico.</desc>
@@ -64785,14 +64650,6 @@ Por fin se revelan jugosos datos y secretos entre bastidores. Gabriel tiene un c
 Jay Leno llama a Jonathan y Drew para que los ayude con un regalo especial para su querido amigo. Con un bebé en camino, Jay quiere sorprender a la familia con una renovación del baño y una habitación para el bebé.</desc>
     <episode-num>S6 E5</episode-num>
     <icon src="https://iptv-epg.org/images/qeQOQEeSfoV400OG8wIFz7rFbixnF-PHF7xuhIf165z_P1s0PgcJI1cKOsGD3IzDdSDdh1KNTPaCcA5ZKCWDpHQs2GT883i0RPvnDhwQnMdyCiUO4XlMBI2BE3RsLXk5bd72olpyqy--Lr4dwnzmQ-Tx_mF83w4b4FC0GDOiDOJwSFNrzVPhzCEm7pwatl_v69CCfXGuj_5cixt68g" />
-    <title lang="es">Remodelaciones con celebridades</title>
-    <title lang="en">Celebrity IOU</title>
-  </programme>
-  <programme start="20260824162600 +0000" stop="20260824171200 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <desc lang="es">S6 E66 — La renovación de Derek y Julianne Hough
-Derek y Julianne Hough piden ayuda a Jonathan y Drew para hacerle un regalo para su entrenador, quien cerró las puertas de su gimnasio, pero los hermanos Hough lo ayudarán en su nuevo comienzo.</desc>
-    <episode-num>S6 E66</episode-num>
-    <icon src="https://iptv-epg.org/images/Uzpr7-XimXJml9hVF8gZurtF70D_YZ5ik2J2m6Brso2aiEbCVzfGvbAGLIxqNFpJU-9ey8aVze6jaaNgKM-R--0a2-XpCo4Cvm8pO72vaDXFVVI8kDIOAgrA3Suag8wKNHTlNQCoSE45yZ3hNGOC1010dfszLzQgx7Q-00WP-lWZf8HxfXBCiY85HVoKvXKdwuebT5MKyw1Q" />
     <title lang="es">Remodelaciones con celebridades</title>
     <title lang="en">Celebrity IOU</title>
   </programme>
@@ -64963,14 +64820,6 @@ Tarek y Christina se enteran de la venta de una casa de Buena Park, California, 
     <title lang="es">Rescatando propiedades</title>
     <title lang="en">Flip or Flop</title>
   </programme>
-  <programme start="20260825090000 +0000" stop="20260825095000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <desc lang="es">S2 E3 — El último unicornio
-Louis es un veterano que tiene la piel tan seca que se siente como un lagarto. Jennifer no puede enfocarse en su carrera porque tiene en la frente un bulto con forma de unicornio.</desc>
-    <episode-num>S2 E3</episode-num>
-    <icon src="https://iptv-epg.org/images/YERknX9ow1JaXn_Xf4RSJkvMGuFg5LYXnpoGNEZXCcss69MdcO_nBOeFQylGXmYwedeV4VCbsFKOoFIL7hYDBEz9PkC7J4P4O8lhm4ve0AhxaKBGOGUq_mecavcQzUTmwd3K7XlKH9otLgaw2lQg8hT7j5cvXB779cj-AaCdoU2Y0D1K" />
-    <title lang="es">Dra. Sandra Lee: especialista en piel</title>
-    <title lang="en">Dr. Pimple Popper</title>
-  </programme>
   <programme start="20260825095000 +0000" stop="20260825104000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <desc lang="es">S1 E9 — Todas las rosáceas tienen su punto
 Patrick tiene la nariz cubierta de bultos y apenas puede respirar. Cheri y Janice son hermanas y las dos tienen bultos. Matt siempre ha tenido neurofibromatosis y, después de muchas cirugías, sigue teniendo dolor.</desc>
@@ -65041,13 +64890,6 @@ Margarita le esconde a su familia su bulto en la axila y la carrera musical de K
     <desc lang="es">S1 E1 — Lecciones para reventar granos
 Dottie busca recuperar su confianza tras la aparición de un bulto en sus muslos. Mientras el Dr. Lee y un colega tratan la nariz abultada de Tim, Karime lidia con la inseguridad que le provoca una marca de nacimiento en el rostro.</desc>
     <episode-num>S1 E1</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Dr. Pimple Popper: Breaking Out</title>
-  </programme>
-  <programme start="20260825162600 +0000" stop="20260825171200 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <desc lang="es">S1 E2 — Un secreto jugoso
-Katrina tiene furúnculos supurantes y malolientes que le han arrebatado la vida. Los tumores que le cubren la cabeza a los pies interfieren con su máscara de apnea del sueño, lo que le provoca un agotamiento constante.</desc>
-    <episode-num>S1 E2</episode-num>
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Dr. Pimple Popper: Breaking Out</title>
   </programme>
@@ -72043,169 +71885,6 @@ Hollywood on Set.</desc>
     <icon src="https://iptv-epg.org/images/TmN21nOFTQSwvrdWQx6wnEuBWa2ON9GlBNEmEGo1FXuHi0Fc3kNWKihIM4_h590iJhg2BSCeHyAusNulcP388zNZns8R_6lqWoMKfDbVeUr9jvtNkvVMWOs6z3E1U8o4gJVEWtSY" />
     <title lang="es">Blue Bloods (?)</title>
   </programme>
-  <channel id="CHVNoticias.cl">
-    <display-name>CHV Noticias</display-name>
-  </channel>
-  <programme start="20260821000000 +0000" stop="20260821030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260821030000 +0000" stop="20260821060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260821060000 +0000" stop="20260821090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260821090000 +0000" stop="20260821120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260821120000 +0000" stop="20260821150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260821150000 +0000" stop="20260821180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260821180000 +0000" stop="20260821210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260821210000 +0000" stop="20260822000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260822000000 +0000" stop="20260822030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260822030000 +0000" stop="20260822060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260822060000 +0000" stop="20260822090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260822090000 +0000" stop="20260822120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260822120000 +0000" stop="20260822150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260822150000 +0000" stop="20260822180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260822180000 +0000" stop="20260822210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260822210000 +0000" stop="20260823000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260823000000 +0000" stop="20260823030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260823030000 +0000" stop="20260823060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260823060000 +0000" stop="20260823090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260823090000 +0000" stop="20260823120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260823120000 +0000" stop="20260823150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260823150000 +0000" stop="20260823180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260823180000 +0000" stop="20260823210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260823210000 +0000" stop="20260824000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260824030000 +0000" stop="20260824060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260824060000 +0000" stop="20260824090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260824090000 +0000" stop="20260824120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260824120000 +0000" stop="20260824150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260824180000 +0000" stop="20260824210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <channel id="T13Noticias.cl">
     <display-name>T13 En Vivo</display-name>
   </channel>
@@ -72367,6 +72046,332 @@ Hollywood on Set.</desc>
   <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <channel id="NickJr.ar">
+    <display-name>Nick Jr.</display-name>
+  </channel>
+  <programme start="20260821000000 +0000" stop="20260821030000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260821030000 +0000" stop="20260821060000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260821060000 +0000" stop="20260821090000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260821090000 +0000" stop="20260821120000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260821120000 +0000" stop="20260821150000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260821150000 +0000" stop="20260821180000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260821180000 +0000" stop="20260821210000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260821210000 +0000" stop="20260822000000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260822000000 +0000" stop="20260822030000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260822030000 +0000" stop="20260822060000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260822060000 +0000" stop="20260822090000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260822090000 +0000" stop="20260822120000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260822120000 +0000" stop="20260822150000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260822150000 +0000" stop="20260822180000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260822180000 +0000" stop="20260822210000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260822210000 +0000" stop="20260823000000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260823000000 +0000" stop="20260823030000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260823030000 +0000" stop="20260823060000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260823060000 +0000" stop="20260823090000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260823090000 +0000" stop="20260823120000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260823120000 +0000" stop="20260823150000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260823150000 +0000" stop="20260823180000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260823180000 +0000" stop="20260823210000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260823210000 +0000" stop="20260824000000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260824030000 +0000" stop="20260824060000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260824060000 +0000" stop="20260824090000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260824090000 +0000" stop="20260824120000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260824120000 +0000" stop="20260824150000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260824180000 +0000" stop="20260824210000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <channel id="CHVNoticias.cl">
+    <display-name>CHV Noticias</display-name>
+  </channel>
+  <programme start="20260821000000 +0000" stop="20260821030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260821030000 +0000" stop="20260821060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260821060000 +0000" stop="20260821090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260821090000 +0000" stop="20260821120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260821120000 +0000" stop="20260821150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260821150000 +0000" stop="20260821180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260821180000 +0000" stop="20260821210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260821210000 +0000" stop="20260822000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260822000000 +0000" stop="20260822030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260822030000 +0000" stop="20260822060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260822060000 +0000" stop="20260822090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260822090000 +0000" stop="20260822120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260822120000 +0000" stop="20260822150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260822150000 +0000" stop="20260822180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260822180000 +0000" stop="20260822210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260822210000 +0000" stop="20260823000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260823000000 +0000" stop="20260823030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260823030000 +0000" stop="20260823060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260823060000 +0000" stop="20260823090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260823090000 +0000" stop="20260823120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260823120000 +0000" stop="20260823150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260823150000 +0000" stop="20260823180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260823180000 +0000" stop="20260823210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260823210000 +0000" stop="20260824000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824030000 +0000" stop="20260824060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824060000 +0000" stop="20260824090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824090000 +0000" stop="20260824120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824120000 +0000" stop="20260824150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824180000 +0000" stop="20260824210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <channel id="ENTChannel.cl">
@@ -72531,168 +72536,5 @@ Hollywood on Set.</desc>
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <channel id="NickJr.ar">
-    <display-name>Nick Jr.</display-name>
-  </channel>
-  <programme start="20260821000000 +0000" stop="20260821030000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260821030000 +0000" stop="20260821060000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260821060000 +0000" stop="20260821090000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260821090000 +0000" stop="20260821120000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260821120000 +0000" stop="20260821150000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260821150000 +0000" stop="20260821180000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260821180000 +0000" stop="20260821210000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260821210000 +0000" stop="20260822000000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260822000000 +0000" stop="20260822030000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260822030000 +0000" stop="20260822060000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260822060000 +0000" stop="20260822090000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260822090000 +0000" stop="20260822120000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260822120000 +0000" stop="20260822150000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260822150000 +0000" stop="20260822180000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260822180000 +0000" stop="20260822210000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260822210000 +0000" stop="20260823000000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260823000000 +0000" stop="20260823030000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260823030000 +0000" stop="20260823060000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260823060000 +0000" stop="20260823090000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260823090000 +0000" stop="20260823120000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260823120000 +0000" stop="20260823150000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260823150000 +0000" stop="20260823180000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260823180000 +0000" stop="20260823210000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260823210000 +0000" stop="20260824000000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260824030000 +0000" stop="20260824060000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260824060000 +0000" stop="20260824090000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260824090000 +0000" stop="20260824120000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260824120000 +0000" stop="20260824150000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260824180000 +0000" stop="20260824210000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
-  <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
   </programme>
 </tv>
