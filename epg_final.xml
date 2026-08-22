@@ -3,9 +3,124 @@
   <channel id="ESPN.cl">
     <display-name>ESPN</display-name>
   </channel>
-  <programme start="20260822150000 -0400" stop="20260822170000 -0400" channel="ESPN.cl">
-    <title lang="es">Programa de Prueba</title>
-    <desc lang="es">Descripción de prueba para mi EPG manual.</desc>
+  <programme start="20260822072000 -0400" stop="20260822092500 -0400" channel="ESPN.cl">
+    <title lang="es">Hull City vs. Manchester United</title>
+    <desc lang="es">Premier League - Fecha 1.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260822092500 -0400" stop="20260822095000 -0400" channel="ESPN.cl">
+    <title lang="es">SportsCenter+</title>
+    <desc lang="es">Repaso de lo mejor del deporte ocurrido esta semana.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260822095000 -0400" stop="20260822115500 -0400" channel="ESPN.cl">
+    <title lang="es">Everton vs. Crystal Palace</title>
+    <desc lang="es">Premier League - Fecha 1.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260822115500 -0400" stop="20260822122000 -0400" channel="ESPN.cl">
+    <title lang="es">SportsCenter+</title>
+    <desc lang="es">Repaso de lo mejor del deporte ocurrido esta semana.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260822122000 -0400" stop="20260822142500 -0400" channel="ESPN.cl">
+    <title lang="es">Brentford vs. Tottenham Hotspur</title>
+    <desc lang="es">Premier League - Fecha 1.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260822142500 -0400" stop="20260822164500 -0400" channel="ESPN.cl">
+    <title lang="es">Borussia Dortmund vs Bayern Múnich</title>
+    <desc lang="es">Supercopa de Alemania.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260822164500 -0400" stop="20260822200000 -0400" channel="ESPN.cl">
+    <title lang="es">SportsCenter</title>
+    <desc lang="es">El noticiero deportivo de la cadena ESPN el cual muestra los acontecimientos más importantes del deporte incluyendo resúmenes y marcadores.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260822200000 -0400" stop="20260822233000 -0400" channel="ESPN.cl">
+    <title lang="es">ESPN Knockout</title>
+    <desc lang="es">Un ciclo de boxeo y MMA con los mejores combates para toda Latinoamérica.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260822233000 -0400" stop="20260823000000 -0400" channel="ESPN.cl">
+    <title lang="es">SportsCenter</title>
+    <desc lang="es">El noticiero deportivo de la cadena ESPN el cual muestra los acontecimientos más importantes del deporte incluyendo resúmenes y marcadores.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260823085000 -0400" stop="20260823105500 -0400" channel="ESPN.cl">
+    <title lang="es">Brighton vs. Aston Villa</title>
+    <desc lang="es">Premier League - Fecha 1.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260823105500 -0400" stop="20260823125500 -0400" channel="ESPN.cl">
+    <title lang="es">Atlético de Madrid vs. Villarreal</title>
+    <desc lang="es">LaLiga - Fecha 2.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260823125500 -0400" stop="20260823151500 -0400" channel="ESPN.cl">
+    <title lang="es">SportsCenter+</title>
+    <desc lang="es">El noticiero deportivo de la cadena ESPN el cual muestra los acontecimientos más importantes del deporte incluyendo resúmenes y marcadores.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260823151500 -0400" stop="20260823172500 -0400" channel="ESPN.cl">
+    <title lang="es">Elche vs. Barcelona</title>
+    <desc lang="es">LaLiga - Fecha 2.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260823172500 -0400" stop="20260823180000 -0400" channel="ESPN.cl">
+    <title lang="es">SportsCenter+</title>
+    <desc lang="es">El noticiero deportivo de la cadena ESPN el cual muestra los acontecimientos más importantes del deporte incluyendo resúmenes y marcadores.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260823180000 -0400" stop="20260823201500 -0400" channel="ESPN.cl">
+    <title lang="es">River Plate vs. Vélez Sársfield</title>
+    <desc lang="es">Fútbol Argentino - Primera División.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260823201500 -0400" stop="20260823222500 -0400" channel="ESPN.cl">
+    <title lang="es">Racing vs. Boca Juniors</title>
+    <desc lang="es">Fútbol Argentino - Primera División.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260823222500 -0400" stop="20260824000000 -0400" channel="ESPN.cl">
+    <title lang="es">ESPN Fútbol 1</title>
+    <desc lang="es">Contenido ESPN.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260824084500 -0400" stop="20260824120000 -0400" channel="ESPN.cl">
+    <title lang="es">La Vuelta a España 2026</title>
+    <desc lang="es">La Vuelta a España será una carrera de ciclismo en ruta por etapas que se desarrollará entre el 22 de agosto y el 13 de septiembre de 2026.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260824120000 -0400" stop="20260824145000 -0400" channel="ESPN.cl">
+    <title lang="es">SportsCenter</title>
+    <desc lang="es">Contenido ESPN.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260824145000 -0400" stop="20260824165500 -0400" channel="ESPN.cl">
+    <title lang="es">Fulham vs. Chelsea</title>
+    <desc lang="es">Premier League - Fecha 1.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260824165500 -0400" stop="20260824190000 -0400" channel="ESPN.cl">
+    <title lang="es">ESPN F360</title>
+    <desc lang="es">Contenido ESPN.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260824190000 -0400" stop="20260824200000 -0400" channel="ESPN.cl">
+    <title lang="es">SportsCenter</title>
+    <desc lang="es">Contenido ESPN.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260824200000 -0400" stop="20260824213000 -0400" channel="ESPN.cl">
+    <title lang="es">ESPN F90</title>
+    <desc lang="es">Contenido ESPN.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260824213000 -0400" stop="20260824230000 -0400" channel="ESPN.cl">
+    <title lang="es">ESPN F Show</title>
+    <desc lang="es">Contenido ESPN.</desc>
     <category lang="es">Deportes</category>
   </programme>
   <channel id="History2.cl1">
@@ -34802,11 +34917,6 @@ Un ministerio de intercesión profética, cuyo objetivo es brindar dirección al
   <programme start="20260823170000 +0000" stop="20260823180000 +0000" channel="ESPN.cl">
     <category lang="es">default</category>
     <title lang="es">ATP Masters 1000: Cincinnati Open, Semifinal 2</title>
-  </programme>
-  <programme start="20260823180000 +0000" stop="20260823200000 +0000" channel="ESPN.cl">
-    <category lang="es">Boxing</category>
-    <category>Sports</category>
-    <title lang="es">Legacy Fighting Alliance 239</title>
   </programme>
   <programme start="20260823200000 +0000" stop="20260823220000 +0000" channel="ESPN.cl">
     <category lang="es">Auto</category>
@@ -72048,6 +72158,169 @@ Hollywood on Set.</desc>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
+  <channel id="ENTChannel.cl">
+    <display-name>ENT Channel</display-name>
+  </channel>
+  <programme start="20260821000000 +0000" stop="20260821030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260821030000 +0000" stop="20260821060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260821060000 +0000" stop="20260821090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260821090000 +0000" stop="20260821120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260821120000 +0000" stop="20260821150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260821150000 +0000" stop="20260821180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260821180000 +0000" stop="20260821210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260821210000 +0000" stop="20260822000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260822000000 +0000" stop="20260822030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260822030000 +0000" stop="20260822060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260822060000 +0000" stop="20260822090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260822090000 +0000" stop="20260822120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260822120000 +0000" stop="20260822150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260822150000 +0000" stop="20260822180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260822180000 +0000" stop="20260822210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260822210000 +0000" stop="20260823000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260823000000 +0000" stop="20260823030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260823030000 +0000" stop="20260823060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260823060000 +0000" stop="20260823090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260823090000 +0000" stop="20260823120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260823120000 +0000" stop="20260823150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260823150000 +0000" stop="20260823180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260823180000 +0000" stop="20260823210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260823210000 +0000" stop="20260824000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260824030000 +0000" stop="20260824060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260824060000 +0000" stop="20260824090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260824090000 +0000" stop="20260824120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260824120000 +0000" stop="20260824150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260824180000 +0000" stop="20260824210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
   <channel id="NickJr.ar">
     <display-name>Nick Jr.</display-name>
   </channel>
@@ -72373,168 +72646,5 @@ Hollywood on Set.</desc>
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <channel id="ENTChannel.cl">
-    <display-name>ENT Channel</display-name>
-  </channel>
-  <programme start="20260821000000 +0000" stop="20260821030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260821030000 +0000" stop="20260821060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260821060000 +0000" stop="20260821090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260821090000 +0000" stop="20260821120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260821120000 +0000" stop="20260821150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260821150000 +0000" stop="20260821180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260821180000 +0000" stop="20260821210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260821210000 +0000" stop="20260822000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260822000000 +0000" stop="20260822030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260822030000 +0000" stop="20260822060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260822060000 +0000" stop="20260822090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260822090000 +0000" stop="20260822120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260822120000 +0000" stop="20260822150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260822150000 +0000" stop="20260822180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260822180000 +0000" stop="20260822210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260822210000 +0000" stop="20260823000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260823000000 +0000" stop="20260823030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260823030000 +0000" stop="20260823060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260823060000 +0000" stop="20260823090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260823090000 +0000" stop="20260823120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260823120000 +0000" stop="20260823150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260823150000 +0000" stop="20260823180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260823180000 +0000" stop="20260823210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260823210000 +0000" stop="20260824000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260824030000 +0000" stop="20260824060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260824060000 +0000" stop="20260824090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260824090000 +0000" stop="20260824120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260824120000 +0000" stop="20260824150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260824180000 +0000" stop="20260824210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
   </programme>
 </tv>
