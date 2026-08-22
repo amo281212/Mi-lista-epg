@@ -3,82 +3,25 @@ import gzip
 import urllib.request
 import xml.etree.ElementTree as ET
 
-# 🎯 TUS CANALES CON IDS LIMPIOS (SIN & EN LAS ETIQUETAS TVG-ID)
+# 🎯 TUS CANALES CON IDS LIMPIOS
 MIS_CANALES = {
-    'TVN.cl',
-    'Mega.cl',
-    'Chilevision.cl',
-    'Canal13.cl',
-    'AMC.cl',
-    'Cinecanal.cl',
-    'Cinemax.cl',
-    'Golden.cl',
-    'GoldenEdge.cl',
-    'HBO.cl',
-    'HBO2.cl',
-    'HBOFamily.cl',
-    'HBOPop.cl',
-    'HBOXtreme.cl',
-    'ENTChannel.cl',
-    'SONYMOVIES.uy',
-    'Sony.cl',
-    'Space.cl',
-    'StudioUniversal.bo',
-    'TNT.cl',
-    'TNTSeries.cl',
-    'StarChannel.cl',
-    'UniversalTV.cl',
-    'WarnerChannel.cl',
-    'USANetwork.bo',
-    'AXN.cl',
-    'AE.cl',
-    'FX.cl',
-    'FilmAndArts.cl',
-    'ComedyCentral.cl',
-    'E_EntertainmentTelevision.bo',
-    'DIRECTVSports.cl',
-    'ESPN.cl',
-    'ESPN2.cl',
-    'ESPN3.cl',
-    'ESPN4.cl',
-    'ESPN5.cl',
-    'ESPN6.cl',
-    'ESPN7.cl',
-    'TNTSportsPremium.cl',
-    'TyCSports.cl',
-    'CartoonNetwork.cl',
-    'DiscoveryKids.cl',
-    'DisneyChannel.cl',
-    'DisneyJunior.cl',
-    'NickJr.ar',
-    'Nick.cl',
-    'Tooncast.cl',
-    'AnimalPlanet.cl',
-    'Discovery.cl',
-    'DiscoveryScience.cl',
-    'DiscoveryTheater.cl',
-    'DiscoveryTurbo.cl',
-    'DiscoveryWorld.cl',
-    'ElGourmet.cl',
-    'FOODNETWORK.uy',
-    'HGTV.ar',
-    'DiscoveryHomeAndHealth.cl',
-    'History.cl',
-    'History2.cl1',
-    'InvestigationDiscovery.cl',
-    'NationalGeographic.cl',
-    'LasEstrellas.cl',
-    'PASIONES.uy',
-    'TelemundoInternacional.ar',
-    'TLNovelas.cl',
-    'EnlaceTBN.cl',
-    'CNNChile.cl',
-    'CHVNoticias.cl',
-    'T13Noticias.cl',
-    '24Horas.cl',
+    'TVN.cl', 'Mega.cl', 'Chilevision.cl', 'Canal13.cl', 'AMC.cl', 'Cinecanal.cl',
+    'Cinemax.cl', 'Golden.cl', 'GoldenEdge.cl', 'HBO.cl', 'HBO2.cl', 'HBOFamily.cl',
+    'HBOPop.cl', 'HBOXtreme.cl', 'ENTChannel.cl', 'SONYMOVIES.uy', 'Sony.cl', 'Space.cl',
+    'StudioUniversal.bo', 'TNT.cl', 'TNTSeries.cl', 'StarChannel.cl', 'UniversalTV.cl',
+    'WarnerChannel.cl', 'USANetwork.bo', 'AXN.cl', 'AE.cl', 'FX.cl', 'FilmAndArts.cl',
+    'ComedyCentral.cl', 'E_EntertainmentTelevision.bo', 'DIRECTVSports.cl', 'ESPN.cl',
+    'ESPN2.cl', 'ESPN3.cl', 'ESPN4.cl', 'ESPN5.cl', 'ESPN6.cl', 'ESPN7.cl',
+    'TNTSportsPremium.cl', 'TyCSports.cl', 'CartoonNetwork.cl', 'DiscoveryKids.cl',
+    'DisneyChannel.cl', 'DisneyJunior.cl', 'NickJr.ar', 'Nick.cl', 'Tooncast.cl',
+    'AnimalPlanet.cl', 'Discovery.cl', 'DiscoveryScience.cl', 'DiscoveryTheater.cl',
+    'DiscoveryTurbo.cl', 'DiscoveryWorld.cl', 'ElGourmet.cl', 'FOODNETWORK.uy',
+    'HGTV.ar', 'DiscoveryHomeAndHealth.cl', 'History.cl', 'History2.cl1',
+    'InvestigationDiscovery.cl', 'NationalGeographic.cl', 'LasEstrellas.cl',
+    'PASIONES.uy', 'TelemundoInternacional.ar', 'TLNovelas.cl', 'EnlaceTBN.cl',
+    'CNNChile.cl', 'CHVNoticias.cl', 'T13Noticias.cl', '24Horas.cl',
 }
 
-# 🔄 MAPEO: Toma todas las variantes externas y las convierte al ID limpio de tu M3U
 MAPEO_IDS = {
     'DiscoveryHomeAndHealth.ar': 'DiscoveryHomeAndHealth.cl',
     'DiscoveryHome&Health.cl': 'DiscoveryHomeAndHealth.cl',
@@ -89,8 +32,8 @@ MAPEO_IDS = {
     'History2.cl': 'History2.cl1',
 }
 
-FUENTES_EPG = [
-    "https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml",
+# 🌐 GUÍAS PÚBLICAS (Se procesan primero)
+FUENTES_PUBLICAS = [
     "https://iptv-epg.org/files/epg-cl.xml",
     "https://iptv-epg.org/files/epg-ar.xml",
     "https://iptv-epg.org/files/epg-ec.xml",
@@ -99,20 +42,18 @@ FUENTES_EPG = [
     "https://iptv-epg.org/files/epg-bo.xml",
 ]
 
+# 👑 TU GUÍA PROPIA (Se procesa AL FINAL para sobreescribir)
+GUIA_PROPIA = "https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml"
+
 DESFASE_CANALES = {
     'Cinemax.cl': +1,
-    'ESPN2.cl': -1,
-    'ESPN3.cl': -1,
-    'ESPN4.cl': -1,
-    'ESPN5.cl': -1,
-    'ESPN6.cl': -1,
-    'ESPN7.cl': -1,
-    'DIRECTVSports.cl': -1,
-    'TNTSportsPremium.cl': -1,
-    'TyCSports.cl': -1,
+    'ESPN2.cl': -1, 'ESPN3.cl': -1, 'ESPN4.cl': -1,
+    'ESPN5.cl': -1, 'ESPN6.cl': -1, 'ESPN7.cl': -1,
+    'DIRECTVSports.cl': -1, 'TNTSportsPremium.cl': -1, 'TyCSports.cl': -1,
 }
 
 DATOS_RESPALDO = {
+    'AXN.cl': ('AXN', 'Series', 'Series y Acción', 'Películas de acción, suspenso y series policiales.'),
     'TVN.cl': ('TVN', 'General', 'Programación TVN', 'Noticias, matinales, teleseries y entretención.'),
     'Canal13.cl': ('Canal 13', 'General', 'Programación Canal 13', 'Noticieros, realitys y programas en vivo.'),
     'Mega.cl': ('Mega', 'General', 'Programación Mega', 'Teleseries nacionales, noticias y entretención.'),
@@ -134,22 +75,10 @@ DATOS_RESPALDO = {
     'History2.cl1': ('History 2', 'Documentales', 'Programación History 2', 'Documentales, historia y ciencia.')
 }
 
-def ajustar_hora(time_str, horas_desfase):
+def parse_time(time_str):
+    """Convierte string de fecha XMLTV a datetime UTC para poder comparar rangos."""
     if not time_str or len(time_str) < 14:
-        return time_str
-    try:
-        dt_part = time_str[:14]
-        tz_part = time_str[14:] if len(time_str) > 14 else ""
-        dt = datetime.datetime.strptime(dt_part, "%Y%m%d%H%M%S")
-        dt += datetime.timedelta(hours=horas_desfase)
-        return dt.strftime("%Y%m%d%H%M%S") + tz_part
-    except Exception:
-        return time_str
-
-def normalizar_a_utc(time_str):
-    """Convierte cualquier timestamp XMLTV a una marca estándar YYYYMMDDHHMM en UTC."""
-    if not time_str or len(time_str) < 14:
-        return time_str
+        return None
     try:
         clean = time_str.strip()
         dt_part = clean[:14]
@@ -162,9 +91,21 @@ def normalizar_a_utc(time_str):
             tz_mins = int(tz_part[3:5]) if len(tz_part) >= 5 else 0
             dt += datetime.timedelta(hours=sign * tz_hours, minutes=sign * tz_mins)
             
-        return dt.strftime("%Y%m%d%H%M")
+        return dt.replace(tzinfo=datetime.timezone.utc)
     except Exception:
-        return time_str[:12]
+        return None
+
+def ajustar_hora(time_str, horas_desfase):
+    if not time_str or len(time_str) < 14:
+        return time_str
+    try:
+        dt_part = time_str[:14]
+        tz_part = time_str[14:] if len(time_str) > 14 else ""
+        dt = datetime.datetime.strptime(dt_part, "%Y%m%d%H%M%S")
+        dt += datetime.timedelta(hours=horas_desfase)
+        return dt.strftime("%Y%m%d%H%M%S") + tz_part
+    except Exception:
+        return time_str
 
 def descargar_xml(url):
     headers = {'User-Agent': 'Mozilla/5.0'}
@@ -213,10 +154,10 @@ try:
     })
     
     canales_existentes = set()
-    programas_registrados = set()  # Controla duplicados de forma homogénea en UTC
+    programas_lista = []  # Almacena tuplas: (elem, channel_id, start_dt, stop_dt)
 
-    print("1. Cargando y filtrando canales de las guías originales...")
-    for url in FUENTES_EPG:
+    print("1. Cargando fuentes públicas...")
+    for url in FUENTES_PUBLICAS:
         try:
             guiaroot = descargar_xml(url)
             for elem in guiaroot:
@@ -236,7 +177,6 @@ try:
                     if target_id in MIS_CANALES:
                         start_time = elem.get('start', '')
                         
-                        # Aplicar desfase horario si aplica
                         if target_id in DESFASE_CANALES:
                             horas = DESFASE_CANALES[target_id]
                             start_time = ajustar_hora(start_time, horas)
@@ -245,22 +185,59 @@ try:
 
                         elem.set('channel', target_id)
                         
-                        # PRIORIDAD: Generar clave estandarizada en UTC
-                        utc_key = normalizar_a_utc(start_time)
-                        llave_programa = (target_id, utc_key)
+                        st_dt = parse_time(elem.get('start'))
+                        sp_dt = parse_time(elem.get('stop'))
                         
-                        if llave_programa not in programas_registrados:
-                            programas_registrados.add(llave_programa)
-                            root_final.append(elem)
+                        if st_dt and sp_dt:
+                            programas_lista.append((elem, target_id, st_dt, sp_dt))
 
-            print(f" ✔ Cargada guía filtrada: {url}")
+            print(f" ✔ Cargada guía pública: {url}")
         except Exception as e:
             print(f" ❌ Error en {url}: {e}")
 
-    print("2. Verificando respaldos únicamente para tus canales...")
+    print("2. Aplicando tu guía propia (Sobreescribiendo conflictos)...")
+    try:
+        guiaroot = descargar_xml(GUIA_PROPIA)
+        for elem in guiaroot:
+            if elem.tag == 'channel':
+                ch_id = elem.get('id')
+                target_id = MAPEO_IDS.get(ch_id, ch_id)
+                if target_id in MIS_CANALES and target_id not in canales_existentes:
+                    canales_existentes.add(target_id)
+                    elem.set('id', target_id)
+                    root_final.append(elem)
+                    
+            elif elem.tag == 'programme':
+                ch_id = elem.get('channel')
+                target_id = MAPEO_IDS.get(ch_id, ch_id)
+                
+                if target_id in MIS_CANALES:
+                    elem.set('channel', target_id)
+                    st_dt = parse_time(elem.get('start'))
+                    sp_dt = parse_time(elem.get('stop'))
+                    
+                    if st_dt and sp_dt:
+                        # 🧹 BORRAR de la guía pública cualquier programa que choque con este horario
+                        programas_lista = [
+                            p for p in programas_lista 
+                            if not (p[1] == target_id and p[2] < sp_dt and p[3] > st_dt)
+                        ]
+                        # Insertar el programa manual de tu guía
+                        programas_lista.append((elem, target_id, st_dt, sp_dt))
+
+        print(f" ✔ Guía propia aplicada con éxito: {GUIA_PROPIA}")
+    except Exception as e:
+        print(f" ❌ Error cargando tu guía propia: {e}")
+
+    # Añadir los programas filtrados al árbol final
+    for p in programas_lista:
+        root_final.append(p[0])
+
+    print("3. Verificando respaldos para canales sin programación...")
     for ch_id in MIS_CANALES:
         if ch_id not in canales_existentes:
             agregar_bloque_respaldo(root_final, ch_id)
+            canales_existentes.add(ch_id)
             print(f" ✔ Respaldo creado para: {ch_id}")
 
     tree = ET.ElementTree(root_final)
