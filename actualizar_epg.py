@@ -22,7 +22,10 @@ MIS_CANALES = {
     'CNNChile.cl', 'CHVNoticias.cl', 'T13Noticias.cl', '24Horas.cl',
 }
 
+# 🔄 MAPEO COMPLETO (Recupera AXN y otros canales desde las guías externas)
 MAPEO_IDS = {
+    'AXN.ar': 'AXN.cl',
+    'AXN.co': 'AXN.cl',
     'DiscoveryHomeAndHealth.ar': 'DiscoveryHomeAndHealth.cl',
     'DiscoveryHome&Health.cl': 'DiscoveryHomeAndHealth.cl',
     'FilmAndArts.ar': 'FilmAndArts.cl',
@@ -32,7 +35,6 @@ MAPEO_IDS = {
     'History2.cl': 'History2.cl1',
 }
 
-# 🌐 GUÍAS PÚBLICAS (Se procesan primero)
 FUENTES_PUBLICAS = [
     "https://iptv-epg.org/files/epg-cl.xml",
     "https://iptv-epg.org/files/epg-ar.xml",
@@ -42,7 +44,6 @@ FUENTES_PUBLICAS = [
     "https://iptv-epg.org/files/epg-bo.xml",
 ]
 
-# 👑 TU GUÍA PROPIA (Se procesa AL FINAL para sobreescribir)
 GUIA_PROPIA = "https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml"
 
 DESFASE_CANALES = {
@@ -76,7 +77,6 @@ DATOS_RESPALDO = {
 }
 
 def parse_time(time_str):
-    """Convierte string de fecha XMLTV a datetime UTC para poder comparar rangos."""
     if not time_str or len(time_str) < 14:
         return None
     try:
@@ -116,14 +116,15 @@ def descargar_xml(url):
         content = gzip.decompress(content)
     return ET.fromstring(content)
 
-def agregar_bloque_respaldo(root, channel_id):
+def agregar_bloque_respaldo(canales_dict, programas_lista, channel_id):
     ch_name, categoria, titulo_prog, desc_prog = DATOS_RESPALDO.get(
         channel_id, (channel_id, 'Variado', 'Programación General', 'Transmisión continua.')
     )
     
-    ch_elem = ET.SubElement(root, 'channel', id=channel_id)
+    ch_elem = ET.Element('channel', id=channel_id)
     dn_elem = ET.SubElement(ch_elem, 'display-name')
     dn_elem.text = ch_name
+    canales_dict[channel_id] = ch_elem
     
     ahora = datetime.datetime.now(datetime.timezone.utc)
     inicio_base = ahora.replace(hour=0, minute=0, second=0, microsecond=0) - datetime.timedelta(days=1)
@@ -133,8 +134,7 @@ def agregar_bloque_respaldo(root, channel_id):
             start_dt = inicio_base + datetime.timedelta(days=dia, hours=bloque*3)
             stop_dt = start_dt + datetime.timedelta(hours=3)
             
-            prog = ET.SubElement(
-                root, 
+            prog = ET.Element(
                 'programme', 
                 start=start_dt.strftime("%Y%m%d%H%M%S +0000"), 
                 stop=stop_dt.strftime("%Y%m%d%H%M%S +0000"), 
@@ -146,6 +146,8 @@ def agregar_bloque_respaldo(root, channel_id):
             desc.text = desc_prog
             category = ET.SubElement(prog, 'category', lang='es')
             category.text = categoria
+            
+            programas_lista.append((prog, channel_id, start_dt, stop_dt))
 
 try:
     root_final = ET.Element('tv', {
@@ -153,8 +155,8 @@ try:
         'generator-info-url': 'https://github.com'
     })
     
-    canales_existentes = set()
-    programas_lista = []  # Almacena tuplas: (elem, channel_id, start_dt, stop_dt)
+    canales_dict = {}     # {channel_id: Element}
+    programas_lista = []  # [(Element, channel_id, st_dt, sp_dt)]
 
     print("1. Cargando fuentes públicas...")
     for url in FUENTES_PUBLICAS:
@@ -165,10 +167,9 @@ try:
                     ch_id = elem.get('id')
                     target_id = MAPEO_IDS.get(ch_id, ch_id)
                     
-                    if target_id in MIS_CANALES and target_id not in canales_existentes:
-                        canales_existentes.add(target_id)
+                    if target_id in MIS_CANALES and target_id not in canales_dict:
                         elem.set('id', target_id)
-                        root_final.append(elem)
+                        canales_dict[target_id] = elem
                         
                 elif elem.tag == 'programme':
                     ch_id = elem.get('channel')
@@ -202,10 +203,9 @@ try:
             if elem.tag == 'channel':
                 ch_id = elem.get('id')
                 target_id = MAPEO_IDS.get(ch_id, ch_id)
-                if target_id in MIS_CANALES and target_id not in canales_existentes:
-                    canales_existentes.add(target_id)
+                if target_id in MIS_CANALES and target_id not in canales_dict:
                     elem.set('id', target_id)
-                    root_final.append(elem)
+                    canales_dict[target_id] = elem
                     
             elif elem.tag == 'programme':
                 ch_id = elem.get('channel')
@@ -217,28 +217,36 @@ try:
                     sp_dt = parse_time(elem.get('stop'))
                     
                     if st_dt and sp_dt:
-                        # 🧹 BORRAR de la guía pública cualquier programa que choque con este horario
+                        # 🧹 ELIMINACIÓN DE BLOQUES CHOQUE: Quita cualquier programa público que choque con el rango
                         programas_lista = [
                             p for p in programas_lista 
                             if not (p[1] == target_id and p[2] < sp_dt and p[3] > st_dt)
                         ]
-                        # Insertar el programa manual de tu guía
                         programas_lista.append((elem, target_id, st_dt, sp_dt))
 
         print(f" ✔ Guía propia aplicada con éxito: {GUIA_PROPIA}")
     except Exception as e:
         print(f" ❌ Error cargando tu guía propia: {e}")
 
-    # Añadir los programas filtrados al árbol final
-    for p in programas_lista:
-        root_final.append(p[0])
-
     print("3. Verificando respaldos para canales sin programación...")
     for ch_id in MIS_CANALES:
-        if ch_id not in canales_existentes:
-            agregar_bloque_respaldo(root_final, ch_id)
-            canales_existentes.add(ch_id)
+        # Verificar si no hay canal o no hay ningún programa registrado para este canal
+        tiene_programas = any(p[1] == ch_id for p in programas_lista)
+        if ch_id not in canales_dict or not tiene_programas:
+            agregar_bloque_respaldo(canales_dict, programas_lista, ch_id)
             print(f" ✔ Respaldo creado para: {ch_id}")
+
+    # 4. ENSAMBLAJE FINAL CON ORDENAMIENTO CRONOLÓGICO
+    # Agregar primero todas las etiquetas <channel>
+    for ch_id in sorted(canales_dict.keys()):
+        root_final.append(canales_dict[ch_id])
+
+    # Ordenar estrictamente los programas por fecha de inicio para que la TV los interprete correctamente
+    programas_lista.sort(key=lambda x: x[2])
+
+    # Agregar todos los elementos <programme> en orden cronológico
+    for p in programas_lista:
+        root_final.append(p[0])
 
     tree = ET.ElementTree(root_final)
     ET.indent(tree, space="  ", level=0)
