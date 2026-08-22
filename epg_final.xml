@@ -280,22 +280,32 @@
     <display-name>CL - Warner Channel</display-name>
     <icon src="https://iptv-epg.org/images/ztdge-BcjIEVHB_ZXQ0pf-rcI7TY4VhzxMNZXjwmIZOxT_vp-eVht2ct6FIFBPUfKPadAkBsHJptyvh-Gp8kVBohKpu8sDDp40MG7ogDShVIaIgzTg" />
   </channel>
-  <programme start="20260821000000 +0000" stop="20260821030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260821000000 +0000" stop="20260821030000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260821000000 +0000" stop="20260821030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260821000000 +0000" stop="20260821030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260821000000 +0000" stop="20260821030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260821000000 +0000" stop="20260821030000 +0000" channel="T13Noticias.cl">
+  <programme start="20260821030000 +0000" stop="20260821060000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260821030000 +0000" stop="20260821060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
@@ -305,17 +315,17 @@
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
   </programme>
-  <programme start="20260821030000 +0000" stop="20260821060000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
   <programme start="20260821030000 +0000" stop="20260821060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260821030000 +0000" stop="20260821060000 +0000" channel="T13Noticias.cl">
+  <programme start="20260821060000 +0000" stop="20260821090000 +0000" channel="NickJr.ar">
+    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
+    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
+    <category lang="es">Infantil</category>
+  </programme>
+  <programme start="20260821060000 +0000" stop="20260821090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
@@ -325,19 +335,9 @@
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
   </programme>
-  <programme start="20260821060000 +0000" stop="20260821090000 +0000" channel="NickJr.ar">
-    <title lang="es">Nick Jr.: Programación Nick Jr.</title>
-    <desc lang="es">Dibujos animados y contenidos educativos.</desc>
-    <category lang="es">Infantil</category>
-  </programme>
   <programme start="20260821060000 +0000" stop="20260821090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260821060000 +0000" stop="20260821090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260821073000 +0000" stop="20260821083000 +0000" channel="TyCSports.cl">
@@ -982,24 +982,24 @@ Como todos viven juntos, la casa está llena del caos Goldberg. Erica, embarazad
     <episode-num>S10 E1</episode-num>
     <title lang="es">Los Goldberg</title>
   </programme>
-  <programme start="20260821090000 +0000" stop="20260821120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260821090000 +0000" stop="20260821120000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260821090000 +0000" stop="20260821120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260821090000 +0000" stop="20260821120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260821090000 +0000" stop="20260821120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260821090000 +0000" stop="20260821120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260821090200 +0000" stop="20260821100000 +0000" channel="TNT.cl">
@@ -3102,24 +3102,24 @@ Un nuevo caso de asesinato conduce al equipo de Horatio hasta Nueva York. Allí 
 Keeping Up with the Kardashians.</desc>
     <title lang="es">Keeping Up with the Kardashians</title>
   </programme>
-  <programme start="20260821120000 +0000" stop="20260821150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260821120000 +0000" stop="20260821150000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260821120000 +0000" stop="20260821150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260821120000 +0000" stop="20260821150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260821120000 +0000" stop="20260821150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260821120000 +0000" stop="20260821150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260821120200 +0000" stop="20260821141400 +0000" channel="GoldenEdge.cl">
@@ -5068,24 +5068,24 @@ El equipo de NCIS debe encontrar al asesino que mató a un teniente de la marina
     <desc lang="es">Marley y yo.</desc>
     <title lang="es">Marley y yo</title>
   </programme>
-  <programme start="20260821150000 +0000" stop="20260821180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260821150000 +0000" stop="20260821180000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260821150000 +0000" stop="20260821180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260821150000 +0000" stop="20260821180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260821150000 +0000" stop="20260821180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260821150000 +0000" stop="20260821180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260821150200 +0000" stop="20260821152600 +0000" channel="FOODNETWORK.uy">
@@ -6978,24 +6978,24 @@ Cuando recordamos que El prometió estar con nosotros, esas palabras se conviert
 Botched.</desc>
     <title lang="es">Botched</title>
   </programme>
-  <programme start="20260821180000 +0000" stop="20260821210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260821180000 +0000" stop="20260821210000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260821180000 +0000" stop="20260821210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260821180000 +0000" stop="20260821210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260821180000 +0000" stop="20260821210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260821180000 +0000" stop="20260821210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260821181000 +0000" stop="20260821182000 +0000" channel="CartoonNetwork.cl">
@@ -8893,24 +8893,24 @@ Este programao buscará entretener tus tardes con diversos temas que van desde l
     <title lang="es">El viento sopla</title>
     <title lang="en">Barami Boonda</title>
   </programme>
-  <programme start="20260821210000 +0000" stop="20260822000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260821210000 +0000" stop="20260822000000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260821210000 +0000" stop="20260822000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260821210000 +0000" stop="20260822000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260821210000 +0000" stop="20260822000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260821210000 +0000" stop="20260822000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260821210400 +0000" stop="20260821212800 +0000" channel="HGTV.ar">
@@ -10795,24 +10795,24 @@ Macarena Pizarro y Daniel Matamala presentan el noticiero más creíble del paí
     <icon src="https://iptv-epg.org/images/TmN21nOFTQSwvrdWQx6wnEuBWa2ON9GlBNEmEGo1FXuHi0Fc3kNWKihIM4_h590iJhg2BSCeHyAusNulcP388zNZns8R_6lqWoMKfDbVeUr9jvtNkvVMWOs6z3E1U8o4gJVEWtSY" />
     <title lang="es">Blue Bloods</title>
   </programme>
-  <programme start="20260822000000 +0000" stop="20260822030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260822000000 +0000" stop="20260822030000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260822000000 +0000" stop="20260822030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260822000000 +0000" stop="20260822030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260822000000 +0000" stop="20260822030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260822000000 +0000" stop="20260822030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260822000500 +0000" stop="20260822010000 +0000" channel="History2.cl1">
@@ -12776,24 +12776,24 @@ Los bebés crean sus propios finales para los cuentos de hadas.</desc>
     <desc lang="es">En una noche de tormenta, nace la bella Marina aparentemente sin vida. La bebé es recibida por Damiana, la partera del pueblo, quien unas horas antes atendió el alumbramiento de un niño sano, pero que desafortunadamente su madre no sobrevivió. Don Luis, el padre de Marina, desde que se casó con Prudencia, vive empeñado en tener un hijo varón, desea un heredero que trascienda su ilustre apellido Ocaranza. Desafortunadamente, Prudencia queda imposibilitada para volver a embarazarse, situación que apremia a su nana Angustias a convencer a Damiana de beneficiar a la familia y al bebé que quedó huérfano, haciéndolo pasar por legítimo hijo Ocaranza Arzuaga. Es así como Luis Alberto, el gran orgullo de Don Luis, crece en cuna de oro y viaja al extranjero para estudiar la carrera de medicina. Marina, milagrosamente sobrevive y crece feliz rodeada de la naturaleza al lado de Damiana, quien le enseña a conocer el mundo de manera distinta, debido a que es invidente. El encanto de Marina por su actitud alegre, fresca.</desc>
     <title lang="es">Sin tu mirada</title>
   </programme>
-  <programme start="20260822030000 +0000" stop="20260822060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260822030000 +0000" stop="20260822060000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260822030000 +0000" stop="20260822060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260822030000 +0000" stop="20260822060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260822030000 +0000" stop="20260822060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260822030000 +0000" stop="20260822060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260822030300 +0000" stop="20260822040300 +0000" channel="NationalGeographic.cl">
@@ -14688,24 +14688,24 @@ Sheldon intenta enseñarles a los chicos una lección después de que lo excluye
 Million Dollar Listing Los Angeles.</desc>
     <title lang="es">Million Dollar Listing Los Angeles</title>
   </programme>
-  <programme start="20260822060000 +0000" stop="20260822090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260822060000 +0000" stop="20260822090000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260822060000 +0000" stop="20260822090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260822060000 +0000" stop="20260822090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260822060000 +0000" stop="20260822090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260822060000 +0000" stop="20260822090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260822060200 +0000" stop="20260822070000 +0000" channel="ESPN.cl">
@@ -16730,24 +16730,24 @@ Los cuatro chefs están dispuestos a dar todo para demostrales a los jueces cuá
     <desc lang="es">Es la historia de Lola, una madre de familia que lucha por mantener unida a su familia en la ciudad de São Paulo entre las décadas de 1920 y 1940, enfrentando dificultades económicas, conflictos familiares y los grandes cambios sociales de la época.</desc>
     <title lang="es">Éramos seis</title>
   </programme>
-  <programme start="20260822090000 +0000" stop="20260822120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260822090000 +0000" stop="20260822120000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260822090000 +0000" stop="20260822120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260822090000 +0000" stop="20260822120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260822090000 +0000" stop="20260822120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260822090000 +0000" stop="20260822120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260822090100 +0000" stop="20260822100000 +0000" channel="Space.cl">
@@ -18854,24 +18854,24 @@ Una mujer semidesnuda es encontrada a medio quemar en el desierto con marcas en 
 Dating: No Filter.</desc>
     <title lang="es">Dating: No Filter</title>
   </programme>
-  <programme start="20260822120000 +0000" stop="20260822150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260822120000 +0000" stop="20260822150000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260822120000 +0000" stop="20260822150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260822120000 +0000" stop="20260822150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260822120000 +0000" stop="20260822150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260822120000 +0000" stop="20260822150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260822120500 +0000" stop="20260822134500 +0000" channel="LasEstrellas.cl">
@@ -20707,24 +20707,24 @@ La estación 126 le da la bienvenida a la nueva capitana paramédica, Tommy Vega
     <desc lang="es">Sigue la historia de amor entre Marina y Luis Alberto, que está llena de escollos.</desc>
     <title lang="es">Sin tu mirada. Emisión del día lunes</title>
   </programme>
-  <programme start="20260822150000 +0000" stop="20260822180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260822150000 +0000" stop="20260822180000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260822150000 +0000" stop="20260822180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260822150000 +0000" stop="20260822180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260822150000 +0000" stop="20260822180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260822150000 +0000" stop="20260822180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260822150500 +0000" stop="20260822153000 +0000" channel="Nick.cl">
@@ -22405,24 +22405,24 @@ Cuando recordamos que El prometió estar con nosotros, esas palabras se conviert
     <desc lang="es">Sigue la historia de amor entre Marina y Luis Alberto,aunque está llena de escollos.</desc>
     <title lang="es">Sin tu mirada. Emisión del día jueves</title>
   </programme>
-  <programme start="20260822180000 +0000" stop="20260822210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260822180000 +0000" stop="20260822210000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260822180000 +0000" stop="20260822210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260822180000 +0000" stop="20260822210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260822180000 +0000" stop="20260822210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260822180000 +0000" stop="20260822210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260822180400 +0000" stop="20260822200600 +0000" channel="WarnerChannel.cl">
@@ -24161,24 +24161,24 @@ Cuando los amigos imaginarios deciden salir de camping y Bloo se come todas las 
     <icon src="https://iptv-epg.org/images/7USyKFCoC6SPcgzNbPsHPWYxDj_XErXDVNZj4-ylD2hDh0Uxm-lHWjVd_zJPB2dpO3kv2MSu6NLcKnOX4yCpgwdLq3_xdJ_GYlRFP46orSKYaDGPB07JlO2wyPp6UpnkJWNrOwMVLwLhmSILOWaw" />
     <title lang="es">Rápidos y Furiosos 9</title>
   </programme>
-  <programme start="20260822210000 +0000" stop="20260823000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260822210000 +0000" stop="20260823000000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260822210000 +0000" stop="20260823000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260822210000 +0000" stop="20260823000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260822210000 +0000" stop="20260823000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260822210000 +0000" stop="20260823000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260822210400 +0000" stop="20260822212800 +0000" channel="HGTV.ar">
@@ -26013,24 +26013,24 @@ Ami y Yumi rescatan a unas langostas de un restaurante de mariscos.</desc>
     <desc lang="es">Un ciclo de boxeo y MMA con los mejores combates para toda Latinoamérica.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260823000000 +0000" stop="20260823030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260823000000 +0000" stop="20260823030000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260823000000 +0000" stop="20260823030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260823000000 +0000" stop="20260823030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260823000000 +0000" stop="20260823030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260823000000 +0000" stop="20260823030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260823000200 +0000" stop="20260823020000 +0000" channel="WarnerChannel.cl">
@@ -27896,24 +27896,24 @@ Lucas piensa que, si comparte sus juguetes viejos, la abuela le comprará unos n
     <title lang="es">Tren bala</title>
     <title lang="en">Bullet Train</title>
   </programme>
-  <programme start="20260823030000 +0000" stop="20260823060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260823030000 +0000" stop="20260823060000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260823030000 +0000" stop="20260823060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260823030000 +0000" stop="20260823060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260823030000 +0000" stop="20260823060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260823030000 +0000" stop="20260823060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260823030200 +0000" stop="20260823035600 +0000" channel="TNTSeries.cl">
@@ -29710,24 +29710,24 @@ Cuando el ADN de una investigación de violación de la UVE conecta con un asesi
     <desc lang="es">El reencuentro de una madre y su hija sólo traerá venganza, traición y muerte en esta guerra de escorpiones que cambiará por completo las vidas de todos.</desc>
     <title lang="es">Escorpion. Emisión del día lunes</title>
   </programme>
-  <programme start="20260823060000 +0000" stop="20260823090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260823060000 +0000" stop="20260823090000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260823060000 +0000" stop="20260823090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260823060000 +0000" stop="20260823090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260823060000 +0000" stop="20260823090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260823060000 +0000" stop="20260823090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260823060500 +0000" stop="20260823072500 +0000" channel="ESPN.cl">
@@ -31624,24 +31624,24 @@ Un nuevo grupo de jóvenes chefs trae su entusiasmo a la cocina de Chopped y com
     <desc lang="es">El reencuentro de una madre y su hija sólo traerá venganza, traición y muerte en esta guerra de escorpiones que cambiará por completo las vidas de todos.</desc>
     <title lang="es">Escorpion. Emisión del día jueves</title>
   </programme>
-  <programme start="20260823090000 +0000" stop="20260823120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260823090000 +0000" stop="20260823120000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260823090000 +0000" stop="20260823120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260823090000 +0000" stop="20260823120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260823090000 +0000" stop="20260823120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260823090000 +0000" stop="20260823120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260823090500 +0000" stop="20260823093000 +0000" channel="Nick.cl">
@@ -33706,24 +33706,24 @@ Vanderpump Rules.</desc>
     <icon src="https://iptv-epg.org/images/ysZItVX93TA8b56sA9zFCsILkRlramTxiM2_8fXesUrVtBaJHqnHh8TrkuvaYqKqWeMlJuWaP2gijMsaT9ZG22dcanNAPJC7qznyIsJ2EDUdpTbj7Te-CK2DhTY6BMOUO6NVxz3xaA" />
     <title lang="es">Transformers</title>
   </programme>
-  <programme start="20260823120000 +0000" stop="20260823150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260823120000 +0000" stop="20260823150000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260823120000 +0000" stop="20260823150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260823120000 +0000" stop="20260823150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260823120000 +0000" stop="20260823150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260823120000 +0000" stop="20260823150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260823120300 +0000" stop="20260823122500 +0000" channel="WarnerChannel.cl">
@@ -35657,24 +35657,24 @@ Un funcionario de libertad condicional es asesinado a disparos y uno de los prin
     <desc lang="es">Sigue la historia de Rosa que crece en un prestigioso internado y que conoce a José Ignacio, en un desagradable acontecimiento.</desc>
     <title lang="es">Rosa Diamante. Emisión del día viernes</title>
   </programme>
-  <programme start="20260823150000 +0000" stop="20260823180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260823150000 +0000" stop="20260823180000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260823150000 +0000" stop="20260823180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260823150000 +0000" stop="20260823180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260823150000 +0000" stop="20260823180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260823150000 +0000" stop="20260823180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260823150500 +0000" stop="20260823153000 +0000" channel="Nick.cl">
@@ -37320,24 +37320,24 @@ Cuando la humanidad desaparezca, la vasta y frágil infraestructura oculta bajo 
     <desc lang="es">Cuando lo diagnostican con alzhéimer, un hombre se divorcia del amor de su vida sin decirle por qué, pero se topa con ella años después.</desc>
     <title lang="es">El viento sopla. Emisión del día miércoles</title>
   </programme>
-  <programme start="20260823180000 +0000" stop="20260823210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260823180000 +0000" stop="20260823210000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260823180000 +0000" stop="20260823210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260823180000 +0000" stop="20260823210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260823180000 +0000" stop="20260823210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260823180000 +0000" stop="20260823210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260823180500 +0000" stop="20260823184000 +0000" channel="AE.cl">
@@ -39140,24 +39140,24 @@ Mac recurre al detective Jackie Khones para que lo ayude a desentrañar el miste
     <title lang="es">Karate Kid</title>
     <title lang="en">The Karate Kid</title>
   </programme>
-  <programme start="20260823210000 +0000" stop="20260824000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260823210000 +0000" stop="20260824000000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260823210000 +0000" stop="20260824000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260823210000 +0000" stop="20260824000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260823210000 +0000" stop="20260824000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260823210000 +0000" stop="20260824000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260823210400 +0000" stop="20260823212800 +0000" channel="HGTV.ar">
@@ -40917,24 +40917,24 @@ Kaz trata de meter a los gatos en problemas.</desc>
     <icon src="https://iptv-epg.org/images/TmN21nOFTQSwvrdWQx6wnEuBWa2ON9GlBNEmEGo1FXuHi0Fc3kNWKihIM4_h590iJhg2BSCeHyAusNulcP388zNZns8R_6lqWoMKfDbVeUr9jvtNkvVMWOs6z3E1U8o4gJVEWtSY" />
     <title lang="es">Blue Bloods</title>
   </programme>
-  <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260824000400 +0000" stop="20260824001600 +0000" channel="DiscoveryKids.cl">
@@ -42735,24 +42735,24 @@ Silvestre está celoso de la atención que recibe Pepe.</desc>
     <desc lang="es">Sigue la historia de amor entre Marina y Luis Alberto, que está llena de escollos.</desc>
     <title lang="es">Sin tu mirada. Emisión del día martes</title>
   </programme>
-  <programme start="20260824030000 +0000" stop="20260824060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260824030000 +0000" stop="20260824060000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260824030000 +0000" stop="20260824060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260824030000 +0000" stop="20260824060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824030000 +0000" stop="20260824060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260824030000 +0000" stop="20260824060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260824030100 +0000" stop="20260824040300 +0000" channel="NationalGeographic.cl">
@@ -44507,24 +44507,24 @@ Charles se apresura a convencer a un paciente de que acepte el tratamiento antes
     <icon src="https://iptv-epg.org/images/TmN21nOFTQSwvrdWQx6wnEuBWa2ON9GlBNEmEGo1FXuHi0Fc3kNWKihIM4_h590iJhg2BSCeHyAusNulcP388zNZns8R_6lqWoMKfDbVeUr9jvtNkvVMWOs6z3E1U8o4gJVEWtSY" />
     <title lang="es">Blue Bloods</title>
   </programme>
-  <programme start="20260824060000 +0000" stop="20260824090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260824060000 +0000" stop="20260824090000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260824060000 +0000" stop="20260824090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260824060000 +0000" stop="20260824090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824060000 +0000" stop="20260824090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260824060000 +0000" stop="20260824090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260824060300 +0000" stop="20260824062500 +0000" channel="WarnerChannel.cl">
@@ -46457,24 +46457,24 @@ Los cuatro pequeños chefs preparan un banquete para los jueces Sam Kass, Marc M
     <desc lang="es">Narra la historia de tres hermanas, Turkan, Donus y Deria, y los obstáculos que deben superar.</desc>
     <title lang="es">Tres hermanas. Emisión del día viernes</title>
   </programme>
-  <programme start="20260824090000 +0000" stop="20260824120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260824090000 +0000" stop="20260824120000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260824090000 +0000" stop="20260824120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260824090000 +0000" stop="20260824120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824090000 +0000" stop="20260824120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260824090000 +0000" stop="20260824120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260824090500 +0000" stop="20260824100000 +0000" channel="NationalGeographic.cl">
@@ -48469,24 +48469,24 @@ El derrumbamiento de un puente lleva al equipo de forenses del C.S.I. al barco q
     <desc lang="es">En una noche de tormenta, nace la bella Marina aparentemente sin vida. La bebé es recibida por Damiana, la partera del pueblo, quien unas horas antes atendió el alumbramiento de un niño sano, pero que desafortunadamente su madre no sobrevivió. Don Luis, el padre de Marina, desde que se casó con Prudencia, vive empeñado en tener un hijo varón, desea un heredero que trascienda su ilustre apellido Ocaranza. Desafortunadamente, Prudencia queda imposibilitada para volver a embarazarse, situación que apremia a su nana Angustias a convencer a Damiana de beneficiar a la familia y al bebé que quedó huérfano, haciéndolo pasar por legítimo hijo Ocaranza Arzuaga. Es así como Luis Alberto, el gran orgullo de Don Luis, crece en cuna de oro y viaja al extranjero para estudiar la carrera de medicina. Marina, milagrosamente sobrevive y crece feliz rodeada de la naturaleza al lado de Damiana, quien le enseña a conocer el mundo de manera distinta, debido a que es invidente. El encanto de Marina por su actitud alegre, fresca.</desc>
     <title lang="es">Sin tu mirada</title>
   </programme>
-  <programme start="20260824120000 +0000" stop="20260824150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260824120000 +0000" stop="20260824150000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260824120000 +0000" stop="20260824150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260824120000 +0000" stop="20260824150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824120000 +0000" stop="20260824150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260824120000 +0000" stop="20260824150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260824120200 +0000" stop="20260824122800 +0000" channel="WarnerChannel.cl">
@@ -50390,24 +50390,24 @@ La misión secreta en la que Jen utiliza a Tony finalmente llega a su fin. Ella 
     <title lang="es">El viento sopla</title>
     <title lang="en">Barami Boonda</title>
   </programme>
-  <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260824150500 +0000" stop="20260824160500 +0000" channel="History2.cl1">
@@ -52069,24 +52069,24 @@ Kirk y Ray te enseñan diversos consejos de evangelización, mostrándote su ver
     <title lang="es">Escorpión</title>
     <title lang="en">Akrep</title>
   </programme>
-  <programme start="20260824180000 +0000" stop="20260824210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260824180000 +0000" stop="20260824210000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260824180000 +0000" stop="20260824210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260824180000 +0000" stop="20260824210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824180000 +0000" stop="20260824210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260824180000 +0000" stop="20260824210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260824180200 +0000" stop="20260824195700 +0000" channel="Cinemax.cl">
@@ -53952,24 +53952,24 @@ La chef Shirley Chung tiene cuentas pendientes con los Titans de Bobby Flay, esp
     <title lang="es">El viento sopla</title>
     <title lang="en">Barami Boonda</title>
   </programme>
-  <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="NickJr.ar">
     <title lang="es">Nick Jr.: Programación Nick Jr.</title>
     <desc lang="es">Dibujos animados y contenidos educativos.</desc>
     <category lang="es">Infantil</category>
   </programme>
-  <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260824210400 +0000" stop="20260824212800 +0000" channel="HGTV.ar">
