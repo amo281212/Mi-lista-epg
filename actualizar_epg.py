@@ -81,7 +81,6 @@ MIS_CANALES = {
 # 🔄 MAPEO COMPLETO (Recupera AXN y otros canales desde las guías externas)
 MAPEO_IDS = {
     'Sony.co': 'Sony.cl',
-    'Sony.ar': 'Sony.cl',
     'AXN.ar': 'AXN.cl',
     'AXN.co': 'AXN.cl',
     'DiscoveryHomeAndHealth.ar': 'DiscoveryHomeAndHealth.cl',
