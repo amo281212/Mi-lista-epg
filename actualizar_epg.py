@@ -100,9 +100,8 @@ FUENTES_PUBLICAS = [
     "https://iptv-epg.org/files/epg-co.xml",
     "https://iptv-epg.org/files/epg-uy.xml",
     "https://iptv-epg.org/files/epg-bo.xml",
+    "https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml",
 ]
-
-GUIA_PROPIA = "https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml"
 
 DESFASE_CANALES = {
     'Cinemax.cl': +1,
