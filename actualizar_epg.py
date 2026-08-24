@@ -102,6 +102,8 @@ FUENTES_PUBLICAS = [
     "https://iptv-epg.org/files/epg-bo.xml",
 ]
 
+GUIA_PROPIA = "https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml"
+
 DESFASE_CANALES = {
     'Cinemax.cl': +1,
     'ESPN2.cl': -1,
