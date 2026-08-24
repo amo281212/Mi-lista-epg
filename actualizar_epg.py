@@ -91,7 +91,6 @@ MAPEO_IDS = {
     'AE.ar': 'AE.cl',
     'A&E.cl': 'AE.cl',
     'History2.cl': 'History2.cl1',
-    'HBO.ar': 'HBO.cl',
 }
 
 FUENTES_PUBLICAS = [
