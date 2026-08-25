@@ -294,20 +294,20 @@
     <category lang="es">Auto</category>
     <title lang="es">Freedom 250 Grand Prix of Washington, D.C.</title>
   </programme>
-  <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260824000700 +0000" stop="20260824020000 +0000" channel="TNT.cl">
     <category lang="es">Fantasía</category>
@@ -721,11 +721,6 @@ Dora.</desc>
     <icon src="https://iptv-epg.org/images/TmN21nOFTQSwvrdWQx6wnEuBWa2ON9GlBNEmEGo1FXuHi0Fc3kNWKihIM4_h590iJhg2BSCeHyAusNulcP388zNZns8R_6lqWoMKfDbVeUr9jvtNkvVMWOs6z3E1U8o4gJVEWtSY" />
     <title lang="es">Blue Bloods</title>
   </programme>
-  <programme start="20260823205000 -0400" stop="20260823220500 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Todos Somos Técnicos (Repetición)</title>
-    <desc lang="es">Repetición 23-08-2026.</desc>
-    <category lang="es">Deportes</category>
-  </programme>
   <programme start="20260824005100 +0000" stop="20260824030000 +0000" channel="Cinecanal.cl">
     <category lang="es">Comedia</category>
     <credits>
@@ -844,11 +839,6 @@ Este segmento de respuestas es fundado por él porque sabe que Jesús y la Palab
     <icon src="https://iptv-epg.org/images/YnPjjt1m4JvGmZN-3-qu2AhUBW8nx9W8YYPsXwXHrhRm0OrjMowIH6-6NvTFLP8LMo0w_vA8Sd5o2Lo9R7Vk4N7bLlHcgomFU6UrxhZdcz42IQZJczp1sdt8gdsGiyKjDvz7-2zFopDXNsm_1YvVWlpBljF-CQLaQ8f_RUTkFfEm0rRW" />
     <title lang="es">Respuestas con Bayless Conley</title>
     <title lang="en">Answers with Bayless Conley</title>
-  </programme>
-  <programme start="20260824010000 +0000" stop="20260824030000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Lincoln City vs. Portsmouth</title>
   </programme>
   <programme start="20260824010000 +0000" stop="20260824030000 +0000" channel="ESPN2.cl">
     <category lang="es">Auto</category>
@@ -1050,10 +1040,6 @@ Espacio en el que se darán a conocer historias conmovedoras y divertidas con un
     <icon src="https://iptv-epg.org/images/FMyTL3raWgaFfitwpDUSImoxyKTw64naWeNGfT4xyBW-0ziSeoYYwxn-MMCzCLOEifwspoS28GLAhYYj_HTccfKrpNyOkNZZocoIy4TSdm6WIsQMK6xpMy_uxfHW" />
     <title lang="es">Como dice el dicho</title>
   </programme>
-  <programme start="20260824012000 +0000" stop="20260824015000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">default</category>
-    <title lang="es">Copec Rallymobil</title>
-  </programme>
   <programme start="20260824012000 +0000" stop="20260824032000 +0000" channel="SONYMOVIES.uy">
     <category lang="es">Acción</category>
     <category lang="es">Drama</category>
@@ -1066,6 +1052,11 @@ Espacio en el que se darán a conocer historias conmovedoras y divertidas con un
     <desc lang="es">Los casos más impresionantes
 Botched.</desc>
     <title lang="es">Botched</title>
+  </programme>
+  <programme start="20260823212000 -0400" stop="20260823215000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">+Motor Copec Rallymobil (20-08-2026)</title>
+    <desc lang="es">Sin información.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824012300 +0000" stop="20260824015000 +0000" channel="DiscoveryKids.cl">
     <desc lang="es">S3 E16 — A dormir, rockerito / El enigma de la pirámide / ¡He vuelto! / Siente la música / Salvemos a..
@@ -1247,10 +1238,6 @@ Buscando un trabajo a tiempo parcial, Henry Hart, de 13 años, se encuentra ayud
     <category lang="es">Talk</category>
     <title lang="es">Todos somos técnicos</title>
   </programme>
-  <programme start="20260824015000 +0000" stop="20260824030500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">Todos somos técnicos</title>
-  </programme>
   <programme start="20260824015000 +0000" stop="20260824024000 +0000" channel="UniversalTV.cl">
     <desc lang="es">S22 E12 — En el año en el que nos caímos todos
 Benson entra en un restaurante en el que se está llevando a cabo una toma de rehenes. Rollins trata de ayudar a su padre luego de que este es hospitalizado.</desc>
@@ -1266,6 +1253,11 @@ John y Anthony se dirigen a Lafayatte, Nueva Jersey, para renovar la cocina de 1
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Primos al rescate: cocinas desastrosas</title>
     <title lang="en">America's Most Desperate Kitchens</title>
+  </programme>
+  <programme start="20260823215000 -0400" stop="20260823230500 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Todos Somos Técnicos (Repetición)</title>
+    <desc lang="es">Repetición 23-08-2026.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824015500 +0000" stop="20260824022800 +0000" channel="StarChannel.cl">
     <desc lang="es">Comedia
@@ -1560,11 +1552,6 @@ Cuando Tina recibe noticias inesperadas, Calvin, Dave y Gemma la animan a abraza
 Toda la informacion meteorológica del país.</desc>
     <icon src="https://iptv-epg.org/images/BDj1Bq_gS8cvCDqNc73uKBeE0XI3sTu3BF8a9ClwOxLgVNbKEKEV_G94pgqMEXS-RnXjxtSzkMQsM7SIny9jHogP039G4dWxpWHMgjSa795NanmO" />
     <title lang="es">El tiempo</title>
-  </programme>
-  <programme start="20260823220500 -0400" stop="20260824000500 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">D. La Serena vs Cobresal (Repetición)</title>
-    <desc lang="es">Repetición.</desc>
-    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824021000 +0000" stop="20260824022000 +0000" channel="CartoonNetwork.cl">
     <desc lang="es">S4 E19 — Mano zombie
@@ -2093,16 +2080,6 @@ El piloto de combate convertido en ministro, el Dr. Winston, comparte su forma d
     <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
     <title lang="es">Camino de fe del creyente</title>
   </programme>
-  <programme start="20260824030000 +0000" stop="20260824030000 +0000" channel="ESPN.cl">
-    <category lang="es">Boxing</category>
-    <category>Sports</category>
-    <title lang="es">Legacy Fighting Alliance 239</title>
-  </programme>
-  <programme start="20260824030000 +0000" stop="20260824050000 +0000" channel="ESPN.cl">
-    <category lang="es">Boxing</category>
-    <category>Sports</category>
-    <title lang="es">Legacy Fighting Alliance 239</title>
-  </programme>
   <programme start="20260824030000 +0000" stop="20260824040000 +0000" channel="ESPN2.cl">
     <category lang="es">default</category>
     <title lang="es">WTA 1000: Cincinnati Open, final</title>
@@ -2204,20 +2181,20 @@ Silvestre está celoso de la atención que recibe Pepe.</desc>
 Botched.</desc>
     <title lang="es">Botched</title>
   </programme>
-  <programme start="20260824030000 +0000" stop="20260824060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260824030000 +0000" stop="20260824060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260824030000 +0000" stop="20260824060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260824030000 +0000" stop="20260824060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260824030000 +0000" stop="20260824060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260824030100 +0000" stop="20260824040300 +0000" channel="NationalGeographic.cl">
     <desc lang="es">El delito en el cuerpo
@@ -2249,10 +2226,10 @@ Es el día de las profesiones en la guardería. / Jay tiene un puesto de frutas 
     <title lang="es">El atelier</title>
     <title lang="en">Workshop</title>
   </programme>
-  <programme start="20260824030500 +0000" stop="20260824050500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Deportes La Serena vs. Cobresal</title>
+  <programme start="20260823230500 -0400" stop="20260824010500 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">D. La Serena vs Cobresal (Repetición)</title>
+    <desc lang="es">Repetición.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824030900 +0000" stop="20260824033400 +0000" channel="FOODNETWORK.uy">
     <date>2011</date>
@@ -2773,11 +2750,6 @@ Cuando la matriarca Mimi muere, se produce una gran división en la familia: la 
     <desc lang="es">T1-E10 A dormir cocodrilo / El puesto de empanadas / Las botas perfectas / La piñata
 Dora.</desc>
     <title lang="es">Dora</title>
-  </programme>
-  <programme start="20260824000500 -0400" stop="20260824021000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">U. Católica vs Ñublense (Repetición)</title>
-    <desc lang="es">Repetición.</desc>
-    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824040600 +0000" stop="20260824045600 +0000" channel="DiscoveryHomeAndHealth.cl">
     <desc lang="es">S4 E1 — El bulto que rompe el récord
@@ -3463,17 +3435,17 @@ Un avión pakistaní se estrella en el Himalaya. La evidencia más importante no
     <title lang="es">Aquaman y el reino perdido</title>
     <title lang="en">Aquaman and the Lost Kingdom</title>
   </programme>
-  <programme start="20260824050500 +0000" stop="20260824071000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Universidad Católica vs. Ñublense</title>
-  </programme>
   <programme start="20260824050500 +0000" stop="20260824054900 +0000" channel="FOODNETWORK.uy">
     <date>2014</date>
     <desc lang="es">S1 E8
 Cuatro asadores de primera en Austin, Texas, compiten por $10,000 y el título de Maestro Parrillero de Austin. Jay, Evan, Laura y Arturo deben usar ingredientes locales como pomelo rojo rubí, nopales, nueces pecanas y filete de res.</desc>
     <episode-num>S1 E8</episode-num>
     <title lang="es">American Grilled</title>
+  </programme>
+  <programme start="20260824010500 -0400" stop="20260824031000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">U. Católica vs Ñublense (Repetición)</title>
+    <desc lang="es">Repetición.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824050600 +0000" stop="20260824055800 +0000" channel="AnimalPlanet.cl">
     <desc lang="es">S1 E2 — Hombre vs. elefante
@@ -4100,20 +4072,20 @@ Charles se apresura a convencer a un paciente de que acepte el tratamiento antes
     <icon src="https://iptv-epg.org/images/TmN21nOFTQSwvrdWQx6wnEuBWa2ON9GlBNEmEGo1FXuHi0Fc3kNWKihIM4_h590iJhg2BSCeHyAusNulcP388zNZns8R_6lqWoMKfDbVeUr9jvtNkvVMWOs6z3E1U8o4gJVEWtSY" />
     <title lang="es">Blue Bloods</title>
   </programme>
-  <programme start="20260824060000 +0000" stop="20260824090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260824060000 +0000" stop="20260824090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260824060000 +0000" stop="20260824090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260824060000 +0000" stop="20260824090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260824060000 +0000" stop="20260824090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260824060300 +0000" stop="20260824062500 +0000" channel="WarnerChannel.cl">
     <desc lang="es">S11 E21 — La polarización del cometa
@@ -4145,11 +4117,6 @@ Twister está harto de las bromas de Hope y Punch, así que se construye una cab
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Los Marsupilamis</title>
     <title lang="en">The Marsupilamis</title>
-  </programme>
-  <programme start="20260824021000 -0400" stop="20260824025500 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Paredes y Herrera</title>
-    <desc lang="es">Repetición.</desc>
-    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824061200 +0000" stop="20260824070000 +0000" channel="DiscoveryScience.cl">
     <desc lang="es">Fuego en la tumba del rey Tut
@@ -4656,11 +4623,6 @@ Los gemelos llevan a un cactus a la playa y terminan en una dramática misión d
     <title lang="es">Best y Bester: cada forma una aventura</title>
     <title lang="en">Best &amp; Bester</title>
   </programme>
-  <programme start="20260824025500 -0400" stop="20260824050000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">O'Higgins vs Palestino (Repetición)</title>
-    <desc lang="es">Repetición.</desc>
-    <category lang="es">Deportes</category>
-  </programme>
   <programme start="20260824065600 +0000" stop="20260824070800 +0000" channel="DiscoveryKids.cl">
     <desc lang="es">S1 E28 — Observando las estrellas
 Dog y Pony se unen a Chloe y Zoe en una noche de astronomía, pero reciben más de lo que esperaban cuando deben salvar a Unicity de una estrella fugaz.</desc>
@@ -4893,17 +4855,17 @@ Gumball y Darwin no tienen éxito cuando intentan realizar películas clásicas 
     <title lang="es">El increíble mundo de Gumball</title>
     <title lang="en">The Amazing World of Gumball</title>
   </programme>
-  <programme start="20260824071000 +0000" stop="20260824075500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Paredes y Herrera</title>
-  </programme>
   <programme start="20260824071000 +0000" stop="20260824080500 +0000" channel="AXN.cl">
     <desc lang="es">S3 E4 — Dead on Arrival
 Un piloto de la Marina es encontrado muerto en un complejo militar, el equipo se infiltra a investigar, para descubrir que una empresa criminal escondida, puede ser la raíz del homicidio.</desc>
     <episode-num>S3 E4</episode-num>
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">NCIS: Hawaii</title>
+  </programme>
+  <programme start="20260824031000 -0400" stop="20260824035500 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Paredes y Herrera</title>
+    <desc lang="es">Repetición.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824071100 +0000" stop="20260824075500 +0000" channel="HGTV.ar">
     <desc lang="es">S5 E2 — Rompecabezas, burbuja, agujas
@@ -5360,11 +5322,6 @@ Mumm-Ra crea un museo vivo de los enemigos más grandes de los Felinos Cósmicos
 Deer Squad.</desc>
     <title lang="es">Deer Squad</title>
   </programme>
-  <programme start="20260824075500 +0000" stop="20260824100000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">O'Higgins vs. CD Palestino</title>
-  </programme>
   <programme start="20260824075500 +0000" stop="20260824081700 +0000" channel="HGTV.ar">
     <desc lang="es">S1 E12 — Rudy Gay y David Wells
 El jugador Rudy Gay busca una casa lujosa para rentar en Toronto. Además, David Wells vende su mansión de San Diego.</desc>
@@ -5380,6 +5337,11 @@ Mientras Carlene recibe una carta en cadena, Mary Jo sale con un modelo comercia
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Chicas con clase</title>
     <title lang="en">Designing Women</title>
+  </programme>
+  <programme start="20260824035500 -0400" stop="20260824060000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">O'Higgins vs Palestino (Repetición)</title>
+    <desc lang="es">Repetición.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824075600 +0000" stop="20260824080800 +0000" channel="DiscoveryKids.cl">
     <desc lang="es">S1 E24 — El bloqueo
@@ -6219,25 +6181,20 @@ Los cuatro pequeños chefs preparan un banquete para los jueces Sam Kass, Marc M
     <desc lang="es">Narra la historia de tres hermanas, Turkan, Donus y Deria, y los obstáculos que deben superar.</desc>
     <title lang="es">Tres hermanas. Emisión del día viernes</title>
   </programme>
-  <programme start="20260824050000 -0400" stop="20260824061500 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Todos Somos Técnicos (Repetición)</title>
-    <desc lang="es">Repetición 23-08-2026.</desc>
-    <category lang="es">Deportes</category>
-  </programme>
-  <programme start="20260824090000 +0000" stop="20260824120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260824090000 +0000" stop="20260824120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260824090000 +0000" stop="20260824120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260824090000 +0000" stop="20260824120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260824090000 +0000" stop="20260824120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260824090500 +0000" stop="20260824100000 +0000" channel="NationalGeographic.cl">
     <desc lang="es">S3 E3 — Hitler contra Gran Bretaña
@@ -6836,10 +6793,6 @@ Lorelei Martins regresa decidida a investigar si Red John tuvo algo que ver con 
     <title lang="es">El mentalista</title>
     <title lang="en">The Mentalist</title>
   </programme>
-  <programme start="20260824100000 +0000" stop="20260824111500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">Todos somos técnicos</title>
-  </programme>
   <programme start="20260824100000 +0000" stop="20260824101000 +0000" channel="Tooncast.cl">
     <desc lang="es">S4 E8 — Living la vida Lumpus
 Lumpus hace lo imposible... ¡Convence a Lazlo que el Campamento Riñón es realmente terrible!</desc>
@@ -6902,6 +6855,11 @@ Mientras Shaun se enfrenta al dr. Meléndez para tratar a un conserje del hospit
     <desc lang="es">Estas tres hermanas son cercanas en edad, pero muy diferentes la una de la otra. Deria es la menor y se encuentra en su etapa más rebelde. Su vida cambia cuando conoce Hakan, quién no le conviene, ya que está mal encaminado. Donus, otra de las hermanas, no logró estudiar en la universidad por motivos de salud, y sus padres no pudieron ayudarla. Ella conocerá a Serdar, un muchacho de su mismo pueblo, del cual se enamorará, pero sus padres no le darán su permiso para salir con él. Turkan, la hermana mayor, es la más desdichada de las tres, pero debe ser el ejemplo de sus dos hermanas.</desc>
     <title lang="es">Tres hermanas</title>
     <title lang="en">Üç Kiz Kardes</title>
+  </programme>
+  <programme start="20260824060000 -0400" stop="20260824071500 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Todos Somos Técnicos (Repetición)</title>
+    <desc lang="es">Repetición 23-08-2026.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824100500 +0000" stop="20260824120000 +0000" channel="StarChannel.cl">
     <category lang="es">Comedia</category>
@@ -7079,11 +7037,6 @@ La Operación Barbarroja, fue lanzada en 1941, siendo la invasión sorpresa más
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Segunda Guerra Mundial con Tom Hanks</title>
     <title lang="en">World War II with Tom Hanks</title>
-  </programme>
-  <programme start="20260824061500 -0400" stop="20260824081500 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">D. Antofagasta vs D. Temuco (Repetición)</title>
-    <desc lang="es">Repetición 23-08-2026.</desc>
-    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824101900 +0000" stop="20260824120000 +0000" channel="TNT.cl">
     <category lang="es">Animación</category>
@@ -7712,15 +7665,15 @@ Al terminar su serie, David Hobbs, pone en práctica las habilidades que aprendi
     <title lang="es">Un papá en apuros</title>
     <title lang="en">See Dad Run</title>
   </programme>
-  <programme start="20260824111500 +0000" stop="20260824131500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Deportes Antofagasta vs. Temuco</title>
-  </programme>
   <programme start="20260824111500 +0000" stop="20260824113500 +0000" channel="NickJr.bo">
     <desc lang="es">T1-E2 Bada-Bam / Los Barbamarcianos
 Barbapapá y su familia.</desc>
     <title lang="es">Barbapapá y su familia</title>
+  </programme>
+  <programme start="20260824071500 -0400" stop="20260824091500 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">D. Antofagasta vs D. Temuco (Repetición)</title>
+    <desc lang="es">Repetición 23-08-2026.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824111900 +0000" stop="20260824113900 +0000" channel="AE.cl">
     <desc lang="es">S15 E331 — Piedra, papel y gané
@@ -8179,10 +8132,6 @@ Presencia en este espacio las prédicas del pastor Cash Luna con un mensaje de f
     <icon src="https://iptv-epg.org/images/suCCWEU8QQkPdEeLmfhjx5X36yaYqYH1O7fFcOiE5Midcx6zBM-rcn9YaSmPytdoRPGaEx_7hianUQXaIn2-OQ6eYQHHsxTHrv-a6SGgfbXZObzpp9yH" />
     <title lang="es">Casa de Dios</title>
   </programme>
-  <programme start="20260824120000 +0000" stop="20260824130000 +0000" channel="ESPN.cl">
-    <category lang="es">default</category>
-    <title lang="es">WTA 1000: Cincinnati Open, final</title>
-  </programme>
   <programme start="20260824120000 +0000" stop="20260824130000 +0000" channel="ESPN2.cl">
     <category lang="es">default</category>
     <title lang="es">Premier League: Hull City vs. Manchester United</title>
@@ -8330,20 +8279,20 @@ Keeping Up with the Kardashians.</desc>
 Blaze y los Monster Machines.</desc>
     <title lang="es">Blaze y los Monster Machines</title>
   </programme>
-  <programme start="20260824120000 +0000" stop="20260824150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260824120000 +0000" stop="20260824150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260824120000 +0000" stop="20260824150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260824120000 +0000" stop="20260824150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260824120000 +0000" stop="20260824150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260824120200 +0000" stop="20260824122800 +0000" channel="WarnerChannel.cl">
     <desc lang="es">S11 E24 — La asimetría de la pajarita
@@ -8405,11 +8354,6 @@ Cuando a Corey se le ocurre realizar la compra de diversos artículos de gran va
     <icon src="https://iptv-epg.org/images/HIJwVN2ZXADryU1_NhnkIpoxbY_2hhE6Ttg3DbfThWeo5nLCR7E-CsFj7eSTk8ZayjhjRp5nLyrY5PTnOdFZYDBAeqov39Wrf8WXlIJw71dXg5kCK4H6WS8WucH3z4urf8Z3DzjHaabRAnVqEdRI_03q5zfBQlYj9cagnIP7PwuAhqrB" />
     <title lang="es">Lo mejor de El precio de la historia</title>
     <title lang="en">Best of Pawn Stars</title>
-  </programme>
-  <programme start="20260824081500 -0400" stop="20260824101500 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">D. La Serena vs Cobresal (Repetición)</title>
-    <desc lang="es">Repetición 23-08-2026.</desc>
-    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824121700 +0000" stop="20260824123200 +0000" channel="DiscoveryKids.cl">
     <desc lang="es">S1 E13 — Dando giros
@@ -8962,10 +8906,6 @@ Espacio dedicado a las peticiones, el cual permite iniciar el día con oraciones
     <icon src="https://iptv-epg.org/images/Ro10_KXf40P8DyLmeF78I79FVt3acALukDiV4ILYsHKx3mT6ntJoEWPHUZ0OKxFKUEYIXhKsLicLYs8yjJb_q2wUWbd2dsN801EjltMUomg8MLzqOw" />
     <title lang="es">Enlace Ora</title>
   </programme>
-  <programme start="20260824130000 +0000" stop="20260824140000 +0000" channel="ESPN.cl">
-    <category lang="es">default</category>
-    <title lang="es">ATP Masters 1000: Cincinnati Open, Final</title>
-  </programme>
   <programme start="20260824130000 +0000" stop="20260824140000 +0000" channel="ESPN2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -9162,10 +9102,10 @@ En la actualidad, su rostro, su nombre y su receta secreta se han convertido en 
     <title lang="es">Una breve historia de...</title>
     <title lang="en">The Fast History Of...</title>
   </programme>
-  <programme start="20260824131500 +0000" stop="20260824151500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Deportes La Serena vs. Cobresal</title>
+  <programme start="20260824091500 -0400" stop="20260824111500 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">D. La Serena vs Cobresal (Repetición)</title>
+    <desc lang="es">Repetición 23-08-2026.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824131700 +0000" stop="20260824133600 +0000" channel="WarnerChannel.cl">
     <desc lang="es">S12 E3 — El cálculo de la procreación
@@ -9568,11 +9508,6 @@ En la palabra del Señor encuentras que ciertas cosas deben ser primeras en tu v
     <icon src="https://iptv-epg.org/images/u0EaXKQcP9TRfNjHONrFY1IzoVYs2oG1EEukE1IiQbXPRyWfL6RvdwIt_xQixqP4LEcmIf5Yo2s8XuKp61ATKF4oMiwOYbELOZkhJOKxVLeSADvfBTA4" />
     <title lang="es">Otoniel Font</title>
   </programme>
-  <programme start="20260824140000 +0000" stop="20260824160000 +0000" channel="ESPN.cl">
-    <category lang="es">Boxing</category>
-    <category>Sports</category>
-    <title lang="es">Legacy Fighting Alliance 239</title>
-  </programme>
   <programme start="20260824140000 +0000" stop="20260824143000 +0000" channel="ESPN2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -9780,11 +9715,6 @@ El conocido Fat Dave, guía turístico de Nueva York, lleva a Al Roker a conocer
     <desc lang="es">T2-E10 Demasiados zorros / El jonrón de Bateo
 Dora.</desc>
     <title lang="es">Dora</title>
-  </programme>
-  <programme start="20260824101500 -0400" stop="20260824121500 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">O'Higgins vs Palestino (Repetición)</title>
-    <desc lang="es">Repetición 23-08-2026.</desc>
-    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824141600 +0000" stop="20260824150600 +0000" channel="InvestigationDiscovery.cl">
     <desc lang="es">S2 E4 — Los pecados del padre
@@ -10403,20 +10333,20 @@ Fran y Sylvia son tomadas como rehenes en el robo a un banco en el día de San V
 Tim Rex en el espacio.</desc>
     <title lang="es">Tim Rex en el espacio</title>
   </programme>
-  <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260824150500 +0000" stop="20260824160500 +0000" channel="History2.cl1">
     <desc lang="es">S1 E1 — En los pasos de Jesús
@@ -10534,17 +10464,17 @@ Josué le confiesa a Rosario que él es el culpable de lo que le pasó a César 
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Mi pecado</title>
   </programme>
-  <programme start="20260824151500 +0000" stop="20260824171500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">O'Higgins vs. CD Palestino</title>
-  </programme>
   <programme start="20260824151500 +0000" stop="20260824165000 +0000" channel="SONYMOVIES.uy">
     <category lang="es">Familia</category>
     <category lang="es">Animación</category>
     <date>2012</date>
     <desc lang="es">Drácula es el anfitrión del Hotel Transylvania, un complejo de alta calidad donde los monstruos y sus familias pueden vivir tranquilamente, sin molestar a los seres humanos. En un fin de semana especial, Drácula ha invitado a algunos de los monstruos más famosos del mundo, como Frankenstein y su novia, la Momia, el Hombre Invisible y una familia de hombres lobo, para celebrar el cumpleaños 118 de su hija Mavis. Para Drac, atender a todos esos monstruos legendarios no es problema, pero su mundo corre peligro cuando un chico ordinario tropieza con el hotel y se enamora de la hija adolescente del conde.</desc>
     <title lang="es">Hotel Transylvania</title>
+  </programme>
+  <programme start="20260824111500 -0400" stop="20260824131500 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">O'Higgins vs Palestino (Repetición)</title>
+    <desc lang="es">Repetición 23-08-2026.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824151600 +0000" stop="20260824154200 +0000" channel="FOODNETWORK.uy">
     <category lang="es">Reality</category>
@@ -10942,10 +10872,6 @@ Un espacio que propone divulgar la Palabra de Dios.</desc>
     <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
     <title lang="es">Esperanza hoy</title>
   </programme>
-  <programme start="20260824160000 +0000" stop="20260824180000 +0000" channel="ESPN.cl">
-    <category lang="es">Auto</category>
-    <title lang="es">Gran Premio de los Países Bajos: Carrera principal</title>
-  </programme>
   <programme start="20260824160000 +0000" stop="20260824162000 +0000" channel="ESPN2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -11107,11 +11033,6 @@ Ojos de mujer.</desc>
     <desc lang="es">T1-E15 El océano fucsia / Cero desperdicio
 Barbapapá y su familia.</desc>
     <title lang="es">Barbapapá y su familia</title>
-  </programme>
-  <programme start="20260824121500 -0400" stop="20260824141500 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">U. de Chile vs Colo-Colo (Repetición)</title>
-    <desc lang="es">Repetición 23-08-2026.</desc>
-    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824162000 +0000" stop="20260824183000 +0000" channel="ESPN2.cl">
     <category lang="es">Soccer</category>
@@ -11800,10 +11721,10 @@ Craig y sus amigos se enfrentan al Poncho Rojo en una carrera por reunir las úl
     <title lang="es">El mundo de Craig</title>
     <title lang="en">Craig of the Creek</title>
   </programme>
-  <programme start="20260824171500 +0000" stop="20260824191500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Universidad de Chile vs. Colo-Colo</title>
+  <programme start="20260824131500 -0400" stop="20260824151500 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">U. de Chile vs Colo-Colo (Repetición)</title>
+    <desc lang="es">Repetición 23-08-2026.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824171600 +0000" stop="20260824180600 +0000" channel="DiscoveryHomeAndHealth.cl">
     <desc lang="es">S6 E8 — La renovación de Emma Roberts para la tía Moo
@@ -12171,11 +12092,6 @@ Kirk y Ray te enseñan diversos consejos de evangelización, mostrándote su ver
     <icon src="https://iptv-epg.org/images/wjC864H63Qv-YTo49Pot37XLIWOGea5vPtw7WLUsldc9dS1ueeuxbUgComj2Rh8OhJkec5BTwMSdHD9kGpqAnBWksNKJzkkxFGky_ZM3HqXitO8f8pFYeZSFCqkxpLa0" />
     <title lang="es">Los pasos del maestro</title>
   </programme>
-  <programme start="20260824180000 +0000" stop="20260824200000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Racing Club vs. Boca Juniors</title>
-  </programme>
   <programme start="20260824180000 +0000" stop="20260824181000 +0000" channel="ESPN3.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -12202,20 +12118,20 @@ Michael quiere que Junior aprenda el negocio familiar empezando desde abajo. Sin
 Botched.</desc>
     <title lang="es">Botched</title>
   </programme>
-  <programme start="20260824180000 +0000" stop="20260824210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260824180000 +0000" stop="20260824210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260824180000 +0000" stop="20260824210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260824180000 +0000" stop="20260824210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260824180000 +0000" stop="20260824210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260824180200 +0000" stop="20260824195700 +0000" channel="Cinemax.cl">
     <category lang="es">Animación</category>
@@ -12366,11 +12282,6 @@ Pedro se obsesiona con filmar las travesuras de Pebbles y se convierte en una mo
     <icon src="https://iptv-epg.org/images/8ebOOZVOBzEfVCcwp7xoIOY6IF_spA3igcIG06T4aAei14x9HU-sOrkP_aOpU-R9Z74Ay9jertkaIYhIpcpdAEyxZsn4i-Y_TUbxRyHb_72jg2_fgxeZ4hrRJsRkozFwmJUWeZA4mzmal-mhDw" />
     <title lang="es">Los Picapiedra</title>
     <title lang="en">The Flintstones</title>
-  </programme>
-  <programme start="20260824141500 -0400" stop="20260824153000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Todos Somos Técnicos (Repetición)</title>
-    <desc lang="es">Repetición 23-08-2026.</desc>
-    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824181800 +0000" stop="20260824205200 +0000" channel="FX.cl">
     <category lang="es">Acción</category>
@@ -13055,14 +12966,15 @@ Un espacio que aborda diversos temas relacionados con la salud a través de cons
     <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
     <title lang="es">Especialista</title>
   </programme>
-  <programme start="20260824191500 +0000" stop="20260824203000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">Todos somos técnicos</title>
-  </programme>
   <programme start="20260824191500 +0000" stop="20260824194000 +0000" channel="NickJr.bo">
     <desc lang="es">T2-E17 Paisajes de papel / Vaquera
 BARBAPAPÁ Una gran familia feliz.</desc>
     <title lang="es">BARBAPAPÁ Una gran familia feliz</title>
+  </programme>
+  <programme start="20260824151500 -0400" stop="20260824163000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Todos Somos Técnicos (Repetición)</title>
+    <desc lang="es">Repetición 23-08-2026.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824192000 +0000" stop="20260824193000 +0000" channel="Canal13.cl">
     <desc lang="es">Clima
@@ -13236,11 +13148,6 @@ Mike, Jen y Rich tienen que elegir entre dos casas de renacimiento griego del si
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Casas históricas</title>
     <title lang="en">Houses with History</title>
-  </programme>
-  <programme start="20260824153000 -0400" stop="20260824170000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Data Sports - Primera Edición (Repetición)</title>
-    <desc lang="es">Repetición 24-08-2026.</desc>
-    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824193100 +0000" stop="20260824201800 +0000" channel="DiscoveryHomeAndHealth.cl">
     <desc lang="es">S7 E1 — Todas aman una renovación de Ray Romano
@@ -13499,11 +13406,6 @@ Los Petersen parten a Mendoza, una provincia llena de atractivos naturales y con
 Espacio conducido por Billy Wilson, del Ministerio voz de salvación, quien nos da una enseñanza de la palabra de Dios visitando varios lugares de nuestro mundo, la palabra del Señor mostrada de una manera más sencilla sin perder su esencia.</desc>
     <icon src="https://iptv-epg.org/images/lRq7ysUelV0MvWr-REo-d5s0LW_4Sy4ugRHSoTdS9PdG9IMfB1YJrhdlCuPx-e1MuCsWvnjeQx5vSYfe_5uzb7Ner1IZ4HGe8ZR4_eNYxSwi7kpzgALyxQHW" />
     <title lang="es">Impacto mundial</title>
-  </programme>
-  <programme start="20260824200000 +0000" stop="20260824210000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">El show de la Copa Libertadores</title>
   </programme>
   <programme start="20260824200000 +0000" stop="20260824220000 +0000" channel="LasEstrellas.cl">
     <desc lang="es">Comedia
@@ -13832,10 +13734,6 @@ Las estrellas visitan el zoológico; el abuelo Pat arruina todas las películas.
     <title lang="es">El show de Patricio Estrella</title>
     <title lang="en">The Patrick Star Show</title>
   </programme>
-  <programme start="20260824203000 +0000" stop="20260824220000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">TNT Data Sports</title>
-  </programme>
   <programme start="20260824203000 +0000" stop="20260824204000 +0000" channel="Tooncast.cl">
     <desc lang="es">S5 E212 — Temporada 5 Episodio 212
 Jorel es el chico más popular, debido a su belleza exótica, talento formidable y cabello sedoso. Pero nada de esto importa, porque el show no se trata de él, sino de su hermano.</desc>
@@ -13854,6 +13752,11 @@ Una mujer consigue trabajo en el palacio de La Promesa como recompensa por salva
     <desc lang="es">El exorcismo de Stassi Schroeder
 Vanderpump Rules.</desc>
     <title lang="es">Vanderpump Rules</title>
+  </programme>
+  <programme start="20260824163000 -0400" stop="20260824180000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Data Sports - Primera Edición (Repetición)</title>
+    <desc lang="es">Repetición 24-08-2026.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824203500 +0000" stop="20260824213000 +0000" channel="Mega.cl">
     <desc lang="es">Telenovela
@@ -14159,10 +14062,6 @@ Serie que muestra el poder de Dios alrededor del mundo con un mensaje explícito
     <icon src="https://iptv-epg.org/images/jqLX37CJ9xH8f0ynAcv8WdVA3jziNXodkr4jMsvVDQAiCmJ2GWRD5FuEphOl9RK9shkzW70koyNTAyXvSyEK8Sh4a-afmGUtmtEliEJyIKFtBX68sl_3XBNgnc48Siy7GMnrLV4liD7S8A" />
     <title lang="es">Ministración del Espíritu Santo</title>
   </programme>
-  <programme start="20260824210000 +0000" stop="20260824220000 +0000" channel="ESPN.cl">
-    <category lang="es">default</category>
-    <title lang="es">WTA 1000: Cincinnati Open, final</title>
-  </programme>
   <programme start="20260824210000 +0000" stop="20260824213000 +0000" channel="ESPN2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -14207,25 +14106,20 @@ Este programao buscará entretener tus tardes con diversos temas que van desde l
     <title lang="es">El viento sopla</title>
     <title lang="en">Barami Boonda</title>
   </programme>
-  <programme start="20260824170000 -0400" stop="20260824180000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">No es para tanto (Repetición)</title>
-    <desc lang="es">Repetición 24-08-2026.</desc>
-    <category lang="es">Deportes</category>
-  </programme>
-  <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260824210400 +0000" stop="20260824212800 +0000" channel="HGTV.ar">
     <desc lang="es">S2 E2 — Cocina urbana
@@ -14763,10 +14657,6 @@ Alan Fernando y Nadia te esperan cada semana con historias que cambiaran tu vida
     <icon src="https://iptv-epg.org/images/Ps5ROXDYDN9NgFinf_0EHZWDgbvu8M7KBfPD6DPC73X9aHjO1DSKr5DL0FkskSce9Rj3zuViutX2VOKms_-UmExKU2kbKg7Lj5tpt5-vcI5U" />
     <title lang="es">Vive +</title>
   </programme>
-  <programme start="20260824220000 +0000" stop="20260824230000 +0000" channel="ESPN.cl">
-    <category lang="es">default</category>
-    <title lang="es">ATP Masters 1000: Cincinnati Open, Final</title>
-  </programme>
   <programme start="20260824220000 +0000" stop="20260824233000 +0000" channel="ESPN2.cl">
     <category lang="es">Gen. Interest</category>
     <title lang="es">SportsCenter</title>
@@ -14804,10 +14694,6 @@ Rubí Pérez es una bella pero pobre estudiante universitaria a quien sólo le i
     <icon src="https://iptv-epg.org/images/0EsU2WDmKZSHOzbx1QkOpEuFOQmdn4S3fp_wpry68Lc6WTEIlB-9x7oVv7kbhGHTOOV3hcvLOa1XQ2OJl8dirxHBBUGAapKZJisCEUe7lg" />
     <title lang="es">Rubí</title>
   </programme>
-  <programme start="20260824220000 +0000" stop="20260824230000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">No es para tanto</title>
-  </programme>
   <programme start="20260824220000 +0000" stop="20260824221000 +0000" channel="Tooncast.cl">
     <desc lang="es">S2 E1 — Una noche de miedo
 Las festividades favoritas de Lumpus son arruinadas cuando los Jelly Beans no pueden parar el "truco o trato".</desc>
@@ -14844,9 +14730,9 @@ Las festividades favoritas de Lumpus son arruinadas cuando los Jelly Beans no pu
 El pequeño reino de Ben y Holly.</desc>
     <title lang="es">El pequeño reino de Ben y Holly</title>
   </programme>
-  <programme start="20260824180000 -0400" stop="20260824183000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Previa - Everton vs U. de Concepción</title>
-    <desc lang="es">LIGA DE PRIMERA MERCADO LIBRE 2026 - FECHA 20</desc>
+  <programme start="20260824180000 -0400" stop="20260824190000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">No es para tanto (Repetición)</title>
+    <desc lang="es">Repetición 24-08-2026.</desc>
     <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824220500 +0000" stop="20260824223000 +0000" channel="History2.cl1">
@@ -15134,11 +15020,6 @@ El día anterior a la boda de Kono y Adam, el equipo se entera de que en la isla
     <icon src="https://iptv-epg.org/images/TmN21nOFTQSwvrdWQx6wnEuBWa2ON9GlBNEmEGo1FXuHi0Fc3kNWKihIM4_h590iJhg2BSCeHyAusNulcP388zNZns8R_6lqWoMKfDbVeUr9jvtNkvVMWOs6z3E1U8o4gJVEWtSY" />
     <title lang="es">Blue Bloods</title>
   </programme>
-  <programme start="20260824183000 -0400" stop="20260824203000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Everton vs U. de Concepción</title>
-    <desc lang="es">LIGA DE PRIMERA MERCADO LIBRE 2026 - FECHA 20</desc>
-    <category lang="es">Deportes</category>
-  </programme>
   <programme start="20260824223500 +0000" stop="20260825010000 +0000" channel="AMC.cl">
     <category lang="es">C.Ficción</category>
     <credits>
@@ -15405,11 +15286,6 @@ En la palabra del Señor encuentras que ciertas cosas deben ser primeras en tu v
     <icon src="https://iptv-epg.org/images/u0EaXKQcP9TRfNjHONrFY1IzoVYs2oG1EEukE1IiQbXPRyWfL6RvdwIt_xQixqP4LEcmIf5Yo2s8XuKp61ATKF4oMiwOYbELOZkhJOKxVLeSADvfBTA4" />
     <title lang="es">Otoniel Font</title>
   </programme>
-  <programme start="20260824230000 +0000" stop="20260825010000 +0000" channel="ESPN.cl">
-    <category lang="es">Boxing</category>
-    <category>Sports</category>
-    <title lang="es">Legacy Fighting Alliance 239</title>
-  </programme>
   <programme start="20260824230000 +0000" stop="20260825000000 +0000" channel="ESPN3.cl">
     <category lang="es">default</category>
     <title lang="es">ATP Masters 1000: Cincinnati Open, Final</title>
@@ -15426,11 +15302,6 @@ Tras otro desastre en la Casa Estrella, el jefe de bomberos obliga a Patricio a 
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">El show de Patricio Estrella</title>
     <title lang="en">The Patrick Star Show</title>
-  </programme>
-  <programme start="20260824230000 +0000" stop="20260824233000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Liga de Primera 2026</title>
   </programme>
   <programme start="20260824230000 +0000" stop="20260824231000 +0000" channel="Tooncast.cl">
     <desc lang="es">S1 E2 — Un oso de malas noticias
@@ -15496,6 +15367,11 @@ Rubble y equipo.</desc>
   <programme start="20260824190000 -0400" stop="20260824200000 -0400" channel="ESPN.cl">
     <title lang="es">SportsCenter</title>
     <desc lang="es">Contenido ESPN.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260824190000 -0400" stop="20260824193000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Previa - Everton vs U. de Concepción</title>
+    <desc lang="es">LIGA DE PRIMERA MERCADO LIBRE 2026 - FECHA 20</desc>
     <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824230200 +0000" stop="20260824235400 +0000" channel="AnimalPlanet.cl">
@@ -15847,11 +15723,6 @@ En el concurso de comer chile de Chahuta, se llega a revelar que Marcel estuvo h
     <title lang="es">Los Marsupilamis</title>
     <title lang="en">The Marsupilamis</title>
   </programme>
-  <programme start="20260824233000 +0000" stop="20260825013000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Everton vs. Universidad de Concepción</title>
-  </programme>
   <programme start="20260824233000 +0000" stop="20260824234000 +0000" channel="Tooncast.cl">
     <desc lang="es">S3 E33 — Orgullo y director ranoso
 El Director Ranoso gana el Premio al Director del Año, pero su ego se eleva tanto que se vuelve un problema para la Escuela Charles Darwin.</desc>
@@ -15864,6 +15735,11 @@ El Director Ranoso gana el Premio al Director del Año, pero su ego se eleva tan
     <desc lang="es">T1-E3 Zumbón / La casa de los sueños
 Sr. Cocodrilo.</desc>
     <title lang="es">Sr. Cocodrilo</title>
+  </programme>
+  <programme start="20260824193000 -0400" stop="20260824213000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Everton vs U. de Concepción</title>
+    <desc lang="es">LIGA DE PRIMERA MERCADO LIBRE 2026 - FECHA 20</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260824233200 +0000" stop="20260824235700 +0000" channel="FOODNETWORK.uy">
     <date>2018</date>
@@ -16186,20 +16062,20 @@ Macarena Pizarro y Daniel Matamala presentan el noticiero más creíble del paí
     <desc lang="es">Contenido ESPN.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260825000000 +0000" stop="20260825030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260825000000 +0000" stop="20260825030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260825000000 +0000" stop="20260825030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260825000000 +0000" stop="20260825030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260825000000 +0000" stop="20260825030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260825000600 +0000" stop="20260825010400 +0000" channel="TNTSeries.cl">
     <desc lang="es">S5 E10 — Marihuana roja
@@ -16518,11 +16394,6 @@ Llega un presentador de televisión, famoso antropólogo, a la isla, y descubre 
     <title lang="es">Mike, Lu y Og</title>
     <title lang="en">Mike, Lu &amp; Og</title>
   </programme>
-  <programme start="20260824203000 -0400" stop="20260824205000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Post - Everton vs U. de Concepción</title>
-    <desc lang="es">LIGA DE PRIMERA MERCADO LIBRE 2026 - FECHA 20</desc>
-    <category lang="es">Deportes</category>
-  </programme>
   <programme start="20260825003500 +0000" stop="20260825010000 +0000" channel="ComedyCentral.cl">
     <desc lang="es">S4 E1 — Temporada 4 Episodio 1
 Un vicealcalde de la Ciudad de Nueva York, apoyado por un personal inusual, debe salvar constantemente al distraído alcalde, quien nunca sabe qué está pasando.</desc>
@@ -16667,11 +16538,6 @@ Los isleños esperan ansiosos la llegada del primer avión correo.</desc>
 Dora.</desc>
     <title lang="es">Dora</title>
   </programme>
-  <programme start="20260824205000 -0400" stop="20260824225000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Todos Somos Técnicos (Repetición)</title>
-    <desc lang="es">Repetición 24-08-2026.</desc>
-    <category lang="es">Deportes</category>
-  </programme>
   <programme start="20260825010000 +0000" stop="20260825015500 +0000" channel="History2.cl1">
     <desc lang="es">S3 E8 — El cinturon de oxido 
 De las grandes civilizaciones de la antigüedad a las primeras potencias mundiales de nuestros días, esta serie repasa el legado que nos han dejado los grandes imperios que han escrito la historia de la humanidad.</desc>
@@ -16774,10 +16640,6 @@ Los Petersen parten a Mendoza, una provincia llena de atractivos naturales y con
 María Patricia y Ricardo Rodríguez del Centro Mundial de Avivamiento en Bogotá, Colombia, te invitan a disfrutar del poderoso Espíritu Santo de Dios.</desc>
     <icon src="https://iptv-epg.org/images/11Tfe21cAeIKDeyr2dbK1vunuO3AnfRYycZWHcexA7gDuB6Ag4dxaj-pQrz-TQBjSq8220iLrCjU_MFNJCLdTDtWdEuEOgO806tlxkhkb99WlSTrg1gia3AMs9WqQRG_jivvxg" />
     <title lang="es">Él puede hacerlo de nuevo</title>
-  </programme>
-  <programme start="20260825010000 +0000" stop="20260825030000 +0000" channel="ESPN.cl">
-    <category lang="es">Auto</category>
-    <title lang="es">Gran Premio de los Países Bajos: Carrera principal</title>
   </programme>
   <programme start="20260825010000 +0000" stop="20260825013000 +0000" channel="ESPN2.cl">
     <category lang="es">Soccer</category>
@@ -17156,25 +17018,20 @@ El Pastor Juan Cáceres comparte una Palabra llena de fe que cambiará tu vida. 
     <category>Sports</category>
     <title lang="es">Chicago Cubs vs. Arizona Diamondbacks</title>
   </programme>
-  <programme start="20260825013000 +0000" stop="20260825015000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Liga de Primera 2026</title>
-  </programme>
   <programme start="20260825013000 +0000" stop="20260825020000 +0000" channel="Tooncast.cl">
     <desc lang="es">Infantil
 En el año 100, 000,000, en una nave que está en el espacio, el robot Larry tiene en el brazo izquierdo un brazalete que los transporta a diferentes épocas, asegurándose de que la leyenda debe de transcurrir en la forma correcta.</desc>
     <icon src="https://iptv-epg.org/images/WdbYen1ZUDLHFCblaTHRF-X0LqPNrW6pAkXmfMAU5e13J9OVrdX0KJ1dPHtt89YxQrmagEoIVBPE6rjnO1gjI811AO9JbaK_1N4TmSKleFDmntC5Ss_unAVuVcL41k8" />
     <title lang="es">Escuadrón del tiempo</title>
   </programme>
-  <programme start="20260824213000 -0400" stop="20260824230000 -0400" channel="ESPN.cl">
+  <programme start="20260824213000 -0400" stop="20260825000000 -0400" channel="ESPN.cl">
     <title lang="es">ESPN F Show</title>
     <desc lang="es">Contenido ESPN.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260824213000 -0400" stop="20260825000000 -0400" channel="ESPN.cl">
-    <title lang="es">ESPN F Show</title>
-    <desc lang="es">Contenido ESPN.</desc>
+  <programme start="20260824213000 -0400" stop="20260824215000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Post - Everton vs U. de Concepción</title>
+    <desc lang="es">LIGA DE PRIMERA MERCADO LIBRE 2026 - FECHA 20</desc>
     <category lang="es">Deportes</category>
   </programme>
   <programme start="20260825013100 +0000" stop="20260825015500 +0000" channel="FOODNETWORK.uy">
@@ -17270,10 +17127,6 @@ Phoebe se entera de los planes de la banda de Max es deshacerse de él, Además,
     <category lang="es">Talk</category>
     <title lang="es">Todos somos técnicos</title>
   </programme>
-  <programme start="20260825015000 +0000" stop="20260825035000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">Todos somos técnicos</title>
-  </programme>
   <programme start="20260825015000 +0000" stop="20260825024000 +0000" channel="UniversalTV.cl">
     <desc lang="es">S14 E5 — Fantasmas
 Cruz busca la identidad de un aliado desconocido. Mouch toma medidas para ayudar a un amigo. Vásquez debe tomar una decisión difícil.</desc>
@@ -17304,6 +17157,11 @@ John y Anthony consiguen madera y azulejos reciclados para reformar una cocina, 
     <desc lang="es">Blue Bloods es una serie Americana de procedimientos policiales de la cadena CBS, grabada en la ciudad de Nueva York.Los Reagan son una familia que sus miembros se dedican a investigar el crimen en el departamento de policías de la ciudad de Nueva York (NYPD).</desc>
     <icon src="https://iptv-epg.org/images/TmN21nOFTQSwvrdWQx6wnEuBWa2ON9GlBNEmEGo1FXuHi0Fc3kNWKihIM4_h590iJhg2BSCeHyAusNulcP388zNZns8R_6lqWoMKfDbVeUr9jvtNkvVMWOs6z3E1U8o4gJVEWtSY" />
     <title lang="es">Blue Bloods</title>
+  </programme>
+  <programme start="20260824215000 -0400" stop="20260824235000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Todos Somos Técnicos (Repetición)</title>
+    <desc lang="es">Repetición 24-08-2026.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260825015500 +0000" stop="20260825025000 +0000" channel="History2.cl1">
     <desc lang="es">S2 E10 — El imperio del pacífico: antiguos marineros
@@ -17973,11 +17831,6 @@ Cuando la abuela se enferma, Lola intenta hacerse cargo de sus responsabilidades
     <title lang="es">Los pequeños Looney Tunes</title>
     <title lang="en">Baby Looney Tunes</title>
   </programme>
-  <programme start="20260824225000 -0400" stop="20260825002000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Data Sports (Repetición)</title>
-    <desc lang="es">Repetición 24-08-2026.</desc>
-    <category lang="es">Deportes</category>
-  </programme>
   <programme start="20260825025300 +0000" stop="20260825052700 +0000" channel="FX.cl">
     <category lang="es">Acción</category>
     <credits>
@@ -18153,11 +18006,6 @@ Los Pastores Alberto y Mariam Delgado te guían e inspiran a través de edifican
     <icon src="https://iptv-epg.org/images/qzrEmqMM5wzmBU0u3iBd440DMK8t0d9F2TfDSpfU1OQzJFplt0IPTPjjjYXh9_HynNGd6MsVGjCtnyFvnFrAWP3f8xwv58wdqsd5P_TKdh8-DnUj72HibvVl" />
     <title lang="es">Todo es posible</title>
   </programme>
-  <programme start="20260825030000 +0000" stop="20260825040000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">El show de la Copa Libertadores</title>
-  </programme>
   <programme start="20260825030000 +0000" stop="20260825033000 +0000" channel="ESPN2.cl">
     <category lang="es">Racing</category>
     <title lang="es">FIM Road Racing World Championship Highlights</title>
@@ -18272,20 +18120,20 @@ Regañan a Bugs, Lucas y Taz, que deben pasar un "tiempo muerto" en el rincón.<
     <desc lang="es">En una noche de tormenta, nace la bella Marina aparentemente sin vida. La bebé es recibida por Damiana, la partera del pueblo, quien unas horas antes atendió el alumbramiento de un niño sano, pero que desafortunadamente su madre no sobrevivió. Don Luis, el padre de Marina, desde que se casó con Prudencia, vive empeñado en tener un hijo varón, desea un heredero que trascienda su ilustre apellido Ocaranza. Desafortunadamente, Prudencia queda imposibilitada para volver a embarazarse, situación que apremia a su nana Angustias a convencer a Damiana de beneficiar a la familia y al bebé que quedó huérfano, haciéndolo pasar por legítimo hijo Ocaranza Arzuaga. Es así como Luis Alberto, el gran orgullo de Don Luis, crece en cuna de oro y viaja al extranjero para estudiar la carrera de medicina. Marina, milagrosamente sobrevive y crece feliz rodeada de la naturaleza al lado de Damiana, quien le enseña a conocer el mundo de manera distinta, debido a que es invidente. El encanto de Marina por su actitud alegre, fresca.</desc>
     <title lang="es">Sin tu mirada</title>
   </programme>
-  <programme start="20260825030000 +0000" stop="20260825060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260825030000 +0000" stop="20260825060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260825030000 +0000" stop="20260825060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260825030000 +0000" stop="20260825060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260825030000 +0000" stop="20260825060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260825030200 +0000" stop="20260825040300 +0000" channel="NationalGeographic.cl">
     <desc lang="es">S1 E1 — Costa jurásica de Inglaterra
@@ -18665,9 +18513,10 @@ Cuando Tori descubre que Cat está saliendo con su ex novio, sus celos la llevan
     <icon src="https://iptv-epg.org/images/bEt3L0e0bzFbpcZNF5hjDmWBCWMrzmZng8N3dbqtqeFXNnB3X2glB1HQsMOaUdo4OTzjVZzNwsPCUaJGwuIYWHjue3YPdzafUF3GDT1mBCp0NNdvGrKtHAnmKnk" />
     <title lang="es">Victorious</title>
   </programme>
-  <programme start="20260825035000 +0000" stop="20260825052000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">TNT Data Sports</title>
+  <programme start="20260824235000 -0400" stop="20260825012000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Data Sports (Repetición)</title>
+    <desc lang="es">Repetición 24-08-2026.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260825035400 +0000" stop="20260825042000 +0000" channel="AE.cl">
     <desc lang="es">S3 E7 — Atención al cliente
@@ -18759,11 +18608,6 @@ Margarita Bernal realiza un recorrido por la histórica ciudad del Caribe para r
 Kenneth y Gloria les enseñaron a sus hijos, a sus nietos y a todos sus colaboradores alrededor del mundo, sobre el poder que existe al acercarse al Señor y a su Palabra cada día.</desc>
     <icon src="https://iptv-epg.org/images/bH9woV48-TI-7lYiWGuCmsNR5lyewuu_Hj5fxqBPnV6RCETlL9D-qu7evN7tzV7ra0tO_aOQvoAUM9oOE0tmWN6wKz4EbXIWbYdGRfUJz07wHk_GtT2Znw71raQcppSfzbTOovRjBrr6yg" />
     <title lang="es">La voz de victoria del creyente</title>
-  </programme>
-  <programme start="20260825040000 +0000" stop="20260825060000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Borussia Dortmund vs. Bayern Munich</title>
   </programme>
   <programme start="20260825040000 +0000" stop="20260825053000 +0000" channel="ESPN2.cl">
     <category lang="es">Soccer</category>
@@ -19012,11 +18856,6 @@ Severide se topa con armas ilegales y desata una investigación de alto riesgo c
     <desc lang="es">Blue Bloods es una serie Americana de procedimientos policiales de la cadena CBS, grabada en la ciudad de Nueva York.Los Reagan son una familia que sus miembros se dedican a investigar el crimen en el departamento de policías de la ciudad de Nueva York (NYPD).</desc>
     <icon src="https://iptv-epg.org/images/TmN21nOFTQSwvrdWQx6wnEuBWa2ON9GlBNEmEGo1FXuHi0Fc3kNWKihIM4_h590iJhg2BSCeHyAusNulcP388zNZns8R_6lqWoMKfDbVeUr9jvtNkvVMWOs6z3E1U8o4gJVEWtSY" />
     <title lang="es">Blue Bloods</title>
-  </programme>
-  <programme start="20260825002000 -0400" stop="20260825022500 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Everton vs U. de Concepción (Repetición)</title>
-    <desc lang="es">Repetición 24-08-2026.</desc>
-    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260825042500 +0000" stop="20260825044500 +0000" channel="ComedyCentral.cl">
     <desc lang="es">S2 E1 — Tubman
@@ -19703,11 +19542,6 @@ Frustrado porque lo ven más como tierno que malvado, Plankton construye un robo
     <title lang="es">Bob Esponja</title>
     <title lang="en">SpongeBob SquarePants</title>
   </programme>
-  <programme start="20260825052000 +0000" stop="20260825072500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Everton vs. Universidad de Concepción</title>
-  </programme>
   <programme start="20260825052000 +0000" stop="20260825054300 +0000" channel="HGTV.ar">
     <desc lang="es">S1 E6 — Joe Haden y Greivis Vasquez
 Joe Haden, destacado de la NFL, y su familia están buscando mudarse más cerca de un centro de entrenamiento atlético que están abriendo en Maryland. Y en Nueva Orleans, Jason y Kristen buscan un elegante apartamento para Greivis Vasquez.</desc>
@@ -19721,6 +19555,11 @@ Joe Haden, destacado de la NFL, y su familia están buscando mudarse más cerca 
     <date>2019</date>
     <desc lang="es">Billy puede convertirse en un superhéroe adulto al pronunciar el nombre Shazam.</desc>
     <title lang="es">Shazam</title>
+  </programme>
+  <programme start="20260825012000 -0400" stop="20260825032500 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Everton vs U. de Concepción (Repetición)</title>
+    <desc lang="es">Repetición 24-08-2026.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260825052200 +0000" stop="20260825055300 +0000" channel="StarChannel.cl">
     <desc lang="es">S1 E1 — Good Value Diet Soda
@@ -20176,10 +20015,6 @@ Este segmento de respuestas es fundado por él porque sabe que Jesús y la Palab
     <icon src="https://iptv-epg.org/images/6Ipf0cdB5DIqDOMM0chbL964Z90exoF84BpKIvv2IQAv901Evo1Ah2S9lVIRJIjZudtNLA6zsr2NRaNxwLagGViEzFQ4B_LdKh1OQHJDct00-_08ATcz4JQbkoj3YKrX6iWITKA2tEA" />
     <title lang="es">Respuestas con Bayless Conley</title>
   </programme>
-  <programme start="20260825060000 +0000" stop="20260825070000 +0000" channel="ESPN.cl">
-    <category lang="es">default</category>
-    <title lang="es">WTA 1000: Cincinnati Open, final</title>
-  </programme>
   <programme start="20260825060000 +0000" stop="20260825074000 +0000" channel="LasEstrellas.cl">
     <desc lang="es">Drama
 Rubí Pérez es una bella pero pobre estudiante universitaria a quien sólo le interesa el dinero. Su sueño es casarse con un hombre rico para salir de la pobreza.</desc>
@@ -20242,20 +20077,20 @@ Herrmann y Mouch estudian para los exámenes de oficial. Mientras, Cruz recibe u
     <icon src="https://iptv-epg.org/images/TmN21nOFTQSwvrdWQx6wnEuBWa2ON9GlBNEmEGo1FXuHi0Fc3kNWKihIM4_h590iJhg2BSCeHyAusNulcP388zNZns8R_6lqWoMKfDbVeUr9jvtNkvVMWOs6z3E1U8o4gJVEWtSY" />
     <title lang="es">Blue Bloods</title>
   </programme>
-  <programme start="20260825060000 +0000" stop="20260825090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260825060000 +0000" stop="20260825090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260825060000 +0000" stop="20260825090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260825060000 +0000" stop="20260825090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260825060000 +0000" stop="20260825090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260825060100 +0000" stop="20260825062300 +0000" channel="AE.cl">
     <desc lang="es">S3 E39 — Espuma y salpicaduras
@@ -20439,11 +20274,6 @@ El pánico se apodera de una familia que se encuentra a bordo de un yate envuelt
     <episode-num>S4 E2</episode-num>
     <icon src="https://iptv-epg.org/images/OZSPwAGYSkmE1aE7nQ6Uc6wfJmzWoIn1WZv1bppXt9ostHCo-LZvZ0LNNy3LBJQ8yO2p45oIlaOmKiGS8m9gGO8oHWHuOSPjOoEOgodGAJMSMhO-ij4b2PQmrkqa8th3DgnhP_Kvd-ucCPo1ug" />
     <title lang="es">CSI: Miami</title>
-  </programme>
-  <programme start="20260825022500 -0400" stop="20260825040000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Data Sports - Primera Edición (Repetición)</title>
-    <desc lang="es">Repetición 24-08-2026.</desc>
-    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260825062700 +0000" stop="20260825071100 +0000" channel="HGTV.ar">
     <desc lang="es">S1 E2 — Encontrar la paz en Pawling
@@ -20849,10 +20679,6 @@ El Profeta Rony Chávez nos enseña sobre la importancia de ser llenos del Espí
     <icon src="https://iptv-epg.org/images/s6SnQqWoiL4AobDKdYLEWBC7WF5gUAfClRSjoY_lpG8kmZEDFBibFmHZ-gZVt6nULjyCDLSX8SDdIUPRpBWUBvWFRBvcY1voSjXgy0RJniQSMOZKNR7-Ys4gqg" />
     <title lang="es">Cánticos de amor</title>
   </programme>
-  <programme start="20260825070000 +0000" stop="20260825080000 +0000" channel="ESPN.cl">
-    <category lang="es">default</category>
-    <title lang="es">ATP Masters 1000: Cincinnati Open, Final</title>
-  </programme>
   <programme start="20260825070000 +0000" stop="20260825073000 +0000" channel="ESPN2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -21143,10 +20969,6 @@ Lo mejor para explorar el pantano desde su propia sala de estar es comprar una c
     <title lang="es">Pantano: se vende</title>
     <title lang="en">Buying the Bayou</title>
   </programme>
-  <programme start="20260825072500 +0000" stop="20260825090000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">TNT Data Sports</title>
-  </programme>
   <programme start="20260825072500 +0000" stop="20260825075000 +0000" channel="NickJr.bo">
     <category lang="es">Animación</category>
     <category lang="es">Acción</category>
@@ -21165,6 +20987,11 @@ Lo mejor para explorar el pantano desde su propia sala de estar es comprar una c
 ¡Prepárate para pasar un buen rato moviendo la cola en estas aventuras de rescate con PAW Patrol! Prepárate para salvar el día en Adventure Bay con Ryder y su equipo de cachorros heroicos: Marshall el perro bombero, Skye el cachorro volador temerario, Chase el perro policía, Rubble el cachorro de construcción, Rocky el cachorro de reciclaje y Zuma el perro de rescate acuático.</desc>
     <icon src="https://iptv-epg.org/images/06qZtmgswonjF254DYekmDuG4hwnW7nTo9JR7SEzhqD9M9QPlDWflqN6wzmxJ9m-azsxvgjqYcPVtOsGSznylgt7inOKVkf9IqQBv2003VMjs7TNFSnoSFxMuEpCLWhqN0vKCY0PdJOBbcFOyDyZvQse" />
     <title lang="es">La patrulla canina</title>
+  </programme>
+  <programme start="20260825032500 -0400" stop="20260825050000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Data Sports - Primera Edición (Repetición)</title>
+    <desc lang="es">Repetición 24-08-2026.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260825072600 +0000" stop="20260825074800 +0000" channel="AE.cl">
     <desc lang="es">S3 E17 — Terror en dos llantas
@@ -21612,11 +21439,6 @@ Muchas abuelas argentinas traen recetas de distintos rincones del mundo que comp
     <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
     <title lang="es">Abuela querida</title>
   </programme>
-  <programme start="20260825080000 +0000" stop="20260825100000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Racing Club vs. Boca Juniors</title>
-  </programme>
   <programme start="20260825080000 +0000" stop="20260825090000 +0000" channel="ESPN2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -21663,11 +21485,6 @@ Muchas abuelas argentinas traen recetas de distintos rincones del mundo que comp
     <date>2017</date>
     <desc lang="es">En una noche de tormenta, nace la bella Marina aparentemente sin vida. La bebé es recibida por Damiana, la partera del pueblo, quien unas horas antes atendió el alumbramiento de un niño sano, pero que desafortunadamente su madre no sobrevivió. Don Luis, el padre de Marina, desde que se casó con Prudencia, vive empeñado en tener un hijo varón, desea un heredero que trascienda su ilustre apellido Ocaranza. Desafortunadamente, Prudencia queda imposibilitada para volver a embarazarse, situación que apremia a su nana Angustias a convencer a Damiana de beneficiar a la familia y al bebé que quedó huérfano, haciéndolo pasar por legítimo hijo Ocaranza Arzuaga. Es así como Luis Alberto, el gran orgullo de Don Luis, crece en cuna de oro y viaja al extranjero para estudiar la carrera de medicina. Marina, milagrosamente sobrevive y crece feliz rodeada de la naturaleza al lado de Damiana, quien le enseña a conocer el mundo de manera distinta, debido a que es invidente. El encanto de Marina por su actitud alegre, fresca.</desc>
     <title lang="es">Sin tu mirada</title>
-  </programme>
-  <programme start="20260825040000 -0400" stop="20260825050000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">No es para tanto (Repetición)</title>
-    <desc lang="es">Repetición 24-08-2026.</desc>
-    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260825080500 +0000" stop="20260825082000 +0000" channel="Nick.cl">
     <desc lang="es">S1 E24 — El doble
@@ -22344,10 +22161,6 @@ Seth Meyers presenta una visión cómica sobre la vida familiar, la dinámica ma
     <icon src="https://iptv-epg.org/images/ytj-Omkvy6ncLxyb52iFXsOcND3Ptpn00mAON5J02ngXeExPFe2Q0HbIzsBArVJD6J0sacvZH_rFV8TgZjCh6Gdi6CBzTfjNRjqhFKjFTyHQNoYXALXp" />
     <title lang="es">Beacon</title>
   </programme>
-  <programme start="20260825090000 +0000" stop="20260825100000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">No es para tanto</title>
-  </programme>
   <programme start="20260825090000 +0000" stop="20260825092000 +0000" channel="Tooncast.cl">
     <desc lang="es">S1 E7 — Hora de cenar
 Es la hora de la cena y Mac y Blu no logran encontrar el comedor dentro de la laberíntica Mansión Foster. Y para empeorar las cosas, el Señor Conejo no permite que la cena comience hasta que no llegue Blu.</desc>
@@ -22426,25 +22239,25 @@ Cuatro jóvenes chefs con apetito por el éxito a largo plazo se alinean ante un
     <desc lang="es">Es la historia de Lola, una madre de familia que lucha por mantener unida a su familia en la ciudad de São Paulo entre las décadas de 1920 y 1940, enfrentando dificultades económicas, conflictos familiares y los grandes cambios sociales de la época.</desc>
     <title lang="es">Éramos seis</title>
   </programme>
-  <programme start="20260825050000 -0400" stop="20260825090000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Contenido TNT Sports</title>
-    <desc lang="es">Sin información.</desc>
+  <programme start="20260825050000 -0400" stop="20260825060000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">No es para tanto (Repetición)</title>
+    <desc lang="es">Repetición 24-08-2026.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260825090000 +0000" stop="20260825120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260825090000 +0000" stop="20260825120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260825090000 +0000" stop="20260825120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260825090000 +0000" stop="20260825120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260825090000 +0000" stop="20260825120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260825090100 +0000" stop="20260825092200 +0000" channel="WarnerChannel.cl">
     <desc lang="es">S1 E14 — En bancarrota
@@ -22983,11 +22796,6 @@ Más de dos tercios del mundo tienen acceso a las enseñanzas bíblicas práctic
     <icon src="https://iptv-epg.org/images/NvqQLKWhsbcNDSy3UXKuOgpx6qqIGaAP7_FhhED_TEqp-Qv0eHbe05P-iuP4LeOtl2jgasCHeIu8XOuBi0gGq495OssP-d5PdlXdmBeXkt4CSSqy_2UXgBM54GB5bXDaqiqM-5k" />
     <title lang="es">Disfrutando la vida diaria</title>
   </programme>
-  <programme start="20260825100000 +0000" stop="20260825120000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Coquimbo Unido vs. Platense</title>
-  </programme>
   <programme start="20260825100000 +0000" stop="20260825110000 +0000" channel="ESPN2.cl">
     <category lang="es">Current</category>
     <title lang="es">SportsCenter</title>
@@ -23050,10 +22858,6 @@ Jane y Lisbon continúan su peligrosa misión en secreto, reduciendo la lista a 
     <icon src="https://iptv-epg.org/images/DNWVlWJeIGpwjcKXa_5Kv1XSCfIMLXkVADFvrD1Ewquvjk1o28gAWIb3b-6peJyc4b8k7cgYBbEfAMgpPuYdJVAIpyN0aiRDXzCuhEa_bECW61shnSsaZ5xL4LgpzhCYg85rNWcMS96MmnKWNUXLn-wK_X0" />
     <title lang="es">El mentalista</title>
     <title lang="en">The Mentalist</title>
-  </programme>
-  <programme start="20260825100000 +0000" stop="20260825123500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">Pelota parada</title>
   </programme>
   <programme start="20260825100000 +0000" stop="20260825101000 +0000" channel="Tooncast.cl">
     <desc lang="es">S2 E15 — Toma chocolate, paga lo que debes
@@ -23134,6 +22938,11 @@ A Dave y Rebecca les preocupa la educación de sus hijos con los abuelos viviend
   <programme start="20260825100000 +0000" stop="20260825103000 +0000" channel="USANetwork.bo">
     <desc lang="es">Hollywood on Set.</desc>
     <title lang="es">Hollywood on Set</title>
+  </programme>
+  <programme start="20260825060000 -0400" stop="20260825100000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Contenido TNT Sports</title>
+    <desc lang="es">Sin información.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260825100500 +0000" stop="20260825110000 +0000" channel="Sony.cl">
     <desc lang="es">S2 E6 — De doble capa (o no de doble capa)
@@ -24397,11 +24206,6 @@ Presencia en este espacio las prédicas del pastor Cash Luna con un mensaje de f
     <icon src="https://iptv-epg.org/images/suCCWEU8QQkPdEeLmfhjx5X36yaYqYH1O7fFcOiE5Midcx6zBM-rcn9YaSmPytdoRPGaEx_7hianUQXaIn2-OQ6eYQHHsxTHrv-a6SGgfbXZObzpp9yH" />
     <title lang="es">Casa de Dios</title>
   </programme>
-  <programme start="20260825120000 +0000" stop="20260825140000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Universidad Católica vs. Estudiantes</title>
-  </programme>
   <programme start="20260825120000 +0000" stop="20260825123000 +0000" channel="ESPN2.cl">
     <category lang="es">Racing</category>
     <title lang="es">FIM Road Racing World Championship Highlights</title>
@@ -24538,20 +24342,20 @@ El juego de Yalçin obliga a Hakan a aparecer en una reunión como hace años y 
 Blaze y los Monster Machines.</desc>
     <title lang="es">Blaze y los Monster Machines</title>
   </programme>
-  <programme start="20260825120000 +0000" stop="20260825150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260825120000 +0000" stop="20260825150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260825120000 +0000" stop="20260825150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260825120000 +0000" stop="20260825150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260825120000 +0000" stop="20260825150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260825120500 +0000" stop="20260825123000 +0000" channel="WarnerChannel.cl">
     <desc lang="es">S12 E8 — La desviación de la consumación
@@ -24885,11 +24689,6 @@ Los niños se topan con un área plagada de basura y pronto descubren que tambi�
     <episode-num>S1 E18</episode-num>
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Super Wish</title>
-  </programme>
-  <programme start="20260825123500 +0000" stop="20260825132500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Historias de cracks</title>
   </programme>
   <programme start="20260825123600 +0000" stop="20260825132400 +0000" channel="DiscoveryScience.cl">
     <desc lang="es">S1 E6 — Las ruinas del Amazonas
@@ -25280,11 +25079,6 @@ Dr. Stern le preguntó a Betty si quería casarse con él. ¿Ella dirá que sí?
     <desc lang="es">Es la historia de Lola, una madre de familia que lucha por mantener unida a su familia en la ciudad de São Paulo entre las décadas de 1920 y 1940, enfrentando dificultades económicas, conflictos familiares y los grandes cambios sociales de la época.</desc>
     <title lang="es">Éramos seis</title>
   </programme>
-  <programme start="20260825090000 -0400" stop="20260825130000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Contenido TNT Sports</title>
-    <desc lang="es">Sin información.</desc>
-    <category lang="es">Deportes</category>
-  </programme>
   <programme start="20260825130500 +0000" stop="20260825133000 +0000" channel="ComedyCentral.cl">
     <desc lang="es">S5 E6 — El crucero de los malditos
 Para alejar a Niles de sus problemas maritales, Frasier lo invita a un crucero por Alaska... pero se olvida de decirle a Niles que también ha invitado a Maris como una "sorpresa".</desc>
@@ -25461,11 +25255,6 @@ Las condiciones en las cuales trabajan los carboneros son muy duras, ya que vive
     <icon src="https://iptv-epg.org/images/DOGzkCASYiSLTtElbnzqfDu9QRw7T_V-WAb5okBN6h40wH7bNA1TCjLkwT7PC64uHImDFFGw_DA9H3LtJwb_CfzFupXnHpuKUmKuxHwekmaRJmAwsiDO3Bhvg4QC6MKdJGyahV0" />
     <title lang="es">Pioneros de Polonia</title>
     <title lang="en">Bieszczady Last Frontier</title>
-  </programme>
-  <programme start="20260825132500 +0000" stop="20260825151000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Fútbol Chileno Primera División</title>
   </programme>
   <programme start="20260825132600 +0000" stop="20260825141600 +0000" channel="InvestigationDiscovery.cl">
     <desc lang="es">S1 E1 — Noticias locales
@@ -25803,10 +25592,6 @@ En la palabra del Señor encuentras que ciertas cosas deben ser primeras en tu v
     <icon src="https://iptv-epg.org/images/u0EaXKQcP9TRfNjHONrFY1IzoVYs2oG1EEukE1IiQbXPRyWfL6RvdwIt_xQixqP4LEcmIf5Yo2s8XuKp61ATKF4oMiwOYbELOZkhJOKxVLeSADvfBTA4" />
     <title lang="es">Otoniel Font</title>
   </programme>
-  <programme start="20260825140000 +0000" stop="20260825150000 +0000" channel="ESPN.cl">
-    <category lang="es">default</category>
-    <title lang="es">WTA 1000: Cincinnati Open, final</title>
-  </programme>
   <programme start="20260825140000 +0000" stop="20260825150000 +0000" channel="ESPN2.cl">
     <category lang="es">Current</category>
     <title lang="es">SportsCenter</title>
@@ -25905,6 +25690,11 @@ Dr. Mirko, el hermano de Tom Koopmann, vuelve a estar en problemas. ¿Tom le ayu
   </programme>
   <programme start="20260825100000 -0400" stop="20260825145000 -0400" channel="ESPN.cl">
     <title lang="es">Contenido ESPN</title>
+    <desc lang="es">Sin información.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260825100000 -0400" stop="20260825140000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Contenido TNT Sports</title>
     <desc lang="es">Sin información.</desc>
     <category lang="es">Deportes</category>
   </programme>
@@ -26498,10 +26288,6 @@ Debate intenso sobre temas cotidianos a la luz de principios espirituales y los 
     <icon src="https://iptv-epg.org/images/FJBc-iVNAC1fNPNbEZxDucvOARV206EcoLTNHJcmTzvXX58i7wafRbp-d3NKadJhViWS9jOfEzOxwpB4hCpa3dmth17Ii4EbsgoFLYM0hCtqNY1PGfpura4" />
     <title lang="es">Aquí entre nos</title>
   </programme>
-  <programme start="20260825150000 +0000" stop="20260825160000 +0000" channel="ESPN.cl">
-    <category lang="es">default</category>
-    <title lang="es">ATP Masters 1000: Cincinnati Open, Final</title>
-  </programme>
   <programme start="20260825150000 +0000" stop="20260825170000 +0000" channel="ESPN2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -26614,20 +26400,20 @@ Niles se siente deprimido por la vida que lleva como mayordomo y comienza a actu
 Tim Rex en el espacio.</desc>
     <title lang="es">Tim Rex en el espacio</title>
   </programme>
-  <programme start="20260825150000 +0000" stop="20260825180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260825150000 +0000" stop="20260825180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260825150000 +0000" stop="20260825180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260825150000 +0000" stop="20260825180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260825150000 +0000" stop="20260825180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260825150500 +0000" stop="20260825153000 +0000" channel="ComedyCentral.cl">
     <desc lang="es">S5 E19 — Mintiendo cobardemente
@@ -26667,10 +26453,6 @@ Cuando Starfire se obsesiona con una cuchara para servir helado, los demás inte
     <icon src="https://iptv-epg.org/images/aw06zEEU6E69h7bU94JoWzM4lWNZ-TLlPbzmR7O8wRyg7z_IIV3mkfTCgLHdtj1pWQbSx_lStPr-25uo1ItAkNeEoy7dJKktAxndJikBgH5RlffW0PxD8xa-c8id8I9m3HcHqUgX8uIGlc9cDwq1nAjhO6JUe2fQbx4E" />
     <title lang="es">Los Jóvenes Titanes en acción</title>
     <title lang="en">Teen Titans Go!</title>
-  </programme>
-  <programme start="20260825151000 +0000" stop="20260825163500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">TNT Data Sports</title>
   </programme>
   <programme start="20260825151000 +0000" stop="20260825152000 +0000" channel="Tooncast.cl">
     <desc lang="es">S1 E36 — Tiempo muerto
@@ -27199,11 +26981,6 @@ Un espacio que propone divulgar la Palabra de Dios.</desc>
     <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
     <title lang="es">Esperanza hoy</title>
   </programme>
-  <programme start="20260825160000 +0000" stop="20260825170300 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Borussia Dortmund vs. Bayern Munich</title>
-  </programme>
   <programme start="20260825160000 +0000" stop="20260825163000 +0000" channel="ESPN3.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -27577,10 +27354,6 @@ Elka y Mamie Sue engañan a Joy para que haga un anuncio para su servicio de cit
     <title lang="es">Póquer de reinas</title>
     <title lang="en">Hot in Cleveland</title>
   </programme>
-  <programme start="20260825163500 +0000" stop="20260825165500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">Replay</title>
-  </programme>
   <programme start="20260825163600 +0000" stop="20260825164100 +0000" channel="DiscoveryKids.cl">
     <desc lang="es">S3 E7 — Salva a una estrella
 ¿Estamos a tiempo de recuperar el planeta? La respuesta de Beta es clara: sí. Este antiguo cuento sufí nos recuerda que nuestras acciones aunque parezcan pequeñas pueden cambiar las cosas.</desc>
@@ -27785,10 +27558,6 @@ Isabela intenta acercarse a Víctor y Julia le impide temiendo que le haga más 
     <icon src="https://iptv-epg.org/images/tBG6uF8HLU9mtxIkWDN6pJDTYdT_EGQ7RRXEwUAJFFenM_9QlNtQA5ADm0epO4JEqS9WAgPSYJhaR1Z87zUkoLtarDQhPLbTSmcw933NY6gNh2-GVO5L5KeEbQ6maPvCEQ" />
     <title lang="es">Niña amada mía</title>
   </programme>
-  <programme start="20260825165500 +0000" stop="20260825175500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">No es para tanto</title>
-  </programme>
   <programme start="20260825165800 +0000" stop="20260825175000 +0000" channel="AnimalPlanet.cl">
     <desc lang="es">S2 E2 — Relajación para las chinchillas
 Antonio y su equipo de diseño crean y construyen un sistema elaborado de túneles y torres que abarcan dos habitaciones para una adorable familia de siete chinchillas.</desc>
@@ -27955,15 +27724,6 @@ La más completa información de los principales acontecimientos que están marc
     <desc lang="es">T9-E5 ¡La gran carrera de la hora de dormir
 Blaze y los Monster Machines.</desc>
     <title lang="es">Blaze y los Monster Machines</title>
-  </programme>
-  <programme start="20260825130000 -0400" stop="20260825170000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Contenido TNT Sports</title>
-    <desc lang="es">Sin información.</desc>
-    <category lang="es">Deportes</category>
-  </programme>
-  <programme start="20260825170300 +0000" stop="20260825173500 +0000" channel="ESPN.cl">
-    <category lang="es">Racing</category>
-    <title lang="es">FIM Road Racing World Championship Highlights</title>
   </programme>
   <programme start="20260825170500 +0000" stop="20260825173800 +0000" channel="ESPN5.cl">
     <category lang="es">Racing</category>
@@ -28201,11 +27961,6 @@ Hicks se enfrenta a una inesperada revisión del equipo, se infiltra para invest
     <title lang="es">SWAT</title>
     <title lang="en">S.W.A.T.</title>
   </programme>
-  <programme start="20260825173500 +0000" stop="20260825194000 +0000" channel="ESPN.cl">
-    <category lang="es">Boxing</category>
-    <category>Sports</category>
-    <title lang="es">Legacy Fighting Alliance 239</title>
-  </programme>
   <programme start="20260825173800 +0000" stop="20260825180900 +0000" channel="ESPN5.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -28338,10 +28093,6 @@ Documental que analiza si el gobierno estadounidense ha ocultado una serie de mi
     <icon src="https://iptv-epg.org/images/j95OdlqsTn6GMVMyyrAfJQl57ijXtwGreWG3iNAQUZeoGKf-gV7Ony4His-QwbZo2siOn4LkwCnBscE7_U22JxnfGpUXxFFMVEsuPqn5l_BWmLqRmlxdHa3a3NzK1y1UVr8" />
     <title lang="es">OVNIs: misiones secretas</title>
   </programme>
-  <programme start="20260825175500 +0000" stop="20260825195500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">Todos somos técnicos</title>
-  </programme>
   <programme start="20260825175600 +0000" stop="20260825184300 +0000" channel="HGTV.ar">
     <desc lang="es">S1 E3 — De la ciudad a la granja
 Una pareja decide dejar atrás su antigua vida para criar a su hija cerca de la naturaleza en el valle de Hudson. Davina y Kristin tienen como objetivo cumplir sus aspiraciones de un estilo de vida de la granja a la mesa.</desc>
@@ -28428,20 +28179,25 @@ Un espacio donde la familia es nuestra prioridad, hablando del amor de Jesús ac
     <title lang="es">Escorpión</title>
     <title lang="en">Akrep</title>
   </programme>
-  <programme start="20260825180000 +0000" stop="20260825210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260825140000 -0400" stop="20260825180000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Contenido TNT Sports</title>
+    <desc lang="es">Sin información.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260825180000 +0000" stop="20260825210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260825180000 +0000" stop="20260825210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260825180000 +0000" stop="20260825210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260825180000 +0000" stop="20260825210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260825180200 +0000" stop="20260825201400 +0000" channel="HBOFamily.cl">
     <category lang="es">Acción</category>
@@ -29500,11 +29256,6 @@ Un casi accidente despierta el sentido del deber ciudadano de Dave, provocando q
     <title lang="es">El vecindario</title>
     <title lang="en">The Neighborhood</title>
   </programme>
-  <programme start="20260825194000 +0000" stop="20260825220000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">LASK vs. Celtic</title>
-  </programme>
   <programme start="20260825194000 +0000" stop="20260825200000 +0000" channel="NickJr.bo">
     <desc lang="es">T2-E20 Los barbabebés tienen talento / Triple cambio
 BARBAPAPÁ Una gran familia feliz.</desc>
@@ -29645,10 +29396,6 @@ Una visita al médico suele bastar para curar a cualquier persona afectada; pero
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Increíble con Dan Aykroyd</title>
     <title lang="en">The UnBelievable with Dan Aykroyd</title>
-  </programme>
-  <programme start="20260825195500 +0000" stop="20260825204500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">Te quiero ver</title>
   </programme>
   <programme start="20260825195700 +0000" stop="20260825200900 +0000" channel="DiscoveryKids.cl">
     <desc lang="es">S1 E14 — El círculo perfecto
@@ -30144,11 +29891,6 @@ En una isla de Brasil, una anaconda agresiva y una pastinaca atormentan a los so
     <title lang="es">Supervivencia al desnudo</title>
     <title lang="en">Naked and Afraid</title>
   </programme>
-  <programme start="20260825204500 +0000" stop="20260825223000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Fútbol Chileno Primera División</title>
-  </programme>
   <programme start="20260825204700 +0000" stop="20260825210900 +0000" channel="DiscoveryKids.cl">
     <desc lang="es">S1 E1 — Las perlas de Neptuno
 Cuando las perlas que alimentan a Mertropia comienzan a desaparecer, la princesa Merlinda debe romper las reglas y nadar más allá de su hogar de sirenas para salvar la fuerza vital de su padre.</desc>
@@ -30426,25 +30168,20 @@ Bobby invita al legendario Marcus Samuelsson a la cocina de Triple Threat para q
     <desc lang="es">Sin información.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260825170000 -0400" stop="20260825210000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Contenido TNT Sports</title>
-    <desc lang="es">Sin información.</desc>
-    <category lang="es">Deportes</category>
-  </programme>
-  <programme start="20260825210000 +0000" stop="20260826000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260825210000 +0000" stop="20260826000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260825210000 +0000" stop="20260826000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260825210000 +0000" stop="20260826000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260825210000 +0000" stop="20260826000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260825210400 +0000" stop="20260825234000 +0000" channel="StarChannel.cl">
     <category lang="es">Suspenso</category>
@@ -30990,11 +30727,6 @@ Kenneth y Gloria les enseñaron a sus hijos, a sus nietos y a todos sus colabora
     <icon src="https://iptv-epg.org/images/bH9woV48-TI-7lYiWGuCmsNR5lyewuu_Hj5fxqBPnV6RCETlL9D-qu7evN7tzV7ra0tO_aOQvoAUM9oOE0tmWN6wKz4EbXIWbYdGRfUJz07wHk_GtT2Znw71raQcppSfzbTOovRjBrr6yg" />
     <title lang="es">La voz de victoria del creyente</title>
   </programme>
-  <programme start="20260825220000 +0000" stop="20260826000000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Borussia Dortmund vs. Bayern Munich</title>
-  </programme>
   <programme start="20260825220000 +0000" stop="20260825233000 +0000" channel="ESPN2.cl">
     <category lang="es">Current</category>
     <title lang="es">SportsCenter</title>
@@ -31066,6 +30798,11 @@ Edward no es lo suficientemente mayor para ver la película del campamento y se 
     <desc lang="es">T1-E3 Margarita y Amapola / La tetera de la reina Cardo
 El pequeño reino de Ben y Holly.</desc>
     <title lang="es">El pequeño reino de Ben y Holly</title>
+  </programme>
+  <programme start="20260825180000 -0400" stop="20260825220000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Contenido TNT Sports</title>
+    <desc lang="es">Sin información.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260825220700 +0000" stop="20260825223000 +0000" channel="DiscoveryKids.cl">
     <desc lang="es">S1 E5 — El tesoro pirata / La luna y las estrellas / El circo de Peppa / El estanque / Cuando eras chiq
@@ -31296,10 +31033,6 @@ Secretos papales, leyes reescritas y ciudades enteras desaparecidas debajo del m
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Misterios inexplorados con Danny Trejo</title>
     <title lang="en">Mysteries Unearthed with Danny Trejo</title>
-  </programme>
-  <programme start="20260825223000 +0000" stop="20260825233000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">No es para tanto</title>
   </programme>
   <programme start="20260825223000 +0000" stop="20260825224000 +0000" channel="Tooncast.cl">
     <desc lang="es">S3 E13 — Empacando
@@ -31995,10 +31728,6 @@ Stan afirma que un Marsupilami real aparecerá, en un espectáculo que está org
     <title lang="es">Los Marsupilamis</title>
     <title lang="en">The Marsupilamis</title>
   </programme>
-  <programme start="20260825233000 +0000" stop="20260826010000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">TNT Data Sports</title>
-  </programme>
   <programme start="20260825233000 +0000" stop="20260825234000 +0000" channel="Tooncast.cl">
     <desc lang="es">S3 E31 — Compinche
 Adam y Jake intentan determinar quién es el amigo principal en su relación y quién es el compinche. La competencia para determinar al amigo dominante lleva a otros estudiantes y maestros a cuestionar sus roles.</desc>
@@ -32278,11 +32007,6 @@ Debate intenso sobre temas cotidianos a la luz de principios espirituales y los 
     <icon src="https://iptv-epg.org/images/FJBc-iVNAC1fNPNbEZxDucvOARV206EcoLTNHJcmTzvXX58i7wafRbp-d3NKadJhViWS9jOfEzOxwpB4hCpa3dmth17Ii4EbsgoFLYM0hCtqNY1PGfpura4" />
     <title lang="es">Aquí entre nos</title>
   </programme>
-  <programme start="20260826000000 +0000" stop="20260826010000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">El show de la Copa Libertadores</title>
-  </programme>
   <programme start="20260826000000 +0000" stop="20260826020000 +0000" channel="ESPN2.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -32362,20 +32086,20 @@ Macarena Pizarro y Daniel Matamala presentan el noticiero más creíble del paí
     <desc lang="es">Sin información.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260826000000 +0000" stop="20260826030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260826000000 +0000" stop="20260826030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260826000000 +0000" stop="20260826030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260826000000 +0000" stop="20260826030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260826000000 +0000" stop="20260826030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260826000400 +0000" stop="20260826010200 +0000" channel="TNTSeries.cl">
     <desc lang="es">S6 E17 — Las alas plateadas del tiempo
@@ -32907,11 +32631,6 @@ María Patricia y Ricardo Rodríguez del Centro Mundial de Avivamiento en Bogot�
     <icon src="https://iptv-epg.org/images/11Tfe21cAeIKDeyr2dbK1vunuO3AnfRYycZWHcexA7gDuB6Ag4dxaj-pQrz-TQBjSq8220iLrCjU_MFNJCLdTDtWdEuEOgO806tlxkhkb99WlSTrg1gia3AMs9WqQRG_jivvxg" />
     <title lang="es">Él puede hacerlo de nuevo</title>
   </programme>
-  <programme start="20260826010000 +0000" stop="20260826033000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Independiente del Valle vs. Deportes Tolima</title>
-  </programme>
   <programme start="20260826010000 +0000" stop="20260826030000 +0000" channel="ESPN6.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -32990,10 +32709,6 @@ Isabela intenta acercarse a Víctor y Julia le impide temiendo que le haga más 
     <icon src="https://iptv-epg.org/images/tBG6uF8HLU9mtxIkWDN6pJDTYdT_EGQ7RRXEwUAJFFenM_9QlNtQA5ADm0epO4JEqS9WAgPSYJhaR1Z87zUkoLtarDQhPLbTSmcw933NY6gNh2-GVO5L5KeEbQ6maPvCEQ" />
     <title lang="es">Niña amada mía</title>
   </programme>
-  <programme start="20260826010000 +0000" stop="20260826030000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">Todos somos técnicos</title>
-  </programme>
   <programme start="20260826010000 +0000" stop="20260826013000 +0000" channel="Tooncast.cl">
     <desc lang="es">Infantil
 Sheep deberá escaparse del General Especifico y su terrible arma secreta, y como si fuera poco, evitar los peligros y trampas que hay en la gran ciudad.</desc>
@@ -33054,11 +32769,6 @@ La casa de Chip y Jo en Colorado se calienta rápidamente. Los proyectos se esta
     <desc lang="es">T1-E9 El gran tesoro de Santiago / El tesoro de la banana dorada
 Santiago de los mares.</desc>
     <title lang="es">Santiago de los mares</title>
-  </programme>
-  <programme start="20260825210000 -0400" stop="20260826010000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Contenido TNT Sports</title>
-    <desc lang="es">Sin información.</desc>
-    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260826010100 +0000" stop="20260826020100 +0000" channel="NationalGeographic.cl">
     <desc lang="es">S1 E4 — La pirámide perdida
@@ -33576,6 +33286,11 @@ Un apagón en Los Ángeles, unido a una ola de calor sin precedentes, desata el 
 Bedtime Stories with Ryan.</desc>
     <title lang="es">Bedtime Stories with Ryan</title>
   </programme>
+  <programme start="20260825220000 -0400" stop="20260826020000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Contenido TNT Sports</title>
+    <desc lang="es">Sin información.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
   <programme start="20260826020100 +0000" stop="20260826030200 +0000" channel="NationalGeographic.cl">
     <desc lang="es">S1 E2 — La máscara de oro
 Nuevas investigaciones revelan que la máscara funeraria de oro macizo de Tutankamón fue hecha especialmente para él.</desc>
@@ -34061,10 +33776,6 @@ Carly está extremadamente emocionada cuando la compañía popular de zapatos Da
     <icon src="https://iptv-epg.org/images/GHLOD7cW-OpsVNrC-BIFc7BdqHZ1q1v-DyZ9-ghMN_LdGFyWxkdsEebr0frW6sA0p7K6WWK3kz3Ttoudxw0N7mda6foXSiyCBB3ZRhLQ-n0pK00v6NUt0njifFZN1uQ9jSopkCSzhj9SHvfGxg" />
     <title lang="es">iCarly</title>
   </programme>
-  <programme start="20260826030000 +0000" stop="20260826034500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">Te quiero ver</title>
-  </programme>
   <programme start="20260826030000 +0000" stop="20260826040000 +0000" channel="TyCSports.cl">
     <category lang="es">Talk</category>
     <title lang="es">Sportia</title>
@@ -34091,20 +33802,20 @@ Carly está extremadamente emocionada cuando la compañía popular de zapatos Da
     <desc lang="es">En una noche de tormenta, nace la bella Marina aparentemente sin vida. La bebé es recibida por Damiana, la partera del pueblo, quien unas horas antes atendió el alumbramiento de un niño sano, pero que desafortunadamente su madre no sobrevivió. Don Luis, el padre de Marina, desde que se casó con Prudencia, vive empeñado en tener un hijo varón, desea un heredero que trascienda su ilustre apellido Ocaranza. Desafortunadamente, Prudencia queda imposibilitada para volver a embarazarse, situación que apremia a su nana Angustias a convencer a Damiana de beneficiar a la familia y al bebé que quedó huérfano, haciéndolo pasar por legítimo hijo Ocaranza Arzuaga. Es así como Luis Alberto, el gran orgullo de Don Luis, crece en cuna de oro y viaja al extranjero para estudiar la carrera de medicina. Marina, milagrosamente sobrevive y crece feliz rodeada de la naturaleza al lado de Damiana, quien le enseña a conocer el mundo de manera distinta, debido a que es invidente. El encanto de Marina por su actitud alegre, fresca.</desc>
     <title lang="es">Sin tu mirada</title>
   </programme>
-  <programme start="20260826030000 +0000" stop="20260826060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260826030000 +0000" stop="20260826060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260826030000 +0000" stop="20260826060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260826030000 +0000" stop="20260826060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260826030000 +0000" stop="20260826060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260826031000 +0000" stop="20260826032000 +0000" channel="CartoonNetwork.cl">
     <desc lang="es">S1 E22 — Lacayo
@@ -34226,11 +33937,6 @@ Programación a confirmar.</desc>
     <icon src="https://iptv-epg.org/images/Azu5JebyqTLNW0lE-vOOtFiEb3bNio1aKEj_cfmJXdmayLwKn-MxpAWTBHMjUdTkia-1UTd8J3-sZjKMfEUNIbaq56ZY_kXaqjHnjlCHwtRge5tWAQk" />
     <title lang="es">A confirmar</title>
   </programme>
-  <programme start="20260826033000 +0000" stop="20260826040000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Grandes Partidos de la UEFA</title>
-  </programme>
   <programme start="20260826034000 +0000" stop="20260826035000 +0000" channel="CartoonNetwork.cl">
     <desc lang="es">S1 E14 — El jardín de la bruja
 Una bruja roba los poderes de cambio de forma de Jake, pero su ego hace que recuperarlos sea muy difícil.</desc>
@@ -34250,10 +33956,6 @@ El 118 llega a la escena después de que un camión choca contra un desfile de b
     <desc lang="es">T1-E13 Las botas del cangrejo / El picnic
 Dora.</desc>
     <title lang="es">Dora</title>
-  </programme>
-  <programme start="20260826034500 +0000" stop="20260826054500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">Todos somos técnicos</title>
   </programme>
   <programme start="20260826034500 +0000" stop="20260826041000 +0000" channel="FOODNETWORK.uy">
     <category lang="es">Reality</category>
@@ -34327,11 +34029,6 @@ Luego de quedarse dos noches despiertos mirando una maratón de películas, Mord
 Joel Osteen comparte un evangelio renovador, un mensaje de esperanza, alegre, compasivo y cercano. El pastor ofrece, a través de la palabra de Dios, soluciones sencillas para el andar cotidiano.</desc>
     <icon src="https://iptv-epg.org/images/rj0IdNEzH169y-9wNSSFB0x05cGiINN7Aygj-stc0-lcFD8kPhaqjKggRXERUKZtxqTQDPjE3yTFsEVXF_8rrTaPoM3iUNjgYASsWExVoQ" />
     <title lang="es">Joel</title>
-  </programme>
-  <programme start="20260826040000 +0000" stop="20260826060000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">LASK vs. Celtic</title>
   </programme>
   <programme start="20260826040000 +0000" stop="20260826053000 +0000" channel="ESPN2.cl">
     <category lang="es">Soccer</category>
@@ -34606,11 +34303,6 @@ Una joven y sus amigas deciden hacer 'el reto de la silueta' en donde deben most
     <desc lang="es">Es la historia de Lola, una madre de familia que lucha por mantener unida a su familia en la ciudad de São Paulo entre las décadas de 1920 y 1940, enfrentando dificultades económicas, conflictos familiares y los grandes cambios sociales de la época.</desc>
     <title lang="es">Éramos seis</title>
   </programme>
-  <programme start="20260826010000 -0400" stop="20260826090000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Contenido TNT Sports</title>
-    <desc lang="es">Sin información.</desc>
-    <category lang="es">Deportes</category>
-  </programme>
   <programme start="20260826051000 +0000" stop="20260826053500 +0000" channel="NickJr.bo">
     <desc lang="es">T2-E5 ¡Ah! Mi hermoso castillo / Arenas fugitivas
 BARBAPAPÁ Una gran familia feliz.</desc>
@@ -34650,18 +34342,10 @@ Comienza la primera prueba de los chefs y deben encontrar la forma de que la pas
     <episode-num>S2 E6</episode-num>
     <title lang="es">Dulce genio</title>
   </programme>
-  <programme start="20260826054500 +0000" stop="20260826071500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">TNT Data Sports</title>
-  </programme>
   <programme start="20260826055500 +0000" stop="20260826062000 +0000" channel="NickJr.bo">
     <desc lang="es">T2-E7 La familia de Barbapapá / La casa de Barbapapá
 BARBAPAPÁ Una gran familia feliz.</desc>
     <title lang="es">BARBAPAPÁ Una gran familia feliz</title>
-  </programme>
-  <programme start="20260826060000 +0000" stop="20260826080000 +0000" channel="ESPN.cl">
-    <category lang="es">Auto</category>
-    <title lang="es">Gran Premio de los Países Bajos: Carrera principal</title>
   </programme>
   <programme start="20260826060000 +0000" stop="20260826070000 +0000" channel="TyCSports.cl">
     <category lang="es">Talk</category>
@@ -34690,20 +34374,25 @@ BARBAPAPÁ Una gran familia feliz.</desc>
     <title lang="es">Escorpión</title>
     <title lang="en">Akrep</title>
   </programme>
-  <programme start="20260826060000 +0000" stop="20260826090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260826020000 -0400" stop="20260826100000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Contenido TNT Sports</title>
+    <desc lang="es">Sin información.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260826060000 +0000" stop="20260826090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260826060000 +0000" stop="20260826090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260826060000 +0000" stop="20260826090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260826060000 +0000" stop="20260826090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260826062000 +0000" stop="20260826064000 +0000" channel="NickJr.bo">
     <desc lang="es">T1-E6 ¡El equipo construye un parque de patinetas! / ¡El equipo construye un túnel
@@ -34809,11 +34498,6 @@ Katie busca especialidades gastronómicas regionales en playas de varios lugares
     <episode-num>S1 E2</episode-num>
     <title lang="es">Beach Bites with Katie Lee</title>
   </programme>
-  <programme start="20260826071500 +0000" stop="20260826085500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Fútbol Chileno Primera División</title>
-  </programme>
   <programme start="20260826071500 +0000" stop="20260826075000 +0000" channel="SONYMOVIES.uy">
     <category lang="es">Comedia</category>
     <date>2017</date>
@@ -34866,11 +34550,6 @@ Loudermilk regresa a Seattle y toma una gran decisión que afecta no solo su vid
     <desc lang="es">T4-E17 Rocas al rescate / Shock de calcetas
 Deer Squad.</desc>
     <title lang="es">Deer Squad</title>
-  </programme>
-  <programme start="20260826080000 +0000" stop="20260826100000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Independiente del Valle vs. Deportes Tolima</title>
   </programme>
   <programme start="20260826080000 +0000" stop="20260826090000 +0000" channel="ESPN2.cl">
     <category lang="es">Soccer</category>
@@ -34927,10 +34606,6 @@ Tiger, Wolf y Josh buscan desenmascarar a los Biotics incógnitos en la fiesta d
     <desc lang="es">T1-E9 Juguete / Astro bobo / Topo
 Tim Rex en el espacio.</desc>
     <title lang="es">Tim Rex en el espacio</title>
-  </programme>
-  <programme start="20260826085500 +0000" stop="20260826100000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">No es para tanto</title>
   </programme>
   <programme start="20260826085500 +0000" stop="20260826092000 +0000" channel="NickJr.bo">
     <desc lang="es">T3-E10 El equipo construye un rascacielos
@@ -35000,20 +34675,20 @@ Hay un par enérgico en la cocina en un grupo jóvenes competidores que incluye 
     <desc lang="es">Es la historia de Lola, una madre de familia que lucha por mantener unida a su familia en la ciudad de São Paulo entre las décadas de 1920 y 1940, enfrentando dificultades económicas, conflictos familiares y los grandes cambios sociales de la época.</desc>
     <title lang="es">Éramos seis</title>
   </programme>
-  <programme start="20260826090000 +0000" stop="20260826120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260826090000 +0000" stop="20260826120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260826090000 +0000" stop="20260826120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260826090000 +0000" stop="20260826120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260826090000 +0000" stop="20260826120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260826090500 +0000" stop="20260826094000 +0000" channel="SONYMOVIES.uy">
     <category lang="es">Comedia</category>
@@ -35052,18 +34727,9 @@ Dora.</desc>
     <category lang="es">Talk</category>
     <title lang="es">DSPORTS Noticias Nite</title>
   </programme>
-  <programme start="20260826100000 +0000" stop="20260826120000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">LASK vs. Celtic</title>
-  </programme>
   <programme start="20260826100000 +0000" stop="20260826110000 +0000" channel="ESPN4.cl">
     <category lang="es">Special</category>
     <title lang="es">Equipo Scrum</title>
-  </programme>
-  <programme start="20260826100000 +0000" stop="20260826122000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">Pelota parada</title>
   </programme>
   <programme start="20260826100000 +0000" stop="20260826110000 +0000" channel="TyCSports.cl">
     <category lang="es">Talk</category>
@@ -35224,11 +34890,6 @@ Eric Adjepong invita a tres competidores de Nueva York para representar la diver
     <episode-num>S4 E3</episode-num>
     <title lang="es">Alex vs. América</title>
   </programme>
-  <programme start="20260826120000 +0000" stop="20260826130000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Borussia Dortmund vs. Bayern Munich</title>
-  </programme>
   <programme start="20260826120000 +0000" stop="20260826130000 +0000" channel="ESPN5.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -35261,24 +34922,20 @@ Eric Adjepong invita a tres competidores de Nueva York para representar la diver
 Blaze y los Monster Machines.</desc>
     <title lang="es">Blaze y los Monster Machines</title>
   </programme>
-  <programme start="20260826120000 +0000" stop="20260826150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260826120000 +0000" stop="20260826150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260826120000 +0000" stop="20260826150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260826120000 +0000" stop="20260826150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260826122000 +0000" stop="20260826170500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">Replay</title>
+  <programme start="20260826120000 +0000" stop="20260826150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260826122000 +0000" stop="20260826124500 +0000" channel="NickJr.bo">
     <desc lang="es">T6-E8 Tras la cachorrita
@@ -35308,11 +34965,6 @@ Adam renuncia a su cita semanal con Mama-Schmoo para pasar el rato con sus nuevo
   <programme start="20260826130000 +0000" stop="20260826133000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Mini-Series</category>
     <title lang="es">LaLiga 2010-11: Messi vs. Ronaldo</title>
-  </programme>
-  <programme start="20260826130000 +0000" stop="20260826150000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Independiente del Valle vs. Deportes Tolima</title>
   </programme>
   <programme start="20260826130000 +0000" stop="20260826133000 +0000" channel="ESPN2.cl">
     <category lang="es">Racing</category>
@@ -35369,11 +35021,6 @@ Adam renuncia a su cita semanal con Mama-Schmoo para pasar el rato con sus nuevo
     <date>2019</date>
     <desc lang="es">Es la historia de Lola, una madre de familia que lucha por mantener unida a su familia en la ciudad de São Paulo entre las décadas de 1920 y 1940, enfrentando dificultades económicas, conflictos familiares y los grandes cambios sociales de la época.</desc>
     <title lang="es">Éramos seis</title>
-  </programme>
-  <programme start="20260826090000 -0400" stop="20260826130000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Contenido TNT Sports</title>
-    <desc lang="es">Sin información.</desc>
-    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260826130500 +0000" stop="20260826133000 +0000" channel="NickJr.bo">
     <desc lang="es">T2-E25 El equipo construye un escenario en la azotea / El equipo repara el faro
@@ -35462,6 +35109,11 @@ Deer Squad.</desc>
     <desc lang="es">Sin información.</desc>
     <category lang="es">Deportes</category>
   </programme>
+  <programme start="20260826100000 -0400" stop="20260826140000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Contenido TNT Sports</title>
+    <desc lang="es">Sin información.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
   <programme start="20260826141500 +0000" stop="20260826144000 +0000" channel="NickJr.bo">
     <desc lang="es">T2-E12 Duende lengua enredada / Chompy y la flor de nube
 Dora.</desc>
@@ -35490,11 +35142,6 @@ Santiago de los mares.</desc>
 Josh y Jessalyn se casarán pronto y planearon todo con temática francesa, pero les falta el pastel perfecto. Solo faltan unos días para la boda y se reunirán con tres diseñadores para que les muestren sus ideas.</desc>
     <episode-num>S1 E1</episode-num>
     <title lang="es">Cake Hunters</title>
-  </programme>
-  <programme start="20260826150000 +0000" stop="20260826153000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Grandes Partidos de la UEFA</title>
   </programme>
   <programme start="20260826150000 +0000" stop="20260826160000 +0000" channel="ESPN2.cl">
     <category lang="es">Soccer</category>
@@ -35559,20 +35206,20 @@ Josh y Jessalyn se casarán pronto y planearon todo con temática francesa, pero
 Tim Rex en el espacio.</desc>
     <title lang="es">Tim Rex en el espacio</title>
   </programme>
-  <programme start="20260826150000 +0000" stop="20260826180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260826150000 +0000" stop="20260826180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260826150000 +0000" stop="20260826180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260826150000 +0000" stop="20260826180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260826150000 +0000" stop="20260826180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260826151000 +0000" stop="20260826153500 +0000" channel="FOODNETWORK.uy">
     <date>2011</date>
@@ -35585,10 +35232,6 @@ Buddy prepara sus recetas comodín para invitados inesperados. La salsa caponata
     <desc lang="es">T1-E5 El bicho espacial
 Tim Rex en el espacio.</desc>
     <title lang="es">Tim Rex en el espacio</title>
-  </programme>
-  <programme start="20260826153000 +0000" stop="20260826173500 +0000" channel="ESPN.cl">
-    <category lang="es">Auto</category>
-    <title lang="es">Gran Premio de los Países Bajos: Carrera principal</title>
   </programme>
   <programme start="20260826153000 +0000" stop="20260826163000 +0000" channel="ESPN4.cl">
     <category lang="es">default</category>
@@ -35734,15 +35377,6 @@ El presentador Eric Adjepong presenta a tres hábiles chefs de California, Texas
 Blaze y los Monster Machines.</desc>
     <title lang="es">Blaze y los Monster Machines</title>
   </programme>
-  <programme start="20260826130000 -0400" stop="20260826163000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Contenido TNT Sports</title>
-    <desc lang="es">Sin información.</desc>
-    <category lang="es">Deportes</category>
-  </programme>
-  <programme start="20260826170500 +0000" stop="20260826180000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">No es para tanto</title>
-  </programme>
   <programme start="20260826172500 +0000" stop="20260826174500 +0000" channel="NickJr.bo">
     <desc lang="es">T9-E8 Monster machines en el cine
 Blaze y los Monster Machines.</desc>
@@ -35751,10 +35385,6 @@ Blaze y los Monster Machines.</desc>
   <programme start="20260826173000 +0000" stop="20260826190000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Talk</category>
     <title lang="es">DSPORTS Noticias</title>
-  </programme>
-  <programme start="20260826173500 +0000" stop="20260826194000 +0000" channel="ESPN.cl">
-    <category lang="es">Special</category>
-    <title lang="es">2026 US Open: Roger Federer, An Icon Returns to New York</title>
   </programme>
   <programme start="20260826174000 +0000" stop="20260826183000 +0000" channel="FOODNETWORK.uy">
     <category lang="es">Reality</category>
@@ -35779,10 +35409,6 @@ Rubble y equipo.</desc>
     <category>Sports</category>
     <title lang="es">ATP Tour: This Week</title>
   </programme>
-  <programme start="20260826180000 +0000" stop="20260826195500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">Todos somos técnicos</title>
-  </programme>
   <programme start="20260826180000 +0000" stop="20260826190000 +0000" channel="AXN.cl">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -35806,20 +35432,25 @@ Rubble y equipo.</desc>
     <title lang="es">Escorpión</title>
     <title lang="en">Akrep</title>
   </programme>
-  <programme start="20260826180000 +0000" stop="20260826210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260826140000 -0400" stop="20260826173000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Contenido TNT Sports</title>
+    <desc lang="es">Sin información.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260826180000 +0000" stop="20260826210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260826180000 +0000" stop="20260826210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260826180000 +0000" stop="20260826210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260826180000 +0000" stop="20260826210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260826181000 +0000" stop="20260826184000 +0000" channel="ESPN2.cl">
     <category lang="es">Soccer</category>
@@ -35944,19 +35575,10 @@ Los seis pasteleros restantes preparan: minipasteles de crema de Boston y sus ve
     <episode-num>S2 E4</episode-num>
     <title lang="es">Best Baker in America</title>
   </programme>
-  <programme start="20260826194000 +0000" stop="20260826220000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Olympique Lyonnais vs. Fenerbahçe</title>
-  </programme>
   <programme start="20260826194000 +0000" stop="20260826200000 +0000" channel="NickJr.bo">
     <desc lang="es">T2-E22 Ya no soy un bebé / Roboxman
 BARBAPAPÁ Una gran familia feliz.</desc>
     <title lang="es">BARBAPAPÁ Una gran familia feliz</title>
-  </programme>
-  <programme start="20260826195500 +0000" stop="20260826204500 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">Te quiero ver</title>
   </programme>
   <programme start="20260826200000 +0000" stop="20260826210000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Sports</category>
@@ -36000,16 +35622,6 @@ El ogro favorito de todos está en camino a Guerra de Pasteles y nos referimos a
     <desc lang="es">T1-E4 La búsqueda de la colmena escondida / El problema de los árboles derribados
 Misterios animales.</desc>
     <title lang="es">Misterios animales</title>
-  </programme>
-  <programme start="20260826163000 -0400" stop="20260826170000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Previa - Coquimbo Unido vs U. Católica</title>
-    <desc lang="es">LIGA DE PRIMERA MERCADO LIBRE 2026 - FECHA 19.</desc>
-    <category lang="es">Deportes</category>
-  </programme>
-  <programme start="20260826204500 +0000" stop="20260826223000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Fútbol Chileno Primera División</title>
   </programme>
   <programme start="20260826205000 +0000" stop="20260826225000 +0000" channel="SONYMOVIES.uy">
     <category lang="es">Acción</category>
@@ -36094,25 +35706,20 @@ Los Titanes creen estar listos para enfrentarse al protegido de Alex Guarnaschel
     <desc lang="es">Sin información.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260826170000 -0400" stop="20260826190000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Coquimbo Unido vs U. Católica</title>
-    <desc lang="es">LIGA DE PRIMERA MERCADO LIBRE 2026 - FECHA 19.</desc>
-    <category lang="es">Deportes</category>
-  </programme>
-  <programme start="20260826210000 +0000" stop="20260827000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260826210000 +0000" stop="20260827000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260826210000 +0000" stop="20260827000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260826210000 +0000" stop="20260827000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260826210000 +0000" stop="20260827000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260826211500 +0000" stop="20260826214000 +0000" channel="NickJr.bo">
     <desc lang="es">T4-E18 El volador del bosque vuela / La bromista aterradora
@@ -36128,6 +35735,11 @@ Deer Squad.</desc>
     <icon src="https://iptv-epg.org/images/TmN21nOFTQSwvrdWQx6wnEuBWa2ON9GlBNEmEGo1FXuHi0Fc3kNWKihIM4_h590iJhg2BSCeHyAusNulcP388zNZns8R_6lqWoMKfDbVeUr9jvtNkvVMWOs6z3E1U8o4gJVEWtSY" />
     <title lang="es">Blue Bloods (?)</title>
   </programme>
+  <programme start="20260826173000 -0400" stop="20260826180000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Previa - Coquimbo Unido vs U. Católica</title>
+    <desc lang="es">LIGA DE PRIMERA MERCADO LIBRE 2026 - FECHA 19.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
   <programme start="20260826214000 +0000" stop="20260826220000 +0000" channel="NickJr.bo">
     <desc lang="es">T2-E4 El suelo es guayaba / Somos los gruñones
 Dora.</desc>
@@ -36140,11 +35752,6 @@ Dora.</desc>
 Eric Adjepong desafía a tres expertos en golosinas a enfrentarse a Alex Guarnaschelli y tendrán que idear una estrategia para sacarla en primera ronda. Duff Goldman y Natasha Case juzgan mientras los chefs intentan mantener la calma para vencer a Alex.</desc>
     <episode-num>S4 E2</episode-num>
     <title lang="es">Alex vs. América</title>
-  </programme>
-  <programme start="20260826220000 +0000" stop="20260827000000 +0000" channel="ESPN.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Independiente del Valle vs. Deportes Tolima</title>
   </programme>
   <programme start="20260826220000 +0000" stop="20260826233000 +0000" channel="ESPN2.cl">
     <category lang="es">Current</category>
@@ -36183,6 +35790,11 @@ Eric Adjepong desafía a tres expertos en golosinas a enfrentarse a Alex Guarnas
 El pequeño reino de Ben y Holly.</desc>
     <title lang="es">El pequeño reino de Ben y Holly</title>
   </programme>
+  <programme start="20260826180000 -0400" stop="20260826200000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Coquimbo Unido vs U. Católica</title>
+    <desc lang="es">LIGA DE PRIMERA MERCADO LIBRE 2026 - FECHA 19.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
   <programme start="20260826222000 +0000" stop="20260826224500 +0000" channel="NickJr.bo">
     <desc lang="es">T10-E1 Los cachorros salvan a los esquiadores acuáticos / Los cachorros salvan al asistente del alcalde
 Paw Patrol patrulla de cachorros.</desc>
@@ -36196,10 +35808,6 @@ Paw Patrol patrulla de cachorros.</desc>
     <category lang="es">Tennis</category>
     <category>Sports</category>
     <title lang="es">ATP Tour: This Week</title>
-  </programme>
-  <programme start="20260826223000 +0000" stop="20260826233000 +0000" channel="TNTSportsPremium.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">No es para tanto</title>
   </programme>
   <programme start="20260826224000 +0000" stop="20260826230500 +0000" channel="FOODNETWORK.uy">
     <date>2006</date>
@@ -36260,11 +35868,6 @@ Paw Patrol patrulla de cachorros.</desc>
     <desc lang="es">T3-E10 El equipo construye un rascacielos
 Rubble y equipo.</desc>
     <title lang="es">Rubble y equipo</title>
-  </programme>
-  <programme start="20260826190000 -0400" stop="20260826230000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Contenido TNT Sports</title>
-    <desc lang="es">Sin información.</desc>
-    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260826230500 +0000" stop="20260826233000 +0000" channel="FOODNETWORK.uy">
     <date>2018</date>
@@ -36327,20 +35930,25 @@ BARBAPAPÁ Una gran familia feliz.</desc>
     <desc lang="es">En una noche de tormenta, nace la bella Marina aparentemente sin vida. La bebé es recibida por Damiana, la partera del pueblo, quien unas horas antes atendió el alumbramiento de un niño sano, pero que desafortunadamente su madre no sobrevivió. Don Luis, el padre de Marina, desde que se casó con Prudencia, vive empeñado en tener un hijo varón, desea un heredero que trascienda su ilustre apellido Ocaranza. Desafortunadamente, Prudencia queda imposibilitada para volver a embarazarse, situación que apremia a su nana Angustias a convencer a Damiana de beneficiar a la familia y al bebé que quedó huérfano, haciéndolo pasar por legítimo hijo Ocaranza Arzuaga. Es así como Luis Alberto, el gran orgullo de Don Luis, crece en cuna de oro y viaja al extranjero para estudiar la carrera de medicina. Marina, milagrosamente sobrevive y crece feliz rodeada de la naturaleza al lado de Damiana, quien le enseña a conocer el mundo de manera distinta, debido a que es invidente. El encanto de Marina por su actitud alegre, fresca.</desc>
     <title lang="es">Sin tu mirada</title>
   </programme>
-  <programme start="20260827000000 +0000" stop="20260827030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260826200000 -0400" stop="20260827000000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Contenido TNT Sports</title>
+    <desc lang="es">Sin información.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260827000000 +0000" stop="20260827030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260827000000 +0000" stop="20260827030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260827000000 +0000" stop="20260827030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260827000000 +0000" stop="20260827030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260827001500 +0000" stop="20260827002500 +0000" channel="NickJr.bo">
     <desc lang="es">T1-E9 Que se haga justicia
@@ -36514,25 +36122,20 @@ Rubble y equipo.</desc>
     <title lang="es">La máquina</title>
     <title lang="en">The Machine</title>
   </programme>
-  <programme start="20260826230000 -0400" stop="20260827070000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Contenido TNT Sports</title>
-    <desc lang="es">Sin información.</desc>
-    <category lang="es">Deportes</category>
-  </programme>
-  <programme start="20260827030000 +0000" stop="20260827060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260827030000 +0000" stop="20260827060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260827030000 +0000" stop="20260827060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260827030000 +0000" stop="20260827060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260827030000 +0000" stop="20260827060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260827032000 +0000" stop="20260827034500 +0000" channel="FOODNETWORK.uy">
     <date>2024</date>
@@ -36582,6 +36185,11 @@ La aventura gastronómica de Casey Webb lo lleva a Lafayette, Los Ángeles, para
   </programme>
   <programme start="20260827000000 -0400" stop="20260827100000 -0400" channel="ESPN.cl">
     <title lang="es">Contenido ESPN</title>
+    <desc lang="es">Sin información.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260827000000 -0400" stop="20260827080000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Contenido TNT Sports</title>
     <desc lang="es">Sin información.</desc>
     <category lang="es">Deportes</category>
   </programme>
@@ -36688,20 +36296,20 @@ BARBAPAPÁ Una gran familia feliz.</desc>
     <title lang="es">Escorpión</title>
     <title lang="en">Akrep</title>
   </programme>
-  <programme start="20260827060000 +0000" stop="20260827090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260827060000 +0000" stop="20260827090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260827060000 +0000" stop="20260827090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260827060000 +0000" stop="20260827090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260827060000 +0000" stop="20260827090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260827062000 +0000" stop="20260827064000 +0000" channel="NickJr.bo">
     <desc lang="es">T1-E8 ¡El equipo construye un café de palomitas! / ¡Los cachorros arreglan un desastre resbaladizo
@@ -36890,20 +36498,20 @@ Cuatro jóvenes chefs llegan a la cocina de Chopped Junior para demostrar que ya
     <desc lang="es">Es la historia de Lola, una madre de familia que lucha por mantener unida a su familia en la ciudad de São Paulo entre las décadas de 1920 y 1940, enfrentando dificultades económicas, conflictos familiares y los grandes cambios sociales de la época.</desc>
     <title lang="es">Éramos seis</title>
   </programme>
-  <programme start="20260827090000 +0000" stop="20260827120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260827090000 +0000" stop="20260827120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260827090000 +0000" stop="20260827120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260827090000 +0000" stop="20260827120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260827090000 +0000" stop="20260827120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260827092000 +0000" stop="20260827094500 +0000" channel="NickJr.bo">
     <desc lang="es">T1-E9 El gran tesoro de Santiago / El tesoro de la banana dorada
@@ -37026,11 +36634,6 @@ Barbapapá y su familia.</desc>
     <title lang="es">Angry Birds 2: La película</title>
     <title lang="en">The Angry Birds Movie 2</title>
   </programme>
-  <programme start="20260827070000 -0400" stop="20260827150000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Contenido TNT Sports</title>
-    <desc lang="es">Sin información.</desc>
-    <category lang="es">Deportes</category>
-  </programme>
   <programme start="20260827111200 +0000" stop="20260827115600 +0000" channel="FOODNETWORK.uy">
     <date>2006</date>
     <desc lang="es">S8 E4
@@ -37083,20 +36686,25 @@ Eric Adjepong trae chefs de California, Texas y Nueva York para presentar a Alex
 Blaze y los Monster Machines.</desc>
     <title lang="es">Blaze y los Monster Machines</title>
   </programme>
-  <programme start="20260827120000 +0000" stop="20260827150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260827080000 -0400" stop="20260827160000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Contenido TNT Sports</title>
+    <desc lang="es">Sin información.</desc>
+    <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260827120000 +0000" stop="20260827150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260827120000 +0000" stop="20260827150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260827120000 +0000" stop="20260827150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260827120000 +0000" stop="20260827150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260827122000 +0000" stop="20260827124500 +0000" channel="NickJr.bo">
     <desc lang="es">T6-E9 La gran carrera de pizzas
@@ -37272,20 +36880,20 @@ Solo faltan dos semanas para su boda y una pareja quiere un pastel que le rinda 
 Tim Rex en el espacio.</desc>
     <title lang="es">Tim Rex en el espacio</title>
   </programme>
-  <programme start="20260827150000 +0000" stop="20260827180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260827150000 +0000" stop="20260827180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260827150000 +0000" stop="20260827180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260827150000 +0000" stop="20260827180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260827150000 +0000" stop="20260827180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260827151000 +0000" stop="20260827153500 +0000" channel="FOODNETWORK.uy">
     <date>2011</date>
@@ -37444,20 +37052,20 @@ Rubble y equipo.</desc>
     <title lang="es">Escorpión</title>
     <title lang="en">Akrep</title>
   </programme>
-  <programme start="20260827180000 +0000" stop="20260827210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260827180000 +0000" stop="20260827210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260827180000 +0000" stop="20260827210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260827180000 +0000" stop="20260827210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260827180000 +0000" stop="20260827210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260827181000 +0000" stop="20260827183000 +0000" channel="NickJr.bo">
     <desc lang="es">T1-E23 ¡El equipo construye un show de fuentes! / ¡El equipo construye un carrusel
@@ -37503,11 +37111,6 @@ Paw Patrol patrulla de cachorros.</desc>
     <date>2019</date>
     <desc lang="es">Es la historia de Lola, una madre de familia que lucha por mantener unida a su familia en la ciudad de São Paulo entre las décadas de 1920 y 1940, enfrentando dificultades económicas, conflictos familiares y los grandes cambios sociales de la época.</desc>
     <title lang="es">Éramos seis</title>
-  </programme>
-  <programme start="20260827150000 -0400" stop="20260827230000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Contenido TNT Sports</title>
-    <desc lang="es">Sin información.</desc>
-    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260827191500 +0000" stop="20260827210000 +0000" channel="SONYMOVIES.uy">
     <category lang="es">Comedia</category>
@@ -37559,6 +37162,11 @@ BARBAPAPÁ Una gran familia feliz.</desc>
     <desc lang="es">T1-E7 Buenas noches y hola, corazón
 Bedtime Stories with Ryan.</desc>
     <title lang="es">Bedtime Stories with Ryan</title>
+  </programme>
+  <programme start="20260827160000 -0400" stop="20260828000000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Contenido TNT Sports</title>
+    <desc lang="es">Sin información.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260827201000 +0000" stop="20260827210000 +0000" channel="FOODNETWORK.uy">
     <date>2015</date>
@@ -37613,20 +37221,20 @@ Bobby Flay desafía a los Titanes con la chef Ayaka Guido, quien, como mano dere
     <title lang="es">Jumanji: el siguiente nivel</title>
     <title lang="en">Jumanji: The Next Level</title>
   </programme>
-  <programme start="20260827210000 +0000" stop="20260828000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260827210000 +0000" stop="20260828000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260827210000 +0000" stop="20260828000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260827210000 +0000" stop="20260828000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260827210000 +0000" stop="20260828000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260827211500 +0000" stop="20260827214000 +0000" channel="NickJr.bo">
     <desc lang="es">T4-E19 La misión del cristal terremoto / Desastre en el día del sí
@@ -37853,11 +37461,6 @@ Rubble y equipo.</desc>
     <title lang="es">Dos policías rebeldes</title>
     <title lang="en">Bad Boys</title>
   </programme>
-  <programme start="20260827230000 -0400" stop="20260828090000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Contenido TNT Sports</title>
-    <desc lang="es">Sin información.</desc>
-    <category lang="es">Deportes</category>
-  </programme>
   <programme start="20260828032000 +0000" stop="20260828034500 +0000" channel="FOODNETWORK.uy">
     <date>2024</date>
     <desc lang="es">S1 E1
@@ -37888,6 +37491,11 @@ Adam se dirige al sur, a los Cayos de Florida, donde acoge a una pequeña miembr
     <date>2012</date>
     <desc lang="es">Rosa Diamante narra la historia de Rosa, una linda jóven que por trampas del destino crece en un prestigioso internado. Es el mismo destino quién la junta con José Ignácio Altamirano un jóven mujeriego, atractivo e inteligente, a quién conoce a través de un trágico y desagradable acontecimiento.</desc>
     <title lang="es">Rosa Diamante</title>
+  </programme>
+  <programme start="20260828000000 -0400" stop="20260828100000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Contenido TNT Sports</title>
+    <desc lang="es">Sin información.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260828040500 +0000" stop="20260828042500 +0000" channel="NickJr.bo">
     <desc lang="es">T2-E5 Boda de cangrejos / El reino de las nubes
@@ -38293,11 +37901,6 @@ Rubble y equipo.</desc>
     <desc lang="es">Buster Moon y sus amigos deben persuadir a la estrella del rock Clay Calloway para que se una a ellos en el estreno de un nuevo espectáculo.</desc>
     <title lang="es">Sing 2</title>
   </programme>
-  <programme start="20260828090000 -0400" stop="20260828130000 -0400" channel="TNTSportsPremium.cl">
-    <title lang="es">Contenido TNT Sports</title>
-    <desc lang="es">Sin información.</desc>
-    <category lang="es">Deportes</category>
-  </programme>
   <programme start="20260828130500 +0000" stop="20260828133000 +0000" channel="NickJr.bo">
     <desc lang="es">T3-E2 El equipo construye un rompeolas
 Rubble y equipo.</desc>
@@ -38328,6 +37931,11 @@ Deer Squad.</desc>
     <desc lang="es">El reencuentro de una madre y su hija sólo traerá venganza, traición y muerte en esta guerra de escorpiones que cambiará por completo las vidas de todos.</desc>
     <title lang="es">Escorpión</title>
     <title lang="en">Akrep</title>
+  </programme>
+  <programme start="20260828100000 -0400" stop="20260828140000 -0400" channel="TNTSportsPremium.cl">
+    <title lang="es">Contenido TNT Sports</title>
+    <desc lang="es">Sin información.</desc>
+    <category lang="es">Deportes</category>
   </programme>
   <programme start="20260828141500 +0000" stop="20260828144000 +0000" channel="NickJr.bo">
     <desc lang="es">T3-E1 El ratoncito Pérez / La oruga hambrienta
