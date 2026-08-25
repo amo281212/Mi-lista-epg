@@ -23,7 +23,7 @@ MIS_CANALES = {
     'SONYMOVIES.uy',
     'Sony.cl',
     'Space.cl',
-    'StudioUniversal.bo',
+    'StudioUniversal.ar',
     'TNT.cl',
     'TNTSeries.cl',
     'StarChannel.cl',
@@ -35,7 +35,7 @@ MIS_CANALES = {
     'FX.cl',
     'FilmAndArts.cl',
     'ComedyCentral.cl',
-    'E_EntertainmentTelevision.bo',
+    'E_EntertainmentTelevision.pa',
     'DIRECTVSports.cl',
     'ESPN.cl',
     'ESPN2.cl',
@@ -80,6 +80,8 @@ MIS_CANALES = {
 
 # 🔄 MAPEO COMPLETO (Recupera AXN y otros canales desde las guías externas)
 MAPEO_IDS = {
+    'StudioUniversal.bo': 'StudioUniversal.ar',
+    'E_EntertainmentTelevision.bo': 'E_EntertainmentTelevision.pa',
     'Sony.co': 'Sony.cl',
     'AXN.ar': 'AXN.cl',
     'AXN.co': 'AXN.cl',
