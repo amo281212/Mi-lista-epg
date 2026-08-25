@@ -81,7 +81,6 @@ MIS_CANALES = {
 # 🔄 MAPEO COMPLETO (Recupera AXN y otros canales desde las guías externas)
 MAPEO_IDS = {
     'StudioUniversal.bo': 'StudioUniversal.ar',
-    'E_EntertainmentTelevision.bo': 'E_EntertainmentTelevision.pa',
     'Sony.co': 'Sony.cl',
     'AXN.ar': 'AXN.cl',
     'AXN.co': 'AXN.cl',
