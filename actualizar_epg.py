@@ -3,7 +3,7 @@ import gzip
 import urllib.request
 import xml.etree.ElementTree as ET
 
-# 🎯 TUS CANALES CON IDS LIMPIOS. EL HASHTAG SE USA PARA PODER DEJAR COMENTARIOS Y ANULAR EL CODIGO EN ESA LÍNEA.
+# 🎯 TUS CANALES CON IDS LIMPIOS
 MIS_CANALES = {
     'TVN.cl',
     'Mega.cl',
@@ -81,6 +81,9 @@ MIS_CANALES = {
 # 🔄 MAPEO COMPLETO
 MAPEO_IDS = {
     'E_EntertainmentTelevision.bo': 'E_Entertainment.cl',
+    'E_Entertainment.bo': 'E_Entertainment.cl',
+    'E_EntertainmentTelevision.co': 'E_Entertainment.cl',
+    'E_EntertainmentTelevision.ar': 'E_Entertainment.cl',
     'EEntertainment.cl': 'E_Entertainment.cl',
     'E!Entertainment.cl': 'E_Entertainment.cl',
     'StudioUniversal.bo': 'StudioUniversal.ar',
@@ -106,6 +109,8 @@ FUENTES_PUBLICAS = [
     "https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml",
 ]
 
+GUIA_PROPIA = "https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml"
+
 DESFASE_CANALES = {
     'Cinemax.cl': +1,
     'ESPN2.cl': -1,
@@ -120,6 +125,7 @@ DESFASE_CANALES = {
 }
 
 DATOS_RESPALDO = {
+    'E_Entertainment.cl': ('E! Entertainment', 'Variado', 'Programación E! Entertainment', 'Espectáculos, moda, realities y cultura pop.'),
     'AXN.cl': ('AXN', 'Series', 'Series y Acción', 'Películas de acción, suspenso y series policiales.'),
     'TVN.cl': ('TVN', 'General', 'Programación TVN', 'Noticias, matinales, teleseries y entretención.'),
     'Canal13.cl': ('Canal 13', 'General', 'Programación Canal 13', 'Noticieros, realitys y programas en vivo.'),
@@ -283,7 +289,7 @@ try:
                     sp_dt = parse_time(elem.get('stop'))
                     
                     if st_dt and sp_dt:
-                        # 🧹 ELIMINACIÓN DE BLOQUES CHOQUE: Quita cualquier programa público que choque con el rango
+                        # 🧹 ELIMINACIÓN DE BLOQUES CHOQUE
                         programas_lista = [
                             p for p in programas_lista 
                             if not (p[1] == target_id and p[2] < sp_dt and p[3] > st_dt)
@@ -296,21 +302,17 @@ try:
 
     print("3. Verificando respaldos para canales sin programación...")
     for ch_id in MIS_CANALES:
-        # Verificar si no hay canal o no hay ningún programa registrado para este canal
         tiene_programas = any(p[1] == ch_id for p in programas_lista)
         if ch_id not in canales_dict or not tiene_programas:
             agregar_bloque_respaldo(canales_dict, programas_lista, ch_id)
             print(f" ✔ Respaldo creado para: {ch_id}")
 
     # 4. ENSAMBLAJE FINAL CON ORDENAMIENTO CRONOLÓGICO
-    # Agregar primero todas las etiquetas <channel>
     for ch_id in sorted(canales_dict.keys()):
         root_final.append(canales_dict[ch_id])
 
-    # Ordenar estrictamente los programas por fecha de inicio para que la TV los interprete correctamente
     programas_lista.sort(key=lambda x: x[2])
 
-    # Agregar todos los elementos <programme> en orden cronológico
     for p in programas_lista:
         root_final.append(p[0])
 
