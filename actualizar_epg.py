@@ -50,7 +50,7 @@ MIS_CANALES = {
     'DiscoveryKids.cl',
     'DisneyChannel.cl',
     'DisneyJunior.cl',
-    'NickJr.ar',
+    'NickJr.bo',
     'Nick.cl',
     'Tooncast.cl',
     'AnimalPlanet.cl',
@@ -90,7 +90,6 @@ MAPEO_IDS = {
     'AE.ar': 'AE.cl',
     'A&E.cl': 'AE.cl',
     'History2.cl': 'History2.cl1',
-    'NickJr.bo': 'NickJr.ar',
 }
 
 FUENTES_PUBLICAS = [
