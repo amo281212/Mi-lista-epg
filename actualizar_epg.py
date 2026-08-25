@@ -78,9 +78,11 @@ MIS_CANALES = {
     '24Horas.cl',
 }
 
-# 🔄 MAPEO COMPLETO (Recupera AXN y otros canales desde las guías externas)
+# 🔄 MAPEO COMPLETO
 MAPEO_IDS = {
     'E_EntertainmentTelevision.bo': 'E_Entertainment.cl',
+    'EEntertainment.cl': 'E_Entertainment.cl',
+    'E!Entertainment.cl': 'E_Entertainment.cl',
     'StudioUniversal.bo': 'StudioUniversal.ar',
     'Sony.co': 'Sony.cl',
     'AXN.ar': 'AXN.cl',
