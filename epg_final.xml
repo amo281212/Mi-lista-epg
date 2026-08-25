@@ -122,7 +122,7 @@
     <display-name>CL - ESPN 7</display-name>
     <icon src="https://iptv-epg.org/images/S2RRT9kAm19Om2h2pLoqDZQqxVi79y8qpcAFggtBXfY2OgsWKouzRFEayAGYaiGMzERUtCPxzvA6gGT1AcQXuFyEdHpiCpvuao9-SsM" />
   </channel>
-  <channel id="E_EntertainmentTelevision.bo">
+  <channel id="E_EntertainmentTelevision.pa">
     <display-name>BO - E! Entertainment Television</display-name>
     <icon src="https://iptv-epg.org/images/j0E4ubi9QiOcZNCeE19uVP_1E_asTeFhpGF-UkumtwwBSSCnsA2Gvz0zBEL9e4sdfvW4beHe4Ns18pXn_AnrQqQKPZaF0YvlAIINk-BBKK8A6Q3HREUJeypYJiqXPx_hMrZ6" />
   </channel>
@@ -230,9 +230,9 @@
     <display-name>CL - Star Channel</display-name>
     <icon src="https://iptv-epg.org/images/1Ij9U19BHYSgZSmwENenEsTUtJywGjEPupUTcuzTUjK9sIhBb1EDzmZXnr0HONifVvZ4O8F9h8HwfZFW6Ih6Qq9jSnnT4ds5EbLIpcGnNQMUZ2A" />
   </channel>
-  <channel id="StudioUniversal.bo">
-    <display-name>BO - Studio Universal</display-name>
-    <icon src="https://iptv-epg.org/images/a-itK2MJT-FKrYJ52bpH6__p5-1P0JVG7tPSLsqkcDe2JMLazzip-XQb9SKvHpJRZiCR55So9ABgHtgFZo2aFpd6SAvCLhGUpNhqKtk77y_E7c-1_P1MHDo" />
+  <channel id="StudioUniversal.ar">
+    <display-name>AR - Studio Universal</display-name>
+    <icon src="https://iptv-epg.org/images/dsVATgZ-NBvet7GbeKAvJpxK5qdF1eG3rFsmDe9spJrhw5k-VLVo_9uGZoFulwqajHKyHEgm8Sb2mVfN9sO4VyHAOMXL8gKGGrjn2xZ4M8jmgoCHeX-1UFHivA" />
   </channel>
   <channel id="T13Noticias.cl">
     <display-name>T13 En Vivo</display-name>
@@ -294,15 +294,15 @@
     <category lang="es">Auto</category>
     <title lang="es">Freedom 250 Grand Prix of Washington, D.C.</title>
   </programme>
-  <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -549,7 +549,7 @@ Mike asiste a su primer día de escuela en la isla y conoce a los Cuzzlewits.</d
     <title lang="es">Mike, Lu y Og</title>
     <title lang="en">Mike, Lu &amp; Og</title>
   </programme>
-  <programme start="20260824003000 +0000" stop="20260824012000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824003000 +0000" stop="20260824012000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">Cadena De Mando
 Bajo cubierta mediterráneo.</desc>
     <title lang="es">Bajo cubierta mediterráneo</title>
@@ -1062,7 +1062,7 @@ Espacio en el que se darán a conocer historias conmovedoras y divertidas con un
     <title lang="es">Karate Kid 3: el deasafío final</title>
     <title lang="en">The Karate Kid III</title>
   </programme>
-  <programme start="20260824012000 +0000" stop="20260824021000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824012000 +0000" stop="20260824021000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">Los casos más impresionantes
 Botched.</desc>
     <title lang="es">Botched</title>
@@ -1475,6 +1475,22 @@ Flapjack es ahora un censista. Sin embargo, se encuentra con la disyuntiva de qu
     <icon src="https://iptv-epg.org/images/uLyIznPSEpbeS_xStkeynycAMJvs-o2W80KcyPTGdx3-fPOcdPdsG_opGcSN5oh99hTj8DUIuVtSAVXWADgc9WPqYJpWWAI4qdDIhd8P3K3eKB3IVW_Igw" />
     <title lang="es">Godzilla</title>
   </programme>
+  <programme start="20260824020000 +0000" stop="20260824043000 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Aventura</category>
+    <credits>
+      <director>Peter Jackson</director>
+      <actor>Martin Freeman</actor>
+      <actor>Ken Stott</actor>
+      <actor>William Kircher</actor>
+      <actor>Cate Blanchett</actor>
+      <actor>Dean O'Gorman</actor>
+    </credits>
+    <date>2014</date>
+    <desc lang="es">Después de haber recuperado el reino Erebor de las manos de Smaug, la compañía ha desencadenado, sin querer, una potencia maligna. Una bestia enfurecida vuela hacia la Ciudad del Lago para acabar con cualquier resto de vida.</desc>
+    <icon src="https://iptv-epg.org/images/RhDCzGO3_HIhUrqgspvU0Z_OyyL9NCy0HWkWoW9nAFJ6tJiP7oMXZEovvpgSn2X5R4IB1Pi4Mxf2ratzjCC3xmDrELcESxHP2WTN_0SxN-mHik1FjoCR7Q7ap_WcB0_DZiO-qdMVsNV_7867OySar42sMh4px57BiJUR" />
+    <title lang="es">El Hobbit: La batalla de los cinco ejércitos</title>
+    <title lang="en">The Hobbit: The Battle of the Five Armies</title>
+  </programme>
   <programme start="20260824020000 +0000" stop="20260824025000 +0000" channel="AXN.cl">
     <desc lang="es">S6 E6 — Bloqueador solar
 Ronnie Temple es golpeado en una fiesta durante el desarrollo de un eclipse total. Cuando un segundo asesinato tiene lugar en la casa de la víctima, Horatio sospecha que están tratando con un criminal serial que actúa solo por las noches.</desc>
@@ -1493,7 +1509,7 @@ Ronnie Temple es golpeado en una fiesta durante el desarrollo de un eclipse tota
 Bedtime Stories with Ryan.</desc>
     <title lang="es">Bedtime Stories with Ryan</title>
   </programme>
-  <programme start="20260824020000 +0000" stop="20260824043000 +0000" channel="StudioUniversal.bo">
+  <programme start="20260824020000 +0000" stop="20260824043000 +0000" channel="StudioUniversal.ar">
     <category lang="es">Aventura</category>
     <category lang="es">Fantasía</category>
     <credits>
@@ -1593,7 +1609,7 @@ Cada día asumimos que la vida seguirá tal como la planeamos, hasta que de repe
     <title lang="es">Vecinos bajo la mira</title>
     <title lang="en">Neighborhood Watch</title>
   </programme>
-  <programme start="20260824021000 +0000" stop="20260824030000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824021000 +0000" stop="20260824030000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">Los más memorables casos de celebridades
 Botched.</desc>
     <title lang="es">Botched</title>
@@ -2183,20 +2199,20 @@ Silvestre está celoso de la atención que recibe Pepe.</desc>
     <desc lang="es">Sigue la historia de amor entre Marina y Luis Alberto, que está llena de escollos.</desc>
     <title lang="es">Sin tu mirada. Emisión del día martes</title>
   </programme>
-  <programme start="20260824030000 +0000" stop="20260824035000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824030000 +0000" stop="20260824035000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">Desastres internacionales
 Botched.</desc>
     <title lang="es">Botched</title>
-  </programme>
-  <programme start="20260824030000 +0000" stop="20260824060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
   </programme>
   <programme start="20260824030000 +0000" stop="20260824060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824030000 +0000" stop="20260824060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260824030000 +0000" stop="20260824060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -2603,7 +2619,7 @@ Mientras los chicos se preparan para una gran obra, Rex es aspirado accidentalme
     <icon src="https://iptv-epg.org/images/Yr-f58r43XXel4VYrPQFCao6HkA8bFGZSebGsxShTlAwoPsv5u756DxKzgi0ZwUNC5MC9MOgYKFcAAebEF5CT3Vi-37S0j7oOTqdhaXyMQ5IrXLfXBf7Q0uW5f5mDid5BEQmkQXa" />
     <title lang="es">Victorious</title>
   </programme>
-  <programme start="20260824035000 +0000" stop="20260824044000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824035000 +0000" stop="20260824044000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">Obsesionados
 Botched.</desc>
     <title lang="es">Botched</title>
@@ -2994,6 +3010,22 @@ Utilizando las cuatro llaves, la pandilla encuentra la cámara del tesoro y la E
     <category lang="es">Talk</category>
     <title lang="es">Sportia</title>
   </programme>
+  <programme start="20260824043000 +0000" stop="20260824063500 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Terror</category>
+    <credits>
+      <director>Johannes Roberts</director>
+      <actor>Kaya Scodelario</actor>
+      <actor>Neal McDonough</actor>
+      <actor>Hannah John-Kamen</actor>
+      <actor>Tom Hopper</actor>
+      <actor>Avan Jogia</actor>
+    </credits>
+    <date>2021</date>
+    <desc lang="es">Ambientada en 1998, la historia explora los secretos de la misteriosa Spencer Mansion y la desafortunada Raccoon City mostrandonos los orígenes de la saga Resident Evil.</desc>
+    <icon src="https://iptv-epg.org/images/ytj-Omkvy6ncLxyb52iFXsOcND3Ptpn00mAON5J02ngXeExPFe2Q0HbIzsBArVJD6J0sacvZH_rFV8TgZjCh6Gdi6CBzTfjNRjqhFKjFTyHQNoYXALXp" />
+    <title lang="es">Resident Evil: Bienvenidos a Raccoon City</title>
+    <title lang="en">Resident Evil: Welcome to Raccoon City</title>
+  </programme>
   <programme start="20260824043000 +0000" stop="20260824052000 +0000" channel="AXN.cl">
     <desc lang="es">S6 E1 — Un hijo peligroso
 Un funcionario de libertad condicional es asesinado a disparos y uno de los principales sospechosos resulta ser un hijo biológico de Horatio.</desc>
@@ -3001,7 +3033,7 @@ Un funcionario de libertad condicional es asesinado a disparos y uno de los prin
     <icon src="https://iptv-epg.org/images/k1hKzmXuPrvS0-f94W-MUJUQAXuBDgae7t6WdC3dr5W8ZvLM5pdegkNQk0kEk48GYXI42irSVlgzqnByClwHbol87t1mGAbyg6iBH4YNL24KdcyOi2nkPHAvjb1N8bLlvGJps7Gfou0a" />
     <title lang="es">CSI: Miami</title>
   </programme>
-  <programme start="20260824043000 +0000" stop="20260824063500 +0000" channel="StudioUniversal.bo">
+  <programme start="20260824043000 +0000" stop="20260824063500 +0000" channel="StudioUniversal.ar">
     <category lang="es">Acción</category>
     <category lang="es">Terror</category>
     <category lang="es">Ciencia Ficción</category>
@@ -3127,7 +3159,7 @@ En Ohio, la policía se enfrenta a una situación de rehenes con un fugitivo pel
     <title lang="es">Cámara policial</title>
     <title lang="en">Body Cam Cops</title>
   </programme>
-  <programme start="20260824044000 +0000" stop="20260824054000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824044000 +0000" stop="20260824054000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">Love Island.</desc>
     <title lang="es">Love Island</title>
   </programme>
@@ -3761,7 +3793,7 @@ Sheldon lleva a los muchachos a una cabaña en el medio de la nada para encontra
     <icon src="https://iptv-epg.org/images/Yk1jbp3RRuDmfQ9t3RUQJV22ubHZ1ohpq_mdtKwGFNfTzdd7eldmq-kD18yXfRbjrEugHxJUfYa_-YRa9mobnTLpcsqU1K3lW8nx_Y5XvyTR8YTKATcKo5t4onQjKmxVTf8qs-I" />
     <title lang="es">The Big Bang Theory</title>
   </programme>
-  <programme start="20260824054000 +0000" stop="20260824064500 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824054000 +0000" stop="20260824064500 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">Love Island.</desc>
     <title lang="es">Love Island</title>
   </programme>
@@ -4068,15 +4100,15 @@ Charles se apresura a convencer a un paciente de que acepte el tratamiento antes
     <icon src="https://iptv-epg.org/images/TmN21nOFTQSwvrdWQx6wnEuBWa2ON9GlBNEmEGo1FXuHi0Fc3kNWKihIM4_h590iJhg2BSCeHyAusNulcP388zNZns8R_6lqWoMKfDbVeUr9jvtNkvVMWOs6z3E1U8o4gJVEWtSY" />
     <title lang="es">Blue Bloods</title>
   </programme>
-  <programme start="20260824060000 +0000" stop="20260824090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260824060000 +0000" stop="20260824090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824060000 +0000" stop="20260824090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260824060000 +0000" stop="20260824090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -4384,7 +4416,23 @@ Todos los residentes de Butterville se reunen en convención, para la festividad
     <title lang="es">Best y Bester: cada forma una aventura</title>
     <title lang="en">Best &amp; Bester</title>
   </programme>
-  <programme start="20260824063500 +0000" stop="20260824084000 +0000" channel="StudioUniversal.bo">
+  <programme start="20260824063500 +0000" stop="20260824084000 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Terror</category>
+    <credits>
+      <director>Danny Boyle</director>
+      <actor>Alex Palmer</actor>
+      <actor>Cillian Murphy</actor>
+      <actor>Naomie Harris</actor>
+      <actor>Christopher Eccleston</actor>
+      <actor>Bindu De Stoppani</actor>
+    </credits>
+    <date>2002</date>
+    <desc lang="es">Un poderoso virus es liberado en Gran Bretaña. En veintiocho días el país entero está infectado y un puñado de supervivientes tratan de salvar su vida, dándose cuenta de que el virus mortal no es la única cosa que los amenaza sobre ellos.</desc>
+    <icon src="https://iptv-epg.org/images/fkrSGVEGn_A1GiRuqmuvr9g5XEstu1DgQxDWgMZlDpbGbiwePCTNHvA3Aj4jeIHVnal3we7pygLhzFtuN0pPHM3sBdQfryzOFa31yGi7RGiB5_Exgot0V6iN" />
+    <title lang="es">Exterminio</title>
+    <title lang="en">28 Days Later</title>
+  </programme>
+  <programme start="20260824063500 +0000" stop="20260824084000 +0000" channel="StudioUniversal.ar">
     <category lang="es">Drama</category>
     <category lang="es">Ciencia Ficción</category>
     <category lang="es">Horror</category>
@@ -4520,7 +4568,7 @@ Pier No Doyuna se disfraza de Caperucita Roja y engaña a Penélope para que se 
     <title lang="es">Los autos locos</title>
     <title lang="en">Wacky Races</title>
   </programme>
-  <programme start="20260824064500 +0000" stop="20260824075000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824064500 +0000" stop="20260824075000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">Love Island.</desc>
     <title lang="es">Love Island</title>
   </programme>
@@ -5303,7 +5351,7 @@ Mumm-Ra crea un museo vivo de los enemigos más grandes de los Felinos Cósmicos
     <title lang="es">ThunderCats: los felinos cósmicos</title>
     <title lang="en">ThunderCats</title>
   </programme>
-  <programme start="20260824075000 +0000" stop="20260824085000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824075000 +0000" stop="20260824085000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">Love Island.</desc>
     <title lang="es">Love Island</title>
   </programme>
@@ -5853,7 +5901,23 @@ Jorel es el chico más popular, debido a su belleza exótica, talento formidable
     <title lang="es">Hermano de Jorel</title>
     <title lang="en">Irmão do Jorel</title>
   </programme>
-  <programme start="20260824084000 +0000" stop="20260824103000 +0000" channel="StudioUniversal.bo">
+  <programme start="20260824084000 +0000" stop="20260824103000 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Infantil</category>
+    <credits>
+      <director>Mark Osborne</director>
+      <actor>Rachel McAdams</actor>
+      <actor>Marion Cotillard</actor>
+      <actor>Benicio del Toro</actor>
+      <actor>Ricky Gervais</actor>
+      <actor>Bud Cort</actor>
+    </credits>
+    <date>2015</date>
+    <desc lang="es">Una niña pequeña vive en un mundo de adultos junto a su madre, quien espera que su hija crezca rápido. Pero, gracias al excéntrico y amable aviador que tiene como vecino, escuchará fascinada las interesantes historias sobre el Principito.</desc>
+    <icon src="https://iptv-epg.org/images/qCmeRps5iNf6WM29tjSb6NYoCz_QIVM4az1tRf66-l5G00FarsGcWzIMTs8evWIUpWHrHT_5KiIDC-0K8eampKL1TLij5o3Crt1ZhqFJA7fQk6oH0LS1m8JWj_sD" />
+    <title lang="es">El principito</title>
+    <title lang="en">The Little Prince</title>
+  </programme>
+  <programme start="20260824084000 +0000" stop="20260824103000 +0000" channel="StudioUniversal.ar">
     <desc lang="es">El Principito.</desc>
     <title lang="es">El Principito</title>
   </programme>
@@ -5908,7 +5972,7 @@ Jorel es el chico más popular, debido a su belleza exótica, talento formidable
     <title lang="es">Hermano de Jorel</title>
     <title lang="en">Irmão do Jorel</title>
   </programme>
-  <programme start="20260824085000 +0000" stop="20260824094500 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824085000 +0000" stop="20260824094500 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">Debate Aftersun
 Love Island.</desc>
     <title lang="es">Love Island</title>
@@ -6160,15 +6224,15 @@ Los cuatro pequeños chefs preparan un banquete para los jueces Sam Kass, Marc M
     <desc lang="es">Repetición 23-08-2026.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260824090000 +0000" stop="20260824120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260824090000 +0000" stop="20260824120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824090000 +0000" stop="20260824120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260824090000 +0000" stop="20260824120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -6556,7 +6620,7 @@ Los padres jóvenes Dave y Rebecca deben cuidar a los padres de Dave, que han ad
     <episode-num>S1 E1</episode-num>
     <title lang="es">Indebted</title>
   </programme>
-  <programme start="20260824094500 +0000" stop="20260824104500 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824094500 +0000" stop="20260824104500 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">¡Nueva York ha vuelto
 Million Dollar Listing New York.</desc>
     <title lang="es">Million Dollar Listing New York</title>
@@ -7158,12 +7222,19 @@ Información fresca de lo que pasa en nuestro país como también a nivel mundia
     <icon src="https://iptv-epg.org/images/XLLi1GIHRIumyqNr-yPIlQAaLaDtBrOW2En2okCLeUuLEIlbK6V2ChY-JV94wRcPM5rbueEsJLqYz4XyCMxydMe7dH00np2VLausJgSmHvAnB__z0iiEAGQ10Gh08A002YQl" />
     <title lang="es">Contigo CHV Noticias A.M.</title>
   </programme>
+  <programme start="20260824103000 +0000" stop="20260824110000 +0000" channel="StudioUniversal.ar">
+    <desc lang="es">S14 E28 — Mujer Maravilla / Las aventuras del Capitán Calzoncillos: La película / Piratas del Caribe: La..
+Vemos el detrás de escena de "Mujer Maravilla." Luego, nos inmiscuimos en la película "Las aventuras del Capitán Calzoncillos: La película." Además, visitamos el set de "Piratas del Caribe: La venganza de Salazar.".</desc>
+    <episode-num>S14 E28</episode-num>
+    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
+    <title lang="es">Hollywood on Set</title>
+  </programme>
   <programme start="20260824103000 +0000" stop="20260824105000 +0000" channel="NickJr.bo">
     <desc lang="es">T1-E12 Cocodrilo disfrazado / Cocodrilo cuida plantas
 Sr. Cocodrilo.</desc>
     <title lang="es">Sr. Cocodrilo</title>
   </programme>
-  <programme start="20260824103000 +0000" stop="20260824110000 +0000" channel="StudioUniversal.bo">
+  <programme start="20260824103000 +0000" stop="20260824110000 +0000" channel="StudioUniversal.ar">
     <desc lang="es">Mujer Maravilla / Las aventuras del Capitán Calzoncillos La película / Piratas del Caribe La.
 Hollywood on Set.</desc>
     <title lang="es">Hollywood on Set</title>
@@ -7246,7 +7317,7 @@ Un zombi de Halloween tiene un problema bajo el cinturón; el médico ayuda a la
     <title lang="es">Sala de emergencias: historias inéditas</title>
     <title lang="en">Untold Stories of the ER</title>
   </programme>
-  <programme start="20260824104500 +0000" stop="20260824113500 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824104500 +0000" stop="20260824113500 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">Los chicos toman Los Ángeles
 Million Dollar Listing Los Angeles.</desc>
     <title lang="es">Million Dollar Listing Los Angeles</title>
@@ -7522,6 +7593,22 @@ En este programa informercial, se detalla el funcionamiento de cada uno de los p
     <icon src="https://iptv-epg.org/images/xNDdmHOT-ZsvqhmIEMMbdEU6vX4w_E3Hkm6JtmEcOSzk2VhyRGlWm8k7UQi2p9204yl3uomnsqXb6nWUkt5I5k_aqDBdKsL6MFv7ANfWRNwJSRWgai8" />
     <title lang="es">TeveCompras</title>
   </programme>
+  <programme start="20260824110000 +0000" stop="20260824124000 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Comedia</category>
+    <credits>
+      <director>Tim Hill</director>
+      <actor>David Cross</actor>
+      <actor>Jane Lynch</actor>
+      <actor>Justin Long</actor>
+      <actor>Matthew Gray Gubler</actor>
+      <actor>Jesse Mccartney</actor>
+    </credits>
+    <date>2007</date>
+    <desc lang="es">El compositor Dave Seville transforma a las ardillitas-cantantes Alvin, Simon y Theodore en estrellas de la canción pop, mientras que el trío arrasa con su casa y causa estragos tanto en su carrera como en su vida.</desc>
+    <icon src="https://iptv-epg.org/images/NEwdoibvngdIxREvcEpk5wRmTdGqZYdFDtZg6P0s9uSPmnXxOEo4_qawNuMIhAsbbM4Zxa9BwO9VzUB-qULpSDO_REO_bma9w3OzR79rvV8HVMfNRjox3M_7GSC0CqRSYx8C2Q" />
+    <title lang="es">Alvin y las ardillas</title>
+    <title lang="en">Alvin and the Chipmunks</title>
+  </programme>
   <programme start="20260824110000 +0000" stop="20260824120000 +0000" channel="AXN.cl">
     <desc lang="es">S10 E2 — Superhumano
 Se roba un prototipo de traje de asalto táctico de una base de la Marina y se usa en un atraco de joyas.</desc>
@@ -7549,7 +7636,7 @@ Los residentes se enfrentan a dos casos bastante complejos: la indecisión de Mo
     <title lang="es">Misterios de la celestina: Un compromiso mortal</title>
     <title lang="en">Matchmaker Mysteries: A Killer Engagement</title>
   </programme>
-  <programme start="20260824110000 +0000" stop="20260824124000 +0000" channel="StudioUniversal.bo">
+  <programme start="20260824110000 +0000" stop="20260824124000 +0000" channel="StudioUniversal.ar">
     <desc lang="es">Alvin y las ardillas.</desc>
     <title lang="es">Alvin y las ardillas</title>
   </programme>
@@ -7845,7 +7932,7 @@ David tiene que llevar a Emily y Joe a la escuela, Luego, conducir a Janie a la 
     <title lang="es">Un papá en apuros</title>
     <title lang="en">See Dad Run</title>
   </programme>
-  <programme start="20260824113500 +0000" stop="20260824120000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824113500 +0000" stop="20260824120000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">La dama y el vagabundo
 Dating: No Filter.</desc>
     <title lang="es">Dating: No Filter</title>
@@ -8233,7 +8320,7 @@ Leyla desaparece enviando un mensaje, como hace años.</desc>
     <desc lang="es">En una noche de tormenta, nace la bella Marina aparentemente sin vida. La bebé es recibida por Damiana, la partera del pueblo, quien unas horas antes atendió el alumbramiento de un niño sano, pero que desafortunadamente su madre no sobrevivió. Don Luis, el padre de Marina, desde que se casó con Prudencia, vive empeñado en tener un hijo varón, desea un heredero que trascienda su ilustre apellido Ocaranza. Desafortunadamente, Prudencia queda imposibilitada para volver a embarazarse, situación que apremia a su nana Angustias a convencer a Damiana de beneficiar a la familia y al bebé que quedó huérfano, haciéndolo pasar por legítimo hijo Ocaranza Arzuaga. Es así como Luis Alberto, el gran orgullo de Don Luis, crece en cuna de oro y viaja al extranjero para estudiar la carrera de medicina. Marina, milagrosamente sobrevive y crece feliz rodeada de la naturaleza al lado de Damiana, quien le enseña a conocer el mundo de manera distinta, debido a que es invidente. El encanto de Marina por su actitud alegre, fresca.</desc>
     <title lang="es">Sin tu mirada</title>
   </programme>
-  <programme start="20260824120000 +0000" stop="20260824125000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824120000 +0000" stop="20260824125000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">Decisiones, Decisiones
 Keeping Up with the Kardashians.</desc>
     <title lang="es">Keeping Up with the Kardashians</title>
@@ -8243,15 +8330,15 @@ Keeping Up with the Kardashians.</desc>
 Blaze y los Monster Machines.</desc>
     <title lang="es">Blaze y los Monster Machines</title>
   </programme>
-  <programme start="20260824120000 +0000" stop="20260824150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260824120000 +0000" stop="20260824150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824120000 +0000" stop="20260824150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260824120000 +0000" stop="20260824150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -8648,7 +8735,22 @@ Llega un presentador de televisión, famoso antropólogo, a la isla, y descubre 
     <title lang="es">Mike, Lu y Og</title>
     <title lang="en">Mike, Lu &amp; Og</title>
   </programme>
-  <programme start="20260824124000 +0000" stop="20260824142000 +0000" channel="StudioUniversal.bo">
+  <programme start="20260824124000 +0000" stop="20260824142000 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Animación</category>
+    <credits>
+      <director>John Stevenson</director>
+      <actor>Julio Bonet</actor>
+      <actor>Gary Bradbury</actor>
+      <actor>Michael Caine</actor>
+      <actor>Gang Chi</actor>
+      <actor>Rosalie Craig</actor>
+    </credits>
+    <date>2018</date>
+    <desc lang="es">Los famosos gnomos de jardín Gnomeo y Julieta contratan a un mundialmente conocido detective: Sherlock Gnomes, para investigar la misteriosa desaparición de algunos ornamentos del jardín.</desc>
+    <icon src="https://iptv-epg.org/images/MIks00mfcuI36wQs-DjvTdUq2Dw6kRu12bs1mtYoVBDlBAT2MC0EVx-cVxiwNZFDWyLizPSNIO_lxMGlBF-FVioj0E_Uaj1jv7Yve5rBQLiFN2fAPgczHwCsLfen1jE" />
+    <title lang="es">Sherlock Gnomes</title>
+  </programme>
+  <programme start="20260824124000 +0000" stop="20260824142000 +0000" channel="StudioUniversal.ar">
     <category lang="es">Animación</category>
     <category lang="es">Aventura</category>
     <category lang="es">Comedia</category>
@@ -8759,7 +8861,7 @@ Una joven pareja deja atrás la costa de California por una vida de montaña en 
     <title lang="es">Nuestro hogar en la montaña</title>
     <title lang="en">Mountain Life</title>
   </programme>
-  <programme start="20260824125000 +0000" stop="20260824134000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824125000 +0000" stop="20260824134000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">Nobleza y realeza
 Keeping Up with the Kardashians.</desc>
     <title lang="es">Keeping Up with the Kardashians</title>
@@ -9313,7 +9415,7 @@ Luego de ser desilusionados por la comida local, los osos deciden abrir su propi
     <title lang="es">Escandalosos</title>
     <title lang="en">We Bare Bears</title>
   </programme>
-  <programme start="20260824134000 +0000" stop="20260824143000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824134000 +0000" stop="20260824143000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">"FOMO" en México
 Vanderpump Rules.</desc>
     <title lang="es">Vanderpump Rules</title>
@@ -9746,7 +9848,22 @@ Flapjack debe cuidar a esposa Caramelo mientras Larry esté fuera de la ciudad.<
     <title lang="es">Las maravillosas desventuras de Flapjack</title>
     <title lang="en">The Marvelous Misadventures of Flapjack</title>
   </programme>
-  <programme start="20260824142000 +0000" stop="20260824162000 +0000" channel="StudioUniversal.bo">
+  <programme start="20260824142000 +0000" stop="20260824162000 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Comedia</category>
+    <credits>
+      <director>Paul King</director>
+      <actor>Hugh Bonneville</actor>
+      <actor>Sally Hawkins</actor>
+      <actor>Jim Broadbent</actor>
+      <actor>Peter Capaldi</actor>
+      <actor>Michael Gambon</actor>
+    </credits>
+    <date>2017</date>
+    <desc lang="es">Después de haber sido adoptado por la familia Brown, Paddington se ha convertido en una celebridad en Windsor Gardens. Su tía Lucy cumple cien años y él tiene el regalo perfecto para ella: un maravilloso libro de una tienda de antigüedades.</desc>
+    <icon src="https://iptv-epg.org/images/K2aN2SRGzFlYFQ5oIzU_2UAqm-FDfYStAeRAS4Iu4S1jgWw8Fqu_bA6yLGr83ZxSqf0BaJUc6omyLusKmMOnOos0w5nCC24GYmVsGOye5wNo-Ix8U_8Gx6aRW6k" />
+    <title lang="es">Paddington 2</title>
+  </programme>
+  <programme start="20260824142000 +0000" stop="20260824162000 +0000" channel="StudioUniversal.ar">
     <category lang="es">Aventura</category>
     <category lang="es">Animación</category>
     <category lang="es">Comedia</category>
@@ -9895,7 +10012,7 @@ Marvin el marciano viene de visita, y los bebés aprenden a aceptar las diferenc
     <title lang="es">Los pequeños Looney Tunes</title>
     <title lang="en">Baby Looney Tunes</title>
   </programme>
-  <programme start="20260824143000 +0000" stop="20260824152000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824143000 +0000" stop="20260824152000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">El final de una era
 Vanderpump Rules.</desc>
     <title lang="es">Vanderpump Rules</title>
@@ -10286,15 +10403,15 @@ Fran y Sylvia son tomadas como rehenes en el robo a un banco en el día de San V
 Tim Rex en el espacio.</desc>
     <title lang="es">Tim Rex en el espacio</title>
   </programme>
-  <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -10469,7 +10586,7 @@ Cuando la abuela se enferma, Lola intenta hacerse cargo de sus responsabilidades
     <title lang="es">Los pequeños Looney Tunes</title>
     <title lang="en">Baby Looney Tunes</title>
   </programme>
-  <programme start="20260824152000 +0000" stop="20260824161500 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824152000 +0000" stop="20260824161500 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">De los amores, la resiliencia y el control
 Ojos de mujer.</desc>
     <title lang="es">Ojos de mujer</title>
@@ -10981,7 +11098,7 @@ Con la pandilla separada, sus integrantes deciden pasar un fin de semana en una 
     <title lang="es">Scooby-Doo! Misterios SA</title>
     <title lang="en">Scooby-Doo! Mystery Incorporated</title>
   </programme>
-  <programme start="20260824161500 +0000" stop="20260824171000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824161500 +0000" stop="20260824171000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">Del poder de la voz, la higiene y la fama de lo absurdo
 Ojos de mujer.</desc>
     <title lang="es">Ojos de mujer</title>
@@ -11001,7 +11118,22 @@ Barbapapá y su familia.</desc>
     <category>Sports</category>
     <title lang="es">Bologna vs. Lazio</title>
   </programme>
-  <programme start="20260824162000 +0000" stop="20260824181000 +0000" channel="StudioUniversal.bo">
+  <programme start="20260824162000 +0000" stop="20260824181000 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Comedia</category>
+    <credits>
+      <actor>Paul Giamatti</actor>
+      <actor>Jascha Washington</actor>
+      <actor>Terrence Howard</actor>
+      <actor>Anthony Anderson</actor>
+      <actor>Carl Wright</actor>
+    </credits>
+    <date>2000</date>
+    <desc lang="es">Un policía, para estar con la ex novia de un peligroso ladrón de bancos, se hace pasar por la abuela de la joven, generándose graciosas situaciones.</desc>
+    <icon src="https://iptv-epg.org/images/uqt_M89dk1AC_c76xQHA0OEY3kgecSEgW8yzdJ3FTOW1wz7Bmw5G9Xbh0qT2s3A6KZWxoMUHKJeD4USh694k1ZVfA0A7Vqz-RwdPkc9WfoVf3Im3cUhgwF9XcZc-MOtwTYGtb0sAJA" />
+    <title lang="es">Mi abuela es un peligro</title>
+    <title lang="en">Big Momma's House</title>
+  </programme>
+  <programme start="20260824162000 +0000" stop="20260824181000 +0000" channel="StudioUniversal.ar">
     <desc lang="es">Mi abuela es un peligro.</desc>
     <title lang="es">Mi abuela es un peligro</title>
   </programme>
@@ -11631,7 +11763,7 @@ La casa circular de una pareja cuenta con ventanas de 360 grados e impresionante
     <title lang="es">Echando raíces</title>
     <title lang="en">Building Roots</title>
   </programme>
-  <programme start="20260824171000 +0000" stop="20260824180000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824171000 +0000" stop="20260824180000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">Flagg vs. Serhant
 Million Dollar Listing Los Angeles.</desc>
     <title lang="es">Million Dollar Listing Los Angeles</title>
@@ -12065,20 +12197,20 @@ Michael quiere que Junior aprenda el negocio familiar empezando desde abajo. Sin
     <title lang="es">Escorpión</title>
     <title lang="en">Akrep</title>
   </programme>
-  <programme start="20260824180000 +0000" stop="20260824185000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824180000 +0000" stop="20260824185000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">Saludo al servicio
 Botched.</desc>
     <title lang="es">Botched</title>
-  </programme>
-  <programme start="20260824180000 +0000" stop="20260824210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
   </programme>
   <programme start="20260824180000 +0000" stop="20260824210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824180000 +0000" stop="20260824210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260824180000 +0000" stop="20260824210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -12146,12 +12278,28 @@ Descubrimos cómo un cráneo terriblemente dañado transformó la neurociencia. 
     <title lang="es">Cosas extrañas de la historia</title>
     <title lang="en">Strangest Things</title>
   </programme>
+  <programme start="20260824181000 +0000" stop="20260824200500 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Comedia</category>
+    <credits>
+      <director>John Whitesell</director>
+      <actor>Emily Procter</actor>
+      <actor>Mark Moses</actor>
+      <actor>Kat Dennings</actor>
+      <actor>Marisol Nichols</actor>
+      <actor>Josh Flitter</actor>
+    </credits>
+    <date>2006</date>
+    <desc lang="es">Para prevenir un desastre nacional, el agente Malcolm Turner nuevamente debe disfrazarse de una dulce abuelita y hacerse cargo de los hijos del hombre que investiga.</desc>
+    <icon src="https://iptv-epg.org/images/PmPF5Z6dtZKNykY0GR3Xq4SR14i7uC_heK6jS1-Du3vjP__nNZMq4OhbXOQ6aDdtBbbw9UnaqLtF56atjWrOLrsBGHzf7-4nhxduuqBzKl_4Dzxop1UDr0lVUANgVmZMImqW_E2V9a2f" />
+    <title lang="es">Mi abuela es un peligro 2</title>
+    <title lang="en">Big Momma's House 2</title>
+  </programme>
   <programme start="20260824181000 +0000" stop="20260824183000 +0000" channel="NickJr.bo">
     <desc lang="es">T1-E17 ¡El equipo construye un observatorio! / ¡El equipo construye una tirolesa
 Rubble y equipo.</desc>
     <title lang="es">Rubble y equipo</title>
   </programme>
-  <programme start="20260824181000 +0000" stop="20260824200500 +0000" channel="StudioUniversal.bo">
+  <programme start="20260824181000 +0000" stop="20260824200500 +0000" channel="StudioUniversal.ar">
     <desc lang="es">Mi abuela es un peligro 2.</desc>
     <title lang="es">Mi abuela es un peligro 2</title>
   </programme>
@@ -12590,7 +12738,7 @@ Pier No Doyuna intenta disfrazar al geiser llamado el "Viejo Fiel" para que pare
     <title lang="es">Los autos locos</title>
     <title lang="en">Wacky Races</title>
   </programme>
-  <programme start="20260824185000 +0000" stop="20260824194000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824185000 +0000" stop="20260824194000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">"FOMO" en México
 Vanderpump Rules.</desc>
     <title lang="es">Vanderpump Rules</title>
@@ -13165,7 +13313,7 @@ Cuando Tina recibe noticias inesperadas, Calvin, Dave y Gemma la animan a abraza
     <title lang="es">El vecindario</title>
     <title lang="en">The Neighborhood</title>
   </programme>
-  <programme start="20260824194000 +0000" stop="20260824203000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824194000 +0000" stop="20260824203000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">El final de una era
 Vanderpump Rules.</desc>
     <title lang="es">Vanderpump Rules</title>
@@ -13419,7 +13567,23 @@ Sara Granados, una hermosa joven, luego de terminar un largo noviazgo con Cheo y
     <icon src="https://iptv-epg.org/images/bENfaEfvcMYeGHMJbKTbKTWgOWxDoBNqOV6mIDu1WJODC98fFlwAogpns_XUEg-uiKm4uMSGZN2e6TmKKTqAIwttvXceJ355XuIHo3s_65HyMHlrPoCH4Kfe5qfwmg" />
     <title lang="es">La vecina</title>
   </programme>
-  <programme start="20260824200500 +0000" stop="20260824221000 +0000" channel="StudioUniversal.bo">
+  <programme start="20260824200500 +0000" stop="20260824221000 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Comedia</category>
+    <credits>
+      <director>John Whitesell</director>
+      <actor>Jessica Lucas</actor>
+      <actor>Michelle Ang</actor>
+      <actor>Portia Doubleday</actor>
+      <actor>Emily Rios</actor>
+      <actor>Henri Lubatti</actor>
+    </credits>
+    <date>2011</date>
+    <desc lang="es">Big Momma vuelve al ruedo en la tercera parte de esta divertida comedia. Esta vez, Malcolm junto a su hijastro Trent, deberán disfrazarse de mujeres para infiltrarse en una escuela de arte y resolver un crimen.</desc>
+    <icon src="https://iptv-epg.org/images/kFpY36__BC6Ic643hYBY0Ul7-0Q9EGaaY25yN81rsWkC--nmpBWHbLLB9uTcCJZq48MQNFuJ7pkcvX3JQsmQz6zjSXB0Z61ZdB2g2KU93yM4Y_okQzBXvnix4vRaFzpWj9ny3jo17KNa" />
+    <title lang="es">Mi abuela es un peligro 3</title>
+    <title lang="en">Big Mommas: Like Father, Like Son</title>
+  </programme>
+  <programme start="20260824200500 +0000" stop="20260824221000 +0000" channel="StudioUniversal.ar">
     <desc lang="es">Mi abuela es un peligro 3.</desc>
     <title lang="es">Mi abuela es un peligro 3</title>
   </programme>
@@ -13686,7 +13850,7 @@ Una mujer consigue trabajo en el palacio de La Promesa como recompensa por salva
     <icon src="https://iptv-epg.org/images/9mcwB1Pcuq_LIAL_AQEFW64T9gT4ljPuh3klxg81GpUxnKwpLPyqzYvz282RMtiGV9VyMZpG2LrEpnuOzm24uRjJRVrCEnsG3ndxcwGiHIAIxhTBMQ" />
     <title lang="es">La promesa</title>
   </programme>
-  <programme start="20260824203000 +0000" stop="20260824212000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824203000 +0000" stop="20260824212000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">El exorcismo de Stassi Schroeder
 Vanderpump Rules.</desc>
     <title lang="es">Vanderpump Rules</title>
@@ -14048,15 +14212,15 @@ Este programao buscará entretener tus tardes con diversos temas que van desde l
     <desc lang="es">Repetición 24-08-2026.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260824210000 +0000" stop="20260825000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -14191,7 +14355,7 @@ Al ocultar su adicción, el Sr. Herriman desencadena diversos eventos para prote
     <title lang="es">La Mansión Foster para Amigos Imaginarios</title>
     <title lang="en">Foster's Home for Imaginary Friends</title>
   </programme>
-  <programme start="20260824212000 +0000" stop="20260824221000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824212000 +0000" stop="20260824221000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">Decisiones, Decisiones
 Keeping Up with the Kardashians.</desc>
     <title lang="es">Keeping Up with the Kardashians</title>
@@ -14723,12 +14887,28 @@ Harold se esfuerza para impresionar a su nuevo mejor amigo: Raj.</desc>
     <title lang="es">El campamento de Lazlo</title>
     <title lang="en">Camp Lazlo</title>
   </programme>
-  <programme start="20260824221000 +0000" stop="20260824230000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824221000 +0000" stop="20260825002000 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Comedia</category>
+    <credits>
+      <director>David Frankel</director>
+      <actor>Eric Dane</actor>
+      <actor>Kathleen Turner</actor>
+      <actor>Alan Arkin</actor>
+      <actor>Nathan Gamble</actor>
+      <actor>Haley Bennett</actor>
+    </credits>
+    <date>2008</date>
+    <desc lang="es">Sintiéndose inseguro de ser padre y antes de formar una familia, John le regala a su novia un cachorro llamado Marley, que convierte su hogar en un verdadero desastre. Sin embargo, el perro cambiará sus vidas para siempre.</desc>
+    <icon src="https://iptv-epg.org/images/336-aomgGjg6_KqyovODlTs_N2jLy9Z2RQlPJKzv4xdJzzuMT4T9jDxFnFa7NW0k_BDotAJSAPnttD3Kkkh5JU0W-J-4jhwA0iSo_WQRblrXJQFqTnAZryUyLA" />
+    <title lang="es">Marley y yo</title>
+    <title lang="en">Marley and Me</title>
+  </programme>
+  <programme start="20260824221000 +0000" stop="20260824230000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">Nobleza y realeza
 Keeping Up with the Kardashians.</desc>
     <title lang="es">Keeping Up with the Kardashians</title>
   </programme>
-  <programme start="20260824221000 +0000" stop="20260825002000 +0000" channel="StudioUniversal.bo">
+  <programme start="20260824221000 +0000" stop="20260825002000 +0000" channel="StudioUniversal.ar">
     <desc lang="es">Marley y yo.</desc>
     <title lang="es">Marley y yo</title>
   </programme>
@@ -15303,7 +15483,7 @@ Un espacio con formato de juegos y entretenimiento que buscará a la persona que
     <desc lang="es">Rosa Diamante narra la historia de Rosa, una linda jóven que por trampas del destino crece en un prestigioso internado. Es el mismo destino quién la junta con José Ignácio Altamirano un jóven mujeriego, atractivo e inteligente, a quién conoce a través de un trágico y desagradable acontecimiento.</desc>
     <title lang="es">Rosa Diamante</title>
   </programme>
-  <programme start="20260824230000 +0000" stop="20260824235000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824230000 +0000" stop="20260824235000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">Efectivo en frío
 Million Dollar Listing Los Angeles.</desc>
     <title lang="es">Million Dollar Listing Los Angeles</title>
@@ -15807,7 +15987,7 @@ Durante una tarea escolar pensada para enseñarles a ser responsables, Adam, Jak
     <title lang="es">Mi compañero de clase es un mono</title>
     <title lang="en">My Gym Partner's a Monkey</title>
   </programme>
-  <programme start="20260824235000 +0000" stop="20260825004000 +0000" channel="E_EntertainmentTelevision.bo">
+  <programme start="20260824235000 +0000" stop="20260825004000 +0000" channel="E_EntertainmentTelevision.pa">
     <desc lang="es">Ahí va el vecindario
 Million Dollar Listing Los Angeles.</desc>
     <title lang="es">Million Dollar Listing Los Angeles</title>
@@ -16006,15 +16186,15 @@ Macarena Pizarro y Daniel Matamala presentan el noticiero más creíble del paí
     <desc lang="es">Contenido ESPN.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260825000000 +0000" stop="20260825030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260825000000 +0000" stop="20260825030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260825000000 +0000" stop="20260825030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260825000000 +0000" stop="20260825030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -16240,6 +16420,22 @@ El entusiasta de los vehículos Mike Brewer y el mecánico Edd China trabajan ju
     <icon src="https://iptv-epg.org/images/oON8iUBWXbyups5g_-EIqW0obi8wLvOlp_yMvjx0-bM5toNURf2eoNanChCf-s0ku7RYj0y0MvNvJQBluRoYn9pKBITnWnJWY245-CQbOXYjNhgyFCHk1K47di3VEW9dvuUlSkKh4Tamo1NUlxAzMw" />
     <title lang="es">Joyas sobre ruedas</title>
     <title lang="en">Wheeler Dealers</title>
+  </programme>
+  <programme start="20260825002000 +0000" stop="20260825020000 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Comedia</category>
+    <credits>
+      <director>Gary Winick</director>
+      <actor>Kate Hudson</actor>
+      <actor>Anne Hathaway</actor>
+      <actor>Kristen Johnston</actor>
+      <actor>Bryan Greenberg</actor>
+      <actor>Candice Bergen</actor>
+    </credits>
+    <date>2009</date>
+    <desc lang="es">Liv y Emma son dos amigas de la infancia, que planifican sus respectivas bodas al mismo tiempo. Pero, debido a un malentendido, lo que parecía que iba a ser una buena idea se convertirá en una feroz competencia.</desc>
+    <icon src="https://iptv-epg.org/images/qeOUtpo1ns_Hkp9XOfTKgD_tVSwJ3dEg63kVLyMNTVqGgFlnzIVrhEVz3iAlJv2uVkSkrE25n6hmIFH39bpY5nN1jzCB5jVAOMnvvJToR8pbFHGMvNPrVWJnmqg-aLSh" />
+    <title lang="es">Guerra de novias</title>
+    <title lang="en">Bride Wars</title>
   </programme>
   <programme start="20260825002000 +0000" stop="20260825010900 +0000" channel="FOODNETWORK.uy">
     <category lang="es">Reality</category>
@@ -17322,6 +17518,21 @@ Max y Ellis investigan un caso de habitación cerrada que involucra a una podero
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Wild Cards</title>
   </programme>
+  <programme start="20260825020000 +0000" stop="20260825040000 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Comedia</category>
+    <credits>
+      <director>Seth MacFarlane</director>
+      <actor>Mila Kunis</actor>
+      <actor>Joel McHale</actor>
+      <actor>Giovanni Ribisi</actor>
+      <actor>Patrick Warburton</actor>
+      <actor>Aedin Mincks</actor>
+    </credits>
+    <date>2012</date>
+    <desc lang="es">En esta historia, el sueño de John, un pequeño niño, se vuelve realidad cuando su oso de peluche cobra vida y se convierte en su mejor amigo. Veinte años después, Ted sigue con John, y saca de quicio a su novia, que empieza a impacientarse.</desc>
+    <icon src="https://iptv-epg.org/images/hVfabx0Tw50CTnlgAsHC_BgQPrKqmIR_iGD2xWHp2_RhPbNvBtn6Zm_rt6UHtPaU7RNTJN4STnXKCTbmgM5B1pcg8muK790rqxnRI8KL7y6reyw" />
+    <title lang="es">Ted</title>
+  </programme>
   <programme start="20260825020000 +0000" stop="20260825030000 +0000" channel="TelemundoInternacional.ar">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -18061,15 +18272,15 @@ Regañan a Bugs, Lucas y Taz, que deben pasar un "tiempo muerto" en el rincón.<
     <desc lang="es">En una noche de tormenta, nace la bella Marina aparentemente sin vida. La bebé es recibida por Damiana, la partera del pueblo, quien unas horas antes atendió el alumbramiento de un niño sano, pero que desafortunadamente su madre no sobrevivió. Don Luis, el padre de Marina, desde que se casó con Prudencia, vive empeñado en tener un hijo varón, desea un heredero que trascienda su ilustre apellido Ocaranza. Desafortunadamente, Prudencia queda imposibilitada para volver a embarazarse, situación que apremia a su nana Angustias a convencer a Damiana de beneficiar a la familia y al bebé que quedó huérfano, haciéndolo pasar por legítimo hijo Ocaranza Arzuaga. Es así como Luis Alberto, el gran orgullo de Don Luis, crece en cuna de oro y viaja al extranjero para estudiar la carrera de medicina. Marina, milagrosamente sobrevive y crece feliz rodeada de la naturaleza al lado de Damiana, quien le enseña a conocer el mundo de manera distinta, debido a que es invidente. El encanto de Marina por su actitud alegre, fresca.</desc>
     <title lang="es">Sin tu mirada</title>
   </programme>
-  <programme start="20260825030000 +0000" stop="20260825060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260825030000 +0000" stop="20260825060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260825030000 +0000" stop="20260825060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260825030000 +0000" stop="20260825060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -18583,6 +18794,22 @@ El comediante John Oliver es el encargado de este espacio de humor que, durante 
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20260825040000 +0000" stop="20260825054500 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Comedia</category>
+    <credits>
+      <director>Josh Greenbaum</director>
+      <actor>Will Ferrell</actor>
+      <actor>Isla Fisher</actor>
+      <actor>Brett Gelman</actor>
+      <actor>Rob Riggle</actor>
+      <actor>Josh Gad</actor>
+    </credits>
+    <date>2023</date>
+    <desc lang="es">Dicen que el perro es el mejor amigo del hombre, pero ¿qué pasa si el hombre es un completo idiota? En ese caso, quizá sea momento para una dulce revancha al estilo de perrito.</desc>
+    <icon src="https://iptv-epg.org/images/ytj-Omkvy6ncLxyb52iFXsOcND3Ptpn00mAON5J02ngXeExPFe2Q0HbIzsBArVJD6J0sacvZH_rFV8TgZjCh6Gdi6CBzTfjNRjqhFKjFTyHQNoYXALXp" />
+    <title lang="es">Hijos de perra</title>
+    <title lang="en">Strays</title>
   </programme>
   <programme start="20260825040000 +0000" stop="20260825050000 +0000" channel="TelemundoInternacional.ar">
     <title>No Data</title>
@@ -19720,6 +19947,22 @@ Programación a confirmar.</desc>
     <icon src="https://iptv-epg.org/images/Azu5JebyqTLNW0lE-vOOtFiEb3bNio1aKEj_cfmJXdmayLwKn-MxpAWTBHMjUdTkia-1UTd8J3-sZjKMfEUNIbaq56ZY_kXaqjHnjlCHwtRge5tWAQk" />
     <title lang="es">A confirmar</title>
   </programme>
+  <programme start="20260825054500 +0000" stop="20260825073500 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Comedia</category>
+    <credits>
+      <director>Steve Pink</director>
+      <actor>John Cusack</actor>
+      <actor>Craig Robinson</actor>
+      <actor>Clark Duke</actor>
+      <actor>Crispin Glover</actor>
+      <actor>Lizzy Caplan</actor>
+    </credits>
+    <date>2010</date>
+    <desc lang="es">Tres amigos se reúnen en un hotel en donde pasaron los mejores años de su adolescencia. Mientras se relajan en una tina, esta se convierte en una máquina del tiempo que les dará una oportunidad para recuperar la juventud perdida.</desc>
+    <icon src="https://iptv-epg.org/images/ezn8vrWM5DWRSObdqhJISDZXqjpXojI-njGAnOzSB2RVvLGjoJ0pH2euwFCjutjSRRPY7rVyPveRkBhv6c8Ty7MzndYK78iajr_LIJdtsRfxEzQJPN9RKsmGTpruM42YCWQ8J5X2uA" />
+    <title lang="es">Un loco viaje al pasado</title>
+    <title lang="en">Hot Tub Time Machine</title>
+  </programme>
   <programme start="20260825054600 +0000" stop="20260825063600 +0000" channel="DiscoveryHomeAndHealth.cl">
     <desc lang="es">S10 E2 — El dedo del pianista / La familia es lo primero / Choques eléctricos
 El dedo de un pianista desaparece hasta que su esposa y su perro llegan a Emergencias. El marcapasos de un hombre lo está matando, pero lo mantiene vivo. Y después de su despedida de soltera, necesita atención médica.</desc>
@@ -19999,15 +20242,15 @@ Herrmann y Mouch estudian para los exámenes de oficial. Mientras, Cruz recibe u
     <icon src="https://iptv-epg.org/images/TmN21nOFTQSwvrdWQx6wnEuBWa2ON9GlBNEmEGo1FXuHi0Fc3kNWKihIM4_h590iJhg2BSCeHyAusNulcP388zNZns8R_6lqWoMKfDbVeUr9jvtNkvVMWOs6z3E1U8o4gJVEWtSY" />
     <title lang="es">Blue Bloods</title>
   </programme>
-  <programme start="20260825060000 +0000" stop="20260825090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260825060000 +0000" stop="20260825090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260825060000 +0000" stop="20260825090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260825060000 +0000" stop="20260825090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -21042,6 +21285,22 @@ El equipo de CBI se dirige hacia un pueblo turístico abandonado del salvaje oes
     <icon src="https://iptv-epg.org/images/PkOwAETWWoXRRoJ8FqiDSK9Ac354dawsA2hPIHSYZPmMDl_oHqNw7OmKrRsjX2eGT0TvnwbtqOFGKWvyXkfqsQD38u6rwPLrGtTB5hGmsPc8TeJQSiCM3wPLcvduCQ0b_pVkN752s4fY_MkqJWlpdF36-6KAWeg_4VcL" />
     <title lang="es">El mentalista</title>
     <title lang="en">The Mentalist</title>
+  </programme>
+  <programme start="20260825073500 +0000" stop="20260825093000 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Drama</category>
+    <credits>
+      <director>Nisha Ganatra</director>
+      <actor>Dakota Johnson</actor>
+      <actor>Kelvin Harrison Jr.</actor>
+      <actor>Bill Pullman</actor>
+      <actor>Zoe Chao</actor>
+      <actor>Eugene Cordero</actor>
+    </credits>
+    <date>2020</date>
+    <desc lang="es">Cuando la superestrella Grace Davis tiene la oportunidad de alterar el rumbo de su carrera, junto con su asistente Maggie comienzan a urdir un complicado plan con el que están decididas a cambiar para siempre sus vidas.</desc>
+    <icon src="https://iptv-epg.org/images/OXSVMOWC8zSzp6k6IfB5z1WGPagQB0Wdga4LP4PpGUV794Bd4kFn-hoO5djbQoR1lMTeTEiF57W1QlLorpletsTWmplXobhs7FO8LExRtjEYUnIZwOv1NFkDOnjEccPagXro5KE" />
+    <title lang="es">Música, glamour y fama</title>
+    <title lang="en">The High Note</title>
   </programme>
   <programme start="20260825073500 +0000" stop="20260825081600 +0000" channel="FOODNETWORK.uy">
     <category lang="es">Reality</category>
@@ -22172,15 +22431,15 @@ Cuatro jóvenes chefs con apetito por el éxito a largo plazo se alinean ante un
     <desc lang="es">Sin información.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260825090000 +0000" stop="20260825120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260825090000 +0000" stop="20260825120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260825090000 +0000" stop="20260825120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260825090000 +0000" stop="20260825120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -22490,6 +22749,21 @@ Cuando la sobrina de Miss Shapen, Noelle, llega a la ciudad y elige a Jasper por
 Espacio matutino de noticias, con toda la información de la jornada.</desc>
     <icon src="https://iptv-epg.org/images/5_BRhSW0WUF3kuAnWsZT6kErCOZT6i6Wokwevq0SckftelTKSsnLwoYBtxxyyz7n6CWaXlyoyw7juACggJjmYz-Zktr4tF2UJbzeA1PUBQUkmKjW" />
     <title lang="es">La previa</title>
+  </programme>
+  <programme start="20260825093000 +0000" stop="20260825110000 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Animación</category>
+    <credits>
+      <director>John Stevenson</director>
+      <actor>Julio Bonet</actor>
+      <actor>Gary Bradbury</actor>
+      <actor>Michael Caine</actor>
+      <actor>Gang Chi</actor>
+      <actor>Rosalie Craig</actor>
+    </credits>
+    <date>2018</date>
+    <desc lang="es">Los famosos gnomos de jardín Gnomeo y Julieta contratan a un mundialmente conocido detective: Sherlock Gnomes, para investigar la misteriosa desaparición de algunos ornamentos del jardín.</desc>
+    <icon src="https://iptv-epg.org/images/MIks00mfcuI36wQs-DjvTdUq2Dw6kRu12bs1mtYoVBDlBAT2MC0EVx-cVxiwNZFDWyLizPSNIO_lxMGlBF-FVioj0E_Uaj1jv7Yve5rBQLiFN2fAPgczHwCsLfen1jE" />
+    <title lang="es">Sherlock Gnomes</title>
   </programme>
   <programme start="20260825093100 +0000" stop="20260825100000 +0000" channel="TNT.cl">
     <desc lang="es">Entrevista
@@ -23577,6 +23851,22 @@ En este programa informercial, se detalla el funcionamiento de cada uno de los p
     <icon src="https://iptv-epg.org/images/xNDdmHOT-ZsvqhmIEMMbdEU6vX4w_E3Hkm6JtmEcOSzk2VhyRGlWm8k7UQi2p9204yl3uomnsqXb6nWUkt5I5k_aqDBdKsL6MFv7ANfWRNwJSRWgai8" />
     <title lang="es">TeveCompras</title>
   </programme>
+  <programme start="20260825110000 +0000" stop="20260825124500 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Animación</category>
+    <credits>
+      <director>Betty Thomas</director>
+      <actor>Justin Long</actor>
+      <actor>Christina Applegate</actor>
+      <actor>David Cross</actor>
+      <actor>Matthew Gray Gubler</actor>
+      <actor>Jesse Mccartney</actor>
+    </credits>
+    <date>2009</date>
+    <desc lang="es">Las ardillas más famosas y divertidas regresan para enfrentarse a la presión de la escuela, a los problemas que trae ser famoso, y a un grupo de chicas ardilla que les está haciendo la competencia: The Chipettes.</desc>
+    <icon src="https://iptv-epg.org/images/QBnnFbHObMJEc13RFF9VF1YsZJ09iJdyuxipkCyL44WZNSZgcrUFVTcFvAeNeSuoDpiO8G0mRdI5hdO_cGpaHn7me23R_mNZuCux7NzwC6Zcn_uV6bZman_ZLyH8f4pKuCdyUvRZ" />
+    <title lang="es">Alvin y las ardillas 2</title>
+    <title lang="en">Alvin and the Chipmunks: The Squeakquel</title>
+  </programme>
   <programme start="20260825110000 +0000" stop="20260825120000 +0000" channel="TelemundoInternacional.ar">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -24248,15 +24538,15 @@ El juego de Yalçin obliga a Hakan a aparecer en una reunión como hace años y 
 Blaze y los Monster Machines.</desc>
     <title lang="es">Blaze y los Monster Machines</title>
   </programme>
-  <programme start="20260825120000 +0000" stop="20260825150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260825120000 +0000" stop="20260825150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260825120000 +0000" stop="20260825150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260825120000 +0000" stop="20260825150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -24684,6 +24974,22 @@ Patricio Estrella y el abuelo Estrella tienen un momento especial, que parece ca
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">El show de Patricio Estrella</title>
     <title lang="en">The Patrick Star Show</title>
+  </programme>
+  <programme start="20260825124500 +0000" stop="20260825142500 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Aventura</category>
+    <credits>
+      <director>Mike Mitchell</director>
+      <actor>Jenny Slate</actor>
+      <actor>David Cross</actor>
+      <actor>Justin Long</actor>
+      <actor>Matthew Gray Gubler</actor>
+      <actor>Jesse Mccartney</actor>
+    </credits>
+    <date>2011</date>
+    <desc lang="es">El travieso grupo se embarca en un lujoso crucero. De un momento a otro, ¡quedan varados en medio de una isla desierta! ¿Dónde está Dave? ¿Acaso no piensa rescatarlos?</desc>
+    <icon src="https://iptv-epg.org/images/ZP7DLkaOhM2jWdLT__6qGiakkrHtvuBN4mTio1XozMrJid2ePY6vBf_3tGwZcEbC6sisIP-JMMDaJ8Dhv8RXPDRLnNkZOlqO1K8n5uNhDFcmQdwAj_EYYZyqeJePH3o8aOz-DsQw" />
+    <title lang="es">Alvin y las ardillas 3</title>
+    <title lang="en">Alvin and the Chipmunks: Chipwrecked</title>
   </programme>
   <programme start="20260825124500 +0000" stop="20260825130500 +0000" channel="NickJr.bo">
     <desc lang="es">T2-E22 El equipo construye un hotel / El equipo construye una ruta de senderismo
@@ -25800,6 +26106,22 @@ Una pareja siente que Long Island, Bahamas, es el lugar perfecto para seguir pro
     <title lang="es">Nuestro hogar en las Bahamas</title>
     <title lang="en">Bahamas Life</title>
   </programme>
+  <programme start="20260825142500 +0000" stop="20260825161000 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Animación</category>
+    <credits>
+      <director>Walt Becker</director>
+      <actor>Josh Green</actor>
+      <actor>Justin Long</actor>
+      <actor>Matthew Gray Gubler</actor>
+      <actor>Jesse Mccartney</actor>
+      <actor>Tony Hale</actor>
+    </credits>
+    <date>2015</date>
+    <desc lang="es">Tras una serie de malentendidos, Alvin, Simon y Theodore creen que Dave va a pedirle matrimonio a su nueva novia en Nueva York y olvidarse de ellos. Así que tienen tres días para intentar romper el compromiso.</desc>
+    <icon src="https://iptv-epg.org/images/W9X4hoFpBD1-UyQiwbzeFapJBP3jWOAG_LEiqndoRP_DwSdRwSEsos4IlyZ4Bz6Z0Z6Trx-eKxJHMksOxjhSgWMCmG0MtG7ywu9StcV6xj5U_t0x3F3mHY9YZf3S3mA3SmI9lGaHI4L_QEPvnNEZ8RStJ6STB0Jh" />
+    <title lang="es">Alvin y las ardillas: Fiesta sobre ruedas</title>
+    <title lang="en">Alvin and the Chipmunks: The Road Chip</title>
+  </programme>
   <programme start="20260825142700 +0000" stop="20260825145300 +0000" channel="WarnerChannel.cl">
     <desc lang="es">S1 E21 — Psicoanálisis
 Laura, la nueva abogada de Alan, comienza a intimar con Charlie y pretende que este esté disponible en el momento que ella desee. Aunque en un principio a Charlie le encanta la idea, luego la abogada comienza a aprovecharse de la situación.</desc>
@@ -26292,15 +26614,15 @@ Niles se siente deprimido por la vida que lleva como mayordomo y comienza a actu
 Tim Rex en el espacio.</desc>
     <title lang="es">Tim Rex en el espacio</title>
   </programme>
-  <programme start="20260825150000 +0000" stop="20260825180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260825150000 +0000" stop="20260825180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260825150000 +0000" stop="20260825180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260825150000 +0000" stop="20260825180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -26982,6 +27304,22 @@ La avaricia, el genocidio, la manipulación política y el asesinato eran los m�
     <icon src="https://iptv-epg.org/images/EU5VxpPWcOfanEGd6gf-b1R63HpXz3jd5uL31v0tABFVFTdN2TO8i8mdVVrD8u-esc6BNVIO015oEi4t65oCLoRyJ7xkQOCYhwtPsc9DaHGv9dPtmpwQlX6GQzh9EK-7mjKv38z7W6GfEyUUW70ArAGV6XmgSoe_jA" />
     <title lang="es">Inventos legendarios</title>
     <title lang="en">Ancient Top 10</title>
+  </programme>
+  <programme start="20260825161000 +0000" stop="20260825182500 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Animación</category>
+    <credits>
+      <director>Bob Persichetti</director>
+      <actor>Shameik Moore</actor>
+      <actor>Hailee Steinfeld</actor>
+      <actor>Mahershala Ali</actor>
+      <actor>Lily Tomlin</actor>
+      <actor>Kimiko Glenn</actor>
+    </credits>
+    <date>2018</date>
+    <desc lang="es">El adolescente Miles Morales se convierte en el Hombre Araña de su realidad, cruzándose en su camino con cinco contrapartes de otras dimensiones para detener una amenaza de todas las realidades.</desc>
+    <icon src="https://iptv-epg.org/images/D18l3NazhnYIny5QVxXnBHgIWq25a2Om3CxalDAp4qgPQn-f9pq4c4xAzoX5VtQ_FzpA2RdFETi3zuR42x6YaCSNCLiEDDxmczse2YFPl8Us_fUx_EXP13cyFqFDNeko-y36nD5ZVa-Wk5ia" />
+    <title lang="es">Spider-Man: Un nuevo universo</title>
+    <title lang="en">Spider-Man: Into the Spider-Verse</title>
   </programme>
   <programme start="20260825161000 +0000" stop="20260825164500 +0000" channel="Sony.cl">
     <desc lang="es">S4 E20
@@ -28090,15 +28428,15 @@ Un espacio donde la familia es nuestra prioridad, hablando del amor de Jesús ac
     <title lang="es">Escorpión</title>
     <title lang="en">Akrep</title>
   </programme>
-  <programme start="20260825180000 +0000" stop="20260825210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260825180000 +0000" stop="20260825210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260825180000 +0000" stop="20260825210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260825180000 +0000" stop="20260825210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -28332,6 +28670,22 @@ Langston investiga un caso de homicidio relacionado con el descubrimiento de una
     <desc lang="es">Los años formativos del autor huérfano J.R.R. Tolkien, mientras encuentra amistad, amor e inspiración artística entre un grupo de marginados en la escuela.</desc>
     <icon src="https://iptv-epg.org/images/RC1uaV2as05J6ESX44JgK2HOeIoz3O1mb0Sm79TnYwVRP9-m9PzAFZhpp-9OuQ3NlmqoySoixtEz0JrgQf4gmqfMZGJRe7fVcxHlqKqOAVVjOxnxDFUK" />
     <title lang="es">Tolkien</title>
+  </programme>
+  <programme start="20260825182500 +0000" stop="20260825205500 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Aventura</category>
+    <credits>
+      <director>Jon Watts</director>
+      <actor>Tom Holland</actor>
+      <actor>Marisa Tomei</actor>
+      <actor>Jon Favreau</actor>
+      <actor>Zendaya</actor>
+      <actor>Jacob Batalon</actor>
+    </credits>
+    <date>2019</date>
+    <desc lang="es">Peter Parker decide unirse a sus mejores amigos en unas vacaciones europeas. Sin embargo, el plan de Peter de dejar atrás a los súper heroicos durante unas semanas se descarta rápidamente cuando acepta ayudar a Nick Fury.</desc>
+    <icon src="https://iptv-epg.org/images/IFfvJkc1kh9jylFcRo9bVtXH3E29tZd42PU4-79__XVCQJWsAedKlwYl2tGMLzPlFyswmfWtwW2NuVcL6w-CmvNDCm0jLxAzEPQGuIWZkLK5A9dhUvh_Iqpg3OleqjXhNCNIa4C6vQ4" />
+    <title lang="es">Spider-Man: Lejos de casa</title>
+    <title lang="en">Spider-Man: Far from Home</title>
   </programme>
   <programme start="20260825182500 +0000" stop="20260825200000 +0000" channel="SONYMOVIES.uy">
     <category lang="es">Comedia</category>
@@ -29909,6 +30263,22 @@ Sandy crea la última sensación culinaria a base de bellotas, pero su árbol pa
     <title lang="es">Bob Esponja</title>
     <title lang="en">SpongeBob SquarePants</title>
   </programme>
+  <programme start="20260825205500 +0000" stop="20260825234500 +0000" channel="StudioUniversal.ar">
+    <category lang="es">Acción</category>
+    <credits>
+      <director>Jon Watts</director>
+      <actor>Tom Holland</actor>
+      <actor>Zendaya</actor>
+      <actor>Jacob Batalon</actor>
+      <actor>Jon Favreau</actor>
+      <actor>Willem Dafoe</actor>
+    </credits>
+    <date>2021</date>
+    <desc lang="es">La identidad secreta de Peter Parker se revela al mundo entero. Desesperado por ayuda, Peter recurre al Doctor Strange para hacer que el mundo olvide que él es Spider-Man. Pero el hechizo sale terriblemente mal con grandes consecuencias.</desc>
+    <icon src="https://iptv-epg.org/images/ytj-Omkvy6ncLxyb52iFXsOcND3Ptpn00mAON5J02ngXeExPFe2Q0HbIzsBArVJD6J0sacvZH_rFV8TgZjCh6Gdi6CBzTfjNRjqhFKjFTyHQNoYXALXp" />
+    <title lang="es">Spider-Man: Sin camino a casa</title>
+    <title lang="en">Spider-Man: No Way Home</title>
+  </programme>
   <programme start="20260825205800 +0000" stop="20260825215900 +0000" channel="NationalGeographic.cl">
     <desc lang="es">S2 E7 — Muerte de las pirámides
 Los arqueólogos investigan por qué los egipcios abandonaron las pirámides, y revelan una antigua tumba.</desc>
@@ -30061,15 +30431,15 @@ Bobby invita al legendario Marcus Samuelsson a la cocina de Triple Threat para q
     <desc lang="es">Sin información.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260825210000 +0000" stop="20260826000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260825210000 +0000" stop="20260826000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260825210000 +0000" stop="20260826000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260825210000 +0000" stop="20260826000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -31745,6 +32115,22 @@ Llegó el día de las elecciones en Dulce Reino, pero una misteriosa presencia e
     <icon src="https://iptv-epg.org/images/1bBwvR-Dc9S4wV0aJALPqiRr-M2FJrVSGwMHtKZvrMBgixW5xi7emP1_BbqaKmf4LHBv2F3dEOBMGi5DxSNYhpM8NRjH_6_F_il_ARWa1Tn362AkY0c" />
     <title lang="es">CNN Deportes</title>
   </programme>
+  <programme start="20260825234500 +0000" stop="20260826020000 +0000" channel="StudioUniversal.ar">
+    <category lang="es">C.Ficción</category>
+    <credits>
+      <director>Morten Tyldum</director>
+      <actor>Chris Pratt</actor>
+      <actor>Jennifer Lawrence</actor>
+      <actor>Michael Sheen</actor>
+      <actor>Laurence Fishburne</actor>
+      <actor>Andy García</actor>
+    </credits>
+    <date>2016</date>
+    <desc lang="es">Una nave espacial interestelar tiene una avería. Jim Preston se despierta noventa años antes del final del viaje. Su situación mental comienza a flaquear cuando se obsesiona con despertar a Aurora Lane, una bella tripulante.</desc>
+    <icon src="https://iptv-epg.org/images/VIAqIDYVMCf0jSjiQTecz5LYGIKkt6CyaMDFteYF_7CKMN1_f3knsKVnmBqEnIOjOvEhz7GtUETcK0sI_HXRLA07onhqp6Qi6RRPVy1i2ymQTXTMFZcqFfk" />
+    <title lang="es">Pasajeros</title>
+    <title lang="en">Passengers</title>
+  </programme>
   <programme start="20260825234700 +0000" stop="20260826001200 +0000" channel="DiscoveryKids.cl">
     <desc lang="es">S1 E24 — La verdad sale a la luz
 Se revela la vida secreta del tío Leo y Milo se siente traicionado. Milo debe dar un acto de fe real para reconciliarse con Leo y evitar que Luca destruya a los guardianes.</desc>
@@ -31976,15 +32362,15 @@ Macarena Pizarro y Daniel Matamala presentan el noticiero más creíble del paí
     <desc lang="es">Sin información.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260826000000 +0000" stop="20260826030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260826000000 +0000" stop="20260826030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260826000000 +0000" stop="20260826030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260826000000 +0000" stop="20260826030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -33705,15 +34091,15 @@ Carly está extremadamente emocionada cuando la compañía popular de zapatos Da
     <desc lang="es">En una noche de tormenta, nace la bella Marina aparentemente sin vida. La bebé es recibida por Damiana, la partera del pueblo, quien unas horas antes atendió el alumbramiento de un niño sano, pero que desafortunadamente su madre no sobrevivió. Don Luis, el padre de Marina, desde que se casó con Prudencia, vive empeñado en tener un hijo varón, desea un heredero que trascienda su ilustre apellido Ocaranza. Desafortunadamente, Prudencia queda imposibilitada para volver a embarazarse, situación que apremia a su nana Angustias a convencer a Damiana de beneficiar a la familia y al bebé que quedó huérfano, haciéndolo pasar por legítimo hijo Ocaranza Arzuaga. Es así como Luis Alberto, el gran orgullo de Don Luis, crece en cuna de oro y viaja al extranjero para estudiar la carrera de medicina. Marina, milagrosamente sobrevive y crece feliz rodeada de la naturaleza al lado de Damiana, quien le enseña a conocer el mundo de manera distinta, debido a que es invidente. El encanto de Marina por su actitud alegre, fresca.</desc>
     <title lang="es">Sin tu mirada</title>
   </programme>
-  <programme start="20260826030000 +0000" stop="20260826060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260826030000 +0000" stop="20260826060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260826030000 +0000" stop="20260826060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260826030000 +0000" stop="20260826060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -34304,15 +34690,15 @@ BARBAPAPÁ Una gran familia feliz.</desc>
     <title lang="es">Escorpión</title>
     <title lang="en">Akrep</title>
   </programme>
-  <programme start="20260826060000 +0000" stop="20260826090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260826060000 +0000" stop="20260826090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260826060000 +0000" stop="20260826090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260826060000 +0000" stop="20260826090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -34614,15 +35000,15 @@ Hay un par enérgico en la cocina en un grupo jóvenes competidores que incluye 
     <desc lang="es">Es la historia de Lola, una madre de familia que lucha por mantener unida a su familia en la ciudad de São Paulo entre las décadas de 1920 y 1940, enfrentando dificultades económicas, conflictos familiares y los grandes cambios sociales de la época.</desc>
     <title lang="es">Éramos seis</title>
   </programme>
-  <programme start="20260826090000 +0000" stop="20260826120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260826090000 +0000" stop="20260826120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260826090000 +0000" stop="20260826120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260826090000 +0000" stop="20260826120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -34875,15 +35261,15 @@ Eric Adjepong invita a tres competidores de Nueva York para representar la diver
 Blaze y los Monster Machines.</desc>
     <title lang="es">Blaze y los Monster Machines</title>
   </programme>
-  <programme start="20260826120000 +0000" stop="20260826150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260826120000 +0000" stop="20260826150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260826120000 +0000" stop="20260826150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260826120000 +0000" stop="20260826150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -35173,15 +35559,15 @@ Josh y Jessalyn se casarán pronto y planearon todo con temática francesa, pero
 Tim Rex en el espacio.</desc>
     <title lang="es">Tim Rex en el espacio</title>
   </programme>
-  <programme start="20260826150000 +0000" stop="20260826180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260826150000 +0000" stop="20260826180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260826150000 +0000" stop="20260826180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260826150000 +0000" stop="20260826180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -35420,15 +35806,15 @@ Rubble y equipo.</desc>
     <title lang="es">Escorpión</title>
     <title lang="en">Akrep</title>
   </programme>
-  <programme start="20260826180000 +0000" stop="20260826210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260826180000 +0000" stop="20260826210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260826180000 +0000" stop="20260826210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260826180000 +0000" stop="20260826210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -35713,15 +36099,15 @@ Los Titanes creen estar listos para enfrentarse al protegido de Alex Guarnaschel
     <desc lang="es">LIGA DE PRIMERA MERCADO LIBRE 2026 - FECHA 19.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260826210000 +0000" stop="20260827000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260826210000 +0000" stop="20260827000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260826210000 +0000" stop="20260827000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260826210000 +0000" stop="20260827000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -35941,15 +36327,15 @@ BARBAPAPÁ Una gran familia feliz.</desc>
     <desc lang="es">En una noche de tormenta, nace la bella Marina aparentemente sin vida. La bebé es recibida por Damiana, la partera del pueblo, quien unas horas antes atendió el alumbramiento de un niño sano, pero que desafortunadamente su madre no sobrevivió. Don Luis, el padre de Marina, desde que se casó con Prudencia, vive empeñado en tener un hijo varón, desea un heredero que trascienda su ilustre apellido Ocaranza. Desafortunadamente, Prudencia queda imposibilitada para volver a embarazarse, situación que apremia a su nana Angustias a convencer a Damiana de beneficiar a la familia y al bebé que quedó huérfano, haciéndolo pasar por legítimo hijo Ocaranza Arzuaga. Es así como Luis Alberto, el gran orgullo de Don Luis, crece en cuna de oro y viaja al extranjero para estudiar la carrera de medicina. Marina, milagrosamente sobrevive y crece feliz rodeada de la naturaleza al lado de Damiana, quien le enseña a conocer el mundo de manera distinta, debido a que es invidente. El encanto de Marina por su actitud alegre, fresca.</desc>
     <title lang="es">Sin tu mirada</title>
   </programme>
-  <programme start="20260827000000 +0000" stop="20260827030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260827000000 +0000" stop="20260827030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260827000000 +0000" stop="20260827030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260827000000 +0000" stop="20260827030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -36133,15 +36519,15 @@ Rubble y equipo.</desc>
     <desc lang="es">Sin información.</desc>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260827030000 +0000" stop="20260827060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260827030000 +0000" stop="20260827060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260827030000 +0000" stop="20260827060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260827030000 +0000" stop="20260827060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -36302,15 +36688,15 @@ BARBAPAPÁ Una gran familia feliz.</desc>
     <title lang="es">Escorpión</title>
     <title lang="en">Akrep</title>
   </programme>
-  <programme start="20260827060000 +0000" stop="20260827090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260827060000 +0000" stop="20260827090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260827060000 +0000" stop="20260827090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260827060000 +0000" stop="20260827090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -36504,15 +36890,15 @@ Cuatro jóvenes chefs llegan a la cocina de Chopped Junior para demostrar que ya
     <desc lang="es">Es la historia de Lola, una madre de familia que lucha por mantener unida a su familia en la ciudad de São Paulo entre las décadas de 1920 y 1940, enfrentando dificultades económicas, conflictos familiares y los grandes cambios sociales de la época.</desc>
     <title lang="es">Éramos seis</title>
   </programme>
-  <programme start="20260827090000 +0000" stop="20260827120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260827090000 +0000" stop="20260827120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260827090000 +0000" stop="20260827120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260827090000 +0000" stop="20260827120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -36697,15 +37083,15 @@ Eric Adjepong trae chefs de California, Texas y Nueva York para presentar a Alex
 Blaze y los Monster Machines.</desc>
     <title lang="es">Blaze y los Monster Machines</title>
   </programme>
-  <programme start="20260827120000 +0000" stop="20260827150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260827120000 +0000" stop="20260827150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260827120000 +0000" stop="20260827150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260827120000 +0000" stop="20260827150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -36886,15 +37272,15 @@ Solo faltan dos semanas para su boda y una pareja quiere un pastel que le rinda 
 Tim Rex en el espacio.</desc>
     <title lang="es">Tim Rex en el espacio</title>
   </programme>
-  <programme start="20260827150000 +0000" stop="20260827180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260827150000 +0000" stop="20260827180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260827150000 +0000" stop="20260827180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260827150000 +0000" stop="20260827180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -37058,15 +37444,15 @@ Rubble y equipo.</desc>
     <title lang="es">Escorpión</title>
     <title lang="en">Akrep</title>
   </programme>
-  <programme start="20260827180000 +0000" stop="20260827210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260827180000 +0000" stop="20260827210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260827180000 +0000" stop="20260827210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260827180000 +0000" stop="20260827210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -37227,15 +37613,15 @@ Bobby Flay desafía a los Titanes con la chef Ayaka Guido, quien, como mano dere
     <title lang="es">Jumanji: el siguiente nivel</title>
     <title lang="en">Jumanji: The Next Level</title>
   </programme>
-  <programme start="20260827210000 +0000" stop="20260828000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
   <programme start="20260827210000 +0000" stop="20260828000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260827210000 +0000" stop="20260828000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260827210000 +0000" stop="20260828000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
