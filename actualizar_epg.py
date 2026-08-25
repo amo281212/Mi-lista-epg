@@ -81,7 +81,6 @@ MIS_CANALES = {
 # 🔄 MAPEO COMPLETO
 MAPEO_IDS = {
     'E_EntertainmentTelevision.bo': 'E_Entertainment.cl',
-    'E!EntertainmentTelevisionAndes.ec': 'E_Entertainment.cl',
     'EEntertainment.cl': 'E_Entertainment.cl',
     'E!Entertainment.cl': 'E_Entertainment.cl',
     'StudioUniversal.bo': 'StudioUniversal.ar',
