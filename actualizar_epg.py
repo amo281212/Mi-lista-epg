@@ -94,6 +94,20 @@ MAPEO_IDS = {
     'AE.ar': 'AE.cl',
     'A&E.cl': 'AE.cl',
     'History2.cl': 'History2.cl1',
+    'Canal.TVN.(Chile).cl': 'TVN.cl', 'Canal.Mega.(Chile).cl': 'Mega.cl', 'Canal.Chilevisión.(CHV).cl': 'Chilevision.cl', 'Canal.13.de.Chile.cl': 'Canal13.cl',
+    'Canal.AMC.(Chile).cl': 'AMC.cl', 'Canal.Cinecanal.(Chile).cl': 'Cinecanal.cl', 'Canal.Cinemax.(Chile).cl': 'Cinemax.cl', 'Canal.Golden.Edge.cl': 'GoldenEdge.cl',
+    'Canal.HBO.(Chile).cl': 'HBO.cl', 'Canal.HBO.2.Latinoamérica.cl': 'HBO2.cl', 'Canal.HBO.Family.Latinoamérica.cl': 'HBOFamily.cl', 'Canal.HBO.Xtreme.cl': 'HBOXtreme.cl',
+    'Canal.Sony.(Chile).cl': 'Sony.cl', 'Canal.Space.(Chile).cl': 'Space.cl', 'Canal.HBO.Pop.cl': 'HBOPop.cl', 'Canal.TNT.(Chile).cl': 'TNT.cl',
+    'Canal.Star.Channel.(Chile).cl': 'StarChannel.cl', 'Canal.Warner.TV.(Chile).cl': 'WarnerChannel.cl', 'Canal.AXN.(Chile).cl': 'AXN.cl', 'Canal.A&E.(Chile).cl': 'AE.cl',
+    'Canal.FX.(Chile).cl': 'FX.cl', 'Canal.E!.Entertainment.Television.(Chile).cl': 'E_Entertainment.cl', 'Canal.ESPN.(Chile).cl': 'ESPN.cl', 'Canal.ESPN.2.(Chile).cl': 'ESPN2.cl',
+    'Canal.ESPN.3.(Chile).cl': 'ESPN3.cl', 'Canal.TyC.Sports.cl': 'TyCSports.cl', 'Canal.Cartoon.Network.(Chile).cl': 'CartoonNetwork.cl', 'Canal.Discovery.Kids.(Chile).cl': 'DiscoveryKids.cl',
+    'Canal.Disney.Channel.(Chile).cl': 'DisneyChannel.cl', 'Canal.Disney.Junior.(Chile).cl': 'DisneyJunior.cl', 'Canal.Nick.Jr..(Chile).cl': 'NickJr.bo', 'Canal.Nickelodeon.(Chile).cl': 'Nick.cl',
+    'Canal.Tooncast.cl': 'Tooncast.cl', 'Canal.Animal.Planet.(Chile).cl': 'AnimalPlanet.cl', 'Canal.Discovery.Channel.(Chile).cl': 'Discovery.cl',
+    'Canal.Discovery.Science.(Latinoamérica).cl': 'DiscoveryScience.cl', 'Canal.Discovery.Theater.(Latinoamérica).cl': 'DiscoveryTheater.cl', 'Canal.Discovery.Turbo.(Latinoamérica).cl': 'DiscoveryTurbo.cl',
+    'Canal.Discovery.World.Latinoamérica.cl': 'DiscoveryWorld.cl', 'Canal.Elgourmet.cl': 'ElGourmet.cl', 'Canal.History.(Chile).cl': 'History.cl', 'Canal.History.2.(Chile).cl': 'History2.cl1',
+    'Canal.Investigation.Discovery.(Chile).cl': 'InvestigationDiscovery.cl', 'Canal.National.Geographic.(Chile).cl': 'NationalGeographic.cl', 'Canal.Las.Estrellas.(Chile).cl': 'LasEstrellas.cl',
+    'Canal.Pasiones.(Latinoamérica).cl': 'PASIONES.uy', 'Canal.Telemundo.(Chile).cl': 'TelemundoInternacional.ar', 'Canal.TLNovelas.(Chile).cl': 'TLNovelas.cl',
+    'Canal.Enlace.(TBN).cl': 'EnlaceTBN.cl', 'Canal.CNN.Chile.cl': 'CNNChile.cl', 'Canal.24.Horas.(Chile).cl': '24Horas.cl',
 }
 
 FUENTES_PUBLICAS = [
@@ -104,6 +118,7 @@ FUENTES_PUBLICAS = [
     "https://iptv-epg.org/files/epg-uy.xml",
     "https://iptv-epg.org/files/epg-bo.xml",
     "https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml",
+    "https://epg.lat/files/cl.xml.gz",
 ]
 
 GUIA_PROPIA = "https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml"
