@@ -96,6 +96,7 @@ MAPEO_IDS = {
     'History2.cl': 'History2.cl1',
 }
 
+# 🌐 SOLO FUENTES PÚBLICAS EXTERNAS
 FUENTES_PUBLICAS = [
     "https://iptv-epg.org/files/epg-cl.xml",
     "https://iptv-epg.org/files/epg-ar.xml",
@@ -103,9 +104,9 @@ FUENTES_PUBLICAS = [
     "https://iptv-epg.org/files/epg-co.xml",
     "https://iptv-epg.org/files/epg-uy.xml",
     "https://iptv-epg.org/files/epg-bo.xml",
-"https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml",
 ]
 
+# 📝 TU GUÍA MANUAL
 GUIA_PROPIA = "https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml"
 
 DESFASE_CANALES = {
