@@ -153,24 +153,13 @@ DATOS_RESPALDO = {
     'History2.cl1': ('History 2', 'Documentales', 'Programación History 2', 'Documentales, historia y ciencia.')
 }
 
-# 🔧 FUNCIONES CORREGIDAS PARA RESPETAR ZONA HORARIA Y EVITAR DESFASE EN SMART TV
 def parse_time(time_str):
     if not time_str or len(time_str) < 14:
         return None
     try:
         clean = time_str.strip()
         dt_part = clean[:14]
-        tz_part = clean[14:].strip()
-        
-        # Lee la hora nominal sin convertirlos a UTC
         dt = datetime.datetime.strptime(dt_part, "%Y%m%d%H%M%S")
-        
-        if tz_part and (tz_part.startswith('+') or tz_part.startswith('-')):
-            sign = -1 if tz_part[0] == '+' else 1
-            tz_hours = int(tz_part[1:3])
-            tz_mins = int(tz_part[3:5]) if len(tz_part) >= 5 else 0
-            dt += datetime.timedelta(hours=sign * tz_hours, minutes=sign * tz_mins)
-            
         return dt
     except Exception:
         return None
@@ -180,10 +169,10 @@ def ajustar_hora(time_str, horas_desfase):
         return time_str
     try:
         dt_part = time_str[:14]
-        tz_part = time_str[14:] if len(time_str) > 14 else " -0400"
         dt = datetime.datetime.strptime(dt_part, "%Y%m%d%H%M%S")
-        dt += datetime.timedelta(hours=horas_desfase)
-        return dt.strftime("%Y%m%d%H%M%S") + tz_part
+        if horas_desfase != 0:
+            dt += datetime.timedelta(hours=horas_desfase)
+        return dt.strftime("%Y%m%d%H%M%S") + " -0400"
     except Exception:
         return time_str
 
@@ -206,7 +195,6 @@ def agregar_bloque_respaldo(canales_dict, programas_lista, channel_id):
     dn_elem.text = ch_name
     canales_dict[channel_id] = ch_elem
     
-    # Mantiene la hora local con la zona horaria explícita de Chile (-0400)
     ahora = datetime.datetime.now()
     inicio_base = ahora.replace(hour=0, minute=0, second=0, microsecond=0) - datetime.timedelta(days=1)
     
@@ -259,11 +247,10 @@ try:
                     if target_id in MIS_CANALES:
                         elem.set('channel', target_id)
 
-                        # 🕒 APLICAR DESFASE PÚBLICO
-                        if target_id in DESFASE_CANALES:
-                            horas = DESFASE_CANALES[target_id]
-                            elem.set('start', ajustar_hora(elem.get('start', ''), horas))
-                            elem.set('stop', ajustar_hora(elem.get('stop', ''), horas))
+                        # APLICAR FORMATEO Y DESFASE PÚBLICO
+                        horas = DESFASE_CANALES.get(target_id, 0)
+                        elem.set('start', ajustar_hora(elem.get('start', ''), horas))
+                        elem.set('stop', ajustar_hora(elem.get('stop', ''), horas))
 
                         st_dt = parse_time(elem.get('start'))
                         sp_dt = parse_time(elem.get('stop'))
@@ -293,11 +280,10 @@ try:
                 if target_id in MIS_CANALES:
                     elem.set('channel', target_id)
 
-                    # 🕒 APLICAR DESFASE EXCLUSIVO PARA TU GUÍA PROPIA
-                    if target_id in DESFASE_GUIA_PROPIA:
-                        horas = DESFASE_GUIA_PROPIA[target_id]
-                        elem.set('start', ajustar_hora(elem.get('start', ''), horas))
-                        elem.set('stop', ajustar_hora(elem.get('stop', ''), horas))
+                    # APLICAR FORMATEO Y DESFASE DE TU GUÍA PROPIA
+                    horas = DESFASE_GUIA_PROPIA.get(target_id, 0)
+                    elem.set('start', ajustar_hora(elem.get('start', ''), horas))
+                    elem.set('stop', ajustar_hora(elem.get('stop', ''), horas))
 
                     st_dt = parse_time(elem.get('start'))
                     sp_dt = parse_time(elem.get('stop'))
