@@ -110,8 +110,8 @@ FUENTES_PUBLICAS = [
 GUIA_PROPIA = "https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml"
 
 DESFASE_CANALES = {
-    'GoldenEdge.cl': -3,
-    'Cinemax.cl': +1,
+    'GoldenEdge.cl': -2,
+    'Cinemax.cl': 1,
     'ESPN2.cl': -1,
     'ESPN3.cl': -1,
     'ESPN4.cl': -1,
@@ -247,16 +247,14 @@ try:
                     target_id = MAPEO_IDS.get(ch_id, ch_id)
                     
                     if target_id in MIS_CANALES:
-                        start_time = elem.get('start', '')
-                        
+                        elem.set('channel', target_id)
+
+                        # 🕒 APLICAR DESFASE
                         if target_id in DESFASE_CANALES:
                             horas = DESFASE_CANALES[target_id]
-                            start_time = ajustar_hora(start_time, horas)
-                            elem.set('start', start_time)
+                            elem.set('start', ajustar_hora(elem.get('start', ''), horas))
                             elem.set('stop', ajustar_hora(elem.get('stop', ''), horas))
 
-                        elem.set('channel', target_id)
-                        
                         st_dt = parse_time(elem.get('start'))
                         sp_dt = parse_time(elem.get('stop'))
                         
@@ -284,6 +282,13 @@ try:
                 
                 if target_id in MIS_CANALES:
                     elem.set('channel', target_id)
+
+                    # 🕒 APLICAR DESFASE TAMBIÉN A TU GUÍA PROPIA
+                    if target_id in DESFASE_CANALES:
+                        horas = DESFASE_CANALES[target_id]
+                        elem.set('start', ajustar_hora(elem.get('start', ''), horas))
+                        elem.set('stop', ajustar_hora(elem.get('stop', ''), horas))
+
                     st_dt = parse_time(elem.get('start'))
                     sp_dt = parse_time(elem.get('stop'))
                     
