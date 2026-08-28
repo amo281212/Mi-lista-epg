@@ -126,7 +126,7 @@ DESFASE_CANALES = {
 # 🕒 DESFASES EXCLUSIVOS PARA TU GUÍA PROPIA
 # Si un canal NO está aquí (o si lo dejas vacío {}), su hora NO cambiará en tu guía
 DESFASE_GUIA_PROPIA = {
-    # 'GoldenEdge.cl': -4,  # Ejemplo: activa/añade solo los que realmente necesiten desfase en tu guía
+    # 'GoldenEdge.cl': -4,  # Ejemplo: activa/añade solo los que realmente necesiten desfase en tu guía (ej. -4 para adelantar 4 hrs)
 }
 
 DATOS_RESPALDO = {
@@ -153,6 +153,7 @@ DATOS_RESPALDO = {
     'History2.cl1': ('History 2', 'Documentales', 'Programación History 2', 'Documentales, historia y ciencia.')
 }
 
+# 🔧 FUNCIONES CORREGIDAS PARA RESPETAR ZONA HORARIA Y EVITAR DESFASE EN SMART TV
 def parse_time(time_str):
     if not time_str or len(time_str) < 14:
         return None
@@ -160,6 +161,8 @@ def parse_time(time_str):
         clean = time_str.strip()
         dt_part = clean[:14]
         tz_part = clean[14:].strip()
+        
+        # Lee la hora nominal sin convertirlos a UTC
         dt = datetime.datetime.strptime(dt_part, "%Y%m%d%H%M%S")
         
         if tz_part and (tz_part.startswith('+') or tz_part.startswith('-')):
@@ -168,7 +171,7 @@ def parse_time(time_str):
             tz_mins = int(tz_part[3:5]) if len(tz_part) >= 5 else 0
             dt += datetime.timedelta(hours=sign * tz_hours, minutes=sign * tz_mins)
             
-        return dt.replace(tzinfo=datetime.timezone.utc)
+        return dt
     except Exception:
         return None
 
@@ -177,7 +180,7 @@ def ajustar_hora(time_str, horas_desfase):
         return time_str
     try:
         dt_part = time_str[:14]
-        tz_part = time_str[14:] if len(time_str) > 14 else ""
+        tz_part = time_str[14:] if len(time_str) > 14 else " -0400"
         dt = datetime.datetime.strptime(dt_part, "%Y%m%d%H%M%S")
         dt += datetime.timedelta(hours=horas_desfase)
         return dt.strftime("%Y%m%d%H%M%S") + tz_part
@@ -203,7 +206,8 @@ def agregar_bloque_respaldo(canales_dict, programas_lista, channel_id):
     dn_elem.text = ch_name
     canales_dict[channel_id] = ch_elem
     
-    ahora = datetime.datetime.now(datetime.timezone.utc)
+    # Mantiene la hora local con la zona horaria explícita de Chile (-0400)
+    ahora = datetime.datetime.now()
     inicio_base = ahora.replace(hour=0, minute=0, second=0, microsecond=0) - datetime.timedelta(days=1)
     
     for dia in range(4):
@@ -213,8 +217,8 @@ def agregar_bloque_respaldo(canales_dict, programas_lista, channel_id):
             
             prog = ET.Element(
                 'programme', 
-                start=start_dt.strftime("%Y%m%d%H%M%S +0000"), 
-                stop=stop_dt.strftime("%Y%m%d%H%M%S +0000"), 
+                start=start_dt.strftime("%Y%m%d%H%M%S -0400"), 
+                stop=stop_dt.strftime("%Y%m%d%H%M%S -0400"), 
                 channel=channel_id
             )
             title = ET.SubElement(prog, 'title', lang='es')
