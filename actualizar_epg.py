@@ -153,28 +153,35 @@ DATOS_RESPALDO = {
     'History2.cl1': ('History 2', 'Documentales', 'Programación History 2', 'Documentales, historia y ciencia.')
 }
 
-def parse_time(time_str):
+# 🔧 FUNCION PARA NORMALIZAR CUALQUIER ZONA HORARIA A UTC ABSOLUTO (+0000)
+def normalizar_a_utc(time_str, horas_desfase=0):
     if not time_str or len(time_str) < 14:
-        return None
+        return time_str, None
     try:
         clean = time_str.strip()
         dt_part = clean[:14]
+        tz_part = clean[14:].strip()
+        
         dt = datetime.datetime.strptime(dt_part, "%Y%m%d%H%M%S")
-        return dt
-    except Exception:
-        return None
-
-def ajustar_hora(time_str, horas_desfase):
-    if not time_str or len(time_str) < 14:
-        return time_str
-    try:
-        dt_part = time_str[:14]
-        dt = datetime.datetime.strptime(dt_part, "%Y%m%d%H%M%S")
+        
+        # Convertir a UTC según el offset recibido
+        if tz_part and (tz_part.startswith('+') or tz_part.startswith('-')):
+            sign = 1 if tz_part[0] == '+' else -1
+            tz_hours = int(tz_part[1:3])
+            tz_mins = int(tz_part[3:5]) if len(tz_part) >= 5 else 0
+            offset_delta = datetime.timedelta(hours=sign * tz_hours, minutes=sign * tz_mins)
+            dt_utc = dt - offset_delta
+        else:
+            dt_utc = dt
+            
+        # Aplicar el desfase manual del canal
         if horas_desfase != 0:
-            dt += datetime.timedelta(hours=horas_desfase)
-        return dt.strftime("%Y%m%d%H%M%S") + " -0400"
+            dt_utc += datetime.timedelta(hours=horas_desfase)
+            
+        str_utc = dt_utc.strftime("%Y%m%d%H%M%S") + " +0000"
+        return str_utc, dt_utc
     except Exception:
-        return time_str
+        return time_str, None
 
 def descargar_xml(url):
     headers = {'User-Agent': 'Mozilla/5.0'}
@@ -195,8 +202,8 @@ def agregar_bloque_respaldo(canales_dict, programas_lista, channel_id):
     dn_elem.text = ch_name
     canales_dict[channel_id] = ch_elem
     
-    ahora = datetime.datetime.now()
-    inicio_base = ahora.replace(hour=0, minute=0, second=0, microsecond=0) - datetime.timedelta(days=1)
+    ahora_utc = datetime.datetime.utcnow()
+    inicio_base = ahora_utc.replace(hour=0, minute=0, second=0, microsecond=0) - datetime.timedelta(days=1)
     
     for dia in range(4):
         for bloque in range(8):
@@ -205,8 +212,8 @@ def agregar_bloque_respaldo(canales_dict, programas_lista, channel_id):
             
             prog = ET.Element(
                 'programme', 
-                start=start_dt.strftime("%Y%m%d%H%M%S -0400"), 
-                stop=stop_dt.strftime("%Y%m%d%H%M%S -0400"), 
+                start=start_dt.strftime("%Y%m%d%H%M%S +0000"), 
+                stop=stop_dt.strftime("%Y%m%d%H%M%S +0000"), 
                 channel=channel_id
             )
             title = ET.SubElement(prog, 'title', lang='es')
@@ -247,14 +254,13 @@ try:
                     if target_id in MIS_CANALES:
                         elem.set('channel', target_id)
 
-                        # APLICAR FORMATEO Y DESFASE PÚBLICO
                         horas = DESFASE_CANALES.get(target_id, 0)
-                        elem.set('start', ajustar_hora(elem.get('start', ''), horas))
-                        elem.set('stop', ajustar_hora(elem.get('stop', ''), horas))
+                        start_str, st_dt = normalizar_a_utc(elem.get('start', ''), horas)
+                        stop_str, sp_dt = normalizar_a_utc(elem.get('stop', ''), horas)
 
-                        st_dt = parse_time(elem.get('start'))
-                        sp_dt = parse_time(elem.get('stop'))
-                        
+                        elem.set('start', start_str)
+                        elem.set('stop', stop_str)
+
                         if st_dt and sp_dt:
                             programas_lista.append((elem, target_id, st_dt, sp_dt))
 
@@ -280,14 +286,13 @@ try:
                 if target_id in MIS_CANALES:
                     elem.set('channel', target_id)
 
-                    # APLICAR FORMATEO Y DESFASE DE TU GUÍA PROPIA
                     horas = DESFASE_GUIA_PROPIA.get(target_id, 0)
-                    elem.set('start', ajustar_hora(elem.get('start', ''), horas))
-                    elem.set('stop', ajustar_hora(elem.get('stop', ''), horas))
+                    start_str, st_dt = normalizar_a_utc(elem.get('start', ''), horas)
+                    stop_str, sp_dt = normalizar_a_utc(elem.get('stop', ''), horas)
 
-                    st_dt = parse_time(elem.get('start'))
-                    sp_dt = parse_time(elem.get('stop'))
-                    
+                    elem.set('start', start_str)
+                    elem.set('stop', stop_str)
+
                     if st_dt and sp_dt:
                         # 🧹 ELIMINACIÓN DE BLOQUES CHOQUE
                         programas_lista = [
