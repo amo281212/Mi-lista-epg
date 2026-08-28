@@ -110,6 +110,7 @@ FUENTES_PUBLICAS = [
 GUIA_PROPIA = "https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml"
 
 DESFASE_CANALES = {
+    'GoldenEdge.cl': +2,
     'Cinemax.cl': +1,
     'ESPN2.cl': -1,
     'ESPN3.cl': -1,
