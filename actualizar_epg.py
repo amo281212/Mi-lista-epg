@@ -109,8 +109,8 @@ FUENTES_PUBLICAS = [
 # 📝 TU GUÍA MANUAL
 GUIA_PROPIA = "https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml"
 
+# 🕒 DESFASES PARA LAS FUENTES PÚBLICAS
 DESFASE_CANALES = {
-    'GoldenEdge.cl': -3,
     'Cinemax.cl': 1,
     'ESPN2.cl': -1,
     'ESPN3.cl': -1,
@@ -121,6 +121,12 @@ DESFASE_CANALES = {
     'DIRECTVSports.cl': -1,
     'TNTSportsPremium.cl': -1,
     'TyCSports.cl': -1,
+}
+
+# 🕒 DESFASES EXCLUSIVOS PARA TU GUÍA PROPIA
+# Si un canal NO está aquí (o si lo dejas vacío {}), su hora NO cambiará en tu guía
+DESFASE_GUIA_PROPIA = {
+    # 'GoldenEdge.cl': -4,  # Ejemplo: activa/añade solo los que realmente necesiten desfase en tu guía
 }
 
 DATOS_RESPALDO = {
@@ -249,7 +255,7 @@ try:
                     if target_id in MIS_CANALES:
                         elem.set('channel', target_id)
 
-                        # 🕒 APLICAR DESFASE
+                        # 🕒 APLICAR DESFASE PÚBLICO
                         if target_id in DESFASE_CANALES:
                             horas = DESFASE_CANALES[target_id]
                             elem.set('start', ajustar_hora(elem.get('start', ''), horas))
@@ -283,9 +289,9 @@ try:
                 if target_id in MIS_CANALES:
                     elem.set('channel', target_id)
 
-                    # 🕒 APLICAR DESFASE TAMBIÉN A TU GUÍA PROPIA
-                    if target_id in DESFASE_CANALES:
-                        horas = DESFASE_CANALES[target_id]
+                    # 🕒 APLICAR DESFASE EXCLUSIVO PARA TU GUÍA PROPIA
+                    if target_id in DESFASE_GUIA_PROPIA:
+                        horas = DESFASE_GUIA_PROPIA[target_id]
                         elem.set('start', ajustar_hora(elem.get('start', ''), horas))
                         elem.set('stop', ajustar_hora(elem.get('stop', ''), horas))
 
