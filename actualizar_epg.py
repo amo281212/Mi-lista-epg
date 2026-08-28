@@ -127,6 +127,7 @@ DESFASE_CANALES = {
 # Si un canal NO está aquí (o si lo dejas vacío {}), su hora NO cambiará en tu guía
 DESFASE_GUIA_PROPIA = {
     # 'GoldenEdge.cl': -4,  # Ejemplo: activa/añade solo los que realmente necesiten desfase en tu guía (ej. -4 para adelantar 4 hrs)
+    'GoldenEdge.cl': -1,
 }
 
 DATOS_RESPALDO = {
