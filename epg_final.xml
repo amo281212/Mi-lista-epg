@@ -218,6 +218,11 @@
   <channel id="WarnerChannel.cl">
     <display-name>Warner Channel</display-name>
   </channel>
+  <programme start="20260828000000 -0400" stop="20260828030000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260828000000 -0400" stop="20260828030000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -228,7 +233,7 @@
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
   </programme>
-  <programme start="20260828000000 -0400" stop="20260828030000 -0400" channel="CHVNoticias.cl">
+  <programme start="20260828030000 -0400" stop="20260828060000 -0400" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
@@ -243,7 +248,7 @@
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
   </programme>
-  <programme start="20260828030000 -0400" stop="20260828060000 -0400" channel="CHVNoticias.cl">
+  <programme start="20260828060000 -0400" stop="20260828090000 -0400" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
@@ -258,7 +263,7 @@
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
   </programme>
-  <programme start="20260828060000 -0400" stop="20260828090000 -0400" channel="CHVNoticias.cl">
+  <programme start="20260828090000 -0400" stop="20260828120000 -0400" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
@@ -273,14 +278,14 @@
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
   </programme>
-  <programme start="20260828090000 -0400" stop="20260828120000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260828120000 -0400" stop="20260828140000 -0400" channel="TNTSeries.cl">
     <title lang="es">SportsCenter</title>
     <desc lang="es">Sin información.</desc>
+  </programme>
+  <programme start="20260828120000 -0400" stop="20260828150000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260828120000 -0400" stop="20260828150000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
@@ -292,7 +297,7 @@
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
   </programme>
-  <programme start="20260828120000 -0400" stop="20260828150000 -0400" channel="CHVNoticias.cl">
+  <programme start="20260828150000 -0400" stop="20260828180000 -0400" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
@@ -307,7 +312,7 @@
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
   </programme>
-  <programme start="20260828150000 -0400" stop="20260828180000 -0400" channel="CHVNoticias.cl">
+  <programme start="20260828180000 -0400" stop="20260828210000 -0400" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
@@ -321,11 +326,6 @@
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260828180000 -0400" stop="20260828210000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260828193000 -0400" stop="20260828200000 -0400" channel="ESPN2.cl">
     <category lang="es">Soccer</category>
@@ -517,6 +517,11 @@ Tras fracasar las conversaciones de paz entre Tammy y Amy, las hermanas están m
 Santiago de los mares.</desc>
     <title lang="es">Santiago de los mares</title>
   </programme>
+  <programme start="20260828210000 -0400" stop="20260829000000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260828210000 -0400" stop="20260829000000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -526,11 +531,6 @@ Santiago de los mares.</desc>
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260828210000 -0400" stop="20260829000000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260828210300 -0400" stop="20260828215000 -0400" channel="HGTV.ar">
     <desc lang="es">S1 E3 — Estilo del sudoeste en Pagosa Springs
@@ -1001,6 +1001,14 @@ Las aventuras culinarias de Casey Webb a través del país lo llevan a Wilmingto
     <episode-num>S8 E2</episode-num>
     <title lang="es">Man vs. Food</title>
   </programme>
+  <programme start="20260829000000 -0400" stop="20260829010000 -0400" channel="FilmAndArts.cl">
+    <title lang="es">‹ Viernes 28</title>
+    <desc lang="es">Sin descripción disponible.</desc>
+  </programme>
+  <programme start="20260829000000 -0400" stop="20260829010000 -0400" channel="E_Entertainment.cl">
+    <title lang="es">‹ Viernes 28</title>
+    <desc lang="es">Sin descripción disponible.</desc>
+  </programme>
   <programme start="20260829000000 -0400" stop="20260829010000 -0400" channel="ESPN2.cl">
     <title lang="es">‹ Viernes 28</title>
     <desc lang="es">Sin descripción disponible.</desc>
@@ -1017,23 +1025,7 @@ Las aventuras culinarias de Casey Webb a través del país lo llevan a Wilmingto
     <title lang="es">‹ Viernes 28</title>
     <desc lang="es">Sin descripción disponible.</desc>
   </programme>
-  <programme start="20260829000000 -0400" stop="20260829010000 -0400" channel="ESPN7.cl">
-    <title lang="es">‹ Viernes 28</title>
-    <desc lang="es">Sin descripción disponible.</desc>
-  </programme>
-  <programme start="20260829000000 -0400" stop="20260829010000 -0400" channel="TyCSports.cl">
-    <title lang="es">‹ Viernes 28</title>
-    <desc lang="es">Sin descripción disponible.</desc>
-  </programme>
-  <programme start="20260829000000 -0400" stop="20260829010000 -0400" channel="DiscoveryScience.cl">
-    <title lang="es">‹ Viernes 28</title>
-    <desc lang="es">Sin descripción disponible.</desc>
-  </programme>
-  <programme start="20260829000000 -0400" stop="20260829010000 -0400" channel="DiscoveryTheater.cl">
-    <title lang="es">‹ Viernes 28</title>
-    <desc lang="es">Sin descripción disponible.</desc>
-  </programme>
-  <programme start="20260829000000 -0400" stop="20260829010000 -0400" channel="DiscoveryWorld.cl">
+  <programme start="20260829000000 -0400" stop="20260829010000 -0400" channel="CartoonNetwork.cl">
     <title lang="es">‹ Viernes 28</title>
     <desc lang="es">Sin descripción disponible.</desc>
   </programme>
@@ -1041,15 +1033,19 @@ Las aventuras culinarias de Casey Webb a través del país lo llevan a Wilmingto
     <title lang="es">‹ Viernes 28</title>
     <desc lang="es">Sin descripción disponible.</desc>
   </programme>
-  <programme start="20260829000000 -0400" stop="20260829010000 -0400" channel="LasEstrellas.cl">
-    <title lang="es">‹ Viernes 28</title>
-    <desc lang="es">Sin descripción disponible.</desc>
-  </programme>
   <programme start="20260829000000 -0400" stop="20260829010000 -0400" channel="PASIONES.uy">
     <title lang="es">‹ Viernes 28</title>
     <desc lang="es">Sin descripción disponible.</desc>
   </programme>
+  <programme start="20260829000000 -0400" stop="20260829010000 -0400" channel="EnlaceTBN.cl">
+    <title lang="es">‹ Viernes 28</title>
+    <desc lang="es">Sin descripción disponible.</desc>
+  </programme>
   <programme start="20260829000000 -0400" stop="20260829010000 -0400" channel="CNNChile.cl">
+    <title lang="es">‹ Viernes 28</title>
+    <desc lang="es">Sin descripción disponible.</desc>
+  </programme>
+  <programme start="20260829000000 -0400" stop="20260829010000 -0400" channel="24Horas.cl">
     <title lang="es">‹ Viernes 28</title>
     <desc lang="es">Sin descripción disponible.</desc>
   </programme>
@@ -1088,6 +1084,11 @@ Las aventuras culinarias de Casey Webb a través del país lo llevan a Wilmingto
     <desc lang="es">Love Island.</desc>
     <title lang="es">Love Island</title>
   </programme>
+  <programme start="20260829000000 -0400" stop="20260829030000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260829000000 -0400" stop="20260829030000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -1097,11 +1098,6 @@ Las aventuras culinarias de Casey Webb a través del país lo llevan a Wilmingto
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260829000000 -0400" stop="20260829030000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260829000500 -0400" stop="20260829002500 -0400" channel="NickJr.bo">
     <desc lang="es">T2-E7 Gelati-Trol / ¡Atrapen a ese gatito
@@ -1585,6 +1581,11 @@ Million Dollar Listing Los Angeles.</desc>
     <title lang="es">El viento sopla</title>
     <title lang="en">Barami Boonda</title>
   </programme>
+  <programme start="20260829030000 -0400" stop="20260829060000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260829030000 -0400" stop="20260829060000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -1594,11 +1595,6 @@ Million Dollar Listing Los Angeles.</desc>
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260829030000 -0400" stop="20260829060000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260829030500 -0400" stop="20260829032500 -0400" channel="NickJr.bo">
     <category lang="es">Animación</category>
@@ -2165,6 +2161,11 @@ Ojos de mujer.</desc>
     <desc lang="es">Hollywood on Set.</desc>
     <title lang="es">Hollywood on Set</title>
   </programme>
+  <programme start="20260829060000 -0400" stop="20260829090000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260829060000 -0400" stop="20260829090000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -2174,11 +2175,6 @@ Ojos de mujer.</desc>
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260829060000 -0400" stop="20260829090000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260829060500 -0400" stop="20260829070000 -0400" channel="Sony.cl">
     <desc lang="es">S3 E1 — Desastre
@@ -2665,6 +2661,11 @@ Espacio de contenido infomercial.</desc>
     <desc lang="es">Una familia lucha por mantenerse unida ante las dificultades sociales de principios del siglo XX. Lola y su esposo Júlio se aman, pero entran en conflicto porque tienen sueños diferentes. Para ella, el hogar es el alma de la familia, pero enriquecerse es la principal ambición de su esposo.</desc>
     <title lang="es">Éramos seis. Emisión del día jueves</title>
   </programme>
+  <programme start="20260829090000 -0400" stop="20260829120000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260829090000 -0400" stop="20260829120000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -2674,11 +2675,6 @@ Espacio de contenido infomercial.</desc>
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260829090000 -0400" stop="20260829120000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260829090300 -0400" stop="20260829095700 -0400" channel="FOODNETWORK.uy">
     <date>2022</date>
@@ -3187,6 +3183,11 @@ Una pareja les pide a Nathan y Jenny una yurta de nueve metros de extensión que
     <desc lang="es">Sigue la historia de amor entre Marina y Luis Alberto, que está llena de escollos.</desc>
     <title lang="es">Sin tu mirada. Emisión del día martes</title>
   </programme>
+  <programme start="20260829120000 -0400" stop="20260829150000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260829120000 -0400" stop="20260829150000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -3196,11 +3197,6 @@ Una pareja les pide a Nathan y Jenny una yurta de nueve metros de extensión que
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260829120000 -0400" stop="20260829150000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260829120200 -0400" stop="20260829143500 -0400" channel="Cinemax.cl">
     <title lang="es">Rápidos y Furiosos 7</title>
@@ -3792,6 +3788,11 @@ Paw Patrol patrulla de cachorros.</desc>
     <title lang="es">Santiago Wanderers vs Magallanes</title>
     <desc lang="es">Sin información.</desc>
   </programme>
+  <programme start="20260829150000 -0400" stop="20260829180000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260829150000 -0400" stop="20260829180000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -3801,11 +3802,6 @@ Paw Patrol patrulla de cachorros.</desc>
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260829150000 -0400" stop="20260829180000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260829150200 -0400" stop="20260829155000 -0400" channel="FOODNETWORK.uy">
     <category lang="es">Reality</category>
@@ -4517,6 +4513,11 @@ El pequeño reino de Ben y Holly.</desc>
     <title lang="es">Viajando ando</title>
     <desc lang="es">Sin información.</desc>
   </programme>
+  <programme start="20260829180000 -0400" stop="20260829210000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260829180000 -0400" stop="20260829210000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -4526,11 +4527,6 @@ El pequeño reino de Ben y Holly.</desc>
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260829180000 -0400" stop="20260829210000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260829181200 -0400" stop="20260829201300 -0400" channel="Cinecanal.cl">
     <title lang="es">Los pingüinos de papá</title>
@@ -5533,6 +5529,11 @@ Santiago de los mares.</desc>
     <title lang="es">Shrek Tercero</title>
     <desc lang="es">Sin información.</desc>
   </programme>
+  <programme start="20260829210000 -0400" stop="20260830000000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260829210000 -0400" stop="20260830000000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -5542,11 +5543,6 @@ Santiago de los mares.</desc>
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260829210000 -0400" stop="20260830000000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260829210200 -0400" stop="20260829230000 -0400" channel="ESPN2.cl">
     <category lang="es">Soccer</category>
@@ -5584,10 +5580,6 @@ Un abogado de defensa criminal es asesinado en la boda de su hijo y atado a la p
     <icon src="https://iptv-epg.org/images/kpXJwepEMdJSRVtQQqzWkQ0owbU1uqDl0GWL4sVoJALgK6Pp8k0ZqgBuZ3adRvCygQTaedKo5VMyzTt26Wy1MVXB6l6xTq6UfSD7fvfWPLNPJvu3sLx5TclVQHDtnP0" />
     <title lang="es">CSI</title>
     <title lang="en">Crime Scene Investigation</title>
-  </programme>
-  <programme start="20260829212000 -0400" stop="20260829222000 -0400" channel="StudioUniversal.ar">
-    <title lang="es">‹ Viernes 28</title>
-    <desc lang="es">Sin descripción disponible.</desc>
   </programme>
   <programme start="20260829212500 -0400" stop="20260829214500 -0400" channel="NickJr.bo">
     <desc lang="es">T2-E2 Princesa por un día / La odisea de Barbabravo
@@ -5639,6 +5631,10 @@ Giada desafía a los pasteleros a preparar un pastel digno de la realeza para la
     <episode-num>S1 E5</episode-num>
     <title lang="es">Winner Cake All</title>
   </programme>
+  <programme start="20260829215500 -0400" stop="20260829225500 -0400" channel="SONYMOVIES.uy">
+    <title lang="es">‹ Viernes 28</title>
+    <desc lang="es">Sin descripción disponible.</desc>
+  </programme>
   <programme start="20260829215900 -0400" stop="20260829225400 -0400" channel="AXN.cl">
     <desc lang="es">S17 E3 — En marcha
 Después de que el cuerpo de un teniente de la Marina se encuentra escondido debajo de un camión de 18 ruedas, el equipo rastrea las ubicaciones anteriores del vehículo para identificar la escena del crimen.</desc>
@@ -5646,6 +5642,10 @@ Después de que el cuerpo de un teniente de la Marina se encuentra escondido deb
     <icon src="https://iptv-epg.org/images/i8adDtPKCXCi-MkrWESf5ljkK5EYFNbXWbKXB3RIz5J3t23XiVwqo3bvyFLr7nPAZCNtOUZCsbwuZR0jI5MYtVjja7GAO3W6SnDQGgjMRo9zgeu_H_KafLfwg2HdirFEfGJf" />
     <title lang="es">NCIS</title>
     <title lang="en">Navy NCIS: Naval Criminal Investigative Service</title>
+  </programme>
+  <programme start="20260829220000 -0400" stop="20260829230000 -0400" channel="StudioUniversal.ar">
+    <title lang="es">‹ Viernes 28</title>
+    <desc lang="es">Sin descripción disponible.</desc>
   </programme>
   <programme start="20260829220000 -0400" stop="20260829220000 -0400" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
@@ -5884,10 +5884,6 @@ El diseñador Vern Yip y un agente de bienes raíces recorren tres renovaciones 
     <title lang="es">La mejor inversión</title>
     <title lang="en">Bang for Your Buck</title>
   </programme>
-  <programme start="20260829221500 -0400" stop="20260829231500 -0400" channel="Sony.cl">
-    <title lang="es">‹ Viernes 28</title>
-    <desc lang="es">Sin descripción disponible.</desc>
-  </programme>
   <programme start="20260829222000 -0400" stop="20260829224500 -0400" channel="NickJr.bo">
     <desc lang="es">T7-E2 Los cachorros salvan las elecciones / Los cachorros salvan a los monos globo
 Paw Patrol patrulla de cachorros.</desc>
@@ -5981,10 +5977,6 @@ Paw Patrol patrulla de cachorros.</desc>
     <title lang="es">TV tiempo</title>
     <desc lang="es">Sin información.</desc>
   </programme>
-  <programme start="20260829225000 -0400" stop="20260829235000 -0400" channel="FilmAndArts.cl">
-    <title lang="es">‹ Viernes 28</title>
-    <desc lang="es">Sin descripción disponible.</desc>
-  </programme>
   <programme start="20260829225000 -0400" stop="20260829234000 -0400" channel="AXN.cl">
     <desc lang="es">S6 E23 — Bang-Bang
 Un hombre acusado de asesinar a su esposa y a sus colegas lleva a los miembros de CSI a una persecución salvaje a través de un atestado casino de Las Vegas.</desc>
@@ -6017,6 +6009,14 @@ El equipo busca un tirador activo después de un bloqueo en un hospital naval.</
     <desc lang="es">T1-E2 ¡Los cachorros construyen una gran tienda de bicicletas! / ¡El equipo construye una super bañera
 Rubble y equipo.</desc>
     <title lang="es">Rubble y equipo</title>
+  </programme>
+  <programme start="20260829230000 -0400" stop="20260830000000 -0400" channel="ESPN7.cl">
+    <title lang="es">‹ Viernes 28</title>
+    <desc lang="es">Sin descripción disponible.</desc>
+  </programme>
+  <programme start="20260829230000 -0400" stop="20260830000000 -0400" channel="TelemundoInternacional.ar">
+    <title lang="es">‹ Viernes 28</title>
+    <desc lang="es">Sin descripción disponible.</desc>
   </programme>
   <programme start="20260829230000 -0400" stop="20260830000000 -0400" channel="ESPN2.cl">
     <category lang="es">default</category>
@@ -6223,6 +6223,10 @@ Rubble y equipo.</desc>
     <title lang="es">See How They Run</title>
     <desc lang="es">Sin información.</desc>
   </programme>
+  <programme start="20260829230200 -0400" stop="20260830000200 -0400" channel="NationalGeographic.cl">
+    <title lang="es">‹ Viernes 28</title>
+    <desc lang="es">Sin descripción disponible.</desc>
+  </programme>
   <programme start="20260829230400 -0400" stop="20260829232900 -0400" channel="FOODNETWORK.uy">
     <date>2011</date>
     <desc lang="es">S2 E24
@@ -6236,19 +6240,27 @@ La tía de Buddy, Nina, va a ayudarlo a preparar platos italianos auténticos. S
     <desc lang="es">La legendaria banda de rock Foo Fighters se muda a una mansión de Encino inmersa en la espantosa historia del rock and roll para grabar su muy esperado décimo álbum. Una vez en la casa, Dave Grohl se encuentra lidiando con fuerzas sobrenaturales que amenazan tanto la finalización del álbum como la vida de la banda.</desc>
     <title lang="es">Terror en el estudio 666</title>
   </programme>
-  <programme start="20260829231000 -0400" stop="20260830001000 -0400" channel="SONYMOVIES.uy">
+  <programme start="20260829230800 -0400" stop="20260830000800 -0400" channel="Discovery.cl">
     <title lang="es">‹ Viernes 28</title>
     <desc lang="es">Sin descripción disponible.</desc>
   </programme>
-  <programme start="20260829231500 -0400" stop="20260830001500 -0400" channel="AXN.cl">
+  <programme start="20260829231000 -0400" stop="20260830001000 -0400" channel="TyCSports.cl">
     <title lang="es">‹ Viernes 28</title>
     <desc lang="es">Sin descripción disponible.</desc>
   </programme>
-  <programme start="20260829231600 -0400" stop="20260830001600 -0400" channel="DiscoveryTurbo.cl">
+  <programme start="20260829231200 -0400" stop="20260830001200 -0400" channel="InvestigationDiscovery.cl">
     <title lang="es">‹ Viernes 28</title>
     <desc lang="es">Sin descripción disponible.</desc>
   </programme>
-  <programme start="20260829231900 -0400" stop="20260830001900 -0400" channel="Discovery.cl">
+  <programme start="20260829232000 -0400" stop="20260830002000 -0400" channel="Sony.cl">
+    <title lang="es">‹ Viernes 28</title>
+    <desc lang="es">Sin descripción disponible.</desc>
+  </programme>
+  <programme start="20260829232000 -0400" stop="20260830002000 -0400" channel="USANetwork.bo">
+    <title lang="es">‹ Viernes 28</title>
+    <desc lang="es">Sin descripción disponible.</desc>
+  </programme>
+  <programme start="20260829232000 -0400" stop="20260830002000 -0400" channel="LasEstrellas.cl">
     <title lang="es">‹ Viernes 28</title>
     <desc lang="es">Sin descripción disponible.</desc>
   </programme>
@@ -6289,24 +6301,12 @@ Una pareja fanática de las motocicletas de Salt Lake City quiere estar más cer
     <title lang="es">Nuestro hogar en la montaña</title>
     <title lang="en">Mountain Life</title>
   </programme>
-  <programme start="20260829232500 -0400" stop="20260830002500 -0400" channel="History2.cl1">
-    <title lang="es">‹ Viernes 28</title>
-    <desc lang="es">Sin descripción disponible.</desc>
-  </programme>
   <programme start="20260829232900 -0400" stop="20260829235400 -0400" channel="FOODNETWORK.uy">
     <date>2024</date>
     <desc lang="es">S1 E3
 Selena Gomez lleva su juego a la cocina de Stephanie Izard, donde la desafían a una prueba de sabor. Selena prepara una tostada de ricota inspirada en queso y galletas saladas con la esperanza de deslumbrar a Stephanie con una creación crujiente.</desc>
     <episode-num>S1 E3</episode-num>
     <title lang="es">Selena + restaurante</title>
-  </programme>
-  <programme start="20260829233000 -0400" stop="20260830003000 -0400" channel="EnlaceTBN.cl">
-    <title lang="es">‹ Viernes 28</title>
-    <desc lang="es">Sin descripción disponible.</desc>
-  </programme>
-  <programme start="20260829233000 -0400" stop="20260830003000 -0400" channel="24Horas.cl">
-    <title lang="es">‹ Viernes 28</title>
-    <desc lang="es">Sin descripción disponible.</desc>
   </programme>
   <programme start="20260829233000 -0400" stop="20260830000000 -0400" channel="ESPN6.cl">
     <category lang="es">Soccer</category>
@@ -6317,19 +6317,23 @@ Selena Gomez lleva su juego a la cocina de Stephanie Izard, donde la desafían a
     <title lang="es">Chelsea vs. Brighton &amp; Hove Albion</title>
     <desc lang="es">Sin información.</desc>
   </programme>
-  <programme start="20260829234000 -0400" stop="20260830004000 -0400" channel="USANetwork.bo">
+  <programme start="20260829233200 -0400" stop="20260830003200 -0400" channel="History.cl">
+    <title lang="es">‹ Viernes 28</title>
+    <desc lang="es">Sin descripción disponible.</desc>
+  </programme>
+  <programme start="20260829233500 -0400" stop="20260830003500 -0400" channel="TLNovelas.cl">
+    <title lang="es">‹ Viernes 28</title>
+    <desc lang="es">Sin descripción disponible.</desc>
+  </programme>
+  <programme start="20260829233900 -0400" stop="20260830003900 -0400" channel="AnimalPlanet.cl">
+    <title lang="es">‹ Viernes 28</title>
+    <desc lang="es">Sin descripción disponible.</desc>
+  </programme>
+  <programme start="20260829234000 -0400" stop="20260830004000 -0400" channel="AXN.cl">
     <title lang="es">‹ Viernes 28</title>
     <desc lang="es">Sin descripción disponible.</desc>
   </programme>
   <programme start="20260829234000 -0400" stop="20260830004000 -0400" channel="NickJr.bo">
-    <title lang="es">‹ Viernes 28</title>
-    <desc lang="es">Sin descripción disponible.</desc>
-  </programme>
-  <programme start="20260829234000 -0400" stop="20260830004000 -0400" channel="InvestigationDiscovery.cl">
-    <title lang="es">‹ Viernes 28</title>
-    <desc lang="es">Sin descripción disponible.</desc>
-  </programme>
-  <programme start="20260829234000 -0400" stop="20260830004000 -0400" channel="TelemundoInternacional.ar">
     <title lang="es">‹ Viernes 28</title>
     <desc lang="es">Sin descripción disponible.</desc>
   </programme>
@@ -6346,11 +6350,23 @@ Grissom acude a un nuevo escenario para recabar evidencias del cuerpo decapitado
 Dora.</desc>
     <title lang="es">Dora</title>
   </programme>
-  <programme start="20260829234200 -0400" stop="20260830004200 -0400" channel="DisneyJunior.cl">
+  <programme start="20260829234400 -0400" stop="20260830004400 -0400" channel="DiscoveryTurbo.cl">
     <title lang="es">‹ Viernes 28</title>
     <desc lang="es">Sin descripción disponible.</desc>
   </programme>
-  <programme start="20260829234700 -0400" stop="20260830004700 -0400" channel="DisneyChannel.cl">
+  <programme start="20260829234500 -0400" stop="20260830004500 -0400" channel="ComedyCentral.cl">
+    <title lang="es">‹ Viernes 28</title>
+    <desc lang="es">Sin descripción disponible.</desc>
+  </programme>
+  <programme start="20260829234500 -0400" stop="20260830004500 -0400" channel="History2.cl1">
+    <title lang="es">‹ Viernes 28</title>
+    <desc lang="es">Sin descripción disponible.</desc>
+  </programme>
+  <programme start="20260829234800 -0400" stop="20260830004800 -0400" channel="DiscoveryScience.cl">
+    <title lang="es">‹ Viernes 28</title>
+    <desc lang="es">Sin descripción disponible.</desc>
+  </programme>
+  <programme start="20260829234800 -0400" stop="20260830004800 -0400" channel="DiscoveryWorld.cl">
     <title lang="es">‹ Viernes 28</title>
     <desc lang="es">Sin descripción disponible.</desc>
   </programme>
@@ -6362,7 +6378,7 @@ Una pareja de recién casados busca una casa en la montaña en Wasatch Range cer
     <title lang="es">Nuestro hogar en la montaña</title>
     <title lang="en">Mountain Life</title>
   </programme>
-  <programme start="20260829235000 -0400" stop="20260830005000 -0400" channel="TLNovelas.cl">
+  <programme start="20260829235000 -0400" stop="20260830005000 -0400" channel="Nick.cl">
     <title lang="es">‹ Viernes 28</title>
     <desc lang="es">Sin descripción disponible.</desc>
   </programme>
@@ -6374,15 +6390,11 @@ El NCIS investiga el asesinato de un comandante que se cree murió en el ataque 
     <title lang="es">NCIS</title>
     <title lang="en">Navy NCIS: Naval Criminal Investigative Service</title>
   </programme>
-  <programme start="20260829235200 -0400" stop="20260830005200 -0400" channel="History.cl">
+  <programme start="20260829235200 -0400" stop="20260830005200 -0400" channel="DiscoveryTheater.cl">
     <title lang="es">‹ Viernes 28</title>
     <desc lang="es">Sin descripción disponible.</desc>
   </programme>
-  <programme start="20260829235300 -0400" stop="20260830005300 -0400" channel="CartoonNetwork.cl">
-    <title lang="es">‹ Viernes 28</title>
-    <desc lang="es">Sin descripción disponible.</desc>
-  </programme>
-  <programme start="20260829235300 -0400" stop="20260830005300 -0400" channel="AnimalPlanet.cl">
+  <programme start="20260829235400 -0400" stop="20260830005400 -0400" channel="DisneyJunior.cl">
     <title lang="es">‹ Viernes 28</title>
     <desc lang="es">Sin descripción disponible.</desc>
   </programme>
@@ -6394,19 +6406,7 @@ Casey Webb llega a Charlotte, Carolina del Norte, para conocer tres versiones de
     <episode-num>S8 E4</episode-num>
     <title lang="es">Man vs. Food</title>
   </programme>
-  <programme start="20260829235500 -0400" stop="20260830005500 -0400" channel="ComedyCentral.cl">
-    <title lang="es">‹ Viernes 28</title>
-    <desc lang="es">Sin descripción disponible.</desc>
-  </programme>
-  <programme start="20260829235500 -0400" stop="20260830005500 -0400" channel="E_Entertainment.cl">
-    <title lang="es">‹ Viernes 28</title>
-    <desc lang="es">Sin descripción disponible.</desc>
-  </programme>
-  <programme start="20260829235500 -0400" stop="20260830005500 -0400" channel="Nick.cl">
-    <title lang="es">‹ Viernes 28</title>
-    <desc lang="es">Sin descripción disponible.</desc>
-  </programme>
-  <programme start="20260829235500 -0400" stop="20260830005500 -0400" channel="NationalGeographic.cl">
+  <programme start="20260829235600 -0400" stop="20260830005600 -0400" channel="Tooncast.cl">
     <title lang="es">‹ Viernes 28</title>
     <desc lang="es">Sin descripción disponible.</desc>
   </programme>
@@ -6418,13 +6418,13 @@ Casey Webb llega a Charlotte, Carolina del Norte, para conocer tres versiones de
     <title lang="es">‹ Viernes 28</title>
     <desc lang="es">Sin descripción disponible.</desc>
   </programme>
+  <programme start="20260829235700 -0400" stop="20260830005700 -0400" channel="DisneyChannel.cl">
+    <title lang="es">‹ Viernes 28</title>
+    <desc lang="es">Sin descripción disponible.</desc>
+  </programme>
   <programme start="20260829235800 -0400" stop="20260830010000 -0400" channel="ESPN5.cl">
     <category lang="es">Racing</category>
     <title lang="es">Gran Premio de Aragón: Carrera esprint</title>
-  </programme>
-  <programme start="20260829235900 -0400" stop="20260830005900 -0400" channel="Tooncast.cl">
-    <title lang="es">‹ Viernes 28</title>
-    <desc lang="es">Sin descripción disponible.</desc>
   </programme>
   <programme start="20260830000000 -0400" stop="20260830020000 -0400" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
@@ -6599,6 +6599,11 @@ Casey Webb llega a Charlotte, Carolina del Norte, para conocer tres versiones de
     <title lang="es">Hancock</title>
     <desc lang="es">Sin información.</desc>
   </programme>
+  <programme start="20260830000000 -0400" stop="20260830030000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260830000000 -0400" stop="20260830030000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -6608,11 +6613,6 @@ Casey Webb llega a Charlotte, Carolina del Norte, para conocer tres versiones de
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260830000000 -0400" stop="20260830030000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260830000400 -0400" stop="20260830092700 -0400" channel="Space.cl">
     <title lang="es">Furia de titanes</title>
@@ -7510,6 +7510,11 @@ Quizás tengan que sacrificar a Brownie, el perro de Mary Jo. Mientras Bernice s
     <desc lang="es">El reencuentro de una madre y su hija sólo traerá venganza, traición y muerte en esta guerra de escorpiones que cambiará por completo las vidas de todos.</desc>
     <title lang="es">Escorpion. Emisión del día martes</title>
   </programme>
+  <programme start="20260830030000 -0400" stop="20260830060000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260830030000 -0400" stop="20260830060000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -7519,11 +7524,6 @@ Quizás tengan que sacrificar a Brownie, el perro de Mary Jo. Mientras Bernice s
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260830030000 -0400" stop="20260830060000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260830030500 -0400" stop="20260830032500 -0400" channel="NickJr.bo">
     <desc lang="es">T4-E1 Los cachorros salvan el dirigible / Los cachorros salvan el concurso de ají
@@ -8389,6 +8389,11 @@ Luego de darse cuenta de que Debbie y Stew obligan a los vecinos a socializar, D
     <desc lang="es">Hollywood on Set.</desc>
     <title lang="es">Hollywood on Set</title>
   </programme>
+  <programme start="20260830060000 -0400" stop="20260830090000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260830060000 -0400" stop="20260830090000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -8398,11 +8403,6 @@ Luego de darse cuenta de que Debbie y Stew obligan a los vecinos a socializar, D
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260830060000 -0400" stop="20260830090000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260830060500 -0400" stop="20260830070000 -0400" channel="Sony.cl">
     <desc lang="es">S2 E6 — De doble capa (o no de doble capa)
@@ -9256,6 +9256,11 @@ Espacio de contenido infomercial.</desc>
     <title lang="es">Teletrece a la hora</title>
     <desc lang="es">Sin información.</desc>
   </programme>
+  <programme start="20260830090000 -0400" stop="20260830120000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260830090000 -0400" stop="20260830120000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -9265,11 +9270,6 @@ Espacio de contenido infomercial.</desc>
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260830090000 -0400" stop="20260830120000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260830090500 -0400" stop="20260830093000 -0400" channel="NickJr.bo">
     <desc lang="es">T3-E7 El equipo construye un centro de entrenamiento para bomberos / El equipo construye.
@@ -10229,6 +10229,11 @@ Nathan y Jenny deben construir una yurta única con temática de árboles. Los c
     <title lang="es">PREVIA ASCENSO D. Copiapó vs D. Antofagasta</title>
     <desc lang="es">Sin información.</desc>
   </programme>
+  <programme start="20260830120000 -0400" stop="20260830150000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260830120000 -0400" stop="20260830150000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -10238,11 +10243,6 @@ Nathan y Jenny deben construir una yurta única con temática de árboles. Los c
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260830120000 -0400" stop="20260830150000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260830120600 -0400" stop="20260830152400 -0400" channel="StarChannel.cl">
     <title lang="es">Armageddon</title>
@@ -11147,6 +11147,11 @@ Paw Patrol patrulla de cachorros.</desc>
     <title lang="es">U. de Concepción vs U. de Chile</title>
     <desc lang="es">Sin información.</desc>
   </programme>
+  <programme start="20260830150000 -0400" stop="20260830180000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260830150000 -0400" stop="20260830180000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -11156,11 +11161,6 @@ Paw Patrol patrulla de cachorros.</desc>
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260830150000 -0400" stop="20260830180000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260830150100 -0400" stop="20260830173600 -0400" channel="Golden.cl">
     <title lang="es">Forrest Gump</title>
@@ -12094,6 +12094,11 @@ El pequeño reino de Ben y Holly.</desc>
     <title lang="es">SportsCenter</title>
     <desc lang="es">Sin información.</desc>
   </programme>
+  <programme start="20260830180000 -0400" stop="20260830210000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260830180000 -0400" stop="20260830210000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -12103,11 +12108,6 @@ El pequeño reino de Ben y Holly.</desc>
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260830180000 -0400" stop="20260830210000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260830180400 -0400" stop="20260830182900 -0400" channel="FOODNETWORK.uy">
     <date>2006</date>
@@ -12990,6 +12990,11 @@ Santiago de los mares.</desc>
     <title lang="es">Hit Man</title>
     <desc lang="es">Sin información.</desc>
   </programme>
+  <programme start="20260830210000 -0400" stop="20260831000000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260830210000 -0400" stop="20260831000000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -12999,11 +13004,6 @@ Santiago de los mares.</desc>
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260830210000 -0400" stop="20260831000000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260830210300 -0400" stop="20260830215000 -0400" channel="HGTV.ar">
     <desc lang="es">S1 E6 — Una cabaña heredada y un rescate en el patio trasero
@@ -13864,6 +13864,11 @@ El equipo investiga a un cabo marino después de que la evidencia sugiere que el
     <title lang="es">El Redentor</title>
     <desc lang="es">Sin información.</desc>
   </programme>
+  <programme start="20260831000000 -0400" stop="20260831030000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260831000000 -0400" stop="20260831030000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -13873,11 +13878,6 @@ El equipo investiga a un cabo marino después de que la evidencia sugiere que el
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260831000000 -0400" stop="20260831030000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260831000500 -0400" stop="20260831002500 -0400" channel="NickJr.bo">
     <desc lang="es">T2-E11 El gran cocinatón de la abuela / Mapa perdido
@@ -14690,6 +14690,11 @@ Julia insiste en que vayan sin ella a una exposición de Nigel McFeeney, un arti
     <desc lang="es">Sigue los eventos de esta historia que se desarrolla alrededor de Turkan, Donyush y Terey.</desc>
     <title lang="es">Tres hermanas. Emisión del día miércoles</title>
   </programme>
+  <programme start="20260831030000 -0400" stop="20260831060000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260831030000 -0400" stop="20260831060000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -14699,11 +14704,6 @@ Julia insiste en que vayan sin ella a una exposición de Nigel McFeeney, un arti
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260831030000 -0400" stop="20260831060000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260831030500 -0400" stop="20260831032500 -0400" channel="NickJr.bo">
     <desc lang="es">T4-E3 La patrulla salva a un dragón juguetón / La patrulla salva a unos bichos
@@ -15525,6 +15525,11 @@ Después de que Rebecca le dice a Dave que ella lleva el trabajo emocional de la
     <episode-num>S1 E3</episode-num>
     <title lang="es">Indebted</title>
   </programme>
+  <programme start="20260831060000 -0400" stop="20260831090000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260831060000 -0400" stop="20260831090000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -15534,11 +15539,6 @@ Después de que Rebecca le dice a Dave que ella lleva el trabajo emocional de la
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260831060000 -0400" stop="20260831090000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260831060500 -0400" stop="20260831063000 -0400" channel="NickJr.bo">
     <desc lang="es">T3-E3 La dinomontaña rusa
@@ -16332,6 +16332,11 @@ Espacio de contenido infomercial.</desc>
     <desc lang="es">Es la historia de Lola, una madre de familia que lucha por mantener unida a su familia en la ciudad de São Paulo entre las décadas de 1920 y 1940, enfrentando dificultades económicas, conflictos familiares y los grandes cambios sociales de la época.</desc>
     <title lang="es">Éramos seis</title>
   </programme>
+  <programme start="20260831090000 -0400" stop="20260831120000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260831090000 -0400" stop="20260831120000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -16341,11 +16346,6 @@ Espacio de contenido infomercial.</desc>
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260831090000 -0400" stop="20260831120000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260831090500 -0400" stop="20260831120000 -0400" channel="StudioUniversal.ar">
     <category lang="es">Acción</category>
@@ -17216,6 +17216,11 @@ Fran sigue a Maxwell a Londres y después de una tarde maravillosa, casi se comp
     <desc lang="es">Dos hermanos, que llevaban quince años sin verse, se reconcilian cuando cumplen un sueño de su infancia: recorrer México en moto.</desc>
     <title lang="es">A todas partes</title>
   </programme>
+  <programme start="20260831120000 -0400" stop="20260831150000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260831120000 -0400" stop="20260831150000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -17225,11 +17230,6 @@ Fran sigue a Maxwell a Londres y después de una tarde maravillosa, casi se comp
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260831120000 -0400" stop="20260831150000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260831120300 -0400" stop="20260831140700 -0400" channel="HBO2.cl">
     <title lang="es">Inferno</title>
@@ -18026,6 +18026,11 @@ Paw Patrol patrulla de cachorros.</desc>
     <desc lang="es">Es la historia de Lola, una madre de familia que lucha por mantener unida a su familia en la ciudad de São Paulo entre las décadas de 1920 y 1940, enfrentando dificultades económicas, conflictos familiares y los grandes cambios sociales de la época.</desc>
     <title lang="es">Éramos seis</title>
   </programme>
+  <programme start="20260831150000 -0400" stop="20260831180000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260831150000 -0400" stop="20260831180000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -18035,11 +18040,6 @@ Paw Patrol patrulla de cachorros.</desc>
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260831150000 -0400" stop="20260831180000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260831150600 -0400" stop="20260831153000 -0400" channel="HGTV.ar">
     <desc lang="es">S2 E13 — La costa del lago Michigan
@@ -18814,6 +18814,11 @@ Una expatriada regresa a su ciudad natal de Georgia para encontrar una casa junt
     <title lang="es">Escorpión</title>
     <title lang="en">Akrep</title>
   </programme>
+  <programme start="20260831180000 -0400" stop="20260831210000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260831180000 -0400" stop="20260831210000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -18823,11 +18828,6 @@ Una expatriada regresa a su ciudad natal de Georgia para encontrar una casa junt
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260831180000 -0400" stop="20260831210000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260831180900 -0400" stop="20260831205100 -0400" channel="Cinecanal.cl">
     <title lang="es">Loco por Mary</title>
@@ -19580,6 +19580,11 @@ Santiago de los mares.</desc>
     <title lang="es">Karate Kid: Leyendas</title>
     <desc lang="es">Sin información.</desc>
   </programme>
+  <programme start="20260831210000 -0400" stop="20260901000000 -0400" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260831210000 -0400" stop="20260901000000 -0400" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -19589,11 +19594,6 @@ Santiago de los mares.</desc>
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260831210000 -0400" stop="20260901000000 -0400" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260831210200 -0400" stop="20260901000000 -0400" channel="GoldenEdge.cl">
     <title lang="es">Troya</title>
