@@ -110,7 +110,7 @@ MAPEO_IDS = {
 
 
 # ============================================================
-# 🌐 SOLO FUENTES PÚBLICAS EXTERNAS
+# 🌐 FUENTES PÚBLICAS
 # ============================================================
 
 FUENTES_PUBLICAS = [
@@ -131,7 +131,7 @@ GUIA_PROPIA = "https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml
 
 
 # ============================================================
-# 🕒 DESFASES PARA LAS FUENTES PÚBLICAS
+# 🕒 DESFASES FUENTES PÚBLICAS
 # ============================================================
 
 DESFASE_CANALES = {
@@ -149,7 +149,7 @@ DESFASE_CANALES = {
 
 
 # ============================================================
-# 🕒 DESFASES EXCLUSIVOS PARA TU GUÍA PROPIA
+# 🕒 DESFASES GUÍA PROPIA
 # ============================================================
 
 DESFASE_GUIA_PROPIA = {
@@ -159,13 +159,6 @@ DESFASE_GUIA_PROPIA = {
 
 # ============================================================
 # 🐱 GATOTV
-#
-# Aquí están los canales que quieres obtener desde GatoTV.
-#
-# Si algún día quieres agregar otro canal:
-#
-# 'ID_DE_TU_CANAL': 'https://www.gatotv.com/canal/xxxxx',
-#
 # ============================================================
 
 GATOTV_CANALES = {
@@ -248,18 +241,7 @@ GATOTV_CANALES = {
 
 
 # ============================================================
-# 🕒 DESFASES EXCLUSIVOS PARA GATOTV
-#
-# IMPORTANTE:
-# Este bloque es independiente de los otros dos.
-#
-# Si mañana descubres que otro canal necesita desfase,
-# simplemente agrega una línea aquí.
-#
-# Ejemplo:
-#
-# 'HBO.cl': -1,
-#
+# 🕒 DESFASES GATOTV
 # ============================================================
 
 DESFASE_GATOTV = {
@@ -268,23 +250,14 @@ DESFASE_GATOTV = {
 
 
 # ============================================================
-# 📅 GATOTV: CUÁNTOS DÍAS CONSULTAR
-#
-# 3 significa:
-# HOY + MAÑANA + PASADO MAÑANA
+# 📅 DÍAS GATOTV
 # ============================================================
 
 GATOTV_DIAS = 3
 
 
 # ============================================================
-# 🌎 ZONA HORARIA BASE DE GATOTV
-#
-# Las páginas que estamos utilizando están orientadas a
-# señales latinoamericanas y muestran horarios locales.
-#
-# Usamos la zona de Santiago para convertir esos horarios
-# a UTC correctamente, incluyendo cambios de horario.
+# 🌎 ZONA HORARIA
 # ============================================================
 
 ZONA_HORARIA_GATOTV = ZoneInfo("America/Santiago")
@@ -295,32 +268,157 @@ ZONA_HORARIA_GATOTV = ZoneInfo("America/Santiago")
 # ============================================================
 
 DATOS_RESPALDO = {
-    'E_Entertainment.cl': ('E! Entertainment', 'Variado', 'Programación E! Entertainment', 'Espectáculos, moda, realities y cultura pop.'),
-    'AXN.cl': ('AXN', 'Series', 'Series y Acción', 'Películas de acción, suspenso y series policiales.'),
-    'TVN.cl': ('TVN', 'General', 'Programación TVN', 'Noticias, matinales, teleseries y entretención.'),
-    'Canal13.cl': ('Canal 13', 'General', 'Programación Canal 13', 'Noticieros, realitys y programas en vivo.'),
-    'Mega.cl': ('Mega', 'General', 'Programación Mega', 'Teleseries nacionales, noticias y entretención.'),
-    'Chilevision.cl': ('Chilevisión', 'General', 'Programas de entretención, noticias y deportes.'),
-    'CHVNoticias.cl': ('CHV Noticias', 'Noticias', 'Noticias en Vivo', 'Información continua las 24 horas.'),
-    'T13Noticias.cl': ('T13 En Vivo', 'Noticias', 'Noticias T13', 'Actualidad y noticias nacionales e internacionales.'),
-    'ENTChannel.cl': ('ENT Channel', 'Cine', 'Selección de Cine 24/7', 'Las mejores producciones cinematográficas.'),
-    'StudioUniversal.cl': ('Studio Universal', 'Cine', 'Cine Studio Universal', 'Películas y producciones cinematográficas.'),
-    'TelemundoInternacional.ar': ('Telemundo Internacional', 'Series', 'Programación Telemundo', 'Series, telenovelas y producciones.'),
-    'SONYMOVIES.uy': ('Sony Movies', 'Cine', 'Cine Sony Movies', 'Películas de Hollywood y éxitos de taquilla.'),
-    'FilmAndArts.cl': ('Film & Arts', 'Cultura', 'Especiales Film & Arts', 'Cine de autor, arte, música y espectáculos.'),
-    'USANetwork.bo': ('USA Network', 'Series', 'Programación USA Network', 'Series exclusivas y cine de acción.'),
-    'AE.cl': ('A&E', 'Series', 'Especiales A&E', 'Series de investigación, drama y acción.'),
-    'NickJr.ar': ('Nick Jr.', 'Infantil', 'Programación Nick Jr.', 'Dibujos animados y contenidos educativos.'),
-    'FOODNETWORK.uy': ('Food Network', 'Cocina', 'Gastronomía Internacional', 'Programas de cocina y competencias culinarias.'),
-    'HGTV.ar': ('HGTV', 'Hogar', 'Hogar & Remodelación', 'Diseño de interiores y remodelación de espacios.'),
-    'DiscoveryHomeAndHealth.cl': ('Discovery Home & Health', 'Estilo de Vida', 'Bienestar & Estilo', 'Salud, hogar y estilo de vida.'),
-    'PASIONES.uy': ('Pasiones', 'Telenovelas', 'Novelas & Dramas', 'Telenovelas internacionales y grandes historias.'),
-    'History2.cl1': ('History 2', 'Documentales', 'Programación History 2', 'Documentales, historia y ciencia.')
+    'E_Entertainment.cl': (
+        'E! Entertainment',
+        'Variado',
+        'Programación E! Entertainment',
+        'Espectáculos, moda, realities y cultura pop.'
+    ),
+
+    'AXN.cl': (
+        'AXN',
+        'Series',
+        'Series y Acción',
+        'Películas de acción, suspenso y series policiales.'
+    ),
+
+    'TVN.cl': (
+        'TVN',
+        'General',
+        'Programación TVN',
+        'Noticias, matinales, teleseries y entretención.'
+    ),
+
+    'Canal13.cl': (
+        'Canal 13',
+        'General',
+        'Programación Canal 13',
+        'Noticieros, realitys y programas en vivo.'
+    ),
+
+    'Mega.cl': (
+        'Mega',
+        'General',
+        'Programación Mega',
+        'Teleseries nacionales, noticias y entretención.'
+    ),
+
+    'Chilevision.cl': (
+        'Chilevisión',
+        'General',
+        'Programación Chilevisión',
+        'Programación general de Chilevisión.'
+    ),
+
+    'CHVNoticias.cl': (
+        'CHV Noticias',
+        'Noticias',
+        'Noticias en Vivo',
+        'Información continua las 24 horas.'
+    ),
+
+    'T13Noticias.cl': (
+        'T13 En Vivo',
+        'Noticias',
+        'Noticias T13',
+        'Actualidad y noticias nacionales e internacionales.'
+    ),
+
+    'ENTChannel.cl': (
+        'ENT Channel',
+        'Cine',
+        'Selección de Cine 24/7',
+        'Las mejores producciones cinematográficas.'
+    ),
+
+    'StudioUniversal.cl': (
+        'Studio Universal',
+        'Cine',
+        'Cine Studio Universal',
+        'Películas y producciones cinematográficas.'
+    ),
+
+    'TelemundoInternacional.ar': (
+        'Telemundo Internacional',
+        'Series',
+        'Programación Telemundo',
+        'Series, telenovelas y producciones.'
+    ),
+
+    'SONYMOVIES.uy': (
+        'Sony Movies',
+        'Cine',
+        'Cine Sony Movies',
+        'Películas de Hollywood y éxitos de taquilla.'
+    ),
+
+    'FilmAndArts.cl': (
+        'Film & Arts',
+        'Cultura',
+        'Especiales Film & Arts',
+        'Cine de autor, arte, música y espectáculos.'
+    ),
+
+    'USANetwork.bo': (
+        'USA Network',
+        'Series',
+        'Programación USA Network',
+        'Series exclusivas y cine de acción.'
+    ),
+
+    'AE.cl': (
+        'A&E',
+        'Series',
+        'Especiales A&E',
+        'Series de investigación, drama y acción.'
+    ),
+
+    'NickJr.ar': (
+        'Nick Jr.',
+        'Infantil',
+        'Programación Nick Jr.',
+        'Dibujos animados y contenidos educativos.'
+    ),
+
+    'FOODNETWORK.uy': (
+        'Food Network',
+        'Cocina',
+        'Gastronomía Internacional',
+        'Programas de cocina y competencias culinarias.'
+    ),
+
+    'HGTV.ar': (
+        'HGTV',
+        'Hogar',
+        'Hogar & Remodelación',
+        'Diseño de interiores y remodelación de espacios.'
+    ),
+
+    'DiscoveryHomeAndHealth.cl': (
+        'Discovery Home & Health',
+        'Estilo de Vida',
+        'Bienestar & Estilo',
+        'Salud, hogar y estilo de vida.'
+    ),
+
+    'PASIONES.uy': (
+        'Pasiones',
+        'Telenovelas',
+        'Novelas & Dramas',
+        'Telenovelas internacionales y grandes historias.'
+    ),
+
+    'History2.cl1': (
+        'History 2',
+        'Documentales',
+        'Programación History 2',
+        'Documentales, historia y ciencia.'
+    )
 }
 
 
 # ============================================================
-# 🔧 NORMALIZAR CUALQUIER ZONA HORARIA A UTC
+# 🔧 NORMALIZAR HORA A UTC
 # ============================================================
 
 def normalizar_a_utc(time_str, horas_desfase=0):
@@ -429,29 +527,28 @@ def descargar_xml(url):
 
 
 # ============================================================
-# 🐱 PARSER HTML DE GATOTV
+# 🐱 PARSER ROBUSTO DE GATOTV
 #
-# IMPORTANTE:
+# NO depende de que el programa tenga foto.
 #
-# GatoTV tiene DOS tipos principales de bloques:
+# Detecta:
 #
-# 1. Programa simple:
+# A) Programa con imagen:
 #
-#    hora | hora | título
+# hora
+# hora
+# imagen
+# <a> TITULO </a>
+# descripcion
 #
-# 2. Programa con imagen:
+# B) Programa sin imagen:
 #
-#    hora | hora | [imagen] | título + descripción
+# hora
+# hora
+# TITULO
+# descripcion
 #
-# La celda de la imagen no contiene texto.
-#
-# El parser guarda:
-#
-# - text
-# - title
-# - description
-#
-# La imagen NO se utiliza.
+# La imagen se ignora.
 # ============================================================
 
 class GatoTVParser(HTMLParser):
@@ -465,31 +562,31 @@ class GatoTVParser(HTMLParser):
         self.rows = []
 
         self.in_tr = False
-
         self.in_td = False
-        self.in_th = False
-
+        self.in_time = False
         self.in_a = False
 
-        self.current_row = []
+        self.current_row = None
+        self.current_cell = None
 
-        self.current_cell = []
+        self.current_cell_class = ''
+        self.current_cell_is_program = False
 
-        self.current_anchor = []
+        self.current_anchor_text = []
+        self.current_cell_text = []
 
-        self.outside_anchor = []
+        self.current_time = None
 
-        self.anchor_text = None
-
-    def handle_starttag(
-        self,
-        tag,
-        attrs
-    ):
+    def handle_starttag(self, tag, attrs):
 
         tag = tag.lower()
 
+        attrs_dict = dict(attrs)
+
         if tag == 'tr':
+
+            if self.in_tr and self.current_row is not None:
+                self._finish_row()
 
             self.in_tr = True
 
@@ -500,41 +597,43 @@ class GatoTVParser(HTMLParser):
             and tag in ('td', 'th')
         ):
 
-            self.in_td = (
-                tag == 'td'
-            )
+            self._finish_cell()
 
-            self.in_th = (
-                tag == 'th'
-            )
+            self.in_td = True
 
             self.current_cell = []
 
-            self.current_anchor = []
+            self.current_cell_text = []
 
-            self.outside_anchor = []
+            self.current_anchor_text = []
 
-            self.anchor_text = None
+            self.current_cell_class = (
+                attrs_dict.get('class', '')
+                or ''
+            )
+
+            self.current_cell_is_program = (
+                'tbl_EPG_ProgramsColumn'
+                in self.current_cell_class
+            )
 
         elif (
-            (self.in_td or self.in_th)
+            self.in_td
+            and tag == 'time'
+        ):
+
+            self.in_time = True
+            self.current_time = []
+
+        elif (
+            self.in_td
             and tag == 'a'
         ):
 
             self.in_a = True
+            self.current_anchor_text = []
 
-            self.current_anchor = []
-
-    def handle_data(
-        self,
-        data
-    ):
-
-        if not (
-            self.in_td
-            or self.in_th
-        ):
-            return
+    def handle_data(self, data):
 
         texto = " ".join(
             data.strip().split()
@@ -543,128 +642,108 @@ class GatoTVParser(HTMLParser):
         if not texto:
             return
 
-        self.current_cell.append(
-            texto
-        )
+        if self.in_time:
 
-        if self.in_a:
+            if self.current_time is not None:
+                self.current_time.append(
+                    texto
+                )
 
-            self.current_anchor.append(
+            return
+
+        if self.in_td:
+
+            self.current_cell_text.append(
                 texto
             )
 
-        else:
+            if self.in_a:
 
-            self.outside_anchor.append(
-                texto
-            )
+                self.current_anchor_text.append(
+                    texto
+                )
 
-    def handle_endtag(
-        self,
-        tag
-    ):
+    def handle_endtag(self, tag):
 
         tag = tag.lower()
 
-        if (
-            tag == 'a'
-            and self.in_a
-        ):
+        if tag == 'time' and self.in_time:
+
+            self.in_time = False
+
+            texto = " ".join(
+                self.current_time or []
+            ).strip()
+
+            if texto:
+
+                self.current_cell_text.append(
+                    texto
+                )
+
+            self.current_time = None
+
+        elif tag == 'a' and self.in_a:
 
             self.in_a = False
 
-            self.anchor_text = (
-                " ".join(
-                    self.current_anchor
-                ).strip()
+        elif tag in ('td', 'th') and self.in_td:
+
+            self._finish_cell()
+
+        elif tag == 'tr' and self.in_tr:
+
+            self._finish_row()
+
+    def _finish_cell(self):
+
+        if not self.in_td:
+            return
+
+        texto = " ".join(
+            self.current_cell_text
+        ).strip()
+
+        anchor = " ".join(
+            self.current_anchor_text
+        ).strip()
+
+        self.current_row.append({
+            'text': texto,
+            'anchor': anchor,
+            'class': self.current_cell_class,
+            'is_program': self.current_cell_is_program
+        })
+
+        self.in_td = False
+
+        self.current_cell = None
+        self.current_cell_text = []
+        self.current_anchor_text = []
+        self.current_cell_class = ''
+        self.current_cell_is_program = False
+
+    def _finish_row(self):
+
+        if not self.in_tr or self.current_row is None:
+            return
+
+        self._finish_cell()
+
+        if self.current_row:
+            self.rows.append(
+                self.current_row
             )
 
-        elif (
-            tag in ('td', 'th')
-            and (
-                self.in_td
-                or self.in_th
-            )
-        ):
-
-            # ------------------------------------------------
-            # Si la celda contiene un enlace:
-            #
-            # enlace = TÍTULO
-            # texto fuera del enlace = DESCRIPCIÓN
-            # ------------------------------------------------
-
-            if self.anchor_text:
-
-                titulo = (
-                    self.anchor_text.strip()
-                )
-
-                descripcion = (
-                    " ".join(
-                        self.outside_anchor
-                    ).strip()
-                )
-
-                self.current_row.append(
-                    {
-                        'text': titulo,
-                        'title': titulo,
-                        'description': descripcion
-                    }
-                )
-
-            else:
-
-                texto = (
-                    " ".join(
-                        self.current_cell
-                    ).strip()
-                )
-
-                self.current_row.append(
-                    {
-                        'text': texto,
-                        'title': texto,
-                        'description': ''
-                    }
-                )
-
-            self.in_td = False
-            self.in_th = False
-
-            self.current_cell = []
-
-            self.current_anchor = []
-
-            self.outside_anchor = []
-
-            self.anchor_text = None
-
-        elif (
-            tag == 'tr'
-            and self.in_tr
-        ):
-
-            if self.current_row:
-
-                self.rows.append(
-                    self.current_row
-                )
-
-            self.current_row = []
-
-            self.in_tr = False
+        self.current_row = None
+        self.in_tr = False
 
 
 # ============================================================
-# 🕐 CONVERTIR HORA DE GATOTV A DATETIME
+# 🕐 CONVERTIR HORA
 # ============================================================
 
-def convertir_hora_gatotv(
-    hora,
-    fecha
-):
+def convertir_hora_gatotv(hora, fecha):
 
     if not hora:
         return None
@@ -707,32 +786,44 @@ def convertir_hora_gatotv(
 
 
 # ============================================================
-# 🐱 EXTRAER PROGRAMACIÓN DE UNA PÁGINA GATOTV
+# 🧹 LIMPIAR TEXTO
+# ============================================================
+
+def limpiar_texto(texto):
+
+    if not texto:
+        return ''
+
+    texto = re.sub(
+        r'\s+',
+        ' ',
+        texto
+    )
+
+    return texto.strip()
+
+
+# ============================================================
+# 🐱 EXTRAER PROGRAMACIÓN GATOTV
 #
-# VERSIÓN HÍBRIDA
+# ESTA ES LA PARTE IMPORTANTE.
 #
-# Detecta:
+# Busca las horas directamente dentro de cada <tr>.
 #
-# 1. Programas con imagen:
+# Después busca primero una celda marcada como
+# tbl_EPG_ProgramsColumn.
 #
-#    hora | hora | imagen | título | descripción
+# Si existe:
 #
-# 2. Programas simples:
+#   - usa el texto del <a> como título
+#   - usa el resto como descripción
 #
-#    hora | hora | título
+# Si no existe:
 #
-# 3. Programas simples con descripción:
+#   - busca cualquier celda de contenido
+#   - usa su texto como título
 #
-#    hora | hora | título | descripción
-#
-# La imagen NO importa.
-#
-# Lo importante es recuperar:
-#
-# - horario
-# - título
-# - descripción
-#
+# Así funcionan las DOS versiones.
 # ============================================================
 
 def extraer_programacion_gatotv(
@@ -789,10 +880,6 @@ def extraer_programacion_gatotv(
         f"{len(html):,} caracteres"
     )
 
-    # ========================================================
-    # PARSER PRINCIPAL
-    # ========================================================
-
     parser = GatoTVParser()
 
     try:
@@ -802,279 +889,259 @@ def extraer_programacion_gatotv(
     except Exception as e:
 
         print(
-            f"       ❌ Error leyendo HTML "
-            f"de GatoTV: {e}"
+            f"       ❌ Error leyendo HTML: "
+            f"{e}"
         )
 
         return []
 
-    # ========================================================
-    # DIAGNÓSTICO
-    # ========================================================
-
-    cantidad_times = len(
-        re.findall(
-            r'<time\b',
-            html,
-            re.IGNORECASE
-        )
-    )
-
-    cantidad_bloques = len(
-        re.findall(
-            r'tbl_EPG_ProgramsColumn',
-            html,
-            re.IGNORECASE
-        )
-    )
-
-    cantidad_filas = len(
-        re.findall(
-            r'<tr\b',
-            html,
-            re.IGNORECASE
-        )
-    )
-
     print(
         f"       <tr> encontrados: "
-        f"{cantidad_filas}"
-    )
-
-    print(
-        f"       <time> encontrados: "
-        f"{cantidad_times}"
-    )
-
-    print(
-        f"       Bloques "
-        f"tbl_EPG_ProgramsColumn: "
-        f"{cantidad_bloques}"
-    )
-
-    print(
-        f"       Filas HTML procesadas: "
         f"{len(parser.rows)}"
     )
 
     programas = []
 
-    # ========================================================
-    # PROCESAR TODAS LAS FILAS
-    # ========================================================
+    filas_reconocidas = 0
 
     for row in parser.rows:
 
-        if not row:
+        # ----------------------------------------------------
+        # Buscar TODAS las horas de la fila.
+        # ----------------------------------------------------
+
+        horas = []
+
+        for celda in row:
+
+            texto = celda.get(
+                'text',
+                ''
+            )
+
+            encontrados = re.findall(
+                r'\b\d{1,2}:\d{2}\b',
+                texto
+            )
+
+            for hora in encontrados:
+
+                if hora not in horas:
+                    horas.append(hora)
+
+        # Una fila de programa necesita al menos dos horas.
+
+        if len(horas) < 2:
             continue
 
+        hora_inicio = horas[0]
+        hora_fin = horas[1]
+
         # ----------------------------------------------------
-        # Buscar todas las horas de la fila.
-        #
-        # No asumimos que estén en posiciones fijas.
-        #
-        # Esto permite:
-        #
-        # hora | hora | título
-        #
-        # y:
-        #
-        # hora | hora | imagen | título | descripción
+        # Buscar primero la celda de programa.
         # ----------------------------------------------------
 
-        horas_encontradas = []
+        celda_programa = None
 
-        for i, celda in enumerate(row):
+        for celda in row:
 
-            texto = (
-                celda.get(
-                    'text',
-                    ''
-                )
-                .strip()
-            )
-
-            if re.match(
-                r'^\d{1,2}:\d{2}$',
-                texto
+            if celda.get(
+                'is_program',
+                False
             ):
 
-                horas_encontradas.append(
-                    (
-                        i,
-                        texto
-                    )
-                )
-
-        # ----------------------------------------------------
-        # Una fila válida necesita al menos dos horarios.
-        # ----------------------------------------------------
-
-        if len(horas_encontradas) < 2:
-            continue
-
-        indice_hora_inicio, hora_inicio = (
-            horas_encontradas[0]
-        )
-
-        indice_hora_fin, hora_fin = (
-            horas_encontradas[1]
-        )
-
-        # ====================================================
-        # BUSCAR TÍTULO Y DESCRIPCIÓN
-        # ====================================================
-
-        titulo = ''
-        descripcion = ''
-
-        # ----------------------------------------------------
-        # Primero buscamos después de la segunda hora.
-        #
-        # Esto funciona tanto si existe imagen como si no.
-        # ----------------------------------------------------
-
-        for i in range(
-            indice_hora_fin + 1,
-            len(row)
-        ):
-
-            celda = row[i]
-
-            texto = (
-                celda.get(
-                    'text',
-                    ''
-                )
-                .strip()
-            )
-
-            title = (
-                celda.get(
-                    'title',
-                    ''
-                )
-                .strip()
-            )
-
-            desc = (
-                celda.get(
-                    'description',
-                    ''
-                )
-                .strip()
-            )
-
-            # -----------------------------------------------
-            # Celda vacía:
-            #
-            # normalmente es la celda de la imagen.
-            # -----------------------------------------------
-
-            if not texto:
-                continue
-
-            # -----------------------------------------------
-            # Evitar tomar otra hora como título.
-            # -----------------------------------------------
-
-            if re.match(
-                r'^\d{1,2}:\d{2}$',
-                texto
-            ):
-
-                continue
-
-            # -----------------------------------------------
-            # Si existe título proveniente del enlace,
-            # utilizarlo.
-            #
-            # Si no existe, utilizar el texto normal.
-            # -----------------------------------------------
-
-            titulo = (
-                title
-                or texto
-            )
-
-            descripcion = desc
-
-            # -----------------------------------------------
-            # Si encontramos una celda con título, ya tenemos
-            # el programa.
-            # -----------------------------------------------
-
-            if titulo:
+                celda_programa = celda
                 break
 
-        # ====================================================
-        # SEGUNDA PASADA
-        #
-        # Si por alguna estructura especial no apareció título
-        # en la primera búsqueda, buscamos cualquier contenido
-        # textual útil después de la segunda hora.
-        # ====================================================
+        # ----------------------------------------------------
+        # Si no encontramos la clase exacta,
+        # buscar cualquier celda que tenga contenido
+        # después de las horas.
+        # ----------------------------------------------------
 
-        if not titulo:
+        if celda_programa is None:
 
-            for i in range(
-                indice_hora_fin + 1,
-                len(row)
-            ):
+            indice_segunda_hora = None
 
-                celda = row[i]
+            for i, celda in enumerate(row):
 
-                texto = (
-                    celda.get(
-                        'text',
-                        ''
-                    )
-                    .strip()
+                texto = celda.get(
+                    'text',
+                    ''
                 )
 
-                if not texto:
-                    continue
+                if hora_fin in texto:
 
-                if re.match(
-                    r'^\d{1,2}:\d{2}$',
-                    texto
+                    indice_segunda_hora = i
+                    break
+
+            if indice_segunda_hora is not None:
+
+                for i in range(
+                    indice_segunda_hora + 1,
+                    len(row)
                 ):
 
-                    continue
-
-                titulo = texto
-
-                descripcion = (
-                    celda.get(
-                        'description',
-                        ''
+                    texto = limpiar_texto(
+                        row[i].get(
+                            'text',
+                            ''
+                        )
                     )
-                    .strip()
-                )
 
-                break
+                    if texto:
+
+                        # Ignorar celdas que sean solamente
+                        # números/horas.
+
+                        if re.fullmatch(
+                            r'\d{1,2}:\d{2}',
+                            texto
+                        ):
+                            continue
+
+                        celda_programa = row[i]
+                        break
+
+        if celda_programa is None:
+            continue
 
         # ----------------------------------------------------
-        # Si todavía no hay título, ignorar la fila.
+        # EXTRAER TÍTULO
+        #
+        # Si existe <a>, ese es el título más confiable.
         # ----------------------------------------------------
+
+        titulo = limpiar_texto(
+            celda_programa.get(
+                'anchor',
+                ''
+            )
+        )
+
+        texto_celda = limpiar_texto(
+            celda_programa.get(
+                'text',
+                ''
+            )
+        )
+
+        # ----------------------------------------------------
+        # Si no existe anchor:
+        #
+        # buscar el texto del bloque de título.
+        #
+        # Primero intentamos localizar el texto después
+        # de eliminar horas.
+        # ----------------------------------------------------
+
+        if not titulo:
+
+            titulo = texto_celda
+
+            titulo = re.sub(
+                r'\b\d{1,2}:\d{2}\b',
+                '',
+                titulo
+            )
+
+            titulo = limpiar_texto(
+                titulo
+            )
 
         if not titulo:
             continue
 
-        # ====================================================
-        # LIMPIEZA
-        # ====================================================
+        # ----------------------------------------------------
+        # DESCRIPCIÓN
+        #
+        # Si hay <a>, eliminamos el título de la celda
+        # y conservamos el resto.
+        # ----------------------------------------------------
 
-        titulo = " ".join(
-            titulo.split()
-        ).strip()
+        descripcion = ''
 
-        descripcion = " ".join(
-            descripcion.split()
-        ).strip()
+        if celda_programa.get('anchor'):
+
+            partes = []
+
+            for parte in [
+                texto_celda,
+                titulo
+            ]:
+
+                if parte:
+                    partes.append(
+                        parte
+                    )
+
+            descripcion = texto_celda
+
+            # El texto del anchor normalmente está incluido
+            # dentro del texto de la celda.
+            #
+            # Lo quitamos solamente una vez.
+
+            patron_titulo = re.escape(
+                titulo
+            )
+
+            descripcion = re.sub(
+                patron_titulo,
+                '',
+                descripcion,
+                count=1,
+                flags=re.IGNORECASE
+            )
+
+            descripcion = limpiar_texto(
+                descripcion
+            )
+
+        else:
+
+            # ------------------------------------------------
+            # Para programas sencillos:
+            #
+            # normalmente no tenemos descripción separada.
+            #
+            # Si el bloque trae varias líneas/contenidos,
+            # intentamos separar el primero como título y
+            # conservar lo demás como descripción.
+            # ------------------------------------------------
+
+            texto_limpio = limpiar_texto(
+                texto_celda
+            )
+
+            if texto_limpio:
+
+                texto_sin_horas = re.sub(
+                    r'\b\d{1,2}:\d{2}\b',
+                    '',
+                    texto_limpio
+                )
+
+                texto_sin_horas = limpiar_texto(
+                    texto_sin_horas
+                )
+
+                if texto_sin_horas.lower() != titulo.lower():
+
+                    resto = re.sub(
+                        re.escape(titulo),
+                        '',
+                        texto_sin_horas,
+                        count=1,
+                        flags=re.IGNORECASE
+                    )
+
+                    descripcion = limpiar_texto(
+                        resto
+                    )
 
         # ----------------------------------------------------
-        # No duplicar título dentro de descripción.
+        # Evitar descripción duplicada.
         # ----------------------------------------------------
 
         if (
@@ -1085,9 +1152,9 @@ def extraer_programacion_gatotv(
 
             descripcion = ''
 
-        # ====================================================
-        # CONVERTIR HORARIOS
-        # ====================================================
+        # ----------------------------------------------------
+        # Convertir horas.
+        # ----------------------------------------------------
 
         start_local = convertir_hora_gatotv(
             hora_inicio,
@@ -1103,7 +1170,7 @@ def extraer_programacion_gatotv(
             continue
 
         # ----------------------------------------------------
-        # Si termina después de medianoche.
+        # Programa después de medianoche.
         # ----------------------------------------------------
 
         if stop_local <= start_local:
@@ -1112,9 +1179,9 @@ def extraer_programacion_gatotv(
                 days=1
             )
 
-        # ====================================================
-        # CONVERTIR A UTC
-        # ====================================================
+        # ----------------------------------------------------
+        # UTC.
+        # ----------------------------------------------------
 
         start_utc = start_local.astimezone(
             datetime.timezone.utc
@@ -1124,28 +1191,27 @@ def extraer_programacion_gatotv(
             datetime.timezone.utc
         )
 
-        # ====================================================
-        # APLICAR DESFASE EXCLUSIVO DE GATOTV
-        # ====================================================
+        # ----------------------------------------------------
+        # Desfase GatoTV.
+        # ----------------------------------------------------
 
         desfase = DESFASE_GATOTV.get(
             channel_id,
             0
         )
 
-        if desfase != 0:
+        if desfase:
 
             diferencia = datetime.timedelta(
                 hours=desfase
             )
 
             start_utc += diferencia
-
             stop_utc += diferencia
 
-        # ====================================================
-        # VALIDACIONES
-        # ====================================================
+        # ----------------------------------------------------
+        # Validar duración.
+        # ----------------------------------------------------
 
         if stop_utc <= start_utc:
             continue
@@ -1159,9 +1225,9 @@ def extraer_programacion_gatotv(
         ):
             continue
 
-        # ====================================================
-        # CREAR ELEMENTO XMLTV
-        # ====================================================
+        # ----------------------------------------------------
+        # Crear programme.
+        # ----------------------------------------------------
 
         prog = ET.Element(
             'programme',
@@ -1185,13 +1251,13 @@ def extraer_programacion_gatotv(
         # TÍTULO
         # ----------------------------------------------------
 
-        title_elem = ET.SubElement(
+        title = ET.SubElement(
             prog,
             'title',
             lang='es'
         )
 
-        title_elem.text = titulo
+        title.text = titulo
 
         # ----------------------------------------------------
         # DESCRIPCIÓN
@@ -1199,17 +1265,13 @@ def extraer_programacion_gatotv(
 
         if descripcion:
 
-            desc_elem = ET.SubElement(
+            desc = ET.SubElement(
                 prog,
                 'desc',
                 lang='es'
             )
 
-            desc_elem.text = descripcion
-
-        # ====================================================
-        # GUARDAR
-        # ====================================================
+            desc.text = descripcion
 
         programas.append(
             (
@@ -1224,31 +1286,26 @@ def extraer_programacion_gatotv(
             )
         )
 
-        # ====================================================
+        filas_reconocidas += 1
+
+        # ----------------------------------------------------
         # LOG
-        # ====================================================
+        # ----------------------------------------------------
 
         print(
             f"       ✓ "
             f"{hora_inicio}-{hora_fin} "
             f"{titulo}"
-        )
-
-        if descripcion:
-
-            print(
-                f"          DESC: "
-                f"{descripcion[:180]}"
+            + (
+                f" | DESC: {descripcion[:120]}"
+                if descripcion
+                else ""
             )
-
-    # ========================================================
-    # RESUMEN
-    # ========================================================
+        )
 
     print(
         f"       Filas de programación "
-        f"reconocidas: "
-        f"{len(programas)}"
+        f"reconocidas: {filas_reconocidas}"
     )
 
     print(
@@ -1260,9 +1317,7 @@ def extraer_programacion_gatotv(
 
 
 # ============================================================
-# 🐱 OBTENER LOS 3 DÍAS DE GATOTV
-#
-# HOY + MAÑANA + PASADO MAÑANA
+# 🐱 CARGAR GATOTV
 # ============================================================
 
 def cargar_gatotv(
@@ -1276,9 +1331,6 @@ def cargar_gatotv(
         "desde GatoTV..."
     )
     print("")
-
-    # Usamos la fecha de Chile, no la fecha UTC
-    # del servidor de GitHub.
 
     ahora_chile = datetime.datetime.now(
         ZONA_HORARIA_GATOTV
@@ -1329,9 +1381,6 @@ def cargar_gatotv(
 
             continue
 
-        # Si el canal no existía todavía,
-        # creamos su elemento.
-
         if channel_id not in canales_dict:
 
             ch_elem = ET.Element(
@@ -1350,10 +1399,10 @@ def cargar_gatotv(
                 channel_id
             ] = ch_elem
 
-        # GatoTV tiene prioridad sobre las fuentes públicas.
-        #
-        # Eliminamos únicamente los programas públicos
-        # que choquen con los horarios de GatoTV.
+        # ----------------------------------------------------
+        # GatoTV reemplaza solamente los horarios
+        # que realmente entrega.
+        # ----------------------------------------------------
 
         for (
             _,
@@ -1397,7 +1446,7 @@ def cargar_gatotv(
 
 
 # ============================================================
-# 🧹 AGREGAR BLOQUE DE RESPALDO
+# 🧹 RESPALDO
 # ============================================================
 
 def agregar_bloque_respaldo(
@@ -1434,7 +1483,9 @@ def agregar_bloque_respaldo(
         channel_id
     ] = ch_elem
 
-    ahora_utc = datetime.datetime.utcnow()
+    ahora_utc = datetime.datetime.now(
+        datetime.timezone.utc
+    )
 
     inicio_base = (
         ahora_utc.replace(
@@ -1515,8 +1566,12 @@ def agregar_bloque_respaldo(
                 (
                     prog,
                     channel_id,
-                    start_dt,
-                    stop_dt
+                    start_dt.replace(
+                        tzinfo=None
+                    ),
+                    stop_dt.replace(
+                        tzinfo=None
+                    )
                 )
             )
 
@@ -1665,11 +1720,6 @@ try:
 
     # ========================================================
     # 2. GATOTV
-    #
-    # Se carga DESPUÉS de las fuentes públicas.
-    # Así puede reemplazar sus bloques cuando hay conflicto.
-    #
-    # Más adelante guia.xml tendrá prioridad sobre GatoTV.
     # ========================================================
 
     cargar_gatotv(
@@ -1680,8 +1730,6 @@ try:
 
     # ========================================================
     # 3. TU GUÍA PROPIA
-    #
-    # TU GUIA SIGUE TENIENDO LA MAYOR PRIORIDAD.
     # ========================================================
 
     print("")
@@ -1780,13 +1828,6 @@ try:
 
                     if st_dt and sp_dt:
 
-                        # 🧹 ELIMINAR CUALQUIER BLOQUE
-                        # QUE ENTRE EN CONFLICTO.
-                        #
-                        # Esto permite que guia.xml
-                        # siga teniendo prioridad sobre
-                        # GatoTV y las fuentes públicas.
-
                         programas_lista[:] = [
                             p
                             for p in programas_lista
@@ -1821,7 +1862,7 @@ try:
 
 
     # ========================================================
-    # 5. RESPALDOS
+    # 4. RESPALDOS
     # ========================================================
 
     print("")
@@ -1856,7 +1897,7 @@ try:
 
 
     # ========================================================
-    # 6. ENSAMBLAJE FINAL
+    # 5. ENSAMBLAJE FINAL
     # ========================================================
 
     print("")
@@ -1873,9 +1914,6 @@ try:
             canales_dict[ch_id]
         )
 
-
-    # Orden cronológico de todos los programas.
-
     programas_lista.sort(
         key=lambda x: x[2]
     )
@@ -1888,7 +1926,7 @@ try:
 
 
     # ========================================================
-    # 7. GUARDAR XML
+    # 6. GUARDAR XML
     # ========================================================
 
     tree = ET.ElementTree(
