@@ -159,6 +159,13 @@ DESFASE_GUIA_PROPIA = {
 
 # ============================================================
 # 🐱 GATOTV
+#
+# Aquí están los canales que quieres obtener desde GatoTV.
+#
+# Si algún día quieres agregar otro canal:
+#
+# 'ID_DE_TU_CANAL': 'https://www.gatotv.com/canal/xxxxx',
+#
 # ============================================================
 
 GATOTV_CANALES = {
@@ -242,6 +249,17 @@ GATOTV_CANALES = {
 
 # ============================================================
 # 🕒 DESFASES EXCLUSIVOS PARA GATOTV
+#
+# IMPORTANTE:
+# Este bloque es independiente de los otros dos.
+#
+# Si mañana descubres que otro canal necesita desfase,
+# simplemente agrega una línea aquí.
+#
+# Ejemplo:
+#
+# 'HBO.cl': -1,
+#
 # ============================================================
 
 DESFASE_GATOTV = {
@@ -251,6 +269,9 @@ DESFASE_GATOTV = {
 
 # ============================================================
 # 📅 GATOTV: CUÁNTOS DÍAS CONSULTAR
+#
+# 3 significa:
+# HOY + MAÑANA + PASADO MAÑANA
 # ============================================================
 
 GATOTV_DIAS = 3
@@ -258,6 +279,12 @@ GATOTV_DIAS = 3
 
 # ============================================================
 # 🌎 ZONA HORARIA BASE DE GATOTV
+#
+# Las páginas que estamos utilizando están orientadas a
+# señales latinoamericanas y muestran horarios locales.
+#
+# Usamos la zona de Santiago para convertir esos horarios
+# a UTC correctamente, incluyendo cambios de horario.
 # ============================================================
 
 ZONA_HORARIA_GATOTV = ZoneInfo("America/Santiago")
@@ -404,32 +431,21 @@ def descargar_xml(url):
 # ============================================================
 # 🐱 PARSER HTML DE GATOTV
 #
-# NUEVA VERSIÓN
+# GatoTV utiliza bloques:
 #
-# Ya NO depende de que las celdas estén en determinadas
-# posiciones dentro de la fila.
+# <div class="tbl_EPG_ProgramsColumn pelicula">
 #
-# Busca directamente:
+# Dentro del bloque encontramos:
 #
-#   <time datetime="16:14">16:14</time>
-#   <time datetime="17:49">17:49</time>
+# - el título mediante <a title="...">
+# - la descripción como texto normal
 #
-# y el bloque:
+# Las horas <time> se encuentran fuera de estos bloques.
 #
-#   <div class="tbl_EPG_ProgramsColumn pelicula">
-#
-# Dentro de ese bloque obtiene:
-#
-#   <a title="Shrek Tercero">
-#       <span>Shrek Tercero</span>
-#   </a>
-#
-# y el texto restante como descripción.
-#
-# La imagen se ignora completamente.
+# Por eso separamos ambas cosas y después las emparejamos.
 # ============================================================
 
-class GatoTVProgramParser(HTMLParser):
+class GatoTVParser(HTMLParser):
 
     def __init__(self):
 
@@ -437,29 +453,41 @@ class GatoTVProgramParser(HTMLParser):
             convert_charrefs=True
         )
 
-        self.programas = []
+        self.times = []
 
-        self.en_programa = False
-        self.programa_nivel = 0
+        self.program_blocks = []
 
-        self.en_titulo = False
-        self.titulo_nivel = 0
+        self.in_program = False
+        self.program_depth = 0
 
-        self.tiempos = []
+        self.current_program = None
 
-        self.titulo_partes = []
-        self.descripcion_partes = []
+        self.in_title_link = False
 
-        self.programa_attrs = None
+        self.current_title = []
 
-    def handle_starttag(self, tag, attrs):
+        self.in_title_container = False
+
+        self.in_image = False
+
+
+    # ========================================================
+    # START TAG
+    # ========================================================
+
+    def handle_starttag(
+        self,
+        tag,
+        attrs
+    ):
 
         tag = tag.lower()
 
         attrs_dict = dict(attrs)
 
+
         # ----------------------------------------------------
-        # Buscar horarios mediante <time datetime="">
+        # HORARIOS
         # ----------------------------------------------------
 
         if tag == 'time':
@@ -469,26 +497,20 @@ class GatoTVProgramParser(HTMLParser):
                 ''
             ).strip()
 
-            texto_valido = re.match(
+            if re.match(
                 r'^\d{1,2}:\d{2}$',
                 datetime_value
-            )
+            ):
 
-            if texto_valido:
-
-                self.tiempos.append(
+                self.times.append(
                     datetime_value
                 )
 
-                # Solo necesitamos las dos primeras horas
-                # de cada programa.
+            return
 
-                if len(self.tiempos) > 2:
-
-                    self.tiempos = self.tiempos[-2:]
 
         # ----------------------------------------------------
-        # Detectar el bloque de programa.
+        # BLOQUES DE PROGRAMACIÓN
         # ----------------------------------------------------
 
         if tag == 'div':
@@ -500,37 +522,58 @@ class GatoTVProgramParser(HTMLParser):
 
             clases = clase.split()
 
+
             if (
                 'tbl_EPG_ProgramsColumn'
                 in clases
             ):
 
-                self.en_programa = True
+                if self.in_program:
 
-                self.programa_nivel = 1
+                    self._finalizar_programa()
 
-                self.titulo_partes = []
 
-                self.descripcion_partes = []
+                self.in_program = True
 
-                self.programa_attrs = attrs_dict
+                self.program_depth = 1
+
+                self.current_program = {
+                    'title': '',
+                    'description': ''
+                }
+
+                self.current_title = []
+
+                self.in_title_container = False
 
                 return
 
-            if self.en_programa:
 
-                self.programa_nivel += 1
+            # ------------------------------------------------
+            # DIV INTERNO
+            # ------------------------------------------------
 
-        elif self.en_programa:
+            if self.in_program:
 
-            self.programa_nivel += 1
+                self.program_depth += 1
+
+
+                if (
+                    'div_program_title_on_channel'
+                    in clases
+                ):
+
+                    self.in_title_container = True
+
+                return
+
 
         # ----------------------------------------------------
-        # Detectar enlace del título.
+        # ENLACE DEL TÍTULO
         # ----------------------------------------------------
 
         if (
-            self.en_programa
+            self.in_program
             and tag == 'a'
         ):
 
@@ -539,138 +582,275 @@ class GatoTVProgramParser(HTMLParser):
                 ''
             ).strip()
 
-            href = attrs_dict.get(
-                'href',
-                ''
-            ).strip()
 
-            # Los enlaces dentro del bloque de programa
-            # corresponden al título del programa.
+            if title_attr:
 
-            if title_attr or href:
+                self.current_program[
+                    'title'
+                ] = " ".join(
+                    title_attr.split()
+                )
 
-                self.en_titulo = True
+                self.in_title_link = True
 
-                self.titulo_nivel = 1
+                self.current_title = []
 
-                if title_attr:
-
-                    self.titulo_partes.append(
-                        title_attr
-                    )
-
-    def handle_data(self, data):
-
-        if not self.en_programa:
             return
+
+
+        # ----------------------------------------------------
+        # IMAGEN
+        # ----------------------------------------------------
+
+        if (
+            self.in_program
+            and tag == 'img'
+        ):
+
+            self.in_image = True
+
+
+    # ========================================================
+    # DATA
+    # ========================================================
+
+    def handle_data(
+        self,
+        data
+    ):
+
+        if not self.in_program:
+            return
+
+
+        if self.in_image:
+            return
+
 
         texto = " ".join(
             data.strip().split()
         )
 
+
         if not texto:
             return
 
-        if self.en_titulo:
 
-            self.titulo_partes.append(
+        # ----------------------------------------------------
+        # TEXTO DEL TÍTULO
+        # ----------------------------------------------------
+
+        if self.in_title_link:
+
+            self.current_title.append(
                 texto
             )
-
-        else:
-
-            self.descripcion_partes.append(
-                texto
-            )
-
-    def handle_endtag(self, tag):
-
-        tag = tag.lower()
-
-        if (
-            self.en_titulo
-            and tag == 'a'
-        ):
-
-            self.en_titulo = False
-            self.titulo_nivel = 0
 
             return
 
-        if self.en_programa:
 
-            if tag == 'div':
+        # ----------------------------------------------------
+        # Si no existe title="", utilizamos el texto del enlace.
+        # ----------------------------------------------------
 
-                self.programa_nivel -= 1
+        if (
+            self.current_program
+            and not self.current_program['title']
+            and self.in_title_container
+        ):
 
-                if self.programa_nivel <= 0:
+            self.current_title.append(
+                texto
+            )
 
-                    self.finalizar_programa()
+            return
 
-    def finalizar_programa(self):
 
-        titulo = " ".join(
-            self.titulo_partes
+        # ----------------------------------------------------
+        # DESCRIPCIÓN
+        # ----------------------------------------------------
+
+        if self.current_program:
+
+            actual = self.current_program.get(
+                'description',
+                ''
+            )
+
+
+            if actual:
+
+                actual += ' '
+
+
+            actual += texto
+
+
+            self.current_program[
+                'description'
+            ] = actual
+
+
+    # ========================================================
+    # END TAG
+    # ========================================================
+
+    def handle_endtag(
+        self,
+        tag
+    ):
+
+        tag = tag.lower()
+
+
+        # ----------------------------------------------------
+        # FIN DEL ENLACE
+        # ----------------------------------------------------
+
+        if (
+            tag == 'a'
+            and self.in_title_link
+        ):
+
+            self.in_title_link = False
+
+
+            texto_titulo = " ".join(
+                self.current_title
+            ).strip()
+
+
+            if (
+                not self.current_program['title']
+                and texto_titulo
+            ):
+
+                self.current_program[
+                    'title'
+                ] = texto_titulo
+
+
+            self.current_title = []
+
+            return
+
+
+        # ----------------------------------------------------
+        # FIN DE IMAGEN
+        # ----------------------------------------------------
+
+        if tag == 'img':
+
+            self.in_image = False
+
+            return
+
+
+        # ----------------------------------------------------
+        # FIN DE DIV
+        # ----------------------------------------------------
+
+        if (
+            tag == 'div'
+            and self.in_program
+        ):
+
+            self.program_depth -= 1
+
+
+            if self.program_depth <= 0:
+
+                self._finalizar_programa()
+
+
+    # ========================================================
+    # FINALIZAR PROGRAMA
+    # ========================================================
+
+    def _finalizar_programa(self):
+
+        if not self.current_program:
+            return
+
+
+        titulo = self.current_program.get(
+            'title',
+            ''
         ).strip()
 
-        descripcion = " ".join(
-            self.descripcion_partes
+
+        descripcion = self.current_program.get(
+            'description',
+            ''
         ).strip()
+
 
         titulo = " ".join(
             titulo.split()
         )
 
+
         descripcion = " ".join(
             descripcion.split()
         )
 
-        # ----------------------------------------------------
-        # Evitar basura.
-        # ----------------------------------------------------
-
-        if not titulo:
-
-            self.en_programa = False
-            self.programa_nivel = 0
-
-            return
-
-        if len(self.tiempos) < 2:
-
-            self.en_programa = False
-            self.programa_nivel = 0
-
-            return
-
-        hora_inicio = self.tiempos[-2]
-        hora_fin = self.tiempos[-1]
 
         # ----------------------------------------------------
-        # Si la descripción terminó incluyendo el título,
-        # lo quitamos.
+        # Quitar título duplicado de descripción.
         # ----------------------------------------------------
 
-        if descripcion.lower() == titulo.lower():
+        if titulo and descripcion:
 
-            descripcion = ''
+            if descripcion.lower().startswith(
+                titulo.lower()
+            ):
 
-        self.programas.append(
-            {
-                'inicio': hora_inicio,
-                'fin': hora_fin,
-                'titulo': titulo,
-                'descripcion': descripcion
-            }
-        )
+                descripcion = (
+                    descripcion[
+                        len(titulo):
+                    ]
+                    .strip(
+                        " :-–—."
+                    )
+                )
 
-        self.en_programa = False
-        self.programa_nivel = 0
-        self.en_titulo = False
-        self.titulo_nivel = 0
 
-        self.titulo_partes = []
-        self.descripcion_partes = []
+        if titulo:
+
+            self.program_blocks.append(
+                {
+                    'title': titulo,
+                    'description': descripcion
+                }
+            )
+
+
+        self.current_program = None
+
+        self.current_title = []
+
+        self.in_program = False
+
+        self.program_depth = 0
+
+        self.in_title_link = False
+
+        self.in_title_container = False
+
+        self.in_image = False
+
+
+    # ========================================================
+    # CERRAR PARSER
+    # ========================================================
+
+    def close(self):
+
+        if self.in_program:
+
+            self._finalizar_programa()
+
+        super().close()
 
 
 # ============================================================
@@ -697,6 +877,7 @@ def convertir_hora_gatotv(
 
     dt_hora = None
 
+
     for formato in formatos:
 
         try:
@@ -712,8 +893,10 @@ def convertir_hora_gatotv(
 
             continue
 
+
     if dt_hora is None:
         return None
+
 
     return datetime.datetime.combine(
         fecha,
@@ -725,14 +908,15 @@ def convertir_hora_gatotv(
 # ============================================================
 # 🐱 EXTRAER PROGRAMACIÓN DE UNA PÁGINA GATOTV
 #
-# Esta versión:
+# Ahora trabajamos directamente con:
 #
-# 1. Descarga el HTML.
-# 2. Comprueba que realmente recibió una página.
-# 3. Cuenta cuántos bloques de programa detectó.
-# 4. Extrae título y descripción.
-# 5. Convierte horarios a UTC.
-# 6. Aplica desfases.
+# <time>
+#
+# y:
+#
+# tbl_EPG_ProgramsColumn
+#
+# No dependemos de <tr>/<td>.
 # ============================================================
 
 def extraer_programacion_gatotv(
@@ -746,6 +930,7 @@ def extraer_programacion_gatotv(
         f"{channel_id} | {fecha}"
     )
 
+
     headers = {
         'User-Agent': (
             'Mozilla/5.0 '
@@ -754,8 +939,10 @@ def extraer_programacion_gatotv(
             '(KHTML, like Gecko) '
             'Chrome/120.0 Safari/537.36'
         ),
+
         'Accept':
-            'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'text/html,application/xhtml+xml,'
+            'application/xml;q=0.9,*/*;q=0.8',
 
         'Accept-Language':
             'es-ES,es;q=0.9,en;q=0.8',
@@ -764,10 +951,12 @@ def extraer_programacion_gatotv(
             'https://www.gatotv.com/'
     }
 
+
     req = urllib.request.Request(
         url,
         headers=headers
     )
+
 
     try:
 
@@ -783,6 +972,7 @@ def extraer_programacion_gatotv(
                 errors='replace'
             )
 
+
     except Exception as e:
 
         print(
@@ -792,43 +982,21 @@ def extraer_programacion_gatotv(
 
         return []
 
-    # --------------------------------------------------------
-    # Diagnóstico.
-    # --------------------------------------------------------
 
     print(
         f"       HTML recibido: "
         f"{len(html):,} caracteres"
     )
 
-    if not html.strip():
 
-        print(
-            "       ❌ GatoTV devolvió HTML vacío."
-        )
+    parser = GatoTVParser()
 
-        return []
-
-    # --------------------------------------------------------
-    # Comprobar si realmente recibimos GatoTV.
-    # --------------------------------------------------------
-
-    if 'gatotv' not in html.lower():
-
-        print(
-            "       ⚠️ El HTML recibido no parece "
-            "ser una página normal de GatoTV."
-        )
-
-    # --------------------------------------------------------
-    # Buscar directamente bloques de programa.
-    # --------------------------------------------------------
-
-    parser = GatoTVProgramParser()
 
     try:
 
         parser.feed(html)
+
+        parser.close()
 
     except Exception as e:
 
@@ -839,69 +1007,212 @@ def extraer_programacion_gatotv(
 
         return []
 
-    datos = parser.programas
+
+    tiempos = parser.times
+
+    bloques = parser.program_blocks
+
 
     print(
-        f"       Bloques de programas detectados: "
-        f"{len(datos)}"
+        f"       <time> encontrados: "
+        f"{len(tiempos)}"
     )
 
-    if not datos:
 
-        # ----------------------------------------------------
-        # Diagnóstico adicional.
-        # ----------------------------------------------------
+    print(
+        f"       Bloques de programas "
+        f"detectados: "
+        f"{len(bloques)}"
+    )
 
-        cantidad_time = len(
-            re.findall(
-                r'<time\b',
-                html,
-                re.IGNORECASE
-            )
+
+    # --------------------------------------------------------
+    # MOSTRAR ALGUNOS PROGRAMAS DETECTADOS
+    # --------------------------------------------------------
+
+    for i, bloque in enumerate(
+        bloques[:5]
+    ):
+
+        titulo_debug = bloque.get(
+            'title',
+            ''
         )
 
-        cantidad_programas = len(
-            re.findall(
-                r'tbl_EPG_ProgramsColumn',
-                html,
-                re.IGNORECASE
-            )
+
+        desc_debug = bloque.get(
+            'description',
+            ''
         )
+
 
         print(
-            f"       <time> encontrados: "
-            f"{cantidad_time}"
+            f"       🔎 Programa {i + 1}: "
+            f"{titulo_debug}"
         )
 
-        print(
-            f"       Bloques "
-            f"tbl_EPG_ProgramsColumn: "
-            f"{cantidad_programas}"
-        )
+
+        if desc_debug:
+
+            print(
+                f"          DESC: "
+                f"{desc_debug[:150]}"
+            )
+
+
+    if not tiempos:
 
         print(
             "       ⚠️ GatoTV entregó HTML, "
-            "pero no se pudieron extraer programas."
+            "pero no se encontraron horarios."
         )
 
         return []
 
+
+    if not bloques:
+
+        print(
+            "       ⚠️ GatoTV entregó HTML, "
+            "pero no se detectaron bloques "
+            "de programas."
+        )
+
+        return []
+
+
+    # --------------------------------------------------------
+    # EMPAREJAR HORARIOS
+    #
+    # La estructura esperada es:
+    #
+    # 16:14
+    # 17:49
+    # 18:02
+    # 19:30
+    #
+    # Programa 1 = 16:14 → 17:49
+    # Programa 2 = 18:02 → 19:30
+    #
+    # --------------------------------------------------------
+
+    cantidad_pares = len(tiempos) // 2
+
+
+    pares_horarios = []
+
+
+    for i in range(
+        cantidad_pares
+    ):
+
+        inicio = tiempos[
+            i * 2
+        ]
+
+
+        fin = tiempos[
+            i * 2 + 1
+        ]
+
+
+        pares_horarios.append(
+            (
+                inicio,
+                fin
+            )
+        )
+
+
+    # --------------------------------------------------------
+    # Cantidad final.
+    # --------------------------------------------------------
+
+    cantidad = min(
+        len(bloques),
+        len(pares_horarios)
+    )
+
+
+    if len(bloques) != len(pares_horarios):
+
+        print(
+            f"       ⚠️ Diferencia entre "
+            f"programas ({len(bloques)}) "
+            f"y pares horarios "
+            f"({len(pares_horarios)}). "
+            f"Se utilizarán los que coincidan."
+        )
+
+
     programas = []
 
-    # --------------------------------------------------------
-    # Convertir cada programa.
-    # --------------------------------------------------------
 
-    for dato in datos:
+    # ========================================================
+    # CREAR CADA PROGRAMA
+    # ========================================================
 
-        hora_inicio = dato['inicio']
-        hora_fin = dato['fin']
+    for i in range(
+        cantidad
+    ):
 
-        titulo = dato['titulo']
-        descripcion = dato['descripcion']
+        bloque = bloques[i]
+
+
+        hora_inicio, hora_fin = (
+            pares_horarios[i]
+        )
+
+
+        titulo = bloque.get(
+            'title',
+            ''
+        ).strip()
+
+
+        descripcion = bloque.get(
+            'description',
+            ''
+        ).strip()
+
+
+        if not titulo:
+
+            continue
+
 
         # ----------------------------------------------------
-        # Convertir horarios.
+        # Limpiar título
+        # ----------------------------------------------------
+
+        titulo = " ".join(
+            titulo.split()
+        )
+
+
+        # ----------------------------------------------------
+        # Limpiar descripción
+        # ----------------------------------------------------
+
+        descripcion = " ".join(
+            descripcion.split()
+        )
+
+
+        # ----------------------------------------------------
+        # Evitar descripción duplicada.
+        # ----------------------------------------------------
+
+        if (
+            descripcion.lower()
+            == titulo.lower()
+        ):
+
+            descripcion = ''
+
+
+        # ----------------------------------------------------
+        # Convertir horas.
         # ----------------------------------------------------
 
         start_local = convertir_hora_gatotv(
@@ -909,22 +1220,23 @@ def extraer_programacion_gatotv(
             fecha
         )
 
+
         stop_local = convertir_hora_gatotv(
             hora_fin,
             fecha
         )
 
-        if not start_local or not stop_local:
 
-            print(
-                f"       ⚠️ Horario inválido: "
-                f"{hora_inicio} - {hora_fin}"
-            )
+        if (
+            not start_local
+            or not stop_local
+        ):
 
             continue
 
+
         # ----------------------------------------------------
-        # Si el programa termina después de medianoche.
+        # Si termina después de medianoche.
         # ----------------------------------------------------
 
         if stop_local <= start_local:
@@ -932,6 +1244,7 @@ def extraer_programacion_gatotv(
             stop_local += datetime.timedelta(
                 days=1
             )
+
 
         # ----------------------------------------------------
         # Convertir a UTC.
@@ -941,9 +1254,11 @@ def extraer_programacion_gatotv(
             datetime.timezone.utc
         )
 
+
         stop_utc = stop_local.astimezone(
             datetime.timezone.utc
         )
+
 
         # ----------------------------------------------------
         # Aplicar desfase exclusivo de GatoTV.
@@ -954,33 +1269,42 @@ def extraer_programacion_gatotv(
             0
         )
 
+
         if desfase != 0:
 
             diferencia = datetime.timedelta(
                 hours=desfase
             )
 
+
             start_utc += diferencia
+
             stop_utc += diferencia
+
 
         # ----------------------------------------------------
         # Evitar programas dañados.
         # ----------------------------------------------------
 
         if stop_utc <= start_utc:
+
             continue
+
 
         duracion = (
             stop_utc - start_utc
         ).total_seconds()
 
+
         if duracion > (
             24 * 60 * 60
         ):
+
             continue
 
+
         # ----------------------------------------------------
-        # Crear elemento programme.
+        # Crear <programme>
         # ----------------------------------------------------
 
         prog = ET.Element(
@@ -1001,6 +1325,7 @@ def extraer_programacion_gatotv(
             }
         )
 
+
         # ----------------------------------------------------
         # TÍTULO
         # ----------------------------------------------------
@@ -1011,10 +1336,18 @@ def extraer_programacion_gatotv(
             lang='es'
         )
 
+
         title.text = titulo
+
 
         # ----------------------------------------------------
         # DESCRIPCIÓN
+        #
+        # Si GatoTV entrega descripción, se conserva.
+        #
+        # Si posteriormente encontramos información de
+        # episodio dentro del bloque, también se conservará
+        # como parte del texto descriptivo.
         # ----------------------------------------------------
 
         if descripcion:
@@ -1025,7 +1358,13 @@ def extraer_programacion_gatotv(
                 lang='es'
             )
 
+
             desc.text = descripcion
+
+
+        # ----------------------------------------------------
+        # Guardar programa.
+        # ----------------------------------------------------
 
         programas.append(
             (
@@ -1040,8 +1379,9 @@ def extraer_programacion_gatotv(
             )
         )
 
+
         # ----------------------------------------------------
-        # LOG.
+        # LOG
         # ----------------------------------------------------
 
         if descripcion:
@@ -1051,7 +1391,7 @@ def extraer_programacion_gatotv(
                 f"{hora_inicio}-{hora_fin} "
                 f"{titulo} "
                 f"| DESC: "
-                f"{descripcion[:120]}"
+                f"{descripcion[:100]}"
             )
 
         else:
@@ -1062,16 +1402,20 @@ def extraer_programacion_gatotv(
                 f"{titulo}"
             )
 
+
     print(
         f"       ✔ Programas encontrados: "
         f"{len(programas)}"
     )
+
 
     return programas
 
 
 # ============================================================
 # 🐱 OBTENER LOS 3 DÍAS DE GATOTV
+#
+# HOY + MAÑANA + PASADO MAÑANA
 # ============================================================
 
 def cargar_gatotv(
@@ -1080,23 +1424,33 @@ def cargar_gatotv(
 ):
 
     print("")
+
     print(
         "3. Cargando programación "
         "desde GatoTV..."
     )
+
     print("")
+
+
+    # Usamos la fecha de Chile, no la fecha UTC
+    # del servidor de GitHub.
 
     ahora_chile = datetime.datetime.now(
         ZONA_HORARIA_GATOTV
     )
 
+
     fecha_base = ahora_chile.date()
 
+
     total_programas = 0
+
 
     for channel_id, base_url in GATOTV_CANALES.items():
 
         programas_canal = []
+
 
         for dia in range(
             GATOTV_DIAS
@@ -1109,10 +1463,12 @@ def cargar_gatotv(
                 )
             )
 
+
             url = (
                 f"{base_url}/"
                 f"{fecha.strftime('%Y-%m-%d')}"
             )
+
 
             programas = extraer_programacion_gatotv(
                 url,
@@ -1120,9 +1476,11 @@ def cargar_gatotv(
                 fecha
             )
 
+
             programas_canal.extend(
                 programas
             )
+
 
         if not programas_canal:
 
@@ -1135,8 +1493,10 @@ def cargar_gatotv(
 
             continue
 
+
         # ----------------------------------------------------
-        # Crear canal si todavía no existe.
+        # Si el canal no existía todavía,
+        # creamos su elemento.
         # ----------------------------------------------------
 
         if channel_id not in canales_dict:
@@ -1146,19 +1506,26 @@ def cargar_gatotv(
                 id=channel_id
             )
 
+
             dn_elem = ET.SubElement(
                 ch_elem,
                 'display-name'
             )
 
+
             dn_elem.text = channel_id
+
 
             canales_dict[
                 channel_id
             ] = ch_elem
 
+
         # ----------------------------------------------------
-        # GatoTV tiene prioridad sobre fuentes públicas.
+        # GatoTV tiene prioridad sobre las fuentes públicas.
+        #
+        # Eliminamos únicamente los programas públicos
+        # que choquen con los horarios de GatoTV.
         # ----------------------------------------------------
 
         for (
@@ -1178,13 +1545,16 @@ def cargar_gatotv(
                 )
             ]
 
+
         programas_lista.extend(
             programas_canal
         )
 
+
         total_programas += len(
             programas_canal
         )
+
 
         print(
             f"    ✔ GatoTV integrado: "
@@ -1193,7 +1563,9 @@ def cargar_gatotv(
             f"programas)"
         )
 
+
     print("")
+
 
     print(
         f" ✔ GatoTV finalizado. "
@@ -1224,23 +1596,29 @@ def agregar_bloque_respaldo(
         )
     )
 
+
     ch_elem = ET.Element(
         'channel',
         id=channel_id
     )
+
 
     dn_elem = ET.SubElement(
         ch_elem,
         'display-name'
     )
 
+
     dn_elem.text = ch_name
+
 
     canales_dict[
         channel_id
     ] = ch_elem
 
+
     ahora_utc = datetime.datetime.utcnow()
+
 
     inicio_base = (
         ahora_utc.replace(
@@ -1254,6 +1632,7 @@ def agregar_bloque_respaldo(
         )
     )
 
+
     for dia in range(4):
 
         for bloque in range(8):
@@ -1266,12 +1645,14 @@ def agregar_bloque_respaldo(
                 )
             )
 
+
             stop_dt = (
                 start_dt
                 + datetime.timedelta(
                     hours=3
                 )
             )
+
 
             prog = ET.Element(
                 'programme',
@@ -1290,16 +1671,19 @@ def agregar_bloque_respaldo(
                 channel=channel_id
             )
 
+
             title = ET.SubElement(
                 prog,
                 'title',
                 lang='es'
             )
 
+
             title.text = (
                 f"{ch_name}: "
                 f"{titulo_prog}"
             )
+
 
             desc = ET.SubElement(
                 prog,
@@ -1307,7 +1691,9 @@ def agregar_bloque_respaldo(
                 lang='es'
             )
 
+
             desc.text = desc_prog
+
 
             category = ET.SubElement(
                 prog,
@@ -1315,7 +1701,9 @@ def agregar_bloque_respaldo(
                 lang='es'
             )
 
+
             category.text = categoria
+
 
             programas_lista.append(
                 (
@@ -1344,6 +1732,7 @@ try:
         }
     )
 
+
     canales_dict = {}
 
     programas_lista = []
@@ -1357,6 +1746,7 @@ try:
         "1. Cargando fuentes públicas..."
     )
 
+
     for url in FUENTES_PUBLICAS:
 
         try:
@@ -1364,6 +1754,7 @@ try:
             guiaroot = descargar_xml(
                 url
             )
+
 
             for elem in guiaroot:
 
@@ -1373,10 +1764,12 @@ try:
                         'id'
                     )
 
+
                     target_id = MAPEO_IDS.get(
                         ch_id,
                         ch_id
                     )
+
 
                     if (
                         target_id in MIS_CANALES
@@ -1389,9 +1782,11 @@ try:
                             target_id
                         )
 
+
                         canales_dict[
                             target_id
                         ] = elem
+
 
                 elif elem.tag == 'programme':
 
@@ -1399,10 +1794,12 @@ try:
                         'channel'
                     )
 
+
                     target_id = MAPEO_IDS.get(
                         ch_id,
                         ch_id
                     )
+
 
                     if target_id in MIS_CANALES:
 
@@ -1411,10 +1808,12 @@ try:
                             target_id
                         )
 
+
                         horas = DESFASE_CANALES.get(
                             target_id,
                             0
                         )
+
 
                         start_str, st_dt = (
                             normalizar_a_utc(
@@ -1426,6 +1825,7 @@ try:
                             )
                         )
 
+
                         stop_str, sp_dt = (
                             normalizar_a_utc(
                                 elem.get(
@@ -1436,15 +1836,18 @@ try:
                             )
                         )
 
+
                         elem.set(
                             'start',
                             start_str
                         )
 
+
                         elem.set(
                             'stop',
                             stop_str
                         )
+
 
                         if st_dt and sp_dt:
 
@@ -1457,10 +1860,12 @@ try:
                                 )
                             )
 
+
             print(
                 f" ✔ Cargada guía pública: "
                 f"{url}"
             )
+
 
         except Exception as e:
 
@@ -1492,16 +1897,19 @@ try:
 
     print("")
 
+
     print(
         "4. Aplicando tu guía propia "
         "(Sobreescribiendo conflictos)..."
     )
+
 
     try:
 
         guiaroot = descargar_xml(
             GUIA_PROPIA
         )
+
 
         for elem in guiaroot:
 
@@ -1511,10 +1919,12 @@ try:
                     'id'
                 )
 
+
                 target_id = MAPEO_IDS.get(
                     ch_id,
                     ch_id
                 )
+
 
                 if (
                     target_id in MIS_CANALES
@@ -1527,9 +1937,11 @@ try:
                         target_id
                     )
 
+
                     canales_dict[
                         target_id
                     ] = elem
+
 
             elif elem.tag == 'programme':
 
@@ -1537,10 +1949,12 @@ try:
                     'channel'
                 )
 
+
                 target_id = MAPEO_IDS.get(
                     ch_id,
                     ch_id
                 )
+
 
                 if target_id in MIS_CANALES:
 
@@ -1549,10 +1963,12 @@ try:
                         target_id
                     )
 
+
                     horas = DESFASE_GUIA_PROPIA.get(
                         target_id,
                         0
                     )
+
 
                     start_str, st_dt = (
                         normalizar_a_utc(
@@ -1564,6 +1980,7 @@ try:
                         )
                     )
 
+
                     stop_str, sp_dt = (
                         normalizar_a_utc(
                             elem.get(
@@ -1574,17 +1991,27 @@ try:
                         )
                     )
 
+
                     elem.set(
                         'start',
                         start_str
                     )
+
 
                     elem.set(
                         'stop',
                         stop_str
                     )
 
+
                     if st_dt and sp_dt:
+
+                        # 🧹 ELIMINAR CUALQUIER BLOQUE
+                        # QUE ENTRE EN CONFLICTO.
+                        #
+                        # Esto permite que guia.xml
+                        # siga teniendo prioridad sobre
+                        # GatoTV y las fuentes públicas.
 
                         programas_lista[:] = [
                             p
@@ -1596,6 +2023,7 @@ try:
                             )
                         ]
 
+
                         programas_lista.append(
                             (
                                 elem,
@@ -1605,11 +2033,13 @@ try:
                             )
                         )
 
+
         print(
             f" ✔ Guía propia aplicada "
             f"con éxito: "
             f"{GUIA_PROPIA}"
         )
+
 
     except Exception as e:
 
@@ -1625,10 +2055,12 @@ try:
 
     print("")
 
+
     print(
         "5. Verificando respaldos para "
         "canales sin programación..."
     )
+
 
     for ch_id in MIS_CANALES:
 
@@ -1636,6 +2068,7 @@ try:
             p[1] == ch_id
             for p in programas_lista
         )
+
 
         if (
             ch_id not in canales_dict
@@ -1647,6 +2080,7 @@ try:
                 programas_lista,
                 ch_id
             )
+
 
             print(
                 f" ✔ Respaldo creado para: "
@@ -1660,9 +2094,11 @@ try:
 
     print("")
 
+
     print(
         "6. Generando epg_final.xml..."
     )
+
 
     for ch_id in sorted(
         canales_dict.keys()
@@ -1672,9 +2108,13 @@ try:
             canales_dict[ch_id]
         )
 
+
+    # Orden cronológico de todos los programas.
+
     programas_lista.sort(
         key=lambda x: x[2]
     )
+
 
     for p in programas_lista:
 
@@ -1691,11 +2131,13 @@ try:
         root_final
     )
 
+
     ET.indent(
         tree,
         space="  ",
         level=0
     )
+
 
     tree.write(
         "epg_final.xml",
@@ -1706,19 +2148,24 @@ try:
 
     print("")
 
+
     print(
         "=========================================="
     )
+
 
     print(
         "🎉 ¡PROCESO FINALIZADO CON ÉXITO!"
     )
 
+
     print(
         "=========================================="
     )
 
+
     print("")
+
 
     print(
         "EPG generado correctamente: "
@@ -1730,20 +2177,26 @@ except Exception as e:
 
     print("")
 
+
     print(
         "=========================================="
     )
+
 
     print(
         "❌ ERROR FATAL"
     )
 
+
     print(
         "=========================================="
     )
 
+
     print(e)
 
+
     print("")
+
 
     raise
