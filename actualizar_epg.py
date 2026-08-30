@@ -227,7 +227,7 @@ SESSION.headers.update({
     'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8',
 })
 
-def normalizar_a_utc(time_str, horas_desfase=0):
+def normalizar_a_chile(time_str, horas_desfase=0):
     if not time_str or len(time_str) < 14:
         return time_str, None
     try:
@@ -237,6 +237,7 @@ def normalizar_a_utc(time_str, horas_desfase=0):
         
         dt = datetime.datetime.strptime(dt_part, "%Y%m%d%H%M%S")
         
+        # Convertimos todo a tiempo UTC primero
         if tz_part and (tz_part.startswith('+') or tz_part.startswith('-')):
             sign = 1 if tz_part[0] == '+' else -1
             tz_hours = int(tz_part[1:3])
@@ -249,8 +250,10 @@ def normalizar_a_utc(time_str, horas_desfase=0):
         if horas_desfase != 0:
             dt_utc += datetime.timedelta(hours=horas_desfase)
             
-        str_utc = dt_utc.strftime("%Y%m%d%H%M%S") + " +0000"
-        return str_utc, dt_utc
+        # Convertimos de UTC a Chile (-04:00)
+        dt_chile = dt_utc - datetime.timedelta(hours=4)
+        str_chile = dt_chile.strftime("%Y%m%d%H%M%S") + " -0400"
+        return str_chile, dt_chile
     except Exception:
         return time_str, None
 
@@ -268,7 +271,7 @@ def extraer_gatotv(channel_id, slug, horas_desfase, canales_dict, programas_list
     try:
         resp = SESSION.get(url, timeout=15)
         if resp.status_code != 200:
-            print(f" ⚠️ GatoTV devolió estado {resp.status_code} para {channel_id}")
+            print(f" ⚠️ GatoTV devolvió estado {resp.status_code} para {channel_id}")
             return
 
         html = resp.text
@@ -285,7 +288,8 @@ def extraer_gatotv(channel_id, slug, horas_desfase, canales_dict, programas_list
         if not filas:
             filas = soup.find_all('tr')
             
-        hoy = datetime.datetime.utcnow().date()
+        # Tomamos el día actual de Chile
+        hoy = (datetime.datetime.utcnow() - datetime.timedelta(hours=4)).date()
         programas_temp = []
         
         for tr in filas:
@@ -309,9 +313,8 @@ def extraer_gatotv(channel_id, slug, horas_desfase, canales_dict, programas_list
                 
             dt_inicio = datetime.datetime(hoy.year, hoy.month, hoy.day, hora, minuto)
             
-            dt_inicio_utc = dt_inicio + datetime.timedelta(hours=4)
             if horas_desfase != 0:
-                dt_inicio_utc += datetime.timedelta(hours=horas_desfase)
+                dt_inicio += datetime.timedelta(hours=horas_desfase)
                 
             info_td = tds[1]
             titulo_elem = info_td.find('span', class_='tbl_schedules_title') or info_td.find('a') or info_td.find('strong')
@@ -332,7 +335,7 @@ def extraer_gatotv(channel_id, slug, horas_desfase, canales_dict, programas_list
             programas_temp.append({
                 'title': titulo,
                 'desc': desc,
-                'start': dt_inicio_utc,
+                'start': dt_inicio,
                 'img': img_url
             })
 
@@ -349,8 +352,8 @@ def extraer_gatotv(channel_id, slug, horas_desfase, canales_dict, programas_list
                 sp_dt = st_dt + datetime.timedelta(hours=1)
                 
             prog = ET.Element('programme', 
-                              start=st_dt.strftime("%Y%m%d%H%M%S +0000"), 
-                              stop=sp_dt.strftime("%Y%m%d%H%M%S +0000"), 
+                              start=st_dt.strftime("%Y%m%d%H%M%S -0400"), 
+                              stop=sp_dt.strftime("%Y%m%d%H%M%S -0400"), 
                               channel=channel_id)
             
             title_xml = ET.SubElement(prog, 'title', lang='es')
@@ -385,8 +388,8 @@ def agregar_bloque_respaldo(canales_dict, programas_lista, channel_id):
         dn_elem.text = ch_name
         canales_dict[channel_id] = ch_elem
     
-    ahora_utc = datetime.datetime.utcnow()
-    inicio_base = ahora_utc.replace(hour=0, minute=0, second=0, microsecond=0) - datetime.timedelta(days=1)
+    ahora_chile = datetime.datetime.utcnow() - datetime.timedelta(hours=4)
+    inicio_base = ahora_chile.replace(hour=0, minute=0, second=0, microsecond=0) - datetime.timedelta(days=1)
     
     for dia in range(4):
         for bloque in range(8):
@@ -395,8 +398,8 @@ def agregar_bloque_respaldo(canales_dict, programas_lista, channel_id):
             
             prog = ET.Element(
                 'programme', 
-                start=start_dt.strftime("%Y%m%d%H%M%S +0000"), 
-                stop=stop_dt.strftime("%Y%m%d%H%M%S +0000"), 
+                start=start_dt.strftime("%Y%m%d%H%M%S -0400"), 
+                stop=stop_dt.strftime("%Y%m%d%H%M%S -0400"), 
                 channel=channel_id
             )
             title = ET.SubElement(prog, 'title', lang='es')
@@ -444,8 +447,8 @@ try:
                         elem.set('channel', target_id)
 
                         horas = DESFASE_CANALES.get(target_id, 0)
-                        start_str, st_dt = normalizar_a_utc(elem.get('start', ''), horas)
-                        stop_str, sp_dt = normalizar_a_utc(elem.get('stop', ''), horas)
+                        start_str, st_dt = normalizar_a_chile(elem.get('start', ''), horas)
+                        stop_str, sp_dt = normalizar_a_chile(elem.get('stop', ''), horas)
 
                         elem.set('start', start_str)
                         elem.set('stop', stop_str)
@@ -479,8 +482,8 @@ try:
                     elem.set('channel', target_id)
 
                     horas = DESFASE_GUIA_PROPIA.get(target_id, 0)
-                    start_str, st_dt = normalizar_a_utc(elem.get('start', ''), horas)
-                    stop_str, sp_dt = normalizar_a_utc(elem.get('stop', ''), horas)
+                    start_str, st_dt = normalizar_a_chile(elem.get('start', ''), horas)
+                    stop_str, sp_dt = normalizar_a_chile(elem.get('stop', ''), horas)
 
                     elem.set('start', start_str)
                     elem.set('stop', stop_str)
@@ -489,7 +492,7 @@ try:
                         canales_guia_propia.add(target_id)
                         programas_guia_propia.append((elem, target_id, st_dt, sp_dt))
 
-        # Elimina programación previa (GatoTV / Fuentes Públicas) para los canales que vienen en tu guía propia
+        # Elimina programación previa para los canales que vienen en tu guía propia
         programas_lista = [p for p in programas_lista if p[1] not in canales_guia_propia]
         programas_lista.extend(programas_guia_propia)
 
