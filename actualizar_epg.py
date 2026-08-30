@@ -81,7 +81,6 @@ MIS_CANALES = {
 }
 
 # 🐱 CONFIGURACIÓN DE CANALES GATOTV
-# Formato: "ID_TU_IPTV": ("nombre_slug_en_gatotv", desfase_en_horas)
 CANALES_GATOTV = {
     'TVN.cl': ('tvn_chile', 0),
     'Mega.cl': ('mega_chile', 0),
@@ -91,7 +90,7 @@ CANALES_GATOTV = {
     'Cinecanal.cl': ('cinecanal_chile', 0),
     'Cinemax.cl': ('cinemax_chile', 0),
     'Golden.cl': ('golden_chile', 0),
-    'GoldenEdge.cl': ('golden_edge', -2), # Configurado desfase de -2h
+    'GoldenEdge.cl': ('golden_edge', -2),
     'HBO.cl': ('hbo_chile', 0),
     'HBO2.cl': ('hbo_2_latinoamerica', 0),
     'HBOFamily.cl': ('hbo_family_latinoamerica', 0),
@@ -165,7 +164,7 @@ MAPEO_IDS = {
     'History2.cl': 'History2.cl1',
 }
 
-# 🌐 SOLO FUENTES PÚBLICAS EXTERNAS
+# 🌐 FUENTES PÚBLICAS
 FUENTES_PUBLICAS = [
     "https://iptv-epg.org/files/epg-cl.xml",
     "https://iptv-epg.org/files/epg-ar.xml",
@@ -175,10 +174,10 @@ FUENTES_PUBLICAS = [
     "https://iptv-epg.org/files/epg-bo.xml",
 ]
 
-# 📝 TU GUÍA MANUAL
+# 📝 GUÍA MANUAL
 GUIA_PROPIA = "https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml"
 
-# 🕒 DESFASES PARA LAS FUENTES PÚBLICAS
+# 🕒 DESFASES FUENTES PÚBLICAS
 DESFASE_CANALES = {
     'Cinemax.cl': 1,
     'ESPN2.cl': -1,
@@ -192,7 +191,7 @@ DESFASE_CANALES = {
     'TyCSports.cl': -1,
 }
 
-# 🕒 DESFASES EXCLUSIVOS PARA TU GUÍA PROPIA
+# 🕒 DESFASES GUÍA PROPIA
 DESFASE_GUIA_PROPIA = {
     'GoldenEdge.cl': -2,
 }
@@ -221,7 +220,6 @@ DATOS_RESPALDO = {
     'History2.cl1': ('History 2', 'Documentales', 'Programación History 2', 'Documentales, historia y ciencia.')
 }
 
-# 🔧 FUNCION PARA NORMALIZAR CUALQUIER ZONA HORARIA A UTC ABSOLUTO (+0000)
 def normalizar_a_utc(time_str, horas_desfase=0):
     if not time_str or len(time_str) < 14:
         return time_str, None
@@ -250,7 +248,7 @@ def normalizar_a_utc(time_str, horas_desfase=0):
         return time_str, None
 
 def descargar_xml(url):
-    headers = {'User-Agent': 'Mozilla/5.0'}
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
     req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req) as response:
         content = response.read()
@@ -258,19 +256,21 @@ def descargar_xml(url):
         content = gzip.decompress(content)
     return ET.fromstring(content)
 
-# 🐱 SCRAPER DE GATOTV
+# 🐱 SCRAPER DE GATOTV OPTIMIZADO
 def extraer_gatotv(channel_id, slug, horas_desfase, canales_dict, programas_lista):
     url = f"https://www.gatotv.com/canal/{slug}"
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept-Language': 'es-ES,es;q=0.9',
+    }
     
     try:
         req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, timeout=10) as resp:
+        with urllib.request.urlopen(req, timeout=15) as resp:
             html = resp.read().decode('utf-8', errors='ignore')
             
         soup = BeautifulSoup(html, 'html.parser')
         
-        # Guardar nombre de canal si no existe
         if channel_id not in canales_dict:
             ch_elem = ET.Element('channel', id=channel_id)
             dn_elem = ET.SubElement(ch_elem, 'display-name')
@@ -278,13 +278,12 @@ def extraer_gatotv(channel_id, slug, horas_desfase, canales_dict, programas_list
             dn_elem.text = title_tag.text.split('-')[0].strip() if title_tag else channel_id
             canales_dict[channel_id] = ch_elem
             
-        # Buscar la tabla de programación
-        tbl = soup.find('table', class_='tbl_schedules')
-        if not tbl:
-            return
-
-        filas = tbl.find_all('tr')
+        filas = soup.select('table.tbl_schedules tr, tr.tbl_schedules_row')
+        if not filas:
+            filas = soup.find_all('tr')
+            
         hoy = datetime.datetime.utcnow().date()
+        programas_temp = []
         
         for tr in filas:
             tds = tr.find_all('td')
@@ -292,7 +291,6 @@ def extraer_gatotv(channel_id, slug, horas_desfase, canales_dict, programas_list
                 continue
                 
             time_td = tds[0].text.strip()
-            # Extraer hora HH:MM (ej: "14:30" o "02:30 PM")
             time_match = re.search(r'(\d{1,2}):(\d{2})', time_td)
             if not time_match:
                 continue
@@ -300,52 +298,78 @@ def extraer_gatotv(channel_id, slug, horas_desfase, canales_dict, programas_list
             hora = int(time_match.group(1))
             minuto = int(time_match.group(2))
             
-            # Ajuste formato 12h si incluye PM
-            if 'PM' in time_td.upper() and hora < 12:
+            time_upper = time_td.upper()
+            if 'PM' in time_upper and hora < 12:
                 hora += 12
-            elif 'AM' in time_td.upper() and hora == 12:
+            elif 'AM' in time_upper and hora == 12:
                 hora = 0
                 
             dt_inicio = datetime.datetime(hoy.year, hoy.month, hoy.day, hora, minuto)
             
-            # Ajustar desfase de zona horaria (GatoTV suele publicar en UTC-3 / UTC-4 según época)
-            dt_inicio_utc = dt_inicio + datetime.timedelta(hours=4) # Convertir base Chile/Arg a UTC
+            # GatoTV publica en horario local Chile/Argentina (UTC-3 / UTC-4) -> Convertir a UTC (+4)
+            dt_inicio_utc = dt_inicio + datetime.timedelta(hours=4)
             if horas_desfase != 0:
                 dt_inicio_utc += datetime.timedelta(hours=horas_desfase)
                 
-            # Asignar duración por defecto (1 hora)
-            dt_fin_utc = dt_inicio_utc + datetime.timedelta(hours=1)
-            
             info_td = tds[1]
-            titulo_elem = info_td.find('span', class_='tbl_schedules_title') or info_td.find('a')
-            titulo = titulo_elem.text.strip() if titulo_elem else "Programación"
-            
-            desc_elem = info_td.find('div', class_='tbl_schedules_desc')
+            titulo_elem = info_td.find('span', class_='tbl_schedules_title') or info_td.find('a') or info_td.find('strong')
+            if not titulo_elem:
+                continue
+            titulo = titulo_elem.text.strip()
+            if not titulo or titulo.lower() in ['hora', 'programa']:
+                continue
+                
+            desc_elem = info_td.find('div', class_='tbl_schedules_desc') or info_td.find('span', class_='tbl_schedules_desc')
             desc = desc_elem.text.strip() if desc_elem else "Sin descripción disponible."
             
-            # Extraer Imagen / Poster si existe
             img_elem = info_td.find('img')
-            img_url = img_elem.get('src') if img_elem else None
+            img_url = None
+            if img_elem:
+                img_url = img_elem.get('src') or img_elem.get('data-src')
             
-            # Crear Elemento Programme XMLTV
+            programas_temp.append({
+                'title': titulo,
+                'desc': desc,
+                'start': dt_inicio_utc,
+                'img': img_url
+            })
+
+        # Calcular hora de fin según la hora de inicio del siguiente programa
+        programas_encontrados = 0
+        for i in range(len(programas_temp)):
+            p = programas_temp[i]
+            st_dt = p['start']
+            
+            if i + 1 < len(programas_temp):
+                sp_dt = programas_temp[i+1]['start']
+                if sp_dt <= st_dt:
+                    sp_dt = st_dt + datetime.timedelta(days=1)
+            else:
+                sp_dt = st_dt + datetime.timedelta(hours=1)
+                
             prog = ET.Element('programme', 
-                              start=dt_inicio_utc.strftime("%Y%m%d%H%M%S +0000"), 
-                              stop=dt_fin_utc.strftime("%Y%m%d%H%M%S +0000"), 
+                              start=st_dt.strftime("%Y%m%d%H%M%S +0000"), 
+                              stop=sp_dt.strftime("%Y%m%d%H%M%S +0000"), 
                               channel=channel_id)
             
             title_xml = ET.SubElement(prog, 'title', lang='es')
-            title_xml.text = titulo
+            title_xml.text = p['title']
             
             desc_xml = ET.SubElement(prog, 'desc', lang='es')
-            desc_xml.text = desc
+            desc_xml.text = p['desc']
             
-            if img_url:
+            if p['img']:
+                img_url = p['img']
                 if not img_url.startswith('http'):
-                    img_url = "https://www.gatotv.com" + img_url
+                    img_url = "https://www.gatotv.com" + (img_url if img_url.startswith('/') else '/' + img_url)
                 ET.SubElement(prog, 'icon', src=img_url)
                 
-            programas_lista.append((prog, channel_id, dt_inicio_utc, dt_fin_utc))
-            
+            programas_lista.append((prog, channel_id, st_dt, sp_dt))
+            programas_encontrados += 1
+
+        if programas_encontrados > 0:
+            print(f"   └─ {channel_id}: {programas_encontrados} programas extraídos de GatoTV.")
+
     except Exception as e:
         print(f" ⚠️ No se pudo extraer GatoTV para {channel_id}: {e}")
 
@@ -457,7 +481,6 @@ try:
                     elem.set('stop', stop_str)
 
                     if st_dt and sp_dt:
-                        # 🧹 ELIMINACIÓN DE BLOQUES EN CONFLICTO (Tu guía le gana a GatoTV y a las públicas)
                         programas_lista = [
                             p for p in programas_lista 
                             if not (p[1] == target_id and p[2] < sp_dt and p[3] > st_dt)
@@ -475,7 +498,7 @@ try:
             agregar_bloque_respaldo(canales_dict, programas_lista, ch_id)
             print(f" ✔ Respaldo creado para: {ch_id}")
 
-    # 5. ENSAMBLAJE FINAL CON ORDENAMIENTO CRONOLÓGICO
+    # 5. ENSAMBLAJE FINAL
     for ch_id in sorted(canales_dict.keys()):
         root_final.append(canales_dict[ch_id])
 
