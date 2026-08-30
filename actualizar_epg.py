@@ -1,15 +1,17 @@
 import datetime
 import gzip
+import urllib.request
+import urllib.error
 import re
 import xml.etree.ElementTree as ET
+from html.parser import HTMLParser
 from zoneinfo import ZoneInfo
-import requests
-from bs4 import BeautifulSoup
 
-# 🇨🇱 ZONA HORARIA OFICIAL DE CHILE (Maneja UTC-3 y UTC-4 automáticamente)
-ZONA_CHILE = ZoneInfo("America/Santiago")
 
-# 🎯 TUS CANALES CON IDS LIMPIOS (Mantiene History2.cl1 intacto)
+# ============================================================
+# 🎯 TUS CANALES CON IDS LIMPIOS
+# ============================================================
+
 MIS_CANALES = {
     'TVN.cl',
     'Mega.cl',
@@ -84,73 +86,11 @@ MIS_CANALES = {
     '24Horas.cl',
 }
 
-# 🐱 CONFIGURACIÓN DE CANALES GATOTV
-CANALES_GATOTV = {
-    'TVN.cl': ('tvn_chile', 0),
-    'Mega.cl': ('mega_chile', 0),
-    'Chilevision.cl': ('chilevision', 0),
-    'Canal13.cl': ('13_de_chile', 0),
-    'AMC.cl': ('amc_mexico', 0),
-    'Cinecanal.cl': ('cinecanal_chile', 0),
-    'Cinemax.cl': ('cinemax_chile', 0),
-    'Golden.cl': ('golden_chile', 0),
-    'GoldenEdge.cl': ('golden_edge', -2),
-    'HBO.cl': ('hbo_chile', 0),
-    'HBO2.cl': ('hbo_2_latinoamerica', 0),
-    'HBOFamily.cl': ('hbo_family_latinoamerica', 0),
-    'HBOPop.cl': ('hbo_pop', 0),
-    'HBOXtreme.cl': ('hbo_xtreme', 0),
-    'SONYMOVIES.uy': ('sony_movies_chile', 0),
-    'Sony.cl': ('sony_centro', 0),
-    'Space.cl': ('space_chile', 0),
-    'StudioUniversal.ar': ('studio_universal_panregional', 0),
-    'TNT.cl': ('tnt_chile', 0),
-    'TNTSeries.cl': ('tnt_series', 0),
-    'StarChannel.cl': ('star_channel_chile', 0),
-    'UniversalTV.cl': ('universal_tv_panregional', 0),
-    'WarnerChannel.cl': ('warner_tv_chile', 0),
-    'FX.cl': ('fx_chile', 0),
-    'AXN.cl': ('axn_chile', 0),
-    'AE.cl': ('a_y_e_chile', 0),
-    'USANetwork.bo': ('usa_network_chile', 0),
-    'FilmAndArts.cl': ('film_and_arts', 0),
-    'ComedyCentral.cl': ('comedy_central_bolivia', 0),
-    'E_Entertainment.cl': ('e_entertainment_television_chile', 0),
-    'ESPN.cl': ('espn_chile', 0),
-    'ESPN2.cl': ('espn_2_colombia', 0),
-    'ESPN3.cl': ('espn_3_chile', 0),
-    'ESPN4.cl': ('espn_4_sur', 0),
-    'ESPN6.cl': ('espn_6_chile', 0),
-    'ESPN7.cl': ('espn_7_chile', 0),
-    'TyCSports.cl': ('tyc_sports', 0),
-    'CartoonNetwork.cl': ('cartoon_network_chile', 0),
-    'DiscoveryKids.cl': ('discovery_kids_chile', 0),
-    'DisneyChannel.cl': ('disney_channel_chile', 0),
-    'DisneyJunior.cl': ('disney_junior_chile', 0),
-    'NickJr.bo': ('nick_junior_latinoamerica', 0),
-    'Nick.cl': ('nickelodeon_chile', 0),
-    'Tooncast.cl': ('tooncast', 0),
-    'AnimalPlanet.cl': ('animal_planet_chile', 0),
-    'Discovery.cl': ('discovery_channel_chile', 0),
-    'DiscoveryScience.cl': ('discovery_science_latinoamerica', 0),
-    'DiscoveryTheater.cl': ('discovery_theater_latinoamerica', 0),
-    'DiscoveryTurbo.cl': ('discovery_turbo_latinoamerica', 0),
-    'DiscoveryWorld.cl': ('discovery_world_latinoamerica', 0),
-    'ElGourmet.cl': ('elgourmet', 0),
-    'History.cl': ('history_chile', 0),
-    'History2.cl1': ('history_2_chile', 0),
-    'InvestigationDiscovery.cl': ('investigation_discovery_panregional', 0),
-    'NationalGeographic.cl': ('national_geographic_chile', 0),
-    'LasEstrellas.cl': ('las_estrellas_chile', 0),
-    'PASIONES.uy': ('pasiones_latinoamerica', 0),
-    'TelemundoInternacional.ar': ('telemundo_chile', 0),
-    'TLNovelas.cl': ('tlnovelas_chile', 0),
-    'EnlaceTBN.cl': ('enlace', 0),
-    'CNNChile.cl': ('cnn_chile', 0),
-    '24Horas.cl': ('24_horas_chile', 0),
-}
 
+# ============================================================
 # 🔄 MAPEO COMPLETO
+# ============================================================
+
 MAPEO_IDS = {
     'E_EntertainmentTelevision.bo': 'E_Entertainment.cl',
     'EEntertainment.cl': 'E_Entertainment.cl',
@@ -168,7 +108,11 @@ MAPEO_IDS = {
     'History2.cl': 'History2.cl1',
 }
 
-# 🌐 FUENTES PÚBLICAS
+
+# ============================================================
+# 🌐 SOLO FUENTES PÚBLICAS EXTERNAS
+# ============================================================
+
 FUENTES_PUBLICAS = [
     "https://iptv-epg.org/files/epg-cl.xml",
     "https://iptv-epg.org/files/epg-ar.xml",
@@ -178,10 +122,18 @@ FUENTES_PUBLICAS = [
     "https://iptv-epg.org/files/epg-bo.xml",
 ]
 
-# 📝 GUÍA MANUAL
+
+# ============================================================
+# 📝 TU GUÍA MANUAL
+# ============================================================
+
 GUIA_PROPIA = "https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml"
 
-# 🕒 DESFASES FUENTES PÚBLICAS
+
+# ============================================================
+# 🕒 DESFASES PARA LAS FUENTES PÚBLICAS
+# ============================================================
+
 DESFASE_CANALES = {
     'Cinemax.cl': 1,
     'ESPN2.cl': -1,
@@ -195,10 +147,152 @@ DESFASE_CANALES = {
     'TyCSports.cl': -1,
 }
 
-# 🕒 DESFASES GUÍA PROPIA
+
+# ============================================================
+# 🕒 DESFASES EXCLUSIVOS PARA TU GUÍA PROPIA
+# ============================================================
+
 DESFASE_GUIA_PROPIA = {
     'GoldenEdge.cl': -2,
 }
+
+
+# ============================================================
+# 🐱 GATOTV
+#
+# Aquí están los canales que quieres obtener desde GatoTV.
+#
+# Si algún día quieres agregar otro canal:
+#
+# 'ID_DE_TU_CANAL': 'https://www.gatotv.com/canal/xxxxx',
+#
+# ============================================================
+
+GATOTV_CANALES = {
+
+    'TVN.cl': 'https://www.gatotv.com/canal/tvn_chile',
+    'Mega.cl': 'https://www.gatotv.com/canal/mega_chile',
+    'Chilevision.cl': 'https://www.gatotv.com/canal/chilevision',
+    'Canal13.cl': 'https://www.gatotv.com/canal/13_de_chile',
+
+    'AMC.cl': 'https://www.gatotv.com/canal/amc_mexico',
+    'Cinecanal.cl': 'https://www.gatotv.com/canal/cinecanal_chile',
+    'Cinemax.cl': 'https://www.gatotv.com/canal/cinemax_chile',
+    'Golden.cl': 'https://www.gatotv.com/canal/golden_chile',
+    'GoldenEdge.cl': 'https://www.gatotv.com/canal/golden_edge',
+
+    'HBO.cl': 'https://www.gatotv.com/canal/hbo_chile',
+    'HBO2.cl': 'https://www.gatotv.com/canal/hbo_2_latinoamerica',
+    'HBOFamily.cl': 'https://www.gatotv.com/canal/hbo_family_latinoamerica',
+    'HBOPop.cl': 'https://www.gatotv.com/canal/hbo_pop',
+    'HBOXtreme.cl': 'https://www.gatotv.com/canal/hbo_xtreme',
+
+    'SONYMOVIES.uy': 'https://www.gatotv.com/canal/sony_movies_chile',
+    'Sony.cl': 'https://www.gatotv.com/canal/sony_centro',
+    'Space.cl': 'https://www.gatotv.com/canal/space_chile',
+    'StudioUniversal.ar': 'https://www.gatotv.com/canal/studio_universal_panregional',
+
+    'TNT.cl': 'https://www.gatotv.com/canal/tnt_chile',
+    'TNTSeries.cl': 'https://www.gatotv.com/canal/tnt_series',
+    'StarChannel.cl': 'https://www.gatotv.com/canal/star_channel_chile',
+    'UniversalTV.cl': 'https://www.gatotv.com/canal/universal_tv_panregional',
+    'WarnerChannel.cl': 'https://www.gatotv.com/canal/warner_tv_chile',
+
+    'FX.cl': 'https://www.gatotv.com/canal/fx_chile',
+    'AXN.cl': 'https://www.gatotv.com/canal/axn_chile',
+    'AE.cl': 'https://www.gatotv.com/canal/a_y_e_chile',
+    'USANetwork.bo': 'https://www.gatotv.com/canal/usa_network_chile',
+
+    'FilmAndArts.cl': 'https://www.gatotv.com/canal/film_and_arts',
+    'ComedyCentral.cl': 'https://www.gatotv.com/canal/comedy_central_bolivia',
+    'E_Entertainment.cl': 'https://www.gatotv.com/canal/e_entertainment_television_chile',
+
+    'ESPN.cl': 'https://www.gatotv.com/canal/espn_chile',
+    'ESPN2.cl': 'https://www.gatotv.com/canal/espn_2_colombia',
+    'ESPN3.cl': 'https://www.gatotv.com/canal/espn_3_chile',
+    'ESPN4.cl': 'https://www.gatotv.com/canal/espn_4_sur',
+    'ESPN6.cl': 'https://www.gatotv.com/canal/espn_6_chile',
+    'ESPN7.cl': 'https://www.gatotv.com/canal/espn_7_chile',
+    'TyCSports.cl': 'https://www.gatotv.com/canal/tyc_sports',
+
+    'CartoonNetwork.cl': 'https://www.gatotv.com/canal/cartoon_network_chile',
+    'DiscoveryKids.cl': 'https://www.gatotv.com/canal/discovery_kids_chile',
+    'DisneyChannel.cl': 'https://www.gatotv.com/canal/disney_channel_chile',
+    'DisneyJunior.cl': 'https://www.gatotv.com/canal/disney_junior_chile',
+    'NickJr.bo': 'https://www.gatotv.com/canal/nick_junior_latinoamerica',
+    'Nick.cl': 'https://www.gatotv.com/canal/nickelodeon_chile',
+    'Tooncast.cl': 'https://www.gatotv.com/canal/tooncast',
+
+    'AnimalPlanet.cl': 'https://www.gatotv.com/canal/animal_planet_chile',
+    'Discovery.cl': 'https://www.gatotv.com/canal/discovery_channel_chile',
+    'DiscoveryScience.cl': 'https://www.gatotv.com/canal/discovery_science_latinoamerica',
+    'DiscoveryTheater.cl': 'https://www.gatotv.com/canal/discovery_theater_latinoamerica',
+    'DiscoveryTurbo.cl': 'https://www.gatotv.com/canal/discovery_turbo_latinoamerica',
+    'DiscoveryWorld.cl': 'https://www.gatotv.com/canal/discovery_world_latinoamerica',
+
+    'ElGourmet.cl': 'https://www.gatotv.com/canal/elgourmet',
+    'History.cl': 'https://www.gatotv.com/canal/history_chile',
+    'History2.cl1': 'https://www.gatotv.com/canal/history_2_chile',
+    'InvestigationDiscovery.cl': 'https://www.gatotv.com/canal/investigation_discovery_panregional',
+    'NationalGeographic.cl': 'https://www.gatotv.com/canal/national_geographic_chile',
+
+    'LasEstrellas.cl': 'https://www.gatotv.com/canal/las_estrellas_chile',
+    'PASIONES.uy': 'https://www.gatotv.com/canal/pasiones_latinoamerica',
+    'TelemundoInternacional.ar': 'https://www.gatotv.com/canal/telemundo_chile',
+    'TLNovelas.cl': 'https://www.gatotv.com/canal/tlnovelas_chile',
+
+    'EnlaceTBN.cl': 'https://www.gatotv.com/canal/enlace',
+    'CNNChile.cl': 'https://www.gatotv.com/canal/cnn_chile',
+    '24Horas.cl': 'https://www.gatotv.com/canal/24_horas_chile',
+}
+
+
+# ============================================================
+# 🕒 DESFASES EXCLUSIVOS PARA GATOTV
+#
+# IMPORTANTE:
+# Este bloque es independiente de los otros dos.
+#
+# Si mañana descubres que otro canal necesita desfase,
+# simplemente agrega una línea aquí.
+#
+# Ejemplo:
+#
+# 'HBO.cl': -1,
+#
+# ============================================================
+
+DESFASE_GATOTV = {
+    'GoldenEdge.cl': -2,
+}
+
+
+# ============================================================
+# 📅 GATOTV: CUÁNTOS DÍAS CONSULTAR
+#
+# 3 significa:
+# HOY + MAÑANA + PASADO MAÑANA
+# ============================================================
+
+GATOTV_DIAS = 3
+
+
+# ============================================================
+# 🌎 ZONA HORARIA BASE DE GATOTV
+#
+# Las páginas que estamos utilizando están orientadas a
+# señales latinoamericanas y muestran horarios locales.
+#
+# Usamos la zona de Santiago para convertir esos horarios
+# a UTC correctamente, incluyendo cambios de horario.
+# ============================================================
+
+ZONA_HORARIA_GATOTV = ZoneInfo("America/Santiago")
+
+
+# ============================================================
+# 📝 DATOS DE RESPALDO
+# ============================================================
 
 DATOS_RESPALDO = {
     'E_Entertainment.cl': ('E! Entertainment', 'Variado', 'Programación E! Entertainment', 'Espectáculos, moda, realities y cultura pop.'),
@@ -224,305 +318,859 @@ DATOS_RESPALDO = {
     'History2.cl1': ('History 2', 'Documentales', 'Programación History 2', 'Documentales, historia y ciencia.')
 }
 
-SESSION = requests.Session()
-SESSION.headers.update({
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-    'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8',
-})
 
-def normalizar_a_chile(time_str, horas_desfase=0):
+# ============================================================
+# 🔧 NORMALIZAR CUALQUIER ZONA HORARIA A UTC
+# ============================================================
+
+def normalizar_a_utc(time_str, horas_desfase=0):
     if not time_str or len(time_str) < 14:
         return time_str, None
+
     try:
         clean = time_str.strip()
         dt_part = clean[:14]
         tz_part = clean[14:].strip()
-        
+
         dt = datetime.datetime.strptime(dt_part, "%Y%m%d%H%M%S")
-        
+
         if tz_part and (tz_part.startswith('+') or tz_part.startswith('-')):
             sign = 1 if tz_part[0] == '+' else -1
             tz_hours = int(tz_part[1:3])
             tz_mins = int(tz_part[3:5]) if len(tz_part) >= 5 else 0
-            offset_delta = datetime.timedelta(hours=sign * tz_hours, minutes=sign * tz_mins)
-            dt_utc = dt.replace(tzinfo=datetime.timezone.utc) - offset_delta
+
+            offset_delta = datetime.timedelta(
+                hours=sign * tz_hours,
+                minutes=sign * tz_mins
+            )
+
+            dt_utc = dt - offset_delta
         else:
-            dt_utc = dt.replace(tzinfo=datetime.timezone.utc)
-            
-        dt_chile = dt_utc.astimezone(ZONA_CHILE)
-        
+            dt_utc = dt
+
         if horas_desfase != 0:
-            dt_chile += datetime.timedelta(hours=horas_desfase)
-            
-        str_chile = dt_chile.strftime("%Y%m%d%H%M%S %z")
-        return str_chile, dt_chile
+            dt_utc += datetime.timedelta(hours=horas_desfase)
+
+        str_utc = dt_utc.strftime("%Y%m%d%H%M%S") + " +0000"
+
+        return str_utc, dt_utc
+
     except Exception:
         return time_str, None
 
+
+# ============================================================
+# 🌐 DESCARGAR XML
+# ============================================================
+
 def descargar_xml(url):
-    resp = SESSION.get(url, timeout=30)
-    resp.raise_for_status()
-    content = resp.content
+    headers = {
+        'User-Agent': 'Mozilla/5.0'
+    }
+
+    req = urllib.request.Request(url, headers=headers)
+
+    with urllib.request.urlopen(req, timeout=30) as response:
+        content = response.read()
+
     if url.endswith('.gz') or content[:2] == b'\x1f\x8b':
         content = gzip.decompress(content)
+
     return ET.fromstring(content)
 
-# 🐱 SCRAPER DE GATOTV CON REQUESTS
-def extraer_gatotv(channel_id, slug, horas_desfase, canales_dict, programas_lista):
-    url = f"https://www.gatotv.com/canal/{slug}"
-    try:
-        resp = SESSION.get(url, timeout=15)
-        if resp.status_code != 200:
-            print(f" ⚠️ GatoTV devolvió estado {resp.status_code} para {channel_id}")
+
+# ============================================================
+# 🐱 PARSER HTML DE GATOTV
+#
+# No usamos BeautifulSoup ni ninguna librería externa.
+# Python estándar se encarga de leer las filas de la tabla.
+# ============================================================
+
+class GatoTVParser(HTMLParser):
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+
+        self.rows = []
+
+        self.in_tr = False
+        self.in_td = False
+        self.in_th = False
+        self.in_a = False
+
+        self.current_row = []
+        self.current_cell = []
+
+        self.current_anchor = []
+        self.anchor_text = None
+
+    def handle_starttag(self, tag, attrs):
+
+        tag = tag.lower()
+
+        if tag == 'tr':
+            self.in_tr = True
+            self.current_row = []
+
+        elif self.in_tr and tag in ('td', 'th'):
+            self.in_td = tag == 'td'
+            self.in_th = tag == 'th'
+            self.current_cell = []
+            self.current_anchor = []
+            self.anchor_text = None
+
+        elif (self.in_td or self.in_th) and tag == 'a':
+            self.in_a = True
+            self.current_anchor = []
+
+    def handle_data(self, data):
+
+        if not (self.in_td or self.in_th):
             return
 
-        html = resp.text
-        soup = BeautifulSoup(html, 'html.parser')
-        
-        if channel_id not in canales_dict:
-            ch_elem = ET.Element('channel', id=channel_id)
-            dn_elem = ET.SubElement(ch_elem, 'display-name')
-            title_tag = soup.find('title')
-            dn_elem.text = title_tag.text.split('-')[0].strip() if title_tag else channel_id
-            canales_dict[channel_id] = ch_elem
-            
-        filas = soup.select('table.tbl_schedules tr, tr.tbl_schedules_row')
-        if not filas:
-            filas = soup.find_all('tr')
-            
-        hoy = datetime.datetime.now(ZONA_CHILE).date()
-        programas_temp = []
-        
-        for tr in filas:
-            tds = tr.find_all('td')
-            if len(tds) < 2:
-                continue
-                
-            time_td = tds[0].text.strip()
-            time_match = re.search(r'(\d{1,2}):(\d{2})', time_td)
-            if not time_match:
-                continue
-                
-            hora = int(time_match.group(1))
-            minuto = int(time_match.group(2))
-            
-            time_upper = time_td.upper()
-            if 'PM' in time_upper and hora < 12:
-                hora += 12
-            elif 'AM' in time_upper and hora == 12:
-                hora = 0
-                
-            dt_inicio = datetime.datetime(hoy.year, hoy.month, hoy.day, hora, minuto, tzinfo=ZONA_CHILE)
-            
-            if horas_desfase != 0:
-                dt_inicio += datetime.timedelta(hours=horas_desfase)
-                
-            info_td = tds[1]
-            titulo_elem = info_td.find('span', class_='tbl_schedules_title') or info_td.find('a') or info_td.find('strong')
-            if not titulo_elem:
-                continue
-            titulo = titulo_elem.text.strip()
-            if not titulo or titulo.lower() in ['hora', 'programa']:
-                continue
-                
-            desc_elem = info_td.find('div', class_='tbl_schedules_desc') or info_td.find('span', class_='tbl_schedules_desc')
-            desc = desc_elem.text.strip() if desc_elem else "Sin descripción disponible."
-            
-            img_elem = info_td.find('img')
-            img_url = None
-            if img_elem:
-                img_url = img_elem.get('src') or img_elem.get('data-src')
-            
-            programas_temp.append({
-                'title': titulo,
-                'desc': desc,
-                'start': dt_inicio,
-                'img': img_url
-            })
+        texto = data.strip()
 
-        programas_encontrados = 0
-        for i in range(len(programas_temp)):
-            p = programas_temp[i]
-            st_dt = p['start']
-            
-            if i + 1 < len(programas_temp):
-                sp_dt = programas_temp[i+1]['start']
-                if sp_dt <= st_dt:
-                    sp_dt = st_dt + datetime.timedelta(days=1)
-            else:
-                sp_dt = st_dt + datetime.timedelta(hours=1)
-                
-            prog = ET.Element('programme', 
-                              start=st_dt.strftime("%Y%m%d%H%M%S %z"), 
-                              stop=sp_dt.strftime("%Y%m%d%H%M%S %z"), 
-                              channel=channel_id)
-            
-            title_xml = ET.SubElement(prog, 'title', lang='es')
-            title_xml.text = p['title']
-            
-            desc_xml = ET.SubElement(prog, 'desc', lang='es')
-            desc_xml.text = p['desc']
-            
-            if p['img']:
-                img_url = p['img']
-                if not img_url.startswith('http'):
-                    img_url = "https://www.gatotv.com" + (img_url if img_url.startswith('/') else '/' + img_url)
-                ET.SubElement(prog, 'icon', src=img_url)
-                
-            programas_lista.append((prog, channel_id, st_dt, sp_dt))
-            programas_encontrados += 1
+        if not texto:
+            return
 
-        if programas_encontrados > 0:
-            print(f"    └─ {channel_id}: {programas_encontrados} programas extraídos de GatoTV.")
+        self.current_cell.append(texto)
+
+        if self.in_a:
+            self.current_anchor.append(texto)
+
+    def handle_endtag(self, tag):
+
+        tag = tag.lower()
+
+        if tag == 'a' and self.in_a:
+            self.in_a = False
+            self.anchor_text = " ".join(self.current_anchor).strip()
+
+        elif tag in ('td', 'th') and (self.in_td or self.in_th):
+
+            texto = " ".join(self.current_cell).strip()
+
+            # Si la celda contiene un enlace con el nombre del
+            # programa, usamos únicamente el texto del enlace.
+            if self.anchor_text:
+                texto = self.anchor_text
+
+            self.current_row.append(texto)
+
+            self.in_td = False
+            self.in_th = False
+            self.current_cell = []
+            self.current_anchor = []
+            self.anchor_text = None
+
+        elif tag == 'tr' and self.in_tr:
+
+            if self.current_row:
+                self.rows.append(self.current_row)
+
+            self.current_row = []
+            self.in_tr = False
+
+
+# ============================================================
+# 🕐 CONVERTIR HORA DE GATOTV A DATETIME
+# ============================================================
+
+def convertir_hora_gatotv(hora, fecha):
+
+    if not hora:
+        return None
+
+    hora = " ".join(hora.strip().split())
+
+    formatos = [
+        "%H:%M",
+        "%I:%M %p",
+        "%I:%M%p",
+    ]
+
+    dt_hora = None
+
+    for formato in formatos:
+        try:
+            dt_hora = datetime.datetime.strptime(hora, formato).time()
+            break
+        except ValueError:
+            continue
+
+    if dt_hora is None:
+        return None
+
+    return datetime.datetime.combine(
+        fecha,
+        dt_hora,
+        tzinfo=ZONA_HORARIA_GATOTV
+    )
+
+
+# ============================================================
+# 🐱 EXTRAER PROGRAMACIÓN DE UNA PÁGINA GATOTV
+# ============================================================
+
+def extraer_programacion_gatotv(url, channel_id, fecha):
+
+    print(f"    → GatoTV: {channel_id} | {fecha}")
+
+    headers = {
+        'User-Agent': (
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+            'AppleWebKit/537.36 (KHTML, like Gecko) '
+            'Chrome/120.0 Safari/537.36'
+        ),
+        'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8'
+    }
+
+    req = urllib.request.Request(url, headers=headers)
+
+    try:
+        with urllib.request.urlopen(req, timeout=30) as response:
+            html = response.read().decode('utf-8', errors='replace')
 
     except Exception as e:
-        print(f" ⚠️ No se pudo extraer GatoTV para {channel_id}: {e}")
+        print(f"       ❌ No se pudo descargar GatoTV: {e}")
+        return []
 
-def agregar_bloque_respaldo(canales_dict, programas_lista, channel_id):
-    ch_name, categoria, titulo_prog, desc_prog = DATOS_RESPALDO.get(
-        channel_id, (channel_id, 'Variado', 'Programación General', 'Transmisión continua.')
+    parser = GatoTVParser()
+
+    try:
+        parser.feed(html)
+    except Exception as e:
+        print(f"       ❌ Error leyendo HTML de GatoTV: {e}")
+        return []
+
+    programas = []
+
+    for row in parser.rows:
+
+        if len(row) < 3:
+            continue
+
+        hora_inicio = row[0].strip()
+        hora_fin = row[1].strip()
+        titulo = row[2].strip()
+
+        # Las filas reales de programación comienzan con una hora.
+        if not re.match(r'^\d{1,2}:\d{2}', hora_inicio):
+            continue
+
+        if not re.match(r'^\d{1,2}:\d{2}', hora_fin):
+            continue
+
+        if not titulo:
+            continue
+
+        start_local = convertir_hora_gatotv(hora_inicio, fecha)
+        stop_local = convertir_hora_gatotv(hora_fin, fecha)
+
+        if not start_local or not stop_local:
+            continue
+
+        # Si el programa termina después de medianoche,
+        # su hora final pertenece al día siguiente.
+        if stop_local <= start_local:
+            stop_local += datetime.timedelta(days=1)
+
+        # Convertimos a UTC.
+        start_utc = start_local.astimezone(datetime.timezone.utc)
+        stop_utc = stop_local.astimezone(datetime.timezone.utc)
+
+        # Aplicar el desfase EXCLUSIVO de GatoTV.
+        desfase = DESFASE_GATOTV.get(channel_id, 0)
+
+        if desfase != 0:
+            diferencia = datetime.timedelta(hours=desfase)
+            start_utc += diferencia
+            stop_utc += diferencia
+
+        # Evitar programas absurdos o dañados.
+        if stop_utc <= start_utc:
+            continue
+
+        if (stop_utc - start_utc).total_seconds() > 24 * 60 * 60:
+            continue
+
+        prog = ET.Element(
+            'programme',
+            {
+                'start': start_utc.strftime("%Y%m%d%H%M%S") + " +0000",
+                'stop': stop_utc.strftime("%Y%m%d%H%M%S") + " +0000",
+                'channel': channel_id
+            }
+        )
+
+        title = ET.SubElement(prog, 'title', lang='es')
+        title.text = titulo
+
+        programas.append(
+            (
+                prog,
+                channel_id,
+                start_utc.replace(tzinfo=None),
+                stop_utc.replace(tzinfo=None)
+            )
+        )
+
+    print(f"       ✔ Programas encontrados: {len(programas)}")
+
+    return programas
+
+
+# ============================================================
+# 🐱 OBTENER LOS 3 DÍAS DE GATOTV
+#
+# HOY + MAÑANA + PASADO MAÑANA
+# ============================================================
+
+def cargar_gatotv(programas_lista, canales_dict):
+
+    print("")
+    print("3. Cargando programación desde GatoTV...")
+    print("")
+
+    # Usamos la fecha de Chile, no la fecha UTC del servidor de GitHub.
+    ahora_chile = datetime.datetime.now(ZONA_HORARIA_GATOTV)
+    fecha_base = ahora_chile.date()
+
+    total_programas = 0
+
+    for channel_id, base_url in GATOTV_CANALES.items():
+
+        programas_canal = []
+
+        for dia in range(GATOTV_DIAS):
+
+            fecha = fecha_base + datetime.timedelta(days=dia)
+
+            url = f"{base_url}/{fecha.strftime('%Y-%m-%d')}"
+
+            programas = extraer_programacion_gatotv(
+                url,
+                channel_id,
+                fecha
+            )
+
+            programas_canal.extend(programas)
+
+        if not programas_canal:
+            print(
+                f"    ⚠️ GatoTV no entregó programación para "
+                f"{channel_id}. Se conservarán otras fuentes."
+            )
+            continue
+
+        # Si el canal no existía todavía, creamos su elemento.
+        if channel_id not in canales_dict:
+
+            ch_elem = ET.Element(
+                'channel',
+                id=channel_id
+            )
+
+            dn_elem = ET.SubElement(
+                ch_elem,
+                'display-name'
+            )
+
+            dn_elem.text = channel_id
+
+            canales_dict[channel_id] = ch_elem
+
+        # GatoTV tiene prioridad sobre las fuentes públicas.
+        # Por eso eliminamos únicamente los programas públicos
+        # que choquen con sus horarios.
+        for _, _, gatostart, gatostop in programas_canal:
+
+            programas_lista[:] = [
+                p for p in programas_lista
+                if not (
+                    p[1] == channel_id
+                    and p[2] < gatostop
+                    and p[3] > gatostart
+                )
+            ]
+
+        programas_lista.extend(programas_canal)
+
+        total_programas += len(programas_canal)
+
+        print(
+            f"    ✔ GatoTV integrado: {channel_id} "
+            f"({len(programas_canal)} programas)"
+        )
+
+    print("")
+    print(
+        f" ✔ GatoTV finalizado. "
+        f"Programas incorporados: {total_programas}"
     )
-    
-    if channel_id not in canales_dict:
-        ch_elem = ET.Element('channel', id=channel_id)
-        dn_elem = ET.SubElement(ch_elem, 'display-name')
-        dn_elem.text = ch_name
-        canales_dict[channel_id] = ch_elem
-    
-    ahora_chile = datetime.datetime.now(ZONA_CHILE)
-    inicio_base = ahora_chile.replace(hour=0, minute=0, second=0, microsecond=0) - datetime.timedelta(days=1)
-    
+
+
+# ============================================================
+# 🧹 AGREGAR BLOQUE DE RESPALDO
+# ============================================================
+
+def agregar_bloque_respaldo(
+    canales_dict,
+    programas_lista,
+    channel_id
+):
+
+    ch_name, categoria, titulo_prog, desc_prog = DATOS_RESPALDO.get(
+        channel_id,
+        (
+            channel_id,
+            'Variado',
+            'Programación General',
+            'Transmisión continua.'
+        )
+    )
+
+    ch_elem = ET.Element(
+        'channel',
+        id=channel_id
+    )
+
+    dn_elem = ET.SubElement(
+        ch_elem,
+        'display-name'
+    )
+
+    dn_elem.text = ch_name
+
+    canales_dict[channel_id] = ch_elem
+
+    ahora_utc = datetime.datetime.utcnow()
+
+    inicio_base = (
+        ahora_utc.replace(
+            hour=0,
+            minute=0,
+            second=0,
+            microsecond=0
+        )
+        - datetime.timedelta(days=1)
+    )
+
     for dia in range(4):
+
         for bloque in range(8):
-            start_dt = inicio_base + datetime.timedelta(days=dia, hours=bloque*3)
+
+            start_dt = (
+                inicio_base
+                + datetime.timedelta(
+                    days=dia,
+                    hours=bloque * 3
+                )
+            )
+
             stop_dt = start_dt + datetime.timedelta(hours=3)
-            
+
             prog = ET.Element(
-                'programme', 
-                start=start_dt.strftime("%Y%m%d%H%M%S %z"), 
-                stop=stop_dt.strftime("%Y%m%d%H%M%S %z"), 
+                'programme',
+                start=start_dt.strftime(
+                    "%Y%m%d%H%M%S +0000"
+                ),
+                stop=stop_dt.strftime(
+                    "%Y%m%d%H%M%S +0000"
+                ),
                 channel=channel_id
             )
-            title = ET.SubElement(prog, 'title', lang='es')
-            title.text = f"{ch_name}: {titulo_prog}"
-            desc = ET.SubElement(prog, 'desc', lang='es')
+
+            title = ET.SubElement(
+                prog,
+                'title',
+                lang='es'
+            )
+
+            title.text = (
+                f"{ch_name}: {titulo_prog}"
+            )
+
+            desc = ET.SubElement(
+                prog,
+                'desc',
+                lang='es'
+            )
+
             desc.text = desc_prog
-            category = ET.SubElement(prog, 'category', lang='es')
+
+            category = ET.SubElement(
+                prog,
+                'category',
+                lang='es'
+            )
+
             category.text = categoria
-            
-            programas_lista.append((prog, channel_id, start_dt, stop_dt))
+
+            programas_lista.append(
+                (
+                    prog,
+                    channel_id,
+                    start_dt,
+                    stop_dt
+                )
+            )
+
+
+# ============================================================
+# 🚀 PROCESO PRINCIPAL
+# ============================================================
 
 try:
-    root_final = ET.Element('tv', {
-        'generator-info-name': 'CustomEPGGenerator',
-        'generator-info-url': 'https://github.com'
-    })
-    
-    canales_dict = {}     # {channel_id: Element}
-    programas_lista = []  # [(Element, channel_id, st_dt, sp_dt)]
 
-    print("1. Extrayendo guías desde GatoTV...")
-    for target_id, (slug, horas_desfase) in CANALES_GATOTV.items():
-        if target_id in MIS_CANALES:
-            extraer_gatotv(target_id, slug, horas_desfase, canales_dict, programas_lista)
-    print(" ✔ GatoTV procesado exitosamente.")
+    root_final = ET.Element(
+        'tv',
+        {
+            'generator-info-name': 'CustomEPGGenerator',
+            'generator-info-url': 'https://github.com'
+        }
+    )
 
-    print("2. Cargando fuentes públicas (relleno adicional)...")
+    canales_dict = {}
+
+    programas_lista = []
+
+
+    # ========================================================
+    # 1. FUENTES PÚBLICAS
+    # ========================================================
+
+    print("1. Cargando fuentes públicas...")
+
     for url in FUENTES_PUBLICAS:
+
         try:
+
             guiaroot = descargar_xml(url)
+
             for elem in guiaroot:
+
                 if elem.tag == 'channel':
+
                     ch_id = elem.get('id')
-                    target_id = MAPEO_IDS.get(ch_id, ch_id)
-                    
-                    if target_id in MIS_CANALES and target_id not in canales_dict:
-                        elem.set('id', target_id)
+
+                    target_id = MAPEO_IDS.get(
+                        ch_id,
+                        ch_id
+                    )
+
+                    if (
+                        target_id in MIS_CANALES
+                        and target_id not in canales_dict
+                    ):
+
+                        elem.set(
+                            'id',
+                            target_id
+                        )
+
                         canales_dict[target_id] = elem
-                        
+
+
                 elif elem.tag == 'programme':
+
                     ch_id = elem.get('channel')
-                    target_id = MAPEO_IDS.get(ch_id, ch_id)
-                    
+
+                    target_id = MAPEO_IDS.get(
+                        ch_id,
+                        ch_id
+                    )
+
                     if target_id in MIS_CANALES:
-                        elem.set('channel', target_id)
 
-                        horas = DESFASE_CANALES.get(target_id, 0)
-                        start_str, st_dt = normalizar_a_chile(elem.get('start', ''), horas)
-                        stop_str, sp_dt = normalizar_a_chile(elem.get('stop', ''), horas)
+                        elem.set(
+                            'channel',
+                            target_id
+                        )
 
-                        elem.set('start', start_str)
-                        elem.set('stop', stop_str)
+                        horas = DESFASE_CANALES.get(
+                            target_id,
+                            0
+                        )
+
+                        start_str, st_dt = normalizar_a_utc(
+                            elem.get('start', ''),
+                            horas
+                        )
+
+                        stop_str, sp_dt = normalizar_a_utc(
+                            elem.get('stop', ''),
+                            horas
+                        )
+
+                        elem.set(
+                            'start',
+                            start_str
+                        )
+
+                        elem.set(
+                            'stop',
+                            stop_str
+                        )
 
                         if st_dt and sp_dt:
-                            programas_lista.append((elem, target_id, st_dt, sp_dt))
 
-            print(f" ✔ Cargada guía pública: {url}")
+                            programas_lista.append(
+                                (
+                                    elem,
+                                    target_id,
+                                    st_dt,
+                                    sp_dt
+                                )
+                            )
+
+            print(
+                f" ✔ Cargada guía pública: {url}"
+            )
+
         except Exception as e:
-            print(f" ❌ Error en {url}: {e}")
 
-    print("3. Aplicando tu guía propia (Sobreescribiendo conflictos y dando máxima prioridad)...")
+            print(
+                f" ❌ Error en {url}: {e}"
+            )
+
+
+    # ========================================================
+    # 2. GATOTV
+    #
+    # Se carga DESPUÉS de las fuentes públicas.
+    # Así puede reemplazar sus bloques cuando hay conflicto.
+    # Más adelante guia.xml tendrá prioridad sobre GatoTV.
+    # ========================================================
+
+    cargar_gatotv(
+        programas_lista,
+        canales_dict
+    )
+
+
+    # ========================================================
+    # 3. TU GUÍA PROPIA
+    #
+    # TU GUIA SIGUE TENIENDO LA MAYOR PRIORIDAD.
+    # ========================================================
+
+    print("")
+    print(
+        "4. Aplicando tu guía propia "
+        "(Sobreescribiendo conflictos)..."
+    )
+
     try:
-        guiaroot = descargar_xml(GUIA_PROPIA)
-        canales_guia_propia = set()
-        programas_guia_propia = []
+
+        guiaroot = descargar_xml(
+            GUIA_PROPIA
+        )
 
         for elem in guiaroot:
+
             if elem.tag == 'channel':
+
                 ch_id = elem.get('id')
-                target_id = MAPEO_IDS.get(ch_id, ch_id)
-                if target_id in MIS_CANALES:
-                    elem.set('id', target_id)
+
+                target_id = MAPEO_IDS.get(
+                    ch_id,
+                    ch_id
+                )
+
+                if (
+                    target_id in MIS_CANALES
+                    and target_id not in canales_dict
+                ):
+
+                    elem.set(
+                        'id',
+                        target_id
+                    )
+
                     canales_dict[target_id] = elem
-                    
+
+
             elif elem.tag == 'programme':
+
                 ch_id = elem.get('channel')
-                target_id = MAPEO_IDS.get(ch_id, ch_id)
-                
+
+                target_id = MAPEO_IDS.get(
+                    ch_id,
+                    ch_id
+                )
+
                 if target_id in MIS_CANALES:
-                    elem.set('channel', target_id)
 
-                    horas = DESFASE_GUIA_PROPIA.get(target_id, 0)
-                    start_str, st_dt = normalizar_a_chile(elem.get('start', ''), horas)
-                    stop_str, sp_dt = normalizar_a_chile(elem.get('stop', ''), horas)
+                    elem.set(
+                        'channel',
+                        target_id
+                    )
 
-                    elem.set('start', start_str)
-                    elem.set('stop', stop_str)
+                    horas = DESFASE_GUIA_PROPIA.get(
+                        target_id,
+                        0
+                    )
+
+                    start_str, st_dt = normalizar_a_utc(
+                        elem.get('start', ''),
+                        horas
+                    )
+
+                    stop_str, sp_dt = normalizar_a_utc(
+                        elem.get('stop', ''),
+                        horas
+                    )
+
+                    elem.set(
+                        'start',
+                        start_str
+                    )
+
+                    elem.set(
+                        'stop',
+                        stop_str
+                    )
 
                     if st_dt and sp_dt:
-                        canales_guia_propia.add(target_id)
-                        programas_guia_propia.append((elem, target_id, st_dt, sp_dt))
 
-        programas_lista = [p for p in programas_lista if p[1] not in canales_guia_propia]
-        programas_lista.extend(programas_guia_propia)
+                        # 🧹 ELIMINAR CUALQUIER BLOQUE
+                        # QUE ENTRE EN CONFLICTO.
+                        #
+                        # Esto permite que guia.xml
+                        # siga teniendo prioridad sobre
+                        # GatoTV y las fuentes públicas.
 
-        print(f" ✔ Guía propia aplicada con éxito: {GUIA_PROPIA}")
+                        programas_lista[:] = [
+                            p for p in programas_lista
+                            if not (
+                                p[1] == target_id
+                                and p[2] < sp_dt
+                                and p[3] > st_dt
+                            )
+                        ]
+
+                        programas_lista.append(
+                            (
+                                elem,
+                                target_id,
+                                st_dt,
+                                sp_dt
+                            )
+                        )
+
+        print(
+            f" ✔ Guía propia aplicada con éxito: "
+            f"{GUIA_PROPIA}"
+        )
+
     except Exception as e:
-        print(f" ❌ Error cargando tu guía propia: {e}")
 
-    print("4. Verificando respaldos para canales sin programación...")
+        print(
+            f" ❌ Error cargando tu guía propia: {e}"
+        )
+
+
+    # ========================================================
+    # 5. RESPALDOS
+    # ========================================================
+
+    print("")
+    print(
+        "5. Verificando respaldos para "
+        "canales sin programación..."
+    )
+
     for ch_id in MIS_CANALES:
-        tiene_programas = any(p[1] == ch_id for p in programas_lista)
-        if ch_id not in canales_dict or not tiene_programas:
-            agregar_bloque_respaldo(canales_dict, programas_lista, ch_id)
-            print(f" ✔ Respaldo creado para: {ch_id}")
 
-    # 5. ENSAMBLAJE FINAL
-    for ch_id in sorted(canales_dict.keys()):
-        root_final.append(canales_dict[ch_id])
+        tiene_programas = any(
+            p[1] == ch_id
+            for p in programas_lista
+        )
 
-    programas_lista.sort(key=lambda x: x[2])
+        if (
+            ch_id not in canales_dict
+            or not tiene_programas
+        ):
+
+            agregar_bloque_respaldo(
+                canales_dict,
+                programas_lista,
+                ch_id
+            )
+
+            print(
+                f" ✔ Respaldo creado para: {ch_id}"
+            )
+
+
+    # ========================================================
+    # 6. ENSAMBLAJE FINAL
+    # ========================================================
+
+    print("")
+    print("6. Generando epg_final.xml...")
+
+    for ch_id in sorted(
+        canales_dict.keys()
+    ):
+
+        root_final.append(
+            canales_dict[ch_id]
+        )
+
+
+    # Orden cronológico de todos los programas.
+
+    programas_lista.sort(
+        key=lambda x: x[2]
+    )
 
     for p in programas_lista:
-        root_final.append(p[0])
 
-    tree = ET.ElementTree(root_final)
-    ET.indent(tree, space="  ", level=0)
-    tree.write("epg_final.xml", encoding="utf-8", xml_declaration=True)
-        
-    print("¡Proceso finalizado con éxito! 'epg_final.xml' generado correctamente.")
+        root_final.append(
+            p[0]
+        )
+
+
+    # ========================================================
+    # 7. GUARDAR XML
+    # ========================================================
+
+    tree = ET.ElementTree(
+        root_final
+    )
+
+    ET.indent(
+        tree,
+        space="  ",
+        level=0
+    )
+
+    tree.write(
+        "epg_final.xml",
+        encoding="utf-8",
+        xml_declaration=True
+    )
+
+
+    print("")
+    print("==========================================")
+    print("🎉 ¡PROCESO FINALIZADO CON ÉXITO!")
+    print("==========================================")
+    print("")
+    print(
+        "EPG generado correctamente: epg_final.xml"
+    )
+
 
 except Exception as e:
-    print(f"Error fatal: {e}")
-    raise e
+
+    print("")
+    print("==========================================")
+    print("❌ ERROR FATAL")
+    print("==========================================")
+    print(e)
+    print("")
+
+    raise
