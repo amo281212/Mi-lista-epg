@@ -2,10 +2,14 @@ import datetime
 import gzip
 import re
 import xml.etree.ElementTree as ET
+from zoneinfo import ZoneInfo
 import requests
 from bs4 import BeautifulSoup
 
-# 🎯 TUS CANALES CON IDS LIMPIOS
+# 🇨🇱 ZONA HORARIA OFICIAL DE CHILE (Maneja UTC-3 y UTC-4 automáticamente)
+ZONA_CHILE = ZoneInfo("America/Santiago")
+
+# 🎯 TUS CANALES CON IDS LIMPIOS (Mantiene History2.cl1 intacto)
 MIS_CANALES = {
     'TVN.cl',
     'Mega.cl',
@@ -237,22 +241,21 @@ def normalizar_a_chile(time_str, horas_desfase=0):
         
         dt = datetime.datetime.strptime(dt_part, "%Y%m%d%H%M%S")
         
-        # Convertimos todo a tiempo UTC primero
         if tz_part and (tz_part.startswith('+') or tz_part.startswith('-')):
             sign = 1 if tz_part[0] == '+' else -1
             tz_hours = int(tz_part[1:3])
             tz_mins = int(tz_part[3:5]) if len(tz_part) >= 5 else 0
             offset_delta = datetime.timedelta(hours=sign * tz_hours, minutes=sign * tz_mins)
-            dt_utc = dt - offset_delta
+            dt_utc = dt.replace(tzinfo=datetime.timezone.utc) - offset_delta
         else:
-            dt_utc = dt
+            dt_utc = dt.replace(tzinfo=datetime.timezone.utc)
             
+        dt_chile = dt_utc.astimezone(ZONA_CHILE)
+        
         if horas_desfase != 0:
-            dt_utc += datetime.timedelta(hours=horas_desfase)
+            dt_chile += datetime.timedelta(hours=horas_desfase)
             
-        # Convertimos de UTC a Chile (-04:00)
-        dt_chile = dt_utc - datetime.timedelta(hours=4)
-        str_chile = dt_chile.strftime("%Y%m%d%H%M%S") + " -0400"
+        str_chile = dt_chile.strftime("%Y%m%d%H%M%S %z")
         return str_chile, dt_chile
     except Exception:
         return time_str, None
@@ -288,8 +291,7 @@ def extraer_gatotv(channel_id, slug, horas_desfase, canales_dict, programas_list
         if not filas:
             filas = soup.find_all('tr')
             
-        # Tomamos el día actual de Chile
-        hoy = (datetime.datetime.utcnow() - datetime.timedelta(hours=4)).date()
+        hoy = datetime.datetime.now(ZONA_CHILE).date()
         programas_temp = []
         
         for tr in filas:
@@ -311,7 +313,7 @@ def extraer_gatotv(channel_id, slug, horas_desfase, canales_dict, programas_list
             elif 'AM' in time_upper and hora == 12:
                 hora = 0
                 
-            dt_inicio = datetime.datetime(hoy.year, hoy.month, hoy.day, hora, minuto)
+            dt_inicio = datetime.datetime(hoy.year, hoy.month, hoy.day, hora, minuto, tzinfo=ZONA_CHILE)
             
             if horas_desfase != 0:
                 dt_inicio += datetime.timedelta(hours=horas_desfase)
@@ -352,8 +354,8 @@ def extraer_gatotv(channel_id, slug, horas_desfase, canales_dict, programas_list
                 sp_dt = st_dt + datetime.timedelta(hours=1)
                 
             prog = ET.Element('programme', 
-                              start=st_dt.strftime("%Y%m%d%H%M%S -0400"), 
-                              stop=sp_dt.strftime("%Y%m%d%H%M%S -0400"), 
+                              start=st_dt.strftime("%Y%m%d%H%M%S %z"), 
+                              stop=sp_dt.strftime("%Y%m%d%H%M%S %z"), 
                               channel=channel_id)
             
             title_xml = ET.SubElement(prog, 'title', lang='es')
@@ -388,7 +390,7 @@ def agregar_bloque_respaldo(canales_dict, programas_lista, channel_id):
         dn_elem.text = ch_name
         canales_dict[channel_id] = ch_elem
     
-    ahora_chile = datetime.datetime.utcnow() - datetime.timedelta(hours=4)
+    ahora_chile = datetime.datetime.now(ZONA_CHILE)
     inicio_base = ahora_chile.replace(hour=0, minute=0, second=0, microsecond=0) - datetime.timedelta(days=1)
     
     for dia in range(4):
@@ -398,8 +400,8 @@ def agregar_bloque_respaldo(canales_dict, programas_lista, channel_id):
             
             prog = ET.Element(
                 'programme', 
-                start=start_dt.strftime("%Y%m%d%H%M%S -0400"), 
-                stop=stop_dt.strftime("%Y%m%d%H%M%S -0400"), 
+                start=start_dt.strftime("%Y%m%d%H%M%S %z"), 
+                stop=stop_dt.strftime("%Y%m%d%H%M%S %z"), 
                 channel=channel_id
             )
             title = ET.SubElement(prog, 'title', lang='es')
@@ -492,7 +494,6 @@ try:
                         canales_guia_propia.add(target_id)
                         programas_guia_propia.append((elem, target_id, st_dt, sp_dt))
 
-        # Elimina programación previa para los canales que vienen en tu guía propia
         programas_lista = [p for p in programas_lista if p[1] not in canales_guia_propia]
         programas_lista.extend(programas_guia_propia)
 
