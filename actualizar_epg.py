@@ -159,6 +159,13 @@ DESFASE_GUIA_PROPIA = {
 
 # ============================================================
 # 🐱 GATOTV
+#
+# Aquí están los canales que quieres obtener desde GatoTV.
+#
+# Si algún día quieres agregar otro canal:
+#
+# 'ID_DE_TU_CANAL': 'https://www.gatotv.com/canal/xxxxx',
+#
 # ============================================================
 
 GATOTV_CANALES = {
@@ -242,6 +249,17 @@ GATOTV_CANALES = {
 
 # ============================================================
 # 🕒 DESFASES EXCLUSIVOS PARA GATOTV
+#
+# IMPORTANTE:
+# Este bloque es independiente de los otros dos.
+#
+# Si mañana descubres que otro canal necesita desfase,
+# simplemente agrega una línea aquí.
+#
+# Ejemplo:
+#
+# 'HBO.cl': -1,
+#
 # ============================================================
 
 DESFASE_GATOTV = {
@@ -251,6 +269,9 @@ DESFASE_GATOTV = {
 
 # ============================================================
 # 📅 GATOTV: CUÁNTOS DÍAS CONSULTAR
+#
+# 3 significa:
+# HOY + MAÑANA + PASADO MAÑANA
 # ============================================================
 
 GATOTV_DIAS = 3
@@ -258,6 +279,12 @@ GATOTV_DIAS = 3
 
 # ============================================================
 # 🌎 ZONA HORARIA BASE DE GATOTV
+#
+# Las páginas que estamos utilizando están orientadas a
+# señales latinoamericanas y muestran horarios locales.
+#
+# Usamos la zona de Santiago para convertir esos horarios
+# a UTC correctamente, incluyendo cambios de horario.
 # ============================================================
 
 ZONA_HORARIA_GATOTV = ZoneInfo("America/Santiago")
@@ -404,21 +431,25 @@ def descargar_xml(url):
 # ============================================================
 # 🐱 PARSER HTML DE GATOTV
 #
-# AHORA SOPORTA LOS DOS FORMATOS:
+# IMPORTANTE:
 #
-# 1. PROGRAMA SIMPLE:
+# GatoTV tiene DOS tipos principales de bloques:
 #
-#    <time>16:14</time>
-#    <time>17:49</time>
-#    Shrek Tercero
+# 1. Programa simple:
 #
-# 2. PROGRAMA CON IMAGEN:
+#    hora | hora | título
 #
-#    <time>16:14</time>
-#    <time>17:49</time>
-#    <img ...>
-#    Shrek Tercero
-#    descripción
+# 2. Programa con imagen:
+#
+#    hora | hora | [imagen] | título + descripción
+#
+# La celda de la imagen no contiene texto.
+#
+# El parser guarda:
+#
+# - text
+# - title
+# - description
 #
 # La imagen NO se utiliza.
 # ============================================================
@@ -434,17 +465,17 @@ class GatoTVParser(HTMLParser):
         self.rows = []
 
         self.in_tr = False
+
         self.in_td = False
         self.in_th = False
 
         self.in_a = False
-        self.in_time = False
 
         self.current_row = []
+
         self.current_cell = []
 
         self.current_anchor = []
-        self.current_time = []
 
         self.outside_anchor = []
 
@@ -461,6 +492,7 @@ class GatoTVParser(HTMLParser):
         if tag == 'tr':
 
             self.in_tr = True
+
             self.current_row = []
 
         elif (
@@ -477,8 +509,8 @@ class GatoTVParser(HTMLParser):
             )
 
             self.current_cell = []
+
             self.current_anchor = []
-            self.current_time = []
 
             self.outside_anchor = []
 
@@ -490,15 +522,8 @@ class GatoTVParser(HTMLParser):
         ):
 
             self.in_a = True
+
             self.current_anchor = []
-
-        elif (
-            (self.in_td or self.in_th)
-            and tag == 'time'
-        ):
-
-            self.in_time = True
-            self.current_time = []
 
     def handle_data(
         self,
@@ -522,12 +547,6 @@ class GatoTVParser(HTMLParser):
             texto
         )
 
-        if self.in_time:
-
-            self.current_time.append(
-                texto
-            )
-
         if self.in_a:
 
             self.current_anchor.append(
@@ -548,28 +567,6 @@ class GatoTVParser(HTMLParser):
         tag = tag.lower()
 
         if (
-            tag == 'time'
-            and self.in_time
-        ):
-
-            self.in_time = False
-
-            hora = " ".join(
-                self.current_time
-            ).strip()
-
-            self.current_row.append(
-                {
-                    'type': 'time',
-                    'text': hora,
-                    'title': '',
-                    'description': ''
-                }
-            )
-
-            self.current_time = []
-
-        elif (
             tag == 'a'
             and self.in_a
         ):
@@ -591,32 +588,17 @@ class GatoTVParser(HTMLParser):
         ):
 
             # ------------------------------------------------
-            # IMPORTANTE:
+            # Si la celda contiene un enlace:
             #
-            # Si ya encontramos un <time> dentro de esta
-            # celda, no agregamos otra celda de texto.
+            # enlace = TÍTULO
+            # texto fuera del enlace = DESCRIPCIÓN
             # ------------------------------------------------
 
-            if any(
-                x.get('type') == 'time'
-                for x in self.current_row
-            ) and re.match(
-                r'^\d{1,2}:\d{2}$',
-                self.current_cell[0]
-                if self.current_cell
-                else ''
-            ):
-
-                pass
-
-            elif self.anchor_text:
+            if self.anchor_text:
 
                 titulo = (
                     self.anchor_text.strip()
                 )
-
-                # Todo el texto que esté fuera del enlace
-                # se considera descripción.
 
                 descripcion = (
                     " ".join(
@@ -626,7 +608,6 @@ class GatoTVParser(HTMLParser):
 
                 self.current_row.append(
                     {
-                        'type': 'content',
                         'text': titulo,
                         'title': titulo,
                         'description': descripcion
@@ -641,31 +622,23 @@ class GatoTVParser(HTMLParser):
                     ).strip()
                 )
 
-                # Evitar agregar como contenido cosas que
-                # son simplemente horarios.
-
-                if not re.match(
-                    r'^\d{1,2}:\d{2}$',
-                    texto
-                ):
-
-                    self.current_row.append(
-                        {
-                            'type': 'content',
-                            'text': texto,
-                            'title': texto,
-                            'description': ''
-                        }
-                    )
+                self.current_row.append(
+                    {
+                        'text': texto,
+                        'title': texto,
+                        'description': ''
+                    }
+                )
 
             self.in_td = False
             self.in_th = False
 
             self.current_cell = []
+
             self.current_anchor = []
-            self.current_time = []
 
             self.outside_anchor = []
+
             self.anchor_text = None
 
         elif (
@@ -680,6 +653,7 @@ class GatoTVParser(HTMLParser):
                 )
 
             self.current_row = []
+
             self.in_tr = False
 
 
@@ -733,40 +707,32 @@ def convertir_hora_gatotv(
 
 
 # ============================================================
-# 🧹 LIMPIAR TEXTO
-# ============================================================
-
-def limpiar_texto(texto):
-
-    if not texto:
-        return ''
-
-    return " ".join(
-        texto.split()
-    ).strip()
-
-
-# ============================================================
-# 🐱 EXTRAER PROGRAMACIÓN DE GATOTV
+# 🐱 EXTRAER PROGRAMACIÓN DE UNA PÁGINA GATOTV
 #
-# ESTA ES LA PARTE IMPORTANTE.
+# VERSIÓN HÍBRIDA
 #
-# No dependemos de que el programa esté exactamente en
-# una posición determinada.
+# Detecta:
 #
-# Buscamos:
+# 1. Programas con imagen:
 #
-#   2 horarios
-#   +
-#   cualquier contenido posterior
+#    hora | hora | imagen | título | descripción
 #
-# Así funcionan tanto:
+# 2. Programas simples:
 #
-#   texto simple
+#    hora | hora | título
 #
-# como:
+# 3. Programas simples con descripción:
 #
-#   imagen + título + descripción
+#    hora | hora | título | descripción
+#
+# La imagen NO importa.
+#
+# Lo importante es recuperar:
+#
+# - horario
+# - título
+# - descripción
+#
 # ============================================================
 
 def extraer_programacion_gatotv(
@@ -823,6 +789,10 @@ def extraer_programacion_gatotv(
         f"{len(html):,} caracteres"
     )
 
+    # ========================================================
+    # PARSER PRINCIPAL
+    # ========================================================
+
     parser = GatoTVParser()
 
     try:
@@ -838,207 +808,286 @@ def extraer_programacion_gatotv(
 
         return []
 
+    # ========================================================
+    # DIAGNÓSTICO
+    # ========================================================
+
+    cantidad_times = len(
+        re.findall(
+            r'<time\b',
+            html,
+            re.IGNORECASE
+        )
+    )
+
+    cantidad_bloques = len(
+        re.findall(
+            r'tbl_EPG_ProgramsColumn',
+            html,
+            re.IGNORECASE
+        )
+    )
+
+    cantidad_filas = len(
+        re.findall(
+            r'<tr\b',
+            html,
+            re.IGNORECASE
+        )
+    )
+
+    print(
+        f"       <tr> encontrados: "
+        f"{cantidad_filas}"
+    )
+
+    print(
+        f"       <time> encontrados: "
+        f"{cantidad_times}"
+    )
+
+    print(
+        f"       Bloques "
+        f"tbl_EPG_ProgramsColumn: "
+        f"{cantidad_bloques}"
+    )
+
+    print(
+        f"       Filas HTML procesadas: "
+        f"{len(parser.rows)}"
+    )
+
     programas = []
 
-    # --------------------------------------------------------
-    # En la versión anterior solamente mirábamos filas que
-    # coincidieran perfectamente con el formato detectado.
-    #
-    # Ahora recorremos cada fila y buscamos TODOS los horarios
-    # y TODO el contenido disponible.
-    # --------------------------------------------------------
+    # ========================================================
+    # PROCESAR TODAS LAS FILAS
+    # ========================================================
 
     for row in parser.rows:
 
-        horas = []
-
-        for celda in row:
-
-            if celda.get('type') == 'time':
-
-                hora = limpiar_texto(
-                    celda.get(
-                        'text',
-                        ''
-                    )
-                )
-
-                if re.match(
-                    r'^\d{1,2}:\d{2}$',
-                    hora
-                ):
-
-                    horas.append(
-                        hora
-                    )
-
-        if len(horas) < 2:
+        if not row:
             continue
 
         # ----------------------------------------------------
-        # Solo necesitamos las primeras dos horas de la fila.
-        # ----------------------------------------------------
-
-        hora_inicio = horas[0]
-        hora_fin = horas[1]
-
-        # ----------------------------------------------------
-        # Buscar contenido.
+        # Buscar todas las horas de la fila.
         #
-        # Se acepta:
+        # No asumimos que estén en posiciones fijas.
         #
-        # - celda con enlace
-        # - celda de texto simple
-        # - celda con imagen + enlace + descripción
+        # Esto permite:
+        #
+        # hora | hora | título
+        #
+        # y:
+        #
+        # hora | hora | imagen | título | descripción
         # ----------------------------------------------------
 
-        candidatos = []
+        horas_encontradas = []
 
-        for celda in row:
+        for i, celda in enumerate(row):
 
-            if celda.get('type') != 'content':
-                continue
-
-            titulo = limpiar_texto(
-                celda.get(
-                    'title',
-                    ''
-                )
-            )
-
-            texto = limpiar_texto(
+            texto = (
                 celda.get(
                     'text',
                     ''
                 )
+                .strip()
             )
 
-            descripcion = limpiar_texto(
+            if re.match(
+                r'^\d{1,2}:\d{2}$',
+                texto
+            ):
+
+                horas_encontradas.append(
+                    (
+                        i,
+                        texto
+                    )
+                )
+
+        # ----------------------------------------------------
+        # Una fila válida necesita al menos dos horarios.
+        # ----------------------------------------------------
+
+        if len(horas_encontradas) < 2:
+            continue
+
+        indice_hora_inicio, hora_inicio = (
+            horas_encontradas[0]
+        )
+
+        indice_hora_fin, hora_fin = (
+            horas_encontradas[1]
+        )
+
+        # ====================================================
+        # BUSCAR TÍTULO Y DESCRIPCIÓN
+        # ====================================================
+
+        titulo = ''
+        descripcion = ''
+
+        # ----------------------------------------------------
+        # Primero buscamos después de la segunda hora.
+        #
+        # Esto funciona tanto si existe imagen como si no.
+        # ----------------------------------------------------
+
+        for i in range(
+            indice_hora_fin + 1,
+            len(row)
+        ):
+
+            celda = row[i]
+
+            texto = (
+                celda.get(
+                    'text',
+                    ''
+                )
+                .strip()
+            )
+
+            title = (
+                celda.get(
+                    'title',
+                    ''
+                )
+                .strip()
+            )
+
+            desc = (
                 celda.get(
                     'description',
                     ''
                 )
+                .strip()
             )
 
-            contenido = titulo or texto
+            # -----------------------------------------------
+            # Celda vacía:
+            #
+            # normalmente es la celda de la imagen.
+            # -----------------------------------------------
 
-            if not contenido:
+            if not texto:
                 continue
 
-            # No considerar accidentalmente horarios
-            # como títulos.
+            # -----------------------------------------------
+            # Evitar tomar otra hora como título.
+            # -----------------------------------------------
 
             if re.match(
                 r'^\d{1,2}:\d{2}$',
-                contenido
+                texto
             ):
+
                 continue
 
-            candidatos.append(
-                (
-                    contenido,
-                    descripcion
-                )
+            # -----------------------------------------------
+            # Si existe título proveniente del enlace,
+            # utilizarlo.
+            #
+            # Si no existe, utilizar el texto normal.
+            # -----------------------------------------------
+
+            titulo = (
+                title
+                or texto
             )
 
-        if not candidatos:
+            descripcion = desc
+
+            # -----------------------------------------------
+            # Si encontramos una celda con título, ya tenemos
+            # el programa.
+            # -----------------------------------------------
+
+            if titulo:
+                break
+
+        # ====================================================
+        # SEGUNDA PASADA
+        #
+        # Si por alguna estructura especial no apareció título
+        # en la primera búsqueda, buscamos cualquier contenido
+        # textual útil después de la segunda hora.
+        # ====================================================
+
+        if not titulo:
+
+            for i in range(
+                indice_hora_fin + 1,
+                len(row)
+            ):
+
+                celda = row[i]
+
+                texto = (
+                    celda.get(
+                        'text',
+                        ''
+                    )
+                    .strip()
+                )
+
+                if not texto:
+                    continue
+
+                if re.match(
+                    r'^\d{1,2}:\d{2}$',
+                    texto
+                ):
+
+                    continue
+
+                titulo = texto
+
+                descripcion = (
+                    celda.get(
+                        'description',
+                        ''
+                    )
+                    .strip()
+                )
+
+                break
+
+        # ----------------------------------------------------
+        # Si todavía no hay título, ignorar la fila.
+        # ----------------------------------------------------
+
+        if not titulo:
             continue
 
-        # ----------------------------------------------------
-        # El primer contenido real es el título.
-        # ----------------------------------------------------
+        # ====================================================
+        # LIMPIEZA
+        # ====================================================
 
-        titulo = candidatos[0][0]
-
-        descripcion_partes = []
-
-        # ----------------------------------------------------
-        # Recoger descripciones adicionales.
-        #
-        # Esto es importante porque algunos bloques pueden
-        # tener más de un nodo de texto.
-        # ----------------------------------------------------
-
-        for contenido, descripcion in candidatos:
-
-            if descripcion:
-
-                if descripcion.lower() != titulo.lower():
-
-                    descripcion_partes.append(
-                        descripcion
-                    )
-
-        # ----------------------------------------------------
-        # También podemos encontrar información de episodio
-        # como:
-        #
-        # T1-E8
-        # Temporada 3 | Episodio 5
-        # S3 E5
-        #
-        # Si aparece asociada al contenido, se conserva en
-        # la descripción.
-        # ----------------------------------------------------
-
-        for contenido, descripcion in candidatos:
-
-            texto_completo = (
-                f"{contenido} {descripcion}"
-            )
-
-            patrones_episodio = [
-                r'\bT\d+\s*[-–]\s*E\d+\b',
-                r'\bT\d+\s*E\d+\b',
-                r'\bS\d+\s*E\d+\b',
-                r'\bTemporada\s+\d+\s*\|\s*Episodio\s+\d+\b',
-                r'\bTemporada\s+\d+\b',
-                r'\bEpisodio\s+\d+\b',
-            ]
-
-            for patron in patrones_episodio:
-
-                encontrados = re.findall(
-                    patron,
-                    texto_completo,
-                    flags=re.IGNORECASE
-                )
-
-                for encontrado in encontrados:
-
-                    encontrado = limpiar_texto(
-                        encontrado
-                    )
-
-                    if encontrado and not any(
-                        encontrado.lower()
-                        == x.lower()
-                        for x in descripcion_partes
-                    ):
-
-                        descripcion_partes.insert(
-                            0,
-                            encontrado
-                        )
+        titulo = " ".join(
+            titulo.split()
+        ).strip()
 
         descripcion = " ".join(
-            descripcion_partes
+            descripcion.split()
         ).strip()
 
         # ----------------------------------------------------
-        # Evitar duplicar título.
+        # No duplicar título dentro de descripción.
         # ----------------------------------------------------
 
         if (
-            descripcion.lower()
+            descripcion
+            and descripcion.lower()
             == titulo.lower()
         ):
 
             descripcion = ''
 
-        # ----------------------------------------------------
-        # Convertir horarios.
-        # ----------------------------------------------------
+        # ====================================================
+        # CONVERTIR HORARIOS
+        # ====================================================
 
         start_local = convertir_hora_gatotv(
             hora_inicio,
@@ -1063,9 +1112,9 @@ def extraer_programacion_gatotv(
                 days=1
             )
 
-        # ----------------------------------------------------
-        # Convertir a UTC.
-        # ----------------------------------------------------
+        # ====================================================
+        # CONVERTIR A UTC
+        # ====================================================
 
         start_utc = start_local.astimezone(
             datetime.timezone.utc
@@ -1075,9 +1124,9 @@ def extraer_programacion_gatotv(
             datetime.timezone.utc
         )
 
-        # ----------------------------------------------------
-        # Aplicar desfase exclusivo de GatoTV.
-        # ----------------------------------------------------
+        # ====================================================
+        # APLICAR DESFASE EXCLUSIVO DE GATOTV
+        # ====================================================
 
         desfase = DESFASE_GATOTV.get(
             channel_id,
@@ -1091,11 +1140,12 @@ def extraer_programacion_gatotv(
             )
 
             start_utc += diferencia
+
             stop_utc += diferencia
 
-        # ----------------------------------------------------
-        # Evitar programas dañados.
-        # ----------------------------------------------------
+        # ====================================================
+        # VALIDACIONES
+        # ====================================================
 
         if stop_utc <= start_utc:
             continue
@@ -1109,38 +1159,9 @@ def extraer_programacion_gatotv(
         ):
             continue
 
-        # ----------------------------------------------------
-        # Evitar duplicados dentro de la propia página.
-        # ----------------------------------------------------
-
-        duplicado = False
-
-        for (
-            _,
-            canal_existente,
-            inicio_existente,
-            fin_existente
-        ) in programas:
-
-            if (
-                canal_existente == channel_id
-                and inicio_existente == start_utc.replace(
-                    tzinfo=None
-                )
-                and fin_existente == stop_utc.replace(
-                    tzinfo=None
-                )
-            ):
-
-                duplicado = True
-                break
-
-        if duplicado:
-            continue
-
-        # ----------------------------------------------------
-        # Crear programme.
-        # ----------------------------------------------------
+        # ====================================================
+        # CREAR ELEMENTO XMLTV
+        # ====================================================
 
         prog = ET.Element(
             'programme',
@@ -1164,13 +1185,13 @@ def extraer_programacion_gatotv(
         # TÍTULO
         # ----------------------------------------------------
 
-        title = ET.SubElement(
+        title_elem = ET.SubElement(
             prog,
             'title',
             lang='es'
         )
 
-        title.text = titulo
+        title_elem.text = titulo
 
         # ----------------------------------------------------
         # DESCRIPCIÓN
@@ -1178,13 +1199,17 @@ def extraer_programacion_gatotv(
 
         if descripcion:
 
-            desc = ET.SubElement(
+            desc_elem = ET.SubElement(
                 prog,
                 'desc',
                 lang='es'
             )
 
-            desc.text = descripcion
+            desc_elem.text = descripcion
+
+        # ====================================================
+        # GUARDAR
+        # ====================================================
 
         programas.append(
             (
@@ -1199,27 +1224,32 @@ def extraer_programacion_gatotv(
             )
         )
 
-        # ----------------------------------------------------
+        # ====================================================
         # LOG
-        # ----------------------------------------------------
+        # ====================================================
+
+        print(
+            f"       ✓ "
+            f"{hora_inicio}-{hora_fin} "
+            f"{titulo}"
+        )
 
         if descripcion:
 
             print(
-                f"       ✓ "
-                f"{hora_inicio}-{hora_fin} "
-                f"{titulo} "
-                f"| DESC: "
-                f"{descripcion[:100]}"
+                f"          DESC: "
+                f"{descripcion[:180]}"
             )
 
-        else:
+    # ========================================================
+    # RESUMEN
+    # ========================================================
 
-            print(
-                f"       ✓ "
-                f"{hora_inicio}-{hora_fin} "
-                f"{titulo}"
-            )
+    print(
+        f"       Filas de programación "
+        f"reconocidas: "
+        f"{len(programas)}"
+    )
 
     print(
         f"       ✔ Programas encontrados: "
@@ -1231,6 +1261,8 @@ def extraer_programacion_gatotv(
 
 # ============================================================
 # 🐱 OBTENER LOS 3 DÍAS DE GATOTV
+#
+# HOY + MAÑANA + PASADO MAÑANA
 # ============================================================
 
 def cargar_gatotv(
@@ -1244,6 +1276,9 @@ def cargar_gatotv(
         "desde GatoTV..."
     )
     print("")
+
+    # Usamos la fecha de Chile, no la fecha UTC
+    # del servidor de GitHub.
 
     ahora_chile = datetime.datetime.now(
         ZONA_HORARIA_GATOTV
@@ -1294,6 +1329,9 @@ def cargar_gatotv(
 
             continue
 
+        # Si el canal no existía todavía,
+        # creamos su elemento.
+
         if channel_id not in canales_dict:
 
             ch_elem = ET.Element(
@@ -1312,12 +1350,10 @@ def cargar_gatotv(
                 channel_id
             ] = ch_elem
 
-        # ----------------------------------------------------
-        # GatoTV tiene prioridad sobre fuentes públicas.
+        # GatoTV tiene prioridad sobre las fuentes públicas.
         #
-        # Eliminamos solamente los programas que chocan
-        # realmente con sus horarios.
-        # ----------------------------------------------------
+        # Eliminamos únicamente los programas públicos
+        # que choquen con los horarios de GatoTV.
 
         for (
             _,
@@ -1744,6 +1780,13 @@ try:
 
                     if st_dt and sp_dt:
 
+                        # 🧹 ELIMINAR CUALQUIER BLOQUE
+                        # QUE ENTRE EN CONFLICTO.
+                        #
+                        # Esto permite que guia.xml
+                        # siga teniendo prioridad sobre
+                        # GatoTV y las fuentes públicas.
+
                         programas_lista[:] = [
                             p
                             for p in programas_lista
@@ -1830,6 +1873,8 @@ try:
             canales_dict[ch_id]
         )
 
+
+    # Orden cronológico de todos los programas.
 
     programas_lista.sort(
         key=lambda x: x[2]
