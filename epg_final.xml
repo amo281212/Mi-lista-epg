@@ -219,48 +219,38 @@
   <channel id="WarnerChannel.cl">
     <display-name>WarnerChannel.cl</display-name>
   </channel>
-  <programme start="20260830000000 +0000" stop="20260830030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260830000000 +0000" stop="20260830030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260830000000 +0000" stop="20260830030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260830000000 +0000" stop="20260830030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20260830022000 +0000" stop="20260830160000 +0000" channel="TNTSportsPremium.cl">
-    <title lang="es">POST Ñublense vs Deportes Concepción</title>
-    <desc lang="es">Sin información.</desc>
-  </programme>
-  <programme start="20260830030000 +0000" stop="20260830060000 +0000" channel="CHVNoticias.cl">
+  <programme start="20260830000000 +0000" stop="20260830030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260830030000 +0000" stop="20260830060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260830022000 +0000" stop="20260830160000 +0000" channel="TNTSportsPremium.cl">
+    <title lang="es">POST Ñublense vs Deportes Concepción</title>
+    <desc lang="es">Sin información.</desc>
   </programme>
   <programme start="20260830030000 +0000" stop="20260830060000 +0000" channel="ENTChannel.cl">
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
   </programme>
-  <programme start="20260830060000 +0000" stop="20260830090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260830060000 +0000" stop="20260830090000 +0000" channel="T13Noticias.cl">
+  <programme start="20260830030000 +0000" stop="20260830060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260830030000 +0000" stop="20260830060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260830060000 +0000" stop="20260830090000 +0000" channel="ENTChannel.cl">
@@ -268,14 +258,14 @@
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
   </programme>
-  <programme start="20260830090000 +0000" stop="20260830120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260830090000 +0000" stop="20260830120000 +0000" channel="T13Noticias.cl">
+  <programme start="20260830060000 +0000" stop="20260830090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260830060000 +0000" stop="20260830090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260830090000 +0000" stop="20260830120000 +0000" channel="ENTChannel.cl">
@@ -283,14 +273,14 @@
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
   </programme>
-  <programme start="20260830120000 +0000" stop="20260830150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260830120000 +0000" stop="20260830150000 +0000" channel="T13Noticias.cl">
+  <programme start="20260830090000 +0000" stop="20260830120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260830090000 +0000" stop="20260830120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260830120000 +0000" stop="20260830150000 +0000" channel="ENTChannel.cl">
@@ -298,20 +288,30 @@
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
   </programme>
-  <programme start="20260830150000 +0000" stop="20260830180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260830150000 +0000" stop="20260830180000 +0000" channel="T13Noticias.cl">
+  <programme start="20260830120000 +0000" stop="20260830150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260830120000 +0000" stop="20260830150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260830150000 +0000" stop="20260830180000 +0000" channel="ENTChannel.cl">
     <title lang="es">ENT Channel: Selección de Cine 24/7</title>
     <desc lang="es">Las mejores producciones cinematográficas.</desc>
     <category lang="es">Cine</category>
+  </programme>
+  <programme start="20260830150000 +0000" stop="20260830180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260830150000 +0000" stop="20260830180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260830160000 +0000" stop="20260830163000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">PREVIA ASCENSO D. Copiapó vs D. Antofagasta</title>
@@ -408,20 +408,20 @@ Jonathan y Drew deben decidir entre una inversión inmobiliaria histórica y una
     <title lang="es">Hermanos Scott: al rescate</title>
     <title lang="en">Backed by the Bros</title>
   </programme>
-  <programme start="20260830180000 +0000" stop="20260830210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260830180000 +0000" stop="20260830210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260830180000 +0000" stop="20260830210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260830180000 +0000" stop="20260830210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260830180000 +0000" stop="20260830210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260830181500 +0000" stop="20260830190200 +0000" channel="FOODNETWORK.uy">
     <category lang="es">Reality</category>
@@ -546,20 +546,20 @@ Archi, Betty, Verónica y toda la pandilla llegan a Guerra de Pasteles. Cuatro m
     <title lang="es">POST U. de Concepción vs U. de Chile</title>
     <desc lang="es">Sin información.</desc>
   </programme>
-  <programme start="20260830210000 +0000" stop="20260831000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260830210000 +0000" stop="20260831000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260830210000 +0000" stop="20260831000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260830210000 +0000" stop="20260831000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260830210000 +0000" stop="20260831000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260830210400 +0000" stop="20260830212800 +0000" channel="HGTV.ar">
     <desc lang="es">S2 E3 — Cocina rústica del chef
@@ -714,20 +714,20 @@ Ayesha Curry celebra a su madre y su abuela y para eso prepara las recetas famil
     <title lang="es">Coquimbo Unido vs Huachipato</title>
     <desc lang="es">Sin información.</desc>
   </programme>
-  <programme start="20260831000000 +0000" stop="20260831030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260831000000 +0000" stop="20260831030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260831000000 +0000" stop="20260831030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260831000000 +0000" stop="20260831030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260831000000 +0000" stop="20260831030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260831001300 +0000" stop="20260831010000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <desc lang="es">S7 E7 — Repara esta casa en 24 horas
@@ -893,20 +893,20 @@ Inspirada en la región italiana de Venecia, Giada De Laurentiis prepara algunos
   <programme start="20260831030000 +0000" stop="20260831040000 +0000" channel="LasEstrellas.cl">
     <title lang="es">Renta Congelada</title>
   </programme>
-  <programme start="20260831030000 +0000" stop="20260831060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260831030000 +0000" stop="20260831060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260831030000 +0000" stop="20260831060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260831030000 +0000" stop="20260831060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260831030000 +0000" stop="20260831060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260831030800 +0000" stop="20260831033100 +0000" channel="FOODNETWORK.uy">
     <date>2011</date>
@@ -1632,20 +1632,20 @@ Los chefs deben encontrar la manera de utilizar una sopa y una guarnición itali
   <programme start="20260831060000 +0000" stop="20260831063000 +0000" channel="24Horas.cl">
     <title lang="es">24 Horas a la Hora</title>
   </programme>
-  <programme start="20260831060000 +0000" stop="20260831090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260831060000 +0000" stop="20260831090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260831060000 +0000" stop="20260831090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260831060000 +0000" stop="20260831090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260831060000 +0000" stop="20260831090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260831060300 +0000" stop="20260831061500 +0000" channel="CartoonNetwork.cl">
     <title lang="es">El Increíble Mundo de Gumball</title>
@@ -2607,20 +2607,20 @@ Cuatro extraordinarios chefs expertos en azúcar son los primeros en poner un pi
   <programme start="20260831090000 +0000" stop="20260831093000 +0000" channel="24Horas.cl">
     <title lang="es">Hora 24</title>
   </programme>
-  <programme start="20260831090000 +0000" stop="20260831120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260831090000 +0000" stop="20260831120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260831090000 +0000" stop="20260831120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260831090000 +0000" stop="20260831120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260831090000 +0000" stop="20260831120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260831090100 +0000" stop="20260831091300 +0000" channel="DisneyChannel.cl">
     <title lang="es">Star vs. Las Fuerzas del Mal</title>
@@ -3654,20 +3654,20 @@ Una casa californiana que es una estrella de cine, una fábrica en Francia, una 
   <programme start="20260831120000 +0000" stop="20260831123000 +0000" channel="24Horas.cl">
     <title lang="es">El especialista responde</title>
   </programme>
-  <programme start="20260831120000 +0000" stop="20260831150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260831120000 +0000" stop="20260831150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260831120000 +0000" stop="20260831150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260831120000 +0000" stop="20260831150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260831120000 +0000" stop="20260831150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260831120100 +0000" stop="20260831135100 +0000" channel="WarnerChannel.cl">
     <title lang="es">Tom y Jerry</title>
@@ -4615,20 +4615,20 @@ Se revela el detrás de escena. April tiene los brazos llenos de bultos. Genner 
   <programme start="20260831150000 +0000" stop="20260831163000 +0000" channel="24Horas.cl">
     <title lang="es">Mañana Informativa</title>
   </programme>
-  <programme start="20260831150000 +0000" stop="20260831180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260831150000 +0000" stop="20260831180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260831150000 +0000" stop="20260831180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260831150000 +0000" stop="20260831180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260831150000 +0000" stop="20260831180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260831150200 +0000" stop="20260831153400 +0000" channel="DisneyChannel.cl">
     <title lang="es">Phineas y Ferb</title>
@@ -5524,20 +5524,20 @@ Una pareja de recién casados busca establecerse en una casa familiar de Hudson 
   <programme start="20260831180000 +0000" stop="20260831183000 +0000" channel="EnlaceTBN.cl">
     <title lang="es">En los pasos del maestro</title>
   </programme>
-  <programme start="20260831180000 +0000" stop="20260831210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260831180000 +0000" stop="20260831210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260831180000 +0000" stop="20260831210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260831180000 +0000" stop="20260831210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260831180000 +0000" stop="20260831210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260831180500 +0000" stop="20260831195500 +0000" channel="TNTSportsPremium.cl">
     <category lang="es">Soccer</category>
@@ -6389,20 +6389,20 @@ Hoy en Guerra de Pasteles habrá obras maestras de 65 millones de años, pues cu
   <programme start="20260831210000 +0000" stop="20260831213000 +0000" channel="EnlaceTBN.cl">
     <title lang="es">Ministración con Joe Ferreyra</title>
   </programme>
-  <programme start="20260831210000 +0000" stop="20260901000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260831210000 +0000" stop="20260901000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260831210000 +0000" stop="20260901000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260831210000 +0000" stop="20260901000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260831210000 +0000" stop="20260901000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260831210100 +0000" stop="20260831215200 +0000" channel="Discovery.cl">
     <title lang="es">Mexicánicos</title>
@@ -7341,20 +7341,20 @@ Las tías de Stephen Curry están de visita y Ayesha prepara una barbacoa sureñ
   <programme start="20260901000000 +0000" stop="20260901010000 +0000" channel="24Horas.cl">
     <title lang="es">24 Horas Deportes</title>
   </programme>
-  <programme start="20260901000000 +0000" stop="20260901030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260901000000 +0000" stop="20260901030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260901000000 +0000" stop="20260901030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260901000000 +0000" stop="20260901030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260901000000 +0000" stop="20260901030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260901000100 +0000" stop="20260901004500 +0000" channel="DisneyChannel.cl">
     <title lang="es">Champeta el ritmo de la Tierra</title>
@@ -8383,20 +8383,20 @@ Buddy recibe la ayuda de su cuñado Joey para avivar un menú decadente que incl
   <programme start="20260901030000 +0000" stop="20260901040000 +0000" channel="24Horas.cl">
     <title lang="es">Vía Pública</title>
   </programme>
-  <programme start="20260901030000 +0000" stop="20260901060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260901030000 +0000" stop="20260901060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260901030000 +0000" stop="20260901060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260901030000 +0000" stop="20260901060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260901030000 +0000" stop="20260901060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260901030100 +0000" stop="20260901031100 +0000" channel="Tooncast.cl">
     <title lang="es">Los pequeños Looney Tunes</title>
@@ -9456,20 +9456,20 @@ A una familia le encanta poder vivir al lado del abuelo, pero su casa ha sido in
   <programme start="20260901060000 +0000" stop="20260901063000 +0000" channel="24Horas.cl">
     <title lang="es">24 Horas a la Hora</title>
   </programme>
-  <programme start="20260901060000 +0000" stop="20260901090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260901060000 +0000" stop="20260901090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260901060000 +0000" stop="20260901090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260901060000 +0000" stop="20260901090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260901060000 +0000" stop="20260901090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260901060700 +0000" stop="20260901061900 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Héroes y hermanos</title>
@@ -10493,20 +10493,20 @@ En este desafío de chocolate, cuatro artistas de la repostería aspiran a hacer
   <programme start="20260901090000 +0000" stop="20260901093000 +0000" channel="24Horas.cl">
     <title lang="es">Hora 24</title>
   </programme>
-  <programme start="20260901090000 +0000" stop="20260901120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260901090000 +0000" stop="20260901120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260901090000 +0000" stop="20260901120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260901090000 +0000" stop="20260901120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260901090000 +0000" stop="20260901120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260901090300 +0000" stop="20260901091400 +0000" channel="CartoonNetwork.cl">
     <title lang="es">El mundo de Craig</title>
@@ -11553,20 +11553,20 @@ Eric Adjepong le da la bienvenida a tres chefs amantes de los huevos para que ut
   <programme start="20260901120000 +0000" stop="20260901123000 +0000" channel="24Horas.cl">
     <title lang="es">Reporte minero y energético</title>
   </programme>
-  <programme start="20260901120000 +0000" stop="20260901150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260901120000 +0000" stop="20260901150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260901120000 +0000" stop="20260901150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260901120000 +0000" stop="20260901150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260901120000 +0000" stop="20260901150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260901120300 +0000" stop="20260901121000 +0000" channel="CartoonNetwork.cl">
     <title lang="es">El Increíble Mundo de Gumball</title>
@@ -12571,20 +12571,20 @@ Se revela el detrás de escena. Gerald ha vuelto para ver al Dr. Lee y a un espe
   <programme start="20260901150000 +0000" stop="20260901163000 +0000" channel="24Horas.cl">
     <title lang="es">Mañana Informativa</title>
   </programme>
-  <programme start="20260901150000 +0000" stop="20260901180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260901150000 +0000" stop="20260901180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260901150000 +0000" stop="20260901180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260901150000 +0000" stop="20260901180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260901150000 +0000" stop="20260901180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260901150200 +0000" stop="20260901155400 +0000" channel="DiscoveryTurbo.cl">
     <title lang="es">Overhaulin'</title>
@@ -13516,20 +13516,20 @@ Una mujer soltera busca su primera casa para estar más cerca de su familia en P
   <programme start="20260901180000 +0000" stop="20260901183000 +0000" channel="EnlaceTBN.cl">
     <title lang="es">En casa con</title>
   </programme>
-  <programme start="20260901180000 +0000" stop="20260901210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260901180000 +0000" stop="20260901210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260901180000 +0000" stop="20260901210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260901180000 +0000" stop="20260901210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260901180000 +0000" stop="20260901210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260901180200 +0000" stop="20260901184900 +0000" channel="DiscoveryHomeAndHealth.cl">
     <desc lang="es">S9 E4 — Oído cerebro
@@ -14426,20 +14426,20 @@ La chef Silvia Barban solo tiene una cosa en mente: vengarse de la estrella Broo
   <programme start="20260901210000 +0000" stop="20260901213000 +0000" channel="EnlaceTBN.cl">
     <title lang="es">Ministración con Joe Ferreyra</title>
   </programme>
-  <programme start="20260901210000 +0000" stop="20260902000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260901210000 +0000" stop="20260902000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260901210000 +0000" stop="20260902000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260901210000 +0000" stop="20260902000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260901210000 +0000" stop="20260902000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260901210100 +0000" stop="20260901230700 +0000" channel="GoldenEdge.cl">
     <title lang="es">No manches Frida</title>
@@ -15369,20 +15369,20 @@ Tyler Florence se encuentra con los dos equipos finales mientras se enfrentan ca
   <programme start="20260902000000 +0000" stop="20260902010000 +0000" channel="24Horas.cl">
     <title lang="es">24 Horas Deportes</title>
   </programme>
-  <programme start="20260902000000 +0000" stop="20260902030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260902000000 +0000" stop="20260902030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260902000000 +0000" stop="20260902030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260902000000 +0000" stop="20260902030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260902000000 +0000" stop="20260902030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260902000100 +0000" stop="20260902000700 +0000" channel="Tooncast.cl">
     <title lang="es">Hi Hi Puffy Amiyumi</title>
@@ -16431,20 +16431,20 @@ Todos en la familia Valastro tienen una especialidad y las hermanas de Buddy vie
   <programme start="20260902030000 +0000" stop="20260902040000 +0000" channel="24Horas.cl">
     <title lang="es">Vía Pública</title>
   </programme>
-  <programme start="20260902030000 +0000" stop="20260902060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260902030000 +0000" stop="20260902060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260902030000 +0000" stop="20260902060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260902030000 +0000" stop="20260902060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260902030000 +0000" stop="20260902060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260902030200 +0000" stop="20260902060000 +0000" channel="GoldenEdge.cl">
     <title lang="es">Troya</title>
@@ -17381,20 +17381,20 @@ En la primera ronda, ¿podrán los chefs alzar el vuelo con postres de chocolate
   <programme start="20260902060000 +0000" stop="20260902063000 +0000" channel="24Horas.cl">
     <title lang="es">24 Horas a la Hora</title>
   </programme>
-  <programme start="20260902060000 +0000" stop="20260902090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260902060000 +0000" stop="20260902090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260902060000 +0000" stop="20260902090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260902060000 +0000" stop="20260902090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260902060000 +0000" stop="20260902090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260902060100 +0000" stop="20260902061100 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Escandalosos</title>
@@ -18338,20 +18338,20 @@ Hay un par enérgico en la cocina en un grupo jóvenes competidores que incluye 
   <programme start="20260902090000 +0000" stop="20260902093000 +0000" channel="24Horas.cl">
     <title lang="es">Hora 24</title>
   </programme>
-  <programme start="20260902090000 +0000" stop="20260902120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260902090000 +0000" stop="20260902120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260902090000 +0000" stop="20260902120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260902090000 +0000" stop="20260902120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260902090000 +0000" stop="20260902120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260902090400 +0000" stop="20260902092900 +0000" channel="SONYMOVIES.uy">
     <title lang="es">The Goldbergs</title>
@@ -19309,20 +19309,20 @@ Eric Adjepong invita a tres chefs a enfrentarse a uno de los platos más difíci
   <programme start="20260902120000 +0000" stop="20260902121500 +0000" channel="24Horas.cl">
     <title lang="es">DW analiza</title>
   </programme>
-  <programme start="20260902120000 +0000" stop="20260902150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260902120000 +0000" stop="20260902150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260902120000 +0000" stop="20260902150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260902120000 +0000" stop="20260902150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260902120000 +0000" stop="20260902150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260902120300 +0000" stop="20260902121100 +0000" channel="CartoonNetwork.cl">
     <title lang="es">El Increíble Mundo de Gumball</title>
@@ -20207,20 +20207,20 @@ Josh y Jessalyn se casarán pronto y planearon todo con temática francesa, pero
   <programme start="20260902150000 +0000" stop="20260902163000 +0000" channel="24Horas.cl">
     <title lang="es">Mañana Informativa</title>
   </programme>
-  <programme start="20260902150000 +0000" stop="20260902180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260902150000 +0000" stop="20260902180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260902150000 +0000" stop="20260902180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260902150000 +0000" stop="20260902180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260902150000 +0000" stop="20260902180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260902150100 +0000" stop="20260902151300 +0000" channel="Tooncast.cl">
     <title lang="es">Los pequeños Looney Tunes</title>
@@ -21008,20 +21008,20 @@ Cuatro pasteleros tratarán de servir sus cupcakes en un evento organizado por e
   <programme start="20260902180000 +0000" stop="20260902183000 +0000" channel="EnlaceTBN.cl">
     <title lang="es">Jesus Worship Center</title>
   </programme>
-  <programme start="20260902180000 +0000" stop="20260902210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260902180000 +0000" stop="20260902210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260902180000 +0000" stop="20260902210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260902180000 +0000" stop="20260902210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260902180000 +0000" stop="20260902210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260902180800 +0000" stop="20260902200600 +0000" channel="HBOFamily.cl">
     <title lang="es">Wonka</title>
@@ -21814,20 +21814,20 @@ Bobby Flay invita a la prometedora chef Ashleigh Shanti a enfrentarse a los Tita
   <programme start="20260902210000 +0000" stop="20260902213000 +0000" channel="EnlaceTBN.cl">
     <title lang="es">Ministración con Joe Ferreyra</title>
   </programme>
-  <programme start="20260902210000 +0000" stop="20260903000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20260902210000 +0000" stop="20260903000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20260902210000 +0000" stop="20260903000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260902210000 +0000" stop="20260903000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260902210000 +0000" stop="20260903000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260902210500 +0000" stop="20260902213000 +0000" channel="Tooncast.cl">
     <title lang="es">Mansión foster para amigos imaginarios</title>
