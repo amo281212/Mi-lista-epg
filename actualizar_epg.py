@@ -9,7 +9,7 @@ from zoneinfo import ZoneInfo
 
 
 # ============================================================
-# 🎯 TUS CANALESS CON IDS LIMPIOS
+# 🎯 TUS CANALES CON IDS LIMPIOS
 # ============================================================
 
 MIS_CANALES = {
