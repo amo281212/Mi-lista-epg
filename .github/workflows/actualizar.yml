@@ -5,7 +5,7 @@ on:
     - cron: '0 * * * *'
   workflow_dispatch:
 
-# Evita que dos ejecuciones intenten modificar main al mismo tiempo.
+# Evita que dos ejecuciones trabajen sobre main al mismo tiempo.
 concurrency:
   group: actualizar-epg
   cancel-in-progress: false
@@ -37,21 +37,11 @@ jobs:
         run: python actualizar_epg.py
 
       # ------------------------------------------------------
-      # 🔄 Sincronizar con el repositorio antes de guardar
-      # ------------------------------------------------------
-      - name: Sincronizar cambios
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git fetch origin main
-          git rebase origin/main
-
-      # ------------------------------------------------------
-      # 💾 Guardar EPG actualizado
+      # 💾 Guardar cambios en GitHub
       # ------------------------------------------------------
       - name: Guardar cambios en GitHub
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "EPG actualizada automáticamente"
           file_pattern: "epg_final.xml *.xml"
+          push_options: "--force-with-lease"
