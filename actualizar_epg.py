@@ -275,7 +275,7 @@ DESFASE_GATOTV = {
     'Cinemax.cl': 1,
     'Golden.cl': 1,
     'GoldenEdge.cl': 1,
-    'HBO.cl': 1
+    'HBO.cl': 1,
     'HBO2.cl': 1,
     'HBOFamily.cl': 1,
     'HBOPop.cl': 1,
