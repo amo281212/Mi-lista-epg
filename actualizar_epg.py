@@ -266,7 +266,7 @@ GATOTV_CANALES = {
 # ============================================================
 
 DESFASE_GATOTV = {
-    'TVN.cl': 2,
+    'TVN.cl': 3,
     'Mega.cl': 2,
     'Chilevision.cl': 2,
     'Canal13.cl': 2,
@@ -277,7 +277,7 @@ DESFASE_GATOTV = {
     'GoldenEdge.cl': 2,
     'HBO.cl': 2,
     'HBO2.cl': 2,
-    'HBOFamily.cl': 2,
+    'HBOFamily.cl': 3,
     'HBOPop.cl': 2,
     'HBOXtreme.cl': 2,
     'SONYMOVIES.uy': 2,
