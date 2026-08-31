@@ -124,6 +124,27 @@ FUENTES_PUBLICAS = [
 
 
 # ============================================================
+# 🌐 CANALES QUE SÍ PUEDEN USAR FUENTES PÚBLICAS
+#
+# Estos son los únicos canales que recibirán programación
+# desde las fuentes públicas.
+#
+# Los demás canales serán ignorados por estas fuentes y
+# continuarán dependiendo de GatoTV, tu guía propia o
+# los respaldos.
+# ============================================================
+
+CANALES_FUENTES_PUBLICAS = {
+    'DIRECTVSports.cl',
+    'ESPN5.cl',
+    'TNTSportsPremium.cl',
+    'FOODNETWORK.uy',
+    'HGTV.ar',
+    'DiscoveryHomeAndHealth.cl',
+}
+
+
+# ============================================================
 # 📝 TU GUÍA MANUAL
 # ============================================================
 
@@ -1633,8 +1654,11 @@ try:
                         ch_id
                     )
 
+                    # SOLO los 6 canales autorizados
+                    # pueden entrar desde fuentes públicas.
+
                     if (
-                        target_id in MIS_CANALES
+                        target_id in CANALES_FUENTES_PUBLICAS
                         and target_id
                         not in canales_dict
                     ):
@@ -1659,7 +1683,11 @@ try:
                         ch_id
                     )
 
-                    if target_id in MIS_CANALES:
+                    # SOLO los 6 canales autorizados
+                    # pueden recibir programación
+                    # desde fuentes públicas.
+
+                    if target_id in CANALES_FUENTES_PUBLICAS:
 
                         elem.set(
                             'channel',
