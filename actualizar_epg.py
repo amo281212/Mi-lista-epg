@@ -3,10 +3,9 @@ import gzip
 import urllib.request
 import urllib.error
 import re
+import html
 import xml.etree.ElementTree as ET
-from html.parser import HTMLParser
 from zoneinfo import ZoneInfo
-from html import unescape
 
 
 # ============================================================
@@ -258,7 +257,7 @@ GATOTV_DIAS = 3
 
 
 # ============================================================
-# 🌎 ZONA HORARIA
+# 🌎 ZONA HORARIA BASE DE GATOTV
 # ============================================================
 
 ZONA_HORARIA_GATOTV = ZoneInfo("America/Santiago")
@@ -418,7 +417,7 @@ DATOS_RESPALDO = {
 
 
 # ============================================================
-# 🔧 NORMALIZAR ZONA HORARIA A UTC
+# 🔧 NORMALIZAR CUALQUIER ZONA HORARIA A UTC
 # ============================================================
 
 def normalizar_a_utc(time_str, horas_desfase=0):
@@ -530,17 +529,39 @@ def descargar_xml(url):
 # 🧹 LIMPIAR HTML
 # ============================================================
 
-def limpiar_html(texto):
+def limpiar_html_a_texto(texto):
 
     if not texto:
         return ''
 
+    texto = html.unescape(texto)
+
+    # Quitar scripts y estilos.
+
+    texto = re.sub(
+        r'<script\b[^>]*>.*?</script>',
+        ' ',
+        texto,
+        flags=re.I | re.S
+    )
+
+    texto = re.sub(
+        r'<style\b[^>]*>.*?</style>',
+        ' ',
+        texto,
+        flags=re.I | re.S
+    )
+
+    # Convertir algunos saltos HTML a espacios.
+
     texto = re.sub(
         r'<br\s*/?>',
-        '\n',
+        ' ',
         texto,
         flags=re.I
     )
+
+    # Quitar cualquier etiqueta restante.
 
     texto = re.sub(
         r'<[^>]+>',
@@ -548,12 +569,7 @@ def limpiar_html(texto):
         texto
     )
 
-    texto = unescape(texto)
-
-    texto = texto.replace(
-        '\xa0',
-        ' '
-    )
+    # Normalizar espacios.
 
     texto = re.sub(
         r'\s+',
@@ -565,331 +581,205 @@ def limpiar_html(texto):
 
 
 # ============================================================
-# 🐱 EXTRAER TÍTULO + DESCRIPCIÓN DE UN BLOQUE GATOTV
+# 🐱 EXTRAER TÍTULO DESDE UN BLOQUE DE GATOTV
 #
-# Esta función NO mira imágenes.
+# Esta función acepta:
 #
-# Sirve tanto para:
+# 1. Programa con imagen:
 #
-# 1) Programa simple
+# <a title="Shrek Tercero">
+#     <span>Shrek Tercero</span>
+# </a>
 #
-#    <div class="tbl_EPG_ProgramsColumn">
-#       Shrek
-#    </div>
+# 2. Programa sin imagen:
 #
-# como para:
-#
-# 2) Programa con imagen
-#
-#    <div class="tbl_EPG_ProgramsColumn pelicula">
-#       <div class="div_program_title_on_channel">
-#          <a ...>
-#             <span>Shrek Tercero</span>
-#          </a>
-#       </div>
-#       Descripción...
-#    </div>
+# texto simple dentro del bloque.
 #
 # ============================================================
 
-def extraer_titulo_descripcion_bloque(
+def extraer_titulo_y_descripcion_bloque(
     bloque
 ):
 
     if not bloque:
         return '', ''
 
-    bloque_limpio = bloque
+    # --------------------------------------------------------
+    # Buscar primero el contenedor específico del título.
+    # --------------------------------------------------------
 
-    # --------------------------------------------------------
-    # Buscar el título en la estructura específica de GatoTV.
-    # --------------------------------------------------------
+    titulo_contenedor = re.search(
+        r'<div\b[^>]*class=["\'][^"\']*'
+        r'\bdiv_program_title_on_channel\b'
+        r'[^"\']*["\'][^>]*>'
+        r'(.*?)'
+        r'</div>',
+        bloque,
+        flags=re.I | re.S
+    )
 
     titulo = ''
 
-    patrones_titulo = [
+    if titulo_contenedor:
 
-        r'<div[^>]*class=["\'][^"\']*div_program_title_on_channel[^"\']*["\'][^>]*>'
-        r'.*?<span[^>]*>(.*?)</span>',
+        contenido_titulo = (
+            titulo_contenedor.group(1)
+        )
 
-        r'<div[^>]*class=["\'][^"\']*div_program_title_on_channel[^"\']*["\'][^>]*>'
-        r'.*?<a[^>]*>(.*?)</a>',
+        # ----------------------------------------------------
+        # Si existe <a title="..."> usamos exactamente ese
+        # título.
+        # ----------------------------------------------------
 
-        r'<a[^>]*title=["\']([^"\']+)["\'][^>]*>'
-    ]
-
-    for patron in patrones_titulo:
-
-        encontrado = re.search(
-            patron,
-            bloque_limpio,
+        match_title_attr = re.search(
+            r'<a\b[^>]*\btitle=["\']'
+            r'([^"\']+)'
+            r'["\']',
+            contenido_titulo,
             flags=re.I | re.S
         )
 
-        if encontrado:
+        if match_title_attr:
 
-            titulo = limpiar_html(
-                encontrado.group(1)
+            titulo = (
+                html.unescape(
+                    match_title_attr.group(1)
+                )
+                .strip()
             )
-
-            if titulo:
-                break
-
-    # --------------------------------------------------------
-    # Si no encontramos título con la estructura anterior,
-    # buscar cualquier texto dentro del bloque.
-    # --------------------------------------------------------
-
-    if not titulo:
-
-        texto_general = limpiar_html(
-            bloque_limpio
-        )
-
-        if texto_general:
-
-            # Quitar posibles restos comunes.
-            texto_general = re.sub(
-                r'\b\d{1,2}:\d{2}\b',
-                '',
-                texto_general
-            )
-
-            titulo = texto_general.strip()
-
-    if not titulo:
-        return '', ''
-
-    # --------------------------------------------------------
-    # Descripción:
-    #
-    # Tomamos el texto del bloque y quitamos el título.
-    #
-    # Esto funciona especialmente bien con la estructura:
-    #
-    # <div class="div_program_title_on_channel">
-    #     <a ...><span>TÍTULO</span></a>
-    # </div>
-    #
-    # DESCRIPCIÓN
-    # --------------------------------------------------------
-
-    descripcion = limpiar_html(
-        bloque_limpio
-    )
-
-    if descripcion:
-
-        # El título aparece primero.
-        if descripcion.lower().startswith(
-            titulo.lower()
-        ):
-
-            descripcion = descripcion[
-                len(titulo):
-            ].strip()
 
         else:
 
-            # Si no está exactamente al comienzo,
-            # eliminar la primera aparición.
-            descripcion = re.sub(
-                re.escape(titulo),
-                '',
-                descripcion,
-                count=1,
-                flags=re.I
-            ).strip()
+            # ------------------------------------------------
+            # Si no existe title="", tomar el texto del bloque.
+            # ------------------------------------------------
 
-    # --------------------------------------------------------
-    # Limpiar basura residual.
-    # --------------------------------------------------------
+            titulo = limpiar_html_a_texto(
+                contenido_titulo
+            )
+
+        # ----------------------------------------------------
+        # La descripción es todo lo que está FUERA del
+        # contenedor del título.
+        # ----------------------------------------------------
+
+        antes = bloque[
+            :titulo_contenedor.start()
+        ]
+
+        despues = bloque[
+            titulo_contenedor.end():
+        ]
+
+        descripcion = limpiar_html_a_texto(
+            antes + ' ' + despues
+        )
+
+    else:
+
+        # ----------------------------------------------------
+        # Fallback para estructuras donde no existe
+        # div_program_title_on_channel.
+        # ----------------------------------------------------
+
+        texto_completo = limpiar_html_a_texto(
+            bloque
+        )
+
+        titulo = texto_completo
+        descripcion = ''
+
+    titulo = re.sub(
+        r'\s+',
+        ' ',
+        titulo
+    ).strip()
 
     descripcion = re.sub(
-        r'^\s*[-|:]\s*',
-        '',
+        r'\s+',
+        ' ',
         descripcion
-    )
+    ).strip()
+
+    # --------------------------------------------------------
+    # Si por alguna razón la descripción repite el título,
+    # eliminarla.
+    # --------------------------------------------------------
 
     if (
-        descripcion.lower()
+        descripcion
+        and descripcion.lower()
         == titulo.lower()
     ):
 
         descripcion = ''
 
-    return (
-        titulo.strip(),
-        descripcion.strip()
-    )
+    return titulo, descripcion
 
 
 # ============================================================
-# 🐱 EXTRAER PROGRAMAS DE UNA FILA HTML
+# 🐱 EXTRAER BLOQUES tbl_EPG_ProgramsColumn
 #
-# ESTA ES LA PARTE IMPORTANTE.
+# IMPORTANTE:
 #
-# No dependemos de posiciones como:
+# NO usamos HTMLParser aquí.
 #
-# row[2] = título
+# El problema de las versiones anteriores era que el HTML
+# tiene DIVS ANIDADOS:
 #
-# porque cuando aparece una imagen cambia la cantidad
-# de celdas.
+# tbl_EPG_ProgramsColumn
+#     └── div_program_title_on_channel
+#             └── a
+#                 └── span
 #
-# En cambio:
+# Un parser con estado simple puede cerrar el bloque en el
+# primer </div>.
 #
-# 1. encontramos las horas;
-# 2. encontramos el bloque de programa;
-# 3. extraemos título y descripción.
+# Aquí buscamos directamente el bloque completo hasta:
 #
+# </div>
+# </td>
+#
+# que corresponde al contenedor externo.
 # ============================================================
 
-def extraer_programas_de_fila(
+def extraer_bloques_programa_de_fila(
     fila_html
 ):
 
-    programas = []
-
-    # --------------------------------------------------------
-    # 1. Buscar todas las horas de la fila.
-    # --------------------------------------------------------
-
-    horas = re.findall(
-        r'<time[^>]*datetime=["\']([^"\']+)["\'][^>]*>'
+    patron = (
+        r'<div\b'
+        r'[^>]*class=["\'][^"\']*'
+        r'\btbl_EPG_ProgramsColumn\b'
+        r'[^"\']*["\']'
+        r'[^>]*>'
         r'(.*?)'
-        r'</time>',
-        fila_html,
-        flags=re.I | re.S
+        r'</div>'
+        r'\s*</td>'
     )
-
-    horas_limpias = []
-
-    for datetime_value, texto_hora in horas:
-
-        hora = limpiar_html(
-            texto_hora
-        )
-
-        if not hora:
-
-            hora = datetime_value.strip()
-
-        if re.match(
-            r'^\d{1,2}:\d{2}$',
-            hora
-        ):
-
-            horas_limpias.append(
-                hora
-            )
-
-    # Necesitamos al menos dos horas.
-    if len(horas_limpias) < 2:
-        return programas
-
-    # --------------------------------------------------------
-    # 2. Tomar pares consecutivos de horarios.
-    #
-    # Normalmente una fila contiene:
-    #
-    # 16:14
-    # 17:49
-    #
-    # --------------------------------------------------------
-
-    hora_inicio = horas_limpias[0]
-    hora_fin = horas_limpias[1]
-
-    # --------------------------------------------------------
-    # 3. Buscar bloques de programación.
-    #
-    # IMPORTANTE:
-    #
-    # El patrón termina en el </div> exterior antes de </td>.
-    #
-    # Así soporta:
-    #
-    # <div class="tbl_EPG_ProgramsColumn">
-    #     texto
-    # </div>
-    #
-    # y:
-    #
-    # <div class="tbl_EPG_ProgramsColumn pelicula">
-    #     <div class="div_program_title_on_channel">
-    #        ...
-    #     </div>
-    #     descripción
-    # </div>
-    # </td>
-    #
-    # --------------------------------------------------------
 
     bloques = re.findall(
-        r'<div[^>]*class=["\'][^"\']*tbl_EPG_ProgramsColumn[^"\']*["\'][^>]*>'
-        r'.*?'
-        r'</div>\s*</td>',
+        patron,
         fila_html,
         flags=re.I | re.S
     )
 
-    # --------------------------------------------------------
-    # Si no encontró bloques, probar una segunda forma más
-    # flexible por si GatoTV cambia ligeramente el HTML.
-    # --------------------------------------------------------
-
-    if not bloques:
-
-        bloques = re.findall(
-            r'<div[^>]*class=["\'][^"\']*tbl_EPG_ProgramsColumn[^"\']*["\'][^>]*>'
-            r'.*?'
-            r'</div>',
-            fila_html,
-            flags=re.I | re.S
-        )
-
-    if not bloques:
-        return programas
-
-    # --------------------------------------------------------
-    # Normalmente hay un bloque de programa por fila.
-    #
-    # Si hubiera más de uno, usamos el primero que produzca
-    # un título válido.
-    # --------------------------------------------------------
-
-    titulo = ''
-    descripcion = ''
-
-    for bloque in bloques:
-
-        t, d = extraer_titulo_descripcion_bloque(
-            bloque
-        )
-
-        if t:
-
-            titulo = t
-            descripcion = d
-            break
-
-    if not titulo:
-        return programas
-
-    programas.append(
-        {
-            'hora_inicio': hora_inicio,
-            'hora_fin': hora_fin,
-            'titulo': titulo,
-            'descripcion': descripcion
-        }
-    )
-
-    return programas
+    return bloques
 
 
 # ============================================================
-# 🐱 EXTRAER PROGRAMACIÓN DE GATOTV
+# 🐱 EXTRAER PROGRAMACIÓN DE UNA PÁGINA GATOTV
+#
+# ESTA ES LA PARTE IMPORTANTE.
+#
+# Para cada <tr>:
+#
+# 1. Busca todos los <time datetime="">
+# 2. Toma los dos primeros como inicio y fin.
+# 3. Busca el bloque tbl_EPG_ProgramsColumn.
+# 4. Extrae título y descripción.
+#
+# Funciona tanto si hay imagen como si NO hay imagen.
 # ============================================================
 
 def extraer_programacion_gatotv(
@@ -927,7 +817,7 @@ def extraer_programacion_gatotv(
             timeout=30
         ) as response:
 
-            html = response.read().decode(
+            html_recibido = response.read().decode(
                 'utf-8',
                 errors='replace'
             )
@@ -941,142 +831,223 @@ def extraer_programacion_gatotv(
 
         return []
 
-    # --------------------------------------------------------
-    # Estadísticas del HTML.
-    # --------------------------------------------------------
-
-    cantidad_tr = len(
-        re.findall(
-            r'<tr\b',
-            html,
-            flags=re.I
-        )
-    )
-
-    cantidad_time = len(
-        re.findall(
-            r'<time\b',
-            html,
-            flags=re.I
-        )
-    )
-
-    cantidad_bloques = len(
-        re.findall(
-            r'tbl_EPG_ProgramsColumn',
-            html,
-            flags=re.I
-        )
-    )
-
     print(
         f"       HTML recibido: "
-        f"{len(html):,} caracteres"
-    )
-
-    print(
-        f"       <tr> encontrados: "
-        f"{cantidad_tr}"
-    )
-
-    print(
-        f"       <time> encontrados: "
-        f"{cantidad_time}"
-    )
-
-    print(
-        f"       Bloques tbl_EPG_ProgramsColumn: "
-        f"{cantidad_bloques}"
+        f"{len(html_recibido):,} caracteres"
     )
 
     # --------------------------------------------------------
-    # Extraer filas completas.
+    # Buscar filas HTML completas.
     # --------------------------------------------------------
 
     filas = re.findall(
         r'<tr\b[^>]*>.*?</tr>',
-        html,
+        html_recibido,
         flags=re.I | re.S
     )
 
     print(
-        f"       Filas HTML procesadas: "
+        f"       <tr> encontrados: "
         f"{len(filas)}"
     )
 
-    programas_detectados = []
+    programas = []
+
+    filas_programacion = 0
 
     # --------------------------------------------------------
-    # Procesar cada fila.
+    # Procesar cada fila de forma independiente.
     # --------------------------------------------------------
 
     for fila in filas:
 
-        encontrados = extraer_programas_de_fila(
+        # ----------------------------------------------------
+        # Buscar horas.
+        # ----------------------------------------------------
+
+        horas = re.findall(
+            r'<time\b'
+            r'[^>]*\bdatetime=["\']'
+            r'([^"\']+)'
+            r'["\'][^>]*>',
+            fila,
+            flags=re.I | re.S
+        )
+
+        if len(horas) < 2:
+            continue
+
+        hora_inicio = horas[0].strip()
+        hora_fin = horas[1].strip()
+
+        # ----------------------------------------------------
+        # Verificar formato HH:MM.
+        # ----------------------------------------------------
+
+        if not re.match(
+            r'^\d{1,2}:\d{2}$',
+            hora_inicio
+        ):
+            continue
+
+        if not re.match(
+            r'^\d{1,2}:\d{2}$',
+            hora_fin
+        ):
+            continue
+
+        # ----------------------------------------------------
+        # Buscar bloque de programación.
+        #
+        # Aquí se detectan tanto los programas con foto como
+        # los programas que son solamente texto.
+        # ----------------------------------------------------
+
+        bloques = extraer_bloques_programa_de_fila(
             fila
         )
 
-        for programa in encontrados:
+        titulo = ''
+        descripcion = ''
 
-            programas_detectados.append(
-                programa
+        if bloques:
+
+            # En una fila normal debería haber uno.
+
+            for bloque in bloques:
+
+                t, d = (
+                    extraer_titulo_y_descripcion_bloque(
+                        bloque
+                    )
+                )
+
+                if t:
+
+                    titulo = t
+                    descripcion = d
+                    break
+
+        # ----------------------------------------------------
+        # FALLBACK:
+        #
+        # Si por alguna variante HTML no apareció
+        # tbl_EPG_ProgramsColumn, buscamos una celda después
+        # de las horas que tenga contenido textual.
+        #
+        # Esto protege especialmente los programas simples.
+        # ----------------------------------------------------
+
+        if not titulo:
+
+            celdas = re.findall(
+                r'<td\b[^>]*>(.*?)</td>',
+                fila,
+                flags=re.I | re.S
             )
 
-    print(
-        f"       Filas de programación reconocidas: "
-        f"{len(programas_detectados)}"
-    )
+            # Buscar desde el final de la segunda hora.
 
-    # --------------------------------------------------------
-    # Mostrar los primeros programas encontrados.
-    # --------------------------------------------------------
+            indice_segunda_hora = fila.find(
+                hora_fin
+            )
 
-    for indice, programa in enumerate(
-        programas_detectados,
-        start=1
-    ):
+            if indice_segunda_hora >= 0:
 
-        print(
-            f"       🔎 Programa {indice}: "
-            f"{programa['titulo']}"
-        )
+                parte_despues = fila[
+                    indice_segunda_hora
+                    + len(hora_fin):
+                ]
 
-        if programa['descripcion']:
+            else:
+
+                parte_despues = fila
+
+            # ------------------------------------------------
+            # Quitar imágenes.
+            # ------------------------------------------------
+
+            parte_despues = re.sub(
+                r'<img\b[^>]*>',
+                ' ',
+                parte_despues,
+                flags=re.I | re.S
+            )
+
+            # ------------------------------------------------
+            # Buscar un enlace con title como fallback.
+            # ------------------------------------------------
+
+            fallback_title = re.search(
+                r'<a\b[^>]*\btitle=["\']'
+                r'([^"\']+)'
+                r'["\'][^>]*>',
+                parte_despues,
+                flags=re.I | re.S
+            )
+
+            if fallback_title:
+
+                titulo = html.unescape(
+                    fallback_title.group(1)
+                ).strip()
+
+            else:
+
+                texto_fallback = limpiar_html_a_texto(
+                    parte_despues
+                )
+
+                # ------------------------------------------------
+                # Evitar textos que claramente no son programas.
+                # ------------------------------------------------
+
+                texto_fallback = re.sub(
+                    r'^(Mañana|Tarde|Noche|Madrugada)\s+',
+                    '',
+                    texto_fallback,
+                    flags=re.I
+                )
+
+                if texto_fallback:
+
+                    titulo = texto_fallback.split(
+                        '  '
+                    )[0].strip()
+
+        if not titulo:
+
+            continue
+
+        filas_programacion += 1
+
+        # ----------------------------------------------------
+        # Mostrar primeros programas para diagnóstico.
+        # ----------------------------------------------------
+
+        if filas_programacion <= 5:
 
             print(
-                f"          DESC: "
-                f"{programa['descripcion'][:180]}"
+                f"       🔎 Programa "
+                f"{filas_programacion}: "
+                f"{titulo}"
             )
 
-        print(
-            f"          HORAS: "
-            f"{programa['hora_inicio']} | "
-            f"{programa['hora_fin']}"
-        )
+            print(
+                f"          HORAS: "
+                f"{hora_inicio} | {hora_fin}"
+            )
 
-    # --------------------------------------------------------
-    # Convertir programas a XMLTV.
-    # --------------------------------------------------------
+            if descripcion:
 
-    programas = []
+                print(
+                    f"          DESC: "
+                    f"{descripcion[:180]}"
+                )
 
-    for programa in programas_detectados:
-
-        hora_inicio = programa[
-            'hora_inicio'
-        ]
-
-        hora_fin = programa[
-            'hora_fin'
-        ]
-
-        titulo = programa[
-            'titulo'
-        ]
-
-        descripcion = programa[
-            'descripcion'
-        ]
+        # ----------------------------------------------------
+        # Convertir horarios.
+        # ----------------------------------------------------
 
         start_local = convertir_hora_gatotv(
             hora_inicio,
@@ -1089,16 +1060,10 @@ def extraer_programacion_gatotv(
         )
 
         if not start_local or not stop_local:
-
-            print(
-                f"       ⚠️ Horario inválido: "
-                f"{hora_inicio}-{hora_fin}"
-            )
-
             continue
 
         # ----------------------------------------------------
-        # Programa que cruza medianoche.
+        # Si termina después de medianoche.
         # ----------------------------------------------------
 
         if stop_local <= start_local:
@@ -1120,7 +1085,7 @@ def extraer_programacion_gatotv(
         )
 
         # ----------------------------------------------------
-        # Aplicar desfase GatoTV.
+        # Aplicar desfase exclusivo de GatoTV.
         # ----------------------------------------------------
 
         desfase = DESFASE_GATOTV.get(
@@ -1138,7 +1103,7 @@ def extraer_programacion_gatotv(
             stop_utc += diferencia
 
         # ----------------------------------------------------
-        # Validar duración.
+        # Evitar programas inválidos.
         # ----------------------------------------------------
 
         if stop_utc <= start_utc:
@@ -1151,13 +1116,6 @@ def extraer_programacion_gatotv(
         if duracion > (
             24 * 60 * 60
         ):
-
-            print(
-                f"       ⚠️ Programa descartado "
-                f"por duración excesiva: "
-                f"{titulo}"
-            )
-
             continue
 
         # ----------------------------------------------------
@@ -1196,18 +1154,6 @@ def extraer_programacion_gatotv(
 
         # ----------------------------------------------------
         # DESCRIPCIÓN
-        #
-        # Aquí queda la descripción de GatoTV.
-        #
-        # Si GatoTV entrega información de episodio como:
-        #
-        # T1-E5
-        # Temporada 2 | Episodio 3
-        #
-        # y viene como texto asociado al programa,
-        # se conserva dentro de <desc>.
-        #
-        # NO necesitamos fotos.
         # ----------------------------------------------------
 
         if descripcion:
@@ -1234,7 +1180,7 @@ def extraer_programacion_gatotv(
         )
 
         # ----------------------------------------------------
-        # LOG FINAL.
+        # Mostrar resultado.
         # ----------------------------------------------------
 
         if descripcion:
@@ -1242,9 +1188,8 @@ def extraer_programacion_gatotv(
             print(
                 f"       ✓ "
                 f"{hora_inicio}-{hora_fin} "
-                f"{titulo} "
-                f"| DESC: "
-                f"{descripcion[:120]}"
+                f"{titulo} | DESC: "
+                f"{descripcion[:100]}"
             )
 
         else:
@@ -1256,6 +1201,12 @@ def extraer_programacion_gatotv(
             )
 
     print(
+        f"       Filas de programación "
+        f"reconocidas: "
+        f"{filas_programacion}"
+    )
+
+    print(
         f"       ✔ Programas encontrados: "
         f"{len(programas)}"
     )
@@ -1264,7 +1215,7 @@ def extraer_programacion_gatotv(
 
 
 # ============================================================
-# 🕐 CONVERTIR HORA GATOTV
+# 🕐 CONVERTIR HORA DE GATOTV A DATETIME
 # ============================================================
 
 def convertir_hora_gatotv(
@@ -1377,10 +1328,6 @@ def cargar_gatotv(
 
             continue
 
-        # ----------------------------------------------------
-        # Crear canal si todavía no existe.
-        # ----------------------------------------------------
-
         if channel_id not in canales_dict:
 
             ch_elem = ET.Element(
@@ -1400,10 +1347,8 @@ def cargar_gatotv(
             ] = ch_elem
 
         # ----------------------------------------------------
-        # GatoTV tiene prioridad sobre fuentes públicas.
-        #
-        # Eliminamos solamente los programas que choquen
-        # con los horarios reales obtenidos de GatoTV.
+        # GatoTV reemplaza cualquier programa que choque
+        # con sus horarios.
         # ----------------------------------------------------
 
         for (
@@ -1485,11 +1430,7 @@ def agregar_bloque_respaldo(
         channel_id
     ] = ch_elem
 
-    ahora_utc = datetime.datetime.now(
-        datetime.timezone.utc
-    ).replace(
-        tzinfo=None
-    )
+    ahora_utc = datetime.datetime.utcnow()
 
     inicio_base = (
         ahora_utc.replace(
@@ -1720,8 +1661,6 @@ try:
 
     # ========================================================
     # 2. GATOTV
-    #
-    # GatoTV entra después de las fuentes públicas.
     # ========================================================
 
     cargar_gatotv(
@@ -1732,8 +1671,6 @@ try:
 
     # ========================================================
     # 3. TU GUÍA PROPIA
-    #
-    # guia.xml sigue teniendo máxima prioridad.
     # ========================================================
 
     print("")
@@ -1866,7 +1803,7 @@ try:
 
 
     # ========================================================
-    # 4. RESPALDOS
+    # 5. RESPALDOS
     # ========================================================
 
     print("")
@@ -1901,7 +1838,7 @@ try:
 
 
     # ========================================================
-    # 5. ENSAMBLAJE FINAL
+    # 6. ENSAMBLAJE FINAL
     # ========================================================
 
     print("")
@@ -1930,7 +1867,7 @@ try:
 
 
     # ========================================================
-    # 6. GUARDAR XML
+    # 7. GUARDAR XML
     # ========================================================
 
     tree = ET.ElementTree(
