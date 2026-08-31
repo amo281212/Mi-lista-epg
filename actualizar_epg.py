@@ -270,7 +270,7 @@ DESFASE_GATOTV = {
     'Mega.cl': 1,
     'Chilevision.cl': 1,
     'Canal13.cl': 1,
-    'AMC.cl': 1,
+    'AMC.cl': -2,
     'Cinecanal.cl': 1,
     'Cinemax.cl': 1,
     'Golden.cl': 1,
