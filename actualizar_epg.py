@@ -90,6 +90,11 @@ MIS_CANALES = {
 #
 # Aquí puedes seguir agregando todos los IDs diferentes
 # que encuentres en las fuentes públicas o en tu guía.
+#
+# IMPORTANTE:
+# Este mapeo NO depende de la fuente.
+# Solo sirve para convertir el ID encontrado
+# al ID limpio que usas en MIS_CANALES.
 # ============================================================
 
 MAPEO_IDS = {
@@ -159,7 +164,14 @@ MAPEO_IDS = {
 
 
 # ============================================================
-# 🌐 FUENTES PÚBLICAS
+# 🌐 FUENTES PÚBLICAS DISPONIBLES
+#
+# Puedes agregar o quitar enlaces de esta lista.
+#
+# OJO:
+# Esta lista solo contiene las fuentes disponibles.
+# La elección de qué fuente usa cada canal se hace
+# más abajo en FUENTE_POR_CANAL.
 # ============================================================
 
 FUENTES_PUBLICAS = [
@@ -180,10 +192,150 @@ FUENTES_PUBLICAS = [
 
 
 # ============================================================
-# 🌐 CANALES QUE SÍ PUEDEN USAR FUENTES PÚBLICAS
+# 🎯 FUENTE EPG ELEGIDA PARA CADA CANAL
 #
-# Estos son los únicos canales que recibirán programación
-# desde las fuentes públicas.
+# ============================================================
+#
+# AQUÍ ES DONDE VAS A TRABAJAR.
+#
+# Cada canal puede tener UN SOLO enlace.
+#
+# Ejemplo:
+#
+# 'HBO.cl': 'https://epg.lat/files/mx.xml.gz',
+#
+# Eso significa:
+#
+# HBO.cl
+#   ↓
+# SOLO se buscará en epg.lat/files/mx.xml.gz
+#
+# Si otro de los XML públicos también tiene HBO,
+# NO se utilizará.
+#
+# ------------------------------------------------------------
+#
+# Si todavía no sabes qué fuente usar para un canal,
+# puedes dejarlo como None temporalmente.
+#
+# Ejemplo:
+#
+# 'HBO.cl': None,
+#
+# Con None, ese canal podrá buscarse en todas las
+# fuentes públicas disponibles.
+#
+# PERO cuando ya tengas elegido el enlace,
+# reemplaza None por el enlace.
+#
+# ============================================================
+
+FUENTE_POR_CANAL = {
+
+    'TVN.cl': 'https://epg.lat/files/cl.xml.gz',
+    'Mega.cl': 'https://epg.lat/files/cl.xml.gz',
+    'Chilevision.cl': 'https://epg.lat/files/cl.xml.gz',
+    'Canal13.cl': 'https://epg.lat/files/cl.xml.gz',
+
+    # ─── CINE / ENTRETENIMIENTO ─────────────────────────────
+
+    'AMC.cl': 'https://epg.lat/files/mx.xml.gz',
+    'Cinecanal.cl': 'https://epg.lat/files/cl.xml.gz',
+    'Cinemax.cl': 'https://epg.lat/files/cl.xml.gz',
+    'Golden.cl': 'https://epg.lat/files/mx.xml.gz',
+    'GoldenEdge.cl': 'https://epg.lat/files/mx.xml.gz',
+
+    # ─── HBO ────────────────────────────────────────────────
+
+    'HBO.cl': 'https://epg.lat/files/cl.xml.gz',
+    'HBO2.cl': 'https://epg.lat/files/cl.xml.gz',
+    'HBOFamily.cl': 'https://epg.lat/files/cl.xml.gz',
+    'HBOPop.cl': 'https://epg.lat/files/cl.xml.gz',
+    'HBOXtreme.cl': 'https://epg.lat/files/cl.xml.gz',
+
+    # ─── SONY / SPACE / UNIVERSAL ───────────────────────────
+
+    'SONYMOVIES.uy': 'https://raw.githubusercontent.com/siulemorales-arch/latam-sports-epg/refs/heads/main/epg.xml',
+    'Sony.cl': 'https://epg.lat/files/cr.xml.gz',
+    'Space.cl': 'https://epg.lat/files/cl.xml.gz',
+    'StudioUniversal.ar': 'https://epg.lat/files/mx.xml.gz',
+    'UniversalTV.cl': 'https://epg.lat/files/mx.xml.gz',
+
+    # ─── TNT / WARNER / STAR ────────────────────────────────
+
+    'TNT.cl': 'https://epg.lat/files/cl.xml.gz',
+    'TNTSeries.cl': 'https://epg.lat/files/mx.xml.gz',
+    'StarChannel.cl': 'https://epg.lat/files/cl.xml.gz',
+    'WarnerChannel.cl': 'https://epg.lat/files/cl.xml.gz',
+
+    # ─── SERIES ─────────────────────────────────────────────
+
+    'FX.cl': 'https://epg.lat/files/cl.xml.gz',
+    'AXN.cl': 'https://epg.lat/files/cl.xml.gz',
+    'AE.cl': 'https://epg.lat/files/cl.xml.gz',
+    'USANetwork.bo': 'https://epg.lat/files/mx.xml.gz',
+    'FilmAndArts.cl': 'https://epg.lat/files/mx.xml.gz',
+    'ComedyCentral.cl': 'https://epg.lat/files/mx.xml.gz',
+    'E_Entertainment.cl': 'https://epg.lat/files/cl.xml.gz',
+
+    # ─── DEPORTES ───────────────────────────────────────────
+
+    'DIRECTVSports.cl': None,
+    'ESPN.cl': 'https://epg.lat/files/cl.xml.gz',
+    'ESPN2.cl': 'https://epg.lat/files/co.xml.gz',
+    'ESPN3.cl': 'https://epg.lat/files/cl.xml.gz',
+    'ESPN4.cl': 'https://epg.lat/files/co.xml.gz',
+    'ESPN5.cl': None,
+    'ESPN6.cl': 'https://epg.lat/files/co.xml.gz',
+    'ESPN7.cl': 'https://epg.lat/files/co.xml.gz',
+    'TyCSports.cl': 'https://epg.lat/files/cl.xml.gz',
+
+    # ─── DISCOVERY / HGTV / GASTRONOMÍA ─────────────────────
+
+    'DiscoveryHomeAndHealth.cl': None,
+    'HGTV.ar': None,
+    'ElGourmet.cl': 'https://epg.lat/files/mx.xml.gz',
+    'FOODNETWORK.uy': None,
+
+    'History.cl': 'https://epg.lat/files/cl.xml.gz',
+    'History2.cl1': 'https://epg.lat/files/cl.xml.gz',
+    'InvestigationDiscovery.cl': 'https://epg.lat/files/mx.xml.gz',
+    'NationalGeographic.cl': 'https://epg.lat/files/cl.xml.gz',
+
+    'AnimalPlanet.cl': 'https://epg.lat/files/cl.xml.gz',
+    'Discovery.cl': 'https://epg.lat/files/cl.xml.gz',
+    'DiscoveryScience.cl': 'https://epg.lat/files/cl.xml.gz',
+    'DiscoveryTheater.cl': 'https://epg.lat/files/cl.xml.gz',
+    'DiscoveryTurbo.cl': 'https://epg.lat/files/cl.xml.gz',
+    'DiscoveryWorld.cl': 'https://epg.lat/files/cl.xml.gz',
+
+    # ─── INFANTILES ─────────────────────────────────────────
+
+    'CartoonNetwork.cl': 'https://epg.lat/files/cl.xml.gz',
+    'DiscoveryKids.cl': 'https://epg.lat/files/cl.xml.gz',
+    'DisneyChannel.cl': 'https://epg.lat/files/cl.xml.gz',
+    'DisneyJunior.cl': 'https://epg.lat/files/cl.xml.gz',
+    'NickJr.bo': 'https://epg.lat/files/cl.xml.gz',
+    'Nick.cl': 'https://epg.lat/files/cl.xml.gz',
+    'Tooncast.cl': 'https://epg.lat/files/cl.xml.gz',
+
+    # ─── TELENOVELAS ────────────────────────────────────────
+
+    'LasEstrellas.cl': 'https://epg.lat/files/cl.xml.gz',
+    'PASIONES.uy': 'https://epg.lat/files/cl.xml.gz',
+    'TelemundoInternacional.ar': 'https://epg.lat/files/cl.xml.gz',
+    'TLNovelas.cl': 'https://epg.lat/files/cl.xml.gz',
+
+    # ─── OTROS ──────────────────────────────────────────────
+
+    'EnlaceTBN.cl': 'https://epg.lat/files/cl.xml.gz',
+    'CNNChile.cl': 'https://epg.lat/files/cl.xml.gz',
+    '24Horas.cl': 'https://epg.lat/files/cl.xml.gz',
+}
+
+
+# ============================================================
+# 🌐 CANALES QUE SÍ PUEDEN USAR FUENTES PÚBLICAS
 # ============================================================
 
 CANALES_FUENTES_PUBLICAS = {
@@ -201,7 +353,6 @@ CANALES_FUENTES_PUBLICAS = {
     'HBOFamily.cl',
     'HBOPop.cl',
     'HBOXtreme.cl',
-    'ENTChannel.cl',
     'SONYMOVIES.uy',
     'Sony.cl',
     'Space.cl',
@@ -226,7 +377,6 @@ CANALES_FUENTES_PUBLICAS = {
     'ESPN5.cl',
     'ESPN6.cl',
     'ESPN7.cl',
-    'TNTSportsPremium.cl',
     'TyCSports.cl',
     'DiscoveryHomeAndHealth.cl',
     'HGTV.ar',
@@ -255,8 +405,6 @@ CANALES_FUENTES_PUBLICAS = {
     'TLNovelas.cl',
     'EnlaceTBN.cl',
     'CNNChile.cl',
-    'CHVNoticias.cl',
-    'T13Noticias.cl',
     '24Horas.cl',
 }
 
@@ -267,7 +415,12 @@ CANALES_FUENTES_PUBLICAS = {
 # Esta fuente tiene prioridad sobre las fuentes públicas.
 # ============================================================
 
-GUIA_PROPIA = "https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml"
+GUIA_PROPIA = (
+    "https://raw.githubusercontent.com/"
+    "amo281212/epg_que_actualizo.xml/"
+    "refs/heads/main/guia.xml"
+)
+
 
 # ============================================================
 # 🕒 DESFASES PARA LAS FUENTES PÚBLICAS
@@ -276,15 +429,7 @@ GUIA_PROPIA = "https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml
 # ============================================================
 
 DESFASE_CANALES = {
-    'Cinemax.cl': 0,
-    'ESPN2.cl': 0,
-    'ESPN3.cl': 0,
-    'ESPN4.cl': 0,
-    'ESPN5.cl': 0,
-    'ESPN6.cl': 0,
-    'ESPN7.cl': 0,
-    'DIRECTVSports.cl': 0,
-    'TyCSports.cl': 0,
+    # 'TVN.cl': 0,
 }
 
 
@@ -295,7 +440,7 @@ DESFASE_CANALES = {
 # ============================================================
 
 DESFASE_GUIA_PROPIA = {
-#    'GoldenEdge.cl': -2,
+    # 'GoldenEdge.cl': -2,
 }
 
 
@@ -304,6 +449,7 @@ DESFASE_GUIA_PROPIA = {
 # ============================================================
 
 DATOS_RESPALDO = {
+
     'E_Entertainment.cl': (
         'E! Entertainment',
         'Variado',
@@ -342,6 +488,7 @@ DATOS_RESPALDO = {
     'Chilevision.cl': (
         'Chilevisión',
         'General',
+        'Programación Chilevisión',
         'Programas de entretención, noticias y deportes.'
     ),
 
@@ -713,6 +860,13 @@ try:
 
     # ========================================================
     # 1. FUENTES PÚBLICAS
+    #
+    # IMPORTANTE:
+    #
+    # Cada canal que tenga una URL definida en
+    # FUENTE_POR_CANAL SOLO puede recibir programas
+    # desde ESA URL.
+    #
     # ========================================================
 
     print(
@@ -740,14 +894,25 @@ try:
                         ch_id
                     )
 
-                    # SOLO los canales autorizados
-                    # pueden entrar desde fuentes públicas.
-
                     if (
-                        target_id in CANALES_FUENTES_PUBLICAS
-                        and target_id
-                        not in canales_dict
+                        target_id
+                        not in CANALES_FUENTES_PUBLICAS
                     ):
+                        continue
+
+                    fuente_asignada = FUENTE_POR_CANAL.get(
+                        target_id
+                    )
+
+                    # Si el canal tiene una fuente específica,
+                    # ignoramos completamente cualquier otra.
+                    if (
+                        fuente_asignada is not None
+                        and fuente_asignada != url
+                    ):
+                        continue
+
+                    if target_id not in canales_dict:
 
                         elem.set(
                             'id',
@@ -769,62 +934,78 @@ try:
                         ch_id
                     )
 
-                    # SOLO los canales autorizados
-                    # pueden recibir programación
-                    # desde fuentes públicas.
+                    if (
+                        target_id
+                        not in CANALES_FUENTES_PUBLICAS
+                    ):
+                        continue
 
-                    if target_id in CANALES_FUENTES_PUBLICAS:
+                    fuente_asignada = FUENTE_POR_CANAL.get(
+                        target_id
+                    )
 
-                        elem.set(
-                            'channel',
-                            target_id
+                    # 🔒 AQUÍ ESTÁ EL CAMBIO IMPORTANTE:
+                    #
+                    # Si HBO.cl tiene asignado un XML,
+                    # ningún otro XML puede aportar programas
+                    # para HBO.cl.
+
+                    if (
+                        fuente_asignada is not None
+                        and fuente_asignada != url
+                    ):
+                        continue
+
+                    elem.set(
+                        'channel',
+                        target_id
+                    )
+
+                    horas = DESFASE_CANALES.get(
+                        target_id,
+                        0
+                    )
+
+                    start_str, st_dt = (
+                        normalizar_a_utc(
+                            elem.get(
+                                'start',
+                                ''
+                            ),
+                            horas
                         )
+                    )
 
-                        horas = DESFASE_CANALES.get(
-                            target_id,
-                            0
+                    stop_str, sp_dt = (
+                        normalizar_a_utc(
+                            elem.get(
+                                'stop',
+                                ''
+                            ),
+                            horas
                         )
+                    )
 
-                        start_str, st_dt = (
-                            normalizar_a_utc(
-                                elem.get(
-                                    'start',
-                                    ''
-                                ),
-                                horas
+                    elem.set(
+                        'start',
+                        start_str
+                    )
+
+                    elem.set(
+                        'stop',
+                        stop_str
+                    )
+
+                    if st_dt and sp_dt:
+
+                        programas_lista.append(
+                            (
+                                elem,
+                                target_id,
+                                st_dt,
+                                sp_dt
                             )
                         )
-
-                        stop_str, sp_dt = (
-                            normalizar_a_utc(
-                                elem.get(
-                                    'stop',
-                                    ''
-                                ),
-                                horas
-                            )
-                        )
-
-                        elem.set(
-                            'start',
-                            start_str
-                        )
-
-                        elem.set(
-                            'stop',
-                            stop_str
-                        )
-
-                        if st_dt and sp_dt:
-
-                            programas_lista.append(
-                                (
-                                    elem,
-                                    target_id,
-                                    st_dt,
-                                    sp_dt
-                                )
-                            )
 
             print(
                 f" ✔ Cargada guía pública: "
@@ -874,8 +1055,7 @@ try:
 
                 if (
                     target_id in MIS_CANALES
-                    and target_id
-                    not in canales_dict
+                    and target_id not in canales_dict
                 ):
 
                     elem.set(
