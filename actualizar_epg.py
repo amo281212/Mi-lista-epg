@@ -415,12 +415,7 @@ CANALES_FUENTES_PUBLICAS = {
 # Esta fuente tiene prioridad sobre las fuentes públicas.
 # ============================================================
 
-GUIA_PROPIA = (
-    "https://raw.githubusercontent.com/"
-    "amo281212/epg_que_actualizo.xml/"
-    "refs/heads/main/guia.xml"
-)
-
+GUIA_PROPIA = "https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml"
 
 # ============================================================
 # 🕒 DESFASES PARA LAS FUENTES PÚBLICAS
