@@ -51,6 +51,7 @@ MIS_CANALES = {
     'ESPN6.cl',
     'ESPN7.cl',
     'TNTSportsPremium.cl',
+    'TNTSports.cl',
     'TyCSports.cl',
     'ComedyCentral.cl',
     'E_Entertainment.cl',
@@ -296,6 +297,7 @@ FUENTE_POR_CANAL = {
     'ESPN6.cl': 'https://epg.lat/files/co.xml.gz',
     'ESPN7.cl': 'https://epg.lat/files/co.xml.gz',
     'TNTSportsPremium.cl': 'https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml',
+    'TNTSports.cl': 'https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml',
     'TyCSports.cl': 'https://epg.lat/files/cl.xml.gz',
 
     # ─── DISCOVERY / HGTV / GASTRONOMÍA ─────────────────────
