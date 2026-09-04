@@ -132,7 +132,7 @@ MAPEO_IDS = {
     'espn.2.sur.latam': 'ESPN2.cl',
     'Canal.ESPN.3.(Chile).cl': 'ESPN3.cl',
     'ESPN.4.co': 'ESPN4.cl',
-    'espn.5.sur.latam': 'ESPN5',
+    'espn.5.sur.latam': 'ESPN5.cl',
     'ESPN.6.HD.co': 'ESPN6.cl',
     'ESPN.7.HD.co': 'ESPN7.cl',
     'Canal.TyC.Sports.cl': 'TyCSports.cl',
