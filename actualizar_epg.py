@@ -461,7 +461,7 @@ DESFASE_CANALES = {
     'ESPN2.cl': 2,
     'ESPN3.cl': 0,
     'ESPN4.cl': 0,
-    'ESPN5.cl': 2,
+    'ESPN5.cl': 0,
     'ESPN6.cl': 0,
     'ESPN7.cl': 0,
     'TyCSports.cl': 0,
