@@ -79,7 +79,7 @@ MIS_CANALES = {
     'LasEstrellas.cl',
     'PASIONES.uy',
     'TelemundoInternacional.ar',
-    'TLNovelas.cl',
+    'TNTNovelas.cl',
     'EnlaceTBN.cl',
     'CNNChile.cl',
     'CHVNoticias.cl',
@@ -122,7 +122,7 @@ MAPEO_IDS = {
     'Canal.Studio.Universal.(México).mx': 'StudioUniversal.ar',
     'Canal.TNT.(Chile).cl': 'TNT.cl',
     'Canal.TNT.Series.(México).mx': 'TNTSeries.cl',
-    'Canal.Star.Channel.(Chile).cl': 'StarChannel.cl',
+    'Canal.Star.Channel.(México).mx': 'StarChannel.cl',
     'Canal.Warner.TV.(Chile).cl': 'WarnerChannel.cl',
     'Canal.Universal.TV.(México).mx': 'UniversalTV.cl',
     'Canal.Universal.Cinema.mx': 'UniversalCinema.cl',
@@ -162,7 +162,7 @@ MAPEO_IDS = {
     'Canal.Las.Estrellas.(Chile).cl': 'LasEstrellas.cl',
     'Canal.Pasiones.(Latinoamérica).cl': 'PASIONES.uy',
     'Canal.Telemundo.(Chile).cl': 'TelemundoInternacional.ar',
-    'Canal.TLNovelas.(Chile).cl': 'TLNovelas.cl',
+    'Canal.TNT.Novelas.(Chile).cl': 'TNTNovelas.cl',
     'Canal.Enlace.(TBN).cl': 'EnlaceTBN.cl',
     'Canal.CNN.Chile.cl': 'CNNChile.cl',
     'Canal.24.Horas.(Chile).cl': '24Horas.cl',
@@ -274,7 +274,7 @@ FUENTE_POR_CANAL = {
 
     'TNT.cl': 'https://epg.lat/files/cl.xml.gz',
     'TNTSeries.cl': 'https://epg.lat/files/mx.xml.gz',
-    'StarChannel.cl': 'https://epg.lat/files/cl.xml.gz',
+    'StarChannel.cl': 'https://epg.lat/files/mx.xml.gz',
     'WarnerChannel.cl': 'https://epg.lat/files/cl.xml.gz',
 
     # ─── SERIES ─────────────────────────────────────────────
@@ -334,7 +334,7 @@ FUENTE_POR_CANAL = {
     'LasEstrellas.cl': 'https://epg.lat/files/cl.xml.gz',
     'PASIONES.uy': 'https://epg.lat/files/cl.xml.gz',
     'TelemundoInternacional.ar': 'https://epg.lat/files/cl.xml.gz',
-    'TLNovelas.cl': 'https://epg.lat/files/cl.xml.gz',
+    'TNTNovelas.cl': 'https://epg.lat/files/cl.xml.gz',
 
     # ─── OTROS ──────────────────────────────────────────────
 
@@ -414,7 +414,7 @@ CANALES_FUENTES_PUBLICAS = {
     'LasEstrellas.cl',
     'PASIONES.uy',
     'TelemundoInternacional.ar',
-    'TLNovelas.cl',
+    'TNTNovelas.cl',
     'EnlaceTBN.cl',
     'CNNChile.cl',
     '24Horas.cl',
@@ -457,7 +457,7 @@ DESFASE_CANALES = {
     'StudioUniversal.ar': 0,
     'TNT.cl': 0,
     'TNTSeries.cl': 0,
-    'StarChannel.cl': 0,
+    'StarChannel.cl': -3,
     'UniversalTV.cl': 0,
     'UniversalCinema.cl': 0,
     'UniversalCrime.cl': 0,
@@ -501,7 +501,7 @@ DESFASE_CANALES = {
     'LasEstrellas.cl': 0,
     'PASIONES.uy': 0,
     'TelemundoInternacional.ar': 0,
-    'TLNovelas.cl': 0,
+    'TNTNovelas.cl': 0,
     'EnlaceTBN.cl': 0,
     'CNNChile.cl': 0,
     '24Horas.cl': 0,
