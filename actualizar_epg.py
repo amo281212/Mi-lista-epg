@@ -501,7 +501,7 @@ DESFASE_CANALES = {
     'LasEstrellas.cl': 0,
     'PASIONES.uy': 0,
     'TelemundoInternacional.ar': 0,
-    'TNTNovelas.cl': 0,
+    'TNTNovelas.cl': 1,
     'EnlaceTBN.cl': 0,
     'CNNChile.cl': 0,
     '24Horas.cl': 0,
