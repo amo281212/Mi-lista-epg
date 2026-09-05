@@ -108,7 +108,7 @@ MAPEO_IDS = {
     'Canal.AMC.(México).mx': 'AMC.cl',
     'Canal.Cinecanal.(Chile).cl': 'Cinecanal.cl',
     'Canal.Cinemax.(Chile).cl': 'Cinemax.cl',
-    'golden.mexico.latam': 'Golden.cl',
+    'golden.venezuela.latam': 'Golden.cl',
     'Canal.Golden.Edge.cr': 'GoldenEdge.cl',
     'Canal.HBO.(Chile).cl': 'HBO.cl',
     'Canal.HBO.2.Latinoamérica.cl': 'HBO2.cl',
