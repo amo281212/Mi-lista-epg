@@ -110,7 +110,7 @@ MAPEO_IDS = {
     'Canal.Cinemax.(Chile).cl': 'Cinemax.cl',
     'golden.venezuela.latam': 'Golden.cl',
     'Canal.Golden.Edge.cr': 'GoldenEdge.cl',
-    'Canal.HBO.(Chile).cl': 'HBO.cl',
+    'Canal.HBO.(Argentina).ar': 'HBO.cl',
     'Canal.HBO.2.Latinoamérica.cl': 'HBO2.cl',
     'Canal.HBO.Family.Latinoamérica.cl': 'HBOFamily.cl',
     'Canal.HBO.Pop.cl': 'HBOPop.cl',
@@ -253,7 +253,7 @@ FUENTE_POR_CANAL = {
 
     # ─── HBO ────────────────────────────────────────────────
 
-    'HBO.cl': 'https://epg.lat/files/cl.xml.gz',
+    'HBO.cl': 'https://epg.lat/files/ar.xml.gz',
     'HBO2.cl': 'https://epg.lat/files/cl.xml.gz',
     'HBOFamily.cl': 'https://epg.lat/files/cl.xml.gz',
     'HBOPop.cl': 'https://epg.lat/files/cl.xml.gz',
@@ -459,7 +459,7 @@ DESFASE_CANALES = {
     'TNTSeries.cl': 0,
     'StarChannel.cl': -3,
     'UniversalTV.cl': 0,
-    'UniversalCinema.cl': 0,
+    'UniversalCinema.cl': -3,
     'UniversalCrime.cl': 0,
     'WarnerChannel.cl': 0,
     'FX.cl': 0,
