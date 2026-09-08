@@ -26,21 +26,20 @@ MIS_CANALES = {
     'HBOPop.cl',
     'HBOXtreme.cl',
     'HBO.Plus.cl',
-    'ENTChannel.cl',
+    'StudioUniversal.ar',
     'SONYMOVIES.uy',
     'Sony.cl',
-    'Space.cl',
-    'StudioUniversal.ar',
-    'TNT.cl',
-    'TNTSeries.cl',
-    'StarChannel.cl',
-    'WarnerChannel.cl',
-    'UniversalTV.cl',
     'UniversalCinema.cl',
-    'UniversalCrime.cl',
+    'Space.cl',
+    'TNT.cl',
     'FX.cl',
+    'WarnerChannel.cl',
+    'StarChannel.cl',
+    'UniversalTV.cl',
     'AXN.cl',
     'AE.cl',
+    'UniversalCrime.cl',
+    'TNTSeries.cl',
     'USANetwork.bo',
     'DIRECTVSports.cl',
     'ESPN.cl',
@@ -116,20 +115,20 @@ MAPEO_IDS = {
     'Canal.HBO.Pop.cl': 'HBOPop.cl',
     'Canal.HBO.Xtreme.cl': 'HBOXtreme.cl',
     'Canal.HBO.Plus.cl': 'HBO.Plus.cl',
+    'Canal.Studio.Universal.(México).mx': 'StudioUniversal.ar',
     'sony.movies.mexico.latam': 'SONYMOVIES.uy',
     'Sony.(Costa.Rica).cr': 'Sony.cl',
-    'Canal.Space.(Chile).cl': 'Space.cl',
-    'Canal.Studio.Universal.(México).mx': 'StudioUniversal.ar',
-    'Canal.TNT.(Chile).cl': 'TNT.cl',
-    'Canal.TNT.Series.(México).mx': 'TNTSeries.cl',
-    'Canal.Star.Channel.(México).mx': 'StarChannel.cl',
-    'Canal.Warner.TV.(Chile).cl': 'WarnerChannel.cl',
-    'Canal.Universal.TV.(México).mx': 'UniversalTV.cl',
     'Canal.Universal.Cinema.mx': 'UniversalCinema.cl',
-    'Canal.Universal.Crime.mx': 'UniversalCrime.cl',
+    'Canal.Space.(Chile).cl': 'Space.cl',
+    'Canal.TNT.(Chile).cl': 'TNT.cl',
     'Canal.FX.(Chile).cl': 'FX.cl',
+    'Canal.Warner.TV.(Chile).cl': 'WarnerChannel.cl',
+    'Canal.Star.Channel.(México).mx': 'StarChannel.cl',
+    'Canal.Universal.TV.(México).mx': 'UniversalTV.cl',
     'Canal.AXN.(Chile).cl': 'AXN.cl',
     'Canal.A&E.(Chile).cl': 'AE.cl',
+    'Canal.Universal.Crime.mx': 'UniversalCrime.cl',
+    'Canal.TNT.Series.(México).mx': 'TNTSeries.cl',
     'Canal.USA.Network.(México).mx': 'USANetwork.bo',
     'Canal.ESPN.(Chile).cl': 'ESPN.cl',
     'espn.2.sur.latam': 'ESPN2.cl',
@@ -242,52 +241,34 @@ FUENTE_POR_CANAL = {
     'Mega.cl': 'https://epg.lat/files/cl.xml.gz',
     'Chilevision.cl': 'https://epg.lat/files/cl.xml.gz',
     'Canal13.cl': 'https://epg.lat/files/cl.xml.gz',
-
-    # ─── CINE / ENTRETENIMIENTO ─────────────────────────────
-
     'AMC.cl': 'https://epg.lat/files/mx.xml.gz',
     'Cinecanal.cl': 'https://epg.lat/files/cl.xml.gz',
     'Cinemax.cl': 'https://epg.lat/files/cl.xml.gz',
     'Golden.cl': 'https://raw.githubusercontent.com/siulemorales-arch/latam-sports-epg/refs/heads/main/epg.xml',
     'GoldenEdge.cl': 'https://epg.lat/files/cr.xml.gz',
-
-    # ─── HBO ────────────────────────────────────────────────
-
     'HBO.cl': 'https://epg.lat/files/ar.xml.gz',
     'HBO2.cl': 'https://epg.lat/files/cl.xml.gz',
     'HBOFamily.cl': 'https://epg.lat/files/cl.xml.gz',
     'HBOPop.cl': 'https://epg.lat/files/cl.xml.gz',
     'HBOXtreme.cl': 'https://epg.lat/files/cl.xml.gz',
     'HBO.Plus.cl': 'https://epg.lat/files/cl.xml.gz',
-
-    # ─── SONY / SPACE / UNIVERSAL ───────────────────────────
-
+    'StudioUniversal.ar': 'https://epg.lat/files/mx.xml.gz',
     'SONYMOVIES.uy': 'https://raw.githubusercontent.com/siulemorales-arch/latam-sports-epg/refs/heads/main/epg.xml',
     'Sony.cl': 'https://epg.lat/files/cr.xml.gz',
-    'Space.cl': 'https://epg.lat/files/cl.xml.gz',
-    'StudioUniversal.ar': 'https://epg.lat/files/mx.xml.gz',
-    'UniversalTV.cl': 'https://epg.lat/files/mx.xml.gz',
     'UniversalCinema.cl': 'https://epg.lat/files/mx.xml.gz',
-    'UniversalCrime.cl': 'https://epg.lat/files/mx.xml.gz',
-
-    # ─── TNT / WARNER / STAR ────────────────────────────────
-
+    'Space.cl': 'https://epg.lat/files/cl.xml.gz',
     'TNT.cl': 'https://epg.lat/files/cl.xml.gz',
-    'TNTSeries.cl': 'https://epg.lat/files/mx.xml.gz',
-    'StarChannel.cl': 'https://epg.lat/files/mx.xml.gz',
-    'WarnerChannel.cl': 'https://epg.lat/files/cl.xml.gz',
-
-    # ─── SERIES ─────────────────────────────────────────────
-
     'FX.cl': 'https://epg.lat/files/cl.xml.gz',
+    'WarnerChannel.cl': 'https://epg.lat/files/cl.xml.gz',
+    'StarChannel.cl': 'https://epg.lat/files/mx.xml.gz',
+    'UniversalTV.cl': 'https://epg.lat/files/mx.xml.gz',
     'AXN.cl': 'https://epg.lat/files/cl.xml.gz',
     'AE.cl': 'https://epg.lat/files/cl.xml.gz',
+    'UniversalCrime.cl': 'https://epg.lat/files/mx.xml.gz',
+    'TNTSeries.cl': 'https://epg.lat/files/mx.xml.gz',
     'USANetwork.bo': 'https://epg.lat/files/mx.xml.gz',
     'ComedyCentral.cl': 'https://epg.lat/files/mx.xml.gz',
     'E_Entertainment.cl': 'https://epg.lat/files/cl.xml.gz',
-
-    # ─── DEPORTES ───────────────────────────────────────────
-
     'DIRECTVSports.cl': None,
     'ESPN.cl': 'https://epg.lat/files/cl.xml.gz',
     'ESPN2.cl': 'https://raw.githubusercontent.com/siulemorales-arch/latam-sports-epg/refs/heads/main/epg.xml',
@@ -299,28 +280,20 @@ FUENTE_POR_CANAL = {
     'TNTSportsPremium.cl': 'https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml',
     'TNTSports.cl': 'https://raw.githubusercontent.com/amo281212/epg_que_actualizo.xml/refs/heads/main/guia.xml',
     'TyCSports.cl': 'https://epg.lat/files/cl.xml.gz',
-
-    # ─── DISCOVERY / HGTV / GASTRONOMÍA ─────────────────────
-
     'DiscoveryHomeAndHealth.cl': None,
     'HGTV.ar': None,
     'ElGourmet.cl': 'https://epg.lat/files/cl.xml.gz',
     'FOODNETWORK.uy': None,
-
     'History.cl': 'https://epg.lat/files/cl.xml.gz',
     'History2.cl1': 'https://epg.lat/files/cl.xml.gz',
     'InvestigationDiscovery.cl': 'https://epg.lat/files/mx.xml.gz',
     'NationalGeographic.cl': 'https://epg.lat/files/cl.xml.gz',
-
     'AnimalPlanet.cl': 'https://epg.lat/files/cl.xml.gz',
     'Discovery.cl': 'https://epg.lat/files/cl.xml.gz',
     'DiscoveryScience.cl': 'https://epg.lat/files/cl.xml.gz',
     'DiscoveryTheater.cl': 'https://epg.lat/files/cl.xml.gz',
     'DiscoveryTurbo.cl': 'https://epg.lat/files/cl.xml.gz',
     'DiscoveryWorld.cl': 'https://epg.lat/files/cl.xml.gz',
-
-    # ─── INFANTILES ─────────────────────────────────────────
-
     'CartoonNetwork.cl': 'https://epg.lat/files/cl.xml.gz',
     'DiscoveryKids.cl': 'https://epg.lat/files/cl.xml.gz',
     'DisneyChannel.cl': 'https://epg.lat/files/cl.xml.gz',
@@ -328,16 +301,10 @@ FUENTE_POR_CANAL = {
     'NickJr.bo': 'https://epg.lat/files/cl.xml.gz',
     'Nick.cl': 'https://epg.lat/files/cl.xml.gz',
     'Tooncast.cl': 'https://epg.lat/files/cl.xml.gz',
-
-    # ─── TELENOVELAS ────────────────────────────────────────
-
     'LasEstrellas.cl': 'https://epg.lat/files/cl.xml.gz',
     'PASIONES.uy': 'https://epg.lat/files/cl.xml.gz',
     'TelemundoInternacional.ar': 'https://epg.lat/files/cl.xml.gz',
     'TNTNovelas.cl': 'https://epg.lat/files/cl.xml.gz',
-
-    # ─── OTROS ──────────────────────────────────────────────
-
     'EnlaceTBN.cl': 'https://epg.lat/files/cl.xml.gz',
     'CNNChile.cl': 'https://epg.lat/files/cl.xml.gz',
     '24Horas.cl': None,
@@ -364,20 +331,20 @@ CANALES_FUENTES_PUBLICAS = {
     'HBOPop.cl',
     'HBOXtreme.cl',
     'HBO.Plus.cl',
+    'StudioUniversal.ar',
     'SONYMOVIES.uy',
     'Sony.cl',
-    'Space.cl',
-    'StudioUniversal.ar',
-    'TNT.cl',
-    'TNTSeries.cl',
-    'StarChannel.cl',
-    'WarnerChannel.cl',
-    'UniversalTV.cl',
     'UniversalCinema.cl',
-    'UniversalCrime.cl',
+    'Space.cl',
+    'TNT.cl',
     'FX.cl',
+    'WarnerChannel.cl',
+    'StarChannel.cl',
+    'UniversalTV.cl',
     'AXN.cl',
     'AE.cl',
+    'UniversalCrime.cl',
+    'TNTSeries.cl',
     'USANetwork.bo',
     'DIRECTVSports.cl',
     'ESPN.cl',
