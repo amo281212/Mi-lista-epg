@@ -128,9 +128,6 @@
     <icon src="https://imagenes.gatotv.com/logos/canales/oscuros/disney_junior-mediano.png" />
     <url>http://www.gatotv.com</url>
   </channel>
-  <channel id="ENTChannel.cl">
-    <display-name>ENT Channel</display-name>
-  </channel>
   <channel id="ESPN.cl">
     <display-name lang="es">Canal ESPN (Chile)</display-name>
     <icon src="https://imagenes.gatotv.com/logos/canales/oscuros/espn_norte-mediano.png" />
@@ -1031,6 +1028,35 @@
     <title lang="es">Love Island</title>
     <sub-title lang="es">Debate Aftersun</sub-title>
   </programme>
+  <programme start="20260906054000 +0000" stop="20260906075000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Baywatch: Guardianes de la Bahía</title>
+    <desc lang="es">Matt Brody (Zac Efron) es el nuevo recluta que llega a la playa integrándose a las líneas guardianes de la bahía, en los primeros días de la llegada de Matt, Mitch Buchannon (Dwayne Johnson), descubren una serie de crimines, Mitch junto con su equipo deciden ponerse manos a la obra para detener a estos criminales, y poder defender lo que han jurado proteger.</desc>
+    <credits>
+      <director>Seth Gordon</director>
+      <actor>Dwayne Johnson</actor>
+      <actor>Zac Efron</actor>
+      <actor>Alexandra Daddario</actor>
+      <actor>Priyanka Chopra</actor>
+      <actor>Kelly Rohrbach</actor>
+      <actor>Ilfenesh Hadera</actor>
+      <actor>Jon Bass</actor>
+      <actor>Hannibal Buress</actor>
+      <producer>Ivan Reitman</producer>
+      <producer>Ali Bell</producer>
+      <composer>Christopher Lennertz</composer>
+    </credits>
+    <date>2017</date>
+    <category lang="es">Comedia</category>
+    <category lang="es">Acción</category>
+    <category lang="es">Película</category>
+    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/guardianes_de_la_bahia.jpg" />
+    <rating system="MX">
+      <value>R</value>
+    </rating>
+    <star-rating system="MX">
+      <value>6.0</value>
+    </star-rating>
+  </programme>
   <programme start="20260906054500 +0000" stop="20260906061000 +0000" channel="Nick.cl">
     <title lang="es">Bob Esponja</title>
     <sub-title lang="es">T15-E308 Calamardo Estrella / Pulpo volador no identificado</sub-title>
@@ -1669,35 +1695,6 @@
     </rating>
     <star-rating system="MX">
       <value>8.0</value>
-    </star-rating>
-  </programme>
-  <programme start="20260906064000 +0000" stop="20260906085000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Baywatch: Guardianes de la Bahía</title>
-    <desc lang="es">Matt Brody (Zac Efron) es el nuevo recluta que llega a la playa integrándose a las líneas guardianes de la bahía, en los primeros días de la llegada de Matt, Mitch Buchannon (Dwayne Johnson), descubren una serie de crimines, Mitch junto con su equipo deciden ponerse manos a la obra para detener a estos criminales, y poder defender lo que han jurado proteger.</desc>
-    <credits>
-      <director>Seth Gordon</director>
-      <actor>Dwayne Johnson</actor>
-      <actor>Zac Efron</actor>
-      <actor>Alexandra Daddario</actor>
-      <actor>Priyanka Chopra</actor>
-      <actor>Kelly Rohrbach</actor>
-      <actor>Ilfenesh Hadera</actor>
-      <actor>Jon Bass</actor>
-      <actor>Hannibal Buress</actor>
-      <producer>Ivan Reitman</producer>
-      <producer>Ali Bell</producer>
-      <composer>Christopher Lennertz</composer>
-    </credits>
-    <date>2017</date>
-    <category lang="es">Comedia</category>
-    <category lang="es">Acción</category>
-    <category lang="es">Película</category>
-    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/guardianes_de_la_bahia.jpg" />
-    <rating system="MX">
-      <value>R</value>
-    </rating>
-    <star-rating system="MX">
-      <value>6.0</value>
     </star-rating>
   </programme>
   <programme start="20260906064200 +0000" stop="20260906070400 +0000" channel="AE.cl">
@@ -2405,6 +2402,9 @@
     <title lang="es">Deer Squad</title>
     <sub-title lang="es">T1-E1 Buenas noches, bosque central / Steelzila</sub-title>
   </programme>
+  <programme start="20260906075000 +0000" stop="20260906093000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">100% lobo</title>
+  </programme>
   <programme start="20260906075000 +0000" stop="20260906081000 +0000" channel="ComedyCentral.cl">
     <title lang="es">Frasier</title>
     <desc lang="es">Frasier narra las vidas del presentador de radio Dr. Frasier Crane y sus familiares y compañeros de trabajo. Frasier combina brillantes personajes, sofisticados e ingeniosos juegos de palabras como también hilarante comedia física, que prueba que la risa es la mejor terapia.</desc>
@@ -3102,9 +3102,6 @@
   <programme start="20260906085000 +0000" stop="20260906094300 +0000" channel="TNTNovelas.cl">
     <title lang="es">Olvídame si puedes</title>
   </programme>
-  <programme start="20260906085000 +0000" stop="20260906103000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">100% lobo</title>
-  </programme>
   <programme start="20260906085000 +0000" stop="20260906094000 +0000" channel="UniversalTV.cl">
     <title lang="es">The Rookie</title>
     <desc lang="es">Comenzar de nuevo no es fácil, especialmente para un tipo de un pequeño pueblo John Nolan (Nathan Fillion) quien, después de un incidente que le altera la vida, está persiguiendo su sueño de ser un oficial de policía de Los Ángeles. Como el novato más viejo de la fuerza, se ha encontrado con el escepticismo de algunos altos mandos que lo ven como una simple crisis de la mediana edad. Si no puede mantenerse al día con los jóvenes policías y los delincuentes, estará arriesgando vidas, incluida la suya. Pero si puede usar su experiencia de vida, determinación y sentido del humor para darle una ventaja, puede que se convierta en un éxito en este nuevo capítulo de su vida.</desc>
@@ -3500,6 +3497,9 @@
   <programme start="20260906093000 +0000" stop="20260906100000 +0000" channel="AMC.cl">
     <title lang="es">Making the Movies</title>
   </programme>
+  <programme start="20260906093000 +0000" stop="20260906100000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Hollywood on Set</title>
+  </programme>
   <programme start="20260906093000 +0000" stop="20260906111000 +0000" channel="UniversalCinema.cl">
     <title lang="es">La Noche de los Nerds</title>
   </programme>
@@ -3869,6 +3869,10 @@
   </programme>
   <programme start="20260906100000 +0000" stop="20260906103000 +0000" channel="AMC.cl">
     <title lang="es">Making the Movies</title>
+  </programme>
+  <programme start="20260906100000 +0000" stop="20260906103000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Hollywood on Set</title>
+    <sub-title lang="es">El regreso de Mary Poppins / La voz de la igualdad / Si la colonia hablara</sub-title>
   </programme>
   <programme start="20260906100000 +0000" stop="20260906102500 +0000" channel="ComedyCentral.cl">
     <title lang="es">Most Ridiculous</title>
@@ -4299,7 +4303,9 @@
     <title lang="es">Making the Movies</title>
   </programme>
   <programme start="20260906103000 +0000" stop="20260906110000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Hollywood on Set</title>
+    <title lang="es">Hollywood On Set</title>
+    <sub-title lang="es">Cómo entrenar a tu dragón 3 / Maligno / Todos lo saben</sub-title>
+    <episode-num system="onscreen">S1</episode-num>
   </programme>
   <programme start="20260906103000 +0000" stop="20260906111500 +0000" channel="UniversalTV.cl">
     <title lang="es">La ley y el orden UVE</title>
@@ -4677,7 +4683,6 @@
   </programme>
   <programme start="20260906110000 +0000" stop="20260906113000 +0000" channel="StudioUniversal.ar">
     <title lang="es">Hollywood on Set</title>
-    <sub-title lang="es">El regreso de Mary Poppins / La voz de la igualdad / Si la colonia hablara</sub-title>
   </programme>
   <programme start="20260906110000 +0000" stop="20260906113000 +0000" channel="Sony.cl">
     <title lang="es">Designing Women</title>
@@ -4935,9 +4940,7 @@
     <title lang="es">Making the Movies</title>
   </programme>
   <programme start="20260906113000 +0000" stop="20260906120000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Hollywood On Set</title>
-    <sub-title lang="es">Cómo entrenar a tu dragón 3 / Maligno / Todos lo saben</sub-title>
-    <episode-num system="onscreen">S1</episode-num>
+    <title lang="es">Hollywood on Set</title>
   </programme>
   <programme start="20260906113000 +0000" stop="20260906120000 +0000" channel="Sony.cl">
     <title lang="es">Designing Women</title>
@@ -5544,8 +5547,8 @@
   <programme start="20260906123000 +0000" stop="20260906130000 +0000" channel="AMC.cl">
     <title lang="es">Making the Movies</title>
   </programme>
-  <programme start="20260906123000 +0000" stop="20260906130000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Hollywood on Set</title>
+  <programme start="20260906123000 +0000" stop="20260906144000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Emma</title>
   </programme>
   <programme start="20260906123000 +0000" stop="20260906125500 +0000" channel="ComedyCentral.cl">
     <title lang="es">Hot In Cleveland</title>
@@ -5791,9 +5794,6 @@
   <programme start="20260906130000 +0000" stop="20260906145000 +0000" channel="AMC.cl">
     <title lang="es">Si tuviera 30</title>
   </programme>
-  <programme start="20260906130000 +0000" stop="20260906133000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Hollywood on Set</title>
-  </programme>
   <programme start="20260906130000 +0000" stop="20260906140000 +0000" channel="Sony.cl">
     <title lang="es">Betty's call</title>
     <sub-title lang="es">Findelkind</sub-title>
@@ -6005,9 +6005,6 @@
   </programme>
   <programme start="20260906133000 +0000" stop="20260906140000 +0000" channel="ElGourmet.cl">
     <title lang="es">Un paseo por Oaxaca</title>
-  </programme>
-  <programme start="20260906133000 +0000" stop="20260906154000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Emma</title>
   </programme>
   <programme start="20260906133000 +0000" stop="20260906141500 +0000" channel="UniversalCrime.cl">
     <title lang="es">Parejas asesinas</title>
@@ -6657,6 +6654,9 @@
     <title lang="es">Santiago de los mares</title>
     <sub-title lang="es">T1-E4 El catalejo mágico / La piedra de la vida</sub-title>
   </programme>
+  <programme start="20260906144000 +0000" stop="20260906163000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Hija de Dios</title>
+  </programme>
   <programme start="20260906144100 +0000" stop="20260906145100 +0000" channel="Tooncast.cl">
     <title lang="es">Los pequeños Looney Tunes</title>
   </programme>
@@ -7102,9 +7102,6 @@
     <star-rating system="MX">
       <value>7.0</value>
     </star-rating>
-  </programme>
-  <programme start="20260906154000 +0000" stop="20260906173000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Hija de Dios</title>
   </programme>
   <programme start="20260906154500 +0000" stop="20260906163000 +0000" channel="UniversalCrime.cl">
     <title lang="es">Parejas asesinas</title>
@@ -7566,6 +7563,9 @@
     <star-rating system="MX">
       <value>7.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260906163000 +0000" stop="20260906182500 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Limitless</title>
   </programme>
   <programme start="20260906163000 +0000" stop="20260906171500 +0000" channel="UniversalCrime.cl">
     <title lang="es">Un asesino inesperado</title>
@@ -8132,9 +8132,6 @@
   <programme start="20260906173000 +0000" stop="20260906180000 +0000" channel="ElGourmet.cl">
     <title lang="es">Cocina de mercado</title>
   </programme>
-  <programme start="20260906173000 +0000" stop="20260906192500 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Limitless</title>
-  </programme>
   <programme start="20260906173000 +0000" stop="20260906173500 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">Post: Deportes La Serena vs Ñublense</title>
     <desc lang="es">Sin información.</desc>
@@ -8568,6 +8565,9 @@
     <star-rating system="MX">
       <value>8.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260906182500 +0000" stop="20260906202000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Daredevil El hombre sin miedo</title>
   </programme>
   <programme start="20260906182700 +0000" stop="20260906200800 +0000" channel="HBOFamily.cl">
     <title lang="es">La casa de muñecas de Gabby</title>
@@ -9056,9 +9056,6 @@
     <sub-title lang="es">Los olvidados</sub-title>
     <episode-num system="onscreen">S1 E20</episode-num>
   </programme>
-  <programme start="20260906192500 +0000" stop="20260906212000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Daredevil El hombre sin miedo</title>
-  </programme>
   <programme start="20260906192500 +0000" stop="20260906195000 +0000" channel="ComedyCentral.cl">
     <title lang="es">Frasier</title>
     <desc lang="es">Frasier narra las vidas del presentador de radio Dr. Frasier Crane y sus familiares y compañeros de trabajo. Frasier combina brillantes personajes, sofisticados e ingeniosos juegos de palabras como también hilarante comedia física, que prueba que la risa es la mejor terapia.</desc>
@@ -9503,6 +9500,9 @@
   <programme start="20260906202000 +0000" stop="20260906211000 +0000" channel="TelemundoInternacional.ar">
     <title lang="es">Los miserables</title>
     <sub-title lang="es">Aliados del mal</sub-title>
+  </programme>
+  <programme start="20260906202000 +0000" stop="20260906222500 +0000" channel="StudioUniversal.ar">
+    <title lang="es">21 Jump Street: Comando Especial</title>
   </programme>
   <programme start="20260906202000 +0000" stop="20260906211000 +0000" channel="UniversalTV.cl">
     <title lang="es">La ley y el orden</title>
@@ -10067,9 +10067,6 @@
   <programme start="20260906211800 +0000" stop="20260906221000 +0000" channel="AnimalPlanet.cl">
     <title lang="es">Los Irwin</title>
     <sub-title lang="es">El desafío de los lagartos</sub-title>
-  </programme>
-  <programme start="20260906212000 +0000" stop="20260906232500 +0000" channel="StudioUniversal.ar">
-    <title lang="es">21 Jump Street: Comando Especial</title>
   </programme>
   <programme start="20260906212100 +0000" stop="20260906221200 +0000" channel="TNTNovelas.cl">
     <title lang="es">El Chico De Oro</title>
@@ -10732,6 +10729,36 @@
       <value>7.0</value>
     </star-rating>
   </programme>
+  <programme start="20260906222500 +0000" stop="20260907010000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Jurassic World: Dominio</title>
+    <desc lang="es">Una nueva aventura audaz, oportuna e impresionante que se extiende por todo el mundo. Del arquitecto y director de Jurassic World, Jurassic World Dominio, tiene lugar cuatros años después de la destrucción de Isla Nublar. Los dinosaurios ahora viven y cazan junto a los humanos en todo el mundo. Este frágil equilibrio remodelará el futuro y determinará, de una vez por todas, si los seres humanos deben seguir siendo los depredadores máximos en un planeta que ahora comparten con las criaturas más temibles de la historia.</desc>
+    <credits>
+      <director>Colin Trevorrow</director>
+      <actor>Chris Pratt</actor>
+      <actor>Bryce Dallas Howard</actor>
+      <actor>Sam Neill</actor>
+      <actor>Laura Dern</actor>
+      <actor>Jeff Goldblum</actor>
+      <actor>Mamoudou Athie</actor>
+      <actor>Scott Haze</actor>
+      <actor>Dichen Lachman</actor>
+      <producer>Frank Marshall</producer>
+      <producer>Patrick Crowley</producer>
+      <composer>Michael Giacchino</composer>
+    </credits>
+    <date>2022</date>
+    <category lang="es">Acción</category>
+    <category lang="es">Aventura</category>
+    <category lang="es">Suspenso</category>
+    <category lang="es">Película</category>
+    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/jurassic_world_dominio.jpg" />
+    <rating system="MX">
+      <value>PG-13</value>
+    </rating>
+    <star-rating system="MX">
+      <value>7.0</value>
+    </star-rating>
+  </programme>
   <programme start="20260906222800 +0000" stop="20260906224100 +0000" channel="Tooncast.cl">
     <title lang="es">El campamento de Lazlo</title>
   </programme>
@@ -11344,36 +11371,6 @@
     <title lang="es">Barbapapá y su familia</title>
     <sub-title lang="es">T1-E2 Bada-Bam / Los Barbamarcianos</sub-title>
   </programme>
-  <programme start="20260906232500 +0000" stop="20260907020000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Jurassic World: Dominio</title>
-    <desc lang="es">Una nueva aventura audaz, oportuna e impresionante que se extiende por todo el mundo. Del arquitecto y director de Jurassic World, Jurassic World Dominio, tiene lugar cuatros años después de la destrucción de Isla Nublar. Los dinosaurios ahora viven y cazan junto a los humanos en todo el mundo. Este frágil equilibrio remodelará el futuro y determinará, de una vez por todas, si los seres humanos deben seguir siendo los depredadores máximos en un planeta que ahora comparten con las criaturas más temibles de la historia.</desc>
-    <credits>
-      <director>Colin Trevorrow</director>
-      <actor>Chris Pratt</actor>
-      <actor>Bryce Dallas Howard</actor>
-      <actor>Sam Neill</actor>
-      <actor>Laura Dern</actor>
-      <actor>Jeff Goldblum</actor>
-      <actor>Mamoudou Athie</actor>
-      <actor>Scott Haze</actor>
-      <actor>Dichen Lachman</actor>
-      <producer>Frank Marshall</producer>
-      <producer>Patrick Crowley</producer>
-      <composer>Michael Giacchino</composer>
-    </credits>
-    <date>2022</date>
-    <category lang="es">Acción</category>
-    <category lang="es">Aventura</category>
-    <category lang="es">Suspenso</category>
-    <category lang="es">Película</category>
-    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/jurassic_world_dominio.jpg" />
-    <rating system="MX">
-      <value>PG-13</value>
-    </rating>
-    <star-rating system="MX">
-      <value>7.0</value>
-    </star-rating>
-  </programme>
   <programme start="20260906232700 +0000" stop="20260906234000 +0000" channel="Tooncast.cl">
     <title lang="es">Mi compañero de Clase es un Mono</title>
     <desc lang="es">A causa de una confusión en su apellido, Adam León de doce años es transferido accidentalmente a la Escuela Charles Darwin en donde todos los estudiantes y profesores son animales. Adam es el único estudiante humano y ahí conoce a Jake Mono Araña que rápidamente se convierte en su mejor amigo.</desc>
@@ -11668,20 +11665,15 @@
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260907000000 +0000" stop="20260907030000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260907000000 +0000" stop="20260907030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260907000000 +0000" stop="20260907030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260907000000 +0000" stop="20260907030000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260907000200 +0000" stop="20260907001100 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Clarence</title>
@@ -12258,6 +12250,9 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <star-rating system="MX">
       <value>7.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260907010000 +0000" stop="20260907034500 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Spectre</title>
   </programme>
   <programme start="20260907010000 +0000" stop="20260907032500 +0000" channel="UniversalCinema.cl">
     <title lang="es">El Resplandor</title>
@@ -12867,9 +12862,6 @@ Los primos renuevan una cocina anticuada con un estilo industrial moderno ideal 
   <programme start="20260907020000 +0000" stop="20260907030000 +0000" channel="PASIONES.uy">
     <title lang="es">Sin Tu Mirada</title>
     <sub-title lang="es">Emisión del dia lunes</sub-title>
-  </programme>
-  <programme start="20260907020000 +0000" stop="20260907044500 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Spectre</title>
   </programme>
   <programme start="20260907020000 +0000" stop="20260907110000 +0000" channel="TNTSports.cl">
     <title lang="es">Contenido TNT Sports</title>
@@ -13504,20 +13496,15 @@ Espacio de actualidad y debate político, trasmitido cada domingo. Éste cuenta,
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260907030000 +0000" stop="20260907060000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260907030000 +0000" stop="20260907060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260907030000 +0000" stop="20260907060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260907030000 +0000" stop="20260907060000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260907030100 +0000" stop="20260907031100 +0000" channel="Tooncast.cl">
     <title lang="es">Los pequeños Looney Tunes</title>
@@ -13819,6 +13806,37 @@ Giada De Laurentiis creció esquiando en los Alpes italianos y después de un la
   <programme start="20260907034500 +0000" stop="20260907044000 +0000" channel="History2.cl1">
     <title lang="es">Desastres en tiempo real</title>
     <sub-title lang="es">Inundaciones</sub-title>
+  </programme>
+  <programme start="20260907034500 +0000" stop="20260907064000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Sin Tiempo Para Morir</title>
+    <desc lang="es">James Bond (Daniel Craig) dejó el servicio activo y disfruta de una vida tranquila en Jamaica. Su paz dura poco cuando su viejo amigo Felix Leiter (Jeffrey Wright) de la CIA aparece pidiendo ayuda. La misión de rescatar a un científico secuestrado resulta ser mucho más traicionera de lo esperado, lo que lleva a Bond tras la pista de un misterioso villano armado con una nueva y peligrosa tecnología.</desc>
+    <credits>
+      <director>Cary Joji Fukunaga</director>
+      <actor>Daniel Craig</actor>
+      <actor>Rami Malek</actor>
+      <actor>Léa Seydoux</actor>
+      <actor>Lashana Lynch</actor>
+      <actor>Ben Whishaw</actor>
+      <actor>Naomie Harris</actor>
+      <actor>Jeffrey Wright</actor>
+      <actor>Christoph Waltz</actor>
+      <producer>Michael G. Wilson</producer>
+      <producer>Barbara Broccoli</producer>
+      <composer>Hans Zimmer</composer>
+    </credits>
+    <date>2021</date>
+    <category lang="es">Acción</category>
+    <category lang="es">Aventura</category>
+    <category lang="es">Suspenso</category>
+    <category lang="es">Película</category>
+    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/sin_tiempo_para_morir.jpg" />
+    <country lang="es">Estados Unidos</country>
+    <rating system="MX">
+      <value>PG-13</value>
+    </rating>
+    <star-rating system="MX">
+      <value>8.0</value>
+    </star-rating>
   </programme>
   <programme start="20260907034500 +0000" stop="20260907043000 +0000" channel="UniversalCrime.cl">
     <title lang="es">The Real Murders of Orange County</title>
@@ -14328,37 +14346,6 @@ Molly Yeh prepara una fiesta con temática de jardín para el primer cumpleaños
   <programme start="20260907044500 +0000" stop="20260907051000 +0000" channel="NickJr.bo">
     <title lang="es">BARBAPAPÁ Una gran familia feliz</title>
     <sub-title lang="es">T2-E14 El Louvre / El día de los contrarios</sub-title>
-  </programme>
-  <programme start="20260907044500 +0000" stop="20260907074000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Sin Tiempo Para Morir</title>
-    <desc lang="es">James Bond (Daniel Craig) dejó el servicio activo y disfruta de una vida tranquila en Jamaica. Su paz dura poco cuando su viejo amigo Felix Leiter (Jeffrey Wright) de la CIA aparece pidiendo ayuda. La misión de rescatar a un científico secuestrado resulta ser mucho más traicionera de lo esperado, lo que lleva a Bond tras la pista de un misterioso villano armado con una nueva y peligrosa tecnología.</desc>
-    <credits>
-      <director>Cary Joji Fukunaga</director>
-      <actor>Daniel Craig</actor>
-      <actor>Rami Malek</actor>
-      <actor>Léa Seydoux</actor>
-      <actor>Lashana Lynch</actor>
-      <actor>Ben Whishaw</actor>
-      <actor>Naomie Harris</actor>
-      <actor>Jeffrey Wright</actor>
-      <actor>Christoph Waltz</actor>
-      <producer>Michael G. Wilson</producer>
-      <producer>Barbara Broccoli</producer>
-      <composer>Hans Zimmer</composer>
-    </credits>
-    <date>2021</date>
-    <category lang="es">Acción</category>
-    <category lang="es">Aventura</category>
-    <category lang="es">Suspenso</category>
-    <category lang="es">Película</category>
-    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/sin_tiempo_para_morir.jpg" />
-    <country lang="es">Estados Unidos</country>
-    <rating system="MX">
-      <value>PG-13</value>
-    </rating>
-    <star-rating system="MX">
-      <value>8.0</value>
-    </star-rating>
   </programme>
   <programme start="20260907044500 +0000" stop="20260907051000 +0000" channel="ComedyCentral.cl">
     <title lang="es">South Park</title>
@@ -14954,20 +14941,15 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260907060000 +0000" stop="20260907090000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260907060000 +0000" stop="20260907090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260907060000 +0000" stop="20260907090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260907060000 +0000" stop="20260907090000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260907060100 +0000" stop="20260907061100 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Escandalosos</title>
@@ -15387,6 +15369,9 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <star-rating system="MX">
       <value>8.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260907064000 +0000" stop="20260907082500 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Al borde del abismo</title>
   </programme>
   <programme start="20260907064200 +0000" stop="20260907072800 +0000" channel="Discovery.cl">
     <title lang="es">Mirada policial</title>
@@ -16239,9 +16224,6 @@ Giada De Laurentiis y la comediante Loni Love desafían a los equipos de reposte
     <title lang="es">Caso Cerrado</title>
     <sub-title lang="es">Peligro de amor / La venganza del huevo</sub-title>
   </programme>
-  <programme start="20260907074000 +0000" stop="20260907092500 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Al borde del abismo</title>
-  </programme>
   <programme start="20260907074100 +0000" stop="20260907075300 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Steven universe</title>
   </programme>
@@ -16692,6 +16674,9 @@ Vern Yip y un agente de bienes raíces local analizan tres renovaciones de $80,0
   </programme>
   <programme start="20260907082500 +0000" stop="20260907093000 +0000" channel="E_Entertainment.cl">
     <title lang="es">Love Island</title>
+  </programme>
+  <programme start="20260907082500 +0000" stop="20260907100000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">La familia Monster</title>
   </programme>
   <programme start="20260907082600 +0000" stop="20260907102100 +0000" channel="HBOFamily.cl">
     <title lang="es">Kárate Kid 3 Desafío Final</title>
@@ -17192,20 +17177,15 @@ La chef Rashida Holmes muestra a los Titanes de Bobby Flay cómo es el esfuerzo 
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260907090000 +0000" stop="20260907120000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260907090000 +0000" stop="20260907120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260907090000 +0000" stop="20260907120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260907090000 +0000" stop="20260907120000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260907090200 +0000" stop="20260907110200 +0000" channel="Golden.cl">
     <title lang="es">Amor a Primera visa</title>
@@ -17349,9 +17329,6 @@ El diseñador, Vern Yip, junto a un agente de bienes raíces local, recorren tre
   <programme start="20260907092400 +0000" stop="20260907101200 +0000" channel="DiscoveryWorld.cl">
     <title lang="es">1000 Lugares que ver antes de morir</title>
     <sub-title lang="es">Perú</sub-title>
-  </programme>
-  <programme start="20260907092500 +0000" stop="20260907110000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">La familia Monster</title>
   </programme>
   <programme start="20260907092900 +0000" stop="20260907095100 +0000" channel="DiscoveryKids.cl">
     <title lang="es">¡Agente Binky al rescate!</title>
@@ -17725,6 +17702,9 @@ Un programa sobre los hechos más destacados de la agenda diaria a nivel naciona
   <programme start="20260907100000 +0000" stop="20260907103000 +0000" channel="AMC.cl">
     <title lang="es">Planet Action</title>
   </programme>
+  <programme start="20260907100000 +0000" stop="20260907103000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Hollywood on Set</title>
+  </programme>
   <programme start="20260907100000 +0000" stop="20260907102500 +0000" channel="ComedyCentral.cl">
     <title lang="es">Idiotas por accidente</title>
   </programme>
@@ -18044,6 +18024,9 @@ Una familia militar que está acostumbrada a mudarse con frecuencia busca una ca
   </programme>
   <programme start="20260907103000 +0000" stop="20260907110000 +0000" channel="AMC.cl">
     <title lang="es">Planet Action</title>
+  </programme>
+  <programme start="20260907103000 +0000" stop="20260907110000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Hollywood on Set</title>
   </programme>
   <programme start="20260907103000 +0000" stop="20260907111500 +0000" channel="UniversalTV.cl">
     <title lang="es">La ley y el orden UVE</title>
@@ -19219,6 +19202,7 @@ La señal noticiosa 24H realiza estos reportajes de actualidad, que son emitidos
   </programme>
   <programme start="20260907120000 +0000" stop="20260907123000 +0000" channel="StudioUniversal.ar">
     <title lang="es">Hollywood on Set</title>
+    <sub-title lang="es">Mujer Maravilla; Las aventuras del Capitán Calzoncillos: la película; Piratas del Caribe: La Venganza de Salazar</sub-title>
   </programme>
   <programme start="20260907120000 +0000" stop="20260907125000 +0000" channel="UniversalTV.cl">
     <title lang="es">La ley y el orden UVE</title>
@@ -19284,20 +19268,15 @@ La señal noticiosa 24H realiza estos reportajes de actualidad, que son emitidos
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260907120000 +0000" stop="20260907150000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260907120000 +0000" stop="20260907150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260907120000 +0000" stop="20260907150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260907120000 +0000" stop="20260907150000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260907120100 +0000" stop="20260907123000 +0000" channel="DisneyChannel.cl">
     <title lang="es">Kiff</title>
@@ -19616,8 +19595,8 @@ Espacio informativo en el que se abordan los acontecimientos más relevantes de 
   <programme start="20260907123000 +0000" stop="20260907130000 +0000" channel="AMC.cl">
     <title lang="es">Planet Action</title>
   </programme>
-  <programme start="20260907123000 +0000" stop="20260907130000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Hollywood on Set</title>
+  <programme start="20260907123000 +0000" stop="20260907141500 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Nadando por el oro</title>
   </programme>
   <programme start="20260907123200 +0000" stop="20260907124400 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Super Wish</title>
@@ -19869,10 +19848,6 @@ El carisma y la alegría de Fafá de Belém están presentes en todo su hogar, d
   </programme>
   <programme start="20260907130000 +0000" stop="20260907133000 +0000" channel="AMC.cl">
     <title lang="es">Planet Action</title>
-  </programme>
-  <programme start="20260907130000 +0000" stop="20260907133000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Hollywood on Set</title>
-    <sub-title lang="es">Mujer Maravilla; Las aventuras del Capitán Calzoncillos: la película; Piratas del Caribe: La Venganza de Salazar</sub-title>
   </programme>
   <programme start="20260907130000 +0000" stop="20260907140000 +0000" channel="Sony.cl">
     <title lang="es">Betty's call</title>
@@ -20221,9 +20196,6 @@ Después de los problemas con los retrasos en la construcción, EJ y Jason compl
   </programme>
   <programme start="20260907133000 +0000" stop="20260907140000 +0000" channel="AMC.cl">
     <title lang="es">Planet Action</title>
-  </programme>
-  <programme start="20260907133000 +0000" stop="20260907151500 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Nadando por el oro</title>
   </programme>
   <programme start="20260907133000 +0000" stop="20260907135000 +0000" channel="ComedyCentral.cl">
     <title lang="es">Frasier</title>
@@ -20793,6 +20765,9 @@ El diseñador, Vern Yip, junto a un agente de bienes raíces local, recorren tre
     <title lang="es">Dora</title>
     <sub-title lang="es">T5-E6 A Party for Party / Moonshrunk</sub-title>
   </programme>
+  <programme start="20260907141500 +0000" stop="20260907160500 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Mamá se va de viaje</title>
+  </programme>
   <programme start="20260907141500 +0000" stop="20260907165000 +0000" channel="UniversalCinema.cl">
     <title lang="es">Hobbit La desolación de</title>
   </programme>
@@ -21339,20 +21314,15 @@ En Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260907150000 +0000" stop="20260907180000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260907150000 +0000" stop="20260907180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260907150000 +0000" stop="20260907180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260907150000 +0000" stop="20260907180000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260907150300 +0000" stop="20260907152600 +0000" channel="WarnerChannel.cl">
     <title lang="es">Two and a Half Men</title>
@@ -21479,9 +21449,6 @@ En Vivo</title>
 Nancy Fuller está organizando un cóctel en la Ópera de Hudson. Todos sus amigos asistirán a la exposición Cosecha, una colección de arte abstracto que celebra el fruto del trabajo del agricultor.</desc>
     <episode-num>S4 E12</episode-num>
     <title lang="es">Farmhouse Rules</title>
-  </programme>
-  <programme start="20260907151500 +0000" stop="20260907170500 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Mamá se va de viaje</title>
   </programme>
   <programme start="20260907151700 +0000" stop="20260907153000 +0000" channel="Tooncast.cl">
     <title lang="es">Los pequeños Looney Tunes</title>
@@ -21972,6 +21939,9 @@ Si un buen guiso, como la buena música, es una mezcla de ingredientes para crea
     <star-rating system="MX">
       <value>7.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260907160500 +0000" stop="20260907180500 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Una nueva eternidad</title>
   </programme>
   <programme start="20260907160600 +0000" stop="20260907165800 +0000" channel="AnimalPlanet.cl">
     <title lang="es">Guaridas con estilo</title>
@@ -22615,9 +22585,6 @@ Conoce los detalles más resaltantes sobre los últimos acontecimientos ocurrido
   <programme start="20260907170500 +0000" stop="20260907175500 +0000" channel="TNTNovelas.cl">
     <title lang="es">Quiéreme Siempre</title>
   </programme>
-  <programme start="20260907170500 +0000" stop="20260907190500 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Una nueva eternidad</title>
-  </programme>
   <programme start="20260907170600 +0000" stop="20260907172900 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Peppa Pig</title>
     <desc lang="es">Peppa es una cerdita adorable y descarada que vive con su Mamá, Papá y su hermano pequeño George. Las cosas favoritas de Peppa incluyen jugar, vestirse, pasar el día y saltar en charcos de lodo. Sus aventuras siempre terminan felices con fuertes risas.</desc>
@@ -23089,23 +23056,45 @@ Una pareja está lista para cambiar su apartamento por una casa con mucho terren
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260907180000 +0000" stop="20260907210000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260907180000 +0000" stop="20260907210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260907180000 +0000" stop="20260907210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260907180000 +0000" stop="20260907210000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260907180500 +0000" stop="20260907184500 +0000" channel="Mega.cl">
     <title lang="es">Juego de Ilusiones</title>
+  </programme>
+  <programme start="20260907180500 +0000" stop="20260907203000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Creed: Corazón de Campeón</title>
+    <desc lang="es">Adonis Johnson (Michael B. Jordan) nunca conoció a su famoso padre, el campeón mundial de pesos pesados Apollo Creed, quien murió antes de que él naciera. Aun así, no se puede negar que lleva el boxeo en la sangre, por lo cual Adonis viaja a Filadelfia, el lugar donde se llevó a cabo la legendaria pelea entre Apollo y un duro principiante llamado Rocky Balboa.Una vez llegado a “la ciudad del amor fraternal”, Adonis va a buscar a Rocky (Sylvester Stallone) y le pide que sea su entrenador. A pesar de insistir en que está retirado del mundo de las peleas, Rocky ve en Adonis la misma fuerza y determinación que Apollo, el feroz rival que terminó convirtiéndose en su amigo más cercano. Finalmente, Rocky acepta entrenar al joven luchador a pesar de estar él mismo contra un oponente mucho más letal que cualquiera al que se haya enfrentado en el ring.Con Rocky de su lado, no pasará mucho tiempo hasta que Adonis consiga su oportunidad de competir por un título, pero ¿podrá desarrollar no solo su impulso sino también el corazón de un verdadero luchador antes de entrar al ring?</desc>
+    <credits>
+      <director>Ryan Coogler</director>
+      <actor>Michael B. Jordan</actor>
+      <actor>Sylvester Stallone</actor>
+      <actor>Tessa Thompson</actor>
+      <actor>Phylicia Rashad</actor>
+      <actor>Anthony Bellew</actor>
+      <producer>Irwin Winkler</producer>
+      <producer>Robert Chartoff</producer>
+      <composer>Ludwig Göransson</composer>
+    </credits>
+    <date>2015</date>
+    <category lang="es">Drama</category>
+    <category lang="es">Deporte</category>
+    <category lang="es">Box</category>
+    <category lang="es">Boxeo</category>
+    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/creed_corazon_de_campeon.jpg" />
+    <rating system="MX">
+      <value>PG-13</value>
+    </rating>
+    <star-rating system="MX">
+      <value>8.0</value>
+    </star-rating>
   </programme>
   <programme start="20260907180900 +0000" stop="20260907195800 +0000" channel="HBOXtreme.cl">
     <title lang="es">Life: Vida Inteligente</title>
@@ -23810,33 +23799,6 @@ En San Diego, Michael Symon come tacos de pescado con tortillas de maíz azul ca
   </programme>
   <programme start="20260907190500 +0000" stop="20260907193200 +0000" channel="History.cl">
     <title lang="es">Testigo de la historia</title>
-  </programme>
-  <programme start="20260907190500 +0000" stop="20260907213000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Creed: Corazón de Campeón</title>
-    <desc lang="es">Adonis Johnson (Michael B. Jordan) nunca conoció a su famoso padre, el campeón mundial de pesos pesados Apollo Creed, quien murió antes de que él naciera. Aun así, no se puede negar que lleva el boxeo en la sangre, por lo cual Adonis viaja a Filadelfia, el lugar donde se llevó a cabo la legendaria pelea entre Apollo y un duro principiante llamado Rocky Balboa.Una vez llegado a “la ciudad del amor fraternal”, Adonis va a buscar a Rocky (Sylvester Stallone) y le pide que sea su entrenador. A pesar de insistir en que está retirado del mundo de las peleas, Rocky ve en Adonis la misma fuerza y determinación que Apollo, el feroz rival que terminó convirtiéndose en su amigo más cercano. Finalmente, Rocky acepta entrenar al joven luchador a pesar de estar él mismo contra un oponente mucho más letal que cualquiera al que se haya enfrentado en el ring.Con Rocky de su lado, no pasará mucho tiempo hasta que Adonis consiga su oportunidad de competir por un título, pero ¿podrá desarrollar no solo su impulso sino también el corazón de un verdadero luchador antes de entrar al ring?</desc>
-    <credits>
-      <director>Ryan Coogler</director>
-      <actor>Michael B. Jordan</actor>
-      <actor>Sylvester Stallone</actor>
-      <actor>Tessa Thompson</actor>
-      <actor>Phylicia Rashad</actor>
-      <actor>Anthony Bellew</actor>
-      <producer>Irwin Winkler</producer>
-      <producer>Robert Chartoff</producer>
-      <composer>Ludwig Göransson</composer>
-    </credits>
-    <date>2015</date>
-    <category lang="es">Drama</category>
-    <category lang="es">Deporte</category>
-    <category lang="es">Box</category>
-    <category lang="es">Boxeo</category>
-    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/creed_corazon_de_campeon.jpg" />
-    <rating system="MX">
-      <value>PG-13</value>
-    </rating>
-    <star-rating system="MX">
-      <value>8.0</value>
-    </star-rating>
   </programme>
   <programme start="20260907190600 +0000" stop="20260907193000 +0000" channel="HGTV.ar">
     <desc lang="es">S3 E6 — Casa de ensueño en Fripp Island
@@ -24637,6 +24599,35 @@ Espacio en el que conversamos con un invitado especial quien nos habla de la sit
     <title lang="es">Vanderpump Rules</title>
     <sub-title lang="es">Estamos de vuelta, bebé</sub-title>
   </programme>
+  <programme start="20260907203000 +0000" stop="20260907225000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Creed II: Defendiendo el Legado</title>
+    <desc lang="es">La vida se ha convertido en un acto de equilibrio para Adonis Creed (Michael B. Jordan). Entre las obligaciones personales y el entrenamiento para su próxima gran pelea, se enfrenta al desafío de su vida. Enfrentar a un oponente con vínculos con el pasado de su familia solo intensifica su inminente batalla en el ring. Rocky Balboa (Sylvester Stallone) está a su lado a través de todo y, juntos, Rocky y Adonis enfrentarán su legado compartido, cuestionarán por qué vale la pena luchar y descubrirán que nada es más importante que la familia. Creed II se trata de volver a lo básico para redescubrir lo que te hizo un campeón en primer lugar, y recordar que, no importa a dónde vayas, no puedes escapar de tu historia.</desc>
+    <credits>
+      <director>Steven Caple Jr.</director>
+      <actor>Michael B. Jordan</actor>
+      <actor>Sylvester Stallone</actor>
+      <actor>Tessa Thompson</actor>
+      <actor>Dolph Lundgren</actor>
+      <actor>Florian Munteanu</actor>
+      <actor>Phylicia Rashad</actor>
+      <actor>Wood Harris</actor>
+      <actor>Andre Ward</actor>
+      <producer>Sylvester Stallone</producer>
+      <producer>Kevin King-Templeton</producer>
+      <composer>Ludwig Göransson</composer>
+    </credits>
+    <date>2018</date>
+    <category lang="es">Drama</category>
+    <category lang="es">Deporte</category>
+    <category lang="es">Película</category>
+    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/creed_ii_defendiendo_el_legado.jpg" />
+    <rating system="MX">
+      <value>PG-13</value>
+    </rating>
+    <star-rating system="MX">
+      <value>8.0</value>
+    </star-rating>
+  </programme>
   <programme start="20260907203000 +0000" stop="20260907205000 +0000" channel="ComedyCentral.cl">
     <title lang="es">Becker</title>
   </programme>
@@ -24991,20 +24982,15 @@ Resumen noticioso nacional e internacional.</desc>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260907210000 +0000" stop="20260908000000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260907210000 +0000" stop="20260908000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260907210000 +0000" stop="20260908000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260907210000 +0000" stop="20260908000000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260907210200 +0000" stop="20260907212800 +0000" channel="FOODNETWORK.uy">
     <date>2001</date>
@@ -25290,35 +25276,6 @@ Ali Khan desafía a los pasteleros a crear hermosos huevos comestibles con un sa
     <icon src="https://imagenes.gatotv.com/categorias/programas/miniatura/blue_bloods.png" />
     <star-rating system="MX">
       <value>7.0</value>
-    </star-rating>
-  </programme>
-  <programme start="20260907213000 +0000" stop="20260907235000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Creed II: Defendiendo el Legado</title>
-    <desc lang="es">La vida se ha convertido en un acto de equilibrio para Adonis Creed (Michael B. Jordan). Entre las obligaciones personales y el entrenamiento para su próxima gran pelea, se enfrenta al desafío de su vida. Enfrentar a un oponente con vínculos con el pasado de su familia solo intensifica su inminente batalla en el ring. Rocky Balboa (Sylvester Stallone) está a su lado a través de todo y, juntos, Rocky y Adonis enfrentarán su legado compartido, cuestionarán por qué vale la pena luchar y descubrirán que nada es más importante que la familia. Creed II se trata de volver a lo básico para redescubrir lo que te hizo un campeón en primer lugar, y recordar que, no importa a dónde vayas, no puedes escapar de tu historia.</desc>
-    <credits>
-      <director>Steven Caple Jr.</director>
-      <actor>Michael B. Jordan</actor>
-      <actor>Sylvester Stallone</actor>
-      <actor>Tessa Thompson</actor>
-      <actor>Dolph Lundgren</actor>
-      <actor>Florian Munteanu</actor>
-      <actor>Phylicia Rashad</actor>
-      <actor>Wood Harris</actor>
-      <actor>Andre Ward</actor>
-      <producer>Sylvester Stallone</producer>
-      <producer>Kevin King-Templeton</producer>
-      <composer>Ludwig Göransson</composer>
-    </credits>
-    <date>2018</date>
-    <category lang="es">Drama</category>
-    <category lang="es">Deporte</category>
-    <category lang="es">Película</category>
-    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/creed_ii_defendiendo_el_legado.jpg" />
-    <rating system="MX">
-      <value>PG-13</value>
-    </rating>
-    <star-rating system="MX">
-      <value>8.0</value>
     </star-rating>
   </programme>
   <programme start="20260907213000 +0000" stop="20260907223000 +0000" channel="ESPN4.cl">
@@ -26038,6 +25995,35 @@ Los diseñadores compiten para crear cocinas de diseño dignas de aparecer en la
     <category lang="es">Aventura</category>
     <category lang="es">Película</category>
     <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/uncharted_fuera_del_mapa.jpg" />
+    <rating system="MX">
+      <value>PG-13</value>
+    </rating>
+    <star-rating system="MX">
+      <value>7.0</value>
+    </star-rating>
+  </programme>
+  <programme start="20260907225000 +0000" stop="20260908010000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Creed III</title>
+    <desc lang="es">Después de dominar el mundo del boxeo, Adonis Creed (Michael B. Jordan) ha prosperado tanto en su carrera como en su vida familiar. Cuando un amigo de la infancia y ex prodigio del boxeo, Damian (Jonathan Majors), reaparece después de cumplir una larga condena en prisión, está ansioso por demostrar que merece su oportunidad en el ring. El Enfrentamiento entre antiguos amigos es más que una simple pelea. Para ajustar cuentas, Adonis debe arriesgar su futuro para luchar contra Damian – un luchador que no tiene nada que perder.</desc>
+    <credits>
+      <director>Michael B. Jordan</director>
+      <actor>Michael B. Jordan</actor>
+      <actor>Alex Henderson</actor>
+      <actor>Tessa Thompson</actor>
+      <actor>Jonathan Majors</actor>
+      <actor>Spence Moore II</actor>
+      <actor>Wood Harris</actor>
+      <actor>Florian Munteanu</actor>
+      <actor>Phylicia Rashad</actor>
+      <producer>Irwin Winkler</producer>
+      <producer>Charles Winkler</producer>
+      <composer>Joseph Shirley</composer>
+    </credits>
+    <date>2023</date>
+    <category lang="es">Drama</category>
+    <category lang="es">Deporte</category>
+    <category lang="es">Película</category>
+    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/creed_iii.jpg" />
     <rating system="MX">
       <value>PG-13</value>
     </rating>
@@ -26788,35 +26774,6 @@ Nancy Fuller está organizando un cóctel en la Ópera de Hudson. Todos sus amig
     <title lang="es">Million Dollar Listing Los Angeles</title>
     <sub-title lang="es">Listing del infierno</sub-title>
   </programme>
-  <programme start="20260907235000 +0000" stop="20260908020000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Creed III</title>
-    <desc lang="es">Después de dominar el mundo del boxeo, Adonis Creed (Michael B. Jordan) ha prosperado tanto en su carrera como en su vida familiar. Cuando un amigo de la infancia y ex prodigio del boxeo, Damian (Jonathan Majors), reaparece después de cumplir una larga condena en prisión, está ansioso por demostrar que merece su oportunidad en el ring. El Enfrentamiento entre antiguos amigos es más que una simple pelea. Para ajustar cuentas, Adonis debe arriesgar su futuro para luchar contra Damian – un luchador que no tiene nada que perder.</desc>
-    <credits>
-      <director>Michael B. Jordan</director>
-      <actor>Michael B. Jordan</actor>
-      <actor>Alex Henderson</actor>
-      <actor>Tessa Thompson</actor>
-      <actor>Jonathan Majors</actor>
-      <actor>Spence Moore II</actor>
-      <actor>Wood Harris</actor>
-      <actor>Florian Munteanu</actor>
-      <actor>Phylicia Rashad</actor>
-      <producer>Irwin Winkler</producer>
-      <producer>Charles Winkler</producer>
-      <composer>Joseph Shirley</composer>
-    </credits>
-    <date>2023</date>
-    <category lang="es">Drama</category>
-    <category lang="es">Deporte</category>
-    <category lang="es">Película</category>
-    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/creed_iii.jpg" />
-    <rating system="MX">
-      <value>PG-13</value>
-    </rating>
-    <star-rating system="MX">
-      <value>7.0</value>
-    </star-rating>
-  </programme>
   <programme start="20260907235100 +0000" stop="20260908020000 +0000" channel="Golden.cl">
     <title lang="es">Los Fockers La familia de mi esposo</title>
     <category lang="es">Deportes</category>
@@ -27019,20 +26976,15 @@ Guy Fieri invita a sus amigos chefs para que conozcan la cocina mediterránea. A
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260908000000 +0000" stop="20260908030000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260908000000 +0000" stop="20260908030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260908000000 +0000" stop="20260908030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260908000000 +0000" stop="20260908030000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260908000100 +0000" stop="20260908003100 +0000" channel="DisneyJunior.cl">
     <title lang="es">Iron Man y sus increíbles amigos</title>
@@ -27609,6 +27561,9 @@ Revisa las noticias más relevantes de la jornada.</desc>
   <programme start="20260908010000 +0000" stop="20260908015500 +0000" channel="AMC.cl">
     <title lang="es">El Vampiro Lestat</title>
     <episode-num system="onscreen">S3 E6</episode-num>
+  </programme>
+  <programme start="20260908010000 +0000" stop="20260908032000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">John Wick: Chapter 3 -- Parabellum</title>
   </programme>
   <programme start="20260908010000 +0000" stop="20260908012000 +0000" channel="ComedyCentral.cl">
     <title lang="es">Becker</title>
@@ -28301,9 +28256,6 @@ Un piloto y un auxiliar de vuelo se sorprenden con la renovación de una cocina 
   <programme start="20260908020000 +0000" stop="20260908030000 +0000" channel="PASIONES.uy">
     <title lang="es">Éramos Seis</title>
   </programme>
-  <programme start="20260908020000 +0000" stop="20260908042000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">John Wick: Chapter 3 -- Parabellum</title>
-  </programme>
   <programme start="20260908020000 +0000" stop="20260908023000 +0000" channel="ESPN4.cl">
     <title lang="es">FIM Road Racing World Championship Highlights</title>
     <desc lang="es">Recopilación de los momentos más emocionantes de las carreras del campeonato mundial de motociclismo.</desc>
@@ -28964,20 +28916,15 @@ Espacio para discutir, entre otros, sobre seguridad ciudadana, urbanismo, educac
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260908030000 +0000" stop="20260908060000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260908030000 +0000" stop="20260908060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260908030000 +0000" stop="20260908060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260908030000 +0000" stop="20260908060000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260908030100 +0000" stop="20260908031100 +0000" channel="Tooncast.cl">
     <title lang="es">Los pequeños Looney Tunes</title>
@@ -29077,6 +29024,28 @@ Espacio para discutir, entre otros, sobre seguridad ciudadana, urbanismo, educac
     <icon src="https://imagenes.gatotv.com/categorias/programas/miniatura/blue_bloods.png" />
     <star-rating system="MX">
       <value>7.0</value>
+    </star-rating>
+  </programme>
+  <programme start="20260908032000 +0000" stop="20260908053000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Constantine</title>
+    <desc lang="es">Un cazador de demonios y maestro del ocultismo, John Constantine (Matt Ryan), un especialista en devolver al infierno lo que pertenece al infierno. Dotado con grandes conocimientos de artes oscuros, John pelea por el bien – o al menos lo hacía. Con su alma condenada al infierno, ha decidido dejar su vida benévola atrás. Pero cuando los demonios amenazan a Liv (Lucy Griffiths), la hija de uno de los viejos amigos de Constantine, hará lo imposible para salvarla. Los poderes especiales de Liv – el poder ver el mundo detrás del nuestro y predecir lo sobrenatural – son una amenaza para un nuevo demonio que nace de las tinieblas. Ahora Constantine y Liv deberán combinar sus poderes para viajar alrededor del país y así buscar demonios que amenazan nuestro mundo.</desc>
+    <credits>
+      <director>Neil Marshall</director>
+      <actor>Matt Ryan</actor>
+      <actor>Lucy Griffiths</actor>
+      <actor>Harold Perrineau</actor>
+      <actor>Charles Halford</actor>
+    </credits>
+    <date>2014</date>
+    <category lang="es">Fantasía</category>
+    <category lang="es">Horror</category>
+    <category lang="es">Serie</category>
+    <icon src="https://imagenes.gatotv.com/categorias/programas/miniatura/constantine.jpg" />
+    <rating system="MX">
+      <value>TV-14</value>
+    </rating>
+    <star-rating system="MX">
+      <value>9.0</value>
     </star-rating>
   </programme>
   <programme start="20260908032100 +0000" stop="20260908034600 +0000" channel="FOODNETWORK.uy">
@@ -29598,28 +29567,6 @@ Una familia militar que está acostumbrada a mudarse con frecuencia busca una ca
     <title lang="es">Texas Metal</title>
     <sub-title lang="es">El gran impala</sub-title>
     <episode-num system="onscreen">S1 E3</episode-num>
-  </programme>
-  <programme start="20260908042000 +0000" stop="20260908063000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Constantine</title>
-    <desc lang="es">Un cazador de demonios y maestro del ocultismo, John Constantine (Matt Ryan), un especialista en devolver al infierno lo que pertenece al infierno. Dotado con grandes conocimientos de artes oscuros, John pelea por el bien – o al menos lo hacía. Con su alma condenada al infierno, ha decidido dejar su vida benévola atrás. Pero cuando los demonios amenazan a Liv (Lucy Griffiths), la hija de uno de los viejos amigos de Constantine, hará lo imposible para salvarla. Los poderes especiales de Liv – el poder ver el mundo detrás del nuestro y predecir lo sobrenatural – son una amenaza para un nuevo demonio que nace de las tinieblas. Ahora Constantine y Liv deberán combinar sus poderes para viajar alrededor del país y así buscar demonios que amenazan nuestro mundo.</desc>
-    <credits>
-      <director>Neil Marshall</director>
-      <actor>Matt Ryan</actor>
-      <actor>Lucy Griffiths</actor>
-      <actor>Harold Perrineau</actor>
-      <actor>Charles Halford</actor>
-    </credits>
-    <date>2014</date>
-    <category lang="es">Fantasía</category>
-    <category lang="es">Horror</category>
-    <category lang="es">Serie</category>
-    <icon src="https://imagenes.gatotv.com/categorias/programas/miniatura/constantine.jpg" />
-    <rating system="MX">
-      <value>TV-14</value>
-    </rating>
-    <star-rating system="MX">
-      <value>9.0</value>
-    </star-rating>
   </programme>
   <programme start="20260908042100 +0000" stop="20260908051000 +0000" channel="TNTSeries.cl">
     <title lang="es">CSI: Miami</title>
@@ -30260,6 +30207,9 @@ Joe Haden, destacado de la NFL, y su familia están buscando mudarse más cerca 
   <programme start="20260908053000 +0000" stop="20260908061500 +0000" channel="24Horas.cl">
     <title lang="es">24 Horas a la Hora</title>
   </programme>
+  <programme start="20260908053000 +0000" stop="20260908073500 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Sombras tenebrosas</title>
+  </programme>
   <programme start="20260908053000 +0000" stop="20260908062000 +0000" channel="UniversalTV.cl">
     <title lang="es">Chicago PD</title>
     <desc lang="es">Los hombres y mujeres del Distrito 21 del Departamento de Policía de Chicago que pusieron todo en línea para servir y proteger su comunidad. El Distrito 21 está formado por dos grupos claramente diferentes: policías uniformados que patrullan las calles y se enfrentan cara a cara con los crímenes callejeros de la ciudad y la Unidad de Inteligencia que combate los principales delitos de la ciudad: crimen organizado, narcotráfico, asesinatos de alto perfil y más allá de los muros del barrio, a menudo teniendo un costo emocional en la vida personal de estos hombres y mujeres.</desc>
@@ -30676,20 +30626,15 @@ A una familia le encanta poder vivir al lado del abuelo, pero su casa ha sido in
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260908060000 +0000" stop="20260908090000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260908060000 +0000" stop="20260908090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260908060000 +0000" stop="20260908090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260908060000 +0000" stop="20260908090000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260908060100 +0000" stop="20260908065900 +0000" channel="NationalGeographic.cl">
     <title lang="es">Secreto en los Océanos</title>
@@ -30965,9 +30910,6 @@ Una pareja está lista para cambiar su apartamento por una casa con mucho terren
   </programme>
   <programme start="20260908063000 +0000" stop="20260908070000 +0000" channel="ElGourmet.cl">
     <title lang="es">Cocina de mar Pacifico</title>
-  </programme>
-  <programme start="20260908063000 +0000" stop="20260908083500 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Sombras tenebrosas</title>
   </programme>
   <programme start="20260908063000 +0000" stop="20260908070000 +0000" channel="ESPN7.cl">
     <title lang="es">FIM Road Racing World Championship Highlights</title>
@@ -31650,6 +31592,11 @@ Los equipos tienen el desafío de crear un pastel épico para el episodio númer
     <title lang="es">El Vampiro Lestat</title>
     <episode-num system="onscreen">S3 E6</episode-num>
   </programme>
+  <programme start="20260908073500 +0000" stop="20260908092500 +0000" channel="StudioUniversal.ar">
+    <title lang="es">El Principito</title>
+    <sub-title lang="es">The Planet of Time</sub-title>
+    <episode-num system="onscreen">S1 E1</episode-num>
+  </programme>
   <programme start="20260908073600 +0000" stop="20260908093400 +0000" channel="HBO.cl">
     <title lang="es">Annabelle 2: La Creación</title>
     <desc lang="es">Tras la muerte de su hija Annabelle Mullins (Samara Lee), Samuel (Anthony LaPaglia) un fabricante de muñecas y su esposa Esther (Miranda Otto) deciden prestar su casa a una monja y varias niñas de un orfanato recién cerrado para evitar que las niñas se queden sin hogar, pero pronto se convertirán en el blanco de la muñeca demoniaca llamada Annabelle.</desc>
@@ -32291,11 +32238,6 @@ El diseñador, Vern Yip, junto a un agente de bienes raíces local, recorren tre
   <programme start="20260908083500 +0000" stop="20260908090000 +0000" channel="AMC.cl">
     <title lang="es">Planet Action</title>
   </programme>
-  <programme start="20260908083500 +0000" stop="20260908102500 +0000" channel="StudioUniversal.ar">
-    <title lang="es">El Principito</title>
-    <sub-title lang="es">The Planet of Time</sub-title>
-    <episode-num system="onscreen">S1 E1</episode-num>
-  </programme>
   <programme start="20260908083600 +0000" stop="20260908092400 +0000" channel="DiscoveryScience.cl">
     <title lang="es">Códigos y Conspiraciones</title>
     <sub-title lang="es">Las Vegas</sub-title>
@@ -32591,20 +32533,15 @@ El chef de hierro Jose Garces mantiene alerta a los Titanes de Bobby Flay en tre
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260908090000 +0000" stop="20260908120000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260908090000 +0000" stop="20260908120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260908090000 +0000" stop="20260908120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260908090000 +0000" stop="20260908120000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260908090100 +0000" stop="20260908112600 +0000" channel="HBO.Plus.cl">
     <title lang="es">Guasón 2 Folie à deux</title>
@@ -32769,6 +32706,9 @@ El diseñador de interiores Vern Yip y un agente inmobiliario local están evalu
   <programme start="20260908092400 +0000" stop="20260908101200 +0000" channel="DiscoveryWorld.cl">
     <title lang="es">1000 Lugares que ver antes de morir</title>
     <sub-title lang="es">Alaska</sub-title>
+  </programme>
+  <programme start="20260908092500 +0000" stop="20260908110000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Krakens y sirenas: Conoce a los Gillman</title>
   </programme>
   <programme start="20260908092900 +0000" stop="20260908095100 +0000" channel="DiscoveryKids.cl">
     <title lang="es">¡Agente Binky al rescate!</title>
@@ -33255,9 +33195,6 @@ Una pareja del estado de Nueva York sueña con comprar una casa a orillas del la
     <title lang="es">Sr. Cocodrilo</title>
     <sub-title lang="es">T1-E8 Gran ayuda, cocodrilo / Pompón</sub-title>
   </programme>
-  <programme start="20260908102500 +0000" stop="20260908120000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Krakens y sirenas: Conoce a los Gillman</title>
-  </programme>
   <programme start="20260908102600 +0000" stop="20260908115600 +0000" channel="HBOXtreme.cl">
     <title lang="es">Fear Below</title>
   </programme>
@@ -33700,6 +33637,10 @@ Los diseñadores deben transformar habitaciones blancas solo con lo que encuentr
   <programme start="20260908110000 +0000" stop="20260908113000 +0000" channel="AMC.cl">
     <title lang="es">Planet Action</title>
   </programme>
+  <programme start="20260908110000 +0000" stop="20260908113000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Hollywood on Set</title>
+    <sub-title lang="es">Dunkerque; Atómica; Annabelle 2: la creación</sub-title>
+  </programme>
   <programme start="20260908110000 +0000" stop="20260908124000 +0000" channel="UniversalCinema.cl">
     <title lang="es">La Noche de los Nerds</title>
   </programme>
@@ -33951,6 +33892,9 @@ Bobby improvisa unos waffles de pan de maíz con huevos al estilo ranchero y cre
   </programme>
   <programme start="20260908113000 +0000" stop="20260908120000 +0000" channel="AMC.cl">
     <title lang="es">Planet Action</title>
+  </programme>
+  <programme start="20260908113000 +0000" stop="20260908132500 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Labyrinth</title>
   </programme>
   <programme start="20260908113000 +0000" stop="20260908120000 +0000" channel="ESPN5.cl">
     <title lang="es">UEFA Champions League Weekly</title>
@@ -34326,10 +34270,6 @@ El equipo está preparando comidas perfectas para niños y también para los ni�
   <programme start="20260908120000 +0000" stop="20260908123000 +0000" channel="AMC.cl">
     <title lang="es">Planet Action</title>
   </programme>
-  <programme start="20260908120000 +0000" stop="20260908123000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Hollywood on Set</title>
-    <sub-title lang="es">Dunkerque; Atómica; Annabelle 2: la creación</sub-title>
-  </programme>
   <programme start="20260908120000 +0000" stop="20260908125000 +0000" channel="UniversalTV.cl">
     <title lang="es">La ley y el orden UVE</title>
     <episode-num system="onscreen">S13 E20</episode-num>
@@ -34369,20 +34309,15 @@ El equipo está preparando comidas perfectas para niños y también para los ni�
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260908120000 +0000" stop="20260908150000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260908120000 +0000" stop="20260908150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260908120000 +0000" stop="20260908150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260908120000 +0000" stop="20260908150000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260908120300 +0000" stop="20260908121000 +0000" channel="CartoonNetwork.cl">
     <title lang="es">El Increíble Mundo de Gumball</title>
@@ -34615,9 +34550,6 @@ Una pareja espera cambiar drásticamente de escenario cuando se mudan de Texas a
   </programme>
   <programme start="20260908123000 +0000" stop="20260908130000 +0000" channel="AMC.cl">
     <title lang="es">Planet Action</title>
-  </programme>
-  <programme start="20260908123000 +0000" stop="20260908142500 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Labyrinth</title>
   </programme>
   <programme start="20260908123100 +0000" stop="20260908125400 +0000" channel="WarnerChannel.cl">
     <title lang="es">The Big Bang Theory</title>
@@ -35184,6 +35116,9 @@ Con solo unas pocas semanas para la fecha límite, Dani y Jon luchan por una imp
   </programme>
   <programme start="20260908132500 +0000" stop="20260908150000 +0000" channel="HBOPop.cl">
     <title lang="es">Pieza por pieza</title>
+  </programme>
+  <programme start="20260908132500 +0000" stop="20260908152000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Un Amor Para Recordar</title>
   </programme>
   <programme start="20260908132600 +0000" stop="20260908133300 +0000" channel="Tooncast.cl">
     <title lang="es">Sheep en la Gran Ciudad</title>
@@ -35841,9 +35776,6 @@ Una pareja siente que Long Island, Bahamas, es el lugar perfecto para seguir pro
       <value>9.0</value>
     </star-rating>
   </programme>
-  <programme start="20260908142500 +0000" stop="20260908162000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Un Amor Para Recordar</title>
-  </programme>
   <programme start="20260908142600 +0000" stop="20260908143600 +0000" channel="Tooncast.cl">
     <title lang="es">Los pequeños Looney Tunes</title>
   </programme>
@@ -36308,20 +36240,15 @@ En Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260908150000 +0000" stop="20260908180000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260908150000 +0000" stop="20260908180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260908150000 +0000" stop="20260908180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260908150000 +0000" stop="20260908180000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260908150400 +0000" stop="20260908152900 +0000" channel="AE.cl">
     <title lang="es">¿Quién da más?</title>
@@ -36439,6 +36366,9 @@ Guy Fieri invita a sus amigos para una noche de platos favoritos de los asadores
     <star-rating system="MX">
       <value>7.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260908152000 +0000" stop="20260908171000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">¡Porque lo digo yo!</title>
   </programme>
   <programme start="20260908152000 +0000" stop="20260908161000 +0000" channel="UniversalTV.cl">
     <title lang="es">Chicago Fire</title>
@@ -37157,9 +37087,6 @@ Molly Yeh está preparando una cena de inauguración con mezclas judías del med
       <value>7.0</value>
     </star-rating>
   </programme>
-  <programme start="20260908162000 +0000" stop="20260908181000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">¡Porque lo digo yo!</title>
-  </programme>
   <programme start="20260908162100 +0000" stop="20260908164700 +0000" channel="AE.cl">
     <title lang="es">¿Quién da más?</title>
   </programme>
@@ -37853,6 +37780,9 @@ La pintoresca casa de campo de una pareja tiene el tamaño perfecto, pero queda 
     <title lang="es">Echando raíces</title>
     <title lang="en">Building Roots</title>
   </programme>
+  <programme start="20260908171000 +0000" stop="20260908192000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Marley y yo</title>
+  </programme>
   <programme start="20260908171100 +0000" stop="20260908172500 +0000" channel="CartoonNetwork.cl">
     <title lang="es">El mundo de Craig</title>
   </programme>
@@ -38311,20 +38241,15 @@ Una pareja de recién casados busca establecerse en una casa familiar de Hudson 
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260908180000 +0000" stop="20260908210000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260908180000 +0000" stop="20260908210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260908180000 +0000" stop="20260908210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260908180000 +0000" stop="20260908210000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260908180500 +0000" stop="20260908183000 +0000" channel="FOODNETWORK.uy">
     <date>2015</date>
@@ -38374,9 +38299,6 @@ Katie y Jason esperan gemelos, pero no están de acuerdo con el diseño del past
     <star-rating system="MX">
       <value>8.0</value>
     </star-rating>
-  </programme>
-  <programme start="20260908181000 +0000" stop="20260908202000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Marley y yo</title>
   </programme>
   <programme start="20260908181000 +0000" stop="20260908200500 +0000" channel="StarChannel.cl">
     <title lang="es">Un cumpleaños problemático</title>
@@ -39164,6 +39086,9 @@ Bobby Flay y Giada De Laurentiis buscan los mejores ingredientes locales y visit
     <title lang="es">Barbapapá y su familia</title>
     <sub-title lang="es">T1-E23 Barba TV / El museo</sub-title>
   </programme>
+  <programme start="20260908192000 +0000" stop="20260908211000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Mi abuela es un peligro</title>
+  </programme>
   <programme start="20260908192000 +0000" stop="20260908203000 +0000" channel="ComedyCentral.cl">
     <title lang="es">Un Hombre, Un Plan</title>
   </programme>
@@ -39634,9 +39559,6 @@ Joe Mazza y el diseñador Noel Gatts ayudan a una pareja de Nueva York abrumada 
   <programme start="20260908202000 +0000" stop="20260908211000 +0000" channel="TelemundoInternacional.ar">
     <title lang="es">El fantasma de elena</title>
   </programme>
-  <programme start="20260908202000 +0000" stop="20260908221000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Mi abuela es un peligro</title>
-  </programme>
   <programme start="20260908202000 +0000" stop="20260908211000 +0000" channel="UniversalTV.cl">
     <title lang="es">Chicago PD</title>
     <desc lang="es">Los hombres y mujeres del Distrito 21 del Departamento de Policía de Chicago que pusieron todo en línea para servir y proteger su comunidad. El Distrito 21 está formado por dos grupos claramente diferentes: policías uniformados que patrullan las calles y se enfrentan cara a cara con los crímenes callejeros de la ciudad y la Unidad de Inteligencia que combate los principales delitos de la ciudad: crimen organizado, narcotráfico, asesinatos de alto perfil y más allá de los muros del barrio, a menudo teniendo un costo emocional en la vida personal de estos hombres y mujeres.</desc>
@@ -40042,20 +39964,15 @@ Ali Khan empareja a los pasteleros para crear un plato de postre para una pareja
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260908210000 +0000" stop="20260909000000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260908210000 +0000" stop="20260909000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260908210000 +0000" stop="20260909000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260908210000 +0000" stop="20260909000000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260908210400 +0000" stop="20260908212800 +0000" channel="HGTV.ar">
     <desc lang="es">S2 E5 — Cocina mod y bar
@@ -40079,6 +39996,9 @@ Una pequeña cocina se convierte en un enorme espacio de entretenimiento con un 
   </programme>
   <programme start="20260908211000 +0000" stop="20260908231000 +0000" channel="HBOPop.cl">
     <title lang="es">Loco y estupido amor</title>
+  </programme>
+  <programme start="20260908211000 +0000" stop="20260908230000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Mi abuela es un peligro 2</title>
   </programme>
   <programme start="20260908211000 +0000" stop="20260908220000 +0000" channel="UniversalTV.cl">
     <title lang="es">Chicago PD</title>
@@ -40603,9 +40523,6 @@ Una pareja del estado de Nueva York sueña con comprar una casa a orillas del la
     <title lang="es">Unión salvaje</title>
     <sub-title lang="es">Comprometida con los canguros</sub-title>
   </programme>
-  <programme start="20260908221000 +0000" stop="20260909000000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Mi abuela es un peligro 2</title>
-  </programme>
   <programme start="20260908221100 +0000" stop="20260908222300 +0000" channel="CartoonNetwork.cl">
     <title lang="es">El maravillosamente extraño mundo de Gumball</title>
   </programme>
@@ -41023,6 +40940,9 @@ Resumen noticioso nacional e internacional.</desc>
   </programme>
   <programme start="20260908230000 +0000" stop="20260909000000 +0000" channel="PASIONES.uy">
     <title lang="es">Rosa diamante</title>
+  </programme>
+  <programme start="20260908230000 +0000" stop="20260909010000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Mi abuela es un peligro 3</title>
   </programme>
   <programme start="20260908230000 +0000" stop="20260909010000 +0000" channel="ESPN6.cl">
     <title lang="es">Fútbol UEFA Champions League</title>
@@ -41728,9 +41648,6 @@ Alton busca a la misteriosa dama de los pasteles y descubre que hacer un pastel 
   <programme start="20260909000000 +0000" stop="20260909003000 +0000" channel="ElGourmet.cl">
     <title lang="es">Especiales El Gourmet</title>
   </programme>
-  <programme start="20260909000000 +0000" stop="20260909020000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Mi abuela es un peligro 3</title>
-  </programme>
   <programme start="20260909000000 +0000" stop="20260909004500 +0000" channel="UniversalCrime.cl">
     <title lang="es">The Real Murders of Orange County</title>
     <sub-title lang="es">Pesadilla Americana</sub-title>
@@ -41750,20 +41667,15 @@ Alton busca a la misteriosa dama de los pasteles y descubre que hacer un pastel 
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260909000000 +0000" stop="20260909030000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260909000000 +0000" stop="20260909030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260909000000 +0000" stop="20260909030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260909000000 +0000" stop="20260909030000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260909000200 +0000" stop="20260909021800 +0000" channel="HBO.cl">
     <title lang="es">Superman</title>
@@ -42205,6 +42117,9 @@ Brad Miller viaja a Nashville para comer costillitas ahumadas con nogal con sals
   <programme start="20260909010000 +0000" stop="20260909024500 +0000" channel="AMC.cl">
     <title lang="es">Bajo el mismo cielo</title>
   </programme>
+  <programme start="20260909010000 +0000" stop="20260909025500 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Al borde del abismo</title>
+  </programme>
   <programme start="20260909010000 +0000" stop="20260909012000 +0000" channel="ComedyCentral.cl">
     <title lang="es">Becker</title>
   </programme>
@@ -42619,9 +42534,6 @@ Buddy crea un hermoso pastel de mariposa para un zoológico local. Además, el e
   <programme start="20260909020000 +0000" stop="20260909030000 +0000" channel="ElGourmet.cl">
     <title lang="es">Me voy a comer el mundo</title>
   </programme>
-  <programme start="20260909020000 +0000" stop="20260909035500 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Al borde del abismo</title>
-  </programme>
   <programme start="20260909020000 +0000" stop="20260909040000 +0000" channel="ESPN5.cl">
     <title lang="es">Fútbol EFL Championship</title>
     <category lang="es">Deportes</category>
@@ -42998,6 +42910,9 @@ En Palm Springs, California, Michael Symon devora un sándwich de carne apilada 
     <title lang="es">Rubble y equipo</title>
     <sub-title lang="es">T1-E23 ¡El equipo construye un show de fuentes! / ¡El equipo construye un carrusel</sub-title>
   </programme>
+  <programme start="20260909025500 +0000" stop="20260909045500 +0000" channel="StudioUniversal.ar">
+    <title lang="es">El centinela</title>
+  </programme>
   <programme start="20260909030000 +0000" stop="20260909040000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -43093,20 +43008,15 @@ En Palm Springs, California, Michael Symon devora un sándwich de carne apilada 
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260909030000 +0000" stop="20260909060000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260909030000 +0000" stop="20260909060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260909030000 +0000" stop="20260909060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260909030000 +0000" stop="20260909060000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260909030200 +0000" stop="20260909031200 +0000" channel="Tooncast.cl">
     <title lang="es">Los pequeños Looney Tunes</title>
@@ -43287,9 +43197,6 @@ Después de vivir por todo el país, una familia decide echar raíces en una peq
   <programme start="20260909035000 +0000" stop="20260909044000 +0000" channel="UniversalTV.cl">
     <title lang="es">La ley y el orden</title>
     <episode-num system="onscreen">S25 E7</episode-num>
-  </programme>
-  <programme start="20260909035500 +0000" stop="20260909055500 +0000" channel="StudioUniversal.ar">
-    <title lang="es">El centinela</title>
   </programme>
   <programme start="20260909035600 +0000" stop="20260909041900 +0000" channel="Tooncast.cl">
     <title lang="es">¿Scooby Doo, dónde estás?</title>
@@ -43527,6 +43434,33 @@ Martha Stewart, Alex Guarnaschelli, Tregaye Fraser y más describen los mejores 
 Rachael Ray prepara una cena inspirada en Japón, protagonizada por filetes de falda con salsa verde de pimienta Shishito y arroz frito con mantequilla de trufa. A su vez, John prepara un cóctel ideal para combinar con el filete.</desc>
     <episode-num>S30 E3</episode-num>
     <title lang="es">30 Minute Meals</title>
+  </programme>
+  <programme start="20260909045500 +0000" stop="20260909064000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Temporada de Brujas</title>
+    <desc lang="es">Ron Perlman (Nicolas Cage) es un caballero que luego de regresar de las cruzadas encuentra su tierra destruida. Una joven es acusada de ser una bruja y responsable de la destrucción y es llevada por dos caballeros para ser entregada en un monasterio donde unos monjes creen poder liberar la maldición de la tierra.</desc>
+    <credits>
+      <director>Dominic Sena</director>
+      <actor>Nicolas Cage</actor>
+      <actor>Ron Perlman</actor>
+      <actor>Stephen Campbell Moore</actor>
+      <actor>Claire Foy</actor>
+      <actor>Stephen Graham</actor>
+      <actor>Ulrich Thomsen</actor>
+      <producer>Alex Gartner</producer>
+      <producer>Charles Roven</producer>
+      <composer>Atli Örvarsson</composer>
+    </credits>
+    <date>2011</date>
+    <category lang="es">Acción</category>
+    <category lang="es">Aventura</category>
+    <category lang="es">Fantasía</category>
+    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/temporada_de_brujas.jpg" />
+    <rating system="MX">
+      <value>PG-13</value>
+    </rating>
+    <star-rating system="MX">
+      <value>5.0</value>
+    </star-rating>
   </programme>
   <programme start="20260909045600 +0000" stop="20260909064100 +0000" channel="HBOFamily.cl">
     <title lang="es">Son como niños</title>
@@ -43804,33 +43738,6 @@ Una pareja se enamoró de la sensación nostálgica de su hogar, pero la combina
     <title lang="es">Barbapapá y su familia</title>
     <sub-title lang="es">T1-E1 El árbol de Barbapapá</sub-title>
   </programme>
-  <programme start="20260909055500 +0000" stop="20260909074000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Temporada de Brujas</title>
-    <desc lang="es">Ron Perlman (Nicolas Cage) es un caballero que luego de regresar de las cruzadas encuentra su tierra destruida. Una joven es acusada de ser una bruja y responsable de la destrucción y es llevada por dos caballeros para ser entregada en un monasterio donde unos monjes creen poder liberar la maldición de la tierra.</desc>
-    <credits>
-      <director>Dominic Sena</director>
-      <actor>Nicolas Cage</actor>
-      <actor>Ron Perlman</actor>
-      <actor>Stephen Campbell Moore</actor>
-      <actor>Claire Foy</actor>
-      <actor>Stephen Graham</actor>
-      <actor>Ulrich Thomsen</actor>
-      <producer>Alex Gartner</producer>
-      <producer>Charles Roven</producer>
-      <composer>Atli Örvarsson</composer>
-    </credits>
-    <date>2011</date>
-    <category lang="es">Acción</category>
-    <category lang="es">Aventura</category>
-    <category lang="es">Fantasía</category>
-    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/temporada_de_brujas.jpg" />
-    <rating system="MX">
-      <value>PG-13</value>
-    </rating>
-    <star-rating system="MX">
-      <value>5.0</value>
-    </star-rating>
-  </programme>
   <programme start="20260909055500 +0000" stop="20260909062000 +0000" channel="ComedyCentral.cl">
     <title lang="es">South Park</title>
   </programme>
@@ -43983,20 +43890,15 @@ Una pareja se enamoró de la sensación nostálgica de su hogar, pero la combina
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260909060000 +0000" stop="20260909090000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260909060000 +0000" stop="20260909090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260909060000 +0000" stop="20260909090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260909060000 +0000" stop="20260909090000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260909060100 +0000" stop="20260909060200 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Escandalosos</title>
@@ -44280,6 +44182,37 @@ Una pareja de recién casados busca establecerse en una casa familiar de Hudson 
   <programme start="20260909064000 +0000" stop="20260909070000 +0000" channel="NickJr.bo">
     <title lang="es">Rubble y equipo</title>
     <sub-title lang="es">T2-E11 El equipo le construye al sr. Patolino un trampolín especial / El equipo construye un tanque de.</sub-title>
+  </programme>
+  <programme start="20260909064000 +0000" stop="20260909083500 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Monster Hunter: La Cacería Comienza</title>
+    <desc lang="es">Detrás de nuestro mundo, hay otro: un mundo de monstruos peligrosos y poderosos que gobiernan su dominio con ferocidad mortal. Cuando una tormenta de arena inesperada transporta a la Capitana Natalie Artemis (Milla Jovovich) y a su unidad a un nuevo mundo, los soldados se sorprenden al descubrir que este entorno hostil y desconocido es el hogar de monstruos enormes y aterradores inmunes a su armamento. En su desesperada batalla por la supervivencia, la unidad se encuentra con el misterioso Cazador (Tony Jaa), cuyas habilidades únicas le permiten estar un paso por delante de las poderosas criaturas. Mientras Artemis y el Cazador comienzan a confiar el uno del otro lentamente, ella descubre que él es parte de un equipo dirigido por el Almirante (Ron Perlman). Enfrentándose a un peligroso tan grande que podría amenazar con destruir su mundo, los valientes guerreros combinan sus habilidades únicas para unirse en el enfrentamiento definitivo.</desc>
+    <credits>
+      <director>Paul W. S. Anderson</director>
+      <actor>Milla Jovovich</actor>
+      <actor>Tony Jaa</actor>
+      <actor>Tip "T. I." Harris</actor>
+      <actor>Meagan Good</actor>
+      <actor>Diego Boneta</actor>
+      <actor>Josh Helman</actor>
+      <actor>Jin Au-Yeung</actor>
+      <actor>Ron Perlman</actor>
+      <producer>Jeremy Bolt</producer>
+      <producer>Paul W. S. Anderson</producer>
+      <composer>Paul Haslinger</composer>
+    </credits>
+    <date>2020</date>
+    <category lang="es">Acción</category>
+    <category lang="es">Aventura</category>
+    <category lang="es">Fantasía</category>
+    <category lang="es">Película</category>
+    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/monster_hunter_la_caceria_comienza.jpg" />
+    <country lang="es">Canadá</country>
+    <rating system="MX">
+      <value>PG-13</value>
+    </rating>
+    <star-rating system="MX">
+      <value>5.0</value>
+    </star-rating>
   </programme>
   <programme start="20260909064100 +0000" stop="20260909082400 +0000" channel="HBOFamily.cl">
     <title lang="es">Si te casas... te mato</title>
@@ -44923,37 +44856,6 @@ Los pasteleros tienen el desafío de hacer un pastel para el aniversario número
     <sub-title lang="es">Beetle</sub-title>
     <episode-num system="onscreen">S2 E12</episode-num>
   </programme>
-  <programme start="20260909074000 +0000" stop="20260909093500 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Monster Hunter: La Cacería Comienza</title>
-    <desc lang="es">Detrás de nuestro mundo, hay otro: un mundo de monstruos peligrosos y poderosos que gobiernan su dominio con ferocidad mortal. Cuando una tormenta de arena inesperada transporta a la Capitana Natalie Artemis (Milla Jovovich) y a su unidad a un nuevo mundo, los soldados se sorprenden al descubrir que este entorno hostil y desconocido es el hogar de monstruos enormes y aterradores inmunes a su armamento. En su desesperada batalla por la supervivencia, la unidad se encuentra con el misterioso Cazador (Tony Jaa), cuyas habilidades únicas le permiten estar un paso por delante de las poderosas criaturas. Mientras Artemis y el Cazador comienzan a confiar el uno del otro lentamente, ella descubre que él es parte de un equipo dirigido por el Almirante (Ron Perlman). Enfrentándose a un peligroso tan grande que podría amenazar con destruir su mundo, los valientes guerreros combinan sus habilidades únicas para unirse en el enfrentamiento definitivo.</desc>
-    <credits>
-      <director>Paul W. S. Anderson</director>
-      <actor>Milla Jovovich</actor>
-      <actor>Tony Jaa</actor>
-      <actor>Tip "T. I." Harris</actor>
-      <actor>Meagan Good</actor>
-      <actor>Diego Boneta</actor>
-      <actor>Josh Helman</actor>
-      <actor>Jin Au-Yeung</actor>
-      <actor>Ron Perlman</actor>
-      <producer>Jeremy Bolt</producer>
-      <producer>Paul W. S. Anderson</producer>
-      <composer>Paul Haslinger</composer>
-    </credits>
-    <date>2020</date>
-    <category lang="es">Acción</category>
-    <category lang="es">Aventura</category>
-    <category lang="es">Fantasía</category>
-    <category lang="es">Película</category>
-    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/monster_hunter_la_caceria_comienza.jpg" />
-    <country lang="es">Canadá</country>
-    <rating system="MX">
-      <value>PG-13</value>
-    </rating>
-    <star-rating system="MX">
-      <value>5.0</value>
-    </star-rating>
-  </programme>
   <programme start="20260909074100 +0000" stop="20260909075200 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Steven universe</title>
   </programme>
@@ -45263,6 +45165,9 @@ El diseñador de interiores Vern Yip y un agente inmobiliario local están evalu
     <title lang="es">Tim Rex en el espacio</title>
     <sub-title lang="es">T1-E5 La vaquita lunar / El nebulizador / El bicho espacial</sub-title>
   </programme>
+  <programme start="20260909083500 +0000" stop="20260909103000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">The Way I See It</title>
+  </programme>
   <programme start="20260909083600 +0000" stop="20260909092400 +0000" channel="DiscoveryScience.cl">
     <title lang="es">Códigos y Conspiraciones</title>
     <sub-title lang="es">Las Vegas</sub-title>
@@ -45479,20 +45384,15 @@ Los cuatro chefs están dispuestos a dar todo para demostrales a los jueces cuá
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260909090000 +0000" stop="20260909120000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260909090000 +0000" stop="20260909120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260909090000 +0000" stop="20260909120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260909090000 +0000" stop="20260909120000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260909090500 +0000" stop="20260909093000 +0000" channel="Nick.cl">
     <title lang="es">Fuerza Danger</title>
@@ -45607,9 +45507,6 @@ El diseñador Vern Yip y un agente de bienes raíces local analizan tres renovac
   </programme>
   <programme start="20260909093500 +0000" stop="20260909100000 +0000" channel="AMC.cl">
     <title lang="es">Planet Action</title>
-  </programme>
-  <programme start="20260909093500 +0000" stop="20260909113000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">The Way I See It</title>
   </programme>
   <programme start="20260909093500 +0000" stop="20260909121100 +0000" channel="HBO.cl">
     <title lang="es">The Fate of the Furious</title>
@@ -46010,6 +45907,10 @@ En una final con temática chocolatosa, Scott Conant desafía a los tres pastele
   <programme start="20260909103000 +0000" stop="20260909110000 +0000" channel="AMC.cl">
     <title lang="es">Planet Action</title>
   </programme>
+  <programme start="20260909103000 +0000" stop="20260909110000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Hollywood on Set</title>
+    <sub-title lang="es">Hasta pronto, Christopher Robin; Feliz día de tu muerte; Tan distinto como yo</sub-title>
+  </programme>
   <programme start="20260909103000 +0000" stop="20260909111500 +0000" channel="UniversalTV.cl">
     <title lang="es">Chicago Med</title>
     <episode-num system="onscreen">S2 E11</episode-num>
@@ -46281,6 +46182,10 @@ Los diseñadores deben transformar un espacio pasado de moda en oficinas glamoro
   <programme start="20260909110000 +0000" stop="20260909113000 +0000" channel="AMC.cl">
     <title lang="es">Planet Action</title>
   </programme>
+  <programme start="20260909110000 +0000" stop="20260909112500 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Hollywood on Set</title>
+    <sub-title lang="es">La Gran Muralla; LEGO Batman: la película; ¡Huye</sub-title>
+  </programme>
   <programme start="20260909110000 +0000" stop="20260909130000 +0000" channel="ESPN4.cl">
     <title lang="es">Fútbol LaLiga</title>
     <sub-title lang="es">Elche vs. Real Sociedad de Fútbol</sub-title>
@@ -46523,6 +46428,10 @@ Andrew Zimmern sigue, enfocando en la gastronomía, el camino marcado por Mark T
       <value>8.0</value>
     </star-rating>
   </programme>
+  <programme start="20260909112500 +0000" stop="20260909115000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Hollywood on Set</title>
+    <sub-title lang="es">El regreso de Mary Poppins / La voz de la igualdad / Si la colonia hablara</sub-title>
+  </programme>
   <programme start="20260909113000 +0000" stop="20260909120000 +0000" channel="EnlaceTBN.cl">
     <title lang="es">La voz de Victoria</title>
   </programme>
@@ -46533,10 +46442,6 @@ Andrew Zimmern sigue, enfocando en la gastronomía, el camino marcado por Mark T
   </programme>
   <programme start="20260909113000 +0000" stop="20260909120000 +0000" channel="AMC.cl">
     <title lang="es">Planet Action</title>
-  </programme>
-  <programme start="20260909113000 +0000" stop="20260909120000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Hollywood on Set</title>
-    <sub-title lang="es">Hasta pronto, Christopher Robin; Feliz día de tu muerte; Tan distinto como yo</sub-title>
   </programme>
   <programme start="20260909113500 +0000" stop="20260909120000 +0000" channel="NickJr.bo">
     <title lang="es">Tim Rex en el espacio</title>
@@ -46691,6 +46596,9 @@ Esta increíble variedad de casas de todo el mundo incluye un apartamento de Nue
       <value>8.0</value>
     </star-rating>
   </programme>
+  <programme start="20260909115000 +0000" stop="20260909140500 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Emma</title>
+  </programme>
   <programme start="20260909115600 +0000" stop="20260909124000 +0000" channel="FOODNETWORK.uy">
     <category lang="es">Reality</category>
     <date>2022</date>
@@ -46789,10 +46697,6 @@ El presentador Eric Adjepong da la bienvenida de nuevo a los chefs Kevin Lee, Ta
   <programme start="20260909120000 +0000" stop="20260909123000 +0000" channel="AMC.cl">
     <title lang="es">Planet Action</title>
   </programme>
-  <programme start="20260909120000 +0000" stop="20260909122500 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Hollywood on Set</title>
-    <sub-title lang="es">La Gran Muralla; LEGO Batman: la película; ¡Huye</sub-title>
-  </programme>
   <programme start="20260909120000 +0000" stop="20260909125000 +0000" channel="UniversalTV.cl">
     <title lang="es">La ley y el orden UVE</title>
     <episode-num system="onscreen">S13 E22</episode-num>
@@ -46820,20 +46724,15 @@ El presentador Eric Adjepong da la bienvenida de nuevo a los chefs Kevin Lee, Ta
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260909120000 +0000" stop="20260909150000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260909120000 +0000" stop="20260909150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260909120000 +0000" stop="20260909150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260909120000 +0000" stop="20260909150000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260909120400 +0000" stop="20260909121000 +0000" channel="CartoonNetwork.cl">
     <title lang="es">El Increíble Mundo de Gumball</title>
@@ -46940,10 +46839,6 @@ El presentador Eric Adjepong da la bienvenida de nuevo a los chefs Kevin Lee, Ta
     <star-rating system="MX">
       <value>5.0</value>
     </star-rating>
-  </programme>
-  <programme start="20260909122500 +0000" stop="20260909125000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Hollywood on Set</title>
-    <sub-title lang="es">El regreso de Mary Poppins / La voz de la igualdad / Si la colonia hablara</sub-title>
   </programme>
   <programme start="20260909122700 +0000" stop="20260909125000 +0000" channel="HGTV.ar">
     <desc lang="es">S3 E8 — Refugio para escaladores en Tucson, Arizona
@@ -47063,9 +46958,6 @@ El encanto y la belleza de Mariana Rios se reflejan en su casa llena de estilo y
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">El hogar, dulce hogar de las celebridades</title>
     <title lang="en">Tô chegando! Na casa dos famosos</title>
-  </programme>
-  <programme start="20260909125000 +0000" stop="20260909150500 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Emma</title>
   </programme>
   <programme start="20260909125000 +0000" stop="20260909134000 +0000" channel="UniversalTV.cl">
     <title lang="es">Chicago Med</title>
@@ -47629,6 +47521,9 @@ El diseñador Vern Yip y un agente de bienes raíces local analizan tres renovac
       <value>7.0</value>
     </star-rating>
   </programme>
+  <programme start="20260909140500 +0000" stop="20260909155500 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Daredevil El hombre sin miedo</title>
+  </programme>
   <programme start="20260909140900 +0000" stop="20260909161300 +0000" channel="StarChannel.cl">
     <title lang="es">La joya de la familia</title>
   </programme>
@@ -48004,27 +47899,19 @@ En Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260909150000 +0000" stop="20260909180000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260909150000 +0000" stop="20260909180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260909150000 +0000" stop="20260909180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260909150000 +0000" stop="20260909180000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260909150500 +0000" stop="20260909160500 +0000" channel="HBOPop.cl">
     <title lang="es">Conan O' Brien Must Go</title>
     <episode-num system="onscreen">S3 E3</episode-num>
-  </programme>
-  <programme start="20260909150500 +0000" stop="20260909165500 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Daredevil El hombre sin miedo</title>
   </programme>
   <programme start="20260909150500 +0000" stop="20260909153000 +0000" channel="ComedyCentral.cl">
     <title lang="es">El rey de queens</title>
@@ -48298,6 +48185,9 @@ Cuatro pasteleros deben convertir las bebidas para adultos en pastelería perfec
   <programme start="20260909155500 +0000" stop="20260909161500 +0000" channel="NickJr.bo">
     <title lang="es">BARBAPAPÁ Una gran familia feliz</title>
     <sub-title lang="es">T2-E25 Convivencia / Hoyito el muñeco de nieve</sub-title>
+  </programme>
+  <programme start="20260909155500 +0000" stop="20260909175000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Limitless</title>
   </programme>
   <programme start="20260909155500 +0000" stop="20260909161500 +0000" channel="ComedyCentral.cl">
     <title lang="es">El vecindario</title>
@@ -48767,9 +48657,6 @@ Un camión reemplaza a un miembro de su equipo por una cara conocida y el plan d
       <value>8.0</value>
     </star-rating>
   </programme>
-  <programme start="20260909165500 +0000" stop="20260909185000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Limitless</title>
-  </programme>
   <programme start="20260909170000 +0000" stop="20260909173000 +0000" channel="Nick.cl">
     <title lang="es">Sonic Prime</title>
     <sub-title lang="es">T1-E22 Zorro de Nueve Colas</sub-title>
@@ -49038,6 +48925,9 @@ Valerie Bertinelli y Duff Goldman retan a los tres pasteleros finalistas a prepa
   <programme start="20260909175000 +0000" stop="20260909184000 +0000" channel="LasEstrellas.cl">
     <title lang="es">El Renacer de Luna</title>
   </programme>
+  <programme start="20260909175000 +0000" stop="20260909194000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Hija de Dios</title>
+  </programme>
   <programme start="20260909175000 +0000" stop="20260909184000 +0000" channel="UniversalTV.cl">
     <title lang="es">La ley y el orden UVE</title>
     <episode-num system="onscreen">S21 E19</episode-num>
@@ -49151,20 +49041,15 @@ Una mujer soltera busca su primera casa para estar más cerca de su familia en P
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260909180000 +0000" stop="20260909210000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260909180000 +0000" stop="20260909210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260909180000 +0000" stop="20260909210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260909180000 +0000" stop="20260909210000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260909181000 +0000" stop="20260909183000 +0000" channel="NickJr.bo">
     <title lang="es">Rubble y equipo</title>
@@ -49552,9 +49437,6 @@ Una familia de cinco integrantes se muda de Canadá a las cálidas playas de are
       <value>5.0</value>
     </star-rating>
   </programme>
-  <programme start="20260909185000 +0000" stop="20260909204000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Hija de Dios</title>
-  </programme>
   <programme start="20260909185200 +0000" stop="20260909190200 +0000" channel="Tooncast.cl">
     <title lang="es">Los autos locos</title>
   </programme>
@@ -49873,6 +49755,9 @@ El propietario de una casa con chimenea central de 1707 le dice a Mike que quier
     <title lang="es">Barbapapá y su familia</title>
     <sub-title lang="es">T1-E26 Los siete alimentos / El retrato perfecto</sub-title>
   </programme>
+  <programme start="20260909194000 +0000" stop="20260909220000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">Terminator Genisys</title>
+  </programme>
   <programme start="20260909194100 +0000" stop="20260909195500 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Un show más</title>
     <sub-title lang="es">Piensa positivo</sub-title>
@@ -50084,9 +49969,6 @@ Joe Mazza y el diseñador Noel Gatts abordan las preocupaciones de seguridad del
     <sub-title lang="es">El Túnel Gotthard</sub-title>
     <episode-num system="onscreen">S2009 E4</episode-num>
   </programme>
-  <programme start="20260909204000 +0000" stop="20260909230000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">Terminator Genisys</title>
-  </programme>
   <programme start="20260909204100 +0000" stop="20260909205300 +0000" channel="Tooncast.cl">
     <title lang="es">Hermano de Jorel</title>
   </programme>
@@ -50238,20 +50120,15 @@ La chef Silvia Barban solo tiene una cosa en mente: vengarse de la estrella Broo
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260909210000 +0000" stop="20260910000000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260909210000 +0000" stop="20260910000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260909210000 +0000" stop="20260910000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260909210000 +0000" stop="20260910000000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260909210400 +0000" stop="20260909212800 +0000" channel="HGTV.ar">
     <desc lang="es">S2 E6 — Cocina reversionada
@@ -50682,6 +50559,33 @@ Una pareja de Washington busca en los lagos de la región una casa frente al mar
   <programme start="20260909220000 +0000" stop="20260909223000 +0000" channel="DisneyJunior.cl">
     <title lang="es">Los Magicampistas</title>
   </programme>
+  <programme start="20260909220000 +0000" stop="20260910010000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">El Hobbit: Un Viaje Inesperado</title>
+    <desc lang="es">(The Hobbit: An Unexpected Journey). Bilbo Baggins (Martin Freeman) viaja para reclamar un tesoro que les fue robado por el temible dragon Smaug. Con la ayuda del hechicero Gandalf el Gris (Ian McKellen), Bilbo junto con trece enanos comandados por el legendario guerrero, Thorin Oakenshield (Richard Armitage). Su viaje los llevara a lugares salvajes; a través de tierras repletas de Goblins, Orcos, Serpientes Gigantes, Hechiceras y Seres que cambian de forma. Su meta se encuentra hacia el Este rumbo a las tierras perdidas de la Montaña Solitaria pero primero ellos deben escapar de los tunesles de los Goblin, donde Bilbo conoce a la criatura que cambiara su vida para siempre … Gollum (Andy Serkis). Desde aquí, solo junto a Gollum, en las orillas de un lago subterráneo, el inocente Bilbo Baggins no solo descubre coraje que los sorprende a si mismo, el también gana la posesión del “preciado” anillo de Gollum.</desc>
+    <credits>
+      <director>Peter Jackson</director>
+      <actor>Ian McKellen</actor>
+      <actor>Martin Freeman</actor>
+      <actor>Richard Armitage</actor>
+      <actor>Andy Serkis</actor>
+      <actor>Benedict Cumberbatch</actor>
+      <producer>Peter Jackson</producer>
+      <producer>Fran Walsh</producer>
+      <composer>Howard Shore</composer>
+    </credits>
+    <date>2012</date>
+    <category lang="es">Aventura</category>
+    <category lang="es">Fantasía</category>
+    <category lang="es">Película</category>
+    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/el_hobbit_un_viaje_inesperado.jpg" />
+    <country lang="es">Nueva Zelanda</country>
+    <rating system="MX">
+      <value>PG-13</value>
+    </rating>
+    <star-rating system="MX">
+      <value>8.0</value>
+    </star-rating>
+  </programme>
   <programme start="20260909220000 +0000" stop="20260909225000 +0000" channel="UniversalTV.cl">
     <title lang="es">Chicago Fire</title>
     <desc lang="es">Estados Unidos. Para los bomberos, el escuadrón de rescate y los paramédicos de Chicago Firehouse 51, ninguna ocupación es más estresante o peligrosa, pero tan gratificante y estimulante. Estos valientes hombres y mujeres se encuentran entre la élite que se arroja de cabeza al peligro cuando todos los demás corren hacia otro lado y cuyas acciones marcan la diferencia entre la vida y la muerte. La presión para desempeñarse en un nivel tan alto tiene una manera de cobrar un precio personal, a veces haciendo que los miembros del equipo de Camión y el Escuadrón de Rescate especialmente entrenados compitan entre sí. A pesar de las diferencias, está es una familia extensa, y cuando es "hora de irse", todos dentro de Firehouse 51 no conocen otra manera que poner todo en juego el uno para el otro cuando una tragedia reclama una propia, hay mucho sentimiento de culpa todos se sienten culpables. El teniente Matthew Casey (Jesse Spencer), a cargo del camión, trata de seguir adelante, pero choca con el tenaz teniente Kelly Severide (Taylor Kinney) del escuadrón de rescate – y cada culpa al otro por su miembro del equipo caído. Sumándose a la confusión, Casey, sin el conocimiento de sus colegas, se encuentra en medio de la separación de Hellie (Teri Reeves). La estación de bomberos también incluye al jefe del batallón Wallace Boden (Eamonn Walker), bombero de bomberos que enfrenta decisiones personales importantes, las paramédicos Gabriela Dawson (Monica Raymund) y Leslie Shay (Lauren German), que comparten un estrecho vínculo y se unen para enfrentar algunas de las situaciones más desgarradoras imaginables, Peter Mills (Charlie Barnett), un graduado de la academia que es la última generación en una familia de los bomberos, y Christopher (David Eigenberg), un veterano experimentado que pierde su hogar por la ejecución hipotecaria y ahora debe desarraigar a su familia para mudarse con sus suegros.</desc>
@@ -50952,33 +50856,6 @@ Guy Fieri y el profesional del fútbol, Marcel Reece, preparan grandes sabores e
   <programme start="20260909230000 +0000" stop="20260909234800 +0000" channel="DiscoveryScience.cl">
     <title lang="es">Planeta Energia</title>
     <episode-num system="onscreen">S1 E10</episode-num>
-  </programme>
-  <programme start="20260909230000 +0000" stop="20260910020000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">El Hobbit: Un Viaje Inesperado</title>
-    <desc lang="es">(The Hobbit: An Unexpected Journey). Bilbo Baggins (Martin Freeman) viaja para reclamar un tesoro que les fue robado por el temible dragon Smaug. Con la ayuda del hechicero Gandalf el Gris (Ian McKellen), Bilbo junto con trece enanos comandados por el legendario guerrero, Thorin Oakenshield (Richard Armitage). Su viaje los llevara a lugares salvajes; a través de tierras repletas de Goblins, Orcos, Serpientes Gigantes, Hechiceras y Seres que cambian de forma. Su meta se encuentra hacia el Este rumbo a las tierras perdidas de la Montaña Solitaria pero primero ellos deben escapar de los tunesles de los Goblin, donde Bilbo conoce a la criatura que cambiara su vida para siempre … Gollum (Andy Serkis). Desde aquí, solo junto a Gollum, en las orillas de un lago subterráneo, el inocente Bilbo Baggins no solo descubre coraje que los sorprende a si mismo, el también gana la posesión del “preciado” anillo de Gollum.</desc>
-    <credits>
-      <director>Peter Jackson</director>
-      <actor>Ian McKellen</actor>
-      <actor>Martin Freeman</actor>
-      <actor>Richard Armitage</actor>
-      <actor>Andy Serkis</actor>
-      <actor>Benedict Cumberbatch</actor>
-      <producer>Peter Jackson</producer>
-      <producer>Fran Walsh</producer>
-      <composer>Howard Shore</composer>
-    </credits>
-    <date>2012</date>
-    <category lang="es">Aventura</category>
-    <category lang="es">Fantasía</category>
-    <category lang="es">Película</category>
-    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/el_hobbit_un_viaje_inesperado.jpg" />
-    <country lang="es">Nueva Zelanda</country>
-    <rating system="MX">
-      <value>PG-13</value>
-    </rating>
-    <star-rating system="MX">
-      <value>8.0</value>
-    </star-rating>
   </programme>
   <programme start="20260909230000 +0000" stop="20260910000000 +0000" channel="ESPN4.cl">
     <title lang="es">Golf PGA Tour</title>
@@ -51493,20 +51370,15 @@ Bobby improvisa unos waffles de pan de maíz con huevos al estilo ranchero y cre
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260910000000 +0000" stop="20260910030000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260910000000 +0000" stop="20260910030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260910000000 +0000" stop="20260910030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260910000000 +0000" stop="20260910030000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260910000300 +0000" stop="20260910000900 +0000" channel="Tooncast.cl">
     <title lang="es">Hi Hi Puffy Amiyumi</title>
@@ -51840,6 +51712,34 @@ El equipo está preparando comidas perfectas para niños y también para los ni�
     <category lang="es">Aventura</category>
     <category lang="es">Ciencia Ficción</category>
     <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/los_juegos_del_hambre_sinsajo_parte_1.jpg" />
+    <rating system="MX">
+      <value>PG-13</value>
+    </rating>
+    <star-rating system="MX">
+      <value>8.0</value>
+    </star-rating>
+  </programme>
+  <programme start="20260910010000 +0000" stop="20260910035000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">El Hobbit: La Desolación de Smaug</title>
+    <desc lang="es">Los Enanos de Erebor, Bilbo y Gandalf han escapado exitosamente de las montañas místicas ademas Bilbo ha obtenido el anillo. Ahora todos ellos continúan su viaje para recuperar el oro que está en manos del dragón Smaug.</desc>
+    <credits>
+      <director>Peter Jackson</director>
+      <actor>Ian McKellen</actor>
+      <actor>Martin Freeman</actor>
+      <actor>Richard Armitage</actor>
+      <actor>Benedict Cumberbatch</actor>
+      <actor>Orlando Bloom</actor>
+      <producer>Peter Jackson</producer>
+      <producer>Carolynne Cunningham</producer>
+      <composer>Howard Shore</composer>
+    </credits>
+    <date>2013</date>
+    <category lang="es">Aventura</category>
+    <category lang="es">Drama</category>
+    <category lang="es">Fantasía</category>
+    <category lang="es">Película</category>
+    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/el_hobbit_la_desolacion_de_smaug.jpg" />
+    <country lang="es">Nueva Zelanda</country>
     <rating system="MX">
       <value>PG-13</value>
     </rating>
@@ -52302,34 +52202,6 @@ No hay nada mejor que las verduras frescas del mercado para ponerle sabor a sus 
       <value>7.0</value>
     </star-rating>
   </programme>
-  <programme start="20260910020000 +0000" stop="20260910045000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">El Hobbit: La Desolación de Smaug</title>
-    <desc lang="es">Los Enanos de Erebor, Bilbo y Gandalf han escapado exitosamente de las montañas místicas ademas Bilbo ha obtenido el anillo. Ahora todos ellos continúan su viaje para recuperar el oro que está en manos del dragón Smaug.</desc>
-    <credits>
-      <director>Peter Jackson</director>
-      <actor>Ian McKellen</actor>
-      <actor>Martin Freeman</actor>
-      <actor>Richard Armitage</actor>
-      <actor>Benedict Cumberbatch</actor>
-      <actor>Orlando Bloom</actor>
-      <producer>Peter Jackson</producer>
-      <producer>Carolynne Cunningham</producer>
-      <composer>Howard Shore</composer>
-    </credits>
-    <date>2013</date>
-    <category lang="es">Aventura</category>
-    <category lang="es">Drama</category>
-    <category lang="es">Fantasía</category>
-    <category lang="es">Película</category>
-    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/el_hobbit_la_desolacion_de_smaug.jpg" />
-    <country lang="es">Nueva Zelanda</country>
-    <rating system="MX">
-      <value>PG-13</value>
-    </rating>
-    <star-rating system="MX">
-      <value>8.0</value>
-    </star-rating>
-  </programme>
   <programme start="20260910020200 +0000" stop="20260910021400 +0000" channel="Tooncast.cl">
     <title lang="es">Las maravillosas desventuras de Flapjack</title>
   </programme>
@@ -52702,20 +52574,15 @@ La apetitosa aventura de Casey Webb lo lleva a Detroit para disfrutar de una ic�
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260910030000 +0000" stop="20260910060000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260910030000 +0000" stop="20260910060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260910030000 +0000" stop="20260910060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260910030000 +0000" stop="20260910060000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260910030900 +0000" stop="20260910032000 +0000" channel="Tooncast.cl">
     <title lang="es">Los pequeños Looney Tunes</title>
@@ -52878,6 +52745,32 @@ Cuatro pasteleros liberan su niño interior para servir en la Feria de Juguetes 
     <icon src="https://imagenes.gatotv.com/categorias/programas/miniatura/victorious.png" />
     <star-rating system="MX">
       <value>7.0</value>
+    </star-rating>
+  </programme>
+  <programme start="20260910035000 +0000" stop="20260910062000 +0000" channel="StudioUniversal.ar">
+    <title lang="es">El Hobbit: La Batalla de los Cinco Ejércitos</title>
+    <desc lang="es">Thorin y sus compañeros han llegado a la guarida de Smaug pero sin darse cuenta han desatado una fuerza letal contra el mundo. El enfurecido Smaug desata su ira contra los inocentes ciudadanos de la Ciudad del Lago.Tras recuperar el tesoro, Thorin, obsesionado por lo que han recuperado sacrifica a sus amigos y su honor con el fin de no volverlo a perder, Bilbo al tratar de hacer entrar en razón a Thorin lo llevan a tomar una decisión desesperada y peligrosa.Mientras las fuerzas malignas se unen y el conflicto se intensifica, los Enanos, Elfos y Humanos deberán tomar la decisión de unirse o ser destruidos. Bilbo deberá luchar por su vida y la de sus amigos en la batalla épica de los cinco ejércitos, mientras el futuro de la tierra media está por colapsar.</desc>
+    <credits>
+      <director>Peter Jackson</director>
+      <actor>Ian McKellen</actor>
+      <actor>Martin Freeman</actor>
+      <actor>Richard Armitage</actor>
+      <actor>Evangeline Lilly</actor>
+      <actor>Luke Evans</actor>
+      <actor>Lee Pace</actor>
+      <actor>Benedict Cumberbatch</actor>
+      <actor>Ken Stott</actor>
+      <producer>Carolynne Cunningham</producer>
+      <producer>Zane Weiner</producer>
+      <composer>Howard Shore</composer>
+    </credits>
+    <date>2014</date>
+    <category lang="es">Aventura</category>
+    <category lang="es">Fantasía</category>
+    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/el_hobbit_la_batalla_de_los_cinco_ejercitos.jpg" />
+    <country lang="es">Estados Unidos</country>
+    <star-rating system="MX">
+      <value>9.0</value>
     </star-rating>
   </programme>
   <programme start="20260910035000 +0000" stop="20260910044000 +0000" channel="UniversalTV.cl">
@@ -53134,32 +53027,6 @@ Molly Yeh hornea delicias para los granjeros en el momento de la cosecha, comenz
   <programme start="20260910045000 +0000" stop="20260910064000 +0000" channel="HBOPop.cl">
     <title lang="es">Tres son multitud</title>
   </programme>
-  <programme start="20260910045000 +0000" stop="20260910072000 +0000" channel="StudioUniversal.ar">
-    <title lang="es">El Hobbit: La Batalla de los Cinco Ejércitos</title>
-    <desc lang="es">Thorin y sus compañeros han llegado a la guarida de Smaug pero sin darse cuenta han desatado una fuerza letal contra el mundo. El enfurecido Smaug desata su ira contra los inocentes ciudadanos de la Ciudad del Lago.Tras recuperar el tesoro, Thorin, obsesionado por lo que han recuperado sacrifica a sus amigos y su honor con el fin de no volverlo a perder, Bilbo al tratar de hacer entrar en razón a Thorin lo llevan a tomar una decisión desesperada y peligrosa.Mientras las fuerzas malignas se unen y el conflicto se intensifica, los Enanos, Elfos y Humanos deberán tomar la decisión de unirse o ser destruidos. Bilbo deberá luchar por su vida y la de sus amigos en la batalla épica de los cinco ejércitos, mientras el futuro de la tierra media está por colapsar.</desc>
-    <credits>
-      <director>Peter Jackson</director>
-      <actor>Ian McKellen</actor>
-      <actor>Martin Freeman</actor>
-      <actor>Richard Armitage</actor>
-      <actor>Evangeline Lilly</actor>
-      <actor>Luke Evans</actor>
-      <actor>Lee Pace</actor>
-      <actor>Benedict Cumberbatch</actor>
-      <actor>Ken Stott</actor>
-      <producer>Carolynne Cunningham</producer>
-      <producer>Zane Weiner</producer>
-      <composer>Howard Shore</composer>
-    </credits>
-    <date>2014</date>
-    <category lang="es">Aventura</category>
-    <category lang="es">Fantasía</category>
-    <icon src="https://imagenes.gatotv.com/categorias/peliculas/miniatura/el_hobbit_la_batalla_de_los_cinco_ejercitos.jpg" />
-    <country lang="es">Estados Unidos</country>
-    <star-rating system="MX">
-      <value>9.0</value>
-    </star-rating>
-  </programme>
   <programme start="20260910045500 +0000" stop="20260910054200 +0000" channel="FOODNETWORK.uy">
     <date>2014</date>
     <desc lang="es">S1 E7
@@ -53188,20 +53055,15 @@ Los chefs se hundirán o nadarán intentando crear postres de chocolate con un d
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260910060000 +0000" stop="20260910090000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260910060000 +0000" stop="20260910090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260910060000 +0000" stop="20260910090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260910060000 +0000" stop="20260910090000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260910060400 +0000" stop="20260910083500 +0000" channel="HBO.cl">
     <title lang="es">Song Sung Blue</title>
@@ -53315,20 +53177,15 @@ El chef Shota Nakajima, un maestro de la cocina japonesa, aporta su formación M
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260910090000 +0000" stop="20260910120000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260910090000 +0000" stop="20260910120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260910090000 +0000" stop="20260910120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260910090000 +0000" stop="20260910120000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260910094400 +0000" stop="20260910102800 +0000" channel="FOODNETWORK.uy">
     <category lang="es">Reality</category>
@@ -53402,20 +53259,15 @@ Jeff Mauro prepara patas de pollo crujientes con salsa picante y mantequilla de 
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260910120000 +0000" stop="20260910150000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260910120000 +0000" stop="20260910150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260910120000 +0000" stop="20260910150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260910120000 +0000" stop="20260910150000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260910120500 +0000" stop="20260910130200 +0000" channel="ESPN2.cl">
     <title lang="es">Golf PGA Tour</title>
@@ -53487,20 +53339,15 @@ Hoy, Nancy utiliza lúpulo local en su comida. Entonces, ella se detiene en la c
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260910150000 +0000" stop="20260910180000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260910150000 +0000" stop="20260910180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260910150000 +0000" stop="20260910180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260910150000 +0000" stop="20260910180000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260910151000 +0000" stop="20260910153500 +0000" channel="FOODNETWORK.uy">
     <date>2017</date>
@@ -53614,20 +53461,15 @@ Para celebrar que una tortuga marina será liberada al mar, los rescatistas pide
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260910180000 +0000" stop="20260910210000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260910180000 +0000" stop="20260910210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260910180000 +0000" stop="20260910210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260910180000 +0000" stop="20260910210000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260910180500 +0000" stop="20260910183000 +0000" channel="FOODNETWORK.uy">
     <date>2015</date>
@@ -53738,20 +53580,15 @@ Ali Khan desafía a los pasteleros a hacer postres que parezcan regalos para beb
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260910210000 +0000" stop="20260911000000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
   <programme start="20260910210000 +0000" stop="20260911000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260910210000 +0000" stop="20260911000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20260910210000 +0000" stop="20260911000000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
   </programme>
   <programme start="20260910212500 +0000" stop="20260910215700 +0000" channel="ESPN5.cl">
     <title lang="es">EFL Highlights</title>
