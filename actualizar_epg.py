@@ -454,7 +454,7 @@ DESFASE_CANALES = {
     'SONYMOVIES.uy': 0,
     'Sony.cl': 0,
     'Space.cl': 0,
-    'StudioUniversal.ar': 0,
+    'StudioUniversal.ar': -1,
     'TNT.cl': 0,
     'TNTSeries.cl': 0,
     'StarChannel.cl': -3,
