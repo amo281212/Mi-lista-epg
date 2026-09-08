@@ -541,16 +541,6 @@
   <programme start="20260906233000 +0000" stop="20260907013400 +0000" channel="GoldenEdge.cl">
     <title lang="es">Tornado</title>
   </programme>
-  <programme start="20260907000000 +0000" stop="20260907030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260907000000 +0000" stop="20260907030000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260907000000 +0000" stop="20260907030000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -561,31 +551,31 @@
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260907000000 +0000" stop="20260907030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260907000000 +0000" stop="20260907030000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260907000000 +0000" stop="20260907030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260907000000 +0000" stop="20260907030000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260907000000 +0000" stop="20260907030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260907005500 +0000" stop="20260907031000 +0000" channel="Sony.cl">
     <title lang="es">El especial de la casa El castigador</title>
   </programme>
   <programme start="20260907013400 +0000" stop="20260907032700 +0000" channel="GoldenEdge.cl">
     <title lang="es">Jumanji</title>
-  </programme>
-  <programme start="20260907030000 +0000" stop="20260907060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260907030000 +0000" stop="20260907060000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20260907030000 +0000" stop="20260907060000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
@@ -597,15 +587,25 @@
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260907030000 +0000" stop="20260907060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260907030000 +0000" stop="20260907060000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260907030000 +0000" stop="20260907060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260907030000 +0000" stop="20260907060000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260907030000 +0000" stop="20260907060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260907030900 +0000" stop="20260907050400 +0000" channel="StarChannel.cl">
     <title lang="es">Boda Sangrienta</title>
@@ -1030,16 +1030,6 @@
     <sub-title lang="es">Brooklyn Reynolds y Christopher Evans</sub-title>
     <episode-num system="onscreen">S14 E7</episode-num>
   </programme>
-  <programme start="20260907060000 +0000" stop="20260907090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260907060000 +0000" stop="20260907090000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260907060000 +0000" stop="20260907090000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -1050,15 +1040,25 @@
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260907060000 +0000" stop="20260907090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260907060000 +0000" stop="20260907090000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260907060000 +0000" stop="20260907090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260907060000 +0000" stop="20260907090000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260907060000 +0000" stop="20260907090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260907060300 +0000" stop="20260907062700 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Mini beat power rockers</title>
@@ -2423,10 +2423,6 @@ Repetición</title>
   <programme start="20260907075700 +0000" stop="20260907084800 +0000" channel="TNTNovelas.cl">
     <title lang="es">El Chico De Oro</title>
   </programme>
-  <programme start="20260907080000 +0000" stop="20260907083000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Documentary</category>
-    <title lang="es">River Plate Campeón Copa Sudamericana 2014</title>
-  </programme>
   <programme start="20260907080000 +0000" stop="20260907083000 +0000" channel="TVN.cl">
     <title lang="es">Hora 24</title>
   </programme>
@@ -2562,25 +2558,10 @@ Repetición</title>
     <sub-title lang="es">Receta para el asesinato</sub-title>
     <episode-num system="onscreen">S3 E16</episode-num>
   </programme>
-  <programme start="20260907081600 +0000" stop="20260907090000 +0000" channel="FOODNETWORK.uy">
-    <date>2015</date>
-    <desc lang="es">S2 E8
-Hasta a los hipopótamos les encanta el pastel y los pasteleros ayudan a celebrar el primer año de la hipopótamo Rosie, del Zoológico de Los Ángeles. Los cuatro competirán por tener su creación en el centro de esta salvaje fiesta, además de llevarse diez mil dólares. John Lewis, Director del Zoológico de Los Ángeles, ayudará a determinar qué pastelero será el rey de la jungla.</desc>
-    <episode-num>S2 E8</episode-num>
-    <title lang="es">Cake Wars</title>
-  </programme>
   <programme start="20260907081600 +0000" stop="20260907090800 +0000" channel="DiscoveryTurbo.cl">
     <title lang="es">Joyas Sobre Ruedas</title>
     <sub-title lang="es">1965 Land Rover Iia</sub-title>
     <episode-num system="onscreen">S13 E7</episode-num>
-  </programme>
-  <programme start="20260907081700 +0000" stop="20260907083900 +0000" channel="HGTV.ar">
-    <desc lang="es">S8 E3 — Tres cocinas y un comedor
-Vern Yip y un agente de bienes raíces local analizan tres renovaciones de $80,000 de cocinas y comedores en Vail.</desc>
-    <episode-num>S8 E3</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">La mejor inversión</title>
-    <title lang="en">Bang for Your Buck</title>
   </programme>
   <programme start="20260907081700 +0000" stop="20260907083900 +0000" channel="DisneyChannel.cl">
     <title lang="es">Los Vecinos Green</title>
@@ -2734,15 +2715,6 @@ Repetición</title>
   <programme start="20260907082700 +0000" stop="20260907091400 +0000" channel="AE.cl">
     <title lang="es">El Chapo</title>
   </programme>
-  <programme start="20260907083000 +0000" stop="20260907090000 +0000" channel="24Horas.cl">
-    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
-    <icon src="https://iptv-epg.org/images/GwMMZx5TTXIRFAzFNEyx_K8KUcqmRx0sbBHsp-SICQzWynEXEAMOSserVh93n26jvNSaUr1EF5ZcNFuwpuhbJKC2peCDTa6YxYBMvBr39WQXjPrP_Ae0bxFCjU3rVGnNNReYfaOV" />
-    <title lang="es">24 Horas deportes</title>
-  </programme>
-  <programme start="20260907083000 +0000" stop="20260907100000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">DSPORTS Noticias</title>
-  </programme>
   <programme start="20260907083000 +0000" stop="20260907084100 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Underdogs United</title>
   </programme>
@@ -2795,14 +2767,6 @@ Repetición</title>
   </programme>
   <programme start="20260907083700 +0000" stop="20260907085100 +0000" channel="Cinemax.cl">
     <title lang="es">Hollywood one on one</title>
-  </programme>
-  <programme start="20260907083900 +0000" stop="20260907090000 +0000" channel="HGTV.ar">
-    <desc lang="es">S3 E3 — Salas cosmopolitas
-Una casa aburrida no refleja la sensibilidad internacional de una pareja joven, por lo que Todd Davis le da a su comedor una sensación del viejo mundo y continúa hacia la gran sala para transformar toda la casa en un espacio cosmopolita.</desc>
-    <episode-num>S3 E3</episode-num>
-    <icon src="https://iptv-epg.org/images/dbXZe2F-_d9ZRWtE01ro85TZzVplay2OwKPHwH-Z4EK5XCsbnGsGuyluUu-4h58BQlyppEia9R0WQEsZzmrkabjPZAxq_JtrkoKVi05B67wbrq99G8rXJtpi-g_n9xVweg4-rY1VSM62KAK_56caPzVY21-opg0mGKAtQXc7fdTky_Jcmx3ptxVo" />
-    <title lang="es">Remodelación sorpresa: puertas adentro</title>
-    <title lang="en">Room Crashers</title>
   </programme>
   <programme start="20260907083900 +0000" stop="20260907090100 +0000" channel="DisneyChannel.cl">
     <title lang="es">Gravity Falls: Un Verano de Misterios</title>
@@ -2899,27 +2863,6 @@ Una casa aburrida no refleja la sensibilidad internacional de una pareja joven, 
     <title lang="es">Doctora Juguetes</title>
     <sub-title lang="es">Hallie, la presumida; Melocotón, ¡date un baño</sub-title>
     <episode-num system="onscreen">S2 E14</episode-num>
-  </programme>
-  <programme start="20260907090000 +0000" stop="20260907093000 +0000" channel="24Horas.cl">
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-    <icon src="https://iptv-epg.org/images/xYEU3c--IseiTcGvDF7yR4uiPKsrubawk6gaX7BQzb-I7ht8VCmYGac3616dzAmGLEMePTYnQq5AZa_susHtSXU8HExItAr3u0ov0204CQ1agv8GZryph1WrDRYO" />
-    <title lang="es">24 horas a la hora</title>
-  </programme>
-  <programme start="20260907090000 +0000" stop="20260907092300 +0000" channel="HGTV.ar">
-    <desc lang="es">S2 E6 — Escapada al sur de los Apalaches
-Una pareja joven busca la primera casa perfecta en Canton, una joya escondida en el sur de los Apalaches. Pero al agente inmobiliario le preocupa que una casa con garaje para dos coches sea demasiado pedir en este pequeño pueblo.</desc>
-    <episode-num>S2 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Nuestro hogar en la montaña</title>
-    <title lang="en">Mountain Life</title>
-  </programme>
-  <programme start="20260907090000 +0000" stop="20260907094700 +0000" channel="FOODNETWORK.uy">
-    <date>2022</date>
-    <desc lang="es">S2 E3
-La chef Rashida Holmes muestra a los Titanes de Bobby Flay cómo es el esfuerzo al traer sus sabores caribeños a la cocina de Triple Threat. Michael Voltaggio descubre un ingrediente que nunca antes había visto y el juez Cliff Crooks rompe récords con una puntuación sorprendente.</desc>
-    <episode-num>S2 E3</episode-num>
-    <title lang="es">Bobby's Triple Threat</title>
   </programme>
   <programme start="20260907090000 +0000" stop="20260907092400 +0000" channel="Tooncast.cl">
     <title lang="es">Mansión foster para amigos imaginarios</title>
@@ -3086,16 +3029,6 @@ La chef Rashida Holmes muestra a los Titanes de Bobby Flay cómo es el esfuerzo 
     <sub-title lang="es">Kim y Lenorris Williams</sub-title>
     <episode-num system="onscreen">S16 E10</episode-num>
   </programme>
-  <programme start="20260907090000 +0000" stop="20260907120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260907090000 +0000" stop="20260907120000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260907090000 +0000" stop="20260907120000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -3106,15 +3039,25 @@ La chef Rashida Holmes muestra a los Titanes de Bobby Flay cómo es el esfuerzo 
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260907090000 +0000" stop="20260907120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260907090000 +0000" stop="20260907120000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260907090000 +0000" stop="20260907120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260907090000 +0000" stop="20260907120000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260907090000 +0000" stop="20260907120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260907090100 +0000" stop="20260907091200 +0000" channel="DisneyChannel.cl">
     <title lang="es">Star vs. Las Fuerzas del Mal</title>
@@ -3253,14 +3196,6 @@ Repetición</title>
       <value>7.0</value>
     </star-rating>
   </programme>
-  <programme start="20260907092300 +0000" stop="20260907094600 +0000" channel="HGTV.ar">
-    <desc lang="es">S8 E4 — Casas no convencionales de Denver
-El diseñador, Vern Yip, junto a un agente de bienes raíces local, recorren tres renovaciones de casas poco convencionales en la ciudad de Denver.</desc>
-    <episode-num>S8 E4</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">La mejor inversión</title>
-    <title lang="en">Bang for Your Buck</title>
-  </programme>
   <programme start="20260907092400 +0000" stop="20260907095000 +0000" channel="Tooncast.cl">
     <title lang="es">Mansión foster para amigos imaginarios</title>
   </programme>
@@ -3289,11 +3224,6 @@ El diseñador, Vern Yip, junto a un agente de bienes raíces local, recorren tre
   </programme>
   <programme start="20260907092900 +0000" stop="20260907095000 +0000" channel="DiscoveryKids.cl">
     <title lang="es">¡Agente Binky al rescate!</title>
-  </programme>
-  <programme start="20260907093000 +0000" stop="20260907100000 +0000" channel="24Horas.cl">
-    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
-    <icon src="https://iptv-epg.org/images/GwMMZx5TTXIRFAzFNEyx_K8KUcqmRx0sbBHsp-SICQzWynEXEAMOSserVh93n26jvNSaUr1EF5ZcNFuwpuhbJKC2peCDTa6YxYBMvBr39WQXjPrP_Ae0bxFCjU3rVGnNNReYfaOV" />
-    <title lang="es">24 Horas deportes</title>
   </programme>
   <programme start="20260907093000 +0000" stop="20260907095500 +0000" channel="Nick.cl">
     <title lang="es">Henry Danger</title>
@@ -3435,14 +3365,6 @@ El diseñador, Vern Yip, junto a un agente de bienes raíces local, recorren tre
     <sub-title lang="es">El taxista asesino</sub-title>
     <episode-num system="onscreen">S1 E47</episode-num>
   </programme>
-  <programme start="20260907094600 +0000" stop="20260907100900 +0000" channel="HGTV.ar">
-    <desc lang="es">S2 E4 — Vivir con un presupuesto ajustado
-Nathan y Jenny construyen una yurta única en Oahu, Hawái, con algunos toques de creatividad. Ellos cumplen los sueños de la pareja de artistas y equipan su yurta con una mesada inigualable y una pared dedicada a la exposición de sus obras.</desc>
-    <episode-num>S2 E4</episode-num>
-    <icon src="https://iptv-epg.org/images/RLz9_FnBsv7QEtak1tDACXnyawRqxrj7LaSC_UIVT62vs-36_LzMGda6DTkAu7U4Y90LqCPSSgZctdtHk9HU0dRhyTku0zkRrVK0Zwr1L6NrCwHEBqOsSjdaTmQQDuyAtPASxfGEWzwl-qM9fq5uJ4vJmfweVPJvewjRJAW795brV0uxvRznkfQ" />
-    <title lang="es">Supercasas ecológicas</title>
-    <title lang="en">Love Yurts</title>
-  </programme>
   <programme start="20260907094600 +0000" stop="20260907112200 +0000" channel="TNT.cl">
     <title lang="es">Muerte en un funeral</title>
   </programme>
@@ -3476,14 +3398,6 @@ Nathan y Jenny construyen una yurta única en Oahu, Hawái, con algunos toques d
     <star-rating system="MX">
       <value>6.0</value>
     </star-rating>
-  </programme>
-  <programme start="20260907094700 +0000" stop="20260907103700 +0000" channel="FOODNETWORK.uy">
-    <category lang="es">Reality</category>
-    <date>2022</date>
-    <desc lang="es">S5 E5
-Los chefs Geoffrey Zakarian, Rocco DiSpirito y Gabriele Bertaccini se enfrentan a Alex Guarnaschelli, en una competencia de dos asaltos, que es organizada por Eric Adjepong. Los jueces Aarti Sequeira y Mei Lin supervisan esta encarnizada batalla.</desc>
-    <episode-num>S5 E5</episode-num>
-    <title lang="es">Alex vs. América</title>
   </programme>
   <programme start="20260907094700 +0000" stop="20260907103400 +0000" channel="History.cl">
     <title lang="es">Gigantes de la industria megamarcas</title>
@@ -3596,17 +3510,6 @@ Repetición</title>
   </programme>
   <programme start="20260907095800 +0000" stop="20260907102100 +0000" channel="WarnerChannel.cl">
     <title lang="es">Cobra Kai</title>
-  </programme>
-  <programme start="20260907100000 +0000" stop="20260907120000 +0000" channel="24Horas.cl">
-    <desc lang="es">Noticiero
-Un programa sobre los hechos más destacados de la agenda diaria a nivel nacional e internacional. A través del trabajo de periodistas, reporteros y expertos, el público podrá informarse al completo sobre la coyuntura.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">24horas tu mañana</title>
-  </programme>
-  <programme start="20260907100000 +0000" stop="20260907120000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Athletic de Bilbao vs. Atlético de Madrid</title>
   </programme>
   <programme start="20260907100000 +0000" stop="20260907101000 +0000" channel="Tooncast.cl">
     <title lang="es">El campamento de Lazlo</title>
@@ -3748,14 +3651,6 @@ Un programa sobre los hechos más destacados de la agenda diaria a nivel naciona
   </programme>
   <programme start="20260907100800 +0000" stop="20260907120000 +0000" channel="HBO2.cl">
     <title lang="es">Rescate del metro 123</title>
-  </programme>
-  <programme start="20260907100900 +0000" stop="20260907105500 +0000" channel="HGTV.ar">
-    <desc lang="es">S3 E4 — Una casa en Carolina del Norte
-Una familia militar que está acostumbrada a mudarse con frecuencia busca una casa frente al mar en Carolina del Norte, donde puedan sentirse conectados a la tierra y, también, donde los niños puedan crecer creando recuerdos en el agua.</desc>
-    <episode-num>S3 E4</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Nuestro hogar frente al lago: renovación</title>
-    <title lang="en">Lakefront Bargain Hunt Renovation</title>
   </programme>
   <programme start="20260907101000 +0000" stop="20260907102100 +0000" channel="Tooncast.cl">
     <title lang="es">El campamento de Lazlo</title>
@@ -4105,13 +4000,6 @@ Repetición</title>
     <title lang="es">Buying Hawaii</title>
     <sub-title lang="es">Zona volcánica</sub-title>
   </programme>
-  <programme start="20260907103700 +0000" stop="20260907110100 +0000" channel="FOODNETWORK.uy">
-    <date>2006</date>
-    <desc lang="es">S19 E3
-Guy Fieri supera todos los obstáculos para hacer su hamburguesa favorita. Esta hamburguesa está rellena de queso y pimiento. También, tiene tomate tradicional, un aderezo ranchero picante casero, tocino crujiente y ensalada de repollo. Además, una receta de pepitas picantes, hechas de patata rallada al horno.</desc>
-    <episode-num>S19 E3</episode-num>
-    <title lang="es">Guy's Big Bite</title>
-  </programme>
   <programme start="20260907103800 +0000" stop="20260907110000 +0000" channel="DiscoveryTurbo.cl">
     <title lang="es">Overhaulin'</title>
     <sub-title lang="es">1967 Camaro</sub-title>
@@ -4269,14 +4157,6 @@ Guy Fieri supera todos los obstáculos para hacer su hamburguesa favorita. Esta 
   <programme start="20260907105300 +0000" stop="20260907110000 +0000" channel="CartoonNetwork.cl">
     <title lang="es">¡Krypto salva el día!</title>
     <episode-num system="onscreen">S1 E4</episode-num>
-  </programme>
-  <programme start="20260907105500 +0000" stop="20260907114100 +0000" channel="HGTV.ar">
-    <desc lang="es">S7 E1 — Una mansión en Hollywood
-En este comienzo de temporada, doce diseñadores se unen para renovar las habitaciones en su nueva casa de Hollywood.</desc>
-    <episode-num>S7 E1</episode-num>
-    <icon src="https://iptv-epg.org/images/0DISVz4T2C0W3rgFc0prL8zW2600CDYRsWR8NuGR-aSkXgtlqaDWTOzeRNwmKi2ZJzTnrOd4SJ1zKO3rZyPVweDG4X3-oSCizRT6RRh1thw38rcq2fJN31BdmGAVGv9AIEFk_VIYlou2kb7s-3EgjRbj70wLQduxvf1CaqpHutjt3jODWHPmTTAInA12" />
-    <title lang="es">La búsqueda del diseñador estrella</title>
-    <title lang="en">HGTV Design Star</title>
   </programme>
   <programme start="20260907105500 +0000" stop="20260907132500 +0000" channel="HBOPop.cl">
     <title lang="es">Rey Richard Una familia</title>
@@ -4485,13 +4365,6 @@ En este comienzo de temporada, doce diseñadores se unen para renovar las habita
     <star-rating system="MX">
       <value>8.0</value>
     </star-rating>
-  </programme>
-  <programme start="20260907110100 +0000" stop="20260907112800 +0000" channel="FOODNETWORK.uy">
-    <date>2006</date>
-    <desc lang="es">S18 E3
-Guy Fieri prepara un menú mexicano que incluye costillas de cerdo con chile mexicano.</desc>
-    <episode-num>S18 E3</episode-num>
-    <title lang="es">Guy's Big Bite</title>
   </programme>
   <programme start="20260907110400 +0000" stop="20260907113400 +0000" channel="DisneyChannel.cl">
     <title lang="es">Gravity Falls: Un Verano de Misterios</title>
@@ -4738,13 +4611,6 @@ Repetición</title>
       <value>8.0</value>
     </star-rating>
   </programme>
-  <programme start="20260907112800 +0000" stop="20260907115200 +0000" channel="FOODNETWORK.uy">
-    <date>2010</date>
-    <desc lang="es">S5 E6
-En esta ocasión, se prepara el desayuno en la cama. El menú incluye huevos al horno con jamón, tomates confitados con crema de hierbas y queso parmesano, bayas cubiertas de chocolate, un mojito de pomelo y café con leche estilo chai.</desc>
-    <episode-num>S5 E6</episode-num>
-    <title lang="es">Brunch @ Bobby's</title>
-  </programme>
   <programme start="20260907112800 +0000" stop="20260907133600 +0000" channel="Space.cl">
     <title lang="es">Al Filo del Mañana</title>
     <desc lang="es">Bill Cage (Tom Cruise) es un soldado que se encuentra la última batalla contra fuerzas alienígenas, cuando este fracasa y muere empieza nuevamente precisamente en el mismo día una y otra vez, ahora con la ayuda de Rita Vrataski (Emily Blunt) deberá aprender tras cada derrota a convertirse en un mejor guerrero.</desc>
@@ -4907,14 +4773,6 @@ En esta ocasión, se prepara el desayuno en la cama. El menú incluye huevos al 
   <programme start="20260907113700 +0000" stop="20260907115100 +0000" channel="DiscoveryKids.cl">
     <title lang="es">El mundo de Luna</title>
   </programme>
-  <programme start="20260907114100 +0000" stop="20260907122700 +0000" channel="HGTV.ar">
-    <desc lang="es">S5 E7 — Olas, burbujas, aserradero
-Esta variedad de casas de todo el mundo incluye una casa que causa sensación en Los Ángeles, una casa de burbujas de cristal en España, un antiguo aserradero convertido en una casa moderna en Gales y un apartamento francés cerca de París.</desc>
-    <episode-num>S5 E7</episode-num>
-    <icon src="https://iptv-epg.org/images/JHJt3P-rj-WzdDRInYb4H4sM1k590J0RIEERFKL-OnUKVTpIpyM6RYb52K6naiF16gL0_0wvtBi_m4MbOWcShWrVSqHtFpNk5Vg7GVaKDJOQiO3UpZDu0-bSym9kTRPSB3eioVw6-c2960WVS8lM6kFmtPZ5teut75mJLYU" />
-    <title lang="es">Hogares increíbles</title>
-    <title lang="en">Extreme Homes</title>
-  </programme>
   <programme start="20260907114400 +0000" stop="20260907115700 +0000" channel="Tooncast.cl">
     <title lang="es">Mi compañero de Clase es un Mono</title>
     <desc lang="es">A causa de una confusión en su apellido, Adam León de doce años es transferido accidentalmente a la Escuela Charles Darwin en donde todos los estudiantes y profesores son animales. Adam es el único estudiante humano y ahí conoce a Jake Mono Araña que rápidamente se convierte en su mejor amigo.</desc>
@@ -5029,13 +4887,6 @@ Repetición</title>
   <programme start="20260907115100 +0000" stop="20260907121700 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Jorge el curioso</title>
   </programme>
-  <programme start="20260907115200 +0000" stop="20260907121900 +0000" channel="FOODNETWORK.uy">
-    <date>2018</date>
-    <desc lang="es">S12 E3
-Molly Yeh prepara para los hambrientos cultivadores de remolacha un abundante almuerzo de sándwiches de cerdo desmenuzado con ensalada de col con brócoli asado y una guarnición de chips de remolacha con yogur de cebolla francesa. Para un capricho dulce, añade sus barras de galleta Speculoos con glaseado grueso y su comida para cachorros con malvaviscos.</desc>
-    <episode-num>S12 E3</episode-num>
-    <title lang="es">Cocina en la granja</title>
-  </programme>
   <programme start="20260907115500 +0000" stop="20260907125000 +0000" channel="History2.cl1">
     <title lang="es">Desastres en tiempo real</title>
     <sub-title lang="es">Huracanes</sub-title>
@@ -5070,16 +4921,6 @@ Molly Yeh prepara para los hambrientos cultivadores de remolacha un abundante al
     <title lang="es">Star Wars: Aventuras de Jóvenes Jedi</title>
     <sub-title lang="es">El rescate de Yoda; Búsqueda de fósiles</sub-title>
     <episode-num system="onscreen">S2 E21</episode-num>
-  </programme>
-  <programme start="20260907120000 +0000" stop="20260907123000 +0000" channel="24Horas.cl">
-    <desc lang="es">Entrevista
-La señal noticiosa 24H realiza estos reportajes de actualidad, que son emitidos en forma exclusiva al exterior.</desc>
-    <icon src="https://iptv-epg.org/images/bWOAp68Vy6EGZ7LFHO85uFMzZz0tTP_vTqi9cohxiITbApVHRcrwxTltCIXDnKhtCjfxxDJOsaTEN9UMyTLhWPOA273ZRxYaaFfnudB6yAYRzBdVKLA6_CkuMg" />
-    <title lang="es">Mirada económica</title>
-  </programme>
-  <programme start="20260907120000 +0000" stop="20260907123000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Mini-Series</category>
-    <title lang="es">Goleadas en Copa Sudamericana</title>
   </programme>
   <programme start="20260907120000 +0000" stop="20260907122000 +0000" channel="Nick.cl">
     <title lang="es">Los Marsupilamis</title>
@@ -5218,16 +5059,6 @@ La señal noticiosa 24H realiza estos reportajes de actualidad, que son emitidos
       <value>8.0</value>
     </star-rating>
   </programme>
-  <programme start="20260907120000 +0000" stop="20260907150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260907120000 +0000" stop="20260907150000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260907120000 +0000" stop="20260907150000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -5238,15 +5069,25 @@ La señal noticiosa 24H realiza estos reportajes de actualidad, que son emitidos
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260907120000 +0000" stop="20260907150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260907120000 +0000" stop="20260907150000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260907120000 +0000" stop="20260907150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260907120000 +0000" stop="20260907150000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260907120000 +0000" stop="20260907150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260907120100 +0000" stop="20260907124700 +0000" channel="TNTSeries.cl">
     <title lang="es">CSI</title>
@@ -5367,14 +5208,6 @@ La señal noticiosa 24H realiza estos reportajes de actualidad, que son emitidos
   <programme start="20260907121700 +0000" stop="20260907122400 +0000" channel="Tooncast.cl">
     <title lang="es">Hi Hi Puffy Amiyumi</title>
   </programme>
-  <programme start="20260907121900 +0000" stop="20260907130400 +0000" channel="FOODNETWORK.uy">
-    <category lang="es">Reality</category>
-    <date>2014</date>
-    <desc lang="es">S18 E3
-Disfruta de los días calurosos del verano con salchichas picantes y ensalada de pasta con piñones, limón e hinojo. El chef Fabio Viviani está de visita y prepara una ensalada de judías con bocados crujientes de mortadela.</desc>
-    <episode-num>S18 E3</episode-num>
-    <title lang="es">The Kitchen</title>
-  </programme>
   <programme start="20260907122000 +0000" stop="20260907124500 +0000" channel="Nick.cl">
     <title lang="es">El show de Patricio Estrella</title>
     <sub-title lang="es">T1-E19 Clase de cocina / Puerta a la imaginación</sub-title>
@@ -5448,28 +5281,10 @@ Disfruta de los días calurosos del verano con salchichas picantes y ensalada de
   <programme start="20260907122500 +0000" stop="20260907144600 +0000" channel="StarChannel.cl">
     <title lang="es">Jack</title>
   </programme>
-  <programme start="20260907122700 +0000" stop="20260907125000 +0000" channel="HGTV.ar">
-    <desc lang="es">S3 E6 — Casa de montaña en Carolina del Sur
-Una pareja de Phoenix, Arizona, busca una vivienda en las montañas de Carolina del Sur. Él quiere un estudio en el que pueda trabajar en sus composiciones musicales, y ella espera poder dejar su impronta en la decoración de la casa.</desc>
-    <episode-num>S3 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Nuestro hogar en la montaña</title>
-    <title lang="en">Mountain Life</title>
-  </programme>
   <programme start="20260907122900 +0000" stop="20260907130000 +0000" channel="DisneyJunior.cl">
     <title lang="es">Firebuds</title>
     <sub-title lang="es">El auto en el árbol; El día de los dálmatas</sub-title>
     <episode-num system="onscreen">S1 E1</episode-num>
-  </programme>
-  <programme start="20260907123000 +0000" stop="20260907144500 +0000" channel="24Horas.cl">
-    <desc lang="es">Noticiero
-Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
-    <icon src="https://iptv-epg.org/images/s8n9u7d5p-QkWop4cnnhrV1GG_gXiAxZn0dlS8m1aDVzIP4A-zWuUgmwpiizIdqn3VmSsEl-RJV6XdfbGzzNjYk6wI1NfN3xZ0FmbiheCfr_gBZ04U_sV8Lm8dtsOoAX" />
-    <title lang="es">La mañana informativa</title>
-  </programme>
-  <programme start="20260907123000 +0000" stop="20260907130000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">default</category>
-    <title lang="es">FIFA U20 Women's WC: Polonia vs. Argentina</title>
   </programme>
   <programme start="20260907123000 +0000" stop="20260907130000 +0000" channel="EnlaceTBN.cl">
     <title lang="es">La voz de Victoria</title>
@@ -5626,14 +5441,6 @@ Espacio informativo en el que se abordan los acontecimientos más relevantes de 
       <value>7.0</value>
     </star-rating>
   </programme>
-  <programme start="20260907125000 +0000" stop="20260907131400 +0000" channel="HGTV.ar">
-    <desc lang="es">S1 E4 — Mi casa, mi alma
-El carisma y la alegría de Fafá de Belém están presentes en todo su hogar, desde pequeños objetos hasta hermosas obras de arte. Recuerdos de una vida llena de éxitos, lucha y mucha fe, que Dony tiene el gusto de conocer de cerca.</desc>
-    <episode-num>S1 E4</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">El hogar, dulce hogar de las celebridades</title>
-    <title lang="en">Tô chegando! Na casa dos famosos</title>
-  </programme>
   <programme start="20260907125000 +0000" stop="20260907130100 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Escandalositos</title>
     <sub-title lang="es">Casa de Muñecas</sub-title>
@@ -5662,10 +5469,6 @@ El carisma y la alegría de Fafá de Belém están presentes en todo su hogar, d
   </programme>
   <programme start="20260907125700 +0000" stop="20260907130400 +0000" channel="Tooncast.cl">
     <title lang="es">Sheep en la Gran Ciudad</title>
-  </programme>
-  <programme start="20260907130000 +0000" stop="20260907150000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Current</category>
-    <title lang="es">DSPORTS Noticias Lite</title>
   </programme>
   <programme start="20260907130000 +0000" stop="20260907132000 +0000" channel="Nick.cl">
     <title lang="es">The Loud House</title>
@@ -5763,13 +5566,6 @@ El carisma y la alegría de Fafá de Belém están presentes en todo su hogar, d
     <sub-title lang="es">Fuego</sub-title>
     <episode-num system="onscreen">S4 E23</episode-num>
   </programme>
-  <programme start="20260907130400 +0000" stop="20260907135600 +0000" channel="FOODNETWORK.uy">
-    <date>2015</date>
-    <desc lang="es">S7 E3
-Ali Khan desafía a los pasteleros a crear hermosos huevos comestibles con un sabor sorpresa y un pollito primaveral decorativo. Luego, intentan impresionar a los jueces Kardea Brown, Nancy Fuller y Duff Goldman con sus panes en forma de conejos.</desc>
-    <episode-num>S7 E3</episode-num>
-    <title lang="es">Spring Baking Championship</title>
-  </programme>
   <programme start="20260907130400 +0000" stop="20260907130500 +0000" channel="Tooncast.cl">
     <title lang="es">Sheep en la Gran Ciudad</title>
   </programme>
@@ -5866,14 +5662,6 @@ Ali Khan desafía a los pasteleros a crear hermosos huevos comestibles con un sa
   </programme>
   <programme start="20260907131200 +0000" stop="20260907131600 +0000" channel="Tooncast.cl">
     <title lang="es">Sheep en la Gran Ciudad</title>
-  </programme>
-  <programme start="20260907131400 +0000" stop="20260907140100 +0000" channel="HGTV.ar">
-    <desc lang="es">S1 E4 — Siendo generosos en Texas
-Después de los problemas con los retrasos en la construcción, EJ y Jason completan su primera renovación y se preparan para mostrarla. Luego, Dani y Jon quedan decepcionados con una casa terminada que no se venderá.</desc>
-    <episode-num>S1 E4</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">De mil a un millón</title>
-    <title lang="en">Flip to a Million</title>
   </programme>
   <programme start="20260907131400 +0000" stop="20260907132400 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Los Jóvenes Titanes En Acción</title>
@@ -6373,14 +6161,6 @@ Después de los problemas con los retrasos en la construcción, EJ y Jason compl
   <programme start="20260907135300 +0000" stop="20260907154900 +0000" channel="Cinecanal.cl">
     <title lang="es">DANNA Tenemos que hablar - Un filme de Childstar</title>
   </programme>
-  <programme start="20260907135600 +0000" stop="20260907145000 +0000" channel="FOODNETWORK.uy">
-    <category lang="es">Reality</category>
-    <date>2007</date>
-    <desc lang="es">S37 E3
-Los chefs tienen la buena fortuna de obtener delicias de Irlanda en cada canasta, desde una cerveza negra icónica y una delicia irlandesa hasta un helado irlandés favorito.</desc>
-    <episode-num>S37 E3</episode-num>
-    <title lang="es">Chopped</title>
-  </programme>
   <programme start="20260907135600 +0000" stop="20260907161100 +0000" channel="HBOXtreme.cl">
     <title lang="es">La Momia Regresa</title>
   </programme>
@@ -6487,14 +6267,6 @@ En Vivo</title>
   <programme start="20260907140000 +0000" stop="20260907145500 +0000" channel="Sony.cl">
     <title lang="es">Betty's call</title>
     <sub-title lang="es">Böse Jungs</sub-title>
-  </programme>
-  <programme start="20260907140100 +0000" stop="20260907142400 +0000" channel="HGTV.ar">
-    <desc lang="es">S8 E4 — Casas no convencionales de Denver
-El diseñador, Vern Yip, junto a un agente de bienes raíces local, recorren tres renovaciones de casas poco convencionales en la ciudad de Denver.</desc>
-    <episode-num>S8 E4</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">La mejor inversión</title>
-    <title lang="en">Bang for Your Buck</title>
   </programme>
   <programme start="20260907140100 +0000" stop="20260907141200 +0000" channel="Tooncast.cl">
     <title lang="es">Las maravillosas desventuras de Flapjack</title>
@@ -6653,14 +6425,6 @@ El diseñador, Vern Yip, junto a un agente de bienes raíces local, recorren tre
     <title lang="es">Los Irwin datos curiosos</title>
     <sub-title lang="es">Tres felices tigres</sub-title>
   </programme>
-  <programme start="20260907142400 +0000" stop="20260907144800 +0000" channel="HGTV.ar">
-    <desc lang="es">S5 E6 — Los sueños se hacen realidad
-Una pareja rusa de Carolina del Norte nunca soñó que compraría una casa de vacaciones en las Bahamas y ahora están explorando Long Island para encontrar su hogar tropical.</desc>
-    <episode-num>S5 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/TvSBn3gOQ61szdY83Zb2RBAaUnXoPf239xT-RlzzAcSknf4b3gi_3K_x-1xRkBhe1niix4MIkzeQPU4sa3gmyVCrVgJ0JxiDQ837DVrd0v1ESAaTltPDLldmf3CaKVQmBhr7tt9mwCyLKvYQfAmT59rn7oSrEUg5EQrw7geK5YHVDxqi0aSmB1eD9A" />
-    <title lang="es">Nuestro hogar en las Bahamas</title>
-    <title lang="en">Bahamas Life</title>
-  </programme>
   <programme start="20260907142400 +0000" stop="20260907164000 +0000" channel="HBO2.cl">
     <title lang="es">Superman</title>
   </programme>
@@ -6803,12 +6567,6 @@ Una pareja rusa de Carolina del Norte nunca soñó que compraría una casa de va
     <title lang="es">Vanderpump Rules</title>
     <sub-title lang="es">Reunión parte 3</sub-title>
   </programme>
-  <programme start="20260907144500 +0000" stop="20260907150000 +0000" channel="24Horas.cl">
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-    <icon src="https://iptv-epg.org/images/PyCOaxEc7huO9LsREMGwseMNkv2VTDnB-y50tqdFrAhQ3D5EOwK-7CSanErJwdSVbRWbqDkstG1URYsg7xg7h9Yx0ftgWqZPfm7XwXs1HjCQES5b0OoOcKNI5bktORc" />
-    <title lang="es">Entrevistas 24 horas</title>
-  </programme>
   <programme start="20260907144500 +0000" stop="20260907150500 +0000" channel="ComedyCentral.cl">
     <title lang="es">El rey de queens</title>
   </programme>
@@ -6817,21 +6575,6 @@ Espacio en el que conversamos con un invitado especial quien nos habla de la sit
   </programme>
   <programme start="20260907144600 +0000" stop="20260907172100 +0000" channel="StarChannel.cl">
     <title lang="es">Duro de matar</title>
-  </programme>
-  <programme start="20260907144800 +0000" stop="20260907153500 +0000" channel="HGTV.ar">
-    <desc lang="es">S1 E6 — Niños y caos
-A una familia le encanta poder vivir al lado del abuelo, pero su casa ha sido invadida por el desorden de sus hijos. Kim llega para ayudarlos a crear un espacio personal y hacer que la casa funcione.</desc>
-    <episode-num>S1 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/kIOYHSggl0RmGBEtFH0Qclz6hVom3eiIwADyqYdordUQ_xQ8TIf8NokRgNWNyd_a1KiCz0oLaf26P9spuPcqmvRIz6i0O81aI6GG5IdC1lOdrZa36RcDnJpj13WawtzobVBooDhAAqUZTpXQ6cnfnGK9Gu8RFpg" />
-    <title lang="es">¿Por qué compré esta casa?</title>
-    <title lang="en">Why the Heck Did I Buy This House?</title>
-  </programme>
-  <programme start="20260907145000 +0000" stop="20260907151500 +0000" channel="FOODNETWORK.uy">
-    <date>2019</date>
-    <desc lang="es">S1 E3
-Kardea Brown invita a su familia a disfrutar de una parrillada en el patio trasero y prepara hamburguesas rellenas con pimiento, además de alitas, pepinillos y quimbombó.</desc>
-    <episode-num>S1 E3</episode-num>
-    <title lang="es">Delicious Miss Brown</title>
   </programme>
   <programme start="20260907145000 +0000" stop="20260907150000 +0000" channel="Nick.cl">
     <title lang="es">El show de Patricio Estrella</title>
@@ -6906,17 +6649,6 @@ Kardea Brown invita a su familia a disfrutar de una parrillada en el patio trase
     <star-rating system="MX">
       <value>7.0</value>
     </star-rating>
-  </programme>
-  <programme start="20260907150000 +0000" stop="20260907163000 +0000" channel="24Horas.cl">
-    <desc lang="es">Noticiero
-Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
-    <icon src="https://iptv-epg.org/images/s8n9u7d5p-QkWop4cnnhrV1GG_gXiAxZn0dlS8m1aDVzIP4A-zWuUgmwpiizIdqn3VmSsEl-RJV6XdfbGzzNjYk6wI1NfN3xZ0FmbiheCfr_gBZ04U_sV8Lm8dtsOoAX" />
-    <title lang="es">La mañana informativa</title>
-  </programme>
-  <programme start="20260907150000 +0000" stop="20260907163000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">De Fútbol Se Habla Así Argentina</title>
   </programme>
   <programme start="20260907150000 +0000" stop="20260907153000 +0000" channel="Nick.cl">
     <title lang="es">SpongeBob SquarePants</title>
@@ -7000,16 +6732,6 @@ En Vivo</title>
     <sub-title lang="es">Las llaves del asesinato</sub-title>
     <episode-num system="onscreen">S1 E51</episode-num>
   </programme>
-  <programme start="20260907150000 +0000" stop="20260907180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260907150000 +0000" stop="20260907180000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260907150000 +0000" stop="20260907180000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -7020,15 +6742,25 @@ En Vivo</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260907150000 +0000" stop="20260907180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260907150000 +0000" stop="20260907180000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260907150000 +0000" stop="20260907180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260907150000 +0000" stop="20260907180000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260907150000 +0000" stop="20260907180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260907150300 +0000" stop="20260907151400 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Los Jóvenes Titanes En Acción</title>
@@ -7152,13 +6884,6 @@ En Vivo</title>
   <programme start="20260907151400 +0000" stop="20260907160600 +0000" channel="AnimalPlanet.cl">
     <title lang="es">El acuario</title>
     <sub-title lang="es">La historia de la nutria</sub-title>
-  </programme>
-  <programme start="20260907151500 +0000" stop="20260907154000 +0000" channel="FOODNETWORK.uy">
-    <date>2013</date>
-    <desc lang="es">S4 E12
-Nancy Fuller está organizando un cóctel en la Ópera de Hudson. Todos sus amigos asistirán a la exposición Cosecha, una colección de arte abstracto que celebra el fruto del trabajo del agricultor.</desc>
-    <episode-num>S4 E12</episode-num>
-    <title lang="es">Farmhouse Rules</title>
   </programme>
   <programme start="20260907151500 +0000" stop="20260907154000 +0000" channel="NickJr.bo">
     <title lang="es">BARBAPAPÁ Una gran familia feliz</title>
@@ -7336,14 +7061,6 @@ Nancy Fuller está organizando un cóctel en la Ópera de Hudson. Todos sus amig
   <programme start="20260907153000 +0000" stop="20260907155500 +0000" channel="ComedyCentral.cl">
     <title lang="es">El rey de queens</title>
   </programme>
-  <programme start="20260907153500 +0000" stop="20260907155800 +0000" channel="HGTV.ar">
-    <desc lang="es">S3 E8 — Celebrando con Jamie Foxx, Patti Stanger y Cesar Millan
-Nancy O'Dell echa un vistazo a la casa del actor Jamie Foxx en Los Ángeles. La casamentera Patti Stanger decora su hogar con amor. El adiestrador de perros Cesar Millan y su manada dan un recorrido por su casa nueva.</desc>
-    <episode-num>S3 E8</episode-num>
-    <icon src="https://iptv-epg.org/images/MYjEWuxJYfYV4AD9-YpR2gsMzoLCr2DT-_jBkOIAKyLSOoZomlzAO02Q_aOoZWM65x1zeqOgVxFuG2zj_QeMMEsNb8PI-7c5pgXQvk1EkzV3ctnxJDH90x4bXOydGijGNYk4Qt7dKdIwf5U4D91xx6cFbv9hnvTK-TN8e505EPSLzHMLNEJCRtFhW2m5US-LBPk6vhHvBv8Zhlh8Ouu54aoyBU_a" />
-    <title lang="es">El hogar de las celebridades</title>
-    <title lang="en">Celebrities at Home</title>
-  </programme>
   <programme start="20260907153800 +0000" stop="20260907155200 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Los Jóvenes Titanes En Acción</title>
     <desc lang="es">¡Estos titanes adolescentes están en movimiento! Justo después de hacer un sándwich. O jugar algunos videojuegos. Espera, hay que lavar ropa. "¡No lo es!" Después de eso, definitivamente lucharán contra algún crimen. Tal vez… ¡Teen Titans Go! presenta el regreso de Robin, Starfire, Raven, Chico Bestia y Cyborg en nuevas aventuras cómicas. Estos cinco adolescentes superhéroes tienen más que solo superpoderes: ¡tienen quehaceres de gran tamaño y no tienen supervisión! Salvar el mundo puede parecer un gran problema, pero después de luchar contra el mal todo el día en Jump City, lo último que quieren hacer estos adolescentes es pelear por el remoto hogar de Titans Tower o tener que limpiar después de una maratón de pizza. Así que prepárate para el caos cómico marcado por bromas mientras los adolescentes se molestan mutuamente, con un poco de lucha contra el crimen. A menos que haya algo bueno en la televisión….</desc>
@@ -7368,13 +7085,6 @@ Nancy O'Dell echa un vistazo a la casa del actor Jamie Foxx en Los Ángeles. La 
     <star-rating system="MX">
       <value>5.0</value>
     </star-rating>
-  </programme>
-  <programme start="20260907154000 +0000" stop="20260907160500 +0000" channel="FOODNETWORK.uy">
-    <date>2017</date>
-    <desc lang="es">S2 E3
-Los amigos chefs de Guy Fieri comparten recetas. Primero, Michael Voltaggio prepara unos huevos rellenos de trucha ahumada. Luego, Marc Murphy sirve unos calabacines, rellenos de salchicha de cerdo.</desc>
-    <episode-num>S2 E3</episode-num>
-    <title lang="es">Guy's Ranch Kitchen</title>
   </programme>
   <programme start="20260907154000 +0000" stop="20260907160000 +0000" channel="NickJr.bo">
     <title lang="es">BARBAPAPÁ Una gran familia feliz</title>
@@ -7543,14 +7253,6 @@ Los amigos chefs de Guy Fieri comparten recetas. Primero, Michael Voltaggio prep
   <programme start="20260907155700 +0000" stop="20260907161100 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Talking Tom Heroes Los Superpoderosos</title>
   </programme>
-  <programme start="20260907155800 +0000" stop="20260907162200 +0000" channel="HGTV.ar">
-    <desc lang="es">S2 E8 — Seguir creciendo
-Nathan y Jenny deciden tener una vivienda más espaciosa por las necesidades de la familia, pero parece que lo planeado es más de lo que pueden hacer, al faltar solo cinco días para poder completar su proyecto en el tiempo pactado.</desc>
-    <episode-num>S2 E8</episode-num>
-    <icon src="https://iptv-epg.org/images/ZGgbBBMKS45KdUEI8SKh4ULFgpKZaKUrfkbZJ3Q6wVmWsbNp4drJPk7u_FoJ7FSJ1qaPgloQImRwoYiSTWkym9EKoD-_i8CRh8svqJlJzZsXlRLd9dZYn_HNJoT9Q7KXeBYXDvPVh7pzRSMBSw5RxD-lzmMvv8Az" />
-    <title lang="es">Supercasas ecológicas</title>
-    <title lang="en">Love Yurts</title>
-  </programme>
   <programme start="20260907155900 +0000" stop="20260907164600 +0000" channel="TNTSeries.cl">
     <title lang="es">CSI: Miami</title>
     <desc lang="es">Investigando el espectacular accidente aéreo del "Golden Parachute". Horatio Caine (David Caruso) y su equipo de hábiles investigadores salen a las calles, playas y pantanos de Miami con un dulce Humvee y la capacidad de arrestar a sus sospechosos (un poder que sus contrapartes de Las Vegas no poseen).</desc>
@@ -7627,13 +7329,6 @@ Nathan y Jenny deciden tener una vivienda más espaciosa por las necesidades de 
   </programme>
   <programme start="20260907160400 +0000" stop="20260907165400 +0000" channel="History.cl">
     <title lang="es">Lo mejor de El precio de la historia</title>
-  </programme>
-  <programme start="20260907160500 +0000" stop="20260907163200 +0000" channel="FOODNETWORK.uy">
-    <date>1999</date>
-    <desc lang="es">S11 E3
-Si un buen guiso, como la buena música, es una mezcla de ingredientes para crear armonía culinaria, ¿por qué tantos guisos saben menos a música hermosa y más a un canto fúnebre?</desc>
-    <episode-num>S11 E3</episode-num>
-    <title lang="es">Good Eats</title>
   </programme>
   <programme start="20260907160500 +0000" stop="20260907163000 +0000" channel="Nick.cl">
     <title lang="es">The Loud House</title>
@@ -8696,16 +8391,6 @@ Una pareja está lista para cambiar su apartamento por una casa con mucho terren
     <sub-title lang="es">Carmen Stonemark y James Deese</sub-title>
     <episode-num system="onscreen">S15 E2</episode-num>
   </programme>
-  <programme start="20260907180000 +0000" stop="20260907210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260907180000 +0000" stop="20260907210000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260907180000 +0000" stop="20260907210000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -8716,15 +8401,25 @@ Una pareja está lista para cambiar su apartamento por una casa con mucho terren
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260907180000 +0000" stop="20260907210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260907180000 +0000" stop="20260907210000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260907180000 +0000" stop="20260907210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260907180000 +0000" stop="20260907210000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260907180000 +0000" stop="20260907210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260907180100 +0000" stop="20260907182500 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Academia Unicornio</title>
@@ -10622,16 +10317,6 @@ Resumen noticioso nacional e internacional.</desc>
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20260907210000 +0000" stop="20260908000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260907210000 +0000" stop="20260908000000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260907210000 +0000" stop="20260908000000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -10642,15 +10327,25 @@ Resumen noticioso nacional e internacional.</desc>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260907210000 +0000" stop="20260908000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260907210000 +0000" stop="20260908000000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260907210000 +0000" stop="20260908000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260907210000 +0000" stop="20260908000000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260907210000 +0000" stop="20260908000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260907210200 +0000" stop="20260907212800 +0000" channel="FOODNETWORK.uy">
     <date>2001</date>
@@ -12522,16 +12217,6 @@ Guy Fieri invita a sus amigos chefs para que conozcan la cocina mediterránea. A
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20260908000000 +0000" stop="20260908030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260908000000 +0000" stop="20260908030000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260908000000 +0000" stop="20260908030000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -12542,15 +12227,25 @@ Guy Fieri invita a sus amigos chefs para que conozcan la cocina mediterránea. A
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260908000000 +0000" stop="20260908030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260908000000 +0000" stop="20260908030000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260908000000 +0000" stop="20260908030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260908000000 +0000" stop="20260908030000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260908000000 +0000" stop="20260908030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260908000100 +0000" stop="20260908003100 +0000" channel="DisneyJunior.cl">
     <title lang="es">Iron Man y sus increíbles amigos</title>
@@ -14433,16 +14128,6 @@ Espacio para discutir, entre otros, sobre seguridad ciudadana, urbanismo, educac
       <value>+18</value>
     </rating>
   </programme>
-  <programme start="20260908030000 +0000" stop="20260908060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260908030000 +0000" stop="20260908060000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260908030000 +0000" stop="20260908060000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -14453,15 +14138,25 @@ Espacio para discutir, entre otros, sobre seguridad ciudadana, urbanismo, educac
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260908030000 +0000" stop="20260908060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260908030000 +0000" stop="20260908060000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260908030000 +0000" stop="20260908060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260908030000 +0000" stop="20260908060000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260908030000 +0000" stop="20260908060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260908030100 +0000" stop="20260908031100 +0000" channel="Tooncast.cl">
     <title lang="es">Los pequeños Looney Tunes</title>
@@ -16321,16 +16016,6 @@ Repetición</title>
     <title lang="es">Vuelta a España</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260908060000 +0000" stop="20260908090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260908060000 +0000" stop="20260908090000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260908060000 +0000" stop="20260908090000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -16341,15 +16026,25 @@ Repetición</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260908060000 +0000" stop="20260908090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260908060000 +0000" stop="20260908090000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260908060000 +0000" stop="20260908090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260908060000 +0000" stop="20260908090000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260908060000 +0000" stop="20260908090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260908060200 +0000" stop="20260908064800 +0000" channel="FOODNETWORK.uy">
     <category lang="es">Reality</category>
@@ -18427,16 +18122,6 @@ El chef de hierro Jose Garces mantiene alerta a los Titanes de Bobby Flay en tre
     <title lang="es">La Vuelta a España 2026</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260908090000 +0000" stop="20260908120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260908090000 +0000" stop="20260908120000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260908090000 +0000" stop="20260908120000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -18447,15 +18132,25 @@ El chef de hierro Jose Garces mantiene alerta a los Titanes de Bobby Flay en tre
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260908090000 +0000" stop="20260908120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260908090000 +0000" stop="20260908120000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260908090000 +0000" stop="20260908120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260908090000 +0000" stop="20260908120000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260908090000 +0000" stop="20260908120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260908090100 +0000" stop="20260908112600 +0000" channel="HBO.Plus.cl">
     <title lang="es">Guasón 2 Folie à deux</title>
@@ -20493,16 +20188,6 @@ El equipo está preparando comidas perfectas para niños y también para los ni�
     <title lang="es">Bundesliga Highlights Show</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260908120000 +0000" stop="20260908150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260908120000 +0000" stop="20260908150000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260908120000 +0000" stop="20260908150000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -20513,15 +20198,25 @@ El equipo está preparando comidas perfectas para niños y también para los ni�
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260908120000 +0000" stop="20260908150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260908120000 +0000" stop="20260908150000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260908120000 +0000" stop="20260908150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260908120000 +0000" stop="20260908150000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260908120000 +0000" stop="20260908150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260908120300 +0000" stop="20260908121000 +0000" channel="CartoonNetwork.cl">
     <title lang="es">El Increíble Mundo de Gumball</title>
@@ -22430,16 +22125,6 @@ En Vivo</title>
     <title lang="es">Espn Tenis</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260908150000 +0000" stop="20260908180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260908150000 +0000" stop="20260908180000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260908150000 +0000" stop="20260908180000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -22450,15 +22135,25 @@ En Vivo</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260908150000 +0000" stop="20260908180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260908150000 +0000" stop="20260908180000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260908150000 +0000" stop="20260908180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260908150000 +0000" stop="20260908180000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260908150000 +0000" stop="20260908180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260908150100 +0000" stop="20260908153100 +0000" channel="DisneyChannel.cl">
     <title lang="es">Phineas y Ferb</title>
@@ -24466,16 +24161,6 @@ Una pareja de recién casados busca establecerse en una casa familiar de Hudson 
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20260908180000 +0000" stop="20260908210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260908180000 +0000" stop="20260908210000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260908180000 +0000" stop="20260908210000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -24486,15 +24171,25 @@ Una pareja de recién casados busca establecerse en una casa familiar de Hudson 
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260908180000 +0000" stop="20260908210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260908180000 +0000" stop="20260908210000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260908180000 +0000" stop="20260908210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260908180000 +0000" stop="20260908210000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260908180000 +0000" stop="20260908210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260908180200 +0000" stop="20260908195200 +0000" channel="Golden.cl">
     <title lang="es">Suave patria</title>
@@ -26237,16 +25932,6 @@ Ali Khan empareja a los pasteleros para crear un plato de postre para una pareja
     <title lang="es">FIM Road Racing World Championship Highlights</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260908210000 +0000" stop="20260909000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260908210000 +0000" stop="20260909000000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260908210000 +0000" stop="20260909000000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -26257,15 +25942,25 @@ Ali Khan empareja a los pasteleros para crear un plato de postre para una pareja
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260908210000 +0000" stop="20260909000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260908210000 +0000" stop="20260909000000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260908210000 +0000" stop="20260909000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260908210000 +0000" stop="20260909000000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260908210000 +0000" stop="20260909000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260908210400 +0000" stop="20260908212800 +0000" channel="HGTV.ar">
     <desc lang="es">S2 E5 — Cocina mod y bar
@@ -28003,16 +27698,6 @@ Alton busca a la misteriosa dama de los pasteles y descubre que hacer un pastel 
     <title lang="es">Fútbol UEFA Champions League</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260909000000 +0000" stop="20260909030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260909000000 +0000" stop="20260909030000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260909000000 +0000" stop="20260909030000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -28023,15 +27708,25 @@ Alton busca a la misteriosa dama de los pasteles y descubre que hacer un pastel 
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260909000000 +0000" stop="20260909030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260909000000 +0000" stop="20260909030000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260909000000 +0000" stop="20260909030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260909000000 +0000" stop="20260909030000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260909000000 +0000" stop="20260909030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260909000200 +0000" stop="20260909010000 +0000" channel="AE.cl">
     <title lang="es">Culto a la personalidad</title>
@@ -29976,16 +29671,6 @@ En Palm Springs, California, Michael Symon devora un sándwich de carne apilada 
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20260909030000 +0000" stop="20260909060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260909030000 +0000" stop="20260909060000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260909030000 +0000" stop="20260909060000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -29996,15 +29681,25 @@ En Palm Springs, California, Michael Symon devora un sándwich de carne apilada 
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260909030000 +0000" stop="20260909060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260909030000 +0000" stop="20260909060000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260909030000 +0000" stop="20260909060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260909030000 +0000" stop="20260909060000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260909030000 +0000" stop="20260909060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260909030100 +0000" stop="20260909033000 +0000" channel="DisneyChannel.cl">
     <title lang="es">Amphibia</title>
@@ -31611,16 +31306,6 @@ Repetición</title>
     <title lang="es">UEFA Champions League Highlights</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260909060000 +0000" stop="20260909090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260909060000 +0000" stop="20260909090000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260909060000 +0000" stop="20260909090000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -31631,15 +31316,25 @@ Repetición</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260909060000 +0000" stop="20260909090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260909060000 +0000" stop="20260909090000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260909060000 +0000" stop="20260909090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260909060000 +0000" stop="20260909090000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260909060000 +0000" stop="20260909090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260909060100 +0000" stop="20260909060200 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Escandalosos</title>
@@ -33978,16 +33673,6 @@ Los cuatro chefs están dispuestos a dar todo para demostrales a los jueces cuá
     <title lang="es">La Vuelta a España 2026</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260909090000 +0000" stop="20260909120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260909090000 +0000" stop="20260909120000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260909090000 +0000" stop="20260909120000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -33998,15 +33683,25 @@ Los cuatro chefs están dispuestos a dar todo para demostrales a los jueces cuá
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260909090000 +0000" stop="20260909120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260909090000 +0000" stop="20260909120000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260909090000 +0000" stop="20260909120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260909090000 +0000" stop="20260909120000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260909090000 +0000" stop="20260909120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260909090100 +0000" stop="20260909093600 +0000" channel="HBO.Plus.cl">
     <title lang="es">Saving My Tomorrow</title>
@@ -36004,16 +35699,6 @@ El presentador Eric Adjepong da la bienvenida de nuevo a los chefs Kevin Lee, Ta
     <sub-title lang="es">Our Mysteries</sub-title>
     <episode-num system="onscreen">S9 E5</episode-num>
   </programme>
-  <programme start="20260909120000 +0000" stop="20260909150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260909120000 +0000" stop="20260909150000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260909120000 +0000" stop="20260909150000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -36024,15 +35709,25 @@ El presentador Eric Adjepong da la bienvenida de nuevo a los chefs Kevin Lee, Ta
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260909120000 +0000" stop="20260909150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260909120000 +0000" stop="20260909150000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260909120000 +0000" stop="20260909150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260909120000 +0000" stop="20260909150000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260909120000 +0000" stop="20260909150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260909120400 +0000" stop="20260909121000 +0000" channel="CartoonNetwork.cl">
     <title lang="es">El Increíble Mundo de Gumball</title>
@@ -38074,16 +37769,6 @@ En Vivo</title>
     <title lang="es">Espn Tenis</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260909150000 +0000" stop="20260909180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260909150000 +0000" stop="20260909180000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260909150000 +0000" stop="20260909180000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -38094,15 +37779,25 @@ En Vivo</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260909150000 +0000" stop="20260909180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260909150000 +0000" stop="20260909180000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260909150000 +0000" stop="20260909180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260909150000 +0000" stop="20260909180000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260909150000 +0000" stop="20260909180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260909150400 +0000" stop="20260909153000 +0000" channel="WarnerChannel.cl">
     <title lang="es">Two and a Half Men</title>
@@ -39952,16 +39647,6 @@ Una mujer soltera busca su primera casa para estar más cerca de su familia en P
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20260909180000 +0000" stop="20260909210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260909180000 +0000" stop="20260909210000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260909180000 +0000" stop="20260909210000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -39972,15 +39657,25 @@ Una mujer soltera busca su primera casa para estar más cerca de su familia en P
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260909180000 +0000" stop="20260909210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260909180000 +0000" stop="20260909210000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260909180000 +0000" stop="20260909210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260909180000 +0000" stop="20260909210000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260909180000 +0000" stop="20260909210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260909180300 +0000" stop="20260909204400 +0000" channel="FX.cl">
     <title lang="es">Enemigo público</title>
@@ -41697,16 +41392,6 @@ La chef Silvia Barban solo tiene una cosa en mente: vengarse de la estrella Broo
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20260909210000 +0000" stop="20260910000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260909210000 +0000" stop="20260910000000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260909210000 +0000" stop="20260910000000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -41717,15 +41402,25 @@ La chef Silvia Barban solo tiene una cosa en mente: vengarse de la estrella Broo
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260909210000 +0000" stop="20260910000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260909210000 +0000" stop="20260910000000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260909210000 +0000" stop="20260910000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260909210000 +0000" stop="20260910000000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260909210000 +0000" stop="20260910000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260909210100 +0000" stop="20260909223600 +0000" channel="HBO.Plus.cl">
     <title lang="es">Anatema</title>
@@ -43610,16 +43305,6 @@ Repetición</title>
     <title lang="es">Estudiantes de La Plata vs. Corinthians</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260910000000 +0000" stop="20260910030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260910000000 +0000" stop="20260910030000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260910000000 +0000" stop="20260910030000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -43630,15 +43315,25 @@ Repetición</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260910000000 +0000" stop="20260910030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260910000000 +0000" stop="20260910030000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260910000000 +0000" stop="20260910030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260910000000 +0000" stop="20260910030000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260910000000 +0000" stop="20260910030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260910000300 +0000" stop="20260910000900 +0000" channel="Tooncast.cl">
     <title lang="es">Hi Hi Puffy Amiyumi</title>
@@ -45504,16 +45199,6 @@ La apetitosa aventura de Casey Webb lo lleva a Detroit para disfrutar de una ic�
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20260910030000 +0000" stop="20260910060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260910030000 +0000" stop="20260910060000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260910030000 +0000" stop="20260910060000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -45524,15 +45209,25 @@ La apetitosa aventura de Casey Webb lo lleva a Detroit para disfrutar de una ic�
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260910030000 +0000" stop="20260910060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260910030000 +0000" stop="20260910060000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260910030000 +0000" stop="20260910060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260910030000 +0000" stop="20260910060000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260910030000 +0000" stop="20260910060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260910030100 +0000" stop="20260910045600 +0000" channel="StarChannel.cl">
     <title lang="es">Boda Sangrienta</title>
@@ -47132,16 +46827,6 @@ Repetición</title>
     <sub-title lang="es">Homicidio en la colina</sub-title>
     <episode-num system="onscreen">S1 E6</episode-num>
   </programme>
-  <programme start="20260910060000 +0000" stop="20260910090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260910060000 +0000" stop="20260910090000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260910060000 +0000" stop="20260910090000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -47152,15 +46837,25 @@ Repetición</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260910060000 +0000" stop="20260910090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260910060000 +0000" stop="20260910090000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260910060000 +0000" stop="20260910090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260910060000 +0000" stop="20260910090000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260910060000 +0000" stop="20260910090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260910060200 +0000" stop="20260910061100 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Escandalosos</title>
@@ -49018,16 +48713,6 @@ El chef Shota Nakajima, un maestro de la cocina japonesa, aporta su formación M
     <title lang="es">La Vuelta a España 2026</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260910090000 +0000" stop="20260910120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260910090000 +0000" stop="20260910120000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260910090000 +0000" stop="20260910120000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -49038,15 +48723,25 @@ El chef Shota Nakajima, un maestro de la cocina japonesa, aporta su formación M
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260910090000 +0000" stop="20260910120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260910090000 +0000" stop="20260910120000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260910090000 +0000" stop="20260910120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260910090000 +0000" stop="20260910120000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260910090000 +0000" stop="20260910120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260910090500 +0000" stop="20260910093000 +0000" channel="Nick.cl">
     <title lang="es">Fuerza Danger</title>
@@ -50582,16 +50277,6 @@ Jeff Mauro prepara patas de pollo crujientes con salsa picante y mantequilla de 
   <programme start="20260910120000 +0000" stop="20260910135300 +0000" channel="HBO.cl">
     <title lang="es">Rescate del metro 123</title>
   </programme>
-  <programme start="20260910120000 +0000" stop="20260910150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260910120000 +0000" stop="20260910150000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260910120000 +0000" stop="20260910150000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -50602,15 +50287,25 @@ Jeff Mauro prepara patas de pollo crujientes con salsa picante y mantequilla de 
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260910120000 +0000" stop="20260910150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260910120000 +0000" stop="20260910150000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260910120000 +0000" stop="20260910150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260910120000 +0000" stop="20260910150000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260910120000 +0000" stop="20260910150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260910120300 +0000" stop="20260910135200 +0000" channel="FX.cl">
     <title lang="es">Sin rodeos</title>
@@ -52276,16 +51971,6 @@ En Vivo</title>
     <title lang="es">UEFA Champions League Highlights</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260910150000 +0000" stop="20260910180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260910150000 +0000" stop="20260910180000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260910150000 +0000" stop="20260910180000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -52296,15 +51981,25 @@ En Vivo</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260910150000 +0000" stop="20260910180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260910150000 +0000" stop="20260910180000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260910150000 +0000" stop="20260910180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260910150000 +0000" stop="20260910180000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260910150000 +0000" stop="20260910180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260910150100 +0000" stop="20260910151200 +0000" channel="Tooncast.cl">
     <title lang="es">Los pequeños Looney Tunes</title>
@@ -53706,16 +53401,6 @@ Para celebrar que una tortuga marina será liberada al mar, los rescatistas pide
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20260910180000 +0000" stop="20260910210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260910180000 +0000" stop="20260910210000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260910180000 +0000" stop="20260910210000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -53726,15 +53411,25 @@ Para celebrar que una tortuga marina será liberada al mar, los rescatistas pide
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260910180000 +0000" stop="20260910210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260910180000 +0000" stop="20260910210000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260910180000 +0000" stop="20260910210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260910180000 +0000" stop="20260910210000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260910180000 +0000" stop="20260910210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260910180500 +0000" stop="20260910183000 +0000" channel="FOODNETWORK.uy">
     <date>2015</date>
@@ -55161,16 +54856,6 @@ Ali Khan desafía a los pasteleros a hacer postres que parezcan regalos para beb
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20260910210000 +0000" stop="20260911000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20260910210000 +0000" stop="20260911000000 +0000" channel="TNTSports.cl">
-    <title lang="es">TNTSports.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260910210000 +0000" stop="20260911000000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -55181,15 +54866,25 @@ Ali Khan desafía a los pasteleros a hacer postres que parezcan regalos para beb
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20260910210000 +0000" stop="20260911000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260910210000 +0000" stop="20260911000000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
     <desc lang="es">Salud, hogar y estilo de vida.</desc>
     <category lang="es">Estilo de Vida</category>
+  </programme>
+  <programme start="20260910210000 +0000" stop="20260911000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260910210000 +0000" stop="20260911000000 +0000" channel="TNTSports.cl">
+    <title lang="es">TNTSports.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260910210000 +0000" stop="20260911000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260910210500 +0000" stop="20260910212800 +0000" channel="Tooncast.cl">
     <title lang="es">Mansión foster para amigos imaginarios</title>
