@@ -320,6 +320,12 @@
   <channel id="T13Noticias.cl">
     <display-name>T13 En Vivo</display-name>
   </channel>
+  <channel id="TLNovelas.cl">
+    <display-name lang="es">Canal TLNovelas (Chile)</display-name>
+    <icon src="https://imagenes.gatotv.com/logos/canales/oscuros/tlnovelas-mediano.png" />
+    <icon src="https://imagenes.gatotv.com/logos/canales/oscuros/tlnovelas-mediano.png" />
+    <url>http://www.gatotv.com</url>
+  </channel>
   <channel id="TNT.cl">
     <display-name lang="es">Canal TNT (Chile)</display-name>
     <icon src="https://imagenes.gatotv.com/logos/canales/oscuros/tnt_latinoamerica-mediano.png" />
@@ -672,6 +678,10 @@
   <programme start="20260906051000 +0000" stop="20260906053400 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Mini beat power rockers</title>
   </programme>
+  <programme start="20260906051000 +0000" stop="20260906053500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Rina</title>
+    <episode-num system="onscreen">E42</episode-num>
+  </programme>
   <programme start="20260906051000 +0000" stop="20260906053000 +0000" channel="NickJr.bo">
     <title lang="es">BARBAPAPÁ Una gran familia feliz</title>
     <sub-title lang="es">T2-E10 El diario de Barbazoo / La gran reportera</sub-title>
@@ -865,6 +875,10 @@
   </programme>
   <programme start="20260906053500 +0000" stop="20260906055800 +0000" channel="AE.cl">
     <title lang="es">¿Quién da más?</title>
+  </programme>
+  <programme start="20260906053500 +0000" stop="20260906060000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Rina</title>
+    <episode-num system="onscreen">E43</episode-num>
   </programme>
   <programme start="20260906053600 +0000" stop="20260906073900 +0000" channel="StarChannel.cl">
     <title lang="es">Una Ciudad Despiadada</title>
@@ -1114,6 +1128,9 @@
   </programme>
   <programme start="20260906060000 +0000" stop="20260906070000 +0000" channel="LasEstrellas.cl">
     <title lang="es">Mujer, casos de la vida real</title>
+  </programme>
+  <programme start="20260906060000 +0000" stop="20260906065000 +0000" channel="TLNovelas.cl">
+    <title lang="es">La Rosa de Guadalupe</title>
   </programme>
   <programme start="20260906060000 +0000" stop="20260906070000 +0000" channel="ESPN.cl">
     <title lang="es">SportsCenter</title>
@@ -1667,6 +1684,10 @@
       <value>7.0</value>
     </star-rating>
   </programme>
+  <programme start="20260906065000 +0000" stop="20260906074400 +0000" channel="TLNovelas.cl">
+    <title lang="es">En nombre del amor</title>
+    <episode-num system="onscreen">E139</episode-num>
+  </programme>
   <programme start="20260906065100 +0000" stop="20260906074100 +0000" channel="Discovery.cl">
     <title lang="es">Mirada policial</title>
   </programme>
@@ -2212,6 +2233,10 @@
   </programme>
   <programme start="20260906074300 +0000" stop="20260906075400 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Ba da Bean</title>
+  </programme>
+  <programme start="20260906074400 +0000" stop="20260906083800 +0000" channel="TLNovelas.cl">
+    <title lang="es">En nombre del amor</title>
+    <episode-num system="onscreen">E140</episode-num>
   </programme>
   <programme start="20260906074500 +0000" stop="20260906083000 +0000" channel="NationalGeographic.cl">
     <title lang="es">Alerta aeropuerto 3: Perú</title>
@@ -2847,6 +2872,10 @@
     <title lang="es">El museo embrujado</title>
     <sub-title lang="es">La casa de muñecas maldita</sub-title>
   </programme>
+  <programme start="20260906083800 +0000" stop="20260906093200 +0000" channel="TLNovelas.cl">
+    <title lang="es">En nombre del amor</title>
+    <episode-num system="onscreen">E141</episode-num>
+  </programme>
   <programme start="20260906083900 +0000" stop="20260906090000 +0000" channel="History.cl">
     <title lang="es">El Precio de la Historia</title>
     <desc lang="es">En la ciudad de Las Vegas, la tienda de empeño “Gold &amp; Silver Pawn Shop”, una empresa familiar que trabaja las 24 horas del día es operada por Richard, Rick y Corey Harrison. En el negocio se puede observar como aparecen de la nada objetos que han formado parte de la historia y que hoy en día tienen un precio histórico.</desc>
@@ -3350,6 +3379,10 @@
   </programme>
   <programme start="20260906093000 +0000" stop="20260906111000 +0000" channel="UniversalCinema.cl">
     <title lang="es">La Noche de los Nerds</title>
+  </programme>
+  <programme start="20260906093200 +0000" stop="20260906102600 +0000" channel="TLNovelas.cl">
+    <title lang="es">En nombre del amor</title>
+    <episode-num system="onscreen">E142</episode-num>
   </programme>
   <programme start="20260906093600 +0000" stop="20260906094900 +0000" channel="CartoonNetwork.cl">
     <title lang="es">El mundo de Craig</title>
@@ -4097,6 +4130,10 @@
   <programme start="20260906102500 +0000" stop="20260906121500 +0000" channel="GoldenEdge.cl">
     <title lang="es">Horizonte profundo</title>
   </programme>
+  <programme start="20260906102600 +0000" stop="20260906112000 +0000" channel="TLNovelas.cl">
+    <title lang="es">En nombre del amor</title>
+    <episode-num system="onscreen">E143</episode-num>
+  </programme>
   <programme start="20260906102800 +0000" stop="20260906110000 +0000" channel="DisneyJunior.cl">
     <title lang="es">Supergatitos</title>
   </programme>
@@ -4616,6 +4653,11 @@
   <programme start="20260906111600 +0000" stop="20260906120200 +0000" channel="TNTNovelas.cl">
     <title lang="es">Fuerza de Mujer</title>
   </programme>
+  <programme start="20260906112000 +0000" stop="20260906114500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Rina
+Repetición</title>
+    <episode-num system="onscreen">E42</episode-num>
+  </programme>
   <programme start="20260906112100 +0000" stop="20260906113400 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Los Jóvenes Titanes En Acción</title>
     <sub-title lang="es">Traseros atómicos</sub-title>
@@ -4911,6 +4953,11 @@
     <star-rating system="MX">
       <value>8.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260906114500 +0000" stop="20260906121000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Rina
+Repetición</title>
+    <episode-num system="onscreen">E43</episode-num>
   </programme>
   <programme start="20260906114600 +0000" stop="20260906120900 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Peppa Pig</title>
@@ -5282,6 +5329,10 @@
       <value>6.0</value>
     </star-rating>
   </programme>
+  <programme start="20260906121000 +0000" stop="20260906125500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía</title>
+    <episode-num system="onscreen">E60</episode-num>
+  </programme>
   <programme start="20260906121000 +0000" stop="20260906123000 +0000" channel="ComedyCentral.cl">
     <title lang="es">Most Ridiculous</title>
   </programme>
@@ -5552,6 +5603,10 @@
   </programme>
   <programme start="20260906125000 +0000" stop="20260906142000 +0000" channel="UniversalCinema.cl">
     <title lang="es">Alvin y las ardillas</title>
+  </programme>
+  <programme start="20260906125500 +0000" stop="20260906134000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía</title>
+    <episode-num system="onscreen">E61</episode-num>
   </programme>
   <programme start="20260906125500 +0000" stop="20260906131500 +0000" channel="ComedyCentral.cl">
     <title lang="es">Hot In Cleveland</title>
@@ -5948,6 +6003,10 @@
   <programme start="20260906134000 +0000" stop="20260906143000 +0000" channel="E_Entertainment.cl">
     <title lang="es">Vanderpump Rules</title>
     <sub-title lang="es">Guerras de bromas</sub-title>
+  </programme>
+  <programme start="20260906134000 +0000" stop="20260906142500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía</title>
+    <episode-num system="onscreen">E62</episode-num>
   </programme>
   <programme start="20260906134000 +0000" stop="20260906143000 +0000" channel="TelemundoInternacional.ar">
     <title lang="es">La Reina del Sur</title>
@@ -6428,6 +6487,10 @@
       <value>5.0</value>
     </star-rating>
   </programme>
+  <programme start="20260906142500 +0000" stop="20260906151000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía</title>
+    <episode-num system="onscreen">E63</episode-num>
+  </programme>
   <programme start="20260906142500 +0000" stop="20260906145000 +0000" channel="ComedyCentral.cl">
     <title lang="es">El rey de queens</title>
   </programme>
@@ -6702,6 +6765,10 @@
   </programme>
   <programme start="20260906151000 +0000" stop="20260906170600 +0000" channel="Cinemax.cl">
     <title lang="es">Más rápido más furioso</title>
+  </programme>
+  <programme start="20260906151000 +0000" stop="20260906155800 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar</title>
+    <episode-num system="onscreen">E64</episode-num>
   </programme>
   <programme start="20260906151000 +0000" stop="20260906165500 +0000" channel="HBOPop.cl">
     <title lang="es">17 otra vez</title>
@@ -7092,6 +7159,10 @@
   <programme start="20260906155500 +0000" stop="20260906161500 +0000" channel="NickJr.bo">
     <title lang="es">BARBAPAPÁ Una gran familia feliz</title>
     <sub-title lang="es">T2-E16 El decodificador / Paisajes de papel</sub-title>
+  </programme>
+  <programme start="20260906155800 +0000" stop="20260906164600 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar</title>
+    <episode-num system="onscreen">E65</episode-num>
   </programme>
   <programme start="20260906155900 +0000" stop="20260906180600 +0000" channel="GoldenEdge.cl">
     <title lang="es">Sin Rastro</title>
@@ -7526,6 +7597,10 @@
   <programme start="20260906164500 +0000" stop="20260906170000 +0000" channel="ComedyCentral.cl">
     <title lang="es">Hot In Cleveland</title>
   </programme>
+  <programme start="20260906164600 +0000" stop="20260906173400 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar</title>
+    <episode-num system="onscreen">E66</episode-num>
+  </programme>
   <programme start="20260906164600 +0000" stop="20260906173800 +0000" channel="DiscoveryTurbo.cl">
     <title lang="es">El dúo mecánico</title>
     <sub-title lang="es">En Espera de Las Vacaciones</sub-title>
@@ -7955,6 +8030,10 @@
   <programme start="20260906173300 +0000" stop="20260906180200 +0000" channel="DisneyChannel.cl">
     <title lang="es">Jonas</title>
   </programme>
+  <programme start="20260906173400 +0000" stop="20260906182200 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar</title>
+    <episode-num system="onscreen">E67</episode-num>
+  </programme>
   <programme start="20260906173600 +0000" stop="20260906181300 +0000" channel="AE.cl">
     <title lang="es">¡Alto! Frontera - Chile</title>
   </programme>
@@ -8365,6 +8444,10 @@
     <star-rating system="MX">
       <value>8.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260906182200 +0000" stop="20260906191000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar</title>
+    <episode-num system="onscreen">E68</episode-num>
   </programme>
   <programme start="20260906182500 +0000" stop="20260906202000 +0000" channel="StudioUniversal.ar">
     <title lang="es">Daredevil El hombre sin miedo</title>
@@ -8802,6 +8885,10 @@
       <value>9.0</value>
     </star-rating>
   </programme>
+  <programme start="20260906191000 +0000" stop="20260906195500 +0000" channel="TLNovelas.cl">
+    <title lang="es">En nombre del amor</title>
+    <episode-num system="onscreen">E144</episode-num>
+  </programme>
   <programme start="20260906191000 +0000" stop="20260906205000 +0000" channel="HBOPop.cl">
     <title lang="es">Feliz Día de tu Muerte</title>
     <desc lang="es">Tree Gelbman (Jessica Rothe), es una estudiante universitaria que es brutalmente asesinada el día de su cumpleaños, revivirá cada vez que el asesino enmascarado y recordará todo lo que vivió ese día, hasta que descubra la identidad de su asesino.</desc>
@@ -9093,6 +9180,10 @@
   </programme>
   <programme start="20260906195500 +0000" stop="20260906200000 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Un show más</title>
+  </programme>
+  <programme start="20260906195500 +0000" stop="20260906204000 +0000" channel="TLNovelas.cl">
+    <title lang="es">En nombre del amor</title>
+    <episode-num system="onscreen">E145</episode-num>
   </programme>
   <programme start="20260906195500 +0000" stop="20260906221000 +0000" channel="TyCSports.cl">
     <title lang="es">Central Córdoba (SE) vs. Independiente</title>
@@ -9518,6 +9609,10 @@
       <value>7.0</value>
     </star-rating>
   </programme>
+  <programme start="20260906204000 +0000" stop="20260906212500 +0000" channel="TLNovelas.cl">
+    <title lang="es">En nombre del amor</title>
+    <episode-num system="onscreen">E146</episode-num>
+  </programme>
   <programme start="20260906204000 +0000" stop="20260906220000 +0000" channel="ESPN.cl">
     <title lang="es">SportsCenter</title>
     <desc lang="es">SportsCenter (Sports Center) es un noticiero deportivo de televisión de la cadena ESPN. SportsCenter muestra repeticiones de las mejores jugadas del día así como también lo más sobresaliente en el deporte alrededor del mundo. En Latinoamérica SportsCenter se transmite por todos los canales de ESPN los cuales incluye ESPN Deportes (Estados Unidos) ESPN, ESPN2 y ESPN+.</desc>
@@ -9892,6 +9987,10 @@
     <star-rating system="MX">
       <value>7.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260906212500 +0000" stop="20260906221000 +0000" channel="TLNovelas.cl">
+    <title lang="es">En nombre del amor</title>
+    <episode-num system="onscreen">E147</episode-num>
   </programme>
   <programme start="20260906212500 +0000" stop="20260906215000 +0000" channel="ComedyCentral.cl">
     <title lang="es">Becker</title>
@@ -10361,6 +10460,9 @@
   </programme>
   <programme start="20260906221000 +0000" stop="20260906230500 +0000" channel="LasEstrellas.cl">
     <title lang="es">Cloroformo</title>
+  </programme>
+  <programme start="20260906221000 +0000" stop="20260906225800 +0000" channel="TLNovelas.cl">
+    <title lang="es">Vivo por Elena</title>
   </programme>
   <programme start="20260906221000 +0000" stop="20260907002500 +0000" channel="TyCSports.cl">
     <title lang="es">River Plate vs. Independiente Rivadavia</title>
@@ -10838,6 +10940,9 @@
       <value>9.0</value>
     </star-rating>
   </programme>
+  <programme start="20260906225800 +0000" stop="20260906234600 +0000" channel="TLNovelas.cl">
+    <title lang="es">Vivo por Elena</title>
+  </programme>
   <programme start="20260906230000 +0000" stop="20260906231100 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Clarence</title>
   </programme>
@@ -11246,6 +11351,9 @@
   <programme start="20260906234500 +0000" stop="20260907000000 +0000" channel="24Horas.cl">
     <title lang="es">Entrevistas 24</title>
   </programme>
+  <programme start="20260906234600 +0000" stop="20260907003400 +0000" channel="TLNovelas.cl">
+    <title lang="es">Vivo por Elena</title>
+  </programme>
   <programme start="20260906234800 +0000" stop="20260907000000 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Clarence</title>
   </programme>
@@ -11423,23 +11531,23 @@
     <sub-title lang="es">La esteticista y la bestia</sub-title>
     <episode-num system="onscreen">S3 E12</episode-num>
   </programme>
-  <programme start="20260907000000 +0000" stop="20260907030000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260907000000 +0000" stop="20260907030000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260907000000 +0000" stop="20260907030000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260907000000 +0000" stop="20260907030000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260907000000 +0000" stop="20260907030000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260907000000 +0000" stop="20260907030000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -11672,6 +11780,9 @@ Molly Yeh prepara para los hambrientos cultivadores de remolacha un abundante al
   </programme>
   <programme start="20260907003100 +0000" stop="20260907004000 +0000" channel="Tooncast.cl">
     <title lang="es">Hi Hi Puffy Amiyumi</title>
+  </programme>
+  <programme start="20260907003400 +0000" stop="20260907012200 +0000" channel="TLNovelas.cl">
+    <title lang="es">Vivo por Elena</title>
   </programme>
   <programme start="20260907003400 +0000" stop="20260907012500 +0000" channel="DiscoveryTurbo.cl">
     <title lang="es">Misfit Garage</title>
@@ -12261,6 +12372,9 @@ Tras el fallecimiento de su esposa y su suegra, un padre con tres hijos tiene di
   <programme start="20260907012000 +0000" stop="20260907014000 +0000" channel="ComedyCentral.cl">
     <title lang="es">El vecindario</title>
   </programme>
+  <programme start="20260907012200 +0000" stop="20260907021000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Vivo por Elena</title>
+  </programme>
   <programme start="20260907012300 +0000" stop="20260907015000 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Mini beat power rockers</title>
   </programme>
@@ -12701,6 +12815,10 @@ Los primos renuevan una cocina anticuada con un estilo industrial moderno ideal 
     <title lang="es">Botched</title>
     <sub-title lang="es">Rueda de la desgracia</sub-title>
   </programme>
+  <programme start="20260907021000 +0000" stop="20260907025500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar</title>
+    <episode-num system="onscreen">E65</episode-num>
+  </programme>
   <programme start="20260907021000 +0000" stop="20260907030000 +0000" channel="TelemundoInternacional.ar">
     <title lang="es">Caso Cerrado</title>
     <sub-title lang="es">Muerte de bebé / Los intocables</sub-title>
@@ -13094,6 +13212,10 @@ Espacio de actualidad y debate político, trasmitido cada domingo. Éste cuenta,
       <value>7.0</value>
     </star-rating>
   </programme>
+  <programme start="20260907025500 +0000" stop="20260907034000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar</title>
+    <episode-num system="onscreen">E66</episode-num>
+  </programme>
   <programme start="20260907025500 +0000" stop="20260907031500 +0000" channel="NickJr.bo">
     <title lang="es">Rubble y equipo</title>
     <sub-title lang="es">T1-E19 ¡El equipo construye un puesto de limonada gigante! / ¡El equipo construye un puente</sub-title>
@@ -13248,23 +13370,23 @@ Espacio de actualidad y debate político, trasmitido cada domingo. Éste cuenta,
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20260907030000 +0000" stop="20260907060000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260907030000 +0000" stop="20260907060000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260907030000 +0000" stop="20260907060000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260907030000 +0000" stop="20260907060000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260907030000 +0000" stop="20260907060000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260907030000 +0000" stop="20260907060000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -13558,6 +13680,10 @@ Giada De Laurentiis creció esquiando en los Alpes italianos y después de un la
     <star-rating system="MX">
       <value>6.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260907034000 +0000" stop="20260907042500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar</title>
+    <episode-num system="onscreen">E67</episode-num>
   </programme>
   <programme start="20260907034000 +0000" stop="20260907040000 +0000" channel="NickJr.bo">
     <title lang="es">Dora</title>
@@ -13870,6 +13996,10 @@ Un nuevo espacio multiplataforma, creado para visibilizar historias de innovaci�
   </programme>
   <programme start="20260907042500 +0000" stop="20260907052100 +0000" channel="History.cl">
     <title lang="es">Inexplicable, con William Shatner</title>
+  </programme>
+  <programme start="20260907042500 +0000" stop="20260907051000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar</title>
+    <episode-num system="onscreen">E68</episode-num>
   </programme>
   <programme start="20260907042500 +0000" stop="20260907044500 +0000" channel="NickJr.bo">
     <title lang="es">BARBAPAPÁ Una gran familia feliz</title>
@@ -14314,6 +14444,10 @@ Cuatro asadores excepcionales de la ciudad portuaria de Savannah, Georgia, compi
   <programme start="20260907050800 +0000" stop="20260907055600 +0000" channel="Discovery.cl">
     <title lang="es">Supervivencia al desnudo</title>
   </programme>
+  <programme start="20260907051000 +0000" stop="20260907053500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Rina</title>
+    <episode-num system="onscreen">E44</episode-num>
+  </programme>
   <programme start="20260907051000 +0000" stop="20260907053000 +0000" channel="NickJr.bo">
     <title lang="es">BARBAPAPÁ Una gran familia feliz</title>
     <sub-title lang="es">T2-E15 El niño de las estrellas - Parte 1 y 2</sub-title>
@@ -14493,6 +14627,10 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme start="20260907053500 +0000" stop="20260907063000 +0000" channel="History2.cl1">
     <title lang="es">Desastres en tiempo real</title>
     <sub-title lang="es">Volcanes</sub-title>
+  </programme>
+  <programme start="20260907053500 +0000" stop="20260907060000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Rina</title>
+    <episode-num system="onscreen">E45</episode-num>
   </programme>
   <programme start="20260907053500 +0000" stop="20260907073000 +0000" channel="UniversalCinema.cl">
     <title lang="es">Alguien en Alguna Parte</title>
@@ -14677,6 +14815,9 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme start="20260907060000 +0000" stop="20260907080000 +0000" channel="Mega.cl">
     <title lang="es">Sol naciente</title>
   </programme>
+  <programme start="20260907060000 +0000" stop="20260907065000 +0000" channel="TLNovelas.cl">
+    <title lang="es">La Rosa de Guadalupe</title>
+  </programme>
   <programme start="20260907060000 +0000" stop="20260907070000 +0000" channel="ESPN3.cl">
     <title lang="es">ESPN Compact</title>
   </programme>
@@ -14703,23 +14844,23 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <title lang="es">ESPN Compact</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260907060000 +0000" stop="20260907090000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260907060000 +0000" stop="20260907090000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260907060000 +0000" stop="20260907090000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260907060000 +0000" stop="20260907090000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260907060000 +0000" stop="20260907090000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260907060000 +0000" stop="20260907090000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -15322,6 +15463,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme start="20260907065000 +0000" stop="20260907074000 +0000" channel="AnimalPlanet.cl">
     <title lang="es">Unión salvaje</title>
     <sub-title lang="es">Comprometida con los canguros</sub-title>
+  </programme>
+  <programme start="20260907065000 +0000" stop="20260907073500 +0000" channel="TLNovelas.cl">
+    <title lang="es">La vecina
+Repetición</title>
+    <episode-num system="onscreen">E122</episode-num>
   </programme>
   <programme start="20260907065000 +0000" stop="20260907074000 +0000" channel="TelemundoInternacional.ar">
     <title lang="es">Caso Cerrado</title>
@@ -15964,6 +16110,11 @@ Giada De Laurentiis y la comediante Loni Love desafían a los equipos de reposte
     <episode-num>S1 E9</episode-num>
     <title lang="es">Winner Cake All</title>
   </programme>
+  <programme start="20260907073500 +0000" stop="20260907082000 +0000" channel="TLNovelas.cl">
+    <title lang="es">La vecina
+Repetición</title>
+    <episode-num system="onscreen">E123</episode-num>
+  </programme>
   <programme start="20260907073900 +0000" stop="20260907074100 +0000" channel="CartoonNetwork.cl">
     <title lang="es">El Increíble Mundo de Gumball</title>
     <sub-title lang="es">Embrujado</sub-title>
@@ -16440,6 +16591,11 @@ Vern Yip y un agente de bienes raíces local analizan tres renovaciones de $80,0
     <star-rating system="MX">
       <value>9.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260907082000 +0000" stop="20260907090500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía
+Repetición</title>
+    <episode-num system="onscreen">E62</episode-num>
   </programme>
   <programme start="20260907082000 +0000" stop="20260907091000 +0000" channel="Sony.cl">
     <title lang="es">Betty's call</title>
@@ -16949,23 +17105,23 @@ La chef Rashida Holmes muestra a los Titanes de Bobby Flay cómo es el esfuerzo 
     <title lang="es">Trabzonspor vs. Gençlerbirligi</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260907090000 +0000" stop="20260907120000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260907090000 +0000" stop="20260907120000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260907090000 +0000" stop="20260907120000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260907090000 +0000" stop="20260907120000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260907090000 +0000" stop="20260907120000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260907090000 +0000" stop="20260907120000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -16990,6 +17146,11 @@ La chef Rashida Holmes muestra a los Titanes de Bobby Flay cómo es el esfuerzo 
   <programme start="20260907090500 +0000" stop="20260907100000 +0000" channel="History2.cl1">
     <title lang="es">Desastres en tiempo real</title>
     <sub-title lang="es">Explosiones</sub-title>
+  </programme>
+  <programme start="20260907090500 +0000" stop="20260907095000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía
+Repetición</title>
+    <episode-num system="onscreen">E63</episode-num>
   </programme>
   <programme start="20260907090600 +0000" stop="20260907091100 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Steven universe</title>
@@ -17306,6 +17467,11 @@ Los chefs Geoffrey Zakarian, Rocco DiSpirito y Gabriele Bertaccini se enfrentan 
   </programme>
   <programme start="20260907095000 +0000" stop="20260907100000 +0000" channel="Tooncast.cl">
     <title lang="es">El campamento de Lazlo</title>
+  </programme>
+  <programme start="20260907095000 +0000" stop="20260907103500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar
+Repetición</title>
+    <episode-num system="onscreen">E67</episode-num>
   </programme>
   <programme start="20260907095100 +0000" stop="20260907101400 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Peppa Pig</title>
@@ -17871,6 +18037,11 @@ Una familia militar que está acostumbrada a mudarse con frecuencia busca una ca
   </programme>
   <programme start="20260907103400 +0000" stop="20260907110000 +0000" channel="History.cl">
     <title lang="es">Testigo de la historia</title>
+  </programme>
+  <programme start="20260907103500 +0000" stop="20260907112000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar
+Repetición</title>
+    <episode-num system="onscreen">E68</episode-num>
   </programme>
   <programme start="20260907103600 +0000" stop="20260907110000 +0000" channel="DiscoveryWorld.cl">
     <title lang="es">Buying Hawaii</title>
@@ -18456,6 +18627,11 @@ Guy Fieri prepara un menú mexicano que incluye costillas de cerdo con chile mex
   <programme start="20260907112000 +0000" stop="20260907131000 +0000" channel="LasEstrellas.cl">
     <title lang="es">Mujer, casos de la vida real</title>
   </programme>
+  <programme start="20260907112000 +0000" stop="20260907114500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Rina
+Repetición</title>
+    <episode-num system="onscreen">E44</episode-num>
+  </programme>
   <programme start="20260907112300 +0000" stop="20260907113700 +0000" channel="CartoonNetwork.cl">
     <title lang="es">El Increíble Mundo de Gumball</title>
     <sub-title lang="es">El virus</sub-title>
@@ -18776,6 +18952,11 @@ Esta variedad de casas de todo el mundo incluye una casa que causa sensación en
       <value>8.0</value>
     </star-rating>
   </programme>
+  <programme start="20260907114500 +0000" stop="20260907121000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Rina
+Repetición</title>
+    <episode-num system="onscreen">E45</episode-num>
+  </programme>
   <programme start="20260907114800 +0000" stop="20260907123600 +0000" channel="DiscoveryTurbo.cl">
     <title lang="es">Mexicánicos</title>
   </programme>
@@ -19046,23 +19227,23 @@ La señal noticiosa 24H realiza estos reportajes de actualidad, que son emitidos
     <title lang="es">Futbol Internacional</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260907120000 +0000" stop="20260907150000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260907120000 +0000" stop="20260907150000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260907120000 +0000" stop="20260907150000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260907120000 +0000" stop="20260907150000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260907120000 +0000" stop="20260907150000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260907120000 +0000" stop="20260907150000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -19198,6 +19379,9 @@ La señal noticiosa 24H realiza estos reportajes de actualidad, que son emitidos
   </programme>
   <programme start="20260907121000 +0000" stop="20260907121700 +0000" channel="Tooncast.cl">
     <title lang="es">Hi Hi Puffy Amiyumi</title>
+  </programme>
+  <programme start="20260907121000 +0000" stop="20260907130000 +0000" channel="TLNovelas.cl">
+    <title lang="es">La Rosa de Guadalupe</title>
   </programme>
   <programme start="20260907121100 +0000" stop="20260907130000 +0000" channel="TNTNovelas.cl">
     <title lang="es">El Chico De Oro</title>
@@ -19630,6 +19814,9 @@ El carisma y la alegría de Fafá de Belém están presentes en todo su hogar, d
   <programme start="20260907130000 +0000" stop="20260907135000 +0000" channel="E_Entertainment.cl">
     <title lang="es">Keeping Up with the Kardashians</title>
     <sub-title lang="es">¿Niño o niña</sub-title>
+  </programme>
+  <programme start="20260907130000 +0000" stop="20260907134700 +0000" channel="TLNovelas.cl">
+    <title lang="es">Vivo por Elena</title>
   </programme>
   <programme start="20260907130000 +0000" stop="20260907140000 +0000" channel="TyCSports.cl">
     <title lang="es">Superfútbol</title>
@@ -20205,6 +20392,9 @@ Después de los problemas con los retrasos en la construcción, EJ y Jason compl
   <programme start="20260907134500 +0000" stop="20260907140000 +0000" channel="24Horas.cl">
     <title lang="es">DW analiza</title>
   </programme>
+  <programme start="20260907134700 +0000" stop="20260907143500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Vivo por Elena</title>
+  </programme>
   <programme start="20260907134800 +0000" stop="20260907140100 +0000" channel="Tooncast.cl">
     <title lang="es">Escuadrón del Tiempo</title>
     <desc lang="es">Escuadrón del Tiempo cuenta la historia de tres héroes muy distintos que viven en el futuro y viajan en el tiempo para asegurarse de que la historia ocurra tal cual la conocemos.</desc>
@@ -20747,6 +20937,10 @@ Una pareja rusa de Carolina del Norte nunca soñó que compraría una casa de va
   <programme start="20260907143500 +0000" stop="20260907152500 +0000" channel="History.cl">
     <title lang="es">Inexplicable, con William Shatner</title>
   </programme>
+  <programme start="20260907143500 +0000" stop="20260907152500 +0000" channel="TLNovelas.cl">
+    <title lang="es">La vecina</title>
+    <episode-num system="onscreen">E124</episode-num>
+  </programme>
   <programme start="20260907143600 +0000" stop="20260907144600 +0000" channel="Tooncast.cl">
     <title lang="es">Los pequeños Looney Tunes</title>
   </programme>
@@ -21094,23 +21288,23 @@ En Vivo</title>
     <title lang="es">Lilo, Lilo, Cocodrilo</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260907150000 +0000" stop="20260907180000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260907150000 +0000" stop="20260907180000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260907150000 +0000" stop="20260907180000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260907150000 +0000" stop="20260907180000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260907150000 +0000" stop="20260907180000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260907150000 +0000" stop="20260907180000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -21327,6 +21521,10 @@ Nancy Fuller está organizando un cóctel en la Ópera de Hudson. Todos sus amig
   <programme start="20260907152500 +0000" stop="20260907161500 +0000" channel="History2.cl1">
     <title lang="es">Desastres en tiempo real</title>
     <sub-title lang="es">Avalanchas</sub-title>
+  </programme>
+  <programme start="20260907152500 +0000" stop="20260907161500 +0000" channel="TLNovelas.cl">
+    <title lang="es">La vecina</title>
+    <episode-num system="onscreen">E125</episode-num>
   </programme>
   <programme start="20260907152500 +0000" stop="20260907153500 +0000" channel="NickJr.bo">
     <title lang="es">Tim Rex en el espacio</title>
@@ -21840,6 +22038,10 @@ Si un buen guiso, como la buena música, es una mezcla de ingredientes para crea
   <programme start="20260907161500 +0000" stop="20260907170500 +0000" channel="History2.cl1">
     <title lang="es">Desastres en tiempo real</title>
     <sub-title lang="es">Huracanes</sub-title>
+  </programme>
+  <programme start="20260907161500 +0000" stop="20260907170500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Mi pecado</title>
+    <episode-num system="onscreen">E109</episode-num>
   </programme>
   <programme start="20260907161500 +0000" stop="20260907164000 +0000" channel="NickJr.bo">
     <title lang="es">BARBAPAPÁ Una gran familia feliz</title>
@@ -22378,6 +22580,32 @@ Conoce los detalles más resaltantes sobre los últimos acontecimientos ocurrido
     <title lang="es">Desastres en tiempo real</title>
     <sub-title lang="es">Volcanes</sub-title>
   </programme>
+  <programme start="20260907170500 +0000" stop="20260907175500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Eternamente Amándonos</title>
+    <desc lang="es">Paula (Alejandra Robles Gil), una hermosa, liberal e independiente guitarrista originaria de la Ciudad de México y Rogelio Iturbide (Marcus Ornellas), un soltero empedernido perteneciente a una familia conservadora y pudiente de Morelia, deciden casarse cuando apenas se están conociendo, el amor los sorprendió inesperadamente. Con la llegada de Paula a la Villa de los Iturbide, la vida de la familia cambia radicalmente. Paula tiene una forma de ver y abordar la vida que choca con el pensamiento tradicional e inflexible de la sociedad provinciana y de su suegra, doña Martina (Diana Bracho). ¿Será el amor de Paula y Rogelio suficiente para librar todas estas batallas?</desc>
+    <credits>
+      <director>Silvia Tort</director>
+      <director>Rodrigo Cachero</director>
+      <actor>Marcus Ornellas</actor>
+      <actor>Alejandra Robles Gil</actor>
+      <actor>Diana Bracho</actor>
+      <actor>Omar Fierro</actor>
+      <actor>Rossana Nájera</actor>
+      <actor>Juan Martín Jáuregui</actor>
+      <actor>David Caro Levy</actor>
+      <actor>Julia Urbini</actor>
+      <producer>Marco Cano</producer>
+    </credits>
+    <date>2023</date>
+    <category lang="es">Drama</category>
+    <icon src="https://imagenes.gatotv.com/categorias/telenovelas/miniatura/eternamente_amandonos.jpg" />
+    <rating system="MX">
+      <value>TV-14</value>
+    </rating>
+    <star-rating system="MX">
+      <value>8.0</value>
+    </star-rating>
+  </programme>
   <programme start="20260907170500 +0000" stop="20260907175500 +0000" channel="TNTNovelas.cl">
     <title lang="es">Quiéreme Siempre</title>
   </programme>
@@ -22754,6 +22982,10 @@ Cuatro alumnos se conectan con Guy Fieri a través de un chat de video y lo guí
     <title lang="es">Desastres en tiempo real</title>
     <sub-title lang="es">Desbordes</sub-title>
   </programme>
+  <programme start="20260907175500 +0000" stop="20260907184200 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía</title>
+    <episode-num system="onscreen">E64</episode-num>
+  </programme>
   <programme start="20260907175500 +0000" stop="20260907184500 +0000" channel="TNTNovelas.cl">
     <title lang="es">Quiéreme Siempre</title>
   </programme>
@@ -22842,23 +23074,23 @@ Una pareja está lista para cambiar su apartamento por una casa con mucho terren
     <title lang="es">Chicago Cubs vs. Milwaukee Brewers</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260907180000 +0000" stop="20260907210000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260907180000 +0000" stop="20260907210000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260907180000 +0000" stop="20260907210000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260907180000 +0000" stop="20260907210000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260907180000 +0000" stop="20260907210000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260907180000 +0000" stop="20260907210000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -23350,6 +23582,10 @@ Los hermanos Sumit y Swithin se comprometieron recientemente y su madre tiene la
   <programme start="20260907184200 +0000" stop="20260907193400 +0000" channel="AnimalPlanet.cl">
     <title lang="es">Alaska hombres primitivos</title>
     <sub-title lang="es">De cacería</sub-title>
+  </programme>
+  <programme start="20260907184200 +0000" stop="20260907193000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía</title>
+    <episode-num system="onscreen">E65</episode-num>
   </programme>
   <programme start="20260907184300 +0000" stop="20260907190600 +0000" channel="HGTV.ar">
     <desc lang="es">S17 E6 — Enamorándose de St. Croix
@@ -23887,6 +24123,10 @@ El equipo se prepara para un gran trabajo de dos casas en diferentes estados de 
   <programme start="20260907193000 +0000" stop="20260907202000 +0000" channel="LasEstrellas.cl">
     <title lang="es">Tan cerca de ti, nace el amor</title>
   </programme>
+  <programme start="20260907193000 +0000" stop="20260907201700 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar</title>
+    <episode-num system="onscreen">E69</episode-num>
+  </programme>
   <programme start="20260907193000 +0000" stop="20260907200000 +0000" channel="DisneyJunior.cl">
     <title lang="es">Disney Junior Ariel</title>
   </programme>
@@ -24303,6 +24543,10 @@ Joe Mazza y el diseñador Noel Gatts ayudan a una pareja de Nueva Jersey que com
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">¿Qué le pasa a esa casa?</title>
     <title lang="en">What's Wrong with That House?</title>
+  </programme>
+  <programme start="20260907201700 +0000" stop="20260907210500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar</title>
+    <episode-num system="onscreen">E70</episode-num>
   </programme>
   <programme start="20260907202000 +0000" stop="20260907204700 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Mini beat power rockers</title>
@@ -24778,23 +25022,23 @@ Resumen noticioso nacional e internacional.</desc>
     <title lang="es">UEFA Champions League Weekly</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260907210000 +0000" stop="20260908000000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260907210000 +0000" stop="20260908000000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260907210000 +0000" stop="20260908000000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260907210000 +0000" stop="20260908000000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260907210000 +0000" stop="20260908000000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260907210000 +0000" stop="20260908000000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -24854,6 +25098,11 @@ Un piloto y un auxiliar de vuelo se sorprenden con la renovación de una cocina 
   </programme>
   <programme start="20260907210500 +0000" stop="20260907213000 +0000" channel="Tooncast.cl">
     <title lang="es">Mansión foster para amigos imaginarios</title>
+  </programme>
+  <programme start="20260907210500 +0000" stop="20260907215500 +0000" channel="TLNovelas.cl">
+    <title lang="es">La vecina
+Repetición</title>
+    <episode-num system="onscreen">E124</episode-num>
   </programme>
   <programme start="20260907210600 +0000" stop="20260907230400 +0000" channel="Cinemax.cl">
     <title lang="es">La brújula dorada</title>
@@ -25339,6 +25588,11 @@ Una familia militar que está acostumbrada a mudarse con frecuencia busca una ca
       <value>7.0</value>
     </star-rating>
   </programme>
+  <programme start="20260907215500 +0000" stop="20260907224500 +0000" channel="TLNovelas.cl">
+    <title lang="es">La vecina
+Repetición</title>
+    <episode-num system="onscreen">E125</episode-num>
+  </programme>
   <programme start="20260907215500 +0000" stop="20260908001000 +0000" channel="TyCSports.cl">
     <title lang="es">Barracas Central vs. Argentinos Juniors</title>
     <sub-title lang="es">Fútbol Argentino Primera División</sub-title>
@@ -25771,6 +26025,11 @@ Los diseñadores compiten para crear cocinas de diseño dignas de aparecer en la
   </programme>
   <programme start="20260907224500 +0000" stop="20260907225000 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Peppa Pig</title>
+  </programme>
+  <programme start="20260907224500 +0000" stop="20260907233200 +0000" channel="TLNovelas.cl">
+    <title lang="es">Vivo por Elena
+
+Repetición</title>
   </programme>
   <programme start="20260907224500 +0000" stop="20260907230500 +0000" channel="ComedyCentral.cl">
     <title lang="es">Un Hombre, Un Plan</title>
@@ -26434,6 +26693,11 @@ Nancy Fuller está organizando un cóctel en la Ópera de Hudson. Todos sus amig
       <value>AGE228</value>
     </rating>
   </programme>
+  <programme start="20260907233200 +0000" stop="20260908002000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Vivo por Elena
+
+Repetición</title>
+  </programme>
   <programme start="20260907233200 +0000" stop="20260908000100 +0000" channel="DisneyJunior.cl">
     <title lang="es">La casa de Mickey Mouse</title>
     <sub-title lang="es">El hipo de Donald</sub-title>
@@ -26782,23 +27046,23 @@ Guy Fieri invita a sus amigos chefs para que conozcan la cocina mediterránea. A
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20260908000000 +0000" stop="20260908030000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260908000000 +0000" stop="20260908030000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260908000000 +0000" stop="20260908030000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260908000000 +0000" stop="20260908030000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260908000000 +0000" stop="20260908030000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260908000000 +0000" stop="20260908030000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -26964,6 +27228,11 @@ Una veterana de guerra y su prometida van a comenzar el próximo capítulo de su
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">La gran recompensa</title>
     <title lang="en">The Great Giveback</title>
+  </programme>
+  <programme start="20260908002000 +0000" stop="20260908011000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Mi pecado
+Repetición</title>
+    <episode-num system="onscreen">E109</episode-num>
   </programme>
   <programme start="20260908002000 +0000" stop="20260908003000 +0000" channel="NickJr.bo">
     <title lang="es">Rubble and Crew</title>
@@ -27511,6 +27780,32 @@ Brad Miller toma un pastelito de pollo frito con mermelada de bourbon y tocino e
   <programme start="20260908011000 +0000" stop="20260908011100 +0000" channel="Tooncast.cl">
     <title lang="es">Sheep en la Gran Ciudad</title>
   </programme>
+  <programme start="20260908011000 +0000" stop="20260908020000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Eternamente Amándonos</title>
+    <desc lang="es">Paula (Alejandra Robles Gil), una hermosa, liberal e independiente guitarrista originaria de la Ciudad de México y Rogelio Iturbide (Marcus Ornellas), un soltero empedernido perteneciente a una familia conservadora y pudiente de Morelia, deciden casarse cuando apenas se están conociendo, el amor los sorprendió inesperadamente. Con la llegada de Paula a la Villa de los Iturbide, la vida de la familia cambia radicalmente. Paula tiene una forma de ver y abordar la vida que choca con el pensamiento tradicional e inflexible de la sociedad provinciana y de su suegra, doña Martina (Diana Bracho). ¿Será el amor de Paula y Rogelio suficiente para librar todas estas batallas?</desc>
+    <credits>
+      <director>Silvia Tort</director>
+      <director>Rodrigo Cachero</director>
+      <actor>Marcus Ornellas</actor>
+      <actor>Alejandra Robles Gil</actor>
+      <actor>Diana Bracho</actor>
+      <actor>Omar Fierro</actor>
+      <actor>Rossana Nájera</actor>
+      <actor>Juan Martín Jáuregui</actor>
+      <actor>David Caro Levy</actor>
+      <actor>Julia Urbini</actor>
+      <producer>Marco Cano</producer>
+    </credits>
+    <date>2023</date>
+    <category lang="es">Drama</category>
+    <icon src="https://imagenes.gatotv.com/categorias/telenovelas/miniatura/eternamente_amandonos.jpg" />
+    <rating system="MX">
+      <value>TV-14</value>
+    </rating>
+    <star-rating system="MX">
+      <value>8.0</value>
+    </star-rating>
+  </programme>
   <programme start="20260908011100 +0000" stop="20260908011200 +0000" channel="Tooncast.cl">
     <title lang="es">Sheep en la Gran Ciudad</title>
   </programme>
@@ -28049,6 +28344,11 @@ Un piloto y un auxiliar de vuelo se sorprenden con la renovación de una cocina 
   <programme start="20260908020000 +0000" stop="20260908040900 +0000" channel="Space.cl">
     <title lang="es">Infierno bajo tierra</title>
   </programme>
+  <programme start="20260908020000 +0000" stop="20260908024700 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía
+Repetición</title>
+    <episode-num system="onscreen">E64</episode-num>
+  </programme>
   <programme start="20260908020000 +0000" stop="20260908023000 +0000" channel="DisneyJunior.cl">
     <title lang="es">Puppy Dog Pals</title>
     <sub-title lang="es">El desfile imperdible; El cumpleaños real</sub-title>
@@ -28496,6 +28796,11 @@ Un nuevo espacio multiplataforma, creado para visibilizar historias de innovaci�
   <programme start="20260908024600 +0000" stop="20260908031300 +0000" channel="AE.cl">
     <title lang="es">Clientes en furia</title>
   </programme>
+  <programme start="20260908024700 +0000" stop="20260908033500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía
+Repetición</title>
+    <episode-num system="onscreen">E65</episode-num>
+  </programme>
   <programme start="20260908024900 +0000" stop="20260908030300 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Los Jóvenes Titanes En Acción</title>
     <sub-title lang="es">Venta de garaje</sub-title>
@@ -28732,23 +29037,23 @@ Espacio para discutir, entre otros, sobre seguridad ciudadana, urbanismo, educac
     <title lang="es">River Plate vs. Independiente Rivadavia</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260908030000 +0000" stop="20260908060000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260908030000 +0000" stop="20260908060000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260908030000 +0000" stop="20260908060000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260908030000 +0000" stop="20260908060000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260908030000 +0000" stop="20260908060000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260908030000 +0000" stop="20260908060000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -29044,6 +29349,11 @@ Una pareja de Phoenix, Arizona, busca una vivienda en las montañas de Carolina 
   </programme>
   <programme start="20260908033300 +0000" stop="20260908035300 +0000" channel="Tooncast.cl">
     <title lang="es">¿Scooby Doo, dónde estás?</title>
+  </programme>
+  <programme start="20260908033500 +0000" stop="20260908042200 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar
+Repetición</title>
+    <episode-num system="onscreen">E69</episode-num>
   </programme>
   <programme start="20260908033500 +0000" stop="20260908040000 +0000" channel="ComedyCentral.cl">
     <title lang="es">South Park</title>
@@ -29435,6 +29745,11 @@ Una familia militar que está acostumbrada a mudarse con frecuencia busca una ca
     <star-rating system="MX">
       <value>6.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260908042200 +0000" stop="20260908051000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar
+Repetición</title>
+    <episode-num system="onscreen">E70</episode-num>
   </programme>
   <programme start="20260908042200 +0000" stop="20260908044600 +0000" channel="DisneyJunior.cl">
     <title lang="es">Kiya y los héroes de Kimoja</title>
@@ -29863,6 +30178,10 @@ Una pareja profesional con un niño pequeño, busca un hogar definitivo en la he
   <programme start="20260908051000 +0000" stop="20260908060500 +0000" channel="Chilevision.cl">
     <title lang="es">Justicia</title>
   </programme>
+  <programme start="20260908051000 +0000" stop="20260908053500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Rina</title>
+    <episode-num system="onscreen">E46</episode-num>
+  </programme>
   <programme start="20260908051000 +0000" stop="20260908060000 +0000" channel="DiscoveryTurbo.cl">
     <title lang="es">Máquinas renovadas</title>
     <sub-title lang="es">Como el ave Fénix</sub-title>
@@ -30113,6 +30432,10 @@ Joe Haden, destacado de la NFL, y su familia están buscando mudarse más cerca 
     <star-rating system="MX">
       <value>6.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260908053500 +0000" stop="20260908060000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Rina</title>
+    <episode-num system="onscreen">E47</episode-num>
   </programme>
   <programme start="20260908053600 +0000" stop="20260908055700 +0000" channel="AE.cl">
     <title lang="es">Clientes en furia</title>
@@ -30368,6 +30691,10 @@ A una familia le encanta poder vivir al lado del abuelo, pero su casa ha sido in
   <programme start="20260908060000 +0000" stop="20260908064400 +0000" channel="History.cl">
     <title lang="es">Increíble con Dan Aykroyd</title>
   </programme>
+  <programme start="20260908060000 +0000" stop="20260908065000 +0000" channel="TLNovelas.cl">
+    <title lang="es">La Rosa de Guadalupe
+Repetición</title>
+  </programme>
   <programme start="20260908060000 +0000" stop="20260908065000 +0000" channel="DiscoveryTurbo.cl">
     <title lang="es">Iron Resurrection</title>
     <sub-title lang="es">X-Frame Overhaul - '60 Impala Part 1</sub-title>
@@ -30452,23 +30779,23 @@ A una familia le encanta poder vivir al lado del abuelo, pero su casa ha sido in
     <title lang="es">Vuelta a España</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260908060000 +0000" stop="20260908090000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260908060000 +0000" stop="20260908090000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260908060000 +0000" stop="20260908090000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260908060000 +0000" stop="20260908090000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260908060000 +0000" stop="20260908090000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260908060000 +0000" stop="20260908090000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -30960,6 +31287,11 @@ Duff prueba una dona de tocino glaseada con jarabe de arce en una tienda dirigid
     <title lang="es">Guaridas con estilo</title>
     <sub-title lang="es">Un bungaló para los conejos</sub-title>
   </programme>
+  <programme start="20260908065000 +0000" stop="20260908073500 +0000" channel="TLNovelas.cl">
+    <title lang="es">La vecina
+Repetición</title>
+    <episode-num system="onscreen">E124</episode-num>
+  </programme>
   <programme start="20260908065000 +0000" stop="20260908074000 +0000" channel="DiscoveryTurbo.cl">
     <title lang="es">El dúo mecánico</title>
     <sub-title lang="es">Alemania y Estados Unidos</sub-title>
@@ -31433,6 +31765,11 @@ Los equipos tienen el desafío de crear un pastel épico para el episodio númer
   <programme start="20260908073500 +0000" stop="20260908080000 +0000" channel="History2.cl1">
     <title lang="es">Una breve historia de...</title>
     <sub-title lang="es">Bocadillos salvadores</sub-title>
+  </programme>
+  <programme start="20260908073500 +0000" stop="20260908082000 +0000" channel="TLNovelas.cl">
+    <title lang="es">La vecina
+Repetición</title>
+    <episode-num system="onscreen">E125</episode-num>
   </programme>
   <programme start="20260908073500 +0000" stop="20260908083500 +0000" channel="AMC.cl">
     <title lang="es">El Vampiro Lestat</title>
@@ -31960,6 +32297,11 @@ El diseñador, Vern Yip, junto a un agente de bienes raíces local, recorren tre
       <value>9.0</value>
     </star-rating>
   </programme>
+  <programme start="20260908082000 +0000" stop="20260908090500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía
+Repetición</title>
+    <episode-num system="onscreen">E64</episode-num>
+  </programme>
   <programme start="20260908082000 +0000" stop="20260908091000 +0000" channel="TelemundoInternacional.ar">
     <title lang="es">La Reina del Sur</title>
   </programme>
@@ -32369,23 +32711,23 @@ El chef de hierro Jose Garces mantiene alerta a los Titanes de Bobby Flay en tre
     <title lang="es">La Vuelta a España 2026</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260908090000 +0000" stop="20260908120000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260908090000 +0000" stop="20260908120000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260908090000 +0000" stop="20260908120000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260908090000 +0000" stop="20260908120000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260908090000 +0000" stop="20260908120000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260908090000 +0000" stop="20260908120000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -32411,6 +32753,11 @@ El chef de hierro Jose Garces mantiene alerta a los Titanes de Bobby Flay en tre
   </programme>
   <programme start="20260908090500 +0000" stop="20260908100000 +0000" channel="WarnerChannel.cl">
     <title lang="es">Found</title>
+  </programme>
+  <programme start="20260908090500 +0000" stop="20260908095000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía
+Repetición</title>
+    <episode-num system="onscreen">E65</episode-num>
   </programme>
   <programme start="20260908090500 +0000" stop="20260908094900 +0000" channel="TNTSeries.cl">
     <title lang="es">CSI</title>
@@ -32767,6 +33114,11 @@ Una pareja joven se vuelve creativa al diseñar una yurta con características m
     <star-rating system="MX">
       <value>8.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260908095000 +0000" stop="20260908103500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar
+Repetición</title>
+    <episode-num system="onscreen">E69</episode-num>
   </programme>
   <programme start="20260908095100 +0000" stop="20260908101400 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Peppa Pig</title>
@@ -33165,6 +33517,11 @@ Guy Fieri y su mamá Penny Ferry preparan pollo Kiev con mantequilla y fideos de
   </programme>
   <programme start="20260908103500 +0000" stop="20260908104600 +0000" channel="Tooncast.cl">
     <title lang="es">El campamento de Lazlo</title>
+  </programme>
+  <programme start="20260908103500 +0000" stop="20260908112000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar
+Repetición</title>
+    <episode-num system="onscreen">E70</episode-num>
   </programme>
   <programme start="20260908103500 +0000" stop="20260908112100 +0000" channel="TNTSeries.cl">
     <title lang="es">Law &amp; Order: SVU</title>
@@ -33599,6 +33956,11 @@ Bobby improvisa unos waffles de pan de maíz con huevos al estilo ranchero y cre
   <programme start="20260908112000 +0000" stop="20260908131000 +0000" channel="LasEstrellas.cl">
     <title lang="es">Mujer, casos de la vida real</title>
   </programme>
+  <programme start="20260908112000 +0000" stop="20260908114500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Rina
+Repetición</title>
+    <episode-num system="onscreen">E46</episode-num>
+  </programme>
   <programme start="20260908112000 +0000" stop="20260908114000 +0000" channel="ComedyCentral.cl">
     <title lang="es">Un papá en apuros</title>
   </programme>
@@ -33861,6 +34223,11 @@ Esta increíble variedad de casas de todo el mundo incluye una casa australiana 
     <star-rating system="MX">
       <value>8.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260908114500 +0000" stop="20260908121000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Rina
+Repetición</title>
+    <episode-num system="onscreen">E47</episode-num>
   </programme>
   <programme start="20260908114600 +0000" stop="20260908115900 +0000" channel="Tooncast.cl">
     <title lang="es">Mi compañero de Clase es un Mono</title>
@@ -34155,23 +34522,23 @@ El equipo está preparando comidas perfectas para niños y también para los ni�
     <title lang="es">Bundesliga Highlights Show</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260908120000 +0000" stop="20260908150000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260908120000 +0000" stop="20260908150000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260908120000 +0000" stop="20260908150000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260908120000 +0000" stop="20260908150000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260908120000 +0000" stop="20260908150000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260908120000 +0000" stop="20260908150000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -34242,6 +34609,9 @@ El equipo está preparando comidas perfectas para niños y también para los ni�
     <star-rating system="MX">
       <value>5.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260908121000 +0000" stop="20260908130000 +0000" channel="TLNovelas.cl">
+    <title lang="es">La Rosa de Guadalupe</title>
   </programme>
   <programme start="20260908121100 +0000" stop="20260908130000 +0000" channel="TNTNovelas.cl">
     <title lang="es">Quiéreme Siempre</title>
@@ -34686,6 +35056,9 @@ Dony viaja a Minas Gerais para visitar la casa de montaña de Rogério Flausino,
   </programme>
   <programme start="20260908130000 +0000" stop="20260908135200 +0000" channel="History.cl">
     <title lang="es">Lo Mejor de Cazadores de Tesoros</title>
+  </programme>
+  <programme start="20260908130000 +0000" stop="20260908134700 +0000" channel="TLNovelas.cl">
+    <title lang="es">Vivo por Elena</title>
   </programme>
   <programme start="20260908130000 +0000" stop="20260908140000 +0000" channel="ESPN.cl">
     <title lang="es">SportsCenter</title>
@@ -35249,6 +35622,9 @@ Los chefs participan en una fiesta bávara, comenzando con una canasta de aperit
   <programme start="20260908134500 +0000" stop="20260908140000 +0000" channel="24Horas.cl">
     <title lang="es">24 Cuadros</title>
   </programme>
+  <programme start="20260908134700 +0000" stop="20260908143500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Vivo por Elena</title>
+  </programme>
   <programme start="20260908134800 +0000" stop="20260908140000 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Escandalosos</title>
   </programme>
@@ -35756,6 +36132,10 @@ Una pareja siente que Long Island, Bahamas, es el lugar perfecto para seguir pro
     <title lang="es">Guatemala auténtica</title>
     <sub-title lang="es">Era maya</sub-title>
   </programme>
+  <programme start="20260908143500 +0000" stop="20260908152500 +0000" channel="TLNovelas.cl">
+    <title lang="es">La vecina</title>
+    <episode-num system="onscreen">E126</episode-num>
+  </programme>
   <programme start="20260908143600 +0000" stop="20260908144700 +0000" channel="Tooncast.cl">
     <title lang="es">Los pequeños Looney Tunes</title>
   </programme>
@@ -36096,23 +36476,23 @@ En Vivo</title>
     <title lang="es">Espn Tenis</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260908150000 +0000" stop="20260908180000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260908150000 +0000" stop="20260908180000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260908150000 +0000" stop="20260908180000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260908150000 +0000" stop="20260908180000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260908150000 +0000" stop="20260908180000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260908150000 +0000" stop="20260908180000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -36306,6 +36686,10 @@ Guy Fieri invita a sus amigos para una noche de platos favoritos de los asadores
     <star-rating system="MX">
       <value>5.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260908152500 +0000" stop="20260908161500 +0000" channel="TLNovelas.cl">
+    <title lang="es">La vecina</title>
+    <episode-num system="onscreen">E127</episode-num>
   </programme>
   <programme start="20260908152500 +0000" stop="20260908153500 +0000" channel="NickJr.bo">
     <title lang="es">Tim Rex en el espacio</title>
@@ -36905,6 +37289,10 @@ Molly Yeh está preparando una cena de inauguración con mezclas judías del med
     <star-rating system="MX">
       <value>8.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260908161500 +0000" stop="20260908170500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Mi pecado</title>
+    <episode-num system="onscreen">E110</episode-num>
   </programme>
   <programme start="20260908161500 +0000" stop="20260908164000 +0000" channel="NickJr.bo">
     <title lang="es">BARBAPAPÁ Una gran familia feliz</title>
@@ -37595,6 +37983,32 @@ Duff Goldman entrega un pastel de toro de 45 kilogramos y crea un pastel de un Z
   <programme start="20260908170200 +0000" stop="20260908173500 +0000" channel="WarnerChannel.cl">
     <title lang="es">Cobra Kai</title>
   </programme>
+  <programme start="20260908170500 +0000" stop="20260908175500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Eternamente Amándonos</title>
+    <desc lang="es">Paula (Alejandra Robles Gil), una hermosa, liberal e independiente guitarrista originaria de la Ciudad de México y Rogelio Iturbide (Marcus Ornellas), un soltero empedernido perteneciente a una familia conservadora y pudiente de Morelia, deciden casarse cuando apenas se están conociendo, el amor los sorprendió inesperadamente. Con la llegada de Paula a la Villa de los Iturbide, la vida de la familia cambia radicalmente. Paula tiene una forma de ver y abordar la vida que choca con el pensamiento tradicional e inflexible de la sociedad provinciana y de su suegra, doña Martina (Diana Bracho). ¿Será el amor de Paula y Rogelio suficiente para librar todas estas batallas?</desc>
+    <credits>
+      <director>Silvia Tort</director>
+      <director>Rodrigo Cachero</director>
+      <actor>Marcus Ornellas</actor>
+      <actor>Alejandra Robles Gil</actor>
+      <actor>Diana Bracho</actor>
+      <actor>Omar Fierro</actor>
+      <actor>Rossana Nájera</actor>
+      <actor>Juan Martín Jáuregui</actor>
+      <actor>David Caro Levy</actor>
+      <actor>Julia Urbini</actor>
+      <producer>Marco Cano</producer>
+    </credits>
+    <date>2023</date>
+    <category lang="es">Drama</category>
+    <icon src="https://imagenes.gatotv.com/categorias/telenovelas/miniatura/eternamente_amandonos.jpg" />
+    <rating system="MX">
+      <value>TV-14</value>
+    </rating>
+    <star-rating system="MX">
+      <value>8.0</value>
+    </star-rating>
+  </programme>
   <programme start="20260908170500 +0000" stop="20260908175500 +0000" channel="TNTNovelas.cl">
     <title lang="es">Quiéreme Siempre</title>
   </programme>
@@ -37961,6 +38375,10 @@ Buddy crea un hermoso pastel de mariposa para un zoológico local. Además, el e
   <programme start="20260908175500 +0000" stop="20260908180000 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Clarence</title>
   </programme>
+  <programme start="20260908175500 +0000" stop="20260908184200 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía</title>
+    <episode-num system="onscreen">E66</episode-num>
+  </programme>
   <programme start="20260908175500 +0000" stop="20260908184500 +0000" channel="TNTNovelas.cl">
     <title lang="es">Quiéreme Siempre</title>
   </programme>
@@ -38107,23 +38525,23 @@ Una pareja de recién casados busca establecerse en una casa familiar de Hudson 
       <value>AGE228</value>
     </rating>
   </programme>
-  <programme start="20260908180000 +0000" stop="20260908210000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260908180000 +0000" stop="20260908210000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260908180000 +0000" stop="20260908210000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260908180000 +0000" stop="20260908210000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260908180000 +0000" stop="20260908210000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260908180000 +0000" stop="20260908210000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -38600,6 +39018,10 @@ En Palm Springs, California, Michael Symon devora un sándwich de carne apilada 
     <title lang="es">Genios Ancestrales</title>
     <sub-title lang="es">Construcciones Apoteósicas</sub-title>
   </programme>
+  <programme start="20260908184200 +0000" stop="20260908193000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía</title>
+    <episode-num system="onscreen">E67</episode-num>
+  </programme>
   <programme start="20260908184300 +0000" stop="20260908190600 +0000" channel="HGTV.ar">
     <desc lang="es">S17 E7 — Recién casados en St. Croix
 Una pareja de Michigan se muda a St. Croix para encontrar un hogar en la isla. Ella va a trabajar para la Guardia Nacional y espera encontrar un hogar cerca de la armería.</desc>
@@ -39072,6 +39494,10 @@ Mike, Jen y Rich ayudan a una pareja a renovar su casa de 1666 que está plagada
   <programme start="20260908193000 +0000" stop="20260908202000 +0000" channel="LasEstrellas.cl">
     <title lang="es">Tan cerca de ti, nace el amor</title>
   </programme>
+  <programme start="20260908193000 +0000" stop="20260908201700 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar</title>
+    <episode-num system="onscreen">E71</episode-num>
+  </programme>
   <programme start="20260908193000 +0000" stop="20260908200000 +0000" channel="DisneyJunior.cl">
     <title lang="es">Disney Junior Ariel</title>
   </programme>
@@ -39432,6 +39858,10 @@ Joe Mazza y el diseñador Noel Gatts ayudan a una pareja de Nueva York abrumada 
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">¿Qué le pasa a esa casa?</title>
     <title lang="en">What's Wrong with That House?</title>
+  </programme>
+  <programme start="20260908201700 +0000" stop="20260908210500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar</title>
+    <episode-num system="onscreen">E72</episode-num>
   </programme>
   <programme start="20260908202000 +0000" stop="20260908204700 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Mini beat power rockers</title>
@@ -39840,23 +40270,23 @@ Ali Khan empareja a los pasteleros para crear un plato de postre para una pareja
     <title lang="es">FIM Road Racing World Championship Highlights</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260908210000 +0000" stop="20260909000000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260908210000 +0000" stop="20260909000000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260908210000 +0000" stop="20260909000000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260908210000 +0000" stop="20260909000000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260908210000 +0000" stop="20260909000000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260908210000 +0000" stop="20260909000000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -39880,6 +40310,11 @@ Una pequeña cocina se convierte en un enorme espacio de entretenimiento con un 
   </programme>
   <programme start="20260908210500 +0000" stop="20260908213000 +0000" channel="Tooncast.cl">
     <title lang="es">Mansión foster para amigos imaginarios</title>
+  </programme>
+  <programme start="20260908210500 +0000" stop="20260908215500 +0000" channel="TLNovelas.cl">
+    <title lang="es">La vecina
+Repetición</title>
+    <episode-num system="onscreen">E126</episode-num>
   </programme>
   <programme start="20260908210900 +0000" stop="20260908212100 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Bubble's Hotel</title>
@@ -40275,6 +40710,11 @@ Una pareja del estado de Nueva York sueña con comprar una casa a orillas del la
       <value>7.0</value>
     </star-rating>
   </programme>
+  <programme start="20260908215500 +0000" stop="20260908224500 +0000" channel="TLNovelas.cl">
+    <title lang="es">La vecina
+Repetición</title>
+    <episode-num system="onscreen">E127</episode-num>
+  </programme>
   <programme start="20260908215500 +0000" stop="20260908222000 +0000" channel="NickJr.bo">
     <title lang="es">Paw Patrol patrulla de cachorros</title>
     <sub-title lang="es">T12-E8 Los cachorros detienen tal el topiario / Los cachorros salvan una hum-Bola</sub-title>
@@ -40662,6 +41102,11 @@ Kardea Brown invita a su pequeño gran fan, Braylen, de 5 años, y su madre, a a
     <star-rating system="MX">
       <value>6.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260908224500 +0000" stop="20260908233200 +0000" channel="TLNovelas.cl">
+    <title lang="es">Vivo por Elena
+
+Repetición</title>
   </programme>
   <programme start="20260908224500 +0000" stop="20260909010000 +0000" channel="AMC.cl">
     <title lang="es">Sr. y Sra. Smith</title>
@@ -41271,6 +41716,11 @@ Guy Fieri invita a sus amigos chefs a preparar platos pequeños del Medio Orient
   <programme start="20260908233000 +0000" stop="20260909000000 +0000" channel="ElGourmet.cl">
     <title lang="es">Especiales El Gourmet</title>
   </programme>
+  <programme start="20260908233200 +0000" stop="20260909002000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Vivo por Elena
+
+Repetición</title>
+  </programme>
   <programme start="20260908234000 +0000" stop="20260908235100 +0000" channel="Tooncast.cl">
     <title lang="es">Mi compañero de Clase es un Mono</title>
     <desc lang="es">A causa de una confusión en su apellido, Adam León de doce años es transferido accidentalmente a la Escuela Charles Darwin en donde todos los estudiantes y profesores son animales. Adam es el único estudiante humano y ahí conoce a Jake Mono Araña que rápidamente se convierte en su mejor amigo.</desc>
@@ -41553,23 +42003,23 @@ Alton busca a la misteriosa dama de los pasteles y descubre que hacer un pastel 
     <title lang="es">Fútbol UEFA Champions League</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260909000000 +0000" stop="20260909030000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260909000000 +0000" stop="20260909030000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260909000000 +0000" stop="20260909030000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260909000000 +0000" stop="20260909030000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260909000000 +0000" stop="20260909030000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260909000000 +0000" stop="20260909030000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -41699,6 +42149,11 @@ Nominada por su hija, a 'Mama' le encanta alimentar los corazones, las mentes y 
 Molly Yeh está preparando una cena de inauguración con mezclas judías del medio oeste. El menú incluye su sándwich de pechuga asada con ensalada, maíz a la parrilla con queso crema y cebollín, y ensalada de galleta rugelach para el postre.</desc>
     <episode-num>S8 E4</episode-num>
     <title lang="es">Cocina en la granja</title>
+  </programme>
+  <programme start="20260909002000 +0000" stop="20260909011000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Mi pecado
+Repetición</title>
+    <episode-num system="onscreen">E110</episode-num>
   </programme>
   <programme start="20260909002000 +0000" stop="20260909003000 +0000" channel="NickJr.bo">
     <title lang="es">Rubble and Crew</title>
@@ -42088,6 +42543,32 @@ Duff Goldman entrega un pastel de toro de 45 kilogramos y crea un pastel de un Z
   <programme start="20260909011000 +0000" stop="20260909011100 +0000" channel="Tooncast.cl">
     <title lang="es">Sheep en la Gran Ciudad</title>
   </programme>
+  <programme start="20260909011000 +0000" stop="20260909020000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Eternamente Amándonos</title>
+    <desc lang="es">Paula (Alejandra Robles Gil), una hermosa, liberal e independiente guitarrista originaria de la Ciudad de México y Rogelio Iturbide (Marcus Ornellas), un soltero empedernido perteneciente a una familia conservadora y pudiente de Morelia, deciden casarse cuando apenas se están conociendo, el amor los sorprendió inesperadamente. Con la llegada de Paula a la Villa de los Iturbide, la vida de la familia cambia radicalmente. Paula tiene una forma de ver y abordar la vida que choca con el pensamiento tradicional e inflexible de la sociedad provinciana y de su suegra, doña Martina (Diana Bracho). ¿Será el amor de Paula y Rogelio suficiente para librar todas estas batallas?</desc>
+    <credits>
+      <director>Silvia Tort</director>
+      <director>Rodrigo Cachero</director>
+      <actor>Marcus Ornellas</actor>
+      <actor>Alejandra Robles Gil</actor>
+      <actor>Diana Bracho</actor>
+      <actor>Omar Fierro</actor>
+      <actor>Rossana Nájera</actor>
+      <actor>Juan Martín Jáuregui</actor>
+      <actor>David Caro Levy</actor>
+      <actor>Julia Urbini</actor>
+      <producer>Marco Cano</producer>
+    </credits>
+    <date>2023</date>
+    <category lang="es">Drama</category>
+    <icon src="https://imagenes.gatotv.com/categorias/telenovelas/miniatura/eternamente_amandonos.jpg" />
+    <rating system="MX">
+      <value>TV-14</value>
+    </rating>
+    <star-rating system="MX">
+      <value>8.0</value>
+    </star-rating>
+  </programme>
   <programme start="20260909011100 +0000" stop="20260909011200 +0000" channel="Tooncast.cl">
     <title lang="es">Sheep en la Gran Ciudad</title>
   </programme>
@@ -42412,6 +42893,11 @@ Buddy crea un hermoso pastel de mariposa para un zoológico local. Además, el e
   </programme>
   <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="EnlaceTBN.cl">
     <title lang="es">El show de la fe</title>
+  </programme>
+  <programme start="20260909020000 +0000" stop="20260909024700 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía
+Repetición</title>
+    <episode-num system="onscreen">E66</episode-num>
   </programme>
   <programme start="20260909020000 +0000" stop="20260909023000 +0000" channel="DisneyJunior.cl">
     <title lang="es">Puppy Dog Pals</title>
@@ -42766,6 +43252,11 @@ Casas construidas como peceras y colmenas o alrededor de pianos y árboles.</des
   <programme start="20260909024500 +0000" stop="20260909052000 +0000" channel="AMC.cl">
     <title lang="es">El club de la pelea</title>
   </programme>
+  <programme start="20260909024700 +0000" stop="20260909033500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía
+Repetición</title>
+    <episode-num system="onscreen">E67</episode-num>
+  </programme>
   <programme start="20260909024700 +0000" stop="20260909045600 +0000" channel="HBOFamily.cl">
     <title lang="es">Parque Jurásico</title>
     <desc lang="es">Parque Jurásico te lleva a una isla remota donde un increíble parque temático con dinosaurios vivos está a punto de convertirse en mortal, cinco personas deben luchar para sobrevivir entre los depredadores prehistóricos.</desc>
@@ -42904,23 +43395,23 @@ En Palm Springs, California, Michael Symon devora un sándwich de carne apilada 
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20260909030000 +0000" stop="20260909060000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260909030000 +0000" stop="20260909060000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260909030000 +0000" stop="20260909060000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260909030000 +0000" stop="20260909060000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260909030000 +0000" stop="20260909060000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260909030000 +0000" stop="20260909060000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -43041,6 +43532,11 @@ Una pareja espera cambiar drásticamente de escenario cuando se mudan de Texas a
   </programme>
   <programme start="20260909033300 +0000" stop="20260909035600 +0000" channel="Tooncast.cl">
     <title lang="es">¿Scooby Doo, dónde estás?</title>
+  </programme>
+  <programme start="20260909033500 +0000" stop="20260909042200 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar
+Repetición</title>
+    <episode-num system="onscreen">E71</episode-num>
   </programme>
   <programme start="20260909033500 +0000" stop="20260909040000 +0000" channel="ComedyCentral.cl">
     <title lang="es">South Park</title>
@@ -43255,6 +43751,11 @@ Una pareja del estado de Nueva York sueña con comprar una casa a orillas del la
   </programme>
   <programme start="20260909042200 +0000" stop="20260909043500 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Un show más</title>
+  </programme>
+  <programme start="20260909042200 +0000" stop="20260909051000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar
+Repetición</title>
+    <episode-num system="onscreen">E72</episode-num>
   </programme>
   <programme start="20260909042500 +0000" stop="20260909044500 +0000" channel="NickJr.bo">
     <title lang="es">BARBAPAPÁ Una gran familia feliz</title>
@@ -43482,6 +43983,10 @@ Una pareja con un hijo busca la casa de montaña ideal para criar a su familia e
       <value>6.0</value>
     </star-rating>
   </programme>
+  <programme start="20260909051000 +0000" stop="20260909053500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Rina</title>
+    <episode-num system="onscreen">E48</episode-num>
+  </programme>
   <programme start="20260909051000 +0000" stop="20260909060000 +0000" channel="DiscoveryTurbo.cl">
     <title lang="es">Overhaulin'</title>
     <sub-title lang="es">El Pontiac Firebird de 1967 de Dan</sub-title>
@@ -43603,6 +44108,10 @@ Es hora de salir al aire libre mientras los ocho pasteleros crean deliciosos boc
   <programme start="20260909053000 +0000" stop="20260909055500 +0000" channel="ComedyCentral.cl">
     <title lang="es">South Park</title>
   </programme>
+  <programme start="20260909053500 +0000" stop="20260909060000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Rina</title>
+    <episode-num system="onscreen">E49</episode-num>
+  </programme>
   <programme start="20260909053500 +0000" stop="20260909073200 +0000" channel="HBO.cl">
     <title lang="es">Guerra Civil</title>
   </programme>
@@ -43715,6 +44224,10 @@ Una pareja se enamoró de la sensación nostálgica de su hogar, pero la combina
   <programme start="20260909060000 +0000" stop="20260909063000 +0000" channel="EnlaceTBN.cl">
     <title lang="es">Para Que el Mundo Sepa</title>
   </programme>
+  <programme start="20260909060000 +0000" stop="20260909065000 +0000" channel="TLNovelas.cl">
+    <title lang="es">La Rosa de Guadalupe
+Repetición</title>
+  </programme>
   <programme start="20260909060000 +0000" stop="20260909065000 +0000" channel="DiscoveryTurbo.cl">
     <title lang="es">ADN mecánico recargado</title>
     <sub-title lang="es">Amenaza Triple</sub-title>
@@ -43796,23 +44309,23 @@ Una pareja se enamoró de la sensación nostálgica de su hogar, pero la combina
     <title lang="es">UEFA Champions League Highlights</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260909060000 +0000" stop="20260909090000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260909060000 +0000" stop="20260909090000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260909060000 +0000" stop="20260909090000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260909060000 +0000" stop="20260909090000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260909060000 +0000" stop="20260909090000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260909060000 +0000" stop="20260909090000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -44215,6 +44728,11 @@ Duff vuelve a visitar su herencia europea con un poco de strudel de manzana, hec
     <star-rating system="MX">
       <value>8.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260909065000 +0000" stop="20260909073500 +0000" channel="TLNovelas.cl">
+    <title lang="es">La vecina
+Repetición</title>
+    <episode-num system="onscreen">E126</episode-num>
   </programme>
   <programme start="20260909065000 +0000" stop="20260909071500 +0000" channel="DiscoveryTurbo.cl">
     <title lang="es">Todoterreno</title>
@@ -44686,6 +45204,11 @@ Los pasteleros tienen el desafío de hacer un pastel para el aniversario número
       <value>7.0</value>
     </star-rating>
   </programme>
+  <programme start="20260909073500 +0000" stop="20260909082000 +0000" channel="TLNovelas.cl">
+    <title lang="es">La vecina
+Repetición</title>
+    <episode-num system="onscreen">E127</episode-num>
+  </programme>
   <programme start="20260909073500 +0000" stop="20260909082100 +0000" channel="TNTSeries.cl">
     <title lang="es">The Mentalist</title>
     <desc lang="es">Patrick Jane (Simon Baker), un consultor independiente del Departamento de Investigaciones de California, con un notable historial de resolución de crímenes graves utilizando solo sus habilidades de observación. Conocido por su flagrante falta de protocolo y su casi celebridad pasada como médium psíquico – cuyas habilidades paranormales ahora admite que fingió – el papel de Jane en descifrar una serie los casos difíciles de alto perfil son muy valorados por sus compañeros agentes. Sin embargo, la sensata agente Teresa Lisbon (Robin Tunney) se resiste abiertamente a tener a Jane en su unidad y alterna entre reconocer de mala gana la utilidad de Jane y criticarlo por sus actos de teatro, narcisismo y peligrosa falta de límites. El equipo de Lisbon incluye a los agentes Kimball Cho (Tim Kang), Wayne Rigsby (Owain Yeoman) y la novata Grace Van Pelt (Amanda Righetti), quienes creen que Jane es un cañón suelto, pero que admiran su encanto y habilidad para solucionar los casos.</desc>
@@ -45010,6 +45533,11 @@ El diseñador de interiores Vern Yip y un agente inmobiliario local están evalu
       <value>9.0</value>
     </star-rating>
   </programme>
+  <programme start="20260909082000 +0000" stop="20260909090500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía
+Repetición</title>
+    <episode-num system="onscreen">E66</episode-num>
+  </programme>
   <programme start="20260909082100 +0000" stop="20260909090600 +0000" channel="TNTSeries.cl">
     <title lang="es">CSI</title>
     <desc lang="es">Desde las desgarradoras verdades de los asesinatos dentro de familias, hasta lo macabro, los crímenes que parecen suceder solo en Las Vegas. Dirigidos por Gil Grissom (William Petersen), supervisor de turno de noche y experto en errores, Catherine Willows (Marg Helgenberger), una madre soltera y ex bailarina exótica, Warrick Brown (Gary Dourdan), un fanfarrón con problemas de apuestas, Nick Stokes (George Eads), un hombre entusiastas y Sara Sidle (Jorja Fox), una mente reservada estos investigadores forenses demuestran que salirse con la suya con el asesinato es mucho más difícil.</desc>
@@ -45300,23 +45828,23 @@ Los cuatro chefs están dispuestos a dar todo para demostrales a los jueces cuá
     <title lang="es">La Vuelta a España 2026</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260909090000 +0000" stop="20260909120000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260909090000 +0000" stop="20260909120000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260909090000 +0000" stop="20260909120000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260909090000 +0000" stop="20260909120000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260909090000 +0000" stop="20260909120000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260909090000 +0000" stop="20260909120000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -45333,6 +45861,11 @@ Los cuatro chefs están dispuestos a dar todo para demostrales a los jueces cuá
   <programme start="20260909090500 +0000" stop="20260909093000 +0000" channel="Nick.cl">
     <title lang="es">Fuerza Danger</title>
     <sub-title lang="es">T1-E17 Competencia de gemelos</sub-title>
+  </programme>
+  <programme start="20260909090500 +0000" stop="20260909095000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía
+Repetición</title>
+    <episode-num system="onscreen">E67</episode-num>
   </programme>
   <programme start="20260909090600 +0000" stop="20260909091100 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Steven Universe: Futuro</title>
@@ -45518,6 +46051,11 @@ Nathan y Jenny desean construir una yurta en su propiedad de Oahu. Sin embargo, 
   </programme>
   <programme start="20260909095000 +0000" stop="20260909100100 +0000" channel="Tooncast.cl">
     <title lang="es">El campamento de Lazlo</title>
+  </programme>
+  <programme start="20260909095000 +0000" stop="20260909103500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar
+Repetición</title>
+    <episode-num system="onscreen">E71</episode-num>
   </programme>
   <programme start="20260909095200 +0000" stop="20260909103700 +0000" channel="TNTSeries.cl">
     <title lang="es">Law &amp; Order: SVU</title>
@@ -45885,6 +46423,11 @@ En una final con temática chocolatosa, Scott Conant desafía a los tres pastele
     <star-rating system="MX">
       <value>5.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260909103500 +0000" stop="20260909112000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar
+Repetición</title>
+    <episode-num system="onscreen">E72</episode-num>
   </programme>
   <programme start="20260909103700 +0000" stop="20260909104800 +0000" channel="Tooncast.cl">
     <title lang="es">El campamento de Lazlo</title>
@@ -46258,6 +46801,11 @@ Andrew Zimmern sigue, enfocando en la gastronomía, el camino marcado por Mark T
   <programme start="20260909112000 +0000" stop="20260909131000 +0000" channel="LasEstrellas.cl">
     <title lang="es">Mujer, casos de la vida real</title>
   </programme>
+  <programme start="20260909112000 +0000" stop="20260909114500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Rina
+Repetición</title>
+    <episode-num system="onscreen">E48</episode-num>
+  </programme>
   <programme start="20260909112000 +0000" stop="20260909114000 +0000" channel="ComedyCentral.cl">
     <title lang="es">Un papá en apuros</title>
   </programme>
@@ -46467,6 +47015,11 @@ Esta increíble variedad de casas de todo el mundo incluye un apartamento de Nue
       <value>8.0</value>
     </star-rating>
   </programme>
+  <programme start="20260909114500 +0000" stop="20260909121000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Rina
+Repetición</title>
+    <episode-num system="onscreen">E49</episode-num>
+  </programme>
   <programme start="20260909114500 +0000" stop="20260909133000 +0000" channel="HBOPop.cl">
     <title lang="es">Happy Feet 2 El pingüino</title>
   </programme>
@@ -46650,23 +47203,23 @@ El presentador Eric Adjepong da la bienvenida de nuevo a los chefs Kevin Lee, Ta
     <sub-title lang="es">Our Mysteries</sub-title>
     <episode-num system="onscreen">S9 E5</episode-num>
   </programme>
-  <programme start="20260909120000 +0000" stop="20260909150000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260909120000 +0000" stop="20260909150000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260909120000 +0000" stop="20260909150000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260909120000 +0000" stop="20260909150000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260909120000 +0000" stop="20260909150000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260909120000 +0000" stop="20260909150000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -46738,6 +47291,9 @@ El presentador Eric Adjepong da la bienvenida de nuevo a los chefs Kevin Lee, Ta
     <star-rating system="MX">
       <value>5.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260909121000 +0000" stop="20260909130000 +0000" channel="TLNovelas.cl">
+    <title lang="es">La Rosa de Guadalupe</title>
   </programme>
   <programme start="20260909121100 +0000" stop="20260909142300 +0000" channel="HBO.cl">
     <title lang="es">El contador</title>
@@ -46980,6 +47536,9 @@ El encanto y la belleza de Mariana Rios se reflejan en su casa llena de estilo y
   </programme>
   <programme start="20260909130000 +0000" stop="20260909133000 +0000" channel="EnlaceTBN.cl">
     <title lang="es">Enlace ora</title>
+  </programme>
+  <programme start="20260909130000 +0000" stop="20260909134700 +0000" channel="TLNovelas.cl">
+    <title lang="es">Vivo por Elena</title>
   </programme>
   <programme start="20260909130000 +0000" stop="20260909140000 +0000" channel="TyCSports.cl">
     <title lang="es">Superfútbol</title>
@@ -47341,6 +47900,9 @@ Es el 45 aniversario del clásico de todos los tiempos, la gran película Willi 
   <programme start="20260909134500 +0000" stop="20260909141000 +0000" channel="AMC.cl">
     <title lang="es">Planet Action</title>
   </programme>
+  <programme start="20260909134700 +0000" stop="20260909143500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Vivo por Elena</title>
+  </programme>
   <programme start="20260909134800 +0000" stop="20260909140000 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Escandalosos</title>
   </programme>
@@ -47622,6 +48184,10 @@ Una pareja de Florida vendió un bote en el que planeaban vivir y están buscand
     <title lang="es">Fútbol UEFA Champions League</title>
     <category lang="es">Deportes</category>
   </programme>
+  <programme start="20260909143500 +0000" stop="20260909152500 +0000" channel="TLNovelas.cl">
+    <title lang="es">La vecina</title>
+    <episode-num system="onscreen">E128</episode-num>
+  </programme>
   <programme start="20260909143600 +0000" stop="20260909144600 +0000" channel="Tooncast.cl">
     <title lang="es">Los pequeños Looney Tunes</title>
   </programme>
@@ -47835,23 +48401,23 @@ En Vivo</title>
     <title lang="es">Espn Tenis</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260909150000 +0000" stop="20260909180000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260909150000 +0000" stop="20260909180000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260909150000 +0000" stop="20260909180000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260909150000 +0000" stop="20260909180000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260909150000 +0000" stop="20260909180000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260909150000 +0000" stop="20260909180000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -47972,6 +48538,10 @@ Buddy y su buen amigo y chef de Hoboken, Tony, preparan sus comidas italianas fa
     <star-rating system="MX">
       <value>5.0</value>
     </star-rating>
+  </programme>
+  <programme start="20260909152500 +0000" stop="20260909161500 +0000" channel="TLNovelas.cl">
+    <title lang="es">La vecina</title>
+    <episode-num system="onscreen">E129</episode-num>
   </programme>
   <programme start="20260909152500 +0000" stop="20260909153500 +0000" channel="NickJr.bo">
     <title lang="es">Tim Rex en el espacio</title>
@@ -48331,6 +48901,32 @@ Nathan y Jenny diseñan un nuevo hogar para un joyero y su hijo. El equipo tendr
     <episode-num system="onscreen">S6 E44</episode-num>
     <rating system="MX">
       <value>TV-PG</value>
+    </rating>
+    <star-rating system="MX">
+      <value>8.0</value>
+    </star-rating>
+  </programme>
+  <programme start="20260909161500 +0000" stop="20260909170500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Eternamente Amándonos</title>
+    <desc lang="es">Paula (Alejandra Robles Gil), una hermosa, liberal e independiente guitarrista originaria de la Ciudad de México y Rogelio Iturbide (Marcus Ornellas), un soltero empedernido perteneciente a una familia conservadora y pudiente de Morelia, deciden casarse cuando apenas se están conociendo, el amor los sorprendió inesperadamente. Con la llegada de Paula a la Villa de los Iturbide, la vida de la familia cambia radicalmente. Paula tiene una forma de ver y abordar la vida que choca con el pensamiento tradicional e inflexible de la sociedad provinciana y de su suegra, doña Martina (Diana Bracho). ¿Será el amor de Paula y Rogelio suficiente para librar todas estas batallas?</desc>
+    <credits>
+      <director>Silvia Tort</director>
+      <director>Rodrigo Cachero</director>
+      <actor>Marcus Ornellas</actor>
+      <actor>Alejandra Robles Gil</actor>
+      <actor>Diana Bracho</actor>
+      <actor>Omar Fierro</actor>
+      <actor>Rossana Nájera</actor>
+      <actor>Juan Martín Jáuregui</actor>
+      <actor>David Caro Levy</actor>
+      <actor>Julia Urbini</actor>
+      <producer>Marco Cano</producer>
+    </credits>
+    <date>2023</date>
+    <category lang="es">Drama</category>
+    <icon src="https://imagenes.gatotv.com/categorias/telenovelas/miniatura/eternamente_amandonos.jpg" />
+    <rating system="MX">
+      <value>TV-14</value>
     </rating>
     <star-rating system="MX">
       <value>8.0</value>
@@ -48701,6 +49297,32 @@ Un camión reemplaza a un miembro de su equipo por una cara conocida y el plan d
     <title lang="es">Fútbol LaLiga</title>
     <category lang="es">Deportes</category>
   </programme>
+  <programme start="20260909170500 +0000" stop="20260909175500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Eternamente Amándonos</title>
+    <desc lang="es">Paula (Alejandra Robles Gil), una hermosa, liberal e independiente guitarrista originaria de la Ciudad de México y Rogelio Iturbide (Marcus Ornellas), un soltero empedernido perteneciente a una familia conservadora y pudiente de Morelia, deciden casarse cuando apenas se están conociendo, el amor los sorprendió inesperadamente. Con la llegada de Paula a la Villa de los Iturbide, la vida de la familia cambia radicalmente. Paula tiene una forma de ver y abordar la vida que choca con el pensamiento tradicional e inflexible de la sociedad provinciana y de su suegra, doña Martina (Diana Bracho). ¿Será el amor de Paula y Rogelio suficiente para librar todas estas batallas?</desc>
+    <credits>
+      <director>Silvia Tort</director>
+      <director>Rodrigo Cachero</director>
+      <actor>Marcus Ornellas</actor>
+      <actor>Alejandra Robles Gil</actor>
+      <actor>Diana Bracho</actor>
+      <actor>Omar Fierro</actor>
+      <actor>Rossana Nájera</actor>
+      <actor>Juan Martín Jáuregui</actor>
+      <actor>David Caro Levy</actor>
+      <actor>Julia Urbini</actor>
+      <producer>Marco Cano</producer>
+    </credits>
+    <date>2023</date>
+    <category lang="es">Drama</category>
+    <icon src="https://imagenes.gatotv.com/categorias/telenovelas/miniatura/eternamente_amandonos.jpg" />
+    <rating system="MX">
+      <value>TV-14</value>
+    </rating>
+    <star-rating system="MX">
+      <value>8.0</value>
+    </star-rating>
+  </programme>
   <programme start="20260909170500 +0000" stop="20260909173000 +0000" channel="DiscoveryTurbo.cl">
     <title lang="es">Todoterreno</title>
     <sub-title lang="es">LJ Buggy: Ensamblaje final</sub-title>
@@ -48891,6 +49513,10 @@ Valerie Bertinelli y Duff Goldman retan a los tres pasteleros finalistas a prepa
   <programme start="20260909175500 +0000" stop="20260909180000 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Clarence</title>
   </programme>
+  <programme start="20260909175500 +0000" stop="20260909184200 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía</title>
+    <episode-num system="onscreen">E68</episode-num>
+  </programme>
   <programme start="20260909175600 +0000" stop="20260909184300 +0000" channel="HGTV.ar">
     <desc lang="es">S1 E2 — Encontrar la paz en Pawling
 Una mujer soltera busca su primera casa para estar más cerca de su familia en Pawling, Nueva York. Davina y Kristin tienen algunas opciones y buscan usar todos los trucos de renovación para crear el palacio que siempre ha soñado.</desc>
@@ -48987,23 +49613,23 @@ Una mujer soltera busca su primera casa para estar más cerca de su familia en P
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20260909180000 +0000" stop="20260909210000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260909180000 +0000" stop="20260909210000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260909180000 +0000" stop="20260909210000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260909180000 +0000" stop="20260909210000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260909180000 +0000" stop="20260909210000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260909180000 +0000" stop="20260909210000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -49329,6 +49955,10 @@ Willie Degel ayuda a Anthony y Toby, propietarios de Hot Rods Real Pit BBQ.</des
   <programme start="20260909184000 +0000" stop="20260909205500 +0000" channel="ESPN5.cl">
     <title lang="es">Fútbol UEFA Champions League</title>
     <category lang="es">Deportes</category>
+  </programme>
+  <programme start="20260909184200 +0000" stop="20260909193000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía</title>
+    <episode-num system="onscreen">E69</episode-num>
   </programme>
   <programme start="20260909184300 +0000" stop="20260909190600 +0000" channel="HGTV.ar">
     <desc lang="es">S17 E8 — De Canadá a Roatán
@@ -49672,6 +50302,10 @@ El propietario de una casa con chimenea central de 1707 le dice a Mike que quier
   <programme start="20260909193000 +0000" stop="20260909202000 +0000" channel="LasEstrellas.cl">
     <title lang="es">Tan cerca de ti, nace el amor</title>
   </programme>
+  <programme start="20260909193000 +0000" stop="20260909201700 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar</title>
+    <episode-num system="onscreen">E73</episode-num>
+  </programme>
   <programme start="20260909193000 +0000" stop="20260909200000 +0000" channel="DisneyJunior.cl">
     <title lang="es">Disney Junior Ariel</title>
   </programme>
@@ -49857,6 +50491,10 @@ Joe Mazza y el diseñador Noel Gatts abordan las preocupaciones de seguridad del
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">¿Qué le pasa a esa casa?</title>
     <title lang="en">What's Wrong with That House?</title>
+  </programme>
+  <programme start="20260909201700 +0000" stop="20260909210500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar</title>
+    <episode-num system="onscreen">E74</episode-num>
   </programme>
   <programme start="20260909202000 +0000" stop="20260909211000 +0000" channel="LasEstrellas.cl">
     <title lang="es">Mi Rival</title>
@@ -50076,23 +50714,23 @@ La chef Silvia Barban solo tiene una cosa en mente: vengarse de la estrella Broo
       <value>TE</value>
     </rating>
   </programme>
-  <programme start="20260909210000 +0000" stop="20260910000000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260909210000 +0000" stop="20260910000000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260909210000 +0000" stop="20260910000000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260909210000 +0000" stop="20260910000000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260909210000 +0000" stop="20260910000000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260909210000 +0000" stop="20260910000000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -50116,6 +50754,11 @@ John y Anthony visitan Carmichael, California, para ayudar a una pareja joven co
   </programme>
   <programme start="20260909210500 +0000" stop="20260909212800 +0000" channel="Tooncast.cl">
     <title lang="es">Mansión foster para amigos imaginarios</title>
+  </programme>
+  <programme start="20260909210500 +0000" stop="20260909215500 +0000" channel="TLNovelas.cl">
+    <title lang="es">La vecina
+Repetición</title>
+    <episode-num system="onscreen">E128</episode-num>
   </programme>
   <programme start="20260909210900 +0000" stop="20260909235800 +0000" channel="StarChannel.cl">
     <title lang="es">The martian Misión rescate</title>
@@ -50472,6 +51115,11 @@ Una pareja de Washington busca en los lagos de la región una casa frente al mar
       <value>7.0</value>
     </star-rating>
   </programme>
+  <programme start="20260909215500 +0000" stop="20260909224500 +0000" channel="TLNovelas.cl">
+    <title lang="es">La vecina
+Repetición</title>
+    <episode-num system="onscreen">E129</episode-num>
+  </programme>
   <programme start="20260909215500 +0000" stop="20260909222000 +0000" channel="NickJr.bo">
     <title lang="es">Paw Patrol patrulla de cachorros</title>
     <sub-title lang="es">T12-E10 Los cachorros salvan a un hermano mayor / Los cachorros salvan a un bebé gigante</sub-title>
@@ -50740,6 +51388,11 @@ Guy Fieri y el profesional del fútbol, Marcel Reece, preparan grandes sabores e
   </programme>
   <programme start="20260909224100 +0000" stop="20260909225500 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Un show más</title>
+  </programme>
+  <programme start="20260909224500 +0000" stop="20260909233200 +0000" channel="TLNovelas.cl">
+    <title lang="es">Vivo por Elena
+
+Repetición</title>
   </programme>
   <programme start="20260909224500 +0000" stop="20260909230500 +0000" channel="ComedyCentral.cl">
     <title lang="es">Un Hombre, Un Plan</title>
@@ -51110,6 +51763,11 @@ Bobby improvisa unos waffles de pan de maíz con huevos al estilo ranchero y cre
     <sub-title lang="es">La estación de tren de Mickey</sub-title>
     <episode-num system="onscreen">S3 E28</episode-num>
   </programme>
+  <programme start="20260909233200 +0000" stop="20260910002000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Vivo por Elena
+
+Repetición</title>
+  </programme>
   <programme start="20260909233800 +0000" stop="20260909234900 +0000" channel="Tooncast.cl">
     <title lang="es">Mi compañero de Clase es un Mono</title>
     <desc lang="es">A causa de una confusión en su apellido, Adam León de doce años es transferido accidentalmente a la Escuela Charles Darwin en donde todos los estudiantes y profesores son animales. Adam es el único estudiante humano y ahí conoce a Jake Mono Araña que rápidamente se convierte en su mejor amigo.</desc>
@@ -51336,23 +51994,23 @@ Bobby improvisa unos waffles de pan de maíz con huevos al estilo ranchero y cre
     <title lang="es">Estudiantes de La Plata vs. Corinthians</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260910000000 +0000" stop="20260910030000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260910000000 +0000" stop="20260910030000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260910000000 +0000" stop="20260910030000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260910000000 +0000" stop="20260910030000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260910000000 +0000" stop="20260910030000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260910000000 +0000" stop="20260910030000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -51479,6 +52137,32 @@ Melissa y Jenna retribuyen a un pianista que comparte su amor por la música can
 El equipo está preparando comidas perfectas para niños y también para los niños de corazón, como cazuelas de albóndigas de pollo con brócoli asado, kebabs con tostadas francesas y filetes de pollo con costra de quinoa. Además, acompaña al equipo la invitada Catherine McCord.</desc>
     <episode-num>S18 E4</episode-num>
     <title lang="es">The Kitchen</title>
+  </programme>
+  <programme start="20260910002000 +0000" stop="20260910011000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Eternamente Amándonos</title>
+    <desc lang="es">Paula (Alejandra Robles Gil), una hermosa, liberal e independiente guitarrista originaria de la Ciudad de México y Rogelio Iturbide (Marcus Ornellas), un soltero empedernido perteneciente a una familia conservadora y pudiente de Morelia, deciden casarse cuando apenas se están conociendo, el amor los sorprendió inesperadamente. Con la llegada de Paula a la Villa de los Iturbide, la vida de la familia cambia radicalmente. Paula tiene una forma de ver y abordar la vida que choca con el pensamiento tradicional e inflexible de la sociedad provinciana y de su suegra, doña Martina (Diana Bracho). ¿Será el amor de Paula y Rogelio suficiente para librar todas estas batallas?</desc>
+    <credits>
+      <director>Silvia Tort</director>
+      <director>Rodrigo Cachero</director>
+      <actor>Marcus Ornellas</actor>
+      <actor>Alejandra Robles Gil</actor>
+      <actor>Diana Bracho</actor>
+      <actor>Omar Fierro</actor>
+      <actor>Rossana Nájera</actor>
+      <actor>Juan Martín Jáuregui</actor>
+      <actor>David Caro Levy</actor>
+      <actor>Julia Urbini</actor>
+      <producer>Marco Cano</producer>
+    </credits>
+    <date>2023</date>
+    <category lang="es">Drama</category>
+    <icon src="https://imagenes.gatotv.com/categorias/telenovelas/miniatura/eternamente_amandonos.jpg" />
+    <rating system="MX">
+      <value>TV-14</value>
+    </rating>
+    <star-rating system="MX">
+      <value>8.0</value>
+    </star-rating>
   </programme>
   <programme start="20260910002000 +0000" stop="20260910003000 +0000" channel="NickJr.bo">
     <title lang="es">Rubble and Crew</title>
@@ -51834,6 +52518,32 @@ La presentadora Molly Yeh desafía a los pasteleros a traer lo inesperado a sus 
     <episode-num>S8 E4</episode-num>
     <title lang="es">Spring Baking Championship</title>
   </programme>
+  <programme start="20260910011000 +0000" stop="20260910020000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Eternamente Amándonos</title>
+    <desc lang="es">Paula (Alejandra Robles Gil), una hermosa, liberal e independiente guitarrista originaria de la Ciudad de México y Rogelio Iturbide (Marcus Ornellas), un soltero empedernido perteneciente a una familia conservadora y pudiente de Morelia, deciden casarse cuando apenas se están conociendo, el amor los sorprendió inesperadamente. Con la llegada de Paula a la Villa de los Iturbide, la vida de la familia cambia radicalmente. Paula tiene una forma de ver y abordar la vida que choca con el pensamiento tradicional e inflexible de la sociedad provinciana y de su suegra, doña Martina (Diana Bracho). ¿Será el amor de Paula y Rogelio suficiente para librar todas estas batallas?</desc>
+    <credits>
+      <director>Silvia Tort</director>
+      <director>Rodrigo Cachero</director>
+      <actor>Marcus Ornellas</actor>
+      <actor>Alejandra Robles Gil</actor>
+      <actor>Diana Bracho</actor>
+      <actor>Omar Fierro</actor>
+      <actor>Rossana Nájera</actor>
+      <actor>Juan Martín Jáuregui</actor>
+      <actor>David Caro Levy</actor>
+      <actor>Julia Urbini</actor>
+      <producer>Marco Cano</producer>
+    </credits>
+    <date>2023</date>
+    <category lang="es">Drama</category>
+    <icon src="https://imagenes.gatotv.com/categorias/telenovelas/miniatura/eternamente_amandonos.jpg" />
+    <rating system="MX">
+      <value>TV-14</value>
+    </rating>
+    <star-rating system="MX">
+      <value>8.0</value>
+    </star-rating>
+  </programme>
   <programme start="20260910011300 +0000" stop="20260910012100 +0000" channel="Tooncast.cl">
     <title lang="es">Sheep en la Gran Ciudad</title>
   </programme>
@@ -52160,6 +52870,11 @@ No hay nada mejor que las verduras frescas del mercado para ponerle sabor a sus 
   <programme start="20260910020000 +0000" stop="20260910023000 +0000" channel="EnlaceTBN.cl">
     <title lang="es">El show de la fe</title>
   </programme>
+  <programme start="20260910020000 +0000" stop="20260910024700 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía
+Repetición</title>
+    <episode-num system="onscreen">E68</episode-num>
+  </programme>
   <programme start="20260910020000 +0000" stop="20260910030000 +0000" channel="HBOXtreme.cl">
     <title lang="es">Monstruos de Dios</title>
     <episode-num system="onscreen">S1 E5</episode-num>
@@ -52441,6 +53156,11 @@ Selena Gomez visita Lemon Grove de Hollywood, donde el chef Marcel Vigneron la r
     <title lang="es">Paw Patrol patrulla de cachorros</title>
     <sub-title lang="es">T8-E23 ¡Los cachorros salvan el lavadero para mascotas</sub-title>
   </programme>
+  <programme start="20260910024700 +0000" stop="20260910033500 +0000" channel="TLNovelas.cl">
+    <title lang="es">Niña Amada Mía
+Repetición</title>
+    <episode-num system="onscreen">E69</episode-num>
+  </programme>
   <programme start="20260910024800 +0000" stop="20260910025900 +0000" channel="Tooncast.cl">
     <title lang="es">Los pequeños Looney Tunes</title>
   </programme>
@@ -52550,23 +53270,23 @@ La apetitosa aventura de Casey Webb lo lleva a Detroit para disfrutar de una ic�
     <sub-title lang="es">Los huesos en Party Hill</sub-title>
     <episode-num system="onscreen">S4 E2</episode-num>
   </programme>
-  <programme start="20260910030000 +0000" stop="20260910060000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260910030000 +0000" stop="20260910060000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260910030000 +0000" stop="20260910060000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260910030000 +0000" stop="20260910060000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260910030000 +0000" stop="20260910060000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260910030000 +0000" stop="20260910060000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -52689,6 +53409,11 @@ Giada De Laurentiis muestra cómo aderezar algunos platos tradicionales de carne
   </programme>
   <programme start="20260910033100 +0000" stop="20260910035400 +0000" channel="Tooncast.cl">
     <title lang="es">¿Scooby Doo, dónde estás?</title>
+  </programme>
+  <programme start="20260910033500 +0000" stop="20260910042200 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar
+Repetición</title>
+    <episode-num system="onscreen">E73</episode-num>
   </programme>
   <programme start="20260910033500 +0000" stop="20260910040000 +0000" channel="ComedyCentral.cl">
     <title lang="es">South Park</title>
@@ -52922,6 +53647,11 @@ Cuatro pasteleros liberan su niño interior para servir en la Feria de Juguetes 
     <sub-title lang="es">Don</sub-title>
     <episode-num system="onscreen">S1 E10</episode-num>
   </programme>
+  <programme start="20260910042200 +0000" stop="20260910051000 +0000" channel="TLNovelas.cl">
+    <title lang="es">Para volver a amar
+Repetición</title>
+    <episode-num system="onscreen">E74</episode-num>
+  </programme>
   <programme start="20260910042500 +0000" stop="20260910044500 +0000" channel="NickJr.bo">
     <title lang="es">Barbapapá y su familia</title>
     <sub-title lang="es">T1-E2 Bada-Bam / Los Barbamarcianos</sub-title>
@@ -53041,23 +53771,23 @@ Los chefs se hundirán o nadarán intentando crear postres de chocolate con un d
     <episode-num>S2 E3</episode-num>
     <title lang="es">Dulce genio</title>
   </programme>
-  <programme start="20260910060000 +0000" stop="20260910090000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260910060000 +0000" stop="20260910090000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260910060000 +0000" stop="20260910090000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260910060000 +0000" stop="20260910090000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260910060000 +0000" stop="20260910090000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260910060000 +0000" stop="20260910090000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -53173,23 +53903,23 @@ El chef Shota Nakajima, un maestro de la cocina japonesa, aporta su formación M
     <title lang="es">La Vuelta a España 2026</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260910090000 +0000" stop="20260910120000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260910090000 +0000" stop="20260910120000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260910090000 +0000" stop="20260910120000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260910090000 +0000" stop="20260910120000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260910090000 +0000" stop="20260910120000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260910090000 +0000" stop="20260910120000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -53265,23 +53995,23 @@ Jeff Mauro prepara patas de pollo crujientes con salsa picante y mantequilla de 
   <programme start="20260910120000 +0000" stop="20260910135300 +0000" channel="HBO.cl">
     <title lang="es">Rescate del metro 123</title>
   </programme>
-  <programme start="20260910120000 +0000" stop="20260910150000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260910120000 +0000" stop="20260910150000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260910120000 +0000" stop="20260910150000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260910120000 +0000" stop="20260910150000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260910120000 +0000" stop="20260910150000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260910120000 +0000" stop="20260910150000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -53355,23 +54085,23 @@ Hoy, Nancy utiliza lúpulo local en su comida. Entonces, ella se detiene en la c
     <title lang="es">UEFA Champions League Highlights</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260910150000 +0000" stop="20260910180000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260910150000 +0000" stop="20260910180000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260910150000 +0000" stop="20260910180000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260910150000 +0000" stop="20260910180000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260910150000 +0000" stop="20260910180000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260910150000 +0000" stop="20260910180000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -53487,23 +54217,23 @@ Para celebrar que una tortuga marina será liberada al mar, los rescatistas pide
     <episode-num>S10 E5</episode-num>
     <title lang="es">Cake Boss</title>
   </programme>
-  <programme start="20260910180000 +0000" stop="20260910210000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260910180000 +0000" stop="20260910210000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260910180000 +0000" stop="20260910210000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260910180000 +0000" stop="20260910210000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260910180000 +0000" stop="20260910210000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260910180000 +0000" stop="20260910210000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -53616,23 +54346,23 @@ Ali Khan desafía a los pasteleros a hacer postres que parezcan regalos para beb
     <episode-num>S7 E5</episode-num>
     <title lang="es">Spring Baking Championship</title>
   </programme>
-  <programme start="20260910210000 +0000" stop="20260911000000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
-    <desc lang="es">Salud, hogar y estilo de vida.</desc>
-    <category lang="es">Estilo de Vida</category>
-  </programme>
-  <programme start="20260910210000 +0000" stop="20260911000000 +0000" channel="InvestigationDiscovery.cl">
-    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20260910210000 +0000" stop="20260911000000 +0000" channel="TNTSports.cl">
     <title lang="es">TNTSports.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20260910210000 +0000" stop="20260911000000 +0000" channel="DiscoveryHomeAndHealth.cl">
+    <title lang="es">Discovery Home &amp; Health: Bienestar &amp; Estilo</title>
+    <desc lang="es">Salud, hogar y estilo de vida.</desc>
+    <category lang="es">Estilo de Vida</category>
+  </programme>
   <programme start="20260910210000 +0000" stop="20260911000000 +0000" channel="TNTSportsPremium.cl">
     <title lang="es">TNTSportsPremium.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260910210000 +0000" stop="20260911000000 +0000" channel="InvestigationDiscovery.cl">
+    <title lang="es">InvestigationDiscovery.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
