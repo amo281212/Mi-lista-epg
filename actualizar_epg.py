@@ -84,6 +84,8 @@ MIS_CANALES = {
     'TNTNovelas.cl',
     'TLNovelas.cl',
     'EnlaceTBN.cl',
+    'LaRed.cl',
+    'NTV.cl',
     'CNNChile.cl',
     'CHVNoticias.cl',
     'T13Noticias.cl',
@@ -171,6 +173,7 @@ MAPEO_IDS = {
     'Canal.TNT.Novelas.(Chile).cl': 'TNTNovelas.cl',
     'Canal.TLNovelas.(Chile).cl': 'TLNovelas.cl',
     'Canal.Enlace.(TBN).cl': 'EnlaceTBN.cl',
+    'Canal.La.Red.(Chile).cl': 'LaRed.cl',
     'Canal.CNN.Chile.cl': 'CNNChile.cl',
     'Canal.24.Horas.(Chile).cl': '24Horas.cl',
 }
@@ -319,6 +322,8 @@ FUENTE_POR_CANAL = {
     'TNTNovelas.cl': 'https://epg.lat/files/cl.xml.gz',
     'TLNovelas.cl': 'https://epg.lat/files/cl.xml.gz',
     'EnlaceTBN.cl': 'https://epg.lat/files/cl.xml.gz',
+    'LaRed.cl': 'https://epg.lat/files/cl.xml.gz',
+    'NTV.cl': None,
     'CNNChile.cl': 'https://epg.lat/files/cl.xml.gz',
     '24Horas.cl': None,
 }
@@ -400,6 +405,8 @@ CANALES_FUENTES_PUBLICAS = {
     'TNTNovelas.cl',
     'TLNovelas.cl',
     'EnlaceTBN.cl',
+    'LaRed.cl',
+    'NTV.cl',
     'CNNChile.cl',
     '24Horas.cl',
 }
@@ -491,6 +498,7 @@ DESFASE_CANALES = {
     'TNTNovelas.cl': 1,
     'TLNovelas.cl': 0,
     'EnlaceTBN.cl': 0,
+    'LaRed.cl': 0,
     'CNNChile.cl': 0,
     '24Horas.cl': 0,
 }
