@@ -906,6 +906,9 @@ def agregar_bloque_respaldo(
                 )
             )
 
+==================
+# 🚀 PROCESO PRINCIPAL
+# ============================================================
 # ============================================================
 # 📺 ACTUALIZAR URL DE TVN AUTOMÁTICAMENTE
 # ============================================================
@@ -1004,10 +1007,7 @@ def actualizar_tvn_m3u():
     print("✔ URL de TVN actualizada en mis-canales")
 
 
-# ============================================================
-# 🚀 PROCESO PRINCIPAL
-# ============================================================
-
+# ==========================================
 try:
 
     root_final = ET.Element(
@@ -1407,6 +1407,7 @@ try:
         xml_declaration=True
     )
 
+    actualizar_tvn_m3u()
 
     print("")
 
