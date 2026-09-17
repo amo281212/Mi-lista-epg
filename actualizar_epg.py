@@ -906,6 +906,103 @@ def agregar_bloque_respaldo(
                 )
             )
 
+# ============================================================
+# 📺 ACTUALIZAR URL DE TVN AUTOMÁTICAMENTE
+# ============================================================
+
+FUENTE_TVN_DINAMICA = "https://raw.githubusercontent.com/JIFACORP/mis-canales/main/lista_dinamica.m3u"
+ARCHIVO_M3U = "mis-canales"
+
+
+def actualizar_tvn_m3u():
+
+    print("")
+    print("📺 Buscando URL actual de TVN OPC 3...")
+
+    req = urllib.request.Request(
+        FUENTE_TVN_DINAMICA,
+        headers={'User-Agent': 'Mozilla/5.0'}
+    )
+
+    with urllib.request.urlopen(
+        req,
+        timeout=30
+    ) as response:
+
+        contenido = response.read().decode(
+            'utf-8',
+            errors='replace'
+        )
+
+    lineas_fuente = contenido.splitlines()
+
+    nueva_url = None
+
+    for i, linea in enumerate(lineas_fuente):
+
+        if 'tvg-name="CL: TVN OPC 3"' in linea:
+
+            for siguiente in lineas_fuente[i + 1:]:
+
+                siguiente = siguiente.strip()
+
+                if siguiente and not siguiente.startswith('#'):
+                    nueva_url = siguiente
+                    break
+
+            break
+
+    if not nueva_url:
+        raise RuntimeError(
+            "No se encontró la URL de CL: TVN OPC 3"
+        )
+
+    print(
+        f"✔ Nueva URL de TVN encontrada: {nueva_url}"
+    )
+
+    with open(
+        ARCHIVO_M3U,
+        'r',
+        encoding='utf-8'
+    ) as archivo:
+
+        lineas_m3u = archivo.readlines()
+
+    actualizado = False
+
+    for i, linea in enumerate(lineas_m3u):
+
+        if 'tvg-id="TVN.cl"' in linea:
+
+            for j in range(i + 1, len(lineas_m3u)):
+
+                if (
+                    lineas_m3u[j].strip()
+                    and not lineas_m3u[j].lstrip().startswith('#')
+                ):
+
+                    lineas_m3u[j] = nueva_url + '\n'
+                    actualizado = True
+                    break
+
+            break
+
+    if not actualizado:
+        raise RuntimeError(
+            "No se encontró la URL de TVN en mis-canales"
+        )
+
+    with open(
+        ARCHIVO_M3U,
+        'w',
+        encoding='utf-8'
+    ) as archivo:
+
+        archivo.writelines(lineas_m3u)
+
+    print("✔ URL de TVN actualizada en mis-canales")
+
 
 # ============================================================
 # 🚀 PROCESO PRINCIPAL
