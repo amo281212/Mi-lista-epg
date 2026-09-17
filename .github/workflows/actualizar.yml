@@ -43,5 +43,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "EPG actualizada automáticamente"
-          file_pattern: "epg_final.xml *.xml"
+          file_pattern: "epg_final.xml *.xml mis-canales"
           push_options: "--force-with-lease"
