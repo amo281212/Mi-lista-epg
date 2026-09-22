@@ -26241,15 +26241,15 @@ Repetición</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260921000000 +0000" stop="20260921030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260921000000 +0000" stop="20260921030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260921000000 +0000" stop="20260921030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260921000100 +0000" stop="20260921005000 +0000" channel="TNTSeries.cl">
     <title lang="es">The Mentalist</title>
@@ -28032,15 +28032,15 @@ Repetición</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260921030000 +0000" stop="20260921060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260921030000 +0000" stop="20260921060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260921030000 +0000" stop="20260921060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260921030100 +0000" stop="20260921031200 +0000" channel="Tooncast.cl">
     <title lang="es">Los pequeños Looney Tunes</title>
@@ -29452,15 +29452,15 @@ Repetición</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260921060000 +0000" stop="20260921090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260921060000 +0000" stop="20260921090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260921060000 +0000" stop="20260921090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260921060100 +0000" stop="20260921061300 +0000" channel="CartoonNetwork.cl">
     <title lang="es">El Increíble Mundo de Gumball</title>
@@ -30753,10 +30753,6 @@ Repetición</title>
       <value>7.0</value>
     </star-rating>
   </programme>
-  <programme start="20260921080000 +0000" stop="20260921100000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">DSPORTS Noticias</title>
-  </programme>
   <programme start="20260921080000 +0000" stop="20260921083000 +0000" channel="DisneyChannel.cl">
     <title lang="es">Amphibia</title>
     <desc lang="es">Anfibilandia narra las aventuras cómicas de Anne Boonchuy, de 13 años, quien después de robar una misteriosa caja de música, es transportada mágicamente al mundo de Anfibilandia, un pantano salvaje lleno de ranas parlantes. Con la ayuda de una joven rana aventurera y curiosa llamada Sprig, Anne se transformará de monstruo a héroe y descubrirá la primera amistad verdadera de su vida.</desc>
@@ -31000,14 +30996,6 @@ Repetición</title>
     <sub-title lang="es">La esteticista y la bestia</sub-title>
     <episode-num system="onscreen">S3 E12</episode-num>
   </programme>
-  <programme start="20260921081600 +0000" stop="20260921083900 +0000" channel="HGTV.ar">
-    <desc lang="es">S8 E4 — Casas no convencionales de Denver
-El diseñador, Vern Yip, junto a un agente de bienes raíces local, recorren tres renovaciones de casas poco convencionales en la ciudad de Denver.</desc>
-    <episode-num>S8 E4</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">La mejor inversión</title>
-    <title lang="en">Bang for Your Buck</title>
-  </programme>
   <programme start="20260921081700 +0000" stop="20260921084000 +0000" channel="WarnerChannel.cl">
     <title lang="es">Two and a Half Men</title>
     <desc lang="es">Charlie Harper (Charlie Sheen) es un soltero que vive de escribir música para comerciales lo que le permite tener una vida hedonista. Pero todo esto cambia cuando su hermano Alan (Jon Cryer) y su hijo Jake (Angus T. Jones) se mudan a vivir con él en su casa en las playas de Malibu.</desc>
@@ -31101,12 +31089,6 @@ Repetición</title>
   </programme>
   <programme start="20260921082900 +0000" stop="20260921084100 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Steven universe</title>
-  </programme>
-  <programme start="20260921083000 +0000" stop="20260921090000 +0000" channel="24Horas.cl">
-    <desc lang="es">Noticiero
-Espacio matutino de noticias, con toda la información de la jornada.</desc>
-    <icon src="https://iptv-epg.org/images/5_BRhSW0WUF3kuAnWsZT6kErCOZT6i6Wokwevq0SckftelTKSsnLwoYBtxxyyz7n6CWaXlyoyw7juACggJjmYz-Zktr4tF2UJbzeA1PUBQUkmKjW" />
-    <title lang="es">La previa</title>
   </programme>
   <programme start="20260921083000 +0000" stop="20260921090000 +0000" channel="DisneyChannel.cl">
     <title lang="es">Phineas y Ferb</title>
@@ -31214,14 +31196,6 @@ Espacio matutino de noticias, con toda la información de la jornada.</desc>
     <star-rating system="MX">
       <value>7.0</value>
     </star-rating>
-  </programme>
-  <programme start="20260921083900 +0000" stop="20260921090000 +0000" channel="HGTV.ar">
-    <desc lang="es">S3 E4 — Salón de entretenimiento
-Un garaje utilizado para almacenamiento se convierte en el mejor salón de entretenimiento con un bar personalizado, encimeras de cuarzo, un televisor enorme y chimeneas dobles.</desc>
-    <episode-num>S3 E4</episode-num>
-    <icon src="https://iptv-epg.org/images/cdMuSifN0oR99DYcPHGVfUvBvAhHl8QZHxUFn0pJdpXB7Iq__128auNNoV5eKvFl4xYkPSt7VmD2pB43Uf17dWQkcpLCAXUhebWZ0sBl070Gt9K7WYLb0yu3zQTuzuNPYzU-ISSyWFYogdyfJtqZFTxrPwoDgPihU3jTqYS-yGX1j8Sj1Ht05MmqE5oIF_uM" />
-    <title lang="es">Remodelación sorpresa: puertas adentro</title>
-    <title lang="en">Room Crashers</title>
   </programme>
   <programme start="20260921084000 +0000" stop="20260921100000 +0000" channel="WarnerChannel.cl">
     <title lang="es">The Pitt</title>
@@ -31361,20 +31335,6 @@ Un garaje utilizado para almacenamiento se convierte en el mejor salón de entre
     <title lang="es">Overhaulin'</title>
     <sub-title lang="es">El Camino de 1970 de Chris</sub-title>
     <episode-num system="onscreen">S6 E7</episode-num>
-  </programme>
-  <programme start="20260921090000 +0000" stop="20260921110000 +0000" channel="24Horas.cl">
-    <desc lang="es">Noticiero
-Un programa sobre los hechos más destacados de la agenda diaria a nivel nacional e internacional. A través del trabajo de periodistas, reporteros y expertos, el público podrá informarse al completo sobre la coyuntura.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">24horas tu mañana</title>
-  </programme>
-  <programme start="20260921090000 +0000" stop="20260921092300 +0000" channel="HGTV.ar">
-    <desc lang="es">S2 E6 — Escapada al sur de los Apalaches
-Una pareja joven busca la primera casa perfecta en Canton, una joya escondida en el sur de los Apalaches. Pero al agente inmobiliario le preocupa que una casa con garaje para dos coches sea demasiado pedir en este pequeño pueblo.</desc>
-    <episode-num>S2 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Nuestro hogar en la montaña</title>
-    <title lang="en">Mountain Life</title>
   </programme>
   <programme start="20260921090000 +0000" stop="20260921092500 +0000" channel="Tooncast.cl">
     <title lang="es">Mansión foster para amigos imaginarios</title>
@@ -31570,15 +31530,15 @@ Una pareja joven busca la primera casa perfecta en Canton, una joya escondida en
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260921090000 +0000" stop="20260921120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260921090000 +0000" stop="20260921120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260921090000 +0000" stop="20260921120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260921090100 +0000" stop="20260921105300 +0000" channel="Golden.cl">
     <title lang="es">El gran pequeño</title>
@@ -31680,14 +31640,6 @@ Repetición</title>
   </programme>
   <programme start="20260921092100 +0000" stop="20260921120800 +0000" channel="GoldenEdge.cl">
     <title lang="es">Intriga</title>
-  </programme>
-  <programme start="20260921092300 +0000" stop="20260921094700 +0000" channel="HGTV.ar">
-    <desc lang="es">S8 E5 — Tres casas de vacaciones
-El diseñador de interiores Vern Yip y un agente inmobiliario local están evaluando las reformas de tres casas de vacaciones valoradas en 80.000 dólares en Hilton Head Island, Carolina del Sur.</desc>
-    <episode-num>S8 E5</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">La mejor inversión</title>
-    <title lang="en">Bang for Your Buck</title>
   </programme>
   <programme start="20260921092400 +0000" stop="20260921101000 +0000" channel="Discovery.cl">
     <title lang="es">Fiebre del oro</title>
@@ -31935,14 +31887,6 @@ El diseñador de interiores Vern Yip y un agente inmobiliario local están evalu
     <sub-title lang="es">Un peligro para la sociedad</sub-title>
     <episode-num system="onscreen">S1 E67</episode-num>
   </programme>
-  <programme start="20260921094700 +0000" stop="20260921101000 +0000" channel="HGTV.ar">
-    <desc lang="es">S2 E6 — Una yurta en el bosque
-Nathan y Jenny desean construir una yurta en su propiedad de Oahu. Sin embargo, cuando la lluvia y el lodo demoran la construcción, Nathan y Jenny trabajan contra reloj para finalizar la yurta a tiempo.</desc>
-    <episode-num>S2 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/6-LZ8fpZBgv4fyXPkuxqIJVpZ56A8cj5FJw-F7cHxSAEfaKWBgZXfmLkRKxOG_UoXf7pXiFh2eAY2eRQ3ZD6VTX1zxSaBrhRyfhwSGqSii-cB4Gr1VCuODlJ41xwIFxiqVWS8_dWFa7Bu3qwEJwVLdEdaPOEFKJy5psAQeLz" />
-    <title lang="es">Supercasas ecológicas</title>
-    <title lang="en">Love Yurts</title>
-  </programme>
   <programme start="20260921094700 +0000" stop="20260921103400 +0000" channel="History.cl">
     <title lang="es">Gigantes de la industria megamarcas</title>
   </programme>
@@ -31992,11 +31936,6 @@ Repetición</title>
   <programme start="20260921095600 +0000" stop="20260921104400 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title lang="es">Dra. Sandra Lee Directo al grano</title>
     <episode-num system="onscreen">E6</episode-num>
-  </programme>
-  <programme start="20260921100000 +0000" stop="20260921120000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">Atlético de Madrid vs. Real Madrid</title>
   </programme>
   <programme start="20260921100000 +0000" stop="20260921101500 +0000" channel="DisneyChannel.cl">
     <title lang="es">Las Aventuras de Pilar</title>
@@ -32203,14 +32142,6 @@ Repetición</title>
   </programme>
   <programme start="20260921100600 +0000" stop="20260921110000 +0000" channel="AE.cl">
     <title lang="es">Rashash</title>
-  </programme>
-  <programme start="20260921101000 +0000" stop="20260921105700 +0000" channel="HGTV.ar">
-    <desc lang="es">S3 E5 — Expansión emocionante en el lago Oneida
-Una pareja del estado de Nueva York sueña con comprar una casa a orillas del lago Oneida. Sin embargo, encontrar una propiedad asequible que tenga vista al agua y mucho espacio para su familia puede ser un plan algo ambicioso.</desc>
-    <episode-num>S3 E5</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Nuestro hogar frente al lago: renovación</title>
-    <title lang="en">Lakefront Bargain Hunt Renovation</title>
   </programme>
   <programme start="20260921101000 +0000" stop="20260921110000 +0000" channel="AnimalPlanet.cl">
     <title lang="es">Alaska hombres primitivos</title>
@@ -32590,20 +32521,6 @@ Repetición</title>
   </programme>
   <programme start="20260921105600 +0000" stop="20260921114400 +0000" channel="Discovery.cl">
     <title lang="es">Operación Alaska</title>
-  </programme>
-  <programme start="20260921105700 +0000" stop="20260921114400 +0000" channel="HGTV.ar">
-    <desc lang="es">S7 E6 — Cocinas deslumbrantes
-Los diseñadores compiten para crear cocinas de diseño dignas de aparecer en la televisión.</desc>
-    <episode-num>S7 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/N1cafk2rJoyr11HH9cUPH8-Cf4tRmp41deTy5EH5qbEeN8jQxMuH2uJyxt2u-MTU8qJ_U1ghSTbne319rgbprSkZ7Bd-qeDgK3c2C-k5Blqjw8GZTTfRX0IsE30ggZULXJyZhsErTQMUMcE--embUH1fZqpNuAI_Q7J47iJrx-kiIlq_Arb12Sih" />
-    <title lang="es">La búsqueda del diseñador estrella</title>
-    <title lang="en">HGTV Design Star</title>
-  </programme>
-  <programme start="20260921110000 +0000" stop="20260921113000 +0000" channel="24Horas.cl">
-    <desc lang="es">Salud
-Un espacio que aborda diversos temas relacionados con la salud a través de consejos, tips y reflexiones de especialistas.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">Especialista</title>
   </programme>
   <programme start="20260921110000 +0000" stop="20260921112500 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Mini beat power rockers</title>
@@ -33057,12 +32974,6 @@ Repetición</title>
     <sub-title lang="es">Los Supergatitos y el buru embrollo; Los Supergatitos en una situación palilluda</sub-title>
     <episode-num system="onscreen">S1 E11</episode-num>
   </programme>
-  <programme start="20260921113000 +0000" stop="20260921134500 +0000" channel="24Horas.cl">
-    <desc lang="es">Noticiero
-Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
-    <icon src="https://iptv-epg.org/images/s8n9u7d5p-QkWop4cnnhrV1GG_gXiAxZn0dlS8m1aDVzIP4A-zWuUgmwpiizIdqn3VmSsEl-RJV6XdfbGzzNjYk6wI1NfN3xZ0FmbiheCfr_gBZ04U_sV8Lm8dtsOoAX" />
-    <title lang="es">La mañana informativa</title>
-  </programme>
   <programme start="20260921113000 +0000" stop="20260921120000 +0000" channel="DisneyChannel.cl">
     <title lang="es">Los Vecinos Green</title>
     <desc lang="es">¡Cricket Green se mudará a la gran ciudad! Junto con su hermana mayor, Tilly, su padre Bill y la salvaje abuela Alice, estos simples campesinos deben aprender a vivir en una metrópolis bulliciosa. La curiosidad y el entusiasmo de Cricket llevan a su familia salvajemente fuera de lugar en viajes épicos y en los corazones de sus nuevos vecinos. ¡Nunca hay un día aburrido para una familia pequeña que puede encontrar grandes aventuras sin importar dónde se encuentren!</desc>
@@ -33196,14 +33107,6 @@ Espacio informativo en el que se abordan los acontecimientos más relevantes de 
   <programme start="20260921114000 +0000" stop="20260921120000 +0000" channel="AE.cl">
     <title lang="es">¿Quién da más?</title>
   </programme>
-  <programme start="20260921114400 +0000" stop="20260921122800 +0000" channel="HGTV.ar">
-    <desc lang="es">S5 E8 — Envuelta, brillosa, rocas
-Esta increíble variedad de casas de todo el mundo incluye una casa australiana tan reluciente que parece un avión, una casa en Corea del Sur envuelta para evitar miradas indiscretas y una casa en Malibú que ha resurgido de las cenizas.</desc>
-    <episode-num>S5 E8</episode-num>
-    <icon src="https://iptv-epg.org/images/N2nUPiXF3FnsinYapk77uQGgKnlyKczRNHxui5fr0WFIS_z1u9hRidyB2mi6EPhoy8yrEIzvY6L0KEaPfE3PLsUGwF6iRqWOu6D6d25hbvYgznfiGuj33AuJA6HA6HK7y6a80aELRJg7AT692ykoesvw1dXyD12iND9W8Q" />
-    <title lang="es">Hogares increíbles</title>
-    <title lang="en">Extreme Homes</title>
-  </programme>
   <programme start="20260921114400 +0000" stop="20260921123200 +0000" channel="Discovery.cl">
     <title lang="es">Vidas remotas</title>
   </programme>
@@ -33325,10 +33228,6 @@ Repetición</title>
   </programme>
   <programme start="20260921115200 +0000" stop="20260921121700 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Jorge, el curioso</title>
-  </programme>
-  <programme start="20260921120000 +0000" stop="20260921123000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Documentary</category>
-    <title lang="es">Liga-copas 2013/14, parte 2</title>
   </programme>
   <programme start="20260921120000 +0000" stop="20260921122000 +0000" channel="Nick.cl">
     <title lang="es">Los Marsupilamis</title>
@@ -33493,15 +33392,15 @@ Repetición</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260921120000 +0000" stop="20260921150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260921120000 +0000" stop="20260921150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260921120000 +0000" stop="20260921150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260921120100 +0000" stop="20260921120800 +0000" channel="Tooncast.cl">
     <title lang="es">Hi Hi Puffy Amiyumi</title>
@@ -33749,20 +33648,8 @@ Repetición</title>
       <value>5.0</value>
     </star-rating>
   </programme>
-  <programme start="20260921122800 +0000" stop="20260921125000 +0000" channel="HGTV.ar">
-    <desc lang="es">S3 E6 — Casa de montaña en Carolina del Sur
-Una pareja de Phoenix, Arizona, busca una vivienda en las montañas de Carolina del Sur. Él quiere un estudio en el que pueda trabajar en sus composiciones musicales, y ella espera poder dejar su impronta en la decoración de la casa.</desc>
-    <episode-num>S3 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Nuestro hogar en la montaña</title>
-    <title lang="en">Mountain Life</title>
-  </programme>
   <programme start="20260921122800 +0000" stop="20260921123700 +0000" channel="Tooncast.cl">
     <title lang="es">Hi Hi Puffy Amiyumi</title>
-  </programme>
-  <programme start="20260921123000 +0000" stop="20260921130000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">default</category>
-    <title lang="es">Laliga: Sevilla vs. Barcelona</title>
   </programme>
   <programme start="20260921123000 +0000" stop="20260921130000 +0000" channel="DisneyChannel.cl">
     <title lang="es">Amphibia</title>
@@ -33890,14 +33777,6 @@ Una pareja de Phoenix, Arizona, busca una vivienda en las montañas de Carolina 
     <sub-title lang="es">Madre Desaparecida</sub-title>
     <episode-num system="onscreen">S4 E3</episode-num>
   </programme>
-  <programme start="20260921125000 +0000" stop="20260921131400 +0000" channel="HGTV.ar">
-    <desc lang="es">S2 E14 — Retiro a la montaña de Tennessee
-Una reconocida y exitosa escritora y su esposo buscan un nuevo hogar en Signal Mountain, Tennessee. Ella necesita paz y tranquilidad para escribir, y él quiere ser bombero voluntario en un cuartel local.</desc>
-    <episode-num>S2 E14</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Nuestro hogar en la montaña</title>
-    <title lang="en">Mountain Life</title>
-  </programme>
   <programme start="20260921125000 +0000" stop="20260921130100 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Escandalositos</title>
     <sub-title lang="es">Sin tierra, solo aire</sub-title>
@@ -33924,10 +33803,6 @@ Una reconocida y exitosa escritora y su esposo buscan un nuevo hogar en Signal M
   </programme>
   <programme start="20260921125600 +0000" stop="20260921131100 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Polly Pocket</title>
-  </programme>
-  <programme start="20260921130000 +0000" stop="20260921133000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Documentary</category>
-    <title lang="es">Especial Maradona: Errar es humano</title>
   </programme>
   <programme start="20260921130000 +0000" stop="20260921132000 +0000" channel="Nick.cl">
     <title lang="es">The Loud House</title>
@@ -34180,14 +34055,6 @@ Una reconocida y exitosa escritora y su esposo buscan un nuevo hogar en Signal M
       <value>7.0</value>
     </star-rating>
   </programme>
-  <programme start="20260921131400 +0000" stop="20260921140200 +0000" channel="HGTV.ar">
-    <desc lang="es">S1 E6 — ¿Misión imposible?
-Con el tiempo agotándose, EJ, Jason, Dani y Jon deben decidir si terminar el desafío o irse a casa. Además, EJ y Jason buscan mejorar su casa para venderla mientras que Dani y Jon presionan para vender su casa rápido.</desc>
-    <episode-num>S1 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">De mil a un millón</title>
-    <title lang="en">Flip to a Million</title>
-  </programme>
   <programme start="20260921131400 +0000" stop="20260921131500 +0000" channel="Tooncast.cl">
     <title lang="es">Sheep en la Gran Ciudad</title>
   </programme>
@@ -34349,11 +34216,6 @@ Con el tiempo agotándose, EJ, Jason, Dani y Jon deben decidir si terminar el de
   <programme start="20260921132800 +0000" stop="20260921133100 +0000" channel="Tooncast.cl">
     <title lang="es">Sheep en la Gran Ciudad</title>
   </programme>
-  <programme start="20260921133000 +0000" stop="20260921153000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">FC Porto vs. Benfica</title>
-  </programme>
   <programme start="20260921133000 +0000" stop="20260921140000 +0000" channel="DisneyChannel.cl">
     <title lang="es">El fantasma y Molly McGee</title>
   </programme>
@@ -34500,12 +34362,6 @@ Con el tiempo agotándose, EJ, Jason, Dani y Jon deben decidir si terminar el de
   </programme>
   <programme start="20260921134100 +0000" stop="20260921151600 +0000" channel="HBOXtreme.cl">
     <title lang="es">Sisu Camino a la venganza</title>
-  </programme>
-  <programme start="20260921134500 +0000" stop="20260921140000 +0000" channel="24Horas.cl">
-    <desc lang="es">Noticiero
-Ponemos en contexto la actualidad internacional y analizamos el contexto de los hechos. Hablamos con especialistas para conocer todos los ángulos de la noticia y presentamos todo con un lenguaje para acercar a los más jóvenes.</desc>
-    <icon src="https://iptv-epg.org/images/4NN61gqMSrsqxYGBZMmBf3BgxJNTnEdLPxIpfgKowgDweilFdw3W6rrJqhkZthukATDXzvOZKUKbuebY08dVHskWE4_a1cNCBV35bAk0q1yzyLXldE-e" />
-    <title lang="es">DW analiza</title>
   </programme>
   <programme start="20260921134500 +0000" stop="20260921140800 +0000" channel="DiscoveryKids.cl">
     <title lang="es">Peppa Pig</title>
@@ -34700,12 +34556,6 @@ Ponemos en contexto la actualidad internacional y analizamos el contexto de los 
       <value>7.0</value>
     </star-rating>
   </programme>
-  <programme start="20260921140000 +0000" stop="20260921153000 +0000" channel="24Horas.cl">
-    <desc lang="es">Noticiero
-Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
-    <icon src="https://iptv-epg.org/images/s8n9u7d5p-QkWop4cnnhrV1GG_gXiAxZn0dlS8m1aDVzIP4A-zWuUgmwpiizIdqn3VmSsEl-RJV6XdfbGzzNjYk6wI1NfN3xZ0FmbiheCfr_gBZ04U_sV8Lm8dtsOoAX" />
-    <title lang="es">La mañana informativa</title>
-  </programme>
   <programme start="20260921140000 +0000" stop="20260921143000 +0000" channel="DisneyChannel.cl">
     <title lang="es">StuGo Campamento de verano</title>
   </programme>
@@ -34867,14 +34717,6 @@ Espacio informativo en el que se abordan los acontecimientos más relevantes de 
     <title lang="es">Bluey</title>
     <sub-title lang="es">TV Shop</sub-title>
     <episode-num system="onscreen">S3 E45</episode-num>
-  </programme>
-  <programme start="20260921140200 +0000" stop="20260921142600 +0000" channel="HGTV.ar">
-    <desc lang="es">S8 E5 — Tres casas de vacaciones
-El diseñador de interiores Vern Yip y un agente inmobiliario local están evaluando las reformas de tres casas de vacaciones valoradas en 80.000 dólares en Hilton Head Island, Carolina del Sur.</desc>
-    <episode-num>S8 E5</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">La mejor inversión</title>
-    <title lang="en">Bang for Your Buck</title>
   </programme>
   <programme start="20260921140200 +0000" stop="20260921141300 +0000" channel="Tooncast.cl">
     <title lang="es">Las maravillosas desventuras de Flapjack</title>
@@ -35045,14 +34887,6 @@ El diseñador de interiores Vern Yip y un agente inmobiliario local están evalu
   </programme>
   <programme start="20260921142500 +0000" stop="20260921161700 +0000" channel="Space.cl">
     <title lang="es">Una Pareja Explosiva 3</title>
-  </programme>
-  <programme start="20260921142600 +0000" stop="20260921145000 +0000" channel="HGTV.ar">
-    <desc lang="es">S5 E6 — Los sueños se hacen realidad
-Una pareja rusa de Carolina del Norte nunca soñó que compraría una casa de vacaciones en las Bahamas y ahora están explorando Long Island para encontrar su hogar tropical.</desc>
-    <episode-num>S5 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/TvSBn3gOQ61szdY83Zb2RBAaUnXoPf239xT-RlzzAcSknf4b3gi_3K_x-1xRkBhe1niix4MIkzeQPU4sa3gmyVCrVgJ0JxiDQ837DVrd0v1ESAaTltPDLldmf3CaKVQmBhr7tt9mwCyLKvYQfAmT59rn7oSrEUg5EQrw7geK5YHVDxqi0aSmB1eD9A" />
-    <title lang="es">Nuestro hogar en las Bahamas</title>
-    <title lang="en">Bahamas Life</title>
   </programme>
   <programme start="20260921142600 +0000" stop="20260921143700 +0000" channel="Tooncast.cl">
     <title lang="es">Los pequeños Looney Tunes</title>
@@ -35228,14 +35062,6 @@ Una pareja rusa de Carolina del Norte nunca soñó que compraría una casa de va
     <star-rating system="MX">
       <value>7.0</value>
     </star-rating>
-  </programme>
-  <programme start="20260921145000 +0000" stop="20260921153700 +0000" channel="HGTV.ar">
-    <desc lang="es">S1 E6 — Niños y caos
-A una familia le encanta poder vivir al lado del abuelo, pero su casa ha sido invadida por el desorden de sus hijos. Kim llega para ayudarlos a crear un espacio personal y hacer que la casa funcione.</desc>
-    <episode-num>S1 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/kIOYHSggl0RmGBEtFH0Qclz6hVom3eiIwADyqYdordUQ_xQ8TIf8NokRgNWNyd_a1KiCz0oLaf26P9spuPcqmvRIz6i0O81aI6GG5IdC1lOdrZa36RcDnJpj13WawtzobVBooDhAAqUZTpXQ6cnfnGK9Gu8RFpg" />
-    <title lang="es">¿Por qué compré esta casa?</title>
-    <title lang="en">Why the Heck Did I Buy This House?</title>
   </programme>
   <programme start="20260921145000 +0000" stop="20260921150000 +0000" channel="Nick.cl">
     <title lang="es">El show de Patricio Estrella</title>
@@ -35487,15 +35313,15 @@ A una familia le encanta poder vivir al lado del abuelo, pero su casa ha sido in
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260921150000 +0000" stop="20260921180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260921150000 +0000" stop="20260921180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260921150000 +0000" stop="20260921180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260921150200 +0000" stop="20260921151600 +0000" channel="CartoonNetwork.cl">
     <title lang="es">Los Jóvenes Titanes En Acción</title>
@@ -35730,11 +35556,6 @@ A una familia le encanta poder vivir al lado del abuelo, pero su casa ha sido in
     <sub-title lang="es">Día de Atlántica; Espíritu ganador</sub-title>
     <episode-num system="onscreen">S1 E1</episode-num>
   </programme>
-  <programme start="20260921153000 +0000" stop="20260921160000 +0000" channel="24Horas.cl">
-    <desc lang="es">Conoce las novedades de la industria automotriz y actualízate con la información de los principales eventos motorsport.</desc>
-    <icon src="https://iptv-epg.org/images/QejRHFF7OO3gPtEHko28PhRf2Dxu0LlIcJ20PYfK_NcR0eyXHchzhAMzu2oGt9mgSAvPA2J3qUEBFRZnFLNT-NS-9JPOcCzuGNXLlS7mzXoupmEn-QixONxvBkSnJJ31AN0" />
-    <title lang="es">Más motor</title>
-  </programme>
   <programme start="20260921153000 +0000" stop="20260921160000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">default</category>
     <title lang="es">Laliga: Sevilla vs. Barcelona</title>
@@ -35845,14 +35666,6 @@ A una familia le encanta poder vivir al lado del abuelo, pero su casa ha sido in
     <star-rating system="MX">
       <value>8.0</value>
     </star-rating>
-  </programme>
-  <programme start="20260921153700 +0000" stop="20260921160000 +0000" channel="HGTV.ar">
-    <desc lang="es">S3 E6 — Sonrían con Curtis Stone, Thom Filicia y Kathy Hilton
-Nancy O'Dell aprende a hacer pizza en la casa de Hollywood del chef Curtis Stone. El diseñador Thom Filicia muestra su acogedora casa en el lago. La socialité Kathy Hilton hace un recorrido por su elegante piso de Los Ángeles.</desc>
-    <episode-num>S3 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/H5SZ6z0uFl9edRXYTSFRRVQydYwx-AuXWSNnfnGf5bgV1T8Ao4na83OxjAfJOxVPyXnVjhOyPu_wdoW-Hej1L1pYVWPWOdtaq-Mpi2HcY77gE--BbniBG3WFuxO-IbPWqYu_saZXCW0PwpTA3kkqvu0k7YpL9A3Sj7E10w1HgYFudKO1ew1SO0q01F7m_atl1lodEIHEfwvTq5-ltkABfOYJgA" />
-    <title lang="es">El hogar de las celebridades</title>
-    <title lang="en">Celebrities at Home</title>
   </programme>
   <programme start="20260921154000 +0000" stop="20260921160300 +0000" channel="WarnerChannel.cl">
     <title lang="es">Two and a Half Men</title>
@@ -36006,23 +35819,9 @@ Nancy O'Dell aprende a hacer pizza en la casa de Hollywood del chef Curtis Stone
   <programme start="20260921155800 +0000" stop="20260921180100 +0000" channel="FX.cl">
     <title lang="es">Todopoderoso</title>
   </programme>
-  <programme start="20260921160000 +0000" stop="20260921180000 +0000" channel="24Horas.cl">
-    <desc lang="es">Noticiero
-Conoce los detalles más resaltantes sobre los últimos acontecimientos ocurridos en Chile, América Latina y el mundo, en este segmento especial, donde te presentamos un resumen con informaciones referidas a diversos ámbitos.</desc>
-    <icon src="https://iptv-epg.org/images/ACzUocTRAnqh58jUT0U1_knxTHQLPdq5AP7hKcoBnfuXcVZP5643L1MI1-e_nXhGAUW6nkpKVqD6ylt530Rj67Yde1hmkTY2tOvEgQ4Y44Ew2epaoHtsNbDz" />
-    <title lang="es">24 horas al día</title>
-  </programme>
   <programme start="20260921160000 +0000" stop="20260921190000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Talk</category>
     <title lang="es">DSPORTS Noticias</title>
-  </programme>
-  <programme start="20260921160000 +0000" stop="20260921162300 +0000" channel="HGTV.ar">
-    <desc lang="es">S2 E2 — Una yurta en el paraíso
-Nathan y Jenny construyen una yurta en una granja y lo hacen con una madera extraña que solo se consigue en Hawái para clientes decididos a vivir completamente desconectados. Además, ellos desean vivir únicamente de su granja y pescado.</desc>
-    <episode-num>S2 E2</episode-num>
-    <icon src="https://iptv-epg.org/images/gDvkDnPvgSjiytoVu5S9uphPJ0_ll-7caIICNFFMYRyh_cvbSpGONKLTA7DttJyjbbC16oNvdVpDZOfyBmfMiy3Vyms2-wAWBs7zXnxfXjqD73DARel5VZbc9_ma5TCWPcBjFAhPOHOB2S1C-ZpGN-rG103SlRgPt-OrQyPOcA" />
-    <title lang="es">Supercasas ecológicas</title>
-    <title lang="en">Love Yurts</title>
   </programme>
   <programme start="20260921160000 +0000" stop="20260921163000 +0000" channel="DisneyChannel.cl">
     <title lang="es">Los hechiceros de Waverly Place</title>
@@ -37424,15 +37223,15 @@ Andrés Vial y Valentina Reyes nos invitan a sumergirnos en el mundo de los libr
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260921180000 +0000" stop="20260921210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260921180000 +0000" stop="20260921210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260921180000 +0000" stop="20260921210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260921180100 +0000" stop="20260921203800 +0000" channel="FX.cl">
     <title lang="es">Hombres de honor</title>
@@ -39376,15 +39175,15 @@ Los antiguos propietarios de viviendas en Nueva Jersey están cansados de usar c
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260921210000 +0000" stop="20260922000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260921210000 +0000" stop="20260922000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260921210000 +0000" stop="20260922000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260921210200 +0000" stop="20260921213000 +0000" channel="DisneyJunior.cl">
     <title lang="es">Bluey</title>
@@ -41313,15 +41112,15 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260922000000 +0000" stop="20260922030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260922000000 +0000" stop="20260922030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260922000000 +0000" stop="20260922030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260922000100 +0000" stop="20260922003300 +0000" channel="DisneyJunior.cl">
     <title lang="es">Iron Man y sus increíbles amigos</title>
@@ -42707,15 +42506,15 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260922030000 +0000" stop="20260922060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260922030000 +0000" stop="20260922060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260922030000 +0000" stop="20260922060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260922030100 +0000" stop="20260922031100 +0000" channel="Tooncast.cl">
     <title lang="es">Los pequeños Looney Tunes</title>
@@ -43778,15 +43577,15 @@ Repetición</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260922060000 +0000" stop="20260922090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260922060000 +0000" stop="20260922090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260922060000 +0000" stop="20260922090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260922060100 +0000" stop="20260922064900 +0000" channel="InvestigationDiscovery.cl">
     <title lang="es">Casos infames: Aaron Hernandez</title>
@@ -45108,15 +44907,15 @@ Una familia de cinco personas busca un refugio en la montaña en Kirkwood, Calif
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260922090000 +0000" stop="20260922120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260922090000 +0000" stop="20260922120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260922090000 +0000" stop="20260922120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260922090500 +0000" stop="20260922093000 +0000" channel="Nick.cl">
     <title lang="es">Fuerza Danger</title>
@@ -46485,15 +46284,15 @@ En la cocina celebra el otoño con los dos ingredientes estrella de la temporada
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260922120000 +0000" stop="20260922150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260922120000 +0000" stop="20260922150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260922120000 +0000" stop="20260922150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260922120600 +0000" stop="20260922121300 +0000" channel="Tooncast.cl">
     <title lang="es">Hi Hi Puffy Amiyumi</title>
@@ -47614,15 +47413,15 @@ Una pareja se enamoró de la sensación nostálgica de su hogar, pero la combina
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260922150000 +0000" stop="20260922180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260922150000 +0000" stop="20260922180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260922150000 +0000" stop="20260922180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260922150200 +0000" stop="20260922151300 +0000" channel="Tooncast.cl">
     <title lang="es">Los pequeños Looney Tunes</title>
@@ -48816,15 +48615,15 @@ Un programa sobre evangelismo, ayuda comunitaria y reflexiones sobre las enseña
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260922180000 +0000" stop="20260922210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260922180000 +0000" stop="20260922210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260922180000 +0000" stop="20260922210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260922180700 +0000" stop="20260922201500 +0000" channel="HBO.cl">
     <title lang="es">Escape bajo fuego</title>
@@ -49947,15 +49746,15 @@ Los pasteleros celebran los colores vivos de la primavera cuando Ali Khan los de
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260922210000 +0000" stop="20260923000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260922210000 +0000" stop="20260923000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260922210000 +0000" stop="20260923000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260922210200 +0000" stop="20260922213000 +0000" channel="DisneyJunior.cl">
     <title lang="es">Bluey</title>
@@ -51208,15 +51007,15 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260923000000 +0000" stop="20260923030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260923000000 +0000" stop="20260923030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260923000000 +0000" stop="20260923030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260923000200 +0000" stop="20260923000900 +0000" channel="Tooncast.cl">
     <title lang="es">Hi Hi Puffy Amiyumi</title>
@@ -52306,15 +52105,15 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260923030000 +0000" stop="20260923060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260923030000 +0000" stop="20260923060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260923030000 +0000" stop="20260923060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260923030400 +0000" stop="20260923031400 +0000" channel="Tooncast.cl">
     <title lang="es">Los pequeños Looney Tunes</title>
@@ -52797,15 +52596,15 @@ Una pareja se enamoró de la sensación nostálgica de su hogar, pero la combina
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260923060000 +0000" stop="20260923090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260923060000 +0000" stop="20260923090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260923060000 +0000" stop="20260923090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260923061300 +0000" stop="20260923081300 +0000" channel="HBO.cl">
     <title lang="es">Se lo que hicieron el verano pasado</title>
@@ -53013,15 +52812,15 @@ Un nuevo grupo de jóvenes chefs trae su entusiasmo a la cocina de Chopped y com
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260923090000 +0000" stop="20260923120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260923090000 +0000" stop="20260923120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260923090000 +0000" stop="20260923120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260923091500 +0000" stop="20260923094500 +0000" channel="ESPN2.cl">
     <title lang="es">FIM Road Racing World Championship Highlights</title>
@@ -53158,15 +52957,15 @@ El presentador Eric Adjepong invita a los jueces estrella de Chopped, Maneet Cha
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260923120000 +0000" stop="20260923150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260923120000 +0000" stop="20260923150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260923120000 +0000" stop="20260923150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260923122700 +0000" stop="20260923125000 +0000" channel="HGTV.ar">
     <desc lang="es">S3 E8 — Refugio para escaladores en Tucson, Arizona
@@ -53309,15 +53108,15 @@ El jardín de ensueño de una pareja vino con una casa adjunta que es una pesadi
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260923150000 +0000" stop="20260923180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260923150000 +0000" stop="20260923180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260923150000 +0000" stop="20260923180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260923150500 +0000" stop="20260923153000 +0000" channel="FOODNETWORK.uy">
     <date>2011</date>
@@ -53494,15 +53293,15 @@ Una pareja está lista para cambiar su apartamento por una casa con mucho terren
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260923180000 +0000" stop="20260923210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260923180000 +0000" stop="20260923210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260923180000 +0000" stop="20260923210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260923182100 +0000" stop="20260923191000 +0000" channel="FOODNETWORK.uy">
     <date>2015</date>
@@ -53626,15 +53425,15 @@ Bobby Flay invita a la prometedora chef Ashleigh Shanti a enfrentarse a los Tita
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260923210000 +0000" stop="20260924000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260923210000 +0000" stop="20260924000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260923210000 +0000" stop="20260924000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260923210400 +0000" stop="20260923212800 +0000" channel="HGTV.ar">
     <desc lang="es">S2 E2 — Cocina urbana
@@ -53764,15 +53563,15 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260924000000 +0000" stop="20260924030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260924000000 +0000" stop="20260924030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260924000000 +0000" stop="20260924030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260924000400 +0000" stop="20260924005300 +0000" channel="FOODNETWORK.uy">
     <category lang="es">Reality</category>
@@ -53949,15 +53748,15 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260924030000 +0000" stop="20260924060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260924030000 +0000" stop="20260924060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260924030000 +0000" stop="20260924060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260924031900 +0000" stop="20260924040700 +0000" channel="FOODNETWORK.uy">
     <category lang="es">Reality</category>
@@ -54125,15 +53924,15 @@ El jardín de ensueño de una pareja vino con una casa adjunta que es una pesadi
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260924060000 +0000" stop="20260924090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260924060000 +0000" stop="20260924090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260924060000 +0000" stop="20260924090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260924060100 +0000" stop="20260924064500 +0000" channel="FOODNETWORK.uy">
     <category lang="es">Reality</category>
@@ -54312,15 +54111,15 @@ El chef Eric Adjepong luce una gran sonrisa mientras se enfrenta a sus amigos, l
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260924090000 +0000" stop="20260924120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260924090000 +0000" stop="20260924120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260924090000 +0000" stop="20260924120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260924092300 +0000" stop="20260924094600 +0000" channel="HGTV.ar">
     <desc lang="es">S8 E8 — Santuarios privados en Miami
@@ -54461,15 +54260,15 @@ En la cocina despierta tu rutina de desayuno con recetas dulces y saladas, que i
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260924120000 +0000" stop="20260924150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260924120000 +0000" stop="20260924150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260924120000 +0000" stop="20260924150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260924122700 +0000" stop="20260924125000 +0000" channel="HGTV.ar">
     <desc lang="es">S3 E9 — Casa en las montañas de Flagstaff, Arizona
@@ -54602,15 +54401,15 @@ Después de años de trabajar juntos, una pareja está desesperada por encontrar
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260924150000 +0000" stop="20260924180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260924150000 +0000" stop="20260924180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260924150000 +0000" stop="20260924180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260924150500 +0000" stop="20260924153000 +0000" channel="FOODNETWORK.uy">
     <date>2017</date>
@@ -54789,15 +54588,15 @@ Programa sobre las noticias de los próximos estrenos del cine.</desc>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260924180000 +0000" stop="20260924210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260924180000 +0000" stop="20260924210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260924180000 +0000" stop="20260924210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260924181500 +0000" stop="20260924183000 +0000" channel="24Horas.cl">
     <desc lang="es">Entrevista
@@ -54947,15 +54746,15 @@ Ali Khan desafía a los pasteleros a crear hermosos huevos comestibles con un sa
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260924210000 +0000" stop="20260925000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260924210000 +0000" stop="20260925000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20260924210000 +0000" stop="20260925000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260924210400 +0000" stop="20260924212800 +0000" channel="HGTV.ar">
     <desc lang="es">S2 E3 — Cocina rústica del chef
