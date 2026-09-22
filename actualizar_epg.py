@@ -153,7 +153,7 @@ MAPEO_IDS = {
     'Canal.Elgourmet.cl': 'ElGourmet.cl',
     'Canal.History.(Chile).cl': 'History.cl',
     'Canal.History.2.(Chile).cl': 'History2.cl1',
-    'Canal.Investigation.Discovery.(Chile).cl': 'InvestigationDiscovery.cl',
+    'Canal.Investigation.Discovery.(México).mx': 'InvestigationDiscovery.cl',
     'Canal.National.Geographic.(Chile).cl': 'NationalGeographic.cl',
     'Canal.Animal.Planet.(Chile).cl': 'AnimalPlanet.cl',
     'Canal.Discovery.Channel.(Chile).cl': 'Discovery.cl',
