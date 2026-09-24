@@ -48656,11 +48656,6 @@ Repetición</title>
     <sub-title lang="es">Timothy Boczkowski</sub-title>
     <episode-num system="onscreen">S2 E3</episode-num>
   </programme>
-  <programme start="20260923000000 +0000" stop="20260923030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260923000000 +0000" stop="20260923030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -48669,6 +48664,11 @@ Repetición</title>
   <programme start="20260923000000 +0000" stop="20260923030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260923000000 +0000" stop="20260923030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260923000200 +0000" stop="20260923000900 +0000" channel="Tooncast.cl">
@@ -49597,11 +49597,6 @@ Repetición</title>
     <sub-title lang="es">Vadeando en el agua</sub-title>
     <episode-num system="onscreen">S4 E4</episode-num>
   </programme>
-  <programme start="20260923030000 +0000" stop="20260923060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260923030000 +0000" stop="20260923060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -49610,6 +49605,11 @@ Repetición</title>
   <programme start="20260923030000 +0000" stop="20260923060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260923030000 +0000" stop="20260923060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260923030400 +0000" stop="20260923031400 +0000" channel="Tooncast.cl">
@@ -49921,11 +49921,6 @@ Repetición</title>
   <programme start="20260923044500 +0000" stop="20260923051000 +0000" channel="ComedyCentral.cl">
     <title lang="es">Ugly Americans</title>
   </programme>
-  <programme start="20260923060000 +0000" stop="20260923090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260923060000 +0000" stop="20260923090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -49936,13 +49931,13 @@ Repetición</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
+  <programme start="20260923060000 +0000" stop="20260923090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260923061300 +0000" stop="20260923081300 +0000" channel="HBO.cl">
     <title lang="es">Se lo que hicieron el verano pasado</title>
-  </programme>
-  <programme start="20260923080000 +0000" stop="20260923090000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">De Fútbol Se Habla Así Chile</title>
   </programme>
   <programme start="20260923081300 +0000" stop="20260923103200 +0000" channel="HBO.cl">
     <title lang="es">Van Helsing: El Cazador de Monstruos</title>
@@ -49970,51 +49965,6 @@ Repetición</title>
       <value>6.0</value>
     </star-rating>
   </programme>
-  <programme start="20260923081700 +0000" stop="20260923083900 +0000" channel="HGTV.ar">
-    <desc lang="es">S8 E6 — Las pequeñas casas de Savannah
-El diseñador Vern Yip y un agente de bienes raíces local analizan tres renovaciones de casas de $50,000 en Savannah, Georgia.</desc>
-    <episode-num>S8 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">La mejor inversión</title>
-    <title lang="en">Bang for Your Buck</title>
-  </programme>
-  <programme start="20260923083000 +0000" stop="20260923090000 +0000" channel="24Horas.cl">
-    <desc lang="es">Noticiero
-Espacio matutino de noticias, con toda la información de la jornada.</desc>
-    <icon src="https://iptv-epg.org/images/5_BRhSW0WUF3kuAnWsZT6kErCOZT6i6Wokwevq0SckftelTKSsnLwoYBtxxyyz7n6CWaXlyoyw7juACggJjmYz-Zktr4tF2UJbzeA1PUBQUkmKjW" />
-    <title lang="es">La previa</title>
-  </programme>
-  <programme start="20260923083900 +0000" stop="20260923090000 +0000" channel="HGTV.ar">
-    <desc lang="es">S3 E6 — Loft de Hollywood
-El diseño moderno se mezcla con la estructura tradicional para transformar un oscuro loft de Hollywood. La habitación se divide en una oficina, un comedor y una sala de estar con una barra de madera, arte personalizado y colores brillantes.</desc>
-    <episode-num>S3 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/sxS9qGVk9hRwY3r0KyUcU6rURJTIgEz7iwW9xBIhN7pJw96p4oB_KVTPemhBnoq2C9AZbiTitPoQJhBl5oBND4Hgy0n206yT-uE5XQ3-ei9DIxUtDC5_yzSGdL2d29iIMDCfHUHv4S1wScB0fNObmzBzm96hv171DgsMseXuvRSJ8WV2oo7c-dA" />
-    <title lang="es">Remodelación sorpresa: puertas adentro</title>
-    <title lang="en">Room Crashers</title>
-  </programme>
-  <programme start="20260923090000 +0000" stop="20260923110000 +0000" channel="24Horas.cl">
-    <desc lang="es">Noticiero
-Un programa sobre los hechos más destacados de la agenda diaria a nivel nacional e internacional. A través del trabajo de periodistas, reporteros y expertos, el público podrá informarse al completo sobre la coyuntura.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">24horas tu mañana</title>
-  </programme>
-  <programme start="20260923090000 +0000" stop="20260923093000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Special</category>
-    <title lang="es">Martín Vidaurre</title>
-  </programme>
-  <programme start="20260923090000 +0000" stop="20260923092300 +0000" channel="HGTV.ar">
-    <desc lang="es">S2 E8 — Hogar de montaña en las Montañas Rocosas
-Una pareja que se ha quedado sola, ya que sus hijos han crecido y se han ido de la casa, intercambian su hogar en los suburbios de Illinois por los picos prístinos de las Montañas Rocosas.</desc>
-    <episode-num>S2 E8</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Nuestro hogar en la montaña</title>
-    <title lang="en">Mountain Life</title>
-  </programme>
-  <programme start="20260923090000 +0000" stop="20260923120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260923090000 +0000" stop="20260923120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -50025,82 +49975,16 @@ Una pareja que se ha quedado sola, ya que sus hijos han crecido y se han ido de 
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260923092300 +0000" stop="20260923094700 +0000" channel="HGTV.ar">
-    <desc lang="es">S8 E7 — Renovaciones extravagantes en Florida
-El diseñador Vern Yip y un agente de bienes raíces local evalúan tres renovaciones de espacios de esparcimiento exterior de $135,000 en Florida.</desc>
-    <episode-num>S8 E7</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">La mejor inversión</title>
-    <title lang="en">Bang for Your Buck</title>
-  </programme>
-  <programme start="20260923093000 +0000" stop="20260923114500 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Bicycle</category>
-    <title lang="es">Soldier Hollow, día 2</title>
-  </programme>
-  <programme start="20260923094700 +0000" stop="20260923101000 +0000" channel="HGTV.ar">
-    <desc lang="es">S2 E8 — Seguir creciendo
-Nathan y Jenny deciden tener una vivienda más espaciosa por las necesidades de la familia, pero parece que lo planeado es más de lo que pueden hacer, al faltar solo cinco días para poder completar su proyecto en el tiempo pactado.</desc>
-    <episode-num>S2 E8</episode-num>
-    <icon src="https://iptv-epg.org/images/ZGgbBBMKS45KdUEI8SKh4ULFgpKZaKUrfkbZJ3Q6wVmWsbNp4drJPk7u_FoJ7FSJ1qaPgloQImRwoYiSTWkym9EKoD-_i8CRh8svqJlJzZsXlRLd9dZYn_HNJoT9Q7KXeBYXDvPVh7pzRSMBSw5RxD-lzmMvv8Az" />
-    <title lang="es">Supercasas ecológicas</title>
-    <title lang="en">Love Yurts</title>
-  </programme>
-  <programme start="20260923101000 +0000" stop="20260923105700 +0000" channel="HGTV.ar">
-    <desc lang="es">S3 E7 — Trabajando juntos en el lago Cedar Creek
-Una familia de Dallas quiere escapar del calor del verano de la ciudad. Ellos buscan transformar una casa frente al agua en el lago Cedar Creek y le agregan algunos toques personales para que sus perros se sientan como en casa.</desc>
-    <episode-num>S3 E7</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Nuestro hogar frente al lago: renovación</title>
-    <title lang="en">Lakefront Bargain Hunt Renovation</title>
+  <programme start="20260923090000 +0000" stop="20260923120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260923103200 +0000" stop="20260923120000 +0000" channel="HBO.cl">
     <title lang="es">Cuando las luces se apagan</title>
   </programme>
-  <programme start="20260923105700 +0000" stop="20260923114500 +0000" channel="HGTV.ar">
-    <desc lang="es">S7 E8 — De yurtas a habitaciones fantásticas
-El último desafío antes de la final, los diseñadores transforman yurtas en habitaciones fantásticas.</desc>
-    <episode-num>S7 E8</episode-num>
-    <icon src="https://iptv-epg.org/images/VlHMcHgzDrgBOICne3MZS1m0eObbRyfhhhJIvW1-8SOB_xTdu0_hQKPDmND9fRiY5n694U_j8OFIdYK1RZ1d4lmWnqhSsYV335f93WFM5rM8OvzicH327Qr6FeN07PtjEt_n4OwMiAe2uujnfwydKlb02GZiUqBRqj2ut5MeSVByFixllY5JB3xXXVRe5RNIZeT3F9SczDgg" />
-    <title lang="es">La búsqueda del diseñador estrella</title>
-    <title lang="en">HGTV Design Star</title>
-  </programme>
-  <programme start="20260923110000 +0000" stop="20260923111500 +0000" channel="24Horas.cl">
-    <desc lang="es">Noticiero
-Ponemos en contexto la actualidad internacional y analizamos el contexto de los hechos. Hablamos con especialistas para conocer todos los ángulos de la noticia y presentamos todo con un lenguaje para acercar a los más jóvenes.</desc>
-    <icon src="https://iptv-epg.org/images/4NN61gqMSrsqxYGBZMmBf3BgxJNTnEdLPxIpfgKowgDweilFdw3W6rrJqhkZthukATDXzvOZKUKbuebY08dVHskWE4_a1cNCBV35bAk0q1yzyLXldE-e" />
-    <title lang="es">DW analiza</title>
-  </programme>
-  <programme start="20260923111500 +0000" stop="20260923113000 +0000" channel="24Horas.cl">
-    <desc lang="es">Película
-Programa sobre las noticias de los próximos estrenos del cine.</desc>
-    <icon src="https://iptv-epg.org/images/PusmOae0y0mx03HevjscB6vyy5XJgcCel5Jhvucze710COw8Wb2F5LVeQX7gTCGj855K7p4Ot5QzyRh2mV-ATJOQEjdJxClCG1yDdo4J9CuPepEAOg" />
-    <title lang="es">24 cuadros</title>
-  </programme>
-  <programme start="20260923113000 +0000" stop="20260923134500 +0000" channel="24Horas.cl">
-    <desc lang="es">Noticiero
-Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
-    <icon src="https://iptv-epg.org/images/s8n9u7d5p-QkWop4cnnhrV1GG_gXiAxZn0dlS8m1aDVzIP4A-zWuUgmwpiizIdqn3VmSsEl-RJV6XdfbGzzNjYk6wI1NfN3xZ0FmbiheCfr_gBZ04U_sV8Lm8dtsOoAX" />
-    <title lang="es">La mañana informativa</title>
-  </programme>
-  <programme start="20260923114500 +0000" stop="20260923121500 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Special</category>
-    <title lang="es">Martín Vidaurre</title>
-  </programme>
-  <programme start="20260923114500 +0000" stop="20260923123000 +0000" channel="HGTV.ar">
-    <desc lang="es">S5 E10 — Secreto, zapato, arte
-Esta increíble variedad de casas de todo el mundo incluye una casa ultramoderna con un secreto en Massachusetts, una casa en Corea del Sur con agujeros en el techo y una casa sueca que se adapta a su entorno como un zapato.</desc>
-    <episode-num>S5 E10</episode-num>
-    <icon src="https://iptv-epg.org/images/0UOYP_Y5MVdGG2UjQO7BpHf-MJYDwjcw2uc3NRTw1FJbHACOf5pBZI-_0KnZBrsO_nPB5FIgkJZAgBUOkluzMyGwXQ-6ZGeAbeveu6EaVwX4Z7wE5yWKsBNvpxUS2vjXtuWk_ww7H5jRbOMlVcEYqJHGGQwHbBnf" />
-    <title lang="es">Hogares increíbles</title>
-    <title lang="en">Extreme Homes</title>
-  </programme>
   <programme start="20260923120000 +0000" stop="20260923133000 +0000" channel="HBO.cl">
     <title lang="es">Emoji: La película</title>
-  </programme>
-  <programme start="20260923120000 +0000" stop="20260923150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260923120000 +0000" stop="20260923150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -50112,90 +49996,13 @@ Esta increíble variedad de casas de todo el mundo incluye una casa ultramoderna
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20260923121500 +0000" stop="20260923123000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">Usain Bolt</title>
-  </programme>
-  <programme start="20260923123000 +0000" stop="20260923130000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">default</category>
-    <title lang="es">Liga de Portugal: Porto vs. Benfica</title>
-  </programme>
-  <programme start="20260923123000 +0000" stop="20260923125400 +0000" channel="HGTV.ar">
-    <desc lang="es">S3 E8 — Refugio para escaladores en Tucson, Arizona
-Una joven pareja de California se cansa de soportar horas de tráfico citadino y están listos para mudarse a la soleada Tucson, Arizona. Buscan una casa con amplias habitaciones de invitados y un patio con piscina.</desc>
-    <episode-num>S3 E8</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Nuestro hogar en la montaña</title>
-    <title lang="en">Mountain Life</title>
-  </programme>
-  <programme start="20260923125400 +0000" stop="20260923131800 +0000" channel="HGTV.ar">
-    <desc lang="es">S2 E2 — Búsqueda del paraíso en la montaña en Eden, Utah
-Una pareja deja atrás la estresante vida de la ciudad para disfrutar de vistas panorámicas y espacios abiertos en Eden, Utah. Buscan una casa de montaña en un pueblo, con una oficina y espacio suficiente para que sus hijos los visiten.</desc>
-    <episode-num>S2 E2</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Nuestro hogar en la montaña</title>
-    <title lang="en">Mountain Life</title>
-  </programme>
-  <programme start="20260923130000 +0000" stop="20260923133000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Documentary</category>
-    <title lang="es">Simplemente Diego: El Salvador</title>
-  </programme>
-  <programme start="20260923131800 +0000" stop="20260923140500 +0000" channel="HGTV.ar">
-    <desc lang="es">S1 E2 — Buscando un palacio en Dallas
-Los renovadores Dani y Jon superan un problema gigante en su primera renovación y van en busca de otra. EJ y Jason compran su primera casa, pero se dan cuenta de que necesitan traer un socio para alcanzar su meta del millón de dólares.</desc>
-    <episode-num>S1 E2</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">De mil a un millón</title>
-    <title lang="en">Flip to a Million</title>
-  </programme>
-  <programme start="20260923133000 +0000" stop="20260923153000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">FC Porto vs. Benfica</title>
-  </programme>
-  <programme start="20260923133000 +0000" stop="20260923150500 +0000" channel="HBO.cl">
-    <title lang="es">Verano infernal</title>
-  </programme>
-  <programme start="20260923134500 +0000" stop="20260923140000 +0000" channel="24Horas.cl">
-    <desc lang="es">Cultural
-Andrés Vial y Valentina Reyes nos invitan a sumergirnos en el mundo de los libros con conversaciones íntimas, reflexivas y apasionadas sobre literatura.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">Página 24</title>
-  </programme>
-  <programme start="20260923140000 +0000" stop="20260923153000 +0000" channel="24Horas.cl">
-    <desc lang="es">Noticiero
-Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
-    <icon src="https://iptv-epg.org/images/s8n9u7d5p-QkWop4cnnhrV1GG_gXiAxZn0dlS8m1aDVzIP4A-zWuUgmwpiizIdqn3VmSsEl-RJV6XdfbGzzNjYk6wI1NfN3xZ0FmbiheCfr_gBZ04U_sV8Lm8dtsOoAX" />
-    <title lang="es">La mañana informativa</title>
-  </programme>
-  <programme start="20260923140500 +0000" stop="20260923142900 +0000" channel="HGTV.ar">
-    <desc lang="es">S8 E7 — Renovaciones extravagantes en Florida
-El diseñador Vern Yip y un agente de bienes raíces local evalúan tres renovaciones de espacios de esparcimiento exterior de $135,000 en Florida.</desc>
-    <episode-num>S8 E7</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">La mejor inversión</title>
-    <title lang="en">Bang for Your Buck</title>
-  </programme>
-  <programme start="20260923142900 +0000" stop="20260923145300 +0000" channel="HGTV.ar">
-    <desc lang="es">S5 E8 — Un lugar del que nunca querrás irte
-Una pareja de Florida vendió un bote en el que planeaban vivir y están buscando una casa en un terreno en Exuma. Esperan encontrar una casa con acceso al agua y un muelle para botes sin salirse de su presupuesto.</desc>
-    <episode-num>S5 E8</episode-num>
-    <icon src="https://iptv-epg.org/images/3PRHb1kI0h7yIB41AGeCuNJ7TnOL40If-FzGdTBbIiZ2R57A3c6fIHfdFuqhjOJmCcJGx_riivmvWG13FhcAra2SeiSidm8Qjd_xX1gSm-7Go4GQp3fIxCT7cGvRvjFD_hme5E2nin0fc-UljzrXk4jpRa8m18t1AubI0IkXEwXBfR9oLyPtXdwNtIdtC-V2ADU" />
-    <title lang="es">Nuestro hogar en las Bahamas</title>
-    <title lang="en">Bahamas Life</title>
-  </programme>
-  <programme start="20260923145300 +0000" stop="20260923154200 +0000" channel="HGTV.ar">
-    <desc lang="es">S1 E1 — Jardín de ensueño, casa de pesadilla
-El jardín de ensueño de una pareja vino con una casa adjunta que es una pesadilla. Kim Wolfe reinventa sus habitaciones caóticas en un hogar donde una familia feliz puede crecer como la huerta urbana de la que se enamoraron.</desc>
-    <episode-num>S1 E1</episode-num>
-    <icon src="https://iptv-epg.org/images/D61QnmcPI1JxaB1yjsmokjXdE5jqVbP1sKnhbKLNP3xzVnDY-a_ZnRIc0ATP7jyU57ZfKjZZKz8ac4q98KFezpvxBF5Zstf_Qid5VTnHpfy4NL4vNMS4dvlqVyPHb5W9i4dmHFHzdwrEftt9zUjep1QuJ6qakM7IUP8ReZeIE3tyGRaVDuuOuoIifEc2eA" />
-    <title lang="es">¿Por qué compré esta casa?</title>
-    <title lang="en">Why the Heck Did I Buy This House?</title>
-  </programme>
-  <programme start="20260923150000 +0000" stop="20260923180000 +0000" channel="CHVNoticias.cl">
+  <programme start="20260923120000 +0000" stop="20260923150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260923133000 +0000" stop="20260923150500 +0000" channel="HBO.cl">
+    <title lang="es">Verano infernal</title>
   </programme>
   <programme start="20260923150000 +0000" stop="20260923180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -50207,44 +50014,21 @@ El jardín de ensueño de una pareja vino con una casa adjunta que es una pesadi
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
+  <programme start="20260923150000 +0000" stop="20260923180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260923150500 +0000" stop="20260923165800 +0000" channel="HBO.cl">
     <title lang="es">Película</title>
-  </programme>
-  <programme start="20260923153000 +0000" stop="20260923160000 +0000" channel="24Horas.cl">
-    <desc lang="es">Interés general
-Espacio para discutir, entre otros, sobre seguridad ciudadana, urbanismo, educación, salud y transporte. Todos estos temas de gran relevancia en los municipios.</desc>
-    <icon src="https://iptv-epg.org/images/Qka_AOaStfD9hZEYvic3DnnxtT7JYWpJrLPQyXTI0KYy9GTekAR0_gtkdcJiMcynQrBRxppsYFopWh4EG9bk6FUkG2HhoIJR4Kvv7xzPAKgLoHG3brU" />
-    <title lang="es">Vía pública</title>
   </programme>
   <programme start="20260923153000 +0000" stop="20260923160000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">default</category>
     <title lang="es">Laliga: Sevilla vs. Barcelona</title>
   </programme>
-  <programme start="20260923154200 +0000" stop="20260923160400 +0000" channel="HGTV.ar">
-    <desc lang="es">S3 E8 — Celebrando con Jamie Foxx, Patti Stanger y Cesar Millan
-Nancy O'Dell echa un vistazo a la casa del actor Jamie Foxx en Los Ángeles. La casamentera Patti Stanger decora su hogar con amor. El adiestrador de perros Cesar Millan y su manada dan un recorrido por su casa nueva.</desc>
-    <episode-num>S3 E8</episode-num>
-    <icon src="https://iptv-epg.org/images/MYjEWuxJYfYV4AD9-YpR2gsMzoLCr2DT-_jBkOIAKyLSOoZomlzAO02Q_aOoZWM65x1zeqOgVxFuG2zj_QeMMEsNb8PI-7c5pgXQvk1EkzV3ctnxJDH90x4bXOydGijGNYk4Qt7dKdIwf5U4D91xx6cFbv9hnvTK-TN8e505EPSLzHMLNEJCRtFhW2m5US-LBPk6vhHvBv8Zhlh8Ouu54aoyBU_a" />
-    <title lang="es">El hogar de las celebridades</title>
-    <title lang="en">Celebrities at Home</title>
-  </programme>
-  <programme start="20260923160000 +0000" stop="20260923180000 +0000" channel="24Horas.cl">
-    <desc lang="es">Noticiero
-Conoce los detalles más resaltantes sobre los últimos acontecimientos ocurridos en Chile, América Latina y el mundo, en este segmento especial, donde te presentamos un resumen con informaciones referidas a diversos ámbitos.</desc>
-    <icon src="https://iptv-epg.org/images/ACzUocTRAnqh58jUT0U1_knxTHQLPdq5AP7hKcoBnfuXcVZP5643L1MI1-e_nXhGAUW6nkpKVqD6ylt530Rj67Yde1hmkTY2tOvEgQ4Y44Ew2epaoHtsNbDz" />
-    <title lang="es">24 horas al día</title>
-  </programme>
   <programme start="20260923160000 +0000" stop="20260923190000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Talk</category>
     <title lang="es">DSPORTS Noticias</title>
-  </programme>
-  <programme start="20260923160400 +0000" stop="20260923162700 +0000" channel="HGTV.ar">
-    <desc lang="es">S2 E4 — Vivir con un presupuesto ajustado
-Nathan y Jenny construyen una yurta única en Oahu, Hawái, con algunos toques de creatividad. Ellos cumplen los sueños de la pareja de artistas y equipan su yurta con una mesada inigualable y una pared dedicada a la exposición de sus obras.</desc>
-    <episode-num>S2 E4</episode-num>
-    <icon src="https://iptv-epg.org/images/RLz9_FnBsv7QEtak1tDACXnyawRqxrj7LaSC_UIVT62vs-36_LzMGda6DTkAu7U4Y90LqCPSSgZctdtHk9HU0dRhyTku0zkRrVK0Zwr1L6NrCwHEBqOsSjdaTmQQDuyAtPASxfGEWzwl-qM9fq5uJ4vJmfweVPJvewjRJAW795brV0uxvRznkfQ" />
-    <title lang="es">Supercasas ecológicas</title>
-    <title lang="en">Love Yurts</title>
   </programme>
   <programme start="20260923162700 +0000" stop="20260923165200 +0000" channel="HGTV.ar">
     <desc lang="es">S1 E1 — Un condominio familiar para Cato June
@@ -50307,11 +50091,6 @@ Una pareja quiere renovar una casa que heredaron de su padrastro para que sea su
     <icon src="https://iptv-epg.org/images/QejRHFF7OO3gPtEHko28PhRf2Dxu0LlIcJ20PYfK_NcR0eyXHchzhAMzu2oGt9mgSAvPA2J3qUEBFRZnFLNT-NS-9JPOcCzuGNXLlS7mzXoupmEn-QixONxvBkSnJJ31AN0" />
     <title lang="es">Más motor</title>
   </programme>
-  <programme start="20260923180000 +0000" stop="20260923210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260923180000 +0000" stop="20260923210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -50320,6 +50099,11 @@ Una pareja quiere renovar una casa que heredaron de su padrastro para que sea su
   <programme start="20260923180000 +0000" stop="20260923210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260923180000 +0000" stop="20260923210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260923180300 +0000" stop="20260923185200 +0000" channel="HGTV.ar">
@@ -50394,11 +50178,6 @@ Joe Mazza y el diseñador Noel Gatts ayudan a una pareja de Nueva Jersey que com
     <icon src="https://iptv-epg.org/images/1bBwvR-Dc9S4wV0aJALPqiRr-M2FJrVSGwMHtKZvrMBgixW5xi7emP1_BbqaKmf4LHBv2F3dEOBMGi5DxSNYhpM8NRjH_6_F_il_ARWa1Tn362AkY0c" />
     <title lang="es">XIII Juegos Suramericanos Santa Fe 2026</title>
   </programme>
-  <programme start="20260923210000 +0000" stop="20260924000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260923210000 +0000" stop="20260924000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -50407,6 +50186,11 @@ Joe Mazza y el diseñador Noel Gatts ayudan a una pareja de Nueva Jersey que com
   <programme start="20260923210000 +0000" stop="20260924000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260923210000 +0000" stop="20260924000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260923211500 +0000" stop="20260923213900 +0000" channel="HGTV.ar">
@@ -50472,11 +50256,6 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <category lang="es">default</category>
     <title lang="es">Liga de Portugal: Porto vs. Benfica</title>
   </programme>
-  <programme start="20260924000000 +0000" stop="20260924030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260924000000 +0000" stop="20260924030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -50485,6 +50264,11 @@ Revisa las noticias más relevantes de la jornada.</desc>
   <programme start="20260924000000 +0000" stop="20260924030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260924000000 +0000" stop="20260924030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260924000400 +0000" stop="20260924005300 +0000" channel="FOODNETWORK.uy">
@@ -50622,11 +50406,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <icon src="https://iptv-epg.org/images/xYEU3c--IseiTcGvDF7yR4uiPKsrubawk6gaX7BQzb-I7ht8VCmYGac3616dzAmGLEMePTYnQq5AZa_susHtSXU8HExItAr3u0ov0204CQ1agv8GZryph1WrDRYO" />
     <title lang="es">24 horas a la hora</title>
   </programme>
-  <programme start="20260924030000 +0000" stop="20260924060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260924030000 +0000" stop="20260924060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -50635,6 +50414,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme start="20260924030000 +0000" stop="20260924060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260924030000 +0000" stop="20260924060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260924030800 +0000" stop="20260924033100 +0000" channel="FOODNETWORK.uy">
@@ -50773,11 +50557,6 @@ El jardín de ensueño de una pareja vino con una casa adjunta que es una pesadi
     <category>Sports</category>
     <title lang="es">Sevilla vs. Barcelona</title>
   </programme>
-  <programme start="20260924060000 +0000" stop="20260924090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260924060000 +0000" stop="20260924090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -50786,6 +50565,11 @@ El jardín de ensueño de una pareja vino con una casa adjunta que es una pesadi
   <programme start="20260924060000 +0000" stop="20260924090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260924060000 +0000" stop="20260924090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260924060600 +0000" stop="20260924065000 +0000" channel="FOODNETWORK.uy">
@@ -50964,11 +50748,6 @@ El chef Eric Adjepong luce una gran sonrisa mientras se enfrenta a sus amigos, l
     <title lang="es">Corinthians vs. Estudiantes de La Plata</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260924090000 +0000" stop="20260924120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260924090000 +0000" stop="20260924120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -50977,6 +50756,11 @@ El chef Eric Adjepong luce una gran sonrisa mientras se enfrenta a sus amigos, l
   <programme start="20260924090000 +0000" stop="20260924120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260924090000 +0000" stop="20260924120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260924092000 +0000" stop="20260924111300 +0000" channel="Golden.cl">
@@ -51070,20 +50854,6 @@ Es Acción de gracias, y Guy Fieri y sus amigos chef preparan el mejor festejo. 
     <title lang="es">ESPN F10</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20260924105100 +0000" stop="20260924120100 +0000">
-    <title>Coffee Prince</title>
-    <episode-num system="onscreen">S01E09</episode-num>
-    <episode-num system="pluto">6682f5e6de23580013406b92</episode-num>
-    <episode-num system="original-air-date">20070730000000 +0000</episode-num>
-    <desc>Coffee Prince es la historia de un grupo de jóvenes que se sienten atraídos por el negocio del café de especialidad, donde también encuentran el amor y una nueva esperanza.</desc>
-    <icon src="https://images.pluto.tv/series/65e756a0dfc40a00149cd865/tile_1769469481755.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20070730</date>
-    <series-id system="pluto">65e756a0dfc40a00149cd865</series-id>
-    <sub-title>Bitter Coffee is Sweetened by Love</sub-title>
-    <category>Romantic comedy</category>
-    <category>Series</category>
-    <category>Romance</category>
-  </programme>
   <programme start="20260924105500 +0000" stop="20260924114100 +0000" channel="HGTV.ar">
     <desc lang="es">S7 E9 — ¿Quién es el diseñador estrella?
 Dos diseñadores deben hacer un piloto de un programa de TV, para demostrar sus habilidades.</desc>
@@ -51113,20 +50883,6 @@ Espacio conducido por el periodista Jose Ignacio Atenas, que busca explorar cóm
   <programme start="20260924111300 +0000" stop="20260924131700 +0000" channel="Golden.cl">
     <title lang="es">Un ángel enamorado</title>
     <category lang="es">Deportes</category>
-  </programme>
-  <programme channel="DramasCoreanos.cl" start="20260924112500 +0000" stop="20260924121800 +0000">
-    <title>Principe de la Pasta</title>
-    <episode-num system="onscreen">S01E01</episode-num>
-    <episode-num system="pluto">680b893e03a2ab14dadd059a</episode-num>
-    <episode-num system="original-air-date">20130906000000 +0000</episode-num>
-    <desc>El coreano Jiang Xiu Chan, viaja a China en busca de su padre, ahí visita el mejor restaurante de fideos. Por error, el japonés Teng Yuan Hao pierde su gafete de entrada al concurso de fideos más reconocido lo que es aprovechado por Jiang Xiu Chan.</desc>
-    <icon src="https://images.pluto.tv/series/680b893c03a2ab14dadd0574/tile_1769626441903.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20130906</date>
-    <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
-    <sub-title>Capítulo 1</sub-title>
-    <category>Drama</category>
-    <category>Series</category>
-    <category>Foreign Drama</category>
   </programme>
   <programme start="20260924113000 +0000" stop="20260924134500 +0000" channel="24Horas.cl">
     <desc lang="es">Noticiero
@@ -51169,11 +50925,6 @@ En la cocina despierta tu rutina de desayuno con recetas dulces y saladas, que i
     <title lang="es">Fútbol Femenino UEFA Champions League</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260924120000 +0000" stop="20260924150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260924120000 +0000" stop="20260924150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -51184,33 +50935,10 @@ En la cocina despierta tu rutina de desayuno con recetas dulces y saladas, que i
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20260924120100 +0000" stop="20260924131600 +0000">
-    <title>Coffee Prince</title>
-    <episode-num system="onscreen">S01E10</episode-num>
-    <episode-num system="pluto">6682f880626cfe00135c2157</episode-num>
-    <episode-num system="original-air-date">20070731000000 +0000</episode-num>
-    <desc>Coffee Prince es la historia de un grupo de jóvenes que se sienten atraídos por el negocio del café de especialidad, donde también encuentran el amor y una nueva esperanza.</desc>
-    <icon src="https://images.pluto.tv/series/65e756a0dfc40a00149cd865/tile_1769469481755.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20070731</date>
-    <series-id system="pluto">65e756a0dfc40a00149cd865</series-id>
-    <sub-title>Coffee that Harms No One</sub-title>
-    <category>Romantic comedy</category>
-    <category>Series</category>
-    <category>Romance</category>
-  </programme>
-  <programme channel="DramasCoreanos.cl" start="20260924121800 +0000" stop="20260924131100 +0000">
-    <title>Principe de la Pasta</title>
-    <episode-num system="onscreen">S01E02</episode-num>
-    <episode-num system="pluto">680b895003a2ab14dadf8af3</episode-num>
-    <episode-num system="original-air-date">20130101000000 +0000</episode-num>
-    <desc>Zhang Jian gana el concurso internacional de fideos, pero Zhang Gao Xiu nota algo especial en Jiang Xiu Chan, por lo que más tarde le pide a Ling Ling que lo busque ya que quiere que trabaje en la casa de fideos, algo que no le gustará a Zhang Jian.</desc>
-    <icon src="https://images.pluto.tv/series/680b893c03a2ab14dadd0574/tile_1769626441903.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20130101</date>
-    <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
-    <sub-title>Capítulo 2</sub-title>
-    <category>Drama</category>
-    <category>Series</category>
-    <category>Foreign Drama</category>
+  <programme start="20260924120000 +0000" stop="20260924150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20260924122700 +0000" stop="20260924125000 +0000" channel="HGTV.ar">
     <desc lang="es">S3 E9 — Casa en las montañas de Flagstaff, Arizona
@@ -51255,20 +50983,6 @@ Una familia de California está ansiosa por mudarse a Colorado Springs. Están b
     <title lang="es">Goles de la Eredivisie</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20260924131100 +0000" stop="20260924140400 +0000">
-    <title>Principe de la Pasta</title>
-    <episode-num system="onscreen">S01E03</episode-num>
-    <episode-num system="pluto">680b895303a2ab14dae004b5</episode-num>
-    <episode-num system="original-air-date">20130101000000 +0000</episode-num>
-    <desc>Jiang Xiu Chan ingresa a trabajar al restaurante al mismo tiempo que Zhiang Jian, lo que genera desconcierto. Sin embargo, Jiang Xiu Chan es puesto a duras pruebas por parte de los expertos del lugar. La hija de Xang Lin, sorprende con su regreso.</desc>
-    <icon src="https://images.pluto.tv/series/680b893c03a2ab14dadd0574/tile_1769626441903.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20130101</date>
-    <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
-    <sub-title>Capítulo 3</sub-title>
-    <category>Drama</category>
-    <category>Series</category>
-    <category>Foreign Drama</category>
-  </programme>
   <programme start="20260924131400 +0000" stop="20260924140100 +0000" channel="HGTV.ar">
     <desc lang="es">S1 E3 — Cuando la ayuda se congela
 Soportando una tormenta de hielo, Dani y Jon superan los desafíos de la madre naturaleza solo para descubrir que su hogar está plagado de más problemas. EJ y Jason luchan contra violaciones de códigos y un contratista retrasado.</desc>
@@ -51276,20 +50990,6 @@ Soportando una tormenta de hielo, Dani y Jon superan los desafíos de la madre n
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">De mil a un millón</title>
     <title lang="en">Flip to a Million</title>
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20260924131600 +0000" stop="20260924143200 +0000">
-    <title>Coffee Prince</title>
-    <episode-num system="onscreen">S01E11</episode-num>
-    <episode-num system="pluto">6682f883626cfe00135c21c6</episode-num>
-    <episode-num system="original-air-date">20070806000000 +0000</episode-num>
-    <desc>Coffee Prince es la historia de un grupo de jóvenes que se sienten atraídos por el negocio del café de especialidad, donde también encuentran el amor y una nueva esperanza.</desc>
-    <icon src="https://images.pluto.tv/series/65e756a0dfc40a00149cd865/tile_1769469481755.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20070806</date>
-    <series-id system="pluto">65e756a0dfc40a00149cd865</series-id>
-    <sub-title>Coffee with a Sweet and Bitter Flavor</sub-title>
-    <category>Romantic comedy</category>
-    <category>Series</category>
-    <category>Romance</category>
   </programme>
   <programme start="20260924131700 +0000" stop="20260924151500 +0000" channel="Golden.cl">
     <title lang="es">28 días</title>
@@ -51343,20 +51043,6 @@ El diseñador Vern Yip y un agente de bienes raíces local evalúan tres renovac
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">La mejor inversión</title>
     <title lang="en">Bang for Your Buck</title>
-  </programme>
-  <programme channel="DramasCoreanos.cl" start="20260924140400 +0000" stop="20260924145700 +0000">
-    <title>Principe de la Pasta</title>
-    <episode-num system="onscreen">S01E04</episode-num>
-    <episode-num system="pluto">680b8a21a8cdcdbb7d0d3868</episode-num>
-    <episode-num system="original-air-date">20130101000000 +0000</episode-num>
-    <desc>La amistad de Ling Ling y Jiang Xiu Chan crece levantando celos en Zhiang Jian. Jiang Xiu Chan es aceptado por los integrantes de la cocina, lo que le da fuerza para entrenar más. Xu Yu Ting llega al restaurante causando alboroto en busca de Zhiang Jian.</desc>
-    <icon src="https://images.pluto.tv/series/680b893c03a2ab14dadd0574/tile_1769626441903.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20130101</date>
-    <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
-    <sub-title>Capítulo 4</sub-title>
-    <category>Drama</category>
-    <category>Series</category>
-    <category>Foreign Drama</category>
   </programme>
   <programme start="20260924141600 +0000" stop="20260924144100 +0000" channel="FOODNETWORK.uy">
     <date>2019</date>
@@ -51416,9 +51102,9 @@ Después de años de trabajar juntos, una pareja está desesperada por encontrar
     <date>20130101</date>
     <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
     <sub-title>Capítulo 5</sub-title>
-    <category>Drama</category>
     <category>Series</category>
     <category>Foreign Drama</category>
+    <category>Drama</category>
   </programme>
   <programme start="20260924150000 +0000" stop="20260924170000 +0000" channel="ESPN2.cl">
     <title lang="es">SportsCenter</title>
@@ -51428,11 +51114,6 @@ Después de años de trabajar juntos, una pareja está desesperada por encontrar
     <title lang="es">Golf PGA Tour</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260924150000 +0000" stop="20260924180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260924150000 +0000" stop="20260924180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -51441,6 +51122,11 @@ Después de años de trabajar juntos, una pareja está desesperada por encontrar
   <programme start="20260924150000 +0000" stop="20260924180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260924150000 +0000" stop="20260924180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260924150500 +0000" stop="20260924153000 +0000" channel="FOODNETWORK.uy">
@@ -51503,9 +51189,9 @@ Nancy O'Dell se encuentra con amigos emplumados en la casa de Emily Proctor. La 
     <date>20130101</date>
     <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
     <sub-title>Capítulo 6</sub-title>
-    <category>Drama</category>
     <category>Series</category>
     <category>Foreign Drama</category>
+    <category>Drama</category>
   </programme>
   <programme start="20260924155400 +0000" stop="20260924161900 +0000" channel="FOODNETWORK.uy">
     <date>2018</date>
@@ -51581,9 +51267,9 @@ Duff Goldman hace un pastel de los Muppets para unos estudiantes y otro para el 
     <date>20130801</date>
     <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
     <sub-title>Capítulo 7</sub-title>
-    <category>Drama</category>
     <category>Series</category>
     <category>Foreign Drama</category>
+    <category>Drama</category>
   </programme>
   <programme start="20260924164500 +0000" stop="20260924170900 +0000" channel="HGTV.ar">
     <desc lang="es">S8 E8 — Santuarios privados en Miami
@@ -51660,9 +51346,9 @@ Esta semana todo es pequeño mientras el equipo hace un pastel con forma de casa
     <date>20130801</date>
     <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
     <sub-title>Capítulo 8</sub-title>
-    <category>Drama</category>
     <category>Series</category>
     <category>Foreign Drama</category>
+    <category>Drama</category>
   </programme>
   <programme start="20260924174000 +0000" stop="20260924195500 +0000" channel="SONYMOVIES.uy">
     <title lang="es">Julie &amp; Julia</title>
@@ -51701,11 +51387,6 @@ Programa sobre las noticias de los próximos estrenos del cine.</desc>
     <title lang="es">Automovilismo Fórmula 1</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260924180000 +0000" stop="20260924210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260924180000 +0000" stop="20260924210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -51714,6 +51395,11 @@ Programa sobre las noticias de los próximos estrenos del cine.</desc>
   <programme start="20260924180000 +0000" stop="20260924210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260924180000 +0000" stop="20260924210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme channel="DramasCoreanosTeen.cl" start="20260924181000 +0000" stop="20260924192500 +0000">
@@ -51759,9 +51445,9 @@ Programa del canal 24H dedicado al mercado de la minería.</desc>
     <date>20130101</date>
     <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
     <sub-title>Capítulo 9</sub-title>
-    <category>Drama</category>
     <category>Series</category>
     <category>Foreign Drama</category>
+    <category>Drama</category>
   </programme>
   <programme start="20260924184300 +0000" stop="20260924190600 +0000" channel="HGTV.ar">
     <desc lang="es">S17 E9 — Empezando de nuevo en Roatán
@@ -51822,9 +51508,9 @@ Bobby y Sophie visitan la escena culinaria en los pueblos costeros de Los Ángel
     <date>20130101</date>
     <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
     <sub-title>Capítulo 10</sub-title>
-    <category>Drama</category>
     <category>Series</category>
     <category>Foreign Drama</category>
+    <category>Drama</category>
   </programme>
   <programme channel="DramasCoreanosTeen.cl" start="20260924192500 +0000" stop="20260924204200 +0000">
     <title>Coffee Prince</title>
@@ -51877,9 +51563,9 @@ Alton Brown, Jonathan Sawyer, Tregaye Fraser y más hablan de platos que son rea
     <date>20130101</date>
     <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
     <sub-title>Capítulo 11</sub-title>
-    <category>Drama</category>
     <category>Series</category>
     <category>Foreign Drama</category>
+    <category>Drama</category>
   </programme>
   <programme start="20260924201700 +0000" stop="20260924210400 +0000" channel="HGTV.ar">
     <desc lang="es">S1 E1 — Problemas con el agua
@@ -51951,11 +51637,6 @@ Ali Khan desafía a los pasteleros a crear hermosos huevos comestibles con un sa
     <title lang="es">EFL Highlights</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260924210000 +0000" stop="20260925000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260924210000 +0000" stop="20260925000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -51964,6 +51645,11 @@ Ali Khan desafía a los pasteleros a crear hermosos huevos comestibles con un sa
   <programme start="20260924210000 +0000" stop="20260925000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260924210000 +0000" stop="20260925000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260924210200 +0000" stop="20260924232400 +0000" channel="Golden.cl">
@@ -51988,9 +51674,9 @@ Los primos renuevan una cocina anticuada con un estilo industrial moderno ideal 
     <date>20130101</date>
     <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
     <sub-title>Capítulo 12</sub-title>
-    <category>Drama</category>
     <category>Series</category>
     <category>Foreign Drama</category>
+    <category>Drama</category>
   </programme>
   <programme start="20260924212800 +0000" stop="20260924215200 +0000" channel="HGTV.ar">
     <desc lang="es">S5 E9 — Cambiando esquís de nieve por esquís de agua
@@ -52060,9 +51746,9 @@ Una pareja de Nueva Jersey busca cumplir su sueño de comprar una casa en el sur
     <date>20130101</date>
     <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
     <sub-title>Capítulo 13</sub-title>
-    <category>Drama</category>
     <category>Series</category>
     <category>Foreign Drama</category>
+    <category>Drama</category>
   </programme>
   <programme start="20260924222600 +0000" stop="20260924225100 +0000" channel="FOODNETWORK.uy">
     <date>2019</date>
@@ -52100,9 +51786,9 @@ Nancy está redescubriendo la historia de su familia, a través de su libro de r
     <date>20130101</date>
     <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
     <sub-title>Capítulo 14</sub-title>
-    <category>Drama</category>
     <category>Series</category>
     <category>Foreign Drama</category>
+    <category>Drama</category>
   </programme>
   <programme start="20260924230000 +0000" stop="20260924233000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Documentary</category>
@@ -52179,9 +51865,9 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <date>20130101</date>
     <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
     <sub-title>Capítulo 15</sub-title>
-    <category>Drama</category>
     <category>Series</category>
     <category>Foreign Drama</category>
+    <category>Drama</category>
   </programme>
   <programme start="20260925000000 +0000" stop="20260925003000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">default</category>
@@ -52195,11 +51881,6 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <title lang="es">FIM Road Racing World Championship Highlights</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260925000000 +0000" stop="20260925030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260925000000 +0000" stop="20260925030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -52208,6 +51889,11 @@ Revisa las noticias más relevantes de la jornada.</desc>
   <programme start="20260925000000 +0000" stop="20260925030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260925000000 +0000" stop="20260925030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260925000400 +0000" stop="20260925002900 +0000" channel="FOODNETWORK.uy">
@@ -52264,9 +51950,9 @@ En Seattle, Brad Miller prueba una hamburguesa con queso y chips de tortilla de 
     <date>20130101</date>
     <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
     <sub-title>Capítulo 16</sub-title>
-    <category>Drama</category>
     <category>Series</category>
     <category>Foreign Drama</category>
+    <category>Drama</category>
   </programme>
   <programme start="20260925005300 +0000" stop="20260925011800 +0000" channel="FOODNETWORK.uy">
     <category lang="es">Reality</category>
@@ -52309,9 +51995,9 @@ Guy Fieri visita un lugar original en Fargo, Dakota del Norte, que sirve asado c
     <date>20130101</date>
     <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
     <sub-title>Capítulo 17</sub-title>
-    <category>Drama</category>
     <category>Series</category>
     <category>Foreign Drama</category>
+    <category>Drama</category>
   </programme>
   <programme start="20260925014000 +0000" stop="20260925025000 +0000" channel="ESPNPremium.cl">
     <title lang="es">Automovilismo Fórmula 1</title>
@@ -52402,9 +52088,9 @@ Michael Symon visita una cervecería de Cleveland que sirve alitas de pollo conf
     <date>20130101</date>
     <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
     <sub-title>Capítulo 18</sub-title>
-    <category>Drama</category>
     <category>Series</category>
     <category>Foreign Drama</category>
+    <category>Drama</category>
   </programme>
   <programme start="20260925023700 +0000" stop="20260925032400 +0000" channel="HGTV.ar">
     <desc lang="es">S3 E12 — Yoga, océano y fósiles
@@ -52439,11 +52125,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <title lang="es">Fútbol Femenino UEFA Champions League</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260925030000 +0000" stop="20260925060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260925030000 +0000" stop="20260925060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -52452,6 +52133,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme start="20260925030000 +0000" stop="20260925060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260925030000 +0000" stop="20260925060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme channel="DramasCoreanosTeen.cl" start="20260925030300 +0000" stop="20260925041800 +0000">
@@ -52497,9 +52183,9 @@ Una familia de seis personas busca un hogar donde pueda encontrar un estilo de v
     <date>20130101</date>
     <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
     <sub-title>Capítulo 19</sub-title>
-    <category>Drama</category>
     <category>Series</category>
     <category>Foreign Drama</category>
+    <category>Drama</category>
   </programme>
   <programme start="20260925033000 +0000" stop="20260925034500 +0000" channel="24Horas.cl">
     <desc lang="es">Noticiero
@@ -52558,6 +52244,33 @@ Una pareja de Nueva Jersey busca cumplir su sueño de comprar una casa en el sur
     <title lang="es">Nuestro hogar frente al lago: renovación</title>
     <title lang="en">Lakefront Bargain Hunt Renovation</title>
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20260925041800 +0000" stop="20260925052700 +0000">
+    <title>Big</title>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <episode-num system="pluto">66e053b522dfe90013872525</episode-num>
+    <episode-num system="original-air-date">20120619000000 +0000</episode-num>
+    <desc>Confundida por el regreso de Yoon-jae, Da-ran dejó el lugar y fue a recoger el equipaje en la casa de Gyeong-jun, donde se encontró con Yoon-jae. Mientras tanto, la madre de Yoon-jae desde Estados Unidos avanza con su matrimonio con Se-young.</desc>
+    <icon src="https://images.pluto.tv/series/66e04fad38c4a000133e3c94/tile_1776893436022.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20120619</date>
+    <series-id system="pluto">66e04fad38c4a000133e3c94</series-id>
+    <sub-title>Episodio 6</sub-title>
+    <category>Telenovela</category>
+    <category>Series</category>
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20260925042100 +0000" stop="20260925051500 +0000">
+    <title>Principe de la Pasta</title>
+    <episode-num system="onscreen">S01E20</episode-num>
+    <episode-num system="pluto">6810d8a903a2ab14da5d3a5d</episode-num>
+    <episode-num system="original-air-date">20130101000000 +0000</episode-num>
+    <desc>El restaurante Hangzhou gana la competencia y la oportunidad de abrir su sucursal en Sea Paradise. Ahora los empleados reciben sus nuevos puestos, incluida Yu Ting, quien ahora decidió ser parte del equipo. Un accidente pone en riesgo a dos empleados.</desc>
+    <icon src="https://images.pluto.tv/series/680b893c03a2ab14dadd0574/tile_1769626441903.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20130101</date>
+    <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
+    <sub-title>Capítulo 20</sub-title>
+    <category>Series</category>
+    <category>Foreign Drama</category>
+    <category>Drama</category>
+  </programme>
   <programme start="20260925043000 +0000" stop="20260925060000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
     <category>Sports</category>
@@ -52605,6 +52318,20 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <title lang="es">Flamengo vs. Independiente del Valle</title>
     <category lang="es">Deportes</category>
   </programme>
+  <programme channel="DramasCoreanos.cl" start="20260925051500 +0000" stop="20260925060900 +0000">
+    <title>Principe de la Pasta</title>
+    <episode-num system="onscreen">S01E21</episode-num>
+    <episode-num system="pluto">6810e6a130b839eca51c0ea5</episode-num>
+    <episode-num system="original-air-date">20130101000000 +0000</episode-num>
+    <desc>Ling Ling y Jiang Xiu Chan se encuentran en peligro al quedar atrapados en la cámara fría. El pasado vuelve y atormenta, no sólo a Jiang Xiu Chan sino a Run Mei y Zhiang Jian. Fujiwara y el padre de Yu Ting hacen tratos que afectan a Hangzhou.</desc>
+    <icon src="https://images.pluto.tv/series/680b893c03a2ab14dadd0574/tile_1769626441903.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20130101</date>
+    <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
+    <sub-title>Capítulo 21</sub-title>
+    <category>Series</category>
+    <category>Foreign Drama</category>
+    <category>Drama</category>
+  </programme>
   <programme start="20260925052000 +0000" stop="20260925054300 +0000" channel="HGTV.ar">
     <desc lang="es">S1 E9 — Una casa familiar en San Diego para Keith Bulluck
 El veterano de la NFL Keith Bulluck busca una casa multifamiliar en San Francisco para su familia, por menos de 1.5 millones. Su esposa, Heather, es originaria de la zona y sabe exactamente lo que quiere en una casa.</desc>
@@ -52612,6 +52339,19 @@ El veterano de la NFL Keith Bulluck busca una casa multifamiliar en San Francisc
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Negocios en juego</title>
     <title lang="en">Scoring the Deal</title>
+  </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20260925052700 +0000" stop="20260925064400 +0000">
+    <title>Big</title>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <episode-num system="pluto">66e053ba22dfe900138726a0</episode-num>
+    <episode-num system="original-air-date">20120625000000 +0000</episode-num>
+    <desc>Chung-sik se sorprende al ver a Yoon-jae con los tres juntos. La madre de Yoon-jae se encuentra con los padres de Da-ran en un restaurante, y Se-young duda de la relación entre el comatoso Gyeong-jun y Yoon-jae.</desc>
+    <icon src="https://images.pluto.tv/series/66e04fad38c4a000133e3c94/tile_1776893436022.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20120625</date>
+    <series-id system="pluto">66e04fad38c4a000133e3c94</series-id>
+    <sub-title>Episodio 7</sub-title>
+    <category>Telenovela</category>
+    <category>Series</category>
   </programme>
   <programme start="20260925053000 +0000" stop="20260925061500 +0000" channel="24Horas.cl">
     <desc lang="es">Interés general
@@ -52654,11 +52394,6 @@ Después de años de trabajar juntos, una pareja está desesperada por encontrar
     <title lang="es">F Táctico</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260925060000 +0000" stop="20260925090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260925060000 +0000" stop="20260925090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -52669,9 +52404,28 @@ Después de años de trabajar juntos, una pareja está desesperada por encontrar
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
+  <programme start="20260925060000 +0000" stop="20260925090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20260925060400 +0000" stop="20260925075500 +0000" channel="Golden.cl">
     <title lang="es">Cariño, cuánto te odio</title>
     <category lang="es">Deportes</category>
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20260925060900 +0000" stop="20260925070200 +0000">
+    <title>Principe de la Pasta</title>
+    <episode-num system="onscreen">S01E22</episode-num>
+    <episode-num system="pluto">680b9b2812cab50db68b89c0</episode-num>
+    <episode-num system="original-air-date">20130101000000 +0000</episode-num>
+    <desc>La buena amistad de Ling Ling y Jiang Xiu Chan levanta celos en Zhiang Jian. La ausencia de Ling Ling y Jiang Xiu Chan afecta a el restaurante. Wang Jin Bao pide hablar con Run Mei por cosas del pasado. Zhiang Jian reclama a su padre por su abandono.</desc>
+    <icon src="https://images.pluto.tv/series/680b893c03a2ab14dadd0574/tile_1769626441903.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20130101</date>
+    <series-id system="pluto">680b893c03a2ab14dadd0574</series-id>
+    <sub-title>Capítulo 22</sub-title>
+    <category>Series</category>
+    <category>Foreign Drama</category>
+    <category>Drama</category>
   </programme>
   <programme start="20260925061500 +0000" stop="20260925064500 +0000" channel="24Horas.cl">
     <desc lang="es">Interés general
@@ -52701,6 +52455,19 @@ Una pareja de recién casados busca establecerse en una casa familiar de Hudson 
   <programme start="20260925063000 +0000" stop="20260925070000 +0000" channel="ESPN5.cl">
     <title lang="es">UEFA Women's Champions League Highlight Show</title>
     <category lang="es">Deportes</category>
+  </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20260925064400 +0000" stop="20260925080000 +0000">
+    <title>Big</title>
+    <episode-num system="onscreen">S01E08</episode-num>
+    <episode-num system="pluto">66e053bd22dfe90013872827</episode-num>
+    <episode-num system="original-air-date">20120626000000 +0000</episode-num>
+    <desc>Al ver el anillo de Yoon-jae, Da-ran se confunde y pregunta a Se-young sobre su relación con él. Creyendo que Se-young ya no puede influir en Yoon-jae, Da-ran decide casarse con Gyeong-jun.</desc>
+    <icon src="https://images.pluto.tv/series/66e04fad38c4a000133e3c94/tile_1776893436022.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20120626</date>
+    <series-id system="pluto">66e04fad38c4a000133e3c94</series-id>
+    <sub-title>Episodio 8</sub-title>
+    <category>Telenovela</category>
+    <category>Series</category>
   </programme>
   <programme start="20260925064500 +0000" stop="20260925073000 +0000" channel="24Horas.cl">
     <desc lang="es">Interés general
@@ -52861,11 +52628,6 @@ Cuatro jóvenes chefs con apetito por el éxito a largo plazo se alinean ante un
     <title lang="es">Goles de la Eredivisie</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260925090000 +0000" stop="20260925120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260925090000 +0000" stop="20260925120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -52874,6 +52636,11 @@ Cuatro jóvenes chefs con apetito por el éxito a largo plazo se alinean ante un
   <programme start="20260925090000 +0000" stop="20260925120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260925090000 +0000" stop="20260925120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260925092300 +0000" stop="20260925094600 +0000" channel="HGTV.ar">
@@ -53016,11 +52783,6 @@ Eric Adjepong desafía a tres expertos en golosinas a enfrentarse a Alex Guarnas
     <category lang="es">Documentary</category>
     <title lang="es">Cristiano vs. Messi, temporada 9</title>
   </programme>
-  <programme start="20260925120000 +0000" stop="20260925150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260925120000 +0000" stop="20260925150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -53029,6 +52791,11 @@ Eric Adjepong desafía a tres expertos en golosinas a enfrentarse a Alex Guarnas
   <programme start="20260925120000 +0000" stop="20260925150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260925120000 +0000" stop="20260925150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260925120500 +0000" stop="20260925133000 +0000" channel="ESPN2.cl">
@@ -53156,11 +52923,6 @@ Una familia se enamoró del encanto de una casa que parecía sacada de un progra
     <title lang="es">UEFA Women's Champions League Highlight Show</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260925150000 +0000" stop="20260925180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260925150000 +0000" stop="20260925180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -53169,6 +52931,11 @@ Una familia se enamoró del encanto de una casa que parecía sacada de un progra
   <programme start="20260925150000 +0000" stop="20260925180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260925150000 +0000" stop="20260925180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260925150500 +0000" stop="20260925153000 +0000" channel="FOODNETWORK.uy">
@@ -53311,11 +53078,6 @@ Ponemos en contexto la actualidad internacional y analizamos el contexto de los 
     <title lang="es">UEFA Women's Champions League Highlight Show</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260925180000 +0000" stop="20260925210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260925180000 +0000" stop="20260925210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -53324,6 +53086,11 @@ Ponemos en contexto la actualidad internacional y analizamos el contexto de los 
   <programme start="20260925180000 +0000" stop="20260925210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260925180000 +0000" stop="20260925210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260925181500 +0000" stop="20260925183000 +0000" channel="24Horas.cl">
@@ -53443,11 +53210,6 @@ Bobby invita al legendario Marcus Samuelsson a la cocina de Triple Threat para q
     <title lang="es">UEFA Champions League Weekly</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260925210000 +0000" stop="20260926000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260925210000 +0000" stop="20260926000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -53456,6 +53218,11 @@ Bobby invita al legendario Marcus Samuelsson a la cocina de Triple Threat para q
   <programme start="20260925210000 +0000" stop="20260926000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260925210000 +0000" stop="20260926000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260925210400 +0000" stop="20260925212800 +0000" channel="HGTV.ar">
@@ -53580,11 +53347,6 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <title lang="es">Flamengo vs. Independiente del Valle</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260926000000 +0000" stop="20260926030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260926000000 +0000" stop="20260926030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -53593,6 +53355,11 @@ Revisa las noticias más relevantes de la jornada.</desc>
   <programme start="20260926000000 +0000" stop="20260926030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260926000000 +0000" stop="20260926030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260926000400 +0000" stop="20260926005300 +0000" channel="FOODNETWORK.uy">
@@ -53743,11 +53510,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <title lang="es">Automovilismo Fórmula 1</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260926030000 +0000" stop="20260926060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260926030000 +0000" stop="20260926060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -53756,6 +53518,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme start="20260926030000 +0000" stop="20260926060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260926030000 +0000" stop="20260926060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260926031900 +0000" stop="20260926040700 +0000" channel="FOODNETWORK.uy">
@@ -53917,11 +53684,6 @@ Una familia se enamoró del encanto de una casa que parecía sacada de un progra
     <title lang="es">Fútbol UEFA Nations League</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260926060000 +0000" stop="20260926090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260926060000 +0000" stop="20260926090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -53930,6 +53692,11 @@ Una familia se enamoró del encanto de una casa que parecía sacada de un progra
   <programme start="20260926060000 +0000" stop="20260926090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260926060000 +0000" stop="20260926090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260926060100 +0000" stop="20260926064500 +0000" channel="FOODNETWORK.uy">
@@ -54090,11 +53857,6 @@ La chef Kaleena Bliss, conocida por su estilo de cocina rápido, está en racha 
     <title lang="es">Platense vs. Fluminense</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260926090000 +0000" stop="20260926120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260926090000 +0000" stop="20260926120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -54103,6 +53865,11 @@ La chef Kaleena Bliss, conocida por su estilo de cocina rápido, está en racha 
   <programme start="20260926090000 +0000" stop="20260926120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260926090000 +0000" stop="20260926120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260926092300 +0000" stop="20260926094600 +0000" channel="HGTV.ar">
@@ -54259,11 +54026,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <title lang="es">ESPN Knockout</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260926120000 +0000" stop="20260926150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260926120000 +0000" stop="20260926150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -54272,6 +54034,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme start="20260926120000 +0000" stop="20260926150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260926120000 +0000" stop="20260926150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260926122700 +0000" stop="20260926125000 +0000" channel="HGTV.ar">
@@ -54404,11 +54171,6 @@ Una pareja quiere usar el complejo del patio trasero de su casa, pero el piso de
     <title lang="es">ESPN Knockout</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260926150000 +0000" stop="20260926180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260926150000 +0000" stop="20260926180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -54417,6 +54179,11 @@ Una pareja quiere usar el complejo del patio trasero de su casa, pero el piso de
   <programme start="20260926150000 +0000" stop="20260926180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260926150000 +0000" stop="20260926180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260926150500 +0000" stop="20260926153000 +0000" channel="FOODNETWORK.uy">
@@ -54576,11 +54343,6 @@ Nijah y Dwayne se preparan para traer al mundo a su pequeña, ¡y la mamá de Ni
     <title lang="es">Tenis Laver Cup 2026</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260926180000 +0000" stop="20260926210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260926180000 +0000" stop="20260926210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -54589,6 +54351,11 @@ Nijah y Dwayne se preparan para traer al mundo a su pequeña, ¡y la mamá de Ni
   <programme start="20260926180000 +0000" stop="20260926210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260926180000 +0000" stop="20260926210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260926182100 +0000" stop="20260926184600 +0000" channel="FOODNETWORK.uy">
@@ -54718,11 +54485,6 @@ Ali Khan empareja a los pasteleros para crear un plato de postre para una pareja
     <title lang="es">UEFA Europa League Highlights</title>
     <category lang="es">Deportes</category>
   </programme>
-  <programme start="20260926210000 +0000" stop="20260927000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20260926210000 +0000" stop="20260927000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -54731,6 +54493,11 @@ Ali Khan empareja a los pasteleros para crear un plato de postre para una pareja
   <programme start="20260926210000 +0000" stop="20260927000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20260926210000 +0000" stop="20260927000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20260926210400 +0000" stop="20260926212800 +0000" channel="HGTV.ar">
