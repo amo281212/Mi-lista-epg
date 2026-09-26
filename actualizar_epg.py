@@ -442,7 +442,7 @@ DESFASE_CANALES = {
     'Cinecanal.cl': 0,
     'Cinemax.cl': -1,
     'Golden.cl': -1,
-    'GoldenEdge.cl': 3,
+    'GoldenEdge.cl': 1,
     'HBO.cl': 0,
     'HBO2.cl': 0,
     'HBOFamily.cl': 0,
