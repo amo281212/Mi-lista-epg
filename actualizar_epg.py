@@ -1312,8 +1312,6 @@ try:
         xml_declaration=True
     )
 
-    actualizar_tvn_m3u()
-
     print("")
 
     print(
