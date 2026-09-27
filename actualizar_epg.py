@@ -465,7 +465,7 @@ DESFASE_CANALES = {
     'AE.cl': 0,
     'DramasCoreanos.cl': 0,
     'DramasCoreanosTeen.cl': 0,
-    'USANetwork.bo': 0,
+    'USANetwork.bo': 1,
     'DIRECTVSports.cl': -1,
     'ESPN.cl': 0,
     'ESPN2.cl': 2,
