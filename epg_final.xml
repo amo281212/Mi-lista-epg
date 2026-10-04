@@ -5,7 +5,7 @@
     <icon src="https://iptv-epg.org/images/eeZewd70rE87Y22RjiKz34lmEwZSaZbPRUZ0LJQ8oMeUNwVvm52wBV2sk47hBccPwxRfoQFFnnmL1r3RgII-bEWcvP32qFUc9IgqXZhlKA" />
   </channel>
   <channel id="AE.cl">
-    <display-name lang="es">A and E • Feed 1</display-name>
+    <display-name lang="es">A&amp;E • Feed 1</display-name>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/homero/0808.jpg" />
   </channel>
   <channel id="AMC.cl">
@@ -60,7 +60,7 @@
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/homero/0701.jpg" />
   </channel>
   <channel id="DiscoveryHomeAndHealth.cl">
-    <display-name lang="es">Discovery Home and Health • Feed 1</display-name>
+    <display-name lang="es">Discovery Home &amp; Health • Feed 1</display-name>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/homero/0601.jpg" />
   </channel>
   <channel id="DiscoveryKids.cl">
@@ -815,81 +815,6 @@
   <programme start="20260921210000 +0000" stop="20260922000000 +0000" channel="24Horas.cl">
     <title lang="es">Juegos Suramericanos Santa Fe 2026</title>
   </programme>
-  <programme start="20261002000000 +0000" stop="20261002030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261002000000 +0000" stop="20261002030000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261002000000 +0000" stop="20261002030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261002030000 +0000" stop="20261002060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261002030000 +0000" stop="20261002060000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261002030000 +0000" stop="20261002060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261002060000 +0000" stop="20261002090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261002060000 +0000" stop="20261002090000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261002060000 +0000" stop="20261002090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261002090000 +0000" stop="20261002120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261002090000 +0000" stop="20261002120000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261002090000 +0000" stop="20261002120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261002120000 +0000" stop="20261002150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261002120000 +0000" stop="20261002150000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261002120000 +0000" stop="20261002150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261002141500 +0000" stop="20261002161000 +0000" channel="StudioUniversal.ar">
     <title>Experta en bodas</title>
     <desc>Mary Fiore es una experta en bodas. La mejor. Sabe exactamente cómo planificar la ceremonia, aconsejar a las novias, decorar los salones, poner cada detalle a punto; pero sabe muy poco acerca del amor.</desc>
@@ -969,21 +894,6 @@
     <title>Como dice el dicho</title>
     <desc>Dramatización de situaciones de la vida real y las historias que se relacionan con dichos populares, por Don Tomas.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/comodiceeldicho.jpg" />
-  </programme>
-  <programme start="20261002150000 +0000" stop="20261002180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261002150000 +0000" stop="20261002180000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261002150000 +0000" stop="20261002180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261002150400 +0000" stop="20261002151400 +0000" channel="CartoonNetwork.cl">
     <title>Los Jóvenes Titanes en acción • Intercambio de líderes de DC</title>
@@ -1719,21 +1629,6 @@
     <title>El diario de Bridget Jones</title>
     <desc>Bridget Jones está decidida a superarse a sí misma al mismo tiempo que busca al amor de su vida dejando constancia de todo ello en su diario personal.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/eldiariodebridgetjones.jpg" />
-  </programme>
-  <programme start="20261002180000 +0000" stop="20261002210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261002180000 +0000" stop="20261002210000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261002180000 +0000" stop="20261002210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261002180500 +0000" stop="20261002181800 +0000" channel="DiscoveryKids.cl">
     <title>Topo Gigio • El chef Gigio</title>
@@ -2594,21 +2489,6 @@
     <title>The Invitation</title>
     <desc>Tras morir su hermana, Evie queda sin familiares, pero un análisis de ADN le revela la existencia de un primo distante. La nueva familia la invita a una boda en Inglaterra, y lo que empieza como un cuento de hadas se transforma en una pesadilla.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261002210000 +0000" stop="20261003000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261002210000 +0000" stop="20261003000000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261002210000 +0000" stop="20261003000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261002210400 +0000" stop="20261002211800 +0000" channel="DiscoveryKids.cl">
     <title>Bubble's Hotel • Bailar con cuidado</title>
@@ -3614,6 +3494,11 @@
     <desc>Después de permanecer cerrado ocho años, un campamento de verano es reabierto. Pero los jóvenes que pasan allí sus vacaciones van siendo asesinados con el pasar del tiempo.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/viernes13.jpg" />
   </programme>
+  <programme start="20261003000000 +0000" stop="20261003030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261003000000 +0000" stop="20261003030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -3623,11 +3508,6 @@
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261003000000 +0000" stop="20261003030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261003000200 +0000" stop="20261003000800 +0000" channel="Tooncast.cl">
     <title>Hi Hi Puffy AmiYumi • Ami juega fútbol</title>
@@ -4883,6 +4763,11 @@ La aventura gastronómica de Casey Webb lo lleva a Lafayette, Los Ángeles, para
     <desc>Joy Mangano es una humilde trabajadora de Long Island que acabó convirtiéndose en una notable inventora de productos del hogar y también en uno de los rostros más reconocidos de la teletienda americana.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261003030000 +0000" stop="20261003060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261003030000 +0000" stop="20261003060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -4892,11 +4777,6 @@ La aventura gastronómica de Casey Webb lo lleva a Lafayette, Los Ángeles, para
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261003030000 +0000" stop="20261003060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261003030300 +0000" stop="20261003040400 +0000" channel="NationalGeographic.cl">
     <title>Gordon Ramsay: sabores extremos • Los secretos del sabor cubano</title>
@@ -6006,6 +5886,11 @@ Es una batalla para la historia, ya que el anfitrión Eric Adjepong les da la bi
     <desc>La trascendencia de la dependencia | Las tensiones se elevan cuando los chicos tratan de terminar su proyecto para el gobierno a tiempo, y Sheldon consume una bebida energética para mantenerse despierto. Por su parte, Penny y Amy asisten a la 'fiesta' de un geólogo.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261003060000 +0000" stop="20261003090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261003060000 +0000" stop="20261003090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -6015,11 +5900,6 @@ Es una batalla para la historia, ya que el anfitrión Eric Adjepong les da la bi
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261003060000 +0000" stop="20261003090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261003060100 +0000" stop="20261003062600 +0000" channel="DisneyChannel.cl">
     <title>Wizards Beyond Waverly Place • Nublado con posibilidad de chicles</title>
@@ -7374,6 +7254,11 @@ Molly Yeh está celebrando el Pésaj en la granja con su supercrujiente latke pa
     <desc>T5 E14 - Pura suerte | Los miembros del 118 entran en acción cuando una mujer cae por el balcón de su ático. Athena investiga cuando un ciclista es empalado en una señal de alto, y Eddie comienza su terapia por su estrés postraumático.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/911.jpg" />
   </programme>
+  <programme start="20261003090000 +0000" stop="20261003120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261003090000 +0000" stop="20261003120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -7383,11 +7268,6 @@ Molly Yeh está celebrando el Pésaj en la granja con su supercrujiente latke pa
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261003090000 +0000" stop="20261003120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261003090100 +0000" stop="20261003091200 +0000" channel="DisneyChannel.cl">
     <title>Star, guerrera • Star vs. Las fuerzas del mal</title>
@@ -8833,6 +8713,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <desc>T8 E9 - Cucarachas | El creciente uso de fármacos por parte de Warrick tiene un impacto sobre su trabajo como CSI cuando se convierte en el principal sospechoso en un caso de asesinato relacionado con la mafia.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261003120000 +0000" stop="20261003150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261003120000 +0000" stop="20261003150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -8842,11 +8727,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261003120000 +0000" stop="20261003150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261003120300 +0000" stop="20261003122800 +0000" channel="WarnerChannel.cl">
     <title>Two and a Half Men • Disculpas por la frivolidad</title>
@@ -10061,6 +9941,11 @@ Nancy invita a su familia a una hoguera a la antigua, durante la cual sirve sopa
     <desc>Persecución | Cuando un autobús de una prisión tiene un accidente, todas las unidades deben responder ya que algunos reclusos están muy malheridos y otros buscan una oportunidad para escaparse. Luego del accidente, el agente Nolan trata de impresionar al negociador del FBI mientras persigue a un convicto fugitivo.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/therookie.jpg" />
   </programme>
+  <programme start="20261003150000 +0000" stop="20261003180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261003150000 +0000" stop="20261003180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -10070,11 +9955,6 @@ Nancy invita a su familia a una hoguera a la antigua, durante la cual sirve sopa
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261003150000 +0000" stop="20261003180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261003150100 +0000" stop="20261003152900 +0000" channel="DisneyJunior.cl">
     <title>Cachorros a la obra • Bailey y el doctor de perritos / Perro por un día</title>
@@ -11221,6 +11101,11 @@ Josh y Jessalyn se casarán pronto y planearon todo con temática francesa, pero
     <desc>Programas recomendados de ministerio para llevar la palabra divina, la fe y la esperanza a los seguidores.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261003180000 +0000" stop="20261003210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261003180000 +0000" stop="20261003210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -11230,11 +11115,6 @@ Josh y Jessalyn se casarán pronto y planearon todo con temática francesa, pero
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261003180000 +0000" stop="20261003210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261003180100 +0000" stop="20261003183000 +0000" channel="DisneyJunior.cl">
     <title>Equipo de rescate • Rescate en el río / ¿Miedo, yo?</title>
@@ -12101,19 +11981,6 @@ Ali Khan desafía a los pasteleros a crear hermosos huevos comestibles con un sa
     <desc>Un joven coreógrafo selecciona a una bailarina contemporánea y a un pianista innovador para el nuevo espectáculo de Broadway más esperado de Nueva York. Sin embargo, el pianista y el coreógrafo se enamoran de la bailarina y ponen en riesgo el espectáculo.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/highstrungfreedance.jpg" />
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20261003202500 +0000" stop="20261003214500 +0000">
-    <title>The Princess' Man LATAM</title>
-    <episode-num system="onscreen">S01E17</episode-num>
-    <episode-num system="pluto">626aa955e6e53d00135fb844</episode-num>
-    <episode-num system="original-air-date">20110914000000 +0000</episode-num>
-    <desc>Seung-yoo finalmente se reúne con su cuñada y sobrina, lo que le hace estar en deuda con una persona poco probable.</desc>
-    <icon src="https://images.pluto.tv/series/626aa218b55dbf0013515a20/tile_1769213161807.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20110914</date>
-    <series-id system="pluto">626aa218b55dbf0013515a20</series-id>
-    <sub-title>El Hombre de la Princesa</sub-title>
-    <category>Series</category>
-    <category>Drama</category>
-  </programme>
   <programme start="20261003202500 +0000" stop="20261004000000 +0000" channel="Canal13.cl">
     <title>Lugares que hablan</title>
     <desc>Repetición ║ Francisco Saavedra realiza un viaje especial para conocer la geografía de Chile, su gente y sus tradiciones, mostrando diversas locaciones y lugares que, ya sea por su aislamiento o por simple desconocimiento, no están en boca de muchos. En esta ocasión, se sumerge en las gélidas aguas del extremo sur chileno para llegar a la recóndita localidad de Puerto Edén.</desc>
@@ -12257,20 +12124,6 @@ John y Anthony visitan Carmichael, California, para ayudar a una pareja joven co
     <desc>El coreógrafo / ¡A mover el esqueleto! / El cumpleaños de Carlos / Guitarra de Troya | Los Power Rockers deciden tomar clases de baile por correo. Es Halloween y compiten para tener el mejor disfraz. Es el cumpleaños de Carlos y comienza a organizar una impresionante fiesta. Dolores confisca sus instrumentos. Baby Rap llega a la guardería.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/minibeatpowerrockers.jpg" />
   </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261003204700 +0000" stop="20261003213800 +0000">
-    <title>Mi Adorado Encuentro</title>
-    <episode-num system="onscreen">S01E10</episode-num>
-    <episode-num system="pluto">68765c1431b6562298dc1165</episode-num>
-    <episode-num system="original-air-date">20180101000000 +0000</episode-num>
-    <desc>Joon se disgusta de nuevo al ver a Lee Young cenando con el cirujano el día de su cumpleaños. Tratando de arreglar la situación, en una cena, Joon se desmaya por ingerir pimiento picante. Dong-jae ayuda a que su hermana y Joon se reconcilien.</desc>
-    <icon src="https://images.pluto.tv/series/68765940655e1e0578ee9fb0/tile_1769628961688.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20180101</date>
-    <series-id system="pluto">68765940655e1e0578ee9fb0</series-id>
-    <sub-title>Capítulo 10</sub-title>
-    <category>Romance</category>
-    <category>Drama</category>
-    <category>Series</category>
-  </programme>
   <programme start="20261003204700 +0000" stop="20261003230100 +0000" channel="GoldenEdge.cl">
     <title>Dobles de acción</title>
     <desc>El especialista en escenas de acción Luo les pide ayuda a su hija, con quien no se hablaba, y al novio de esta, abogado, porque su amado caballo corre el riesgo de ser subastado para pagar sus deudas.</desc>
@@ -12374,6 +12227,11 @@ Una pareja de Atlanta sintió que había encontrado el paraíso cuando puso un p
     <desc>La comprensión y manejo del cuerpo humano de forma integral: física, mental y espiritual para restaurar la salud y enfocar los principios de Dios.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261003210000 +0000" stop="20261004000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261003210000 +0000" stop="20261004000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -12383,11 +12241,6 @@ Una pareja de Atlanta sintió que había encontrado el paraíso cuando puso un p
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261003210000 +0000" stop="20261004000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261003210100 +0000" stop="20261003221700 +0000" channel="DisneyJunior.cl">
     <title>El rey león 3: Hakuna Matata</title>
@@ -12576,20 +12429,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <desc>La desaparición en Silicon Valley | Jeanine Harms, una empleada dedicada de una empresa de informática, desaparece después de una cita con un pez gordo local.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261003213800 +0000" stop="20261003222700 +0000">
-    <title>Mi Adorado Encuentro</title>
-    <episode-num system="onscreen">S01E11</episode-num>
-    <episode-num system="pluto">68765c1631b6562298dc8374</episode-num>
-    <episode-num system="original-air-date">20180101000000 +0000</episode-num>
-    <desc>Joon ayuda a Lee a llegar a tiempo a su sesión de fotos, pero más tarde al ver las fotografías publicadas, reclama a su novia por dejarse tomar esas fotos. A pesar de la presencia de la perrita princesa, Baek Joo-ran logra tener una exitosa cita.</desc>
-    <icon src="https://images.pluto.tv/series/68765940655e1e0578ee9fb0/tile_1769628961688.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20180101</date>
-    <series-id system="pluto">68765940655e1e0578ee9fb0</series-id>
-    <sub-title>Capítulo 11</sub-title>
-    <category>Romance</category>
-    <category>Drama</category>
-    <category>Series</category>
-  </programme>
   <programme start="20261003213900 +0000" stop="20261003223700 +0000" channel="NationalGeographic.cl">
     <title>Secretos de cuerpos antiguos • El hombre de Tollund: paz en el pantano</title>
     <desc>El hombre de Tollund: paz en el pantano | Cerca de Silkeborg, Dinamarca, unos excavadores de turba encontraron una cabeza humana. La policía trabajó con rapidez para identificarlo, pensando que podía ser un niño desaparecido recientemente. Pero un oficial notó que el cuerpo hallado era mucho más antiguo y llamó al museo para que lo investigara. Al desenterrarlo, se descubrió que era una persona en un estado de conservación perfecto, con una pose que mostraba calma. ¿Podría esta pose dar un indicio de cómo y por qué fue asesinado?</desc>
@@ -12634,19 +12473,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <title>Jumanji: En la selva</title>
     <desc>Cuatro adolescentes encuentran un viejo videojuego que los absorbe y los transporta a una selva peligrosa, donde se convierten en personajes adultos y tienen que ir superando pruebas terribles para terminar el juego y regresar al mundo real.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme channel="DramasCoreanos.cl" start="20261003214500 +0000" stop="20261003230200 +0000">
-    <title>The Princess' Man LATAM</title>
-    <episode-num system="onscreen">S01E18</episode-num>
-    <episode-num system="pluto">626aa94ee6e53d00135fb76b</episode-num>
-    <episode-num system="original-air-date">20110915000000 +0000</episode-num>
-    <desc>Se-ryung le pide a Seung-yoo que huya con ella.</desc>
-    <icon src="https://images.pluto.tv/series/626aa218b55dbf0013515a20/tile_1769213161807.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20110915</date>
-    <series-id system="pluto">626aa218b55dbf0013515a20</series-id>
-    <sub-title>El Hombre de la Princesa</sub-title>
-    <category>Series</category>
-    <category>Drama</category>
   </programme>
   <programme start="20261003214500 +0000" stop="20261003221000 +0000" channel="Mega.cl">
     <title>Partido amistoso</title>
@@ -12896,20 +12722,6 @@ Espacio en el que conversamos con un invitado especial quien nos habla de la sit
     <title>Joyas sobre ruedas • Lo mejor de lo mejor</title>
     <desc>Lo mejor de lo mejor | Mike y Edd recuerdan los recientes proyectos y proporcionan una visión adicional de las transformaciones.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261003222700 +0000" stop="20261003231800 +0000">
-    <title>Mi Adorado Encuentro</title>
-    <episode-num system="onscreen">S01E12</episode-num>
-    <episode-num system="pluto">68765c1931b6562298dcf583</episode-num>
-    <episode-num system="original-air-date">20180101000000 +0000</episode-num>
-    <desc>Una fallida captura de un delincuente, hace que la agente Min y Joon resulten heridos, amigos y familia lo visitan en el hospital. Sang-hyun recibe una golpiza del hermano de su exnovia. Cuando Lee Young llega a ver a Joon, ve algo que le molesta.</desc>
-    <icon src="https://images.pluto.tv/series/68765940655e1e0578ee9fb0/tile_1769628961688.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20180101</date>
-    <series-id system="pluto">68765940655e1e0578ee9fb0</series-id>
-    <sub-title>Capítulo 12</sub-title>
-    <category>Romance</category>
-    <category>Drama</category>
-    <category>Series</category>
   </programme>
   <programme start="20261003223000 +0000" stop="20261003230000 +0000" channel="24Horas.cl">
     <desc lang="es">Conoce las novedades de la industria automotriz y actualízate con la información de los principales eventos motorsport.</desc>
@@ -13178,8 +12990,8 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <date>20110921</date>
     <series-id system="pluto">626aa218b55dbf0013515a20</series-id>
     <sub-title>El Hombre de la Princesa</sub-title>
-    <category>Series</category>
     <category>Drama</category>
+    <category>Series</category>
   </programme>
   <programme start="20261003230300 +0000" stop="20261003233100 +0000" channel="DisneyJunior.cl">
     <title>Bluey • Hammerbarn / Pluma mágica / Juego del baile</title>
@@ -13258,8 +13070,8 @@ Guy Fieri invita a sus amigos chefs a preparar platos pequeños del Medio Orient
     <date>20180101</date>
     <series-id system="pluto">68765940655e1e0578ee9fb0</series-id>
     <sub-title>Capítulo 13</sub-title>
-    <category>Romance</category>
     <category>Drama</category>
+    <category>Romance</category>
     <category>Series</category>
   </programme>
   <programme start="20261003231800 +0000" stop="20261004020000 +0000" channel="Space.cl">
@@ -13547,6 +13359,11 @@ Molly Yeh está celebrando el Pésaj en la granja con su supercrujiente latke pa
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261004000000 +0000" stop="20261004030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261004000000 +0000" stop="20261004030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -13556,11 +13373,6 @@ Molly Yeh está celebrando el Pésaj en la granja con su supercrujiente latke pa
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261004000000 +0000" stop="20261004030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261004000200 +0000" stop="20261004001400 +0000" channel="CartoonNetwork.cl">
     <title>El mundo de Craig • Craig y la fábrica de slime</title>
@@ -13600,8 +13412,8 @@ Una familia se enamoró del encanto de una casa que parecía sacada de un progra
     <date>20180101</date>
     <series-id system="pluto">68765940655e1e0578ee9fb0</series-id>
     <sub-title>Capítulo 14</sub-title>
-    <category>Romance</category>
     <category>Drama</category>
+    <category>Romance</category>
     <category>Series</category>
   </programme>
   <programme start="20261004001000 +0000" stop="20261004021000 +0000" channel="TNTSports.cl">
@@ -13664,8 +13476,8 @@ Una familia se enamoró del encanto de una casa que parecía sacada de un progra
     <date>20110922</date>
     <series-id system="pluto">626aa218b55dbf0013515a20</series-id>
     <sub-title>El Hombre de la Princesa</sub-title>
-    <category>Series</category>
     <category>Drama</category>
+    <category>Series</category>
   </programme>
   <programme start="20261004002100 +0000" stop="20261004002700 +0000" channel="Tooncast.cl">
     <title>Hi Hi Puffy AmiYumi • A esquiar</title>
@@ -13853,8 +13665,8 @@ John y Anthony visitan Carmichael, California, para ayudar a una pareja joven co
     <date>20180101</date>
     <series-id system="pluto">68765940655e1e0578ee9fb0</series-id>
     <sub-title>Capítulo 15</sub-title>
-    <category>Romance</category>
     <category>Drama</category>
+    <category>Romance</category>
     <category>Series</category>
   </programme>
   <programme start="20261004010000 +0000" stop="20261004030000 +0000" channel="LaRed.cl">
@@ -14263,8 +14075,8 @@ Casas construidas como peceras y colmenas o alrededor de pianos y árboles.</des
     <date>20110928</date>
     <series-id system="pluto">626aa218b55dbf0013515a20</series-id>
     <sub-title>El Hombre de la Princesa</sub-title>
-    <category>Series</category>
     <category>Drama</category>
+    <category>Series</category>
   </programme>
   <programme start="20261004014500 +0000" stop="20261004021500 +0000" channel="24Horas.cl">
     <desc lang="es">Periodístico
@@ -14342,8 +14154,8 @@ Programa que brinda información actualizada de los acontecimientos más importa
     <date>20180101</date>
     <series-id system="pluto">68765940655e1e0578ee9fb0</series-id>
     <sub-title>Capítulo 16</sub-title>
-    <category>Romance</category>
     <category>Drama</category>
+    <category>Romance</category>
     <category>Series</category>
   </programme>
   <programme start="20261004015600 +0000" stop="20261004022000 +0000" channel="DiscoveryKids.cl">
@@ -14718,8 +14530,8 @@ Espacio en el que conversamos con un invitado especial quien nos habla de la sit
     <date>20180101</date>
     <series-id system="pluto">68765940655e1e0578ee9fb0</series-id>
     <sub-title>Capítulo 17</sub-title>
-    <category>Romance</category>
     <category>Drama</category>
+    <category>Romance</category>
     <category>Series</category>
   </programme>
   <programme start="20261004024700 +0000" stop="20261004033000 +0000" channel="TNTSeries.cl">
@@ -14785,8 +14597,8 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <date>20110929</date>
     <series-id system="pluto">626aa218b55dbf0013515a20</series-id>
     <sub-title>El Hombre de la Princesa</sub-title>
-    <category>Series</category>
     <category>Drama</category>
+    <category>Series</category>
   </programme>
   <programme start="20261004030000 +0000" stop="20261004100000 +0000" channel="LaRed.cl">
     <title>Pare de sufrir</title>
@@ -14883,6 +14695,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <desc>T1 E1 - Agresor cruel | El equipo viaja a Seattle para encontrar al captor de cuatro mujeres desaparecidas. Gideon es convocado para hacerse cargo de la investigación y Hotch deberá evaluar si está preparado para volver a trabajar.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/criminalminds.jpg" />
   </programme>
+  <programme start="20261004030000 +0000" stop="20261004060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261004030000 +0000" stop="20261004060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -14892,11 +14709,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261004030000 +0000" stop="20261004060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261004030400 +0000" stop="20261004033200 +0000" channel="DisneyChannel.cl">
     <title>La ley de Milo Murphy • El origen / Tal vez sonámbulo</title>
@@ -15108,8 +14920,8 @@ Bobby Flay y Giada De Laurentiis llegan a Roma y, de inmediato, buscan sus comid
     <date>20180101</date>
     <series-id system="pluto">68765940655e1e0578ee9fb0</series-id>
     <sub-title>Capítulo 18</sub-title>
-    <category>Romance</category>
     <category>Drama</category>
+    <category>Romance</category>
     <category>Series</category>
   </programme>
   <programme start="20261004033800 +0000" stop="20261004042700 +0000" channel="Discovery.cl">
@@ -15403,8 +15215,8 @@ Rachael Ray le da un giro a la comida para llevar con un plato de fideos fácil 
     <date>20111005</date>
     <series-id system="pluto">626aa218b55dbf0013515a20</series-id>
     <sub-title>El Hombre de la Princesa</sub-title>
-    <category>Series</category>
     <category>Drama</category>
+    <category>Series</category>
   </programme>
   <programme start="20261004042000 +0000" stop="20261004051000 +0000" channel="USANetwork.bo">
     <title>Chucky • Dios te salve, María!</title>
@@ -15486,8 +15298,8 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <date>20180101</date>
     <series-id system="pluto">68765940655e1e0578ee9fb0</series-id>
     <sub-title>Capítulo 19</sub-title>
-    <category>Romance</category>
     <category>Drama</category>
+    <category>Romance</category>
     <category>Series</category>
   </programme>
   <programme start="20261004043500 +0000" stop="20261004050000 +0000" channel="Nick.cl">
@@ -15822,8 +15634,8 @@ Duff recorre el lado desconocido de Los Ángeles. Allí prueba platos tales como
     <date>20180101</date>
     <series-id system="pluto">68765940655e1e0578ee9fb0</series-id>
     <sub-title>Capítulo 20</sub-title>
-    <category>Romance</category>
     <category>Drama</category>
+    <category>Romance</category>
     <category>Series</category>
   </programme>
   <programme start="20261004052300 +0000" stop="20261004054700 +0000" channel="AE.cl">
@@ -15987,8 +15799,8 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <date>20111006</date>
     <series-id system="pluto">626aa218b55dbf0013515a20</series-id>
     <sub-title>El Hombre de la Princesa</sub-title>
-    <category>Series</category>
     <category>Drama</category>
+    <category>Series</category>
   </programme>
   <programme start="20261004054100 +0000" stop="20261004062500 +0000" channel="TNTSeries.cl">
     <title>The Mentalist • Green Light</title>
@@ -16169,6 +15981,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/cinemax.jpg" />
   </programme>
+  <programme start="20261004060000 +0000" stop="20261004090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261004060000 +0000" stop="20261004090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -16178,11 +15995,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261004060000 +0000" stop="20261004090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261004060200 +0000" stop="20261004095500 +0000" channel="TNTNovelas.cl">
     <title>Olvídame si puedes</title>
@@ -16267,8 +16079,8 @@ Esta increíble variedad de casas de todo el mundo incluye: un pabellón de vidr
     <date>20180101</date>
     <series-id system="pluto">68765940655e1e0578ee9fb0</series-id>
     <sub-title>Capítulo 21</sub-title>
-    <category>Romance</category>
     <category>Drama</category>
+    <category>Romance</category>
     <category>Series</category>
   </programme>
   <programme start="20261004061400 +0000" stop="20261004063500 +0000" channel="DisneyJunior.cl">
@@ -16644,8 +16456,8 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <series-id system="pluto">64d66b86a5aa6e0013a12dba</series-id>
     <sub-title>Episodio 1</sub-title>
     <category>Series</category>
-    <category>Drama</category>
     <category>Dramedy</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261004070100 +0000" stop="20261004071300 +0000" channel="DiscoveryKids.cl">
     <title>Las aventuras de Dog y Pony • Una nueva pelota</title>
@@ -16677,8 +16489,8 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <date>20180408</date>
     <series-id system="pluto">68765940655e1e0578ee9fb0</series-id>
     <sub-title>Capítulo 22</sub-title>
-    <category>Romance</category>
     <category>Drama</category>
+    <category>Romance</category>
     <category>Series</category>
   </programme>
   <programme start="20261004070400 +0000" stop="20261004072600 +0000" channel="WarnerChannel.cl">
@@ -16996,8 +16808,8 @@ Con el tiempo agotándose, EJ, Jason, Dani y Jon deben decidir si terminar el de
     <date>20180417</date>
     <series-id system="pluto">68765940655e1e0578ee9fb0</series-id>
     <sub-title>Capítulo 23</sub-title>
-    <category>Romance</category>
     <category>Drama</category>
+    <category>Romance</category>
     <category>Series</category>
   </programme>
   <programme start="20261004075700 +0000" stop="20261004080800 +0000" channel="DiscoveryKids.cl">
@@ -17181,8 +16993,8 @@ Una mujer soltera busca su primera casa para estar más cerca de su familia en P
     <series-id system="pluto">64d66b86a5aa6e0013a12dba</series-id>
     <sub-title>Episodio 2</sub-title>
     <category>Series</category>
-    <category>Drama</category>
     <category>Dramedy</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261004081900 +0000" stop="20261004084300 +0000" channel="DiscoveryKids.cl">
     <title>Mini Beat Power Rockers • La matrioshka / Un regalo para Dolores / ¡Un día perfecto! / Tres pasitos / ¡A todo color!</title>
@@ -17370,8 +17182,8 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <date>20180101</date>
     <series-id system="pluto">68765940655e1e0578ee9fb0</series-id>
     <sub-title>Capítulo 24</sub-title>
-    <category>Romance</category>
     <category>Drama</category>
+    <category>Romance</category>
     <category>Series</category>
   </programme>
   <programme start="20261004084700 +0000" stop="20261004090000 +0000" channel="Tooncast.cl">
@@ -17565,6 +17377,11 @@ Una pareja de California decide mudarse a las montañas de Boulder, Colorado. Bu
     <desc>Fallen | El equipo pierde a uno de sus miembros cuando un genio psicótico se vuelve loco en Miami.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/csimiami.jpg" />
   </programme>
+  <programme start="20261004090000 +0000" stop="20261004120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261004090000 +0000" stop="20261004120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -17574,11 +17391,6 @@ Una pareja de California decide mudarse a las montañas de Boulder, Colorado. Bu
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261004090000 +0000" stop="20261004120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261004090500 +0000" stop="20261004093000 +0000" channel="Nick.cl">
     <title>Danger Force • Tío Hambone</title>
@@ -17784,8 +17596,8 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <series-id system="pluto">64d66b86a5aa6e0013a12dba</series-id>
     <sub-title>Episodio 3</sub-title>
     <category>Series</category>
-    <category>Drama</category>
     <category>Dramedy</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261004093600 +0000" stop="20261004094900 +0000" channel="CartoonNetwork.cl">
     <title>El mundo de Craig • El tronco es mío</title>
@@ -17857,9 +17669,9 @@ Jenny y Nathan viajan a Waimanalo, Oahu, para construir una yurta en un establo 
     <date>20151116</date>
     <series-id system="pluto">623df67e7936240013148790</series-id>
     <sub-title>Episodio 1</sub-title>
-    <category>Romance</category>
-    <category>Romantic comedy</category>
     <category>Series</category>
+    <category>Romantic comedy</category>
+    <category>Romance</category>
   </programme>
   <programme start="20261004094900 +0000" stop="20261004100000 +0000" channel="CartoonNetwork.cl">
     <title>El mundo de Craig • Recuerdos de Bobby</title>
@@ -18338,8 +18150,8 @@ Los diseñadores se unen para crear una sala de fiestas, para celebrar una nueva
     <series-id system="pluto">64d66b86a5aa6e0013a12dba</series-id>
     <sub-title>A Todos los Chicos Que Me Amaban EP04</sub-title>
     <category>Series</category>
-    <category>Drama</category>
     <category>Dramedy</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261004105500 +0000" stop="20261004110000 +0000" channel="ComedyCentral.cl">
     <title>Idiotas por accidente • T7 E5</title>
@@ -18356,9 +18168,9 @@ Los diseñadores se unen para crear una sala de fiestas, para celebrar una nueva
     <date>20151117</date>
     <series-id system="pluto">623df67e7936240013148790</series-id>
     <sub-title>Episodio 2</sub-title>
-    <category>Romance</category>
-    <category>Romantic comedy</category>
     <category>Series</category>
+    <category>Romantic comedy</category>
+    <category>Romance</category>
   </programme>
   <programme start="20261004105700 +0000" stop="20261004112200 +0000" channel="WarnerChannel.cl">
     <title>Two and a Half Men • Suelta a los perros</title>
@@ -18969,6 +18781,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <desc>T3 E9 - Va por usted señora Azrael | Mac y Stella acuden a la UCI de una clínica, donde se encuentra el cadáver de Nicole, una adolescente hospitalizada tras sufrir un accidente de tráfico.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261004120000 +0000" stop="20261004150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261004120000 +0000" stop="20261004150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -18978,11 +18795,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261004120000 +0000" stop="20261004150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261004120300 +0000" stop="20261004130000 +0000" channel="StarChannel.cl">
     <title>Castle • Disciple</title>
@@ -19014,9 +18826,9 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <date>20151123</date>
     <series-id system="pluto">623df67e7936240013148790</series-id>
     <sub-title>El peso del Amor E3</sub-title>
-    <category>Romance</category>
-    <category>Romantic comedy</category>
     <category>Series</category>
+    <category>Romantic comedy</category>
+    <category>Romance</category>
   </programme>
   <programme start="20261004120600 +0000" stop="20261004121300 +0000" channel="Tooncast.cl">
     <title>Hi Hi Puffy AmiYumi • Ayuda</title>
@@ -19064,8 +18876,8 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <series-id system="pluto">64d66b86a5aa6e0013a12dba</series-id>
     <sub-title>A Todos los Chicos Que Me Amaban EP05</sub-title>
     <category>Series</category>
-    <category>Drama</category>
     <category>Dramedy</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261004121200 +0000" stop="20261004123700 +0000" channel="DiscoveryKids.cl">
     <title>Peppa Pig • El concurso de frutas y vegetales / Día vikingo / Nuevos instrumentos musicales / En el futuro</title>
@@ -19481,6 +19293,20 @@ Dos parejas que cambian de casa se mudan a una nueva ciudad para un experimento 
     <desc>Turborreactor de Rolls Royce Viper | El Ingeniero Jimmy de Ville se encuentra en el Reino Unido a la caza de los aviones militares con motores de mayor poderío mundial.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261004131800 +0000" stop="20261004142700 +0000">
+    <title>Oh My Venus LATAM</title>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <episode-num system="pluto">623df685793624001314884a</episode-num>
+    <episode-num system="original-air-date">20151124000000 +0000</episode-num>
+    <desc>Ju-eun se enferma y Young-ho se siente culpable por hacer que ella se trabaje demasiado para que renuncie a su entrenamiento, por lo que decide revelar su identidad como John Kim y ayudarla a perder peso de la manera correcta.</desc>
+    <icon src="https://images.pluto.tv/series/623df67e7936240013148790/tile_1769212802209.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20151124</date>
+    <series-id system="pluto">623df67e7936240013148790</series-id>
+    <sub-title>Episodio 4</sub-title>
+    <category>Series</category>
+    <category>Romantic comedy</category>
+    <category>Romance</category>
+  </programme>
   <programme start="20261004131900 +0000" stop="20261004132000 +0000" channel="Tooncast.cl">
     <title>Sheep en la gran ciudad • How They Got Their Names, Farmer John</title>
     <desc>T1 E3 - How They Got Their Names, Farmer John | Sheep obtiene más de lo que esperaba cuando accidentalmente se traga un diamante y recibe gran parte de la adoración y atención de la ciudad.</desc>
@@ -19535,6 +19361,20 @@ Dos parejas que cambian de casa se mudan a una nueva ciudad para un experimento 
     <title>Alerta Roja</title>
     <desc>"Programa periodístico de investigación y crónica roja de TC Televisión que explora casos de impacto, sucesos policiales, misterios y reportajes de la realidad urbana."</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/alertaroja.jpg" />
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261004132900 +0000" stop="20261004144600 +0000">
+    <title>A Todos los Chicos Que Me Amaban</title>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <episode-num system="pluto">64da31faa5aa6e0013af6e73</episode-num>
+    <episode-num system="original-air-date">20200721000000 +0000</episode-num>
+    <desc>Hyeon-ju echar una mirada a ver los labios de Ji-wu debido a la fantasma que cada vez se besa con él. Mientras tanto, Seon-hee propulsa más activamente el matrimonio de sus hija Seo-yun y Ji-wu.</desc>
+    <icon src="https://images.pluto.tv/series/64d66b86a5aa6e0013a12dba/tile_1769551561458.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20200721</date>
+    <series-id system="pluto">64d66b86a5aa6e0013a12dba</series-id>
+    <sub-title>Episodio 6</sub-title>
+    <category>Series</category>
+    <category>Dramedy</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261004132900 +0000" stop="20261004140000 +0000" channel="DisneyChannel.cl">
     <title>Phineas y Ferb: La noche de los farmacéuticos vivientes • Entrevista con el ornitorrinco / Palabra del día</title>
@@ -19862,6 +19702,20 @@ Eric Adjepong dirige un duelo electrizante, donde Jet Tila, Sugar Sungkamee y Ar
     <desc>Moonlighting | Inspirados en un comercial, los Titanes visitan al Dr. Luz y Dr. Luna, para aceptar un segundo trabajo haciendo un comercial, para ganar algo de dinero extra.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/losjovenestitanesenaccion.jpg" />
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261004142700 +0000" stop="20261004153600 +0000">
+    <title>Oh My Venus LATAM</title>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <episode-num system="pluto">623df68f7936240013148973</episode-num>
+    <episode-num system="original-air-date">20151130000000 +0000</episode-num>
+    <desc>Ju-eun se encuentra con su acosador, pero afortunadamente Young-ho está ahí para salvarla.</desc>
+    <icon src="https://images.pluto.tv/series/623df67e7936240013148790/tile_1769212802209.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20151130</date>
+    <series-id system="pluto">623df67e7936240013148790</series-id>
+    <sub-title>Episodio 5</sub-title>
+    <category>Series</category>
+    <category>Romantic comedy</category>
+    <category>Romance</category>
+  </programme>
   <programme start="20261004142900 +0000" stop="20261004143900 +0000" channel="Tooncast.cl">
     <title>Los pequeños Looney Tunes • Flower Power</title>
     <desc>T1 E14 - Flower Power | Todos los bebés quieren elegir las mejores flores para Granny, pero terminan destruyendo su jardín.</desc>
@@ -19957,6 +19811,20 @@ Daphne celebra el verano con una fiesta de bajo presupuesto en el patio trasero.
     <title>Hora de aventura • Dos espadas</title>
     <desc>Dos espadas | Finn y Jake se enfrentan a un nuevo ser, misterioso y familiar a la vez.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/horadeaventura.jpg" />
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261004144600 +0000" stop="20261004160300 +0000">
+    <title>A Todos los Chicos Que Me Amaban</title>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <episode-num system="pluto">64da3225a5aa6e0013af7ab7</episode-num>
+    <episode-num system="original-air-date">20200727000000 +0000</episode-num>
+    <desc>Ji-wu cuida a Hyeon-ju con todo su corazón, y Hyeon-ju es un poco sorprendente y bastante agradecida. Mientras tanto, Do-gyeom se siente irritado con Ji-wu que cuida a Hyeon-ju, y piensa que no debería quedarse así...</desc>
+    <icon src="https://images.pluto.tv/series/64d66b86a5aa6e0013a12dba/tile_1769551561458.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20200727</date>
+    <series-id system="pluto">64d66b86a5aa6e0013a12dba</series-id>
+    <sub-title>Episodio 7</sub-title>
+    <category>Series</category>
+    <category>Dramedy</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261004144600 +0000" stop="20261004161600 +0000" channel="DiscoveryKids.cl">
     <title>Cómo entrenar a tu dragón</title>
@@ -20115,6 +19983,11 @@ Kardea Brown prepara una comida especial para celebrar la maternidad de su herma
     <desc>Héroes | Erin y Anthony están en desacuerdo cuando la hija de Anthony, Sophia Isabel Harper Leight, es la única testigo de un tiroteo mortal. Además, Frank quiere castigar a un policía fuera de servicio por su inacción durante un robo armado; Danny y Báez investigan un violento atraco con la ayuda no solicitada de Jamie; y Eddie y su compañero, Badillo Ian Quinlan, ayudan a una víctima de un ataque a ver el lado más positivo de la Ciudad de Nueva York.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/bluebloods.jpg" />
   </programme>
+  <programme start="20261004150000 +0000" stop="20261004180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261004150000 +0000" stop="20261004180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -20124,11 +19997,6 @@ Kardea Brown prepara una comida especial para celebrar la maternidad de su herma
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261004150000 +0000" stop="20261004180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261004150200 +0000" stop="20261004171500 +0000" channel="Cinecanal.cl">
     <title>Una familia numerosa</title>
@@ -20284,6 +20152,20 @@ Espacio conducido por el periodista Jose Ignacio Atenas, que busca explorar cóm
     <title>Invasión de garajes • Un Mercury Comet de 1965</title>
     <desc>Un Mercury Comet de 1965 | Un hombre sacrificó el motor de su Mercury Comet de 1965 para ayudar a su esposa, y ahora ella quiere devolverle el favor reclutando al equipo para restaurar el auto hasta la gloria.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261004153600 +0000" stop="20261004164500 +0000">
+    <title>Oh My Venus LATAM</title>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <episode-num system="pluto">623df69279362400131489fc</episode-num>
+    <episode-num system="original-air-date">20151201000000 +0000</episode-num>
+    <desc>Para recompensar a Ju-eun por perder peso, deciden hacer un día en que pueda hacer lo que quiera.</desc>
+    <icon src="https://images.pluto.tv/series/623df67e7936240013148790/tile_1769212802209.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20151201</date>
+    <series-id system="pluto">623df67e7936240013148790</series-id>
+    <sub-title>Episodio 6</sub-title>
+    <category>Series</category>
+    <category>Romantic comedy</category>
+    <category>Romance</category>
   </programme>
   <programme start="20261004153800 +0000" stop="20261004160000 +0000" channel="HGTV.ar">
     <desc lang="es">S2 E7 — Una yurta estilo hacienda
@@ -21172,6 +21054,11 @@ El Centro Nacional de Inteligencia Artificial y Televisión Nacional de Chile cr
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/cinemax.jpg" />
   </programme>
+  <programme start="20261004180000 +0000" stop="20261004210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261004180000 +0000" stop="20261004210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -21181,11 +21068,6 @@ El Centro Nacional de Inteligencia Artificial y Televisión Nacional de Chile cr
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261004180000 +0000" stop="20261004210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261004180500 +0000" stop="20261004190000 +0000" channel="CNNChile.cl">
     <title>Sana Mente</title>
@@ -22157,6 +22039,11 @@ Una pareja de Florida decide venderlo todo y mudarse a Exuma. Habiendo construid
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261004210000 +0000" stop="20261005000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261004210000 +0000" stop="20261005000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -22166,11 +22053,6 @@ Una pareja de Florida decide venderlo todo y mudarse a Exuma. Habiendo construid
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261004210000 +0000" stop="20261005000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261004210100 +0000" stop="20261004223300 +0000" channel="DisneyChannel.cl">
     <title>Intensamente</title>
@@ -23219,6 +23101,11 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261005000000 +0000" stop="20261005030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261005000000 +0000" stop="20261005030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -23228,11 +23115,6 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261005000000 +0000" stop="20261005030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261005000100 +0000" stop="20261005002200 +0000" channel="DisneyChannel.cl">
     <title>Ánimo, Star / Misión compras • Star vs. Las fuerzas del mal</title>
@@ -24431,6 +24313,11 @@ Espacio en el que conversamos con un invitado especial quien nos habla de la sit
     <desc>T1 E17 - Lluvia de verdad | Gideon, Hotchner y el resto del equipo se trasladan a Manhattan, donde están sucediendo una serie de asesinatos sin móvil aparente.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/criminalminds.jpg" />
   </programme>
+  <programme start="20261005030000 +0000" stop="20261005060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261005030000 +0000" stop="20261005060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -24440,11 +24327,6 @@ Espacio en el que conversamos con un invitado especial quien nos habla de la sit
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261005030000 +0000" stop="20261005060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261005030100 +0000" stop="20261005034800 +0000" channel="DiscoveryScience.cl">
     <title>Fiebre del oro • Un nuevo comienzo</title>
@@ -25538,8 +25420,8 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   </programme>
   <programme start="20261005054400 +0000" stop="20261005080200 +0000" channel="Cinecanal.cl">
     <title>El exótico Hotel Marigold 2</title>
-    <desc>El hotel Marigold rebalsa de gente. Cuando Guy y Lavinia, dos nuevos viajeros, llegan en busca de habitación, se encuentran con que solo queda un cuarto libre. Mientras el resto de los huéspedes comienza a notar cierta tensión entre ambos, un sinfín de peleas y romances empezarán a nacer en los pasillos del hotel.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <desc>El Hotel Marigold, segundo lugar más exótico es el sueño expansionista de Sonny (Dev Patel), y está haciendo más reclamaciones en su tiempo de las que tiene disponibles, teniendo en cuenta su matrimonio inminente con el amor de su vida, Sunaina (Tina Desai).</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/elexoticohotelmarigold2.jpg" />
   </programme>
   <programme start="20261005054500 +0000" stop="20261005061000 +0000" channel="Nick.cl">
     <title>Spongebob Squarepants • Manta Raya regresa / Larry, el gerente de sección</title>
@@ -25712,6 +25594,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/cinemax.jpg" />
   </programme>
+  <programme start="20261005060000 +0000" stop="20261005090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261005060000 +0000" stop="20261005090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -25721,11 +25608,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261005060000 +0000" stop="20261005090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261005060100 +0000" stop="20261005064600 +0000" channel="FOODNETWORK.uy">
     <category lang="es">Reality</category>
@@ -26887,6 +26769,11 @@ Es el cinco de mayo, y Molly Yeh está celebrando con una deliciosa y húmeda ba
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/lasestrellas.jpg" />
   </programme>
+  <programme start="20261005090000 +0000" stop="20261005120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261005090000 +0000" stop="20261005120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -26896,11 +26783,6 @@ Es el cinco de mayo, y Molly Yeh está celebrando con una deliciosa y húmeda ba
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261005090000 +0000" stop="20261005120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261005090500 +0000" stop="20261005093000 +0000" channel="Nick.cl">
     <title>Danger Force • Escuela nueva, ¿Quién habla?</title>
@@ -27981,6 +27863,11 @@ Una celebración de los mayores éxitos del verano con tacos al pastor, perfecto
     <desc>Ésta es la historia de David Wozniak, un hombre de pocas ambiciones cuya vacía existencia da un vuelco cuando, en el peor momento de su vida, descubre que es padre nada menos que de 533 hijos, fruto de las donaciones de esperma que realizó más de veinte años atrás. David se encuentra en deuda con un hombre de la mafia, es rechazado por su novia embarazada y, por si fuera poco, de todos sus hijos, 142 de ellos quieren conocerle. Mientras David batalla con la decisión de revelar o no su identidad, se embarca en una travesía que lo llevará a descubrir no sólo su verdadero yo sino también el padre en el que se podría convertir.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261005120000 +0000" stop="20261005150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261005120000 +0000" stop="20261005150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -27990,11 +27877,6 @@ Una celebración de los mayores éxitos del verano con tacos al pastor, perfecto
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261005120000 +0000" stop="20261005150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261005120300 +0000" stop="20261005120600 +0000" channel="DisneyJunior.cl">
     <title>CoComelon Playdates with Sanrio Friends • Estrellita</title>
@@ -28998,6 +28880,11 @@ Kardea Brown y sus amigos hacen un picnic en la playa con una ensalada fresca de
     <desc>Día de seguimiento | Nolan recibe noticias extraordinarias e invita a Grace a comer comida casera preparada en su cocina recién remodelada. Entretanto, cada unidad debe dar seguimiento a un caso que ha quedado inactivo para ver si descubren alguna pista nueva.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/therookie.jpg" />
   </programme>
+  <programme start="20261005150000 +0000" stop="20261005180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261005150000 +0000" stop="20261005180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -29007,11 +28894,6 @@ Kardea Brown y sus amigos hacen un picnic en la playa con una ensalada fresca de
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261005150000 +0000" stop="20261005180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261005150400 +0000" stop="20261005172900 +0000" channel="Space.cl">
     <title>Spider-Man: Un nuevo universo</title>
@@ -29894,6 +29776,11 @@ Un nuevo espacio multiplataforma, creado para visibilizar historias de innovaci�
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/cinemax.jpg" />
   </programme>
+  <programme start="20261005180000 +0000" stop="20261005210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261005180000 +0000" stop="20261005210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -29903,11 +29790,6 @@ Un nuevo espacio multiplataforma, creado para visibilizar historias de innovaci�
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261005180000 +0000" stop="20261005210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261005180600 +0000" stop="20261005201400 +0000" channel="TNT.cl">
     <title>El vengador del futuro</title>
@@ -30820,6 +30702,11 @@ Resumen noticioso nacional e internacional.</desc>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/lasestrellas.jpg" />
   </programme>
+  <programme start="20261005210000 +0000" stop="20261006000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261005210000 +0000" stop="20261006000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -30829,11 +30716,6 @@ Resumen noticioso nacional e internacional.</desc>
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261005210000 +0000" stop="20261006000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261005210100 +0000" stop="20261005225500 +0000" channel="FX.cl">
     <title>El aguador</title>
@@ -31752,6 +31634,21 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <title>Universal Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006000000 +0000" stop="20261006030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261006000000 +0000" stop="20261006030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261006000000 +0000" stop="20261006030000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261006000200 +0000" stop="20261006001900 +0000" channel="DisneyChannel.cl">
     <title>Academia de brujas • Awakenings</title>
@@ -32704,6 +32601,21 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <title>El reto de la muerte</title>
     <desc>Kane sigue tras la pista de unas maletas con artefactos nucleares y, ahora, sospecha que su contacto en la CIA podría estar conspirando contra él. Kane sabe que el tiempo corre en su contra.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006030000 +0000" stop="20261006060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261006030000 +0000" stop="20261006060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261006030000 +0000" stop="20261006060000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261006030100 +0000" stop="20261006035400 +0000" channel="History2.cl1">
     <title>Construyendo un imperio</title>
@@ -33803,6 +33715,21 @@ Duff prueba algunos de los mejores postres que la ciudad de Dallas tiene para of
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/cinemax.jpg" />
   </programme>
+  <programme start="20261006060000 +0000" stop="20261006090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261006060000 +0000" stop="20261006090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261006060000 +0000" stop="20261006090000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261006060400 +0000" stop="20261006064800 +0000" channel="HGTV.ar">
     <desc lang="es">S5 E6 — Tarro de miel, fortaleza, molino de viento
 Esta variedad de casas de todo el mundo incluye la pesadilla de un intruso de Hollywood, una casa de la suerte en Corea del Sur, un castillo de lujo en Francia y una casa verde hecha de piedra en una isla australiana.</desc>
@@ -34894,6 +34821,21 @@ Molly Yeh está preparando una cena de inauguración con mezclas judías del med
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/lasestrellas.jpg" />
   </programme>
+  <programme start="20261006090000 +0000" stop="20261006120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261006090000 +0000" stop="20261006120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261006090000 +0000" stop="20261006120000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261006090500 +0000" stop="20261006093000 +0000" channel="Nick.cl">
     <title>Danger Force • Héroes de acción</title>
     <desc>Héroes de acción | Danger Force está arrasando en Swellview Junior High, pero Ray extraña a sus compinches y planea sacarlos de la escuela.</desc>
@@ -35883,6 +35825,21 @@ Eric Adjepong dirige un duelo electrizante, donde Jet Tila, Sugar Sungkamee y Ar
     <desc>La división de una empresa familiar no sale de acuerdo a lo esperado y dispara una larga serie de dificultades y cuestionamientos.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/yotraidor.jpg" />
   </programme>
+  <programme start="20261006120000 +0000" stop="20261006150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261006120000 +0000" stop="20261006150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261006120000 +0000" stop="20261006150000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261006120200 +0000" stop="20261006120500 +0000" channel="DisneyJunior.cl">
     <title>CoComelon Playdates with Sanrio Friends • Sí, sí, sí - Canción de las verduras</title>
     <desc>Sí, sí, sí - Canción de las verduras | Los clientes de Pompompurin tienen hambre porque sirve porciones muy pequeñas sin querer.</desc>
@@ -36846,6 +36803,21 @@ Kardea Brown ayuda a su mejor amiga, una madre trabajadora ocupada, con comidas 
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261006150000 +0000" stop="20261006180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261006150000 +0000" stop="20261006180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261006150000 +0000" stop="20261006180000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261006150300 +0000" stop="20261006152800 +0000" channel="WarnerChannel.cl">
     <title>Two and a Half Men • El oso hormiguero tiene cara de loco</title>
     <desc>El oso hormiguero tiene cara de loco | Un atractivo joven que está haciendo algunos trabajos en casa de los chicos le coquetea a Chloe, la nueva amante de Charlie. Al ver que todo el afecto se dirige ahora al joven, Charlie empieza a sentir celos y la toma más en cuenta.</desc>
@@ -37758,6 +37730,21 @@ Un programa sobre evangelismo, ayuda comunitaria y reflexiones sobre las enseña
     <title>Cinemax</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/cinemax.jpg" />
+  </programme>
+  <programme start="20261006180000 +0000" stop="20261006210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261006180000 +0000" stop="20261006210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261006180000 +0000" stop="20261006210000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261006181000 +0000" stop="20261006182000 +0000" channel="CartoonNetwork.cl">
     <title>Los Jóvenes Titanes en acción • Selecciona tu aventura</title>
@@ -38692,6 +38679,21 @@ Resumen noticioso nacional e internacional.</desc>
     <title>Las Estrellas</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/lasestrellas.jpg" />
+  </programme>
+  <programme start="20261006210000 +0000" stop="20261007000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261006210000 +0000" stop="20261007000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261006210000 +0000" stop="20261007000000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261006210200 +0000" stop="20261006213000 +0000" channel="DisneyJunior.cl">
     <title>Bluey • Dirt / Cricket / Driving</title>
@@ -40581,7 +40583,7 @@ Giada De Laurentiis creció esquiando en los Alpes italianos y después de un la
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/elchicodeoro.jpg" />
   </programme>
   <programme start="20261007032100 +0000" stop="20261007040000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title>Discovery Home and Health</title>
+    <title>Discovery Home &amp; Health</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -40669,7 +40671,7 @@ Una pareja con un hijo busca la casa de montaña ideal para criar a su familia e
     <title lang="en">Mountain Life</title>
   </programme>
   <programme start="20261007035300 +0000" stop="20261007040000 +0000" channel="AE.cl">
-    <title>A and E</title>
+    <title>A&amp;E</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -40730,7 +40732,7 @@ Cerramos el día analizando lo de hoy y mirando lo que se viene hacia adelante.<
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/tntsports.jpg" />
   </programme>
   <programme start="20261007040000 +0000" stop="20261007080000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title>Discovery Home and Health</title>
+    <title>Discovery Home &amp; Health</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -40770,7 +40772,7 @@ Cerramos el día analizando lo de hoy y mirando lo que se viene hacia adelante.<
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261007040000 +0000" stop="20261007080000 +0000" channel="AE.cl">
-    <title>A and E</title>
+    <title>A&amp;E</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -41317,7 +41319,7 @@ Actualidad e información.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261007080000 +0000" stop="20261007120000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title>Discovery Home and Health</title>
+    <title>Discovery Home &amp; Health</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -41357,7 +41359,7 @@ Actualidad e información.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261007080000 +0000" stop="20261007120000 +0000" channel="AE.cl">
-    <title>A and E</title>
+    <title>A&amp;E</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -41825,7 +41827,7 @@ Disfruta de los días calurosos del verano con salchichas picantes y ensalada de
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261007120000 +0000" stop="20261007160000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title>Discovery Home and Health</title>
+    <title>Discovery Home &amp; Health</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -41865,7 +41867,7 @@ Disfruta de los días calurosos del verano con salchichas picantes y ensalada de
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261007120000 +0000" stop="20261007160000 +0000" channel="AE.cl">
-    <title>A and E</title>
+    <title>A&amp;E</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -42346,7 +42348,7 @@ Un pequeño cuarto de baño es transformado en un clásico espacio lleno de luz 
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261007160000 +0000" stop="20261007200000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title>Discovery Home and Health</title>
+    <title>Discovery Home &amp; Health</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -42386,7 +42388,7 @@ Un pequeño cuarto de baño es transformado en un clásico espacio lleno de luz 
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261007160000 +0000" stop="20261007200000 +0000" channel="AE.cl">
-    <title>A and E</title>
+    <title>A&amp;E</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -42859,7 +42861,7 @@ Hoy, uno de los pasteles se irá a una boda. TheKnot.com le dio todo a la pareja
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261007200000 +0000" stop="20261008000000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title>Discovery Home and Health</title>
+    <title>Discovery Home &amp; Health</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -42899,7 +42901,7 @@ Hoy, uno de los pasteles se irá a una boda. TheKnot.com le dio todo a la pareja
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261007200000 +0000" stop="20261008000000 +0000" channel="AE.cl">
-    <title>A and E</title>
+    <title>A&amp;E</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -43332,7 +43334,7 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261008000000 +0000" stop="20261008040000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title>Discovery Home and Health</title>
+    <title>Discovery Home &amp; Health</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -43372,7 +43374,7 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261008000000 +0000" stop="20261008040000 +0000" channel="AE.cl">
-    <title>A and E</title>
+    <title>A&amp;E</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -43866,7 +43868,7 @@ Cerramos el día analizando lo de hoy y mirando lo que se viene hacia adelante.<
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261008040000 +0000" stop="20261008080000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title>Discovery Home and Health</title>
+    <title>Discovery Home &amp; Health</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -43906,7 +43908,7 @@ Cerramos el día analizando lo de hoy y mirando lo que se viene hacia adelante.<
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261008040000 +0000" stop="20261008080000 +0000" channel="AE.cl">
-    <title>A and E</title>
+    <title>A&amp;E</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -44396,7 +44398,7 @@ Actualidad e información.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261008080000 +0000" stop="20261008120000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title>Discovery Home and Health</title>
+    <title>Discovery Home &amp; Health</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -44436,7 +44438,7 @@ Actualidad e información.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261008080000 +0000" stop="20261008120000 +0000" channel="AE.cl">
-    <title>A and E</title>
+    <title>A&amp;E</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -44904,7 +44906,7 @@ El equipo está preparando comidas perfectas para niños y también para los ni�
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/tntsports.jpg" />
   </programme>
   <programme start="20261008120000 +0000" stop="20261008160000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title>Discovery Home and Health</title>
+    <title>Discovery Home &amp; Health</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -44944,7 +44946,7 @@ El equipo está preparando comidas perfectas para niños y también para los ni�
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261008120000 +0000" stop="20261008160000 +0000" channel="AE.cl">
-    <title>A and E</title>
+    <title>A&amp;E</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -45435,7 +45437,7 @@ Molly Yeh está preparando una cena de inauguración con mezclas judías del med
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261008160000 +0000" stop="20261008200000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title>Discovery Home and Health</title>
+    <title>Discovery Home &amp; Health</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -45475,7 +45477,7 @@ Molly Yeh está preparando una cena de inauguración con mezclas judías del med
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261008160000 +0000" stop="20261008200000 +0000" channel="AE.cl">
-    <title>A and E</title>
+    <title>A&amp;E</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -45961,7 +45963,7 @@ La señal noticiosa 24H realiza estos reportajes de actualidad, que son emitidos
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261008200000 +0000" stop="20261009000000 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title>Discovery Home and Health</title>
+    <title>Discovery Home &amp; Health</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -46001,7 +46003,7 @@ La señal noticiosa 24H realiza estos reportajes de actualidad, que son emitidos
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261008200000 +0000" stop="20261009000000 +0000" channel="AE.cl">
-    <title>A and E</title>
+    <title>A&amp;E</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -46448,7 +46450,7 @@ Alton busca a la misteriosa dama de los pasteles y descubre que hacer un pastel 
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/tntsports.jpg" />
   </programme>
   <programme start="20261009000000 +0000" stop="20261009025959 +0000" channel="DiscoveryHomeAndHealth.cl">
-    <title>Discovery Home and Health</title>
+    <title>Discovery Home &amp; Health</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
@@ -46488,7 +46490,7 @@ Alton busca a la misteriosa dama de los pasteles y descubre que hacer un pastel 
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261009000000 +0000" stop="20261009025959 +0000" channel="AE.cl">
-    <title>A and E</title>
+    <title>A&amp;E</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
