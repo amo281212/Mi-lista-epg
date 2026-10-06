@@ -815,19 +815,29 @@
   <programme start="20260921210000 +0000" stop="20260922000000 +0000" channel="24Horas.cl">
     <title lang="es">Juegos Suramericanos Santa Fe 2026</title>
   </programme>
-  <programme start="20261005000000 +0000" stop="20261005030000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261005000000 +0000" stop="20261005030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261005000000 +0000" stop="20261005030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261005000000 +0000" stop="20261005030000 +0000" channel="CHVNoticias.cl">
+  <programme start="20261005000000 +0000" stop="20261005030000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261005030000 +0000" stop="20261005060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261005030000 +0000" stop="20261005060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261005030000 +0000" stop="20261005060000 +0000" channel="NTV.cl">
@@ -835,14 +845,14 @@
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261005030000 +0000" stop="20261005060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261005030000 +0000" stop="20261005060000 +0000" channel="CHVNoticias.cl">
+  <programme start="20261005060000 +0000" stop="20261005090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261005060000 +0000" stop="20261005090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261005060000 +0000" stop="20261005090000 +0000" channel="NTV.cl">
@@ -850,14 +860,14 @@
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261005060000 +0000" stop="20261005090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261005060000 +0000" stop="20261005090000 +0000" channel="CHVNoticias.cl">
+  <programme start="20261005090000 +0000" stop="20261005120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261005090000 +0000" stop="20261005120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261005090000 +0000" stop="20261005120000 +0000" channel="NTV.cl">
@@ -865,30 +875,20 @@
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261005090000 +0000" stop="20261005120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261005090000 +0000" stop="20261005120000 +0000" channel="CHVNoticias.cl">
+  <programme start="20261005120000 +0000" stop="20261005150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261005120000 +0000" stop="20261005150000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261005120000 +0000" stop="20261005150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261005120000 +0000" stop="20261005150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261005120000 +0000" stop="20261005150000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261005150000 +0000" stop="20261005170000 +0000" channel="LaRed.cl">
     <title>Al fondo hay sitio</title>
@@ -985,20 +985,20 @@
     <desc>Dramatización de situaciones de la vida real y las historias que se relacionan con dichos populares, por Don Tomas.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/comodiceeldicho.jpg" />
   </programme>
-  <programme start="20261005150000 +0000" stop="20261005180000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261005150000 +0000" stop="20261005180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261005150000 +0000" stop="20261005180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261005150000 +0000" stop="20261005180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261005150000 +0000" stop="20261005180000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261005150100 +0000" stop="20261005163000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title>Masterchef Celebrity Argentina</title>
@@ -1753,20 +1753,20 @@ Un nuevo espacio multiplataforma, creado para visibilizar historias de innovaci�
     <desc>Ray Comfort y su equipo abordan algunas de las preguntas más difíciles sobre Dios, la Biblia y temas candentes que tanto los escépticos como los creyentes enfrentan, de una manera profunda y a menudo humorística.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261005180000 +0000" stop="20261005210000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261005180000 +0000" stop="20261005210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261005180000 +0000" stop="20261005210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261005180000 +0000" stop="20261005210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261005180000 +0000" stop="20261005210000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261005180300 +0000" stop="20261005184700 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title>Mi extraña adicción ¿sigo adicto? • Olor a atún, cirugía plástica y uñas de los pies</title>
@@ -2694,20 +2694,20 @@ Resumen noticioso nacional e internacional.</desc>
     <desc>Bienvenidos al destino X | Diez desconocidos suben a un autobús, con todas las luces apagadas y emprenden el viaje de su vida. Sin idea de adonde van, compiten en distintos desafíos, ganan pistas e intentan localizar: el Destino X, en un mapa. La persona que lo adivine más lejos, será enviada a casa.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261005210000 +0000" stop="20261006000000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261005210000 +0000" stop="20261006000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261005210000 +0000" stop="20261006000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261005210000 +0000" stop="20261006000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261005210000 +0000" stop="20261006000000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261005210200 +0000" stop="20261005213000 +0000" channel="DisneyJunior.cl">
     <title>Bluey • Faceytalk / Ragdoll / Fairytale</title>
@@ -3647,20 +3647,20 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <desc>Fentanilo | Mariana va en busca de los nuevos capos del fentanilo, sus rutas, sus riesgos y comunidades norteamericanas, que pagan las consecuencias de la próxima ola del fentanilo.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261006000000 +0000" stop="20261006030000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261006000000 +0000" stop="20261006030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261006000000 +0000" stop="20261006030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261006000000 +0000" stop="20261006030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261006000000 +0000" stop="20261006030000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261006000200 +0000" stop="20261006001900 +0000" channel="DisneyChannel.cl">
     <title>Academia de brujas • Awakenings</title>
@@ -4822,20 +4822,20 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <title lang="es">Jurassic Park III</title>
     <desc lang="es">El paleontólogo Alan Grant acepta visitar Isla Sorna para realizar un supuesto recorrido aéreo, pero pronto descubre que ha sido llevado allí por otros motivos. Varado en una isla llena de dinosaurios, deberá encontrar la manera de sobrevivir y escapar.</desc>
   </programme>
-  <programme start="20261006030000 +0000" stop="20261006060000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261006030000 +0000" stop="20261006060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261006030000 +0000" stop="20261006060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261006030000 +0000" stop="20261006060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261006030000 +0000" stop="20261006060000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261006030100 +0000" stop="20261006032400 +0000" channel="FOODNETWORK.uy">
     <date>2018</date>
@@ -5878,20 +5878,20 @@ Esta variedad de casas de todo el mundo incluye la pesadilla de un intruso de Ho
     <desc>Rubí es una bella joven universitaria que vive junto con su madre Doña Refugio y su hermana Cristina en una pobre vecindad. ... Maribel es hija del millonario hombre de negocios llamado Arturo De La Fuente. Ella le entrega su amistad a Rubí, sin saber que esta está envenenada por la envidia y los celos</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/rubi.jpg" />
   </programme>
-  <programme start="20261006060000 +0000" stop="20261006090000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261006060000 +0000" stop="20261006090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261006060000 +0000" stop="20261006090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261006060000 +0000" stop="20261006090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261006060000 +0000" stop="20261006090000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261006060100 +0000" stop="20261006061200 +0000" channel="DiscoveryKids.cl">
     <title>Héroes y hermanos • Más rápido</title>
@@ -7052,20 +7052,20 @@ Molly Yeh está preparando una cena de inauguración con mezclas judías del med
     <desc>Cats in the Cradle .. | Una mujer anciana es hallada muerta rodeada de sus gatos. Nick y Sara investigan la explosión de un automóvil.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261006090000 +0000" stop="20261006120000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261006090000 +0000" stop="20261006120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261006090000 +0000" stop="20261006120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261006090000 +0000" stop="20261006120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261006090000 +0000" stop="20261006120000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261006090300 +0000" stop="20261006092500 +0000" channel="DiscoveryKids.cl">
     <title>¡Agente Binky al rescate! • Día del perro / Congelado</title>
@@ -8192,20 +8192,20 @@ Eric Adjepong dirige un duelo electrizante, donde Jet Tila, Sugar Sungkamee y Ar
     <title lang="es">Megamente</title>
     <desc lang="es">Megamente es un súper villano que logra deshacerse de su archienemigo "Metro Man" y ahora puede conquistar libremente Metro City.</desc>
   </programme>
-  <programme start="20261006120000 +0000" stop="20261006150000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261006120000 +0000" stop="20261006150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261006120000 +0000" stop="20261006150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261006120000 +0000" stop="20261006150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261006120000 +0000" stop="20261006150000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261006120200 +0000" stop="20261006121500 +0000" channel="CartoonNetwork.cl">
     <title>Los Jóvenes Titanes en acción • Hola, pizza</title>
@@ -9335,20 +9335,20 @@ Daphne cocina con ingredientes intimidantes como anchoas, aguaturma y levadura.<
   <programme channel="Sony.cl" start="20261006150000 +0000" stop="20261006163000 +0000">
     <title lang="es">The Nanny</title>
   </programme>
-  <programme start="20261006150000 +0000" stop="20261006180000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261006150000 +0000" stop="20261006180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261006150000 +0000" stop="20261006180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261006150000 +0000" stop="20261006180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261006150000 +0000" stop="20261006180000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261006150100 +0000" stop="20261006163000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title>Masterchef Celebrity Argentina</title>
@@ -10492,20 +10492,20 @@ Un programa sobre evangelismo, ayuda comunitaria y reflexiones sobre las enseña
   <programme channel="Sony.cl" start="20261006180000 +0000" stop="20261006193000 +0000">
     <title lang="es">My wife and kids</title>
   </programme>
-  <programme start="20261006180000 +0000" stop="20261006210000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261006180000 +0000" stop="20261006210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261006180000 +0000" stop="20261006210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261006180000 +0000" stop="20261006210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261006180000 +0000" stop="20261006210000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme channel="DramasCoreanos.cl" start="20261006180200 +0000" stop="20261006191000 +0000">
     <title>Hwarang: La Juventud Del Guerrero Poeta</title>
@@ -11795,20 +11795,20 @@ Resumen noticioso nacional e internacional.</desc>
   <programme channel="UniversalTV.cl" start="20261006210000 +0000" stop="20261006215000 +0000">
     <title lang="es">Chicago Fire</title>
   </programme>
-  <programme start="20261006210000 +0000" stop="20261007000000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261006210000 +0000" stop="20261007000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261006210000 +0000" stop="20261007000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261006210000 +0000" stop="20261007000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261006210000 +0000" stop="20261007000000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261006210200 +0000" stop="20261006213000 +0000" channel="DisneyJunior.cl">
     <title>Bluey • Dirt / Cricket / Driving</title>
@@ -13072,20 +13072,20 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <title lang="es">Tornados</title>
     <desc lang="es">Una científica especializada en tormentas regresa a su ciudad natal para investigar una serie de tornados cada vez más violentos. Junto a un grupo de cazadores de tormentas, deberá enfrentarse a condiciones extremas mientras intenta comprender y detener el fenómeno.</desc>
   </programme>
-  <programme start="20261007000000 +0000" stop="20261007030000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261007000000 +0000" stop="20261007030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261007000000 +0000" stop="20261007030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261007000000 +0000" stop="20261007030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261007000000 +0000" stop="20261007030000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261007000200 +0000" stop="20261007000800 +0000" channel="Tooncast.cl">
     <title>Hi Hi Puffy AmiYumi • Nuevo empleado</title>
@@ -14534,20 +14534,20 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme channel="UniversalTV.cl" start="20261007030000 +0000" stop="20261007115000 +0000">
     <title lang="es">La Ley y el Orden: UVE</title>
   </programme>
-  <programme start="20261007030000 +0000" stop="20261007060000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261007030000 +0000" stop="20261007060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261007030000 +0000" stop="20261007060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261007030000 +0000" stop="20261007060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261007030000 +0000" stop="20261007060000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261007030100 +0000" stop="20261007032300 +0000" channel="FOODNETWORK.uy">
     <date>2013</date>
@@ -15840,20 +15840,20 @@ Eric Adjepong invita a tres competidores de Nueva York para representar la diver
     <desc>Rubí es una bella joven universitaria que vive junto con su madre Doña Refugio y su hermana Cristina en una pobre vecindad. ... Maribel es hija del millonario hombre de negocios llamado Arturo De La Fuente. Ella le entrega su amistad a Rubí, sin saber que esta está envenenada por la envidia y los celos</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/rubi.jpg" />
   </programme>
-  <programme start="20261007060000 +0000" stop="20261007090000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261007060000 +0000" stop="20261007090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261007060000 +0000" stop="20261007090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261007060000 +0000" stop="20261007090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261007060000 +0000" stop="20261007090000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261007060100 +0000" stop="20261007061100 +0000" channel="DiscoveryKids.cl">
     <title>Héroes y hermanos • A volar</title>
@@ -17129,20 +17129,20 @@ Una pareja que se ha quedado sola, ya que sus hijos han crecido y se han ido de 
     <desc>T5 E15 - El síndrome FOMO | Los miembros del equipo corren al rescate de una influencer cuando tiene un accidente en una sauna. Se produce una emergencia en una boda de un reality show. Una tragedia ocurre cuando una madre y su hija van de excursión.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/911.jpg" />
   </programme>
-  <programme start="20261007090000 +0000" stop="20261007120000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261007090000 +0000" stop="20261007120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261007090000 +0000" stop="20261007120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261007090000 +0000" stop="20261007120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261007090000 +0000" stop="20261007120000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme channel="DramasCoreanos.cl" start="20261007090100 +0000" stop="20261007101000 +0000">
     <title>Amor Bajo la Luz de la Luna</title>
@@ -18380,20 +18380,20 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
     <title lang="es">Una Navidad atemporal</title>
     <desc lang="es">Una pareja queda atrapada en un extraño bucle temporal durante las fiestas navideñas. Mientras intenta descubrir cómo romper el ciclo, deberá enfrentarse a sus propios problemas y aprender a valorar el tiempo que tiene juntos.</desc>
   </programme>
-  <programme start="20261007120000 +0000" stop="20261007150000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261007120000 +0000" stop="20261007150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261007120000 +0000" stop="20261007150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261007120000 +0000" stop="20261007150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261007120000 +0000" stop="20261007150000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261007120200 +0000" stop="20261007120900 +0000" channel="Tooncast.cl">
     <title>Hi Hi Puffy AmiYumi • Prisioneras en Yoyovia</title>
@@ -19554,20 +19554,20 @@ Kardea Brown invita a su familia a disfrutar de una parrillada en el patio trase
   <programme channel="Sony.cl" start="20261007150000 +0000" stop="20261007164500 +0000">
     <title lang="es">The Nanny</title>
   </programme>
-  <programme start="20261007150000 +0000" stop="20261007180000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261007150000 +0000" stop="20261007180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261007150000 +0000" stop="20261007180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261007150000 +0000" stop="20261007180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261007150000 +0000" stop="20261007180000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261007150400 +0000" stop="20261007152500 +0000" channel="FOODNETWORK.uy">
     <date>2013</date>
@@ -20668,20 +20668,20 @@ Los hermanos Sumit y Swithin se comprometieron recientemente y su madre tiene la
     <desc>Este concierto fue grabado en un auditorio en la ciudad de Miami y presenta doce canciones que impactan y bendicen a la iglesia de Cristo en todo el mundo.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261007180000 +0000" stop="20261007210000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261007180000 +0000" stop="20261007210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261007180000 +0000" stop="20261007210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261007180000 +0000" stop="20261007210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261007180000 +0000" stop="20261007210000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261007180400 +0000" stop="20261007190100 +0000" channel="TNTSeries.cl">
     <title>CSI • Fur and Loathing</title>
@@ -21809,20 +21809,20 @@ Resumen noticioso nacional e internacional.</desc>
   <programme channel="UniversalTV.cl" start="20261007210000 +0000" stop="20261007215000 +0000">
     <title lang="es">Chicago Fire</title>
   </programme>
-  <programme start="20261007210000 +0000" stop="20261008000000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261007210000 +0000" stop="20261008000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261007210000 +0000" stop="20261008000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261007210000 +0000" stop="20261008000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261007210000 +0000" stop="20261008000000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261007210100 +0000" stop="20261007225000 +0000" channel="TNTNovelas.cl">
     <title>Fuerza de mujer</title>
@@ -22917,20 +22917,20 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <desc>A Roma con amor | En este episodio, un hombre es perfilado por el equipo antidrogas y, aunque dice estar viajando únicamente por amor, algo oculto entre su ropa podría poner sus planes en riesgo. Más tarde, el equipo antidrogas seguirá una pista de inteligencia y deberán determinar si una pasajera búlgara es la simple empleada doméstica que dice ser. Mientras tanto la Unidad Investigativa de Fronteras enfrenta una difícil situación cuando demoran a un hombre iraní y a su supuesto hijo buscando acreditar sus identidades. El hombre no solo podría perder su libertad sino que, si no consigue acreditar su paternidad, podría ser separado de su hijo.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/alertaaeropuerto.jpg" />
   </programme>
-  <programme start="20261008000000 +0000" stop="20261008030000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261008000000 +0000" stop="20261008030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261008000000 +0000" stop="20261008030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261008000000 +0000" stop="20261008030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261008000000 +0000" stop="20261008030000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261008000200 +0000" stop="20261008002600 +0000" channel="DiscoveryTurbo.cl">
     <title>Más motor</title>
@@ -24251,20 +24251,20 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <title lang="es">Resident Evil 5: La Venganza</title>
     <desc lang="es">Alice despierta atrapada en una instalación de Umbrella Corporation y descubre que forma parte de un experimento. Con la ayuda de antiguos aliados, deberá luchar contra hordas de criaturas y descubrir la verdad detrás del virus que ha devastado el mundo.</desc>
   </programme>
-  <programme start="20261008030000 +0000" stop="20261008060000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261008030000 +0000" stop="20261008060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261008030000 +0000" stop="20261008060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261008030000 +0000" stop="20261008060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261008030000 +0000" stop="20261008060000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261008030200 +0000" stop="20261008031200 +0000" channel="Tooncast.cl">
     <title>Los pequeños Looney Tunes • A Lot Like Lola</title>
@@ -25468,20 +25468,20 @@ Alex Guarnaschelli desafía a cuatro chefs a prepararse para ensartar a su compe
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/lasestrellas.jpg" />
   </programme>
-  <programme start="20261008060000 +0000" stop="20261008090000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261008060000 +0000" stop="20261008090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261008060000 +0000" stop="20261008090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261008060000 +0000" stop="20261008090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261008060000 +0000" stop="20261008090000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261008060400 +0000" stop="20261008064800 +0000" channel="HGTV.ar">
     <desc lang="es">S5 E8 — Envuelta, brillosa, rocas
@@ -26575,20 +26575,20 @@ Molly Yeh está preparando una cena de inauguración con mezclas judías del med
     <desc>The Good, the Bad &amp; the Dominatrix | Sara no quiere que Grissom se reúna con Lady Heather (Melinda Clarke) durante la investigación de un atentado contra su vida.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261008090000 +0000" stop="20261008120000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261008090000 +0000" stop="20261008120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261008090000 +0000" stop="20261008120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261008090000 +0000" stop="20261008120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261008090000 +0000" stop="20261008120000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261008090400 +0000" stop="20261008092800 +0000" channel="DisneyJunior.cl">
     <title>Doctora Juguetes • Fiebre azul / Chillar o no chillar</title>
@@ -27623,20 +27623,20 @@ El equipo está preparando comidas perfectas para niños y también para los ni�
     <title lang="es">La vida secreta de las mascotas</title>
     <desc lang="es">Cuando sus dueños salen de casa, un grupo de mascotas vive todo tipo de aventuras lejos de la mirada humana. Max, un perro acostumbrado a ser el favorito, deberá dejar de lado sus diferencias con Duke para encontrar el camino de regreso a casa.</desc>
   </programme>
-  <programme start="20261008120000 +0000" stop="20261008150000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261008120000 +0000" stop="20261008150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261008120000 +0000" stop="20261008150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261008120000 +0000" stop="20261008150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261008120000 +0000" stop="20261008150000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261008120400 +0000" stop="20261008125000 +0000" channel="InvestigationDiscovery.cl">
     <title>Cuando el mal se disfraza • Hermanos y hermanas</title>
@@ -28604,20 +28604,20 @@ Nancy está preparando una comida acogedora y reconfortante con todo tipo de fru
     <title lang="es">El bebé de Bridget Jones</title>
     <desc lang="es">El enfoque de Bridget en su carrera se ve interrumpido cuando se entera que está embarazada, pero el único problema es la identidad del padre de su bebé.</desc>
   </programme>
-  <programme start="20261008150000 +0000" stop="20261008180000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261008150000 +0000" stop="20261008180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261008150000 +0000" stop="20261008180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261008150000 +0000" stop="20261008180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261008150000 +0000" stop="20261008180000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261008150300 +0000" stop="20261008160300 +0000" channel="TNTSeries.cl">
     <title>CSI • Friends and Lovers</title>
@@ -29526,20 +29526,20 @@ Programa sobre las noticias de los próximos estrenos del cine.</desc>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/lasestrellas.jpg" />
   </programme>
-  <programme start="20261008180000 +0000" stop="20261008210000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261008180000 +0000" stop="20261008210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261008180000 +0000" stop="20261008210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261008180000 +0000" stop="20261008210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261008180000 +0000" stop="20261008210000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261008181000 +0000" stop="20261008183000 +0000" channel="NickJr.bo">
     <title>Rubble &amp; Crew • ¡El equipo y Skye construyen un refugio de montaña!</title>
@@ -30492,20 +30492,20 @@ Resumen noticioso nacional e internacional.</desc>
     <desc>Un mensaje de que invita a una ministración del Espíritu Santo y a recibir una poderosa influencia espiritual para bien.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261008210000 +0000" stop="20261009000000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme start="20261008210000 +0000" stop="20261009000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261008210000 +0000" stop="20261009000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261008210000 +0000" stop="20261009000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261008210000 +0000" stop="20261009000000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261008210500 +0000" stop="20261008215200 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title>Remodelaciones con celebridades • Zach Braff domina una remodelación</title>
