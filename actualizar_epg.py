@@ -113,7 +113,7 @@ MAPEO_IDS = {
     '0107': 'Canal13.cl',
     '1836': 'AMC.cl',
     '0846': 'Cinecanal.cl',
-    '1840': 'Cinemax.cl'
+    '1840': 'Cinemax.cl',
     '1821': 'Golden.cl',
     '0823': 'GoldenEdge.cl',
     '2813': 'HBO.cl',
