@@ -275,7 +275,7 @@ FUENTE_POR_CANAL = {
     'Sony.cl': 'https://raw.githubusercontent.com/Puticastillo/EPGCL/refs/heads/main/smithers/guia-de-programacion.xml',
     'UniversalCinema.cl': 'https://raw.githubusercontent.com/Puticastillo/EPGCL/refs/heads/main/smithers/guia-de-programacion.xml',
     'Space.cl': 'https://raw.githubusercontent.com/Puticastillo/EPGCL/refs/heads/main/smithers/guia-de-programacion.xml',
-    'ENTChannel.cl': 'https://raw.githubusercontent.com/Puticastillo/EPGCL/refs/heads/main/smithers/guia-de-programacion.xml',
+    'ENTChannel.cl': 'https://amo281212.github.io/Veo/epg.xml',
     'TNT.cl': 'https://raw.githubusercontent.com/Puticastillo/EPGCL/refs/heads/main/smithers/guia-de-programacion.xml',
     'FX.cl': 'https://raw.githubusercontent.com/Puticastillo/EPGCL/refs/heads/main/smithers/guia-de-programacion.xml',
     'WarnerChannel.cl': 'https://raw.githubusercontent.com/Puticastillo/EPGCL/refs/heads/main/smithers/guia-de-programacion.xml',
