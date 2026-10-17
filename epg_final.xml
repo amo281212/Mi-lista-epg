@@ -855,21 +855,6 @@
   <programme channel="ENTChannel.cl" start="20261014225800 +0000" stop="20261015004400 +0000">
     <title lang="es">Al filo del mañana</title>
   </programme>
-  <programme start="20261015000000 +0000" stop="20261015030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261015000000 +0000" stop="20261015030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261015000000 +0000" stop="20261015030000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme channel="ENTChannel.cl" start="20261015004400 +0000" stop="20261015022900 +0000">
     <title lang="es">El diablo viste a la moda 2</title>
   </programme>
@@ -878,51 +863,6 @@
   </programme>
   <programme channel="ENTChannel.cl" start="20261015030000 +0000" stop="20261015144900 +0000">
     <title lang="es">El Código Da Vinci</title>
-  </programme>
-  <programme start="20261015030000 +0000" stop="20261015060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261015030000 +0000" stop="20261015060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261015030000 +0000" stop="20261015060000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261015060000 +0000" stop="20261015090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261015060000 +0000" stop="20261015090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261015060000 +0000" stop="20261015090000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261015090000 +0000" stop="20261015120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261015090000 +0000" stop="20261015120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261015090000 +0000" stop="20261015120000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261015120000 +0000" stop="20261015140000 +0000" channel="AMC.cl">
     <title>Planet Action</title>
@@ -934,21 +874,6 @@
     <category>Entertainment</category>
     <category>Action</category>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015120000 +0000" stop="20261015150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261015120000 +0000" stop="20261015150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261015120000 +0000" stop="20261015150000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261015125000 +0000" stop="20261015142000 +0000" channel="UniversalCinema.cl">
     <title>Alvin y las ardillas</title>
@@ -1317,21 +1242,6 @@
     <title>Como dice el dicho</title>
     <desc>Dramatización de situaciones de la vida real y las historias que se relacionan con dichos populares, por Don Tomas.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/comodiceeldicho.jpg" />
-  </programme>
-  <programme start="20261015150000 +0000" stop="20261015180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261015150000 +0000" stop="20261015180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261015150000 +0000" stop="20261015180000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261015150100 +0000" stop="20261015162900 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title>Masterchef Celebrity Argentina</title>
@@ -4448,21 +4358,6 @@
       <value>B</value>
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/laleyyelordenunidaddevictimasespeciales.jpg" />
-  </programme>
-  <programme start="20261015180000 +0000" stop="20261015210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261015180000 +0000" stop="20261015210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261015180000 +0000" stop="20261015210000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme channel="ENTChannel.cl" start="20261015180100 +0000" stop="20261015203000 +0000">
     <title lang="es">X-Men: Días del futuro pasado</title>
@@ -7908,21 +7803,6 @@
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/bumblebee.jpg" />
   </programme>
-  <programme start="20261015210000 +0000" stop="20261016000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261015210000 +0000" stop="20261016000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261015210000 +0000" stop="20261016000000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261015210300 +0000" stop="20261015213100 +0000" channel="DisneyJunior.cl">
     <title>Bluey • TV Shop / Dragon / Slide</title>
     <sub-title>TV Shop / Dragon / Slide</sub-title>
@@ -11325,11 +11205,6 @@
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016000000 +0000" stop="20261016030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261016000000 +0000" stop="20261016030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -11339,6 +11214,11 @@
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261016000000 +0000" stop="20261016030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261016000100 +0000" stop="20261016003100 +0000" channel="DisneyJunior.cl">
     <title>Iron Man y sus increíbles amigos • Entrega especial / El robot roto</title>
@@ -15248,11 +15128,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme channel="ENTChannel.cl" start="20261016030000 +0000" stop="20261016130000 +0000">
     <title lang="es">La leyenda del tesoro perdido 2</title>
   </programme>
-  <programme start="20261016030000 +0000" stop="20261016060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261016030000 +0000" stop="20261016060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -15262,6 +15137,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261016030000 +0000" stop="20261016060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261016030200 +0000" stop="20261016044400 +0000" channel="HBOXtreme.cl">
     <title>Anaconda</title>
@@ -19046,11 +18926,6 @@ Acompañe al chef Aarón Sánchez a Portland para resaltar los sabores hispanos 
     <category>Drama</category>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/rubi.jpg" />
   </programme>
-  <programme start="20261016060000 +0000" stop="20261016090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261016060000 +0000" stop="20261016090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -19060,6 +18935,11 @@ Acompañe al chef Aarón Sánchez a Portland para resaltar los sabores hispanos 
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261016060000 +0000" stop="20261016090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261016060100 +0000" stop="20261016061300 +0000" channel="CartoonNetwork.cl">
     <title>El increíble mundo de Gumball • La fanática</title>
@@ -23365,11 +23245,6 @@ Molly Yeh está preparando una sopa con sabor a hamburguesa con queso y papas pa
     <episode-num system="onscreen">T7 E5</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016090000 +0000" stop="20261016120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261016090000 +0000" stop="20261016120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -23379,6 +23254,11 @@ Molly Yeh está preparando una sopa con sabor a hamburguesa con queso y papas pa
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261016090000 +0000" stop="20261016120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261016090100 +0000" stop="20261016091300 +0000" channel="CartoonNetwork.cl">
     <title>El mundo de Craig • La solución brillante</title>
@@ -27693,11 +27573,6 @@ Esta variedad de casas de todo el mundo incluye una casa que causa sensación en
     <episode-num system="onscreen">T6 E8</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/csimiami.jpg" />
   </programme>
-  <programme start="20261016120000 +0000" stop="20261016150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261016120000 +0000" stop="20261016150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -27707,6 +27582,11 @@ Esta variedad de casas de todo el mundo incluye una casa que causa sensación en
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261016120000 +0000" stop="20261016150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261016120100 +0000" stop="20261016122800 +0000" channel="DisneyChannel.cl">
     <title>Kiff • El mago Ed / Hechizo desconocido</title>
@@ -32088,11 +31968,6 @@ Los hermanos de Kardea Brown llegan para divertirse y jugar con un menú perfect
     <category>Drama</category>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/comodiceeldicho.jpg" />
   </programme>
-  <programme start="20261016150000 +0000" stop="20261016180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261016150000 +0000" stop="20261016180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -32102,6 +31977,11 @@ Los hermanos de Kardea Brown llegan para divertirse y jugar con un menú perfect
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261016150000 +0000" stop="20261016180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261016150100 +0000" stop="20261016152900 +0000" channel="DisneyChannel.cl">
     <title>Phineas y Ferb: La noche de los farmacéuticos vivientes • Mamá, ¿Puedes oírme? / La excursión</title>
@@ -35602,11 +35482,6 @@ Ponemos en contexto la actualidad internacional y analizamos el contexto de los 
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/laleyyelordenunidaddevictimasespeciales.jpg" />
   </programme>
-  <programme start="20261016180000 +0000" stop="20261016210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261016180000 +0000" stop="20261016210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -35616,6 +35491,11 @@ Ponemos en contexto la actualidad internacional y analizamos el contexto de los 
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261016180000 +0000" stop="20261016210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261016180100 +0000" stop="20261016181200 +0000" channel="CartoonNetwork.cl">
     <title>Los Jóvenes Titanes en acción • Loco del control</title>
@@ -35924,20 +35804,6 @@ Espacio en el que conversamos con un invitado especial quien nos habla de la sit
     <country>EE. UU</country>
     <episode-num system="onscreen">S2 E2</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/perfectodesconocido.jpg" />
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261016181900 +0000" stop="20261016192900 +0000">
-    <title>Luchando para abrirme paso</title>
-    <episode-num system="onscreen">S01E10</episode-num>
-    <episode-num system="pluto">61aa6258c323f20013e53f2d</episode-num>
-    <episode-num system="original-air-date">20170620000000 +0000</episode-num>
-    <desc>La relación de Juman y Seolhui comienza a desmoronarse. Hyeran hace todo lo posible para superar a Aera de nuevo.</desc>
-    <icon src="https://images.pluto.tv/series/61aa6254c323f20013e53ed1/tile_1769211001785.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20170620</date>
-    <series-id system="pluto">61aa6254c323f20013e53ed1</series-id>
-    <sub-title>Episodio 10</sub-title>
-    <category>Series</category>
-    <category>Romantic comedy</category>
-    <category>Comedy</category>
   </programme>
   <programme start="20261016182000 +0000" stop="20261016183000 +0000" channel="Canal13.cl">
     <title>El tiempo</title>
@@ -36800,20 +36666,6 @@ Los tres pasteleros restantes compiten en una final en la que todo tiene que ver
     <episode-num system="onscreen">S4 E7</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20261016185700 +0000" stop="20261016201400 +0000">
-    <title>A Todos los Chicos Que Me Amaban</title>
-    <episode-num system="onscreen">S01E07</episode-num>
-    <episode-num system="pluto">64da3225a5aa6e0013af7ab7</episode-num>
-    <episode-num system="original-air-date">20200727000000 +0000</episode-num>
-    <desc>Ji-wu cuida a Hyeon-ju con todo su corazón, y Hyeon-ju es un poco sorprendente y bastante agradecida. Mientras tanto, Do-gyeom se siente irritado con Ji-wu que cuida a Hyeon-ju, y piensa que no debería quedarse así...</desc>
-    <icon src="https://images.pluto.tv/series/64d66b86a5aa6e0013a12dba/tile_1769551561458.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20200727</date>
-    <series-id system="pluto">64d66b86a5aa6e0013a12dba</series-id>
-    <sub-title>Episodio 7</sub-title>
-    <category>Series</category>
-    <category>Dramedy</category>
-    <category>Drama</category>
-  </programme>
   <programme start="20261016185700 +0000" stop="20261016194700 +0000" channel="AnimalPlanet.cl">
     <title>Refugio en el granero • Cerdos mangálica</title>
     <sub-title>Cerdos mangálica</sub-title>
@@ -37628,20 +37480,6 @@ Resumen noticioso nacional e internacional.</desc>
     <country>Italia</country>
     <episode-num system="onscreen">S1E6</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/winxclubvuelvelamagia.jpg" />
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261016192900 +0000" stop="20261016204200 +0000">
-    <title>Luchando para abrirme paso</title>
-    <episode-num system="onscreen">S01E11</episode-num>
-    <episode-num system="pluto">61aa625cc323f20013e5402e</episode-num>
-    <episode-num system="original-air-date">20170626000000 +0000</episode-num>
-    <desc>Namil Villa gana un nuevo inquilino. Aera y Dongman van a su primera cita.</desc>
-    <icon src="https://images.pluto.tv/series/61aa6254c323f20013e53ed1/tile_1769211001785.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20170626</date>
-    <series-id system="pluto">61aa6254c323f20013e53ed1</series-id>
-    <sub-title>Episodio 11</sub-title>
-    <category>Series</category>
-    <category>Romantic comedy</category>
-    <category>Comedy</category>
   </programme>
   <programme start="20261016192900 +0000" stop="20261016195800 +0000" channel="DisneyChannel.cl">
     <title>Star vs Las fuerzas del mal • Adiós al libro / Marco y el Rey</title>
@@ -38636,20 +38474,6 @@ Dos diseñadores deben hacer un piloto de un programa de TV, para demostrar sus 
     <episode-num system="onscreen">S3E15</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/minibeatpowerrockers.jpg" />
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20261016201400 +0000" stop="20261016213200 +0000">
-    <title>A Todos los Chicos Que Me Amaban</title>
-    <episode-num system="onscreen">S01E08</episode-num>
-    <episode-num system="pluto">64d66db5b97a1e0013df60fb</episode-num>
-    <episode-num system="original-air-date">20200728000000 +0000</episode-num>
-    <desc>¿Evitas besarte? Hyeon-ju se muere de vergüenza y además, escucha Ji-wu llama a una mujer llamada Min-ju en su sueño. Mientras tanto, la fiesta de aniversario de la boda de los padres de Hyeon-ju se hace, y dos hombres de Hyeon-ju asisten allí...</desc>
-    <icon src="https://images.pluto.tv/series/64d66b86a5aa6e0013a12dba/tile_1769551561458.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20200728</date>
-    <series-id system="pluto">64d66b86a5aa6e0013a12dba</series-id>
-    <sub-title>A Todos los Chicos Que Me Amaban EP08</sub-title>
-    <category>Series</category>
-    <category>Dramedy</category>
-    <category>Drama</category>
-  </programme>
   <programme start="20261016201400 +0000" stop="20261016215900 +0000" channel="HBOPop.cl">
     <title>CHiPs: Patrulla motorizada recargada</title>
     <desc>El agente Baker, un motorista profesional que desea rehacer su vida y recuperar a su esposa, y el agente Poncherello, un miembro del FBI en misión de incógnito para investigar un caso de corrupción dentro de la policía de California, se unen por estos dos dispares motivos a la patrulla de autopistas de Los Ángeles.</desc>
@@ -39160,20 +38984,6 @@ John y Anthony se dirigen a Lafayatte, Nueva Jersey, para renovar la cocina de 1
     <episode-num system="onscreen">T5 E16</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/hermanodejorel.jpg" />
   </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261016204200 +0000" stop="20261016215200 +0000">
-    <title>Luchando para abrirme paso</title>
-    <episode-num system="onscreen">S01E12</episode-num>
-    <episode-num system="pluto">61aa625cc323f20013e5404b</episode-num>
-    <episode-num system="original-air-date">20170627000000 +0000</episode-num>
-    <desc>Seolhui llega a su punto de ruptura con Juman. Dongman intenta conectarse con su padre.</desc>
-    <icon src="https://images.pluto.tv/series/61aa6254c323f20013e53ed1/tile_1769211001785.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20170627</date>
-    <series-id system="pluto">61aa6254c323f20013e53ed1</series-id>
-    <sub-title>Episodio 12</sub-title>
-    <category>Series</category>
-    <category>Romantic comedy</category>
-    <category>Comedy</category>
-  </programme>
   <programme start="20261016204200 +0000" stop="20261016213200 +0000" channel="Discovery.cl">
     <title>Hombres del bosque al límite • Juego sucio</title>
     <sub-title>Juego sucio</sub-title>
@@ -39668,11 +39478,6 @@ Resumen noticioso nacional e internacional.</desc>
     <category>Religious</category>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016210000 +0000" stop="20261017000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261016210000 +0000" stop="20261017000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -39682,6 +39487,11 @@ Resumen noticioso nacional e internacional.</desc>
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261016210000 +0000" stop="20261017000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261016210200 +0000" stop="20261016214800 +0000" channel="FOODNETWORK.uy">
     <category lang="es">Reality</category>
@@ -40219,20 +40029,6 @@ Una familia militar que está acostumbrada a mudarse con frecuencia busca una ca
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20261016213200 +0000" stop="20261016224900 +0000">
-    <title>A Todos los Chicos Que Me Amaban</title>
-    <episode-num system="onscreen">S01E09</episode-num>
-    <episode-num system="pluto">64d66dc0b97a1e0013df654d</episode-num>
-    <episode-num system="original-air-date">20200803000000 +0000</episode-num>
-    <desc>Hyeon-ju reveló a una persona que se casaría a sus padres, pero esta vez no está bien, pero es confundida. Mientras tanto, Seon-hee se reúne con Hyeon-ju y habla sobre Min-ju. Hyeon-ju está preodupada por la sinceridad de Ji-wu.</desc>
-    <icon src="https://images.pluto.tv/series/64d66b86a5aa6e0013a12dba/tile_1769551561458.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20200803</date>
-    <series-id system="pluto">64d66b86a5aa6e0013a12dba</series-id>
-    <sub-title>A Todos los Chicos Que Me Amaban EP09</sub-title>
-    <category>Series</category>
-    <category>Dramedy</category>
-    <category>Drama</category>
-  </programme>
   <programme start="20261016213200 +0000" stop="20261016231800 +0000" channel="Discovery.cl">
     <title>Tentados por la fortuna: Italia</title>
     <desc>Fabio Caressa conduce un reality show de supervivencia en que 12 participantes que recorren la selva malaya, intentan conservar un premio en efectivo mientras resisten tentaciones costosas y lujosas que afectarán el monto total. Lo que quede del premio mayor será el objetivo final: quien llegue a la meta en el último episodio tendrá la oportunidad de participar en dividir la cantidad disponible.</desc>
@@ -40511,20 +40307,6 @@ Para celebrar el día de Acción de Gracias, Guy Fieri agradece con una pata de 
     <category>Romántica</category>
     <country>EE. UU</country>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261016215200 +0000" stop="20261016230200 +0000">
-    <title>Luchando para abrirme paso</title>
-    <episode-num system="onscreen">S01E13</episode-num>
-    <episode-num system="pluto">61aa6259c323f20013e53fa8</episode-num>
-    <episode-num system="original-air-date">20170703000000 +0000</episode-num>
-    <desc>Juman tiene dificultades para adaptarse a la vida sin Seolhui. Dongman se prepara para su partido con Taksu a pesar de las preocupaciones de Aera.</desc>
-    <icon src="https://images.pluto.tv/series/61aa6254c323f20013e53ed1/tile_1769211001785.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20170703</date>
-    <series-id system="pluto">61aa6254c323f20013e53ed1</series-id>
-    <sub-title>Episodio 13</sub-title>
-    <category>Series</category>
-    <category>Romantic comedy</category>
-    <category>Comedy</category>
   </programme>
   <programme start="20261016215200 +0000" stop="20261016220300 +0000" channel="Tooncast.cl">
     <title>El campamento de Lazlo • ¡Qué mala suerte!</title>
@@ -41630,20 +41412,6 @@ Dos diseñadores deben hacer un piloto de un programa de TV, para demostrar sus 
     <episode-num system="onscreen">S7 E2</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20261016224900 +0000" stop="20261017000400 +0000">
-    <title>A Todos los Chicos Que Me Amaban</title>
-    <episode-num system="onscreen">S01E10</episode-num>
-    <episode-num system="pluto">64d66f2b2daa2c001389a1f7</episode-num>
-    <episode-num system="original-air-date">20200804000000 +0000</episode-num>
-    <desc>¡Finalmente Hyeon-ju se descubre quién fue el marido de su vida pasada! Y Ji-wu y Hyeon-ju comienzan se convierten en amantes. Pero a pesar de la felicidad, Hyeon-ju sueña con un extraño sueño de su vida pasada...</desc>
-    <icon src="https://images.pluto.tv/series/64d66b86a5aa6e0013a12dba/tile_1769551561458.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20200804</date>
-    <series-id system="pluto">64d66b86a5aa6e0013a12dba</series-id>
-    <sub-title>A Todos los Chicos Que Me Amaban EP10</sub-title>
-    <category>Series</category>
-    <category>Dramedy</category>
-    <category>Drama</category>
-  </programme>
   <programme start="20261016225000 +0000" stop="20261016230000 +0000" channel="NickJr.bo">
     <title>DORA • El suelo es guayaba; Somos los gruñones</title>
     <sub-title>El suelo es guayaba; Somos los gruñones</sub-title>
@@ -42197,20 +41965,6 @@ Dos diseñadores deben hacer un piloto de un programa de TV, para demostrar sus 
       <value>B15</value>
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261016230200 +0000" stop="20261017001100 +0000">
-    <title>Luchando para abrirme paso</title>
-    <episode-num system="onscreen">S01E14</episode-num>
-    <episode-num system="pluto">61aa625cc323f20013e54013</episode-num>
-    <episode-num system="original-air-date">20170704000000 +0000</episode-num>
-    <desc>Aera elige entre dos trayectorias profesionales. Llega el día de la pelea de Dongman y Taksu.</desc>
-    <icon src="https://images.pluto.tv/series/61aa6254c323f20013e53ed1/tile_1769211001785.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20170704</date>
-    <series-id system="pluto">61aa6254c323f20013e53ed1</series-id>
-    <sub-title>Episodio 14</sub-title>
-    <category>Series</category>
-    <category>Romantic comedy</category>
-    <category>Comedy</category>
   </programme>
   <programme start="20261016230300 +0000" stop="20261016231400 +0000" channel="Tooncast.cl">
     <title>Mi compañero de clase es un mono • Fantasía peluda</title>
@@ -43409,11 +43163,6 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <category>Religious</category>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017000000 +0000" stop="20261017030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261017000000 +0000" stop="20261017030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -43423,6 +43172,11 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261017000000 +0000" stop="20261017030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261017000100 +0000" stop="20261017000400 +0000" channel="DiscoveryKids.cl">
     <title>Academia Unicornio • Sophia y Wildstar</title>
@@ -43533,8 +43287,8 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <date>20200810</date>
     <series-id system="pluto">64d66b86a5aa6e0013a12dba</series-id>
     <sub-title>Episodio 11</sub-title>
-    <category>Series</category>
     <category>Dramedy</category>
+    <category>Series</category>
     <category>Drama</category>
   </programme>
   <programme start="20261017000400 +0000" stop="20261017001600 +0000" channel="CartoonNetwork.cl">
@@ -43640,9 +43394,9 @@ Después de años de trabajar juntos, una pareja está desesperada por encontrar
     <date>20170710</date>
     <series-id system="pluto">61aa6254c323f20013e53ed1</series-id>
     <sub-title>Episodio 15</sub-title>
-    <category>Series</category>
-    <category>Romantic comedy</category>
     <category>Comedy</category>
+    <category>Romantic comedy</category>
+    <category>Series</category>
   </programme>
   <programme start="20261017001200 +0000" stop="20261017003600 +0000" channel="DiscoveryWorld.cl">
     <title>Pantano: se vende • Las Bahamas cajunes</title>
@@ -45133,8 +44887,8 @@ El diseñador, Vern Yip, junto a un agente de bienes raíces local, recorren tre
     <date>20200811</date>
     <series-id system="pluto">64d66b86a5aa6e0013a12dba</series-id>
     <sub-title>Episodio 12</sub-title>
-    <category>Series</category>
     <category>Dramedy</category>
+    <category>Series</category>
     <category>Drama</category>
   </programme>
   <programme channel="DramasCoreanosTeen.cl" start="20261017012000 +0000" stop="20261017022800 +0000">
@@ -45147,9 +44901,9 @@ El diseñador, Vern Yip, junto a un agente de bienes raíces local, recorren tre
     <date>20170711</date>
     <series-id system="pluto">61aa6254c323f20013e53ed1</series-id>
     <sub-title>Episodio 16</sub-title>
-    <category>Series</category>
-    <category>Romantic comedy</category>
     <category>Comedy</category>
+    <category>Romantic comedy</category>
+    <category>Series</category>
   </programme>
   <programme start="20261017012000 +0000" stop="20261017021000 +0000" channel="LasEstrellas.cl">
     <title>Tan cerca de ti, nace el amor</title>
@@ -46605,8 +46359,8 @@ Una pareja de North Bend, Washington, decide que es hora de encontrar un nuevo h
     <date>20190101</date>
     <series-id system="pluto">6876a80063893d441e3cb4d1</series-id>
     <sub-title>Capítulo 1</sub-title>
-    <category>Series</category>
     <category>Dramedy</category>
+    <category>Series</category>
     <category>Drama</category>
   </programme>
   <programme start="20261017022900 +0000" stop="20261017024300 +0000" channel="CartoonNetwork.cl">
@@ -46828,8 +46582,8 @@ Inspirada en sus raíces napolitanas, Giada De Laurentiis hace una fiesta del su
     <date>20200817</date>
     <series-id system="pluto">64d66b86a5aa6e0013a12dba</series-id>
     <sub-title>Episodio 13</sub-title>
-    <category>Series</category>
     <category>Dramedy</category>
+    <category>Series</category>
     <category>Drama</category>
   </programme>
   <programme start="20261017023900 +0000" stop="20261017045600 +0000" channel="HBOFamily.cl">
@@ -47429,11 +47183,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme channel="ENTChannel.cl" start="20261017030000 +0000" stop="20261017143300 +0000">
     <title lang="es">Indiana Jones 3: La última cruzada</title>
   </programme>
-  <programme start="20261017030000 +0000" stop="20261017060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261017030000 +0000" stop="20261017060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -47443,6 +47192,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261017030000 +0000" stop="20261017060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261017030100 +0000" stop="20261017033000 +0000" channel="DisneyJunior.cl">
     <title>La casa de Mickey Mouse+ • El parque de diversiones de Clarabella</title>
@@ -47929,8 +47683,8 @@ Una familia militar que está acostumbrada a mudarse con frecuencia busca una ca
     <date>20190101</date>
     <series-id system="pluto">6876a80063893d441e3cb4d1</series-id>
     <sub-title>Capítulo 2</sub-title>
-    <category>Series</category>
     <category>Dramedy</category>
+    <category>Series</category>
     <category>Drama</category>
   </programme>
   <programme start="20261017032500 +0000" stop="20261017035000 +0000" channel="Nick.cl">
@@ -48526,8 +48280,8 @@ Ponemos en contexto la actualidad internacional y analizamos el contexto de los 
     <date>20200818</date>
     <series-id system="pluto">64d66b86a5aa6e0013a12dba</series-id>
     <sub-title>Episodio 14</sub-title>
-    <category>Series</category>
     <category>Dramedy</category>
+    <category>Series</category>
     <category>Drama</category>
   </programme>
   <programme start="20261017035200 +0000" stop="20261017041400 +0000" channel="HGTV.ar">
@@ -49138,8 +48892,8 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <date>20190101</date>
     <series-id system="pluto">6876a80063893d441e3cb4d1</series-id>
     <sub-title>Capítulo 3</sub-title>
-    <category>Series</category>
     <category>Dramedy</category>
+    <category>Series</category>
     <category>Drama</category>
   </programme>
   <programme start="20261017041400 +0000" stop="20261017043700 +0000" channel="HGTV.ar">
@@ -50391,8 +50145,8 @@ La inspiración serpenteante da un susto a los chefs en la ronda de postres. El 
     <date>20190101</date>
     <series-id system="pluto">6876a80063893d441e3cb4d1</series-id>
     <sub-title>Capítulo 4</sub-title>
-    <category>Series</category>
     <category>Dramedy</category>
+    <category>Series</category>
     <category>Drama</category>
   </programme>
   <programme start="20261017050600 +0000" stop="20261017055000 +0000" channel="NationalGeographic.cl">
@@ -50463,8 +50217,8 @@ La inspiración serpenteante da un susto a los chefs en la ronda de postres. El 
     <date>20200831</date>
     <series-id system="pluto">64d66b86a5aa6e0013a12dba</series-id>
     <sub-title>Episodio 15</sub-title>
-    <category>Series</category>
     <category>Dramedy</category>
+    <category>Series</category>
     <category>Drama</category>
   </programme>
   <programme start="20261017050800 +0000" stop="20261017052100 +0000" channel="CartoonNetwork.cl">
@@ -51579,8 +51333,8 @@ Eric Adjepong les da la bienvenida a tres expertos en brunch de New Hampshire, C
     <date>20190101</date>
     <series-id system="pluto">6876a80063893d441e3cb4d1</series-id>
     <sub-title>Capítulo 5</sub-title>
-    <category>Series</category>
     <category>Dramedy</category>
+    <category>Series</category>
     <category>Drama</category>
   </programme>
   <programme start="20261017055500 +0000" stop="20261017061500 +0000" channel="NickJr.bo">
@@ -51873,11 +51627,6 @@ Eric Adjepong les da la bienvenida a tres expertos en brunch de New Hampshire, C
     <episode-num system="onscreen">T2 E11</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/hannibal.jpg" />
   </programme>
-  <programme start="20261017060000 +0000" stop="20261017090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261017060000 +0000" stop="20261017090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -51887,6 +51636,11 @@ Eric Adjepong les da la bienvenida a tres expertos en brunch de New Hampshire, C
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261017060000 +0000" stop="20261017090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261017060200 +0000" stop="20261017082400 +0000" channel="Space.cl">
     <title>Todo, en todas partes, al mismo tiempo</title>
@@ -52254,8 +52008,8 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <date>20200901</date>
     <series-id system="pluto">64d66b86a5aa6e0013a12dba</series-id>
     <sub-title>Episodio 16</sub-title>
-    <category>Series</category>
     <category>Dramedy</category>
+    <category>Series</category>
     <category>Drama</category>
   </programme>
   <programme start="20261017062300 +0000" stop="20261017070600 +0000" channel="DiscoveryHomeAndHealth.cl">
@@ -52848,8 +52602,8 @@ Jerry Hairston busca una casa en Los Ángeles y Brittany Jackson quiere vender l
     <date>20190101</date>
     <series-id system="pluto">6876a80063893d441e3cb4d1</series-id>
     <sub-title>Capítulo 6</sub-title>
-    <category>Series</category>
     <category>Dramedy</category>
+    <category>Series</category>
     <category>Drama</category>
   </programme>
   <programme start="20261017065100 +0000" stop="20261017084000 +0000" channel="TNT.cl">
@@ -54111,8 +53865,8 @@ Dos parejas que cambian de casa se mudan a una nueva ciudad para un experimento 
     <date>20190101</date>
     <series-id system="pluto">683f44dd68ac3f1eec81b7c6</series-id>
     <sub-title>Capítulo 1</sub-title>
-    <category>Series</category>
     <category>Foreign Drama</category>
+    <category>Series</category>
     <category>Drama</category>
   </programme>
   <programme start="20261017074000 +0000" stop="20261017080500 +0000" channel="Nick.cl">
@@ -54195,8 +53949,8 @@ Dos parejas que cambian de casa se mudan a una nueva ciudad para un experimento 
     <date>20190101</date>
     <series-id system="pluto">6876a80063893d441e3cb4d1</series-id>
     <sub-title>Capítulo 7</sub-title>
-    <category>Series</category>
     <category>Dramedy</category>
+    <category>Series</category>
     <category>Drama</category>
   </programme>
   <programme start="20261017074500 +0000" stop="20261017081500 +0000" channel="24Horas.cl">
@@ -55243,8 +54997,8 @@ Un chef y su esposa buscan mudarse a Hudson Valley y quieren un hogar con una gr
     <date>20190101</date>
     <series-id system="pluto">6876a80063893d441e3cb4d1</series-id>
     <sub-title>Capítulo 8</sub-title>
-    <category>Series</category>
     <category>Dramedy</category>
+    <category>Series</category>
     <category>Drama</category>
   </programme>
   <programme start="20261017083500 +0000" stop="20261017085500 +0000" channel="NickJr.bo">
@@ -55302,8 +55056,8 @@ Un chef y su esposa buscan mudarse a Hudson Valley y quieren un hogar con una gr
     <date>20190101</date>
     <series-id system="pluto">683f44dd68ac3f1eec81b7c6</series-id>
     <sub-title>Capítulo 2</sub-title>
-    <category>Series</category>
     <category>Foreign Drama</category>
+    <category>Series</category>
     <category>Drama</category>
   </programme>
   <programme start="20261017083600 +0000" stop="20261017092400 +0000" channel="DiscoveryWorld.cl">
@@ -56160,11 +55914,6 @@ Molly Yeh prepara una cena romántica para Nick, que incluye ensalada de bistec 
     <episode-num system="onscreen">T9 E4</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/criminalminds.jpg" />
   </programme>
-  <programme start="20261017090000 +0000" stop="20261017120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261017090000 +0000" stop="20261017120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -56174,6 +55923,11 @@ Molly Yeh prepara una cena romántica para Nick, que incluye ensalada de bistec 
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261017090000 +0000" stop="20261017120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261017090500 +0000" stop="20261017093000 +0000" channel="Nick.cl">
     <title>Danger Force • La fiesta de cumpleaños de Bose</title>
@@ -56643,8 +56397,8 @@ El diseñador de interiores Vern Yip y un agente inmobiliario local están evalu
     <date>20190101</date>
     <series-id system="pluto">6876a80063893d441e3cb4d1</series-id>
     <sub-title>Capítulo 9</sub-title>
-    <category>Series</category>
     <category>Dramedy</category>
+    <category>Series</category>
     <category>Drama</category>
   </programme>
   <programme start="20261017093000 +0000" stop="20261017100000 +0000" channel="24Horas.cl">
@@ -56806,8 +56560,8 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <date>20190101</date>
     <series-id system="pluto">683f44dd68ac3f1eec81b7c6</series-id>
     <sub-title>Capítulo 3</sub-title>
-    <category>Series</category>
     <category>Foreign Drama</category>
+    <category>Series</category>
     <category>Drama</category>
   </programme>
   <programme start="20261017093500 +0000" stop="20261017100000 +0000" channel="DisneyChannel.cl">
@@ -57796,8 +57550,8 @@ Una pareja del estado de Nueva York sueña con comprar una casa a orillas del la
     <date>20190101</date>
     <series-id system="pluto">6876a80063893d441e3cb4d1</series-id>
     <sub-title>Capítulo 10</sub-title>
-    <category>Series</category>
     <category>Dramedy</category>
+    <category>Series</category>
     <category>Drama</category>
   </programme>
   <programme start="20261017102000 +0000" stop="20261017104000 +0000" channel="Nick.cl">
@@ -58022,8 +57776,8 @@ Una pareja del estado de Nueva York sueña con comprar una casa a orillas del la
     <date>20190101</date>
     <series-id system="pluto">683f44dd68ac3f1eec81b7c6</series-id>
     <sub-title>Capítulo 4</sub-title>
-    <category>Series</category>
     <category>Foreign Drama</category>
+    <category>Series</category>
     <category>Drama</category>
   </programme>
   <programme start="20261017102700 +0000" stop="20261017120000 +0000" channel="HBO.cl">
@@ -59083,6 +58837,20 @@ Espacio conducido por el periodista Jose Ignacio Atenas, que busca explorar cóm
     <episode-num system="onscreen">T3 E6</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261017110800 +0000" stop="20261017115800 +0000">
+    <title>Memorias Adolescentes</title>
+    <episode-num system="onscreen">S01E11</episode-num>
+    <episode-num system="pluto">6876a81d63893d441e412a45</episode-num>
+    <episode-num system="original-air-date">20190101000000 +0000</episode-num>
+    <desc>Han-kyeol se ocupa de una petición para reemplazarlo. Hwi-yeong elimina a Su-bin del grupo de tutores, lo que molesta a Song-hui más que a ella.</desc>
+    <icon src="https://images.pluto.tv/series/6876a80063893d441e3cb4d1/tile_1769628601507.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20190101</date>
+    <series-id system="pluto">6876a80063893d441e3cb4d1</series-id>
+    <sub-title>Capítulo 11</sub-title>
+    <category>Dramedy</category>
+    <category>Series</category>
+    <category>Drama</category>
+  </programme>
   <programme start="20261017110900 +0000" stop="20261017112800 +0000" channel="FOODNETWORK.uy">
     <date>2010</date>
     <desc lang="es">El chef Bobby Flay le da al brunch tradicional un toque moderno con técnicas simples e ingredientes de uso diario. Así prepara tostadas francesas con manteca de manzana casera, caramelo y crema; un omelet enrollado con queso gruyere, jamón, rúcula y crotones de mostaza; y una bella Sunrise Mimosa.</desc>
@@ -59298,6 +59066,20 @@ Espacio conducido por el periodista Jose Ignacio Atenas, que busca explorar cóm
     <country>EE. UU</country>
     <episode-num system="onscreen">S1E7</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/cocomelonplaydateswithsanriofriends.jpg" />
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261017111800 +0000" stop="20261017120900 +0000">
+    <title>Un Mundo Maravilloso</title>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <episode-num system="pluto">68752dc8baa646038da28ec2</episode-num>
+    <episode-num system="original-air-date">20190101000000 +0000</episode-num>
+    <desc>In-ha se encuentra con Eun-joo y hablan sobre lo que sucedió con Sun-ho y le dice que lamenta todo el sufrimiento que está viviendo. Sun-ho lleva una ramo de flores a la amiga de su hermano. Kyeong-seon va a casa de Eun-joo para hablar.</desc>
+    <icon src="https://images.pluto.tv/series/683f44dd68ac3f1eec81b7c6/tile_1769628601582.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20190101</date>
+    <series-id system="pluto">683f44dd68ac3f1eec81b7c6</series-id>
+    <sub-title>Capítulo 5</sub-title>
+    <category>Foreign Drama</category>
+    <category>Series</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261017111900 +0000" stop="20261017112200 +0000" channel="DisneyJunior.cl">
     <title>CoComelon Playdates with Sanrio Friends • En la granja de MacDonald</title>
@@ -60168,6 +59950,20 @@ Desde ensaladas con una base de coles de bruselas ralladas hasta aperitivos cros
     <episode-num system="onscreen">S1 E13</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261017115800 +0000" stop="20261017124700 +0000">
+    <title>Memorias Adolescentes</title>
+    <episode-num system="onscreen">S01E12</episode-num>
+    <episode-num system="pluto">6876a82063893d441e419c78</episode-num>
+    <episode-num system="original-air-date">20190101000000 +0000</episode-num>
+    <desc>Un rumor acerca de que las calificaciones de Hwi-yeong están manipuladas se extiende como la pólvora. Su-bin duda en decirle algo a Song-hui y se encuentra con su padre.</desc>
+    <icon src="https://images.pluto.tv/series/6876a80063893d441e3cb4d1/tile_1769628601507.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20190101</date>
+    <series-id system="pluto">6876a80063893d441e3cb4d1</series-id>
+    <sub-title>Capítulo 12</sub-title>
+    <category>Dramedy</category>
+    <category>Series</category>
+    <category>Drama</category>
+  </programme>
   <programme start="20261017115900 +0000" stop="20261017123000 +0000" channel="DisneyJunior.cl">
     <title>Spidey y sus sorprendentes amigos • Energía limpia / Doc Ock y los Rocktobots</title>
     <sub-title>Energía limpia / Doc Ock y los Rocktobots</sub-title>
@@ -60423,13 +60219,13 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   </programme>
   <programme start="20261017120000 +0000" stop="20261017134500 +0000" channel="HBO.cl">
     <title>Los perdedores</title>
-    <desc>Un equipo de fuerzas especiales, tras ser traicionados sus integrantes por sus responsables y condenados a la muerte, se dedicarán a vengarse de la CIA a través de una serie de operaciones encubiertas contra la agencia y sus intereses.</desc>
+    <desc>Una historia de caminos cruzados y venganza, centrada en un grupo de las Fuerzas Especiales, enviado a la jungla boliviana y traicionado por uno los suyos, del que sólo saben su nombre: Max. Dados por muertos, el grupo hace planes para igualar el marcador, cuando se les une la misteriosa Aisha, que tiene sus propios planes. Trabajan juntos en secreto para seguir la pista del bien custodiado Max, quien pretende involucrar al mundo en una guerra global de alta tecnología.</desc>
     <date>2010</date>
     <category>Acción</category>
     <rating>
       <value>6.4</value>
     </rating>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/losperdedores.jpg" />
   </programme>
   <programme start="20261017120000 +0000" stop="20261017140500 +0000" channel="HBO2.cl">
     <title>Red social</title>
@@ -60537,11 +60333,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <episode-num system="onscreen">T8 E17</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017120000 +0000" stop="20261017150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261017120000 +0000" stop="20261017150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -60551,6 +60342,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261017120000 +0000" stop="20261017150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261017120100 +0000" stop="20261017122700 +0000" channel="WarnerChannel.cl">
     <title>Two and a Half Men • Orgía es con seis</title>
@@ -60665,6 +60461,20 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <desc>Paren las prensas | Ami y Yumi intentan recoger periódicos en los que aparece una vergonzosa foto de Ami.</desc>
     <episode-num system="onscreen">T3 E2</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/hihipuffyamiyumi.jpg" />
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261017120900 +0000" stop="20261017130300 +0000">
+    <title>Un Mundo Maravilloso</title>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <episode-num system="pluto">68752db9baa646038d9ff09a</episode-num>
+    <episode-num system="original-air-date">20190101000000 +0000</episode-num>
+    <desc>En el Colegio, los directivos discuten sobre lo que sucedió con Sun-ho y el acoso escolar que sufría. In-ha se enfrenta a las madres de los estudiantes involucrados. Eun-joo tiene pesadillas con Sun-ho. Los padres de Sun-ho van al colegio.</desc>
+    <icon src="https://images.pluto.tv/series/683f44dd68ac3f1eec81b7c6/tile_1769628601582.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20190101</date>
+    <series-id system="pluto">683f44dd68ac3f1eec81b7c6</series-id>
+    <sub-title>Capítulo 6</sub-title>
+    <category>Foreign Drama</category>
+    <category>Series</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261017120900 +0000" stop="20261017123900 +0000" channel="SONYMOVIES.uy">
     <title>Designing Women • Howard the Date</title>
@@ -61474,6 +61284,20 @@ Una pareja está buscando la casa de sus sueños en Estes Park, Colorado. Quiere
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/guerradenovias.jpg" />
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261017124700 +0000" stop="20261017133600 +0000">
+    <title>Memorias Adolescentes</title>
+    <episode-num system="onscreen">S01E13</episode-num>
+    <episode-num system="pluto">68780d311210c6c919f8ec52</episode-num>
+    <episode-num system="original-air-date">20190101000000 +0000</episode-num>
+    <desc>Cuando se acercan los exámenes finales, la desaprobación de Song-hui separa a Su-bin y Jun-u. Han-kyeol sigue la pista del antiguo maestro de Hwi-yeong.</desc>
+    <icon src="https://images.pluto.tv/series/6876a80063893d441e3cb4d1/tile_1769628601507.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20190101</date>
+    <series-id system="pluto">6876a80063893d441e3cb4d1</series-id>
+    <sub-title>Capítulo 13</sub-title>
+    <category>Dramedy</category>
+    <category>Series</category>
+    <category>Drama</category>
+  </programme>
   <programme start="20261017124700 +0000" stop="20261017130000 +0000" channel="Tooncast.cl">
     <title>Mike, Lu y Og • Jujubombas</title>
     <sub-title>Jujubombas</sub-title>
@@ -61896,6 +61720,20 @@ Los renovadores Dani y Jon superan un problema gigante en su primera renovación
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">De mil a un millón</title>
     <title lang="en">Flip to a Million</title>
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261017130300 +0000" stop="20261017135600 +0000">
+    <title>Un Mundo Maravilloso</title>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <episode-num system="pluto">6841b975f50b9615cc418808</episode-num>
+    <episode-num system="original-air-date">20190101000000 +0000</episode-num>
+    <desc>La madre de Joon-seok le pregunta si es verdad que lo que le sucedió a Sun-ho fue un accidente. In-ha descubre que los tenis que Sun-ho usó el día del accidente, están atados inusualmente. Eun-joo ofrece a In-ha cambiar a Sun-ho al hospital de su padre.</desc>
+    <icon src="https://images.pluto.tv/series/683f44dd68ac3f1eec81b7c6/tile_1769628601582.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20190101</date>
+    <series-id system="pluto">683f44dd68ac3f1eec81b7c6</series-id>
+    <sub-title>Capítulo 7</sub-title>
+    <category>Foreign Drama</category>
+    <category>Series</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261017130500 +0000" stop="20261017131000 +0000" channel="Tooncast.cl">
     <title>Sheep en la gran ciudad • Party of the Shear</title>
@@ -62675,6 +62513,20 @@ Un espacio que aborda diversos temas relacionados con la salud a través de cons
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/aquaman.jpg" />
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261017133600 +0000" stop="20261017142600 +0000">
+    <title>Memorias Adolescentes</title>
+    <episode-num system="onscreen">S01E14</episode-num>
+    <episode-num system="pluto">68780d341210c6c919f95e85</episode-num>
+    <episode-num system="original-air-date">20190101000000 +0000</episode-num>
+    <desc>Todo el mundo se preocupa cuando el rumor sobre Hwi-yeong lo mete en verdaderos problemas. Jun-u le cuenta a Han-kyeol sobre su nuevo objetivo.</desc>
+    <icon src="https://images.pluto.tv/series/6876a80063893d441e3cb4d1/tile_1769628601507.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20190101</date>
+    <series-id system="pluto">6876a80063893d441e3cb4d1</series-id>
+    <sub-title>Capítulo 14</sub-title>
+    <category>Dramedy</category>
+    <category>Series</category>
+    <category>Drama</category>
+  </programme>
   <programme start="20261017133600 +0000" stop="20261017134700 +0000" channel="Tooncast.cl">
     <title>Escuadrón del tiempo • Un general muy floral</title>
     <sub-title>Un general muy floral</sub-title>
@@ -62995,6 +62847,20 @@ Los diseñadores se unen para crear una sala de fiestas, para celebrar una nueva
     <date>2000</date>
     <category>Fútbol</category>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261017135600 +0000" stop="20261017145300 +0000">
+    <title>Un Mundo Maravilloso</title>
+    <episode-num system="onscreen">S01E08</episode-num>
+    <episode-num system="pluto">68752c728eef10068ff625ee</episode-num>
+    <episode-num system="original-air-date">20190101000000 +0000</episode-num>
+    <desc>Los padres de Sun-ho se decepcionan al ver la resolución de los directivos para con los alumnos involucrados en el accidente de su hijo. Joon-seok le dice a su madre que no lo denunció a la policía porque duda de él. Moo-ji se encuentra con Joon-seok.</desc>
+    <icon src="https://images.pluto.tv/series/683f44dd68ac3f1eec81b7c6/tile_1769628601582.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20190101</date>
+    <series-id system="pluto">683f44dd68ac3f1eec81b7c6</series-id>
+    <sub-title>Capítulo 8</sub-title>
+    <category>Foreign Drama</category>
+    <category>Series</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261017135700 +0000" stop="20261017144200 +0000" channel="FOODNETWORK.uy">
     <category lang="es">Reality</category>
@@ -63650,6 +63516,20 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/alamala.jpg" />
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261017142600 +0000" stop="20261017151600 +0000">
+    <title>Memorias Adolescentes</title>
+    <episode-num system="onscreen">S01E15</episode-num>
+    <episode-num system="pluto">68780e99cfeec4dc2c9e7e39</episode-num>
+    <episode-num system="original-air-date">20190101000000 +0000</episode-num>
+    <desc>Song-hui se muestra terco con Su-bin y Jun-u, quien ingresa a una academia de arte. La junta escolar investiga el caso de Hwi-yeong.</desc>
+    <icon src="https://images.pluto.tv/series/6876a80063893d441e3cb4d1/tile_1769628601507.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20190101</date>
+    <series-id system="pluto">6876a80063893d441e3cb4d1</series-id>
+    <sub-title>Capítulo 15</sub-title>
+    <category>Dramedy</category>
+    <category>Series</category>
+    <category>Drama</category>
+  </programme>
   <programme start="20261017142600 +0000" stop="20261017144000 +0000" channel="CartoonNetwork.cl">
     <title>Big Blue: Aventuras en submarinos • Desastre fotográfico</title>
     <sub-title>Desastre fotográfico</sub-title>
@@ -64242,6 +64122,20 @@ Kardea invita a su familia a ver el gran juego. Prepara alitas de pollo fritas, 
     <episode-num system="onscreen">S8 E6</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/acumuladorescompulsivos.jpg" />
   </programme>
+  <programme channel="DramasCoreanos.cl" start="20261017145300 +0000" stop="20261017154300 +0000">
+    <title>Un Mundo Maravilloso</title>
+    <episode-num system="onscreen">S01E09</episode-num>
+    <episode-num system="pluto">6841b970f50b9615cc40a252</episode-num>
+    <episode-num system="original-air-date">20190101000000 +0000</episode-num>
+    <desc>Jun-seok regresa a casa y le dice a su madre que visitó a Sun-ho y movió los dedos. Sang-bok da órdenes a su informante. Los padres de Sun-ho rechazan la propuesta de los directivos del colegio. Eun-joo decide desconectar a Sun-ho pero se arrepiente.</desc>
+    <icon src="https://images.pluto.tv/series/683f44dd68ac3f1eec81b7c6/tile_1769628601582.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20190101</date>
+    <series-id system="pluto">683f44dd68ac3f1eec81b7c6</series-id>
+    <sub-title>Capítulo 9</sub-title>
+    <category>Foreign Drama</category>
+    <category>Series</category>
+    <category>Drama</category>
+  </programme>
   <programme start="20261017145300 +0000" stop="20261017155100 +0000" channel="ESPN5.cl">
     <title>El show de la F1</title>
     <desc>Grabado ║ Repaso y análisis de los aconteciemientos destacados de cada Gran Premio, así como entrevistas a los pilotos de la Fórmula 1.</desc>
@@ -64610,11 +64504,6 @@ Kardea invita a su familia a ver el gran juego. Prepara alitas de pollo fritas, 
     <episode-num system="onscreen">S10E11</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017150000 +0000" stop="20261017180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261017150000 +0000" stop="20261017180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -64624,6 +64513,11 @@ Kardea invita a su familia a ver el gran juego. Prepara alitas de pollo fritas, 
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261017150000 +0000" stop="20261017180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261017150100 +0000" stop="20261017153000 +0000" channel="DisneyJunior.cl">
     <title>Cachorros a la obra • Bailey's Lemonade Stand / Lights Out</title>
@@ -64843,6 +64737,20 @@ Nancy O'Dell echa un vistazo a la casa del actor Jamie Foxx en Los Ángeles. La 
     <icon src="https://iptv-epg.org/images/MYjEWuxJYfYV4AD9-YpR2gsMzoLCr2DT-_jBkOIAKyLSOoZomlzAO02Q_aOoZWM65x1zeqOgVxFuG2zj_QeMMEsNb8PI-7c5pgXQvk1EkzV3ctnxJDH90x4bXOydGijGNYk4Qt7dKdIwf5U4D91xx6cFbv9hnvTK-TN8e505EPSLzHMLNEJCRtFhW2m5US-LBPk6vhHvBv8Zhlh8Ouu54aoyBU_a" />
     <title lang="es">El hogar de las celebridades</title>
     <title lang="en">Celebrities at Home</title>
+  </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261017151600 +0000" stop="20261017160500 +0000">
+    <title>Memorias Adolescentes</title>
+    <episode-num system="onscreen">S01E16</episode-num>
+    <episode-num system="pluto">68780ea1cfeec4dc2c9eeff6</episode-num>
+    <episode-num system="original-air-date">20190804000000 +0000</episode-num>
+    <desc>Hwi-yeong hace las paces consigo mismo y con los demás. Jun-u se da cuenta de la situación de su madre y debe darle noticias difíciles a Su-bin.</desc>
+    <icon src="https://images.pluto.tv/series/6876a80063893d441e3cb4d1/tile_1769628601507.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20190804</date>
+    <series-id system="pluto">6876a80063893d441e3cb4d1</series-id>
+    <sub-title>Capítulo 16</sub-title>
+    <category>Dramedy</category>
+    <category>Series</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261017151700 +0000" stop="20261017153000 +0000" channel="Tooncast.cl">
     <title>Los pequeños Looney Tunes • Firehouse Frolics</title>
@@ -65270,6 +65178,20 @@ Nathan y Jenny deciden tener una vivienda más espaciosa por las necesidades de 
     <episode-num system="onscreen">S1E8</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="DramasCoreanos.cl" start="20261017154300 +0000" stop="20261017163500 +0000">
+    <title>Un Mundo Maravilloso</title>
+    <episode-num system="onscreen">S01E10</episode-num>
+    <episode-num system="pluto">68752c678eef10068ff45a1a</episode-num>
+    <episode-num system="original-air-date">20190101000000 +0000</episode-num>
+    <desc>Eun-joo le pide al conserje del colegio que guarde el secreto sobre el accidente de Sun-ho. In-ha recibe una llamada de Eun-joo para justificarse sobre lo que dijo de los zapatos de Sun-ho. El profesor de Dong-soo lo busca. Jun-seok habla con su madre.</desc>
+    <icon src="https://images.pluto.tv/series/683f44dd68ac3f1eec81b7c6/tile_1769628601582.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20190101</date>
+    <series-id system="pluto">683f44dd68ac3f1eec81b7c6</series-id>
+    <sub-title>Capítulo 10</sub-title>
+    <category>Foreign Drama</category>
+    <category>Series</category>
+    <category>Drama</category>
+  </programme>
   <programme start="20261017154400 +0000" stop="20261017172600 +0000" channel="HBOXtreme.cl">
     <title>Te van a matar</title>
     <desc>Una mujer acepta un trabajo como ama de llaves en un rascacielos de Nueva York, sin conocer el historial de desapariciones del edificio. Pronto se da cuenta de que la comunidad está rodeada de misterio.</desc>
@@ -65694,6 +65616,20 @@ Un gran baño se hace aún más grande al tomar espacio de una sala de estar sin
       <value>TV14</value>
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261017160500 +0000" stop="20261017165300 +0000">
+    <title>Memorias Adolescentes</title>
+    <episode-num system="onscreen">S01E17</episode-num>
+    <episode-num system="pluto">687810016cc84ff3edb918e9</episode-num>
+    <episode-num system="original-air-date">20190811000000 +0000</episode-num>
+    <desc>Seong Jun visita la mansión de Whi Young y sus padres lo reciben con mucha amabilidad. Da hwin queda soltera después de terminar su relación. Joon Woo y Soo Bin le informan a la madre de Joon Woo sobre su relación.</desc>
+    <icon src="https://images.pluto.tv/series/6876a80063893d441e3cb4d1/tile_1769628601507.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20190811</date>
+    <series-id system="pluto">6876a80063893d441e3cb4d1</series-id>
+    <sub-title>Capítulo 17</sub-title>
+    <category>Dramedy</category>
+    <category>Series</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261017160500 +0000" stop="20261017163000 +0000" channel="CNNChile.cl">
     <title>Entrevistas CNN</title>
@@ -66298,6 +66234,20 @@ Conoce los detalles más resaltantes sobre los últimos acontecimientos ocurrido
     <episode-num system="onscreen">S7E23</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="DramasCoreanos.cl" start="20261017163500 +0000" stop="20261017172800 +0000">
+    <title>Un Mundo Maravilloso</title>
+    <episode-num system="onscreen">S01E11</episode-num>
+    <episode-num system="pluto">68752c758eef10068ff69801</episode-num>
+    <episode-num system="original-air-date">20190101000000 +0000</episode-num>
+    <desc>El profesor les dice a sus alumnos que creó una dirección de correo electrónico para que puedan enviarle cualquier cosa y que todo será confidencial. El reportero Choi Ji-kyung investiga el caso de Sun-ho. El padre de Jun-seok descubre una grabación.</desc>
+    <icon src="https://images.pluto.tv/series/683f44dd68ac3f1eec81b7c6/tile_1769628601582.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20190101</date>
+    <series-id system="pluto">683f44dd68ac3f1eec81b7c6</series-id>
+    <sub-title>Capítulo 11</sub-title>
+    <category>Foreign Drama</category>
+    <category>Series</category>
+    <category>Drama</category>
+  </programme>
   <programme start="20261017163600 +0000" stop="20261017172400 +0000" channel="DiscoveryWorld.cl">
     <title>Pioneros de Polonia • T1 E5</title>
     <sub-title>Temporada 1 Episodio 5</sub-title>
@@ -66521,6 +66471,20 @@ La fuerza es poderosa cuando Duff Goldman y sus decoradores diseñan un pastel r
     <country>EE. UU</country>
     <episode-num system="onscreen">S6 E1</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261017165300 +0000" stop="20261017174500 +0000">
+    <title>Memorias Adolescentes</title>
+    <episode-num system="onscreen">S01E18</episode-num>
+    <episode-num system="pluto">687810036cc84ff3edb98b20</episode-num>
+    <episode-num system="original-air-date">20190811000000 +0000</episode-num>
+    <desc>Whi Young le pide disculpas al profesor Oh por los errores que cometieron sus padres. Joon Woo se arma de valor y decide besar a Soo Bin. Soo Bin se desahoga con su padre por todo lo ocurrido en su niñez.</desc>
+    <icon src="https://images.pluto.tv/series/6876a80063893d441e3cb4d1/tile_1769628601507.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20190811</date>
+    <series-id system="pluto">6876a80063893d441e3cb4d1</series-id>
+    <sub-title>Capítulo 18</sub-title>
+    <category>Dramedy</category>
+    <category>Series</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261017165400 +0000" stop="20261017170600 +0000" channel="DiscoveryKids.cl">
     <title>Bubble's Hotel • Una situación espinosa</title>
@@ -67925,11 +67889,6 @@ Una actriz y dramaturga de Baltimore necesita el pastel perfecto para su debut.<
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017180000 +0000" stop="20261017210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261017180000 +0000" stop="20261017210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -67939,6 +67898,11 @@ Una actriz y dramaturga de Baltimore necesita el pastel perfecto para su debut.<
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261017180000 +0000" stop="20261017210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261017180200 +0000" stop="20261017180400 +0000" channel="DisneyJunior.cl">
     <title>Pequeñas historias de Bluey • Animals</title>
@@ -71386,11 +71350,6 @@ Una ambientalista australiana busca un lugar en la isla de Eleuthera para escapa
     <category>Religious</category>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017210000 +0000" stop="20261018000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261017210000 +0000" stop="20261018000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -71400,6 +71359,11 @@ Una ambientalista australiana busca un lugar en la isla de Eleuthera para escapa
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261017210000 +0000" stop="20261018000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261017210400 +0000" stop="20261017214700 +0000" channel="FOODNETWORK.uy">
     <category lang="es">Reality</category>
@@ -74933,11 +74897,6 @@ Revisa las noticias más relevantes de la jornada.</desc>
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/elmisteriodesoho.jpg" />
   </programme>
-  <programme start="20261018000000 +0000" stop="20261018030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261018000000 +0000" stop="20261018030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -74947,6 +74906,11 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018000000 +0000" stop="20261018030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261018000200 +0000" stop="20261018002600 +0000" channel="DiscoveryTurbo.cl">
     <title>Todoterreno • Correr el peso</title>
@@ -78922,11 +78886,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme channel="ENTChannel.cl" start="20261018030000 +0000" stop="20261018123600 +0000">
     <title lang="es">Hombres de Negro 3</title>
   </programme>
-  <programme start="20261018030000 +0000" stop="20261018060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261018030000 +0000" stop="20261018060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -78936,6 +78895,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018030000 +0000" stop="20261018060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261018030200 +0000" stop="20261018032900 +0000" channel="DisneyChannel.cl">
     <title>Gravity Falls: un verano de misterios • Visita al refugio</title>
@@ -83019,11 +82983,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <episode-num system="onscreen">T2 E8</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/hannibal.jpg" />
   </programme>
-  <programme start="20261018060000 +0000" stop="20261018090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261018060000 +0000" stop="20261018090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -83033,6 +82992,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018060000 +0000" stop="20261018090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261018060200 +0000" stop="20261018062500 +0000" channel="FOODNETWORK.uy">
     <date>2020</date>
@@ -87283,11 +87247,6 @@ Molly Yeh prepara una cena romántica para Nick, que incluye ensalada de bistec 
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/miabuelaesunpeligro.jpg" />
   </programme>
-  <programme start="20261018090000 +0000" stop="20261018120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261018090000 +0000" stop="20261018120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -87297,6 +87256,11 @@ Molly Yeh prepara una cena romántica para Nick, que incluye ensalada de bistec 
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018090000 +0000" stop="20261018120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261018090200 +0000" stop="20261018110400 +0000" channel="ESPN4.cl">
     <title>URBA - Top 14 • La Plata vs Regatas Bella Vista, Fecha 26</title>
@@ -91408,11 +91372,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <country>Argentina</country>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/yotraidor.jpg" />
   </programme>
-  <programme start="20261018120000 +0000" stop="20261018150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261018120000 +0000" stop="20261018150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -91422,6 +91381,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018120000 +0000" stop="20261018150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261018120200 +0000" stop="20261018145300 +0000" channel="Space.cl">
     <title>Meteoro</title>
@@ -94919,11 +94883,6 @@ Kardea Brown cocina cuatro platos utilizando uno de sus ingredientes favoritos y
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/lasestrellas.jpg" />
   </programme>
-  <programme start="20261018150000 +0000" stop="20261018180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261018150000 +0000" stop="20261018180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -94933,6 +94892,11 @@ Kardea Brown cocina cuatro platos utilizando uno de sus ingredientes favoritos y
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018150000 +0000" stop="20261018180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261018150300 +0000" stop="20261018160400 +0000" channel="AE.cl">
     <title>Falco • Prepárate para la guerra</title>
@@ -98467,11 +98431,6 @@ El Concurso Miss America vuelve a Atlantic City, y cuatro talentosos pasteleros 
     <category>Religious</category>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018180000 +0000" stop="20261018210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261018180000 +0000" stop="20261018210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -98481,6 +98440,11 @@ El Concurso Miss America vuelve a Atlantic City, y cuatro talentosos pasteleros 
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018180000 +0000" stop="20261018210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261018180200 +0000" stop="20261018200600 +0000" channel="WarnerChannel.cl">
     <title>Una esposa de mentira</title>
@@ -101723,11 +101687,6 @@ Una pareja de Pensilvania que siempre ha ido a lo seguro está lista para divert
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018210000 +0000" stop="20261019000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261018210000 +0000" stop="20261019000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
@@ -101737,6 +101696,11 @@ Una pareja de Pensilvania que siempre ha ido a lo seguro está lista para divert
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018210000 +0000" stop="20261019000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261018210100 +0000" stop="20261018212900 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title>Sobre esta piel • Mayla y Paula</title>
@@ -105159,6 +105123,21 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261019000000 +0000" stop="20261019030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261019000000 +0000" stop="20261019030000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019000000 +0000" stop="20261019030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261019000200 +0000" stop="20261019003000 +0000" channel="DisneyJunior.cl">
     <title>Puppy Dog Pals • Encuentros cercanos del tercer pug / El misterio de la historia</title>
     <sub-title>Encuentros cercanos del tercer pug / El misterio de la historia</sub-title>
@@ -108430,6 +108409,21 @@ Giada De Laurentiis comparte platos de las vacacioens en Capri junto a su famili
     <title>Las Estrellas</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/lasestrellas.jpg" />
+  </programme>
+  <programme start="20261019030000 +0000" stop="20261019060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261019030000 +0000" stop="20261019060000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019030000 +0000" stop="20261019060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261019030100 +0000" stop="20261019051200 +0000" channel="HBO.Plus.cl">
     <title>Terrifier 3: Payaso siniestro</title>
@@ -111989,6 +111983,21 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <episode-num system="onscreen">T3 E2</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/hannibal.jpg" />
   </programme>
+  <programme start="20261019060000 +0000" stop="20261019090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261019060000 +0000" stop="20261019090000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019060000 +0000" stop="20261019090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261019060400 +0000" stop="20261019064800 +0000" channel="HGTV.ar">
     <desc lang="es">S5 E6 — Tarro de miel, fortaleza, molino de viento
 Esta variedad de casas de todo el mundo incluye la pesadilla de un intruso de Hollywood, una casa de la suerte en Corea del Sur, un castillo de lujo en Francia y una casa verde hecha de piedra en una isla australiana.</desc>
@@ -115446,6 +115455,21 @@ Molly Yeh le está enseñando a Nick a hacer donas con leche y mantequilla tosta
       <value>B</value>
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261019090000 +0000" stop="20261019120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261019090000 +0000" stop="20261019120000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019090000 +0000" stop="20261019120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261019090400 +0000" stop="20261019100000 +0000" channel="NationalGeographic.cl">
     <title>Secreto en los océanos • El último barco de esclavos</title>
@@ -118971,6 +118995,21 @@ Sunny Anderson comienza con su hamburguesa de desayuno y el exjugador profesiona
     <country>Brasil</country>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/henryklaussmaestrosdelamagia.jpg" />
   </programme>
+  <programme start="20261019120000 +0000" stop="20261019150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261019120000 +0000" stop="20261019150000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019120000 +0000" stop="20261019150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261019120300 +0000" stop="20261019120600 +0000" channel="DisneyJunior.cl">
     <title>CoComelon Playdates with Sanrio Friends • Itsy bitsy araña</title>
     <sub-title>Itsy bitsy araña</sub-title>
@@ -122481,6 +122520,21 @@ El amor está en el aire, y Kardea y su novio tienen una cita doble con amigos. 
     <title>AXN</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261019150000 +0000" stop="20261019180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261019150000 +0000" stop="20261019180000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019150000 +0000" stop="20261019180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261019150100 +0000" stop="20261019153000 +0000" channel="DisneyChannel.cl">
     <title>Phineas y Ferb: La noche de los farmacéuticos vivientes • Oca loca / Tour de Ferb</title>
@@ -126101,6 +126155,21 @@ Espacio que promueve y difunde una serie de actividades culturales de gran diver
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/enlospasosdelmaestro.jpg" />
   </programme>
+  <programme start="20261019180000 +0000" stop="20261019210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261019180000 +0000" stop="20261019210000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019180000 +0000" stop="20261019210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261019180500 +0000" stop="20261019184500 +0000" channel="Mega.cl">
     <title>La hora de jugar</title>
     <desc>Mucho gusto, en una alianza con Lotería, preparan un programa donde la consigna es pasarlo bien y ganar suculentos premios.</desc>
@@ -129611,6 +129680,21 @@ Una pareja rusa de Carolina del Norte nunca soñó que compraría una casa de va
     <title>Studio Universal</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261019210000 +0000" stop="20261020000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261019210000 +0000" stop="20261020000000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019210000 +0000" stop="20261020000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261019210200 +0000" stop="20261019213000 +0000" channel="DisneyJunior.cl">
     <title>Bluey • Ghostbasket / Escape / Surprise</title>
@@ -150458,7 +150542,7 @@ Guy se arriesga, a la hora de planificar un menú de Halloween. Las recetas incl
   </programme>
   <programme start="20261021101500 +0000" stop="20261021120000 +0000" channel="HBO2.cl">
     <title>Los perdedores</title>
-    <desc>Un grupo de comandos de la CIA es traicionado en una misión secreta en la selva de Bolivia. Sobreviven al ataque y buscan venganza, pero deben apresurarse: Los Ángeles está bajo la amenaza de un arma tecnológica terrorista.</desc>
+    <desc>Una historia de caminos cruzados y venganza, centrada en un grupo de las Fuerzas Especiales, enviado a la jungla boliviana y traicionado por uno los suyos, del que sólo saben su nombre: Max. Dados por muertos, el grupo hace planes para igualar el marcador, cuando se les une la misteriosa Aisha, que tiene sus propios planes. Trabajan juntos en secreto para seguir la pista del bien custodiado Max, quien pretende involucrar al mundo en una guerra global de alta tecnología.</desc>
     <credits>
       <director>Sylvain White</director>
       <actor>Jeffrey Dean Morgan</actor>
@@ -150493,7 +150577,7 @@ Guy se arriesga, a la hora de planificar un menú de Halloween. Las recetas incl
     <rating>
       <value>B</value>
     </rating>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/losperdedores.jpg" />
   </programme>
   <programme start="20261021102200 +0000" stop="20261021120000 +0000" channel="HBOFamily.cl">
     <title>Megamente</title>
