@@ -103,6 +103,18 @@
     <display-name>ENT Channel</display-name>
     <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20Channel.png" />
   </channel>
+  <channel id="ENTComedy.cl">
+    <display-name>ENTComedy.cl</display-name>
+  </channel>
+  <channel id="ENTDrama.cl">
+    <display-name>ENTDrama.cl</display-name>
+  </channel>
+  <channel id="ENTExtreme.cl">
+    <display-name>ENTExtreme.cl</display-name>
+  </channel>
+  <channel id="ENTMovies.cl">
+    <display-name>ENTMovies.cl</display-name>
+  </channel>
   <channel id="ESPN.cl">
     <display-name lang="es">ESPN • Chile</display-name>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/homero/0411.jpg" />
@@ -819,18 +831,43 @@
   <programme start="20260921210000 +0000" stop="20260922000000 +0000" channel="24Horas.cl">
     <title lang="es">Juegos Suramericanos Santa Fe 2026</title>
   </programme>
+  <programme start="20261018000000 +0000" stop="20261018030000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261018000000 +0000" stop="20261018030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261018000000 +0000" stop="20261018030000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018000000 +0000" stop="20261018030000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261018000000 +0000" stop="20261018030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261018000000 +0000" stop="20261018030000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261018000000 +0000" stop="20261018030000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018000000 +0000" stop="20261018030000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018030000 +0000" stop="20261018060000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -839,13 +876,33 @@
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
+  <programme start="20261018030000 +0000" stop="20261018060000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018030000 +0000" stop="20261018060000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261018030000 +0000" stop="20261018060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261018030000 +0000" stop="20261018060000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261018030000 +0000" stop="20261018060000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018030000 +0000" stop="20261018060000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018060000 +0000" stop="20261018090000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -854,86 +911,65 @@
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261018060000 +0000" stop="20261018090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261018060000 +0000" stop="20261018090000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261018060000 +0000" stop="20261018090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261018081500 +0000" stop="20261018090000 +0000" channel="HGTV.ar">
-    <desc lang="es">S1 E8 — Todo lo viejo es nuevo otra vez
-Una pareja está lista para cambiar su apartamento por una casa con mucho terreno para disfrutar con su perro.</desc>
-    <episode-num>S1 E8</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Mi casa en los suburbios</title>
-    <title lang="en">Small Town Potential</title>
+  <programme start="20261018060000 +0000" stop="20261018090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261018090000 +0000" stop="20261018092200 +0000" channel="HGTV.ar">
-    <desc lang="es">S2 E5 — Hogar de montaña en Boulder, Colorado
-Una pareja de California decide mudarse a las montañas de Boulder, Colorado. Buscan una casa con una oficina, una gran cocina, mucho espacio para formar una familia y fácil acceso a senderos para caminatas.</desc>
-    <episode-num>S2 E5</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Nuestro hogar en la montaña</title>
-    <title lang="en">Mountain Life</title>
+  <programme start="20261018060000 +0000" stop="20261018090000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018060000 +0000" stop="20261018090000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018090000 +0000" stop="20261018120000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261018090000 +0000" stop="20261018120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261018090000 +0000" stop="20261018120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261018090000 +0000" stop="20261018120000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261018090000 +0000" stop="20261018120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261018092200 +0000" stop="20261018094400 +0000" channel="HGTV.ar">
-    <desc lang="es">S8 E6 — Las pequeñas casas de Savannah
-El diseñador Vern Yip y un agente de bienes raíces local analizan tres renovaciones de casas de $50,000 en Savannah, Georgia.</desc>
-    <episode-num>S8 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">La mejor inversión</title>
-    <title lang="en">Bang for Your Buck</title>
+  <programme start="20261018090000 +0000" stop="20261018120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261018094400 +0000" stop="20261018100400 +0000" channel="HGTV.ar">
-    <desc lang="es">S2 E9 — La yurta de ensueños de Nathan
-Nathan y Jenny designan el espacio ideal para un músico y su amigo, una yurta con rampas de skate bajo techo, una mesa de pool reciclada y un escenario completo con guitarras y baterías.</desc>
-    <episode-num>S2 E9</episode-num>
-    <icon src="https://iptv-epg.org/images/-lfcA0ueSuYaWbvGgqyhG_GGlh4aGrQpiR_fij08MFqzoQjYK1yYFFAwsjmo22K9QGyH9ayChLdrhqoDSnWhkH04AIB-B7StXqCuWvS3IGphq0J6yryOdsrBU4U7WkOloFUaT3-EPaZrfJ9jYRxYqka31T_wazr-NWltPtcuFVQ-OREIra4" />
-    <title lang="es">Supercasas ecológicas</title>
-    <title lang="en">Love Yurts</title>
+  <programme start="20261018090000 +0000" stop="20261018120000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
-  <programme start="20261018100400 +0000" stop="20261018105000 +0000" channel="HGTV.ar">
-    <desc lang="es">S3 E6 — Cerca del mar en puerto Orchard
-Una pareja de Washington busca en los lagos de la región una casa frente al mar cerca del Océano Pacífico en Port Orchard. Esperan renovar una acogedora cabaña en una casa de ensueño para su joven familia.</desc>
-    <episode-num>S3 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Nuestro hogar frente al lago: renovación</title>
-    <title lang="en">Lakefront Bargain Hunt Renovation</title>
-  </programme>
-  <programme start="20261018105000 +0000" stop="20261018113400 +0000" channel="HGTV.ar">
-    <desc lang="es">S7 E6 — Cocinas deslumbrantes
-Los diseñadores compiten para crear cocinas de diseño dignas de aparecer en la televisión.</desc>
-    <episode-num>S7 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/N1cafk2rJoyr11HH9cUPH8-Cf4tRmp41deTy5EH5qbEeN8jQxMuH2uJyxt2u-MTU8qJ_U1ghSTbne319rgbprSkZ7Bd-qeDgK3c2C-k5Blqjw8GZTTfRX0IsE30ggZULXJyZhsErTQMUMcE--embUH1fZqpNuAI_Q7J47iJrx-kiIlq_Arb12Sih" />
-    <title lang="es">La búsqueda del diseñador estrella</title>
-    <title lang="en">HGTV Design Star</title>
-  </programme>
-  <programme start="20261018113400 +0000" stop="20261018121700 +0000" channel="HGTV.ar">
-    <desc lang="es">S5 E9 — Mariposa, montaña, viloín
-Esta increíble variedad de casas de todo el mundo incluye un apartamento de Nueva York diseñado en torno a un violín, una casa sudafricana con techo de mariposas y una casa española envuelta alrededor de una montaña.</desc>
-    <episode-num>S5 E9</episode-num>
-    <icon src="https://iptv-epg.org/images/T5IASd8zdIkUhW59PQUwubZWjuQJp0kNQ3k0Ycxn-1ggcY568xG7S27vDmGfpLWhItJB_QNYRmhNJO1A2ppnwK9VUqAjhlmPcStN7RTjCO0u0ToNXL3e6ZrdoMZijwkeM7njZoLSjenSifRG7y95EoXUExRLysNai2KNCg" />
-    <title lang="es">Hogares increíbles</title>
-    <title lang="en">Extreme Homes</title>
+  <programme start="20261018090000 +0000" stop="20261018120000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261018120000 +0000" stop="20261018133000 +0000" channel="AMC.cl">
     <title>Making the Movies</title>
@@ -949,28 +985,40 @@ Esta increíble variedad de casas de todo el mundo incluye un apartamento de Nue
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/makingthemovies.jpg" />
   </programme>
+  <programme start="20261018120000 +0000" stop="20261018150000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261018120000 +0000" stop="20261018150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261018120000 +0000" stop="20261018150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
+  <programme start="20261018120000 +0000" stop="20261018150000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261018120000 +0000" stop="20261018150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261018121700 +0000" stop="20261018123800 +0000" channel="HGTV.ar">
-    <desc lang="es">S3 E5 — Casa de montaña en Livermore
-Una pareja de Fort Collins quiere escapar de la congestionada ciudad universitaria e ir a la serenidad de Livermore. Buscan una casa rústica con renovaciones modernas para su familia de tres.</desc>
-    <episode-num>S3 E5</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Nuestro hogar en la montaña</title>
-    <title lang="en">Mountain Life</title>
+  <programme start="20261018120000 +0000" stop="20261018150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261018120000 +0000" stop="20261018150000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018120000 +0000" stop="20261018150000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261018122500 +0000" stop="20261018135500 +0000" channel="UniversalCinema.cl">
     <title>Trolls 2: Gira mundial</title>
@@ -1065,22 +1113,6 @@ Una pareja de Fort Collins quiere escapar de la congestionada ciudad universitar
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/podersinlimites.jpg" />
   </programme>
-  <programme start="20261018123800 +0000" stop="20261018130000 +0000" channel="HGTV.ar">
-    <desc lang="es">S2 E13 — Hogar en Durango, Colorado
-Unos ávidos exploradores están listos para cambiar el calor seco de Phoenix, Arizona, por las montañas de Durango, Colorado. Quieren un hogar con pintorescas vistas a las montañas que esté cerca de los restaurantes y las tiendas del centro.</desc>
-    <episode-num>S2 E13</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Nuestro hogar en la montaña</title>
-    <title lang="en">Mountain Life</title>
-  </programme>
-  <programme start="20261018130000 +0000" stop="20261018134600 +0000" channel="HGTV.ar">
-    <desc lang="es">S1 E3 — Cuando la ayuda se congela
-Soportando una tormenta de hielo, Dani y Jon superan los desafíos de la madre naturaleza solo para descubrir que su hogar está plagado de más problemas. EJ y Jason luchan contra violaciones de códigos y un contratista retrasado.</desc>
-    <episode-num>S1 E3</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">De mil a un millón</title>
-    <title lang="en">Flip to a Million</title>
-  </programme>
   <programme start="20261018133000 +0000" stop="20261018153000 +0000" channel="AMC.cl">
     <title>Tesla: El hombre eléctrico</title>
     <desc>La historia de Nikola Tesla, el gran rival de Thomas Edison, el inventor de la corriente alterna, un genio tan excéntrico como brillante, un mito envuelto en un halo de misterio que se ha convertido en una figura histórica de culto.</desc>
@@ -1114,14 +1146,6 @@ Soportando una tormenta de hielo, Dani y Jon superan los desafíos de la madre n
       <value>PG-13</value>
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/teslaelhombreelectrico.jpg" />
-  </programme>
-  <programme start="20261018134600 +0000" stop="20261018142900 +0000" channel="HGTV.ar">
-    <desc lang="es">S7 E6 — Cocinas deslumbrantes
-Los diseñadores compiten para crear cocinas de diseño dignas de aparecer en la televisión.</desc>
-    <episode-num>S7 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/N1cafk2rJoyr11HH9cUPH8-Cf4tRmp41deTy5EH5qbEeN8jQxMuH2uJyxt2u-MTU8qJ_U1ghSTbne319rgbprSkZ7Bd-qeDgK3c2C-k5Blqjw8GZTTfRX0IsE30ggZULXJyZhsErTQMUMcE--embUH1fZqpNuAI_Q7J47iJrx-kiIlq_Arb12Sih" />
-    <title lang="es">La búsqueda del diseñador estrella</title>
-    <title lang="en">HGTV Design Star</title>
   </programme>
   <programme start="20261018135500 +0000" stop="20261018153500 +0000" channel="UniversalCinema.cl">
     <title>El gato con botas: El último deseo</title>
@@ -1184,14 +1208,6 @@ Los diseñadores compiten para crear cocinas de diseño dignas de aparecer en la
       <value>B</value>
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/unaintrusaenlafamilia.jpg" />
-  </programme>
-  <programme start="20261018142900 +0000" stop="20261018151500 +0000" channel="HGTV.ar">
-    <desc lang="es">S1 E5 — De garaje lleno a lugar de fiestas
-Los Bader se enamoran de una casa con garaje para cinco coches. Sin embargo, su interior tiene grandes problemas. Kim Wolfe hace que esta casa sea funcional con un espacio para fiestas en el garaje y una cocina renovada.</desc>
-    <episode-num>S1 E5</episode-num>
-    <icon src="https://iptv-epg.org/images/Es-BwxJNW7iOdWEYdXg0g3DBxvGXFx4d9zEpqD_R0tuqixmOpScyXfTpT1RYPyF77NvYn6ABMc_q-wfEbY14dhWfLJ0kfEOLzGumU2aCmfUYsd25AQSe2P8GSkRR-uFthyqsl2JjE0xD972z9v56PRu7DWit2lLuGNKG2htypSfWeA8WZzsVmiZs_P2t" />
-    <title lang="es">¿Por qué compré esta casa?</title>
-    <title lang="en">Why the Heck Did I Buy This House?</title>
   </programme>
   <programme start="20261018150000 +0000" stop="20261018170000 +0000" channel="LaRed.cl">
     <title>Al fondo hay sitio</title>
@@ -1390,18 +1406,38 @@ Los Bader se enamoran de una casa con garaje para cinco coches. Sin embargo, su 
     <episode-num system="onscreen">S1 E1</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261018150000 +0000" stop="20261018180000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261018150000 +0000" stop="20261018180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261018150000 +0000" stop="20261018180000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018150000 +0000" stop="20261018180000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261018150000 +0000" stop="20261018180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261018150000 +0000" stop="20261018180000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261018150000 +0000" stop="20261018180000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018150000 +0000" stop="20261018180000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -1569,14 +1605,6 @@ Los Bader se enamoran de una casa con garaje para cinco coches. Sin embargo, su 
     <category lang="es">Soccer</category>
     <category>Sports</category>
     <title lang="es">LaLiga: Málaga CF vs. Real Sociedad</title>
-  </programme>
-  <programme start="20261018151500 +0000" stop="20261018153500 +0000" channel="HGTV.ar">
-    <desc lang="es">S3 E1 — Tres pájaros y una mano con Emily Procter, Kyle Richards y Shemar Moore
-Nancy O'Dell se encuentra con amigos emplumados en la casa de Emily Proctor. La estrella Kyle Richards da un recorrido de su hogar apto para niños y películas. Shemar Moore de Mentes criminales muestra un hogar que es tan elegante como él.</desc>
-    <episode-num>S3 E1</episode-num>
-    <icon src="https://iptv-epg.org/images/4ElpqNFEdxbIrz9avs_81aq1v6D4_dFlXpijxNcVb0YFq07JVybILgGx2THKth5Z5lWwKBFuPpaDlE9fQUNWpYucKCviJhE1LMd4Gw31nCSCpQdtLcN8VXdN_ya1lWD83Os2EyrjqbMNh4RqkW9Edqzs3vw3WP-7JTUC-DyLybFxqePJYHhZcFLQM3mGfuIXpvJgpIQKRhe03c3a_dcuy4EG53daW9DtzGn7ccOqW4H37jt9rw" />
-    <title lang="es">El hogar de las celebridades</title>
-    <title lang="en">Celebrities at Home</title>
   </programme>
   <programme start="20261018151500 +0000" stop="20261018172900 +0000" channel="HBO2.cl">
     <title>Parque Jurásico 2: El mundo perdido</title>
@@ -1997,14 +2025,6 @@ Nancy O'Dell se encuentra con amigos emplumados en la casa de Emily Proctor. La 
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018153500 +0000" stop="20261018155600 +0000" channel="HGTV.ar">
-    <desc lang="es">S2 E9 — La yurta de ensueños de Nathan
-Nathan y Jenny designan el espacio ideal para un músico y su amigo, una yurta con rampas de skate bajo techo, una mesa de pool reciclada y un escenario completo con guitarras y baterías.</desc>
-    <episode-num>S2 E9</episode-num>
-    <icon src="https://iptv-epg.org/images/-lfcA0ueSuYaWbvGgqyhG_GGlh4aGrQpiR_fij08MFqzoQjYK1yYFFAwsjmo22K9QGyH9ayChLdrhqoDSnWhkH04AIB-B7StXqCuWvS3IGphq0J6yryOdsrBU4U7WkOloFUaT3-EPaZrfJ9jYRxYqka31T_wazr-NWltPtcuFVQ-OREIra4" />
-    <title lang="es">Supercasas ecológicas</title>
-    <title lang="en">Love Yurts</title>
-  </programme>
   <programme start="20261018153500 +0000" stop="20261018155500 +0000" channel="NickJr.bo">
     <title>Pistas de Blue y tú • Cita de juegos con Magenta</title>
     <sub-title>Cita de juegos con Magenta</sub-title>
@@ -2287,14 +2307,6 @@ Nathan y Jenny designan el espacio ideal para un músico y su amigo, una yurta c
       <value>8.1</value>
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/epicelvispresleyinconcert.jpg" />
-  </programme>
-  <programme start="20261018155600 +0000" stop="20261018161800 +0000" channel="HGTV.ar">
-    <desc lang="es">S9 E12 — Belleza de bambú
-Un baño principal pequeño se amplía con el fin de incluir una ducha de vapor para 2 personas, un lavabo de bambú y mucho espacio de almacenamiento.</desc>
-    <episode-num>S9 E12</episode-num>
-    <icon src="https://iptv-epg.org/images/dqeoSjtrvum0pefPPTfsO6qC5C1-gnzkJKLBIdRRtbJT2p-79i2SSLQvu26Rox7GiGpQ5mvezFr-Vlj9fXdu-f4VTgD1ikdlhkvBrCLlBsL8-q7IzVZ2OBo864gap4FXtsrrqKcDN1h0Ffx3vMo-hKjUrf6J" />
-    <title lang="es">Mi baño como nuevo</title>
-    <title lang="en">Bath Crashers</title>
   </programme>
   <programme start="20261018155700 +0000" stop="20261018164200 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title>Hermanos a la obra: Bajo presión • Llaves con consecuencias</title>
@@ -4775,18 +4787,38 @@ Una pareja de recién casados busca establecerse en una casa familiar de Hudson 
     <category>Religious</category>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/disruptivas.jpg" />
   </programme>
+  <programme start="20261018180000 +0000" stop="20261018210000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261018180000 +0000" stop="20261018210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261018180000 +0000" stop="20261018210000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018180000 +0000" stop="20261018210000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261018180000 +0000" stop="20261018210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261018180000 +0000" stop="20261018210000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261018180000 +0000" stop="20261018210000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018180000 +0000" stop="20261018210000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -7823,18 +7855,38 @@ Una pareja de Pensilvania que siempre ha ido a lo seguro está lista para divert
     <category>Religious</category>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/unapalabradelcorazondedios.jpg" />
   </programme>
+  <programme start="20261018210000 +0000" stop="20261019000000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261018210000 +0000" stop="20261019000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261018210000 +0000" stop="20261019000000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018210000 +0000" stop="20261019000000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261018210000 +0000" stop="20261019000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261018210000 +0000" stop="20261019000000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261018210000 +0000" stop="20261019000000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261018210000 +0000" stop="20261019000000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -11256,18 +11308,38 @@ Revisa las noticias más relevantes de la jornada.</desc>
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261019000000 +0000" stop="20261019030000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261019000000 +0000" stop="20261019030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261019000000 +0000" stop="20261019030000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019000000 +0000" stop="20261019030000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261019000000 +0000" stop="20261019030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261019000000 +0000" stop="20261019030000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261019000000 +0000" stop="20261019030000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019000000 +0000" stop="20261019030000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -14952,18 +15024,38 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <country>EE. UU</country>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261019030000 +0000" stop="20261019060000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261019030000 +0000" stop="20261019060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261019030000 +0000" stop="20261019060000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019030000 +0000" stop="20261019060000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261019030000 +0000" stop="20261019060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261019030000 +0000" stop="20261019060000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261019030000 +0000" stop="20261019060000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019030000 +0000" stop="20261019060000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -18564,18 +18656,38 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <category>Drama</category>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/rubi.jpg" />
   </programme>
+  <programme start="20261019060000 +0000" stop="20261019090000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261019060000 +0000" stop="20261019090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261019060000 +0000" stop="20261019090000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019060000 +0000" stop="20261019090000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261019060000 +0000" stop="20261019090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261019060000 +0000" stop="20261019090000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261019060000 +0000" stop="20261019090000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019060000 +0000" stop="20261019090000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -22536,18 +22648,38 @@ Molly Yeh le está enseñando a Nick a hacer donas con leche y mantequilla tosta
     <episode-num system="onscreen">T2 E3</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/ncishawaii.jpg" />
   </programme>
+  <programme start="20261019090000 +0000" stop="20261019120000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261019090000 +0000" stop="20261019120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261019090000 +0000" stop="20261019120000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019090000 +0000" stop="20261019120000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261019090000 +0000" stop="20261019120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261019090000 +0000" stop="20261019120000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261019090000 +0000" stop="20261019120000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019090000 +0000" stop="20261019120000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -26652,18 +26784,38 @@ Sunny Anderson comienza con su hamburguesa de desayuno y el exjugador profesiona
     <episode-num system="onscreen">T6 E10</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/csimiami.jpg" />
   </programme>
+  <programme start="20261019120000 +0000" stop="20261019150000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261019120000 +0000" stop="20261019150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261019120000 +0000" stop="20261019150000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019120000 +0000" stop="20261019150000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261019120000 +0000" stop="20261019150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261019120000 +0000" stop="20261019150000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261019120000 +0000" stop="20261019150000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019120000 +0000" stop="20261019150000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -30172,20 +30324,6 @@ El amor está en el aire, y Kardea y su novio tienen una cita doble con amigos. 
     <episode-num>S2 E4</episode-num>
     <title lang="es">Delicious Miss Brown</title>
   </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261019144600 +0000" stop="20261019160300 +0000">
-    <title>Sueña Sin Limites</title>
-    <episode-num system="onscreen">S01E01</episode-num>
-    <episode-num system="pluto">64d10e3985e5ff00131819ef</episode-num>
-    <episode-num system="original-air-date">20110103000000 +0000</episode-num>
-    <desc>Hye-mi era una hija de una familia rica que sueña convertise en otro Jo Sumi, pero sus sueños se hacen añicos por la bancarrota de su padre, y un acreedor le propone a ella entrar en la escuela de arte y hacerse en una cantante famosa para pagar la deuda.</desc>
-    <icon src="https://images.pluto.tv/series/64d10dfc85e5ff00131812c9/tile_1769550481679.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20110103</date>
-    <series-id system="pluto">64d10dfc85e5ff00131812c9</series-id>
-    <sub-title>Sueña Sin Limites EP01</sub-title>
-    <category>Foreign Drama</category>
-    <category>Series</category>
-    <category>Drama</category>
-  </programme>
   <programme start="20261019144900 +0000" stop="20261019150000 +0000" channel="Tooncast.cl">
     <title>Los pequeños Looney Tunes • Some Assembly Required</title>
     <sub-title>Some Assembly Required</sub-title>
@@ -30747,18 +30885,38 @@ El amor está en el aire, y Kardea y su novio tienen una cita doble con amigos. 
     <category>Drama</category>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/comodiceeldicho.jpg" />
   </programme>
+  <programme start="20261019150000 +0000" stop="20261019180000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261019150000 +0000" stop="20261019180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261019150000 +0000" stop="20261019180000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019150000 +0000" stop="20261019180000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261019150000 +0000" stop="20261019180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261019150000 +0000" stop="20261019180000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261019150000 +0000" stop="20261019180000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019150000 +0000" stop="20261019180000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -31913,20 +32071,6 @@ Un baño principal aburrido y sin gracia se convierte en una estancia estilo ran
     <title lang="es">Mi baño como nuevo</title>
     <title lang="en">Bath Crashers</title>
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20261019155600 +0000" stop="20261019170800 +0000">
-    <title>Oh My Venus LATAM</title>
-    <episode-num system="onscreen">S01E14</episode-num>
-    <episode-num system="pluto">623df6807936240013148797</episode-num>
-    <episode-num system="original-air-date">20151229000000 +0000</episode-num>
-    <desc>Por fin aparece Young-ho y Ju-eun no lo dejará alejarse de ella. Pasan la Navidad con todos sus amigos tratando de compensar todo el tiempo que perdieron.</desc>
-    <icon src="https://images.pluto.tv/series/623df67e7936240013148790/tile_1769212802209.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20151229</date>
-    <series-id system="pluto">623df67e7936240013148790</series-id>
-    <sub-title>Episodio 14</sub-title>
-    <category>Romance</category>
-    <category>Series</category>
-    <category>Romantic comedy</category>
-  </programme>
   <programme start="20261019155600 +0000" stop="20261019161900 +0000" channel="DiscoveryKids.cl">
     <title>LEGO DreamZzz • Despertar</title>
     <sub-title>Despertar</sub-title>
@@ -32195,20 +32339,6 @@ Conoce los detalles más resaltantes sobre los últimos acontecimientos ocurrido
     <country>EE. UU</country>
     <episode-num system="onscreen">S1E13</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261019160300 +0000" stop="20261019171900 +0000">
-    <title>Sueña Sin Limites</title>
-    <episode-num system="onscreen">S01E02</episode-num>
-    <episode-num system="pluto">64d10f732daa2c00137154e3</episode-num>
-    <episode-num system="original-air-date">20110104000000 +0000</episode-num>
-    <desc>Baek-hee aprueba en lugar de Hye-mi, en contra de las expectativas de todos en la audición y Hye-mi es elimianda. Du-sik arrastra Hye-mi al club nocturno y forza a Hye-mi cantar en un escenario. Hye-mi resiste firmemte a Du-sik...</desc>
-    <icon src="https://images.pluto.tv/series/64d10dfc85e5ff00131812c9/tile_1769550481679.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20110104</date>
-    <series-id system="pluto">64d10dfc85e5ff00131812c9</series-id>
-    <sub-title>Sueña Sin Limites EP02</sub-title>
-    <category>Foreign Drama</category>
-    <category>Series</category>
-    <category>Drama</category>
   </programme>
   <programme start="20261019160500 +0000" stop="20261019163000 +0000" channel="Nick.cl">
     <title>The Loud House • De viaje</title>
@@ -33459,20 +33589,6 @@ Duff Goldman y su equipo preparan un pastel con temática de baloncesto digno de
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/cincuentasombrasdegrey.jpg" />
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20261019170800 +0000" stop="20261019181700 +0000">
-    <title>Oh My Venus LATAM</title>
-    <episode-num system="onscreen">S01E15</episode-num>
-    <episode-num system="pluto">623dfd93ef11000014d01a40</episode-num>
-    <episode-num system="original-air-date">20160104000000 +0000</episode-num>
-    <desc>Young-ho y Ju-eun disfrutan pasando tiempo juntos y saliendo en una cita.</desc>
-    <icon src="https://images.pluto.tv/series/623df67e7936240013148790/tile_1769212802209.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20160104</date>
-    <series-id system="pluto">623df67e7936240013148790</series-id>
-    <sub-title>Episodio 15</sub-title>
-    <category>Romance</category>
-    <category>Series</category>
-    <category>Romantic comedy</category>
-  </programme>
   <programme start="20261019170800 +0000" stop="20261019172200 +0000" channel="CartoonNetwork.cl">
     <title>El mundo de Craig • Pijamada en casa de JP</title>
     <sub-title>Pijamada en casa de JP</sub-title>
@@ -33657,20 +33773,6 @@ Guy Fieri está probando pollo y disfrutando de una tarta en este viaje. En Port
       <value>12</value>
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261019171900 +0000" stop="20261019184000 +0000">
-    <title>Sueña Sin Limites</title>
-    <episode-num system="onscreen">S01E03</episode-num>
-    <episode-num system="pluto">64d10f622daa2c0013715138</episode-num>
-    <episode-num system="original-air-date">20110110000000 +0000</episode-num>
-    <desc>Sam-dong le pregunta a Hye-mi por qué subió al escenrio con él. Hye-mi miente porgue le gusta Sam-dong para persuadirlo. Sabiendo que es una mentira, el corazón de San-dong comienza a palpitar...</desc>
-    <icon src="https://images.pluto.tv/series/64d10dfc85e5ff00131812c9/tile_1769550481679.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20110110</date>
-    <series-id system="pluto">64d10dfc85e5ff00131812c9</series-id>
-    <sub-title>Sueña Sin Limites EP03</sub-title>
-    <category>Foreign Drama</category>
-    <category>Series</category>
-    <category>Drama</category>
   </programme>
   <programme start="20261019171900 +0000" stop="20261019173100 +0000" channel="DisneyChannel.cl">
     <title>Los vecinos Green • Superyaya</title>
@@ -34375,16 +34477,15 @@ Desde que ganó, Marissa Lopez se convirtió en una parte fundamental de Carlo's
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/henrydanger.jpg" />
   </programme>
   <programme start="20261019175000 +0000" stop="20261019184800 +0000" channel="ESPN3.cl">
-    <title>ESPN Compact • Premier Padel: Milán P1, final femenina</title>
-    <sub-title>Premier Padel: Milán P1, final femenina</sub-title>
-    <desc>Premier Padel: Milán P1, final femenina | Resumen de la final femenina de Premier Padel Milán P1. Disputado el 18 de octubre de 2026, en el Allianz Cloud, en Milán, Italia.</desc>
+    <title>Premier Padel Tennis • Sánchez / Ustero vs Josemaria / Gonzalez</title>
+    <sub-title>Sánchez / Ustero vs. Josemaria / Gonzalez</sub-title>
+    <desc>Sánchez / Ustero vs Josemaria / Gonzalez | Cobertura de una de las competiciones más importantes del mundo del pádel.</desc>
     <date>2026</date>
     <category>Deportes</category>
-    <episode-num system="onscreen">Episodio 377</episode-num>
     <rating>
       <value>PG-13</value>
     </rating>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/espncompact.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261019175000 +0000" stop="20261019185000 +0000" channel="E_Entertainment.cl">
     <title>Vanderpump Rules • Lo vi en el Graham</title>
@@ -34728,18 +34829,38 @@ Espacio en el que conversamos con un invitado especial quien nos habla de la sit
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/enlospasosdelmaestro.jpg" />
   </programme>
+  <programme start="20261019180000 +0000" stop="20261019210000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261019180000 +0000" stop="20261019210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261019180000 +0000" stop="20261019210000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019180000 +0000" stop="20261019210000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261019180000 +0000" stop="20261019210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261019180000 +0000" stop="20261019210000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261019180000 +0000" stop="20261019210000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019180000 +0000" stop="20261019210000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -34993,9 +35114,9 @@ En Cleveland, Ohio, Michael Symon disfruta de una costilla de res con pastrami e
     <date>20160105</date>
     <series-id system="pluto">623df67e7936240013148790</series-id>
     <sub-title>Episodio 16</sub-title>
-    <category>Romance</category>
     <category>Series</category>
     <category>Romantic comedy</category>
+    <category>Romance</category>
   </programme>
   <programme start="20261019181700 +0000" stop="20261019190800 +0000" channel="Discovery.cl">
     <title>El oro de los Hoffman • Piratas de la tundra</title>
@@ -35499,9 +35620,9 @@ La fuerza está en la cocina, ya que Buddy reta a los concursantes a crear paste
     <date>20110111</date>
     <series-id system="pluto">64d10dfc85e5ff00131812c9</series-id>
     <sub-title>Sueña Sin Limites EP04</sub-title>
-    <category>Foreign Drama</category>
-    <category>Series</category>
     <category>Drama</category>
+    <category>Series</category>
+    <category>Foreign Drama</category>
   </programme>
   <programme start="20261019184000 +0000" stop="20261019184500 +0000" channel="Mega.cl">
     <title>El tiempo</title>
@@ -35621,16 +35742,15 @@ La fuerza está en la cocina, ya que Buddy reta a los concursantes a crear paste
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/losjovenestitanesenaccion.jpg" />
   </programme>
   <programme start="20261019184800 +0000" stop="20261019194500 +0000" channel="ESPN3.cl">
-    <title>ESPN Compact • Premier Padel: Milán P1, final masculina</title>
-    <sub-title>Premier Padel: Milán P1, final masculina</sub-title>
-    <desc>Premier Padel: Milán P1, final masculina | Resumen de la final masculina de Premier Padel Milán P1. Disputado el 18 de octubre de 2026, en el Allianz Cloud, en Milán, Italia.</desc>
+    <title>Premier Padel Tennis • Pretoria, Men's &amp; Women's Final (Secondary Court)</title>
+    <sub-title>Pretoria, Men's &amp; Women's Final (Secondary Court)</sub-title>
+    <desc>Pretoria, Men's &amp; Women's Final (Secondary Court) | Cobertura de una de las competiciones más importantes del mundo del pádel.</desc>
     <date>2026</date>
     <category>Deportes</category>
-    <episode-num system="onscreen">Episodio 374</episode-num>
     <rating>
       <value>PG-13</value>
     </rating>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/espncompact.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261019184800 +0000" stop="20261019193600 +0000" channel="TNTSeries.cl">
     <title>The Mentalist • Blood and Sand</title>
@@ -37274,9 +37394,9 @@ Cuatro panaderos talentosos tendrán que usar sus súper poderes si quieren tene
     <date>20110117</date>
     <series-id system="pluto">64d10dfc85e5ff00131812c9</series-id>
     <sub-title>Sueña Sin Limites EP05</sub-title>
-    <category>Foreign Drama</category>
-    <category>Series</category>
     <category>Drama</category>
+    <category>Series</category>
+    <category>Foreign Drama</category>
   </programme>
   <programme start="20261019200000 +0000" stop="20261019210000 +0000" channel="LaRed.cl">
     <title>A team</title>
@@ -38636,18 +38756,38 @@ Resumen noticioso nacional e internacional.</desc>
     <category>Religious</category>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/ministraciondelespiritusanto.jpg" />
   </programme>
+  <programme start="20261019210000 +0000" stop="20261020000000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261019210000 +0000" stop="20261020000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261019210000 +0000" stop="20261020000000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019210000 +0000" stop="20261020000000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261019210000 +0000" stop="20261020000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261019210000 +0000" stop="20261020000000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261019210000 +0000" stop="20261020000000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261019210000 +0000" stop="20261020000000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -39105,9 +39245,9 @@ Se les pide a los chefs que preparen una comida para ocasiones especiales, comen
     <date>20110118</date>
     <series-id system="pluto">64d10dfc85e5ff00131812c9</series-id>
     <sub-title>Sueña Sin Limites EP06</sub-title>
-    <category>Foreign Drama</category>
-    <category>Series</category>
     <category>Drama</category>
+    <category>Series</category>
+    <category>Foreign Drama</category>
   </programme>
   <programme start="20261019211700 +0000" stop="20261019214500 +0000" channel="ESPN5.cl">
     <title>UEFA Champions League Weekly</title>
@@ -40727,9 +40867,9 @@ Resumen noticioso nacional e internacional.</desc>
     <date>20110124</date>
     <series-id system="pluto">64d10dfc85e5ff00131812c9</series-id>
     <sub-title>Sueña Sin Limites EP07</sub-title>
-    <category>Foreign Drama</category>
-    <category>Series</category>
     <category>Drama</category>
+    <category>Series</category>
+    <category>Foreign Drama</category>
   </programme>
   <programme start="20261019223400 +0000" stop="20261019223900 +0000" channel="DiscoveryKids.cl">
     <title>Mini Beat Power Rockers • Cantando en el pasado</title>
@@ -42419,9 +42559,9 @@ Alton Brown reinventa la clásica cazuela de judías verdes, aportando una nueva
     <date>20110131</date>
     <series-id system="pluto">64d10dfc85e5ff00131812c9</series-id>
     <sub-title>Sueña Sin Limites EP08</sub-title>
-    <category>Foreign Drama</category>
-    <category>Series</category>
     <category>Drama</category>
+    <category>Series</category>
+    <category>Foreign Drama</category>
   </programme>
   <programme start="20261019235500 +0000" stop="20261020000600 +0000" channel="DiscoveryKids.cl">
     <title>Defensores Petronix • Misión: rescate Polly</title>
@@ -42794,18 +42934,38 @@ Revisa las noticias más relevantes de la jornada.</desc>
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/m3gan20.jpg" />
   </programme>
+  <programme start="20261020000000 +0000" stop="20261020030000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261020000000 +0000" stop="20261020030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261020000000 +0000" stop="20261020030000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261020000000 +0000" stop="20261020030000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261020000000 +0000" stop="20261020030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261020000000 +0000" stop="20261020030000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261020000000 +0000" stop="20261020030000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261020000000 +0000" stop="20261020030000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -44466,9 +44626,9 @@ Guy Fieri está probando pollo y disfrutando de una tarta en este viaje. En Port
     <date>20110201</date>
     <series-id system="pluto">64d10dfc85e5ff00131812c9</series-id>
     <sub-title>Sueña Sin Limites EP09</sub-title>
-    <category>Foreign Drama</category>
-    <category>Series</category>
     <category>Drama</category>
+    <category>Series</category>
+    <category>Foreign Drama</category>
   </programme>
   <programme start="20261020011400 +0000" stop="20261020012200 +0000" channel="Tooncast.cl">
     <title>Sheep en la gran ciudad</title>
@@ -46329,9 +46489,9 @@ Espacio en el que conversamos con un invitado especial quien nos habla de la sit
     <date>20110207</date>
     <series-id system="pluto">64d10dfc85e5ff00131812c9</series-id>
     <sub-title>Sueña Sin Limites EP10</sub-title>
-    <category>Foreign Drama</category>
-    <category>Series</category>
     <category>Drama</category>
+    <category>Series</category>
+    <category>Foreign Drama</category>
   </programme>
   <programme start="20261020023500 +0000" stop="20261020030000 +0000" channel="Nick.cl">
     <title>That Girl Lay Lay • Un poco más de cobo</title>
@@ -47082,18 +47242,38 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme channel="ENTChannel.cl" start="20261020030000 +0000" stop="20261020111800 +0000">
     <title lang="es">Capitán América: Civil War</title>
   </programme>
+  <programme start="20261020030000 +0000" stop="20261020060000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261020030000 +0000" stop="20261020060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261020030000 +0000" stop="20261020060000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261020030000 +0000" stop="20261020060000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261020030000 +0000" stop="20261020060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261020030000 +0000" stop="20261020060000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261020030000 +0000" stop="20261020060000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261020030000 +0000" stop="20261020060000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -48291,9 +48471,9 @@ Rachael Ray controla la sal, la grasa y la calidad de los ingredientes en una de
     <date>20110208</date>
     <series-id system="pluto">64d10dfc85e5ff00131812c9</series-id>
     <sub-title>Sueña Sin Limites EP11</sub-title>
-    <category>Foreign Drama</category>
-    <category>Series</category>
     <category>Drama</category>
+    <category>Series</category>
+    <category>Foreign Drama</category>
   </programme>
   <programme start="20261020035500 +0000" stop="20261020041900 +0000" channel="DisneyJunior.cl">
     <title>La maravillosa pastelería de Alicia • El sombrezapato / Cookie te visita</title>
@@ -50258,9 +50438,9 @@ Una mujer soltera busca su primera casa para estar más cerca de su familia en P
     <date>20110214</date>
     <series-id system="pluto">64d10dfc85e5ff00131812c9</series-id>
     <sub-title>Sueña Sin Limites EP12</sub-title>
-    <category>Foreign Drama</category>
-    <category>Series</category>
     <category>Drama</category>
+    <category>Series</category>
+    <category>Foreign Drama</category>
   </programme>
   <programme start="20261020051500 +0000" stop="20261020053000 +0000" channel="TVN.cl">
     <title>TV tiempo - Informe final</title>
@@ -51445,18 +51625,38 @@ Esta variedad de casas de todo el mundo incluye una casa que causa sensación en
     <episode-num system="onscreen">S8 E1</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/parejasasesinas.jpg" />
   </programme>
+  <programme start="20261020060000 +0000" stop="20261020090000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261020060000 +0000" stop="20261020090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261020060000 +0000" stop="20261020090000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261020060000 +0000" stop="20261020090000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261020060000 +0000" stop="20261020090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261020060000 +0000" stop="20261020090000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261020060000 +0000" stop="20261020090000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261020060000 +0000" stop="20261020090000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -52054,9 +52254,9 @@ Giada De Laurentiis y la comediante Loni Love desafían a los equipos de reposte
     <date>20110215</date>
     <series-id system="pluto">64d10dfc85e5ff00131812c9</series-id>
     <sub-title>Episodio 13</sub-title>
-    <category>Foreign Drama</category>
-    <category>Series</category>
     <category>Drama</category>
+    <category>Series</category>
+    <category>Foreign Drama</category>
   </programme>
   <programme start="20261020063500 +0000" stop="20261020065500 +0000" channel="Nick.cl">
     <title>Best and Bester • Trato justo / Planta de poder</title>
@@ -53923,9 +54123,9 @@ Después de los problemas con los retrasos en la construcción, EJ y Jason compl
     <date>20110221</date>
     <series-id system="pluto">64d10dfc85e5ff00131812c9</series-id>
     <sub-title>Episodio 14</sub-title>
-    <category>Foreign Drama</category>
-    <category>Series</category>
     <category>Drama</category>
+    <category>Series</category>
+    <category>Foreign Drama</category>
   </programme>
   <programme start="20261020075200 +0000" stop="20261020081600 +0000" channel="DiscoveryKids.cl">
     <title>Mini Beat Power Rockers • De la lluvia al sol / Los buenos viejos tiempos / ¡Eureka! / El asombroso pez payaso</title>
@@ -54327,6 +54527,19 @@ Actualidad e información.</desc>
     <country>EE. UU</country>
     <episode-num system="onscreen">S3E9</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261020081000 +0000" stop="20261020092700 +0000">
+    <title>Mi Bella Dama</title>
+    <episode-num system="onscreen">S01E11</episode-num>
+    <episode-num system="pluto">66e85a67a1c89200139bdb74</episode-num>
+    <episode-num system="original-air-date">20090923000000 +0000</episode-num>
+    <desc>Hye-na recibe una propuesta de matrimonio de Tae-yoon, pero, sorprendentemente, no está muy feliz.</desc>
+    <icon src="https://images.pluto.tv/series/66e85982f4fe15001354ebcf/tile_1776895655074.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20090923</date>
+    <series-id system="pluto">66e85982f4fe15001354ebcf</series-id>
+    <sub-title>Episodio 11</sub-title>
+    <category>Series</category>
+    <category>Telenovela</category>
   </programme>
   <programme start="20261020081000 +0000" stop="20261020083500 +0000" channel="NickJr.bo">
     <title>Pistas de Blue y tú • La gran noticia de Blue</title>
@@ -55800,18 +56013,38 @@ Molly Yeh le está enseñando a Nick a hacer donas con leche y mantequilla tosta
     <episode-num system="onscreen">T3 E3</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261020090000 +0000" stop="20261020120000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261020090000 +0000" stop="20261020120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261020090000 +0000" stop="20261020120000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261020090000 +0000" stop="20261020120000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261020090000 +0000" stop="20261020120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261020090000 +0000" stop="20261020120000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261020090000 +0000" stop="20261020120000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261020090000 +0000" stop="20261020120000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -56004,6 +56237,20 @@ Molly Yeh le está enseñando a Nick a hacer donas con leche y mantequilla tosta
     <country>EE. UU</country>
     <episode-num system="onscreen">S1 E20</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/doctorajuguetes.jpg" />
+  </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261020090800 +0000" stop="20261020102300 +0000">
+    <title>Sueña Sin Limites</title>
+    <episode-num system="onscreen">S01E15</episode-num>
+    <episode-num system="pluto">64d112418f763a0013c37d66</episode-num>
+    <episode-num system="original-air-date">20110222000000 +0000</episode-num>
+    <desc>Después de regresar a Corea en un año, Byeong-jik sugiere a Hye-mi que va a los Estados Unidos con él para continuar su esutio de música vocal. Hye-mi tiene un conflicto entre la música vocal y la música popular...</desc>
+    <icon src="https://images.pluto.tv/series/64d10dfc85e5ff00131812c9/tile_1769550481679.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20110222</date>
+    <series-id system="pluto">64d10dfc85e5ff00131812c9</series-id>
+    <sub-title>Episodio 15</sub-title>
+    <category>Drama</category>
+    <category>Series</category>
+    <category>Foreign Drama</category>
   </programme>
   <programme start="20261020090900 +0000" stop="20261020093500 +0000" channel="Sony.cl">
     <title>The Goldbergs • Moms Need Other Moms</title>
@@ -56372,6 +56619,19 @@ Nada va mejor con la playa que asar y hacer barbacoas, así que Katie está busc
     <category>Entrevista</category>
     <country>EE. UU</country>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/hollywoodoneonone.jpg" />
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261020092700 +0000" stop="20261020104400 +0000">
+    <title>Mi Bella Dama</title>
+    <episode-num system="onscreen">S01E12</episode-num>
+    <episode-num system="pluto">66e85a6ca1c89200139bdc8c</episode-num>
+    <episode-num system="original-air-date">20090924000000 +0000</episode-num>
+    <desc>Hye-na es expulsada del castillo.</desc>
+    <icon src="https://images.pluto.tv/series/66e85982f4fe15001354ebcf/tile_1776895655074.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20090924</date>
+    <series-id system="pluto">66e85982f4fe15001354ebcf</series-id>
+    <sub-title>Episodio 12</sub-title>
+    <category>Series</category>
+    <category>Telenovela</category>
   </programme>
   <programme start="20261020093000 +0000" stop="20261020095500 +0000" channel="Nick.cl">
     <title>Henry Danger • La trampa del balde</title>
@@ -57724,6 +57984,20 @@ Los cinco panaderos restantes hacen minipostres con temática de Toy Story y lue
     <episode-num system="onscreen">T2 E10</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261020102300 +0000" stop="20261020114400 +0000">
+    <title>Sueña Sin Limites</title>
+    <episode-num system="onscreen">S01E16</episode-num>
+    <episode-num system="pluto">64d1123c8f763a0013c37c97</episode-num>
+    <episode-num system="original-air-date">20110228000000 +0000</episode-num>
+    <desc>A pesar de que Jin-guk y Baek-hee no pueden estar en el escenario, Sam-dong y Hye-mi dicen que ellos deben ir juntos hasta el fin. Sam-dong tranquiliza a Hye-mi diciendo que lo hará estar en el escenario dentro del plazo prometido con el padre de Hye-mi.</desc>
+    <icon src="https://images.pluto.tv/series/64d10dfc85e5ff00131812c9/tile_1769550481679.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20110228</date>
+    <series-id system="pluto">64d10dfc85e5ff00131812c9</series-id>
+    <sub-title>Sueña Sin Limites EP16</sub-title>
+    <category>Drama</category>
+    <category>Series</category>
+    <category>Foreign Drama</category>
+  </programme>
   <programme start="20261020102500 +0000" stop="20261020105000 +0000" channel="NickJr.bo">
     <title>Sr. Cocodrilo • Enredados; Mejores amigos</title>
     <sub-title>Enredados; Mejores amigos</sub-title>
@@ -58136,6 +58410,19 @@ Los cinco panaderos restantes hacen minipostres con temática de Toy Story y lue
       <value>18</value>
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/rapidosyfuriosos7.jpg" />
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261020104400 +0000" stop="20261020120000 +0000">
+    <title>Mi Bella Dama</title>
+    <episode-num system="onscreen">S01E13</episode-num>
+    <episode-num system="pluto">66e85a43a1c89200139bcf1d</episode-num>
+    <episode-num system="original-air-date">20090930000000 +0000</episode-num>
+    <desc>Dong-chan escucha una confesión de amor de Hye-na.</desc>
+    <icon src="https://images.pluto.tv/series/66e85982f4fe15001354ebcf/tile_1776895655074.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20090930</date>
+    <series-id system="pluto">66e85982f4fe15001354ebcf</series-id>
+    <sub-title>Episodio 13</sub-title>
+    <category>Series</category>
+    <category>Telenovela</category>
   </programme>
   <programme start="20261020104400 +0000" stop="20261020121200 +0000" channel="TNTNovelas.cl">
     <title>El chico de oro</title>
@@ -60356,18 +60643,38 @@ Eric Adjepong les da la bienvenida a tres pasteleros de Kentucky, California y N
     <episode-num system="onscreen">T6 E12</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/csimiami.jpg" />
   </programme>
+  <programme start="20261020120000 +0000" stop="20261020150000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261020120000 +0000" stop="20261020150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261020120000 +0000" stop="20261020150000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261020120000 +0000" stop="20261020150000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261020120000 +0000" stop="20261020150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261020120000 +0000" stop="20261020150000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261020120000 +0000" stop="20261020150000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261020120000 +0000" stop="20261020150000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -64577,18 +64884,38 @@ Kardea Brown prepara comida italiana para su amiga amante de la pasta. Comienza 
     <category>Drama</category>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/comodiceeldicho.jpg" />
   </programme>
+  <programme start="20261020150000 +0000" stop="20261020180000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261020150000 +0000" stop="20261020180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261020150000 +0000" stop="20261020180000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261020150000 +0000" stop="20261020180000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261020150000 +0000" stop="20261020180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261020150000 +0000" stop="20261020180000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261020150000 +0000" stop="20261020180000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261020150000 +0000" stop="20261020180000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -68646,18 +68973,38 @@ Un programa sobre evangelismo, ayuda comunitaria y reflexiones sobre las enseña
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261020180000 +0000" stop="20261020210000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261020180000 +0000" stop="20261020210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261020180000 +0000" stop="20261020210000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261020180000 +0000" stop="20261020210000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261020180000 +0000" stop="20261020210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261020180000 +0000" stop="20261020210000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261020180000 +0000" stop="20261020210000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261020180000 +0000" stop="20261020210000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -72915,18 +73262,38 @@ Resumen noticioso nacional e internacional.</desc>
     <country>EE. UU</country>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261020210000 +0000" stop="20261021000000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261020210000 +0000" stop="20261021000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261020210000 +0000" stop="20261021000000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261020210000 +0000" stop="20261021000000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261020210000 +0000" stop="20261021000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261020210000 +0000" stop="20261021000000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261020210000 +0000" stop="20261021000000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261020210000 +0000" stop="20261021000000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -77038,18 +77405,38 @@ Revisa las noticias más relevantes de la jornada.</desc>
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/favorpeligroso.jpg" />
   </programme>
+  <programme start="20261021000000 +0000" stop="20261021030000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261021000000 +0000" stop="20261021030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261021000000 +0000" stop="20261021030000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261021000000 +0000" stop="20261021030000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261021000000 +0000" stop="20261021030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261021000000 +0000" stop="20261021030000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261021000000 +0000" stop="20261021030000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261021000000 +0000" stop="20261021030000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -81470,18 +81857,38 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme channel="ENTChannel.cl" start="20261021030000 +0000" stop="20261021110500 +0000">
     <title lang="es">El quinto elemento</title>
   </programme>
+  <programme start="20261021030000 +0000" stop="20261021060000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261021030000 +0000" stop="20261021060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261021030000 +0000" stop="20261021060000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261021030000 +0000" stop="20261021060000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261021030000 +0000" stop="20261021060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261021030000 +0000" stop="20261021060000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261021030000 +0000" stop="20261021060000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261021030000 +0000" stop="20261021060000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -86070,18 +86477,38 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/lasestrellas.jpg" />
   </programme>
+  <programme start="20261021060000 +0000" stop="20261021090000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261021060000 +0000" stop="20261021090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261021060000 +0000" stop="20261021090000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261021060000 +0000" stop="20261021090000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261021060000 +0000" stop="20261021090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261021060000 +0000" stop="20261021090000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261021060000 +0000" stop="20261021090000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261021060000 +0000" stop="20261021090000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -90324,18 +90751,38 @@ Una pareja que se ha quedado sola, ya que sus hijos han crecido y se han ido de 
     <episode-num system="onscreen">T11 E14</episode-num>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/criminalminds.jpg" />
   </programme>
+  <programme start="20261021090000 +0000" stop="20261021120000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261021090000 +0000" stop="20261021120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261021090000 +0000" stop="20261021120000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261021090000 +0000" stop="20261021120000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261021090000 +0000" stop="20261021120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261021090000 +0000" stop="20261021120000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261021090000 +0000" stop="20261021120000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261021090000 +0000" stop="20261021120000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -94590,18 +95037,38 @@ En la cocina incluye los sabores del otoño en cada bocado con platos como la pa
     <country>España</country>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/sinrodeos.jpg" />
   </programme>
+  <programme start="20261021120000 +0000" stop="20261021150000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261021120000 +0000" stop="20261021150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261021120000 +0000" stop="20261021150000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261021120000 +0000" stop="20261021150000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261021120000 +0000" stop="20261021150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261021120000 +0000" stop="20261021150000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261021120000 +0000" stop="20261021150000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261021120000 +0000" stop="20261021150000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -98484,18 +98951,38 @@ Nancy va a la estación de bomberos y prepara una comida picante para agradecer 
     </rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261021150000 +0000" stop="20261021180000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261021150000 +0000" stop="20261021180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261021150000 +0000" stop="20261021180000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261021150000 +0000" stop="20261021180000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261021150000 +0000" stop="20261021180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261021150000 +0000" stop="20261021180000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261021150000 +0000" stop="20261021180000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261021150000 +0000" stop="20261021180000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -102308,18 +102795,38 @@ Geoff y Brittany no logran ponerse de acuerdo sobre el pastel perfecto para su b
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/lasestrellas.jpg" />
   </programme>
+  <programme start="20261021180000 +0000" stop="20261021210000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261021180000 +0000" stop="20261021210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261021180000 +0000" stop="20261021210000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261021180000 +0000" stop="20261021210000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261021180000 +0000" stop="20261021210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261021180000 +0000" stop="20261021210000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261021180000 +0000" stop="20261021210000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261021180000 +0000" stop="20261021210000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -105999,18 +106506,38 @@ Resumen noticioso nacional e internacional.</desc>
     <category>Religious</category>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/ministraciondelespiritusanto.jpg" />
   </programme>
+  <programme start="20261021210000 +0000" stop="20261022000000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261021210000 +0000" stop="20261022000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261021210000 +0000" stop="20261022000000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261021210000 +0000" stop="20261022000000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261021210000 +0000" stop="20261022000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261021210000 +0000" stop="20261022000000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
+  <programme start="20261021210000 +0000" stop="20261022000000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261021210000 +0000" stop="20261022000000 +0000" channel="ENTComedy.cl">
+    <title lang="es">ENTComedy.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
