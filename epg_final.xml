@@ -886,15 +886,6 @@
   <programme channel="ENTMovies.cl" start="20261019233300 +0000" stop="20261020010200 +0000">
     <title lang="es">Red</title>
   </programme>
-  <programme start="20261020000000 +0000" stop="20261020020000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">DSPORTS Noticias Nite</title>
-  </programme>
-  <programme start="20261020000000 +0000" stop="20261020030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261020000000 +0000" stop="20261020030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -903,6 +894,11 @@
   <programme start="20261020000000 +0000" stop="20261020030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261020000000 +0000" stop="20261020030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261020000700 +0000" stop="20261020005300 +0000" channel="HGTV.ar">
@@ -974,12 +970,6 @@ Desde que ganó, Marissa Lopez se convirtió en una parte fundamental de Carlo's
     <episode-num>S10 E10</episode-num>
     <title lang="es">Cake Boss</title>
   </programme>
-  <programme start="20261020013000 +0000" stop="20261020014500 +0000" channel="24Horas.cl">
-    <desc lang="es">Tecnología
-Un nuevo espacio multiplataforma, creado para visibilizar historias de innovación, desarrollo y de futuro que están sucediendo a lo largo de Chile. Un espacio con una amplia oferta de productos de ciencia, tecnología, ciudad y transporte.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">Conciencia 24/7</title>
-  </programme>
   <programme start="20261020013800 +0000" stop="20261020022000 +0000" channel="HGTV.ar">
     <desc lang="es">S3 E8 — Pirámides, sueños y acantilados
 Vea casas escondidas debajo de graneros, casas en acantilados, casas diseñadas para combatir insectos y más.</desc>
@@ -987,12 +977,6 @@ Vea casas escondidas debajo de graneros, casas en acantilados, casas diseñadas 
     <icon src="https://iptv-epg.org/images/o0D3szDclY8xmnk9K63uZtYbWUVYijzHc2LoykCn9i5iC4BiGmH3PR4VJ5-Lw0cBQFklG92qx34qDmyZ1yJHShWsQ1aBm9mdYSMk3q0mTrBrsPMiLYoLQ6oP4NfI9qI0d_saZdSBK9J0q7_StftXc8qai4qoPPKEyx-erZfv5NCfWA" />
     <title lang="es">Hogares increíbles</title>
     <title lang="en">Extreme Homes</title>
-  </programme>
-  <programme start="20261020014500 +0000" stop="20261020020000 +0000" channel="24Horas.cl">
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-    <icon src="https://iptv-epg.org/images/PyCOaxEc7huO9LsREMGwseMNkv2VTDnB-y50tqdFrAhQ3D5EOwK-7CSanErJwdSVbRWbqDkstG1URYsg7xg7h9Yx0ftgWqZPfm7XwXs1HjCQES5b0OoOcKNI5bktORc" />
-    <title lang="es">Entrevistas 24 horas</title>
   </programme>
   <programme start="20261020014800 +0000" stop="20261020020900 +0000" channel="FOODNETWORK.uy">
     <date>2015</date>
@@ -1004,15 +988,6 @@ Mike y Mirando planean una boda con temática de carnaval en homenaje a su prime
   <programme channel="ENTDrama.cl" start="20261020014900 +0000" stop="20261020030000 +0000">
     <title lang="es">Bambi</title>
   </programme>
-  <programme start="20261020020000 +0000" stop="20261020021500 +0000" channel="24Horas.cl">
-    <desc lang="es">Una mirada europea al mundo de la economía y los negocios. Hechos, análisis y las historias reales desde la principales plazas financieras, los mercados clave y las empresas líderes.</desc>
-    <icon src="https://iptv-epg.org/images/GZ8_UQgD-zTAXERKGv8g_sIGBK8xAOA6cbqGxkcTWteqOd0PNwUj4ab97aoaeU3CUGF6CuTP15OllmEimD3M6v-P5Ie4BX9AMNxcDVw0jqFzib4" />
-    <title lang="es">Economía</title>
-  </programme>
-  <programme start="20261020020000 +0000" stop="20261020030000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">Dsports Total</title>
-  </programme>
   <programme start="20261020020900 +0000" stop="20261020022800 +0000" channel="FOODNETWORK.uy">
     <date>2015</date>
     <desc lang="es">S5 E1
@@ -1022,12 +997,6 @@ En Cleveland, Ohio, Michael Symon disfruta de una costilla de res con pastrami e
   </programme>
   <programme channel="ENTExtreme.cl" start="20261020021300 +0000" stop="20261020035900 +0000">
     <title lang="es">Contratiempo</title>
-  </programme>
-  <programme start="20261020021500 +0000" stop="20261020023000 +0000" channel="24Horas.cl">
-    <desc lang="es">Tecnología
-Un nuevo espacio multiplataforma, creado para visibilizar historias de innovación, desarrollo y de futuro que están sucediendo a lo largo de Chile. Un espacio con una amplia oferta de productos de ciencia, tecnología, ciudad y transporte.</desc>
-    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
-    <title lang="es">Conciencia 24/7</title>
   </programme>
   <programme start="20261020022000 +0000" stop="20261020024100 +0000" channel="HGTV.ar">
     <desc lang="es">S3 E6 — Casa de montaña en Carolina del Sur
@@ -1047,12 +1016,6 @@ La fuerza está en la cocina, ya que Buddy reta a los concursantes a crear paste
   <programme channel="ENTChannel.cl" start="20261020022900 +0000" stop="20261020030000 +0000">
     <title lang="es">Los Simpson</title>
   </programme>
-  <programme start="20261020023000 +0000" stop="20261020024500 +0000" channel="24Horas.cl">
-    <desc lang="es">Entrevista
-Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
-    <icon src="https://iptv-epg.org/images/PyCOaxEc7huO9LsREMGwseMNkv2VTDnB-y50tqdFrAhQ3D5EOwK-7CSanErJwdSVbRWbqDkstG1URYsg7xg7h9Yx0ftgWqZPfm7XwXs1HjCQES5b0OoOcKNI5bktORc" />
-    <title lang="es">Entrevistas 24 horas</title>
-  </programme>
   <programme channel="ENTComedy.cl" start="20261020023000 +0000" stop="20261020030000 +0000">
     <title lang="es">Smiling Friends</title>
   </programme>
@@ -1064,29 +1027,12 @@ Una pareja joven está lista para dejar Atlanta y dirigirse a las montañas de B
     <title lang="es">Nuestro hogar en la montaña</title>
     <title lang="en">Mountain Life</title>
   </programme>
-  <programme start="20261020024500 +0000" stop="20261020030000 +0000" channel="24Horas.cl">
-    <desc lang="es">Película
-Programa sobre las noticias de los próximos estrenos del cine.</desc>
-    <icon src="https://iptv-epg.org/images/PusmOae0y0mx03HevjscB6vyy5XJgcCel5Jhvucze710COw8Wb2F5LVeQX7gTCGj855K7p4Ot5QzyRh2mV-ATJOQEjdJxClCG1yDdo4J9CuPepEAOg" />
-    <title lang="es">24 cuadros</title>
-  </programme>
   <programme start="20261020025100 +0000" stop="20261020033300 +0000" channel="FOODNETWORK.uy">
     <date>2021</date>
     <desc lang="es">S1 E3
 En el campo de Toscana, Bobby Flay y Giada De Laurentiis exploran las granjas orgánicas, un molino antiguo, hamburguesas con estilo de Toscana y una granja de ovejas donde aprenden a hacer el icónico queso pecorino.</desc>
     <episode-num>S1 E3</episode-num>
     <title lang="es">Bobby and Giada in Italy</title>
-  </programme>
-  <programme start="20261020030000 +0000" stop="20261020033000 +0000" channel="24Horas.cl">
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-    <icon src="https://iptv-epg.org/images/xYEU3c--IseiTcGvDF7yR4uiPKsrubawk6gaX7BQzb-I7ht8VCmYGac3616dzAmGLEMePTYnQq5AZa_susHtSXU8HExItAr3u0ov0204CQ1agv8GZryph1WrDRYO" />
-    <title lang="es">24 horas a la hora</title>
-  </programme>
-  <programme start="20261020030000 +0000" stop="20261020040000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Soccer</category>
-    <category>Sports</category>
-    <title lang="es">De Fútbol Se Habla Así Chile</title>
   </programme>
   <programme channel="ENTChannel.cl" start="20261020030000 +0000" stop="20261020111800 +0000">
     <title lang="es">Capitán América: Civil War</title>
@@ -1100,11 +1046,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme channel="ENTDrama.cl" start="20261020030000 +0000" stop="20261020142700 +0000">
     <title lang="es">La otra reina</title>
   </programme>
-  <programme start="20261020030000 +0000" stop="20261020060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261020030000 +0000" stop="20261020060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -1115,6 +1056,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
+  <programme start="20261020030000 +0000" stop="20261020060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261020030200 +0000" stop="20261020034800 +0000" channel="HGTV.ar">
     <desc lang="es">S3 E7 — Trabajando juntos en el lago Cedar Creek
 Una familia de Dallas quiere escapar del calor del verano de la ciudad. Ellos buscan transformar una casa frente al agua en el lago Cedar Creek y le agregan algunos toques personales para que sus perros se sientan como en casa.</desc>
@@ -1122,11 +1068,6 @@ Una familia de Dallas quiere escapar del calor del verano de la ciudad. Ellos bu
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Nuestro hogar frente al lago: renovación</title>
     <title lang="en">Lakefront Bargain Hunt Renovation</title>
-  </programme>
-  <programme start="20261020033000 +0000" stop="20261020040000 +0000" channel="24Horas.cl">
-    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
-    <icon src="https://iptv-epg.org/images/GwMMZx5TTXIRFAzFNEyx_K8KUcqmRx0sbBHsp-SICQzWynEXEAMOSserVh93n26jvNSaUr1EF5ZcNFuwpuhbJKC2peCDTa6YxYBMvBr39WQXjPrP_Ae0bxFCjU3rVGnNNReYfaOV" />
-    <title lang="es">24 Horas deportes</title>
   </programme>
   <programme start="20261020033300 +0000" stop="20261020035400 +0000" channel="FOODNETWORK.uy">
     <date>2009</date>
@@ -1153,16 +1094,6 @@ Rachael Ray controla la sal, la grasa y la calidad de los ingredientes en una de
   <programme channel="ENTExtreme.cl" start="20261020035900 +0000" stop="20261020122800 +0000">
     <title lang="es">Spider-Man: De regreso a casa</title>
   </programme>
-  <programme start="20261020040000 +0000" stop="20261020043000 +0000" channel="24Horas.cl">
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-    <icon src="https://iptv-epg.org/images/xYEU3c--IseiTcGvDF7yR4uiPKsrubawk6gaX7BQzb-I7ht8VCmYGac3616dzAmGLEMePTYnQq5AZa_susHtSXU8HExItAr3u0ov0204CQ1agv8GZryph1WrDRYO" />
-    <title lang="es">24 horas a la hora</title>
-  </programme>
-  <programme start="20261020040000 +0000" stop="20261020070000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">DSPORTS Noticias Nite</title>
-  </programme>
   <programme start="20261020040900 +0000" stop="20261020043100 +0000" channel="HGTV.ar">
     <desc lang="es">S1 E6 — Joe Haden y Greivis Vasquez
 Joe Haden, destacado de la NFL, y su familia están buscando mudarse más cerca de un centro de entrenamiento atlético que están abriendo en Maryland. Y en Nueva Orleans, Jason y Kristen buscan un elegante apartamento para Greivis Vasquez.</desc>
@@ -1178,12 +1109,6 @@ Diez reposteros celebran la primavera haciendo donas con temas de animales y cre
     <episode-num>S5 E1</episode-num>
     <title lang="es">Spring Baking Championship</title>
   </programme>
-  <programme start="20261020043000 +0000" stop="20261020050000 +0000" channel="24Horas.cl">
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-    <icon src="https://iptv-epg.org/images/xYEU3c--IseiTcGvDF7yR4uiPKsrubawk6gaX7BQzb-I7ht8VCmYGac3616dzAmGLEMePTYnQq5AZa_susHtSXU8HExItAr3u0ov0204CQ1agv8GZryph1WrDRYO" />
-    <title lang="es">24 horas a la hora</title>
-  </programme>
   <programme start="20261020043100 +0000" stop="20261020051500 +0000" channel="HGTV.ar">
     <desc lang="es">S7 E7 — Transformar condominios
 Los diseñadores desconocidos esperan catapultarse a lo grande ganando su propio programa en HGTV. En este episodio, los últimos cuatro diseñadores diseñan apartamentos inspirados en diferentes colores, y dan tips de diseño.</desc>
@@ -1191,12 +1116,6 @@ Los diseñadores desconocidos esperan catapultarse a lo grande ganando su propio
     <icon src="https://iptv-epg.org/images/6LNeQpBR6tHqOszjLRu4DMkXfo8zSVFK81xE81kYwMk27GRSL_nxx4kUgWvbcg6b8x6TStyVEa05Q4p9IMPmrFblCFFLmi4Re9x3rNTCXEs83Bxf8-xZ4HrmRNVNLJLhL_sDzyorBB2O5oVKKinqrBfrjLuIdHt490R7JEOS5J1mGkCpJ_YpffX1AA4" />
     <title lang="es">La búsqueda del diseñador estrella</title>
     <title lang="en">HGTV Design Star</title>
-  </programme>
-  <programme start="20261020050000 +0000" stop="20261020053000 +0000" channel="24Horas.cl">
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-    <icon src="https://iptv-epg.org/images/xYEU3c--IseiTcGvDF7yR4uiPKsrubawk6gaX7BQzb-I7ht8VCmYGac3616dzAmGLEMePTYnQq5AZa_susHtSXU8HExItAr3u0ov0204CQ1agv8GZryph1WrDRYO" />
-    <title lang="es">24 horas a la hora</title>
   </programme>
   <programme start="20261020050000 +0000" stop="20261020054500 +0000" channel="FOODNETWORK.uy">
     <category lang="es">Reality</category>
@@ -1214,12 +1133,6 @@ Una mujer soltera busca su primera casa para estar más cerca de su familia en P
     <title lang="es">Mi casa en los suburbios</title>
     <title lang="en">Small Town Potential</title>
   </programme>
-  <programme start="20261020053000 +0000" stop="20261020061500 +0000" channel="24Horas.cl">
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-    <icon src="https://iptv-epg.org/images/xYEU3c--IseiTcGvDF7yR4uiPKsrubawk6gaX7BQzb-I7ht8VCmYGac3616dzAmGLEMePTYnQq5AZa_susHtSXU8HExItAr3u0ov0204CQ1agv8GZryph1WrDRYO" />
-    <title lang="es">24 horas a la hora</title>
-  </programme>
   <programme start="20261020054500 +0000" stop="20261020060600 +0000" channel="FOODNETWORK.uy">
     <date>2014</date>
     <desc lang="es">S1 E5
@@ -1235,11 +1148,6 @@ Esta variedad de casas de todo el mundo incluye una casa que causa sensación en
     <title lang="es">Hogares increíbles</title>
     <title lang="en">Extreme Homes</title>
   </programme>
-  <programme start="20261020060000 +0000" stop="20261020090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261020060000 +0000" stop="20261020090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -1250,18 +1158,17 @@ Esta variedad de casas de todo el mundo incluye una casa que causa sensación en
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
+  <programme start="20261020060000 +0000" stop="20261020090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261020060600 +0000" stop="20261020062800 +0000" channel="FOODNETWORK.uy">
     <date>2020</date>
     <desc lang="es">S1 E13
 Michael Symon hace una comida con mariscos. Primero hace la preparación y luego deja que el papel de aluminio y la parrilla hagan el trabajo. Además prepara almejas con salchicha y pimientos y, de postre, melocotones con mascarpone y miel.</desc>
     <episode-num>S1 E13</episode-num>
     <title lang="es">Cocina a la parrilla con Michael Symon</title>
-  </programme>
-  <programme start="20261020061500 +0000" stop="20261020064500 +0000" channel="24Horas.cl">
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-    <icon src="https://iptv-epg.org/images/xYEU3c--IseiTcGvDF7yR4uiPKsrubawk6gaX7BQzb-I7ht8VCmYGac3616dzAmGLEMePTYnQq5AZa_susHtSXU8HExItAr3u0ov0204CQ1agv8GZryph1WrDRYO" />
-    <title lang="es">24 horas a la hora</title>
   </programme>
   <programme start="20261020062800 +0000" stop="20261020071100 +0000" channel="FOODNETWORK.uy">
     <category lang="es">Reality</category>
@@ -1278,16 +1185,6 @@ C.J. Watson le pide al equipo Abrams que lo ayude a encontrar un alquiler de luj
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">Negocios en juego</title>
     <title lang="en">Scoring the Deal</title>
-  </programme>
-  <programme start="20261020064500 +0000" stop="20261020073000 +0000" channel="24Horas.cl">
-    <desc lang="es">Interés general
-Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
-    <icon src="https://iptv-epg.org/images/xYEU3c--IseiTcGvDF7yR4uiPKsrubawk6gaX7BQzb-I7ht8VCmYGac3616dzAmGLEMePTYnQq5AZa_susHtSXU8HExItAr3u0ov0204CQ1agv8GZryph1WrDRYO" />
-    <title lang="es">24 horas a la hora</title>
-  </programme>
-  <programme start="20261020070000 +0000" stop="20261020080000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">DSPORTS Noticias Nite</title>
   </programme>
   <programme start="20261020070300 +0000" stop="20261020072600 +0000" channel="HGTV.ar">
     <desc lang="es">S8 E7 — Renovaciones extravagantes en Florida
@@ -1311,17 +1208,6 @@ Después de los problemas con los retrasos en la construcción, EJ y Jason compl
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">De mil a un millón</title>
     <title lang="en">Flip to a Million</title>
-  </programme>
-  <programme start="20261020073000 +0000" stop="20261020080000 +0000" channel="24Horas.cl">
-    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
-    <icon src="https://iptv-epg.org/images/GwMMZx5TTXIRFAzFNEyx_K8KUcqmRx0sbBHsp-SICQzWynEXEAMOSserVh93n26jvNSaUr1EF5ZcNFuwpuhbJKC2peCDTa6YxYBMvBr39WQXjPrP_Ae0bxFCjU3rVGnNNReYfaOV" />
-    <title lang="es">24 Horas deportes</title>
-  </programme>
-  <programme start="20261020080000 +0000" stop="20261020083000 +0000" channel="24Horas.cl">
-    <desc lang="es">Noticiero
-Actualidad e información.</desc>
-    <icon src="https://iptv-epg.org/images/1DsR_4M4e7_lH4RBkmr5aChy_iagD-YHi__LF1Kcoq8KeVetYjLfCBrlsI7qU-1fzPlKGM-jwojO4tL7hnHZ57PyKSivZj_t6lU8wOcczhzF-A" />
-    <title lang="es">Hora 24</title>
   </programme>
   <programme start="20261020080000 +0000" stop="20261020090000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Soccer</category>
@@ -1374,11 +1260,6 @@ Molly Yeh le está enseñando a Nick a hacer donas con leche y mantequilla tosta
     <episode-num>S8 E10</episode-num>
     <title lang="es">Cocina en la granja</title>
   </programme>
-  <programme start="20261020090000 +0000" stop="20261020120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261020090000 +0000" stop="20261020120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -1387,6 +1268,11 @@ Molly Yeh le está enseñando a Nick a hacer donas con leche y mantequilla tosta
   <programme start="20261020090000 +0000" stop="20261020120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261020090000 +0000" stop="20261020120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261020092100 +0000" stop="20261020094400 +0000" channel="HGTV.ar">
@@ -1518,11 +1404,6 @@ Eric Adjepong les da la bienvenida a tres pasteleros de Kentucky, California y N
     <category>Action</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/planetaction.jpg" />
   </programme>
-  <programme start="20261020120000 +0000" stop="20261020150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261020120000 +0000" stop="20261020150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -1531,6 +1412,11 @@ Eric Adjepong les da la bienvenida a tres pasteleros de Kentucky, California y N
   <programme start="20261020120000 +0000" stop="20261020150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261020120000 +0000" stop="20261020150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261020121700 +0000" stop="20261020123900 +0000" channel="HGTV.ar">
@@ -2264,11 +2150,6 @@ Kardea Brown prepara comida italiana para su amiga amante de la pasta. Comienza 
     <category>Drama</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comodiceeldicho.jpg" />
   </programme>
-  <programme start="20261020150000 +0000" stop="20261020180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261020150000 +0000" stop="20261020180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -2277,6 +2158,11 @@ Kardea Brown prepara comida italiana para su amiga amante de la pasta. Comienza 
   <programme start="20261020150000 +0000" stop="20261020180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261020150000 +0000" stop="20261020180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261020150200 +0000" stop="20261020153600 +0000" channel="DiscoveryTurbo.cl">
@@ -6113,11 +5999,6 @@ Un programa sobre evangelismo, ayuda comunitaria y reflexiones sobre las enseña
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261020180000 +0000" stop="20261020210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261020180000 +0000" stop="20261020210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -6126,6 +6007,11 @@ Un programa sobre evangelismo, ayuda comunitaria y reflexiones sobre las enseña
   <programme start="20261020180000 +0000" stop="20261020210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261020180000 +0000" stop="20261020210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261020180500 +0000" stop="20261020194800 +0000" channel="Golden.cl">
@@ -10396,11 +10282,6 @@ Resumen noticioso nacional e internacional.</desc>
     <country>EE. UU</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261020210000 +0000" stop="20261021000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261020210000 +0000" stop="20261021000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -10409,6 +10290,11 @@ Resumen noticioso nacional e internacional.</desc>
   <programme start="20261020210000 +0000" stop="20261021000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261020210000 +0000" stop="20261021000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261020210200 +0000" stop="20261020213000 +0000" channel="DisneyJunior.cl">
@@ -14553,11 +14439,6 @@ Revisa las noticias más relevantes de la jornada.</desc>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261021000000 +0000" stop="20261021030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261021000000 +0000" stop="20261021030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -14566,6 +14447,11 @@ Revisa las noticias más relevantes de la jornada.</desc>
   <programme start="20261021000000 +0000" stop="20261021030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261021000000 +0000" stop="20261021030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261021000100 +0000" stop="20261021004300 +0000" channel="FOODNETWORK.uy">
@@ -18347,19 +18233,6 @@ Después de vivir por todo el país, una familia decide echar raíces en una peq
     <episode-num system="onscreen">T1 E12</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20261021025200 +0000" stop="20261021040800 +0000">
-    <title>Descubrimiento del Amor</title>
-    <episode-num system="onscreen">S01E10</episode-num>
-    <episode-num system="pluto">66e877c5f98f520013e1aae1</episode-num>
-    <episode-num system="original-air-date">20140916000000 +0000</episode-num>
-    <desc>Tae-ha se desespera por su situación, incapaz de hacer nada con el enfermo Yeo-reum al lado de Ha-jin. Refrescado, Yeoreum se entera de que Hajin fue a Gunsan con Arim, y Taeha intenta detener sus sentimientos por Yeoreum...</desc>
-    <icon src="https://images.pluto.tv/series/66e8739673aa510013467cff/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20140916</date>
-    <series-id system="pluto">66e8739673aa510013467cff</series-id>
-    <sub-title>Episodio 10</sub-title>
-    <category>Series</category>
-    <category>Telenovela</category>
-  </programme>
   <programme start="20261021025200 +0000" stop="20261021031700 +0000" channel="DisneyChannel.cl">
     <title>Amphibia • La senda de la sapo-salvación / Maddie y Marcie</title>
     <sub-title>La senda de la sapo-salvación / Maddie y Marcie</sub-title>
@@ -18900,11 +18773,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme channel="ENTDrama.cl" start="20261021030000 +0000" stop="20261021124200 +0000">
     <title lang="es">Sintonía de amor</title>
   </programme>
-  <programme start="20261021030000 +0000" stop="20261021060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261021030000 +0000" stop="20261021060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -18913,6 +18781,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme start="20261021030000 +0000" stop="20261021060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261021030000 +0000" stop="20261021060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261021030200 +0000" stop="20261021033000 +0000" channel="DisneyJunior.cl">
@@ -19060,20 +18933,6 @@ Una pareja de Nueva Jersey busca cumplir su sueño de comprar una casa en el sur
       <value>TV14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/csimiami.jpg" />
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261021031500 +0000" stop="20261021043300 +0000">
-    <title>Sueña Sin Limites 2</title>
-    <episode-num system="onscreen">S01E13</episode-num>
-    <episode-num system="pluto">66ea5e556ec6ad0013d437de</episode-num>
-    <episode-num system="original-air-date">20120312000000 +0000</episode-num>
-    <desc>Después de que JB fue eliminado, Hae-seong fue atacado por los fans de JB, y cuando Hae-seong descubrió la verdad, pidió romper con JB.
-Mientras tanto, Eugene eventualmente firma con Kang Cheol y se vuelve famoso al filmar un comercial”.</desc>
-    <icon src="https://images.pluto.tv/series/66ea5e536ec6ad0013d437be/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20120312</date>
-    <series-id system="pluto">66ea5e536ec6ad0013d437be</series-id>
-    <sub-title>Episodio 13</sub-title>
-    <category>Series</category>
-    <category>Telenovela</category>
   </programme>
   <programme start="20261021031500 +0000" stop="20261021034000 +0000" channel="NickJr.bo">
     <title>Rubble &amp; Crew • ¡El equipo construye una rueda de la fortuna!; El equipo construye un espacio de yoga para animales</title>
@@ -20442,19 +20301,6 @@ Cerramos el día analizando lo de hoy y mirando lo que se viene hacia adelante.<
     <episode-num system="onscreen">S1E18</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/zombieslaseriereanimada.jpg" />
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20261021040800 +0000" stop="20261021051800 +0000">
-    <title>Descubrimiento del Amor</title>
-    <episode-num system="onscreen">S01E11</episode-num>
-    <episode-num system="pluto">66e877cef98f520013e1ada7</episode-num>
-    <episode-num system="original-air-date">20140922000000 +0000</episode-num>
-    <desc>Yeoreum se confunde por la disculpa de Taeha, quien intenta dejar sus sentimientos de lado y concentrarse en su trabajo. Durante un viaje con Ha-jin, se encuentran con personas de la compañía de Taeha.</desc>
-    <icon src="https://images.pluto.tv/series/66e8739673aa510013467cff/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20140922</date>
-    <series-id system="pluto">66e8739673aa510013467cff</series-id>
-    <sub-title>Episodio 11</sub-title>
-    <category>Series</category>
-    <category>Telenovela</category>
-  </programme>
   <programme start="20261021040900 +0000" stop="20261021045200 +0000" channel="FX.cl">
     <title>The Amazing Race • You Are Just Deliberately Trying to Make Us Lose</title>
     <sub-title>You Are Just Deliberately Trying to Make Us Lose</sub-title>
@@ -21026,20 +20872,6 @@ Maestros asadores aficionados de todo el país compiten en sus patios traseros p
     <country>Japón</country>
     <episode-num system="onscreen">S1E16</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hellokittysuperstyle.jpg" />
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261021043300 +0000" stop="20261021054700 +0000">
-    <title>Sueña Sin Limites 2</title>
-    <episode-num system="onscreen">S01E14</episode-num>
-    <episode-num system="pluto">66ea5fcf9f04dd0013d6f8b4</episode-num>
-    <episode-num system="original-air-date">20120313000000 +0000</episode-num>
-    <desc>JB, que iba de camino a atrapar a Hae-seong, sufre un accidente automovilístico.
-Hae-seong, abrumado por la culpa, ni siquiera puede visitar el hospital, pero Eugene los ayuda a encontrarse”.</desc>
-    <icon src="https://images.pluto.tv/series/66ea5e536ec6ad0013d437be/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20120313</date>
-    <series-id system="pluto">66ea5e536ec6ad0013d437be</series-id>
-    <sub-title>Episodio 14</sub-title>
-    <category>Series</category>
-    <category>Telenovela</category>
   </programme>
   <programme start="20261021043400 +0000" stop="20261021045500 +0000" channel="WarnerChannel.cl">
     <title>The Big Bang Theory • La aproximación de Einstein</title>
@@ -22133,19 +21965,6 @@ En la primera prueba de genio, los chefs deben estar alerta con la fantasía y a
     <episode-num system="onscreen">S2E6</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losvecinosgreen.jpg" />
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20261021051800 +0000" stop="20261021062800 +0000">
-    <title>Descubrimiento del Amor</title>
-    <episode-num system="onscreen">S01E12</episode-num>
-    <episode-num system="pluto">66e877d1f98f520013e1aeb9</episode-num>
-    <episode-num system="original-air-date">20140923000000 +0000</episode-num>
-    <desc>Después de regresar de la isla Nami, Yeo-reum y Ha-jin dejaron de lado su ansiedad y pasaron un rato amistoso juntos. Tae-ha se encuentra con Yeo-reum mientras deja a un Sol borracho, y Ha-jin intenta proponerle matrimonio a Yeo-reum una vez más...</desc>
-    <icon src="https://images.pluto.tv/series/66e8739673aa510013467cff/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20140923</date>
-    <series-id system="pluto">66e8739673aa510013467cff</series-id>
-    <sub-title>Episodio 12</sub-title>
-    <category>Series</category>
-    <category>Telenovela</category>
-  </programme>
   <programme start="20261021051800 +0000" stop="20261021054200 +0000" channel="WarnerChannel.cl">
     <title>Two and a Half Men • Tres zorras y un sándwich Filadelfia</title>
     <sub-title>Tres zorras y un sándwich Filadelfia</sub-title>
@@ -22894,20 +22713,6 @@ Eric Adjepong trae chefs de California, Texas y Nueva York para presentar a Alex
     <episode-num>S4 E4</episode-num>
     <title lang="es">Alex vs. América</title>
   </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261021054700 +0000" stop="20261021070600 +0000">
-    <title>Sueña Sin Limites 2</title>
-    <episode-num system="onscreen">S01E15</episode-num>
-    <episode-num system="pluto">66ea5fba9f04dd0013d6f33b</episode-num>
-    <episode-num system="original-air-date">20120319000000 +0000</episode-num>
-    <desc>Después de la actuación, los miembros súper ídolos son seleccionados y oficialmente comienzan sus actividades.
-Mientras tanto, Jae-in le da a Hae-seong una solicitud de admisión a Berklee College of Music y le dice que estudie composición”.</desc>
-    <icon src="https://images.pluto.tv/series/66ea5e536ec6ad0013d437be/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20120319</date>
-    <series-id system="pluto">66ea5e536ec6ad0013d437be</series-id>
-    <sub-title>Episodio 15</sub-title>
-    <category>Series</category>
-    <category>Telenovela</category>
-  </programme>
   <programme start="20261021054800 +0000" stop="20261021055900 +0000" channel="DiscoveryKids.cl">
     <title>Héroes y hermanos • La causa de Sam</title>
     <sub-title>La causa de Sam</sub-title>
@@ -23369,11 +23174,6 @@ Mientras tanto, Jae-in le da a Hae-seong una solicitud de admisión a Berklee Co
     <category>Drama</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubi.jpg" />
   </programme>
-  <programme start="20261021060000 +0000" stop="20261021090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261021060000 +0000" stop="20261021090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -23382,6 +23182,11 @@ Mientras tanto, Jae-in le da a Hae-seong una solicitud de admisión a Berklee Co
   <programme start="20261021060000 +0000" stop="20261021090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261021060000 +0000" stop="20261021090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261021060100 +0000" stop="20261021061300 +0000" channel="CartoonNetwork.cl">
@@ -23915,19 +23720,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <country>Inglaterra</country>
     <episode-num system="onscreen">S1 E8</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme channel="DramasCoreanos.cl" start="20261021062800 +0000" stop="20261021073700 +0000">
-    <title>Descubrimiento del Amor</title>
-    <episode-num system="onscreen">S01E13</episode-num>
-    <episode-num system="pluto">66e877daf98f520013e1b0f3</episode-num>
-    <episode-num system="original-air-date">20140929000000 +0000</episode-num>
-    <desc>Tras conocer el pasado de Ha-jin, Yeoreum descubre su vínculo con A-rim, quien decide estudiar en el extranjero. Taeha y Yeoreum optan por ser amigos, pero no pueden ocultar sus sentimientos inciertos.</desc>
-    <icon src="https://images.pluto.tv/series/66e8739673aa510013467cff/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20140929</date>
-    <series-id system="pluto">66e8739673aa510013467cff</series-id>
-    <sub-title>Episodio 13</sub-title>
-    <category>Series</category>
-    <category>Telenovela</category>
   </programme>
   <programme start="20261021063000 +0000" stop="20261021093000 +0000" channel="DIRECTVSports.cl">
     <category lang="es">Talk</category>
@@ -24776,19 +24568,6 @@ El jugador Gabriel Landeskog está buscando una propiedad de alquiler de lujo en
     <episode-num system="onscreen">T8 E7</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/frasier.jpg" />
   </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261021070600 +0000" stop="20261021082300 +0000">
-    <title>Sueña Sin Limites 2</title>
-    <episode-num system="onscreen">S01E16</episode-num>
-    <episode-num system="pluto">66ea6125f98f5200130411c1</episode-num>
-    <episode-num system="original-air-date">20120320000000 +0000</episode-num>
-    <desc>Tres años después de graduarse, los exalumnos viven sus vidas por separado. Eugene, ahora profesor en Kirin Arts High School, organiza una actuación conjunta entre graduados y estudiantes actuales, reuniéndolos a todos en un solo lugar.</desc>
-    <icon src="https://images.pluto.tv/series/66ea5e536ec6ad0013d437be/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20120320</date>
-    <series-id system="pluto">66ea5e536ec6ad0013d437be</series-id>
-    <sub-title>Episodio 16</sub-title>
-    <category>Series</category>
-    <category>Telenovela</category>
-  </programme>
   <programme start="20261021070700 +0000" stop="20261021071800 +0000" channel="DiscoveryKids.cl">
     <title>Ba da Bean • Las cazadoras del libro perdido</title>
     <sub-title>Las cazadoras del libro perdido</sub-title>
@@ -25534,19 +25313,6 @@ Con solo unas pocas semanas para la fecha límite, Dani y Jon luchan por una imp
     <country>EE. UU</country>
     <episode-num system="onscreen">S1E13</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme channel="DramasCoreanos.cl" start="20261021073700 +0000" stop="20261021084600 +0000">
-    <title>Descubrimiento del Amor</title>
-    <episode-num system="onscreen">S01E14</episode-num>
-    <episode-num system="pluto">66e879316ec6ad0013b457d8</episode-num>
-    <episode-num system="original-air-date">20140930000000 +0000</episode-num>
-    <desc>Taeha estimula a Yeoreum sugiriendo un nuevo plan para el trabajo de Yeoreum. Ha-jin intenta aceptar la situación de Yeo-reum y Tae-ha a su manera, pero es simplemente doloroso...</desc>
-    <icon src="https://images.pluto.tv/series/66e8739673aa510013467cff/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20140930</date>
-    <series-id system="pluto">66e8739673aa510013467cff</series-id>
-    <sub-title>Episodio 14</sub-title>
-    <category>Series</category>
-    <category>Telenovela</category>
   </programme>
   <programme start="20261021073700 +0000" stop="20261021090000 +0000" channel="HBOPop.cl">
     <title>Clika</title>
@@ -26501,20 +26267,6 @@ Una pareja decide dejar atrás su antigua vida para criar a su hija cerca de la 
     <episode-num system="onscreen">S1 E18</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laguardiadelleon.jpg" />
   </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261021082300 +0000" stop="20261021093200 +0000">
-    <title>Luchando para abrirme paso</title>
-    <episode-num system="onscreen">S01E01</episode-num>
-    <episode-num system="pluto">61aa625cc323f20013e53ffa</episode-num>
-    <episode-num system="original-air-date">20170522000000 +0000</episode-num>
-    <desc>Aera elige entre dos trayectorias profesionales. Llega el día de la pelea de Dongman y Taksu.</desc>
-    <icon src="https://images.pluto.tv/series/61aa6254c323f20013e53ed1/tile_1769211001785.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20170522</date>
-    <series-id system="pluto">61aa6254c323f20013e53ed1</series-id>
-    <sub-title>Episodio 1</sub-title>
-    <category>Comedy</category>
-    <category>Series</category>
-    <category>Romantic comedy</category>
-  </programme>
   <programme start="20261021082400 +0000" stop="20261021083600 +0000" channel="DisneyChannel.cl">
     <title>Star vs Las fuerzas del mal • Fiebre en la casa del lago</title>
     <sub-title>Fiebre en la casa del lago</sub-title>
@@ -27047,19 +26799,6 @@ Espacio matutino de noticias, con toda la información de la jornada.</desc>
     <country>EE. UU</country>
     <episode-num system="onscreen">S1E23</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme channel="DramasCoreanos.cl" start="20261021084600 +0000" stop="20261021095500 +0000">
-    <title>Descubrimiento del Amor</title>
-    <episode-num system="onscreen">S01E15</episode-num>
-    <episode-num system="pluto">66e8793b6ec6ad0013b464ca</episode-num>
-    <episode-num system="original-air-date">20141006000000 +0000</episode-num>
-    <desc>Yeoreum deja en claro que no irá con Taeha, y Taeha dice que respetará la elección de Yeoreum. Yeo-reum no le da ninguna respuesta a Ha-jin, quien dice que lo soportará junto con Yeo-reum incluso si resulta lastimada...</desc>
-    <icon src="https://images.pluto.tv/series/66e8739673aa510013467cff/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20141006</date>
-    <series-id system="pluto">66e8739673aa510013467cff</series-id>
-    <sub-title>Episodio 15</sub-title>
-    <category>Series</category>
-    <category>Telenovela</category>
   </programme>
   <programme start="20261021084600 +0000" stop="20261021090000 +0000" channel="Tooncast.cl">
     <title>Hermano de Jorel • The Wonderful World of Inanimate Objects</title>
@@ -27803,11 +27542,6 @@ Una pareja que se ha quedado sola, ya que sus hijos han crecido y se han ido de 
     <episode-num system="onscreen">T11 E14</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/criminalminds.jpg" />
   </programme>
-  <programme start="20261021090000 +0000" stop="20261021120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261021090000 +0000" stop="20261021120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -27816,6 +27550,11 @@ Una pareja que se ha quedado sola, ya que sus hijos han crecido y se han ido de 
   <programme start="20261021090000 +0000" stop="20261021120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261021090000 +0000" stop="20261021120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261021090100 +0000" stop="20261021092300 +0000" channel="DiscoveryKids.cl">
@@ -30939,8 +30678,8 @@ Espacio conducido por el periodista Jose Ignacio Atenas, que busca explorar cóm
     <series-id system="pluto">623b294825269a0013a925f0</series-id>
     <sub-title>Episodio 1</sub-title>
     <category>Series</category>
-    <category>Drama</category>
     <category>Romance</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261021110500 +0000" stop="20261021112000 +0000" channel="ComedyCentral.cl">
     <title>Un hombre. Un plan • Vida de campo</title>
@@ -32327,11 +32066,6 @@ En la cocina incluye los sabores del otoño en cada bocado con platos como la pa
     <episode-num system="onscreen">T6 E14</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/csimiami.jpg" />
   </programme>
-  <programme start="20261021120000 +0000" stop="20261021150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261021120000 +0000" stop="20261021150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -32340,6 +32074,11 @@ En la cocina incluye los sabores del otoño en cada bocado con platos como la pa
   <programme start="20261021120000 +0000" stop="20261021150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261021120000 +0000" stop="20261021150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261021120200 +0000" stop="20261021130000 +0000" channel="TNTNovelas.cl">
@@ -32584,8 +32323,8 @@ En la cocina incluye los sabores del otoño en cada bocado con platos como la pa
     <series-id system="pluto">623b294825269a0013a925f0</series-id>
     <sub-title>Episodio 2</sub-title>
     <category>Series</category>
-    <category>Drama</category>
     <category>Romance</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261021121300 +0000" stop="20261021122200 +0000" channel="Tooncast.cl">
     <title>Hi Hi Puffy AmiYumi • El gran Waldo</title>
@@ -34223,8 +33962,8 @@ Con el tiempo agotándose, EJ, Jason, Dani y Jon deben decidir si terminar el de
     <series-id system="pluto">623b294825269a0013a925f0</series-id>
     <sub-title>Episodio 3</sub-title>
     <category>Series</category>
-    <category>Drama</category>
     <category>Romance</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261021132400 +0000" stop="20261021141200 +0000" channel="DiscoveryWorld.cl">
     <title>Pioneros de Polonia • T1 E3</title>
@@ -35939,8 +35678,8 @@ El jardín de ensueño de una pareja vino con una casa adjunta que es una pesadi
     <series-id system="pluto">623b294825269a0013a925f0</series-id>
     <sub-title>Episodio 4</sub-title>
     <category>Series</category>
-    <category>Drama</category>
     <category>Romance</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261021144000 +0000" stop="20261021145000 +0000" channel="CartoonNetwork.cl">
     <title>The Wonderfully Weird World of Gumball • La hamburguesa</title>
@@ -36613,11 +36352,6 @@ Kardea reúne a sus amigos alrededor del fuego para una comida reconfortante. La
     <category>Drama</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comodiceeldicho.jpg" />
   </programme>
-  <programme start="20261021150000 +0000" stop="20261021180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261021150000 +0000" stop="20261021180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -36626,6 +36360,11 @@ Kardea reúne a sus amigos alrededor del fuego para una comida reconfortante. La
   <programme start="20261021150000 +0000" stop="20261021180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261021150000 +0000" stop="20261021180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261021150100 +0000" stop="20261021152900 +0000" channel="DisneyChannel.cl">
@@ -37739,8 +37478,8 @@ Alton Brown revela el secreto para convertir a la estrella del verano, el aránd
     <series-id system="pluto">623b294825269a0013a925f0</series-id>
     <sub-title>Episodio 5</sub-title>
     <category>Series</category>
-    <category>Drama</category>
     <category>Romance</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261021155300 +0000" stop="20261021161300 +0000" channel="Tooncast.cl">
     <title>Scooby Doo, ¿dónde estás? • El fantasma del castillo</title>
@@ -39494,8 +39233,8 @@ Duff Goldman y su equipo hacen un pastel de cumpleaños para una cría de foca y
     <series-id system="pluto">623b294825269a0013a925f0</series-id>
     <sub-title>Episodio 6</sub-title>
     <category>Series</category>
-    <category>Drama</category>
     <category>Romance</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261021170800 +0000" stop="20261021175400 +0000" channel="DiscoveryTurbo.cl">
     <title>Texas Metal • Una camioneta dual</title>
@@ -40758,11 +40497,6 @@ Geoff y Brittany no logran ponerse de acuerdo sobre el pastel perfecto para su b
     <category>Religious</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jesusworshipcenter.jpg" />
   </programme>
-  <programme start="20261021180000 +0000" stop="20261021210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261021180000 +0000" stop="20261021210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -40771,6 +40505,11 @@ Geoff y Brittany no logran ponerse de acuerdo sobre el pastel perfecto para su b
   <programme start="20261021180000 +0000" stop="20261021210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261021180000 +0000" stop="20261021210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme channel="ENTChannel.cl" start="20261021180400 +0000" stop="20261021192800 +0000">
@@ -41134,8 +40873,8 @@ Michael Symon comienza en la mejor hamburguesería personalizada en Providence, 
     <series-id system="pluto">623b294825269a0013a925f0</series-id>
     <sub-title>Episodio 7</sub-title>
     <category>Series</category>
-    <category>Drama</category>
     <category>Romance</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261021182500 +0000" stop="20261021202000 +0000" channel="Sony.cl">
     <title>El hombre sin sombra</title>
@@ -42845,8 +42584,8 @@ Resumen noticioso nacional e internacional.</desc>
     <series-id system="pluto">623b294825269a0013a925f0</series-id>
     <sub-title>Episodio 8</sub-title>
     <category>Series</category>
-    <category>Drama</category>
     <category>Romance</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261021193500 +0000" stop="20261021215500 +0000" channel="StudioUniversal.ar">
     <title>El hombre de la máscara de hierro</title>
@@ -43950,6 +43689,20 @@ Ali Khan desafía a los pasteleros a crear hermosos huevos comestibles con un sa
     <episode-num>S7 E3</episode-num>
     <title lang="es">Spring Baking Championship</title>
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261021202400 +0000" stop="20261021213700 +0000">
+    <title>Luchando para abrirme paso</title>
+    <episode-num system="onscreen">S01E11</episode-num>
+    <episode-num system="pluto">61aa625cc323f20013e5402e</episode-num>
+    <episode-num system="original-air-date">20170626000000 +0000</episode-num>
+    <desc>Namil Villa gana un nuevo inquilino. Aera y Dongman van a su primera cita.</desc>
+    <icon src="https://images.pluto.tv/series/61aa6254c323f20013e53ed1/tile_1769211001785.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20170626</date>
+    <series-id system="pluto">61aa6254c323f20013e53ed1</series-id>
+    <sub-title>Episodio 11</sub-title>
+    <category>Comedy</category>
+    <category>Series</category>
+    <category>Romantic comedy</category>
+  </programme>
   <programme start="20261021202400 +0000" stop="20261021225900 +0000" channel="Space.cl">
     <title>El hombre araña</title>
     <desc>Peter Parker parece finalmente haber conseguido un equilibrio entre su relación con Mary Jane y sus responsabilidades como súperhéroe. Pero una tormenta amenaza en el horizonte: su traje cambia de repente, volviéndose negro y mejorando sus poderes. Sin embargo, esto viene acompañado de una alteración en él mismo, convirtiéndose en un ser oscuro y vengativo. Obligado a elegir entre el tentador poder que le proporciona el nuevo disfraz y el compasivo ídolo que solía ser, éste deberá vencer sus demonios internos, mientras dos de sus más temidos enemigos, Venom y el Hombre de Arena, utilizarán sus condiciones para calmar su sed de venganza.</desc>
@@ -44336,6 +44089,20 @@ John y Anthony visitan Carmichael, California, para ayudar a una pareja joven co
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E1</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/misteriosinexploradoscondannytrejo.jpg" />
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261021204700 +0000" stop="20261021220100 +0000">
+    <title>Healer LATAM</title>
+    <episode-num system="onscreen">S01E09</episode-num>
+    <episode-num system="pluto">623b31c47936240013141a3d</episode-num>
+    <episode-num system="original-air-date">20150105000000 +0000</episode-num>
+    <desc>Moon-ho amenaza con decirle a Myeong-hui todo si algo le sucede a Ji-an. Mun-sik se está quedando sin tiempo para entregar al asesino de Ko Seong-cheol.</desc>
+    <icon src="https://images.pluto.tv/series/623b294825269a0013a925f0/tile_1769212802086.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20150105</date>
+    <series-id system="pluto">623b294825269a0013a925f0</series-id>
+    <sub-title>Episodio 9</sub-title>
+    <category>Series</category>
+    <category>Romance</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261021204900 +0000" stop="20261021211100 +0000" channel="HGTV.ar">
     <desc lang="es">S5 E8 — Un lugar del que nunca querrás irte
@@ -44743,11 +44510,6 @@ Resumen noticioso nacional e internacional.</desc>
     <category>Religious</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ministraciondelespiritusanto.jpg" />
   </programme>
-  <programme start="20261021210000 +0000" stop="20261022000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261021210000 +0000" stop="20261022000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -44756,6 +44518,11 @@ Resumen noticioso nacional e internacional.</desc>
   <programme start="20261021210000 +0000" stop="20261022000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261021210000 +0000" stop="20261022000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261021210100 +0000" stop="20261021212900 +0000" channel="DisneyChannel.cl">
@@ -45445,6 +45212,20 @@ Una pareja de Nashville quiere una casa frente al agua en el lago Smith de Alaba
     <episode-num system="onscreen">S1E6</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261021213700 +0000" stop="20261021224700 +0000">
+    <title>Luchando para abrirme paso</title>
+    <episode-num system="onscreen">S01E12</episode-num>
+    <episode-num system="pluto">61aa625cc323f20013e5404b</episode-num>
+    <episode-num system="original-air-date">20170627000000 +0000</episode-num>
+    <desc>Seolhui llega a su punto de ruptura con Juman. Dongman intenta conectarse con su padre.</desc>
+    <icon src="https://images.pluto.tv/series/61aa6254c323f20013e53ed1/tile_1769211001785.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20170627</date>
+    <series-id system="pluto">61aa6254c323f20013e53ed1</series-id>
+    <sub-title>Episodio 12</sub-title>
+    <category>Comedy</category>
+    <category>Series</category>
+    <category>Romantic comedy</category>
+  </programme>
   <programme start="20261021214000 +0000" stop="20261021215500 +0000" channel="Nick.cl">
     <title>The Loud House • Daño comunitario</title>
     <sub-title>Daño comunitario</sub-title>
@@ -46104,6 +45885,20 @@ Resumen noticioso nacional e internacional.</desc>
   </programme>
   <programme channel="ENTComedy.cl" start="20261021220000 +0000" stop="20261021232900 +0000">
     <title lang="es">Beetlejuice Beetlejuice</title>
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261021220100 +0000" stop="20261021231400 +0000">
+    <title>Healer LATAM</title>
+    <episode-num system="onscreen">S01E10</episode-num>
+    <episode-num system="pluto">623b31b97936240013141916</episode-num>
+    <episode-num system="original-air-date">20150106000000 +0000</episode-num>
+    <desc>En Someday News, todos esperan ansiosamente los informes de Young-shin. Mun-sik y Boss ven la transmisión en vivo del anuncio de candidatura de Kim Ui-chan.</desc>
+    <icon src="https://images.pluto.tv/series/623b294825269a0013a925f0/tile_1769212802086.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20150106</date>
+    <series-id system="pluto">623b294825269a0013a925f0</series-id>
+    <sub-title>Episodio 10</sub-title>
+    <category>Series</category>
+    <category>Romance</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261021220100 +0000" stop="20261022000300 +0000" channel="HBO.cl">
     <title>Godzilla y Kong: El nuevo imperio</title>
@@ -47072,6 +46867,20 @@ Los diseñadores desconocidos esperan catapultarse a lo grande ganando su propio
     <episode-num system="onscreen">S1 E4</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261021224700 +0000" stop="20261021235700 +0000">
+    <title>Luchando para abrirme paso</title>
+    <episode-num system="onscreen">S01E13</episode-num>
+    <episode-num system="pluto">61aa6259c323f20013e53fa8</episode-num>
+    <episode-num system="original-air-date">20170703000000 +0000</episode-num>
+    <desc>Juman tiene dificultades para adaptarse a la vida sin Seolhui. Dongman se prepara para su partido con Taksu a pesar de las preocupaciones de Aera.</desc>
+    <icon src="https://images.pluto.tv/series/61aa6254c323f20013e53ed1/tile_1769211001785.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20170703</date>
+    <series-id system="pluto">61aa6254c323f20013e53ed1</series-id>
+    <sub-title>Episodio 13</sub-title>
+    <category>Comedy</category>
+    <category>Series</category>
+    <category>Romantic comedy</category>
+  </programme>
   <programme start="20261021224900 +0000" stop="20261021230200 +0000" channel="Tooncast.cl">
     <title>El campamento de Lazlo • Ayudante</title>
     <sub-title>Ayudante</sub-title>
@@ -47700,6 +47509,20 @@ Los diseñadores desconocidos esperan catapultarse a lo grande ganando su propio
     <desc>El señor de los brillos | Yendo contra el reglamento, Jake lleva a la escuela una brillante perilla de puerta de cristal. Todos excepto Adam, están cautivados por la brillante esfera y muy pronto Jake la utiliza para hipnotizar a los estudiantes y profesores.</desc>
     <episode-num system="onscreen">T1 E4</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/micompanerodeclaseesunmono.jpg" />
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261021231400 +0000" stop="20261022002700 +0000">
+    <title>Healer LATAM</title>
+    <episode-num system="onscreen">S01E11</episode-num>
+    <episode-num system="pluto">623b31cd7936240013141c22</episode-num>
+    <episode-num system="original-air-date">20150112000000 +0000</episode-num>
+    <desc>Al volver a casa del trabajo, Moon-ho descubre que ha habido un intruso y recibe una llamada de un número restringido preguntando sobre lo que sucedió en 1992.</desc>
+    <icon src="https://images.pluto.tv/series/623b294825269a0013a925f0/tile_1769212802086.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20150112</date>
+    <series-id system="pluto">623b294825269a0013a925f0</series-id>
+    <sub-title>Episodio 11</sub-title>
+    <category>Series</category>
+    <category>Romance</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261021231500 +0000" stop="20261021234200 +0000" channel="AE.cl">
     <title>¿Quién da má$? • Nos prometieron diversión</title>
@@ -48527,6 +48350,20 @@ Alton Brown revela el secreto para convertir a la estrella del verano, el aránd
     <country>Turquía</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261021235700 +0000" stop="20261022010600 +0000">
+    <title>Luchando para abrirme paso</title>
+    <episode-num system="onscreen">S01E14</episode-num>
+    <episode-num system="pluto">61aa625cc323f20013e54013</episode-num>
+    <episode-num system="original-air-date">20170704000000 +0000</episode-num>
+    <desc>Aera elige entre dos trayectorias profesionales. Llega el día de la pelea de Dongman y Taksu.</desc>
+    <icon src="https://images.pluto.tv/series/61aa6254c323f20013e53ed1/tile_1769211001785.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20170704</date>
+    <series-id system="pluto">61aa6254c323f20013e53ed1</series-id>
+    <sub-title>Episodio 14</sub-title>
+    <category>Comedy</category>
+    <category>Series</category>
+    <category>Romantic comedy</category>
+  </programme>
   <programme start="20261021235800 +0000" stop="20261022002000 +0000" channel="FOODNETWORK.uy">
     <date>2018</date>
     <desc lang="es">S8 E11
@@ -48877,11 +48714,6 @@ Revisa las noticias más relevantes de la jornada.</desc>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hanselygretelcazadoresdebrujas.jpg" />
   </programme>
-  <programme start="20261022000000 +0000" stop="20261022030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261022000000 +0000" stop="20261022030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -48890,6 +48722,11 @@ Revisa las noticias más relevantes de la jornada.</desc>
   <programme start="20261022000000 +0000" stop="20261022030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261022000000 +0000" stop="20261022030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261022000200 +0000" stop="20261022000900 +0000" channel="Tooncast.cl">
@@ -49342,6 +49179,20 @@ Brad Miller se va a St. Louis, donde consigue auténtica comida hawaiana de un f
       <value>PG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261022002700 +0000" stop="20261022014100 +0000">
+    <title>Healer LATAM</title>
+    <episode-num system="onscreen">S01E12</episode-num>
+    <episode-num system="pluto">623b31d07936240013141c84</episode-num>
+    <episode-num system="original-air-date">20150113000000 +0000</episode-num>
+    <desc>Moon-ho está furioso con su hermano por venir a visitar Someday News. Jeong-hu conoce a uno de los amigos cercanos de su padre.</desc>
+    <icon src="https://images.pluto.tv/series/623b294825269a0013a925f0/tile_1769212802086.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20150113</date>
+    <series-id system="pluto">623b294825269a0013a925f0</series-id>
+    <sub-title>Episodio 12</sub-title>
+    <category>Series</category>
+    <category>Romance</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261022002700 +0000" stop="20261022020000 +0000" channel="TNT.cl">
     <title>Masterchef Celebrity Argentina</title>
@@ -50374,6 +50225,20 @@ Guy Fieri investiga algunos sabores internacionales, comenzando con un food truc
     <episode-num system="onscreen">T8 E7</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/frasier.jpg" />
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261022010600 +0000" stop="20261022021500 +0000">
+    <title>Luchando para abrirme paso</title>
+    <episode-num system="onscreen">S01E15</episode-num>
+    <episode-num system="pluto">61aa625cc323f20013e54081</episode-num>
+    <episode-num system="original-air-date">20170710000000 +0000</episode-num>
+    <desc>Dongman se confunde entre su sueño y su relación una vez más y se enfrenta a una decisión difícil.</desc>
+    <icon src="https://images.pluto.tv/series/61aa6254c323f20013e53ed1/tile_1769211001785.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20170710</date>
+    <series-id system="pluto">61aa6254c323f20013e53ed1</series-id>
+    <sub-title>Episodio 15</sub-title>
+    <category>Comedy</category>
+    <category>Series</category>
+    <category>Romantic comedy</category>
+  </programme>
   <programme channel="ENTComedy.cl" start="20261022010600 +0000" stop="20261022023300 +0000">
     <title lang="es">Ace Ventura: Cuando la naturaleza llama</title>
   </programme>
@@ -51144,6 +51009,20 @@ Vea casas increíbles de todo el mundo con estanques de agua y techos extremos.<
     <desc>Amor a primera vista | El Escuadrón del Tiempo descubre que la intrépida aviadora Amelia Earhardt es una friki pulcra y fóbica a los gérmenes. Temerosa prácticamente de todo, se niega a dejar su casa de Kansas y mucho menos a surcar los cielos.</desc>
     <episode-num system="onscreen">T2 E19</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261022014100 +0000" stop="20261022025500 +0000">
+    <title>Healer LATAM</title>
+    <episode-num system="onscreen">S01E13</episode-num>
+    <episode-num system="pluto">623b31d37936240013141ce6</episode-num>
+    <episode-num system="original-air-date">20150119000000 +0000</episode-num>
+    <desc>Bae Sang-Su tiene confianza en que finalmente ha atrapado a el Sanador. Mun-sik llega a la sede de Double S Guard para conocer al hombre que trajeron.</desc>
+    <icon src="https://images.pluto.tv/series/623b294825269a0013a925f0/tile_1769212802086.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20150119</date>
+    <series-id system="pluto">623b294825269a0013a925f0</series-id>
+    <sub-title>Episodio 13</sub-title>
+    <category>Series</category>
+    <category>Romance</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261022014500 +0000" stop="20261022020000 +0000" channel="24Horas.cl">
     <desc lang="es">Tecnología
@@ -53191,11 +53070,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme channel="ENTDrama.cl" start="20261022030000 +0000" stop="20261022134000 +0000">
     <title lang="es">En un lugar del corazón</title>
   </programme>
-  <programme start="20261022030000 +0000" stop="20261022060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261022030000 +0000" stop="20261022060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -53204,6 +53078,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme start="20261022030000 +0000" stop="20261022060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261022030000 +0000" stop="20261022060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261022030100 +0000" stop="20261022033200 +0000" channel="DisneyJunior.cl">
@@ -57554,11 +57433,6 @@ Michael Symon convierte los sabores del aderezo ranch en un condimento para las 
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasestrellas.jpg" />
   </programme>
-  <programme start="20261022060000 +0000" stop="20261022090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261022060000 +0000" stop="20261022090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -57567,6 +57441,11 @@ Michael Symon convierte los sabores del aderezo ranch en un condimento para las 
   <programme start="20261022060000 +0000" stop="20261022090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261022060000 +0000" stop="20261022090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261022060400 +0000" stop="20261022064800 +0000" channel="HGTV.ar">
@@ -61669,11 +61548,6 @@ Molly Yeh está preparando un almuerzo acogedor con ramen de miso y luego tiene 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hollywoodonset.jpg" />
   </programme>
-  <programme start="20261022090000 +0000" stop="20261022120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261022090000 +0000" stop="20261022120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -61682,6 +61556,11 @@ Molly Yeh está preparando un almuerzo acogedor con ramen de miso y luego tiene 
   <programme start="20261022090000 +0000" stop="20261022120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261022090000 +0000" stop="20261022120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261022090400 +0000" stop="20261022100000 +0000" channel="TNT.cl">
@@ -65958,11 +65837,6 @@ En la cocina celebra el otoño con los dos ingredientes estrella de la temporada
     <country>Argentina</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/yotraidor.jpg" />
   </programme>
-  <programme start="20261022120000 +0000" stop="20261022150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261022120000 +0000" stop="20261022150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -65971,6 +65845,11 @@ En la cocina celebra el otoño con los dos ingredientes estrella de la temporada
   <programme start="20261022120000 +0000" stop="20261022150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261022120000 +0000" stop="20261022150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261022120300 +0000" stop="20261022120600 +0000" channel="DisneyJunior.cl">
@@ -69899,11 +69778,6 @@ Nancy Fuller está organizando un cóctel en la Ópera de Hudson. Todos sus amig
     <episode-num system="onscreen">S10E16</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/thegoldbergs.jpg" />
   </programme>
-  <programme start="20261022150000 +0000" stop="20261022180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261022150000 +0000" stop="20261022180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -69912,6 +69786,11 @@ Nancy Fuller está organizando un cóctel en la Ópera de Hudson. Todos sus amig
   <programme start="20261022150000 +0000" stop="20261022180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261022150000 +0000" stop="20261022180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261022150300 +0000" stop="20261022153100 +0000" channel="DisneyJunior.cl">
@@ -73656,11 +73535,6 @@ Programa sobre las noticias de los próximos estrenos del cine.</desc>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasestrellas.jpg" />
   </programme>
-  <programme start="20261022180000 +0000" stop="20261022210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261022180000 +0000" stop="20261022210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -73669,6 +73543,11 @@ Programa sobre las noticias de los próximos estrenos del cine.</desc>
   <programme start="20261022180000 +0000" stop="20261022210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261022180000 +0000" stop="20261022210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261022180200 +0000" stop="20261022183200 +0000" channel="DisneyJunior.cl">
@@ -77269,11 +77148,6 @@ Resumen noticioso nacional e internacional.</desc>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022210000 +0000" stop="20261023000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261022210000 +0000" stop="20261023000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -77282,6 +77156,11 @@ Resumen noticioso nacional e internacional.</desc>
   <programme start="20261022210000 +0000" stop="20261023000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261022210000 +0000" stop="20261023000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261022210500 +0000" stop="20261022230000 +0000" channel="Mega.cl">
@@ -78309,6 +78188,11 @@ Kardea Brown celebra el final del verano con una parrillada de mariscos. Su deli
 Resumen noticioso nacional e internacional.</desc>
     <icon src="https://iptv-epg.org/images/kXF_aX4TwCUMUbrj-GjqoMYaiQY3T0amAu5mMT8dsMEX10d_lBPcy2Rhybt7RUlaQuJ5ThIEyjCTGxBbfqFscpW8QraPCV_W79iYwfpA-R6PX3O9HjY" />
     <title lang="es">Noticias 24</title>
+  </programme>
+  <programme start="20261022220000 +0000" stop="20261022230000 +0000" channel="DIRECTVSports.cl">
+    <category lang="es">Soccer</category>
+    <category>Sports</category>
+    <title lang="es">El juego</title>
   </programme>
   <programme start="20261022220000 +0000" stop="20261022230000 +0000" channel="LaRed.cl">
     <title>Air wolf</title>
@@ -79498,6 +79382,11 @@ Los siete reposteros restantes continúan su viaje a través de la casa embrujad
     <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
     <icon src="https://iptv-epg.org/images/GwMMZx5TTXIRFAzFNEyx_K8KUcqmRx0sbBHsp-SICQzWynEXEAMOSserVh93n26jvNSaUr1EF5ZcNFuwpuhbJKC2peCDTa6YxYBMvBr39WQXjPrP_Ae0bxFCjU3rVGnNNReYfaOV" />
     <title lang="es">24 Horas deportes</title>
+  </programme>
+  <programme start="20261022230000 +0000" stop="20261023000000 +0000" channel="DIRECTVSports.cl">
+    <category lang="es">Soccer</category>
+    <category>Sports</category>
+    <title lang="es">De Fútbol Se Habla Así Chile</title>
   </programme>
   <programme start="20261022230000 +0000" stop="20261023000000 +0000" channel="LaRed.cl">
     <title>Starsky &amp; Hutch</title>
@@ -80798,6 +80687,14 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
     <title lang="es">24 Horas Central</title>
   </programme>
+  <programme start="20261023000000 +0000" stop="20261023000000 +0000" channel="DIRECTVSports.cl">
+    <category lang="es">Talk</category>
+    <title lang="es">DSPORTS Noticias Nite</title>
+  </programme>
+  <programme start="20261023000000 +0000" stop="20261023023000 +0000" channel="DIRECTVSports.cl">
+    <category lang="es">Talk</category>
+    <title lang="es">DSPORTS Noticias Nite</title>
+  </programme>
   <programme start="20261023000000 +0000" stop="20261023010000 +0000" channel="LaRed.cl">
     <title>Miami Vice</title>
     <desc>James 'Sonny' Crockett vive en un velero junto con su mascota, un cocodrilo llamado 'Elvis', y Tubbs, un antiguo policía de Nueva York, no se separa de su escopeta de cañones recortados. Ambos se enfrentan a los bajos fondos de Florida e intentan encontrar a los asesinos del hermano de Tubbs.</desc>
@@ -81041,11 +80938,6 @@ Revisa las noticias más relevantes de la jornada.</desc>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023000000 +0000" stop="20261023030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261023000000 +0000" stop="20261023030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -81054,6 +80946,11 @@ Revisa las noticias más relevantes de la jornada.</desc>
   <programme start="20261023000000 +0000" stop="20261023030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261023000000 +0000" stop="20261023030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261023000200 +0000" stop="20261023010000 +0000" channel="DiscoveryTurbo.cl">
@@ -83986,6 +83883,10 @@ En Islip, Nueva York, Michael Symon prueba una versión de la lasaña que tiene 
   <programme channel="ENTChannel.cl" start="20261023022900 +0000" stop="20261023030000 +0000">
     <title lang="es">Los Simpson</title>
   </programme>
+  <programme start="20261023023000 +0000" stop="20261023030000 +0000" channel="DIRECTVSports.cl">
+    <category lang="es">Documentary</category>
+    <title lang="es">Derby español: Me verás campeón</title>
+  </programme>
   <programme start="20261023023000 +0000" stop="20261023030000 +0000" channel="CNNChile.cl">
     <title>CNN Radio</title>
     <desc>Repetición ║ Programa informativo con toda la actualidad y la información de las últimas horas de lo que sucede en Chile y en distintas partes del mundo. Política, economía, sociedad y el profesionalismo de los periodistas en sus reportajes diarios.</desc>
@@ -84509,6 +84410,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <icon src="https://iptv-epg.org/images/xYEU3c--IseiTcGvDF7yR4uiPKsrubawk6gaX7BQzb-I7ht8VCmYGac3616dzAmGLEMePTYnQq5AZa_susHtSXU8HExItAr3u0ov0204CQ1agv8GZryph1WrDRYO" />
     <title lang="es">24 horas a la hora</title>
   </programme>
+  <programme start="20261023030000 +0000" stop="20261023040000 +0000" channel="DIRECTVSports.cl">
+    <category lang="es">Soccer</category>
+    <category>Sports</category>
+    <title lang="es">De Fútbol Se Habla Así Chile</title>
+  </programme>
   <programme start="20261023030000 +0000" stop="20261023033000 +0000" channel="LaRed.cl">
     <title>Pare de sufrir</title>
     <desc>Segmento conducido por pastores brasileños y argentinos que muestran testimonios de los adherentes a la Iglesia Universal del Reino de Dios.</desc>
@@ -84788,11 +84694,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme channel="ENTExtreme.cl" start="20261023030000 +0000" stop="20261023124400 +0000">
     <title lang="es">Wolverine: Inmortal</title>
   </programme>
-  <programme start="20261023030000 +0000" stop="20261023060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261023030000 +0000" stop="20261023060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -84801,6 +84702,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme start="20261023030000 +0000" stop="20261023060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261023030000 +0000" stop="20261023060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261023030200 +0000" stop="20261023031600 +0000" channel="DiscoveryKids.cl">
@@ -85909,6 +85815,10 @@ Los chefs prueban los mejores platos recomendados de boca en boca. Antonia Lofas
 Cerramos el día analizando lo de hoy y mirando lo que se viene hacia adelante.</desc>
     <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
     <title lang="es">24 Horas - Al cierre</title>
+  </programme>
+  <programme start="20261023040000 +0000" stop="20261023070000 +0000" channel="DIRECTVSports.cl">
+    <category lang="es">Talk</category>
+    <title lang="es">DSPORTS Noticias Nite</title>
   </programme>
   <programme start="20261023040000 +0000" stop="20261023053000 +0000" channel="Canal13.cl">
     <title>Vale todo</title>
@@ -88898,11 +88808,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasestrellas.jpg" />
   </programme>
-  <programme start="20261023060000 +0000" stop="20261023090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261023060000 +0000" stop="20261023090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -88911,6 +88816,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme start="20261023060000 +0000" stop="20261023090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261023060000 +0000" stop="20261023090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261023060100 +0000" stop="20261023062500 +0000" channel="DisneyJunior.cl">
@@ -89868,6 +89778,10 @@ Los pasteleros tienen el desafío de hacer un pastel glamoroso de baby shower, q
       <value>18</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/exorcistaelcomienzo.jpg" />
+  </programme>
+  <programme start="20261023070000 +0000" stop="20261023080000 +0000" channel="DIRECTVSports.cl">
+    <category lang="es">Talk</category>
+    <title lang="es">DSPORTS Noticias Nite</title>
   </programme>
   <programme start="20261023070000 +0000" stop="20261023084500 +0000" channel="Mega.cl">
     <title>[En vivo] Meganoticias ahora</title>
@@ -91034,6 +90948,11 @@ Actualidad e información.</desc>
     <icon src="https://iptv-epg.org/images/1DsR_4M4e7_lH4RBkmr5aChy_iagD-YHi__LF1Kcoq8KeVetYjLfCBrlsI7qU-1fzPlKGM-jwojO4tL7hnHZ57PyKSivZj_t6lU8wOcczhzF-A" />
     <title lang="es">Hora 24</title>
   </programme>
+  <programme start="20261023080000 +0000" stop="20261023090000 +0000" channel="DIRECTVSports.cl">
+    <category lang="es">Soccer</category>
+    <category>Sports</category>
+    <title lang="es">De Fútbol Se Habla Así Chile</title>
+  </programme>
   <programme start="20261023080000 +0000" stop="20261023083000 +0000" channel="TVN.cl">
     <title>Hora 24</title>
     <desc>Actualidad e información.</desc>
@@ -92186,6 +92105,10 @@ Un programa sobre los hechos más destacados de la agenda diaria a nivel naciona
     <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
     <title lang="es">24horas tu mañana</title>
   </programme>
+  <programme start="20261023090000 +0000" stop="20261023100000 +0000" channel="DIRECTVSports.cl">
+    <category lang="es">Talk</category>
+    <title lang="es">DSPORTS Noticias Nite</title>
+  </programme>
   <programme start="20261023090000 +0000" stop="20261023092100 +0000" channel="HGTV.ar">
     <desc lang="es">S2 E10 — Búsqueda del hogar perfecto en la cascada
 Una madre y su hijo buscan una casa en la montaña con vistas increíbles y que esté aislada para su negocio en desarrollo. Pero con la mayoría de sus clientes en Portland, Oregon, ella quiere vivir cerca del valle del Río Columbia.</desc>
@@ -92698,11 +92621,6 @@ Una madre y su hijo buscan una casa en la montaña con vistas increíbles y que 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/loscaballeros.jpg" />
   </programme>
-  <programme start="20261023090000 +0000" stop="20261023120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261023090000 +0000" stop="20261023120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -92711,6 +92629,11 @@ Una madre y su hijo buscan una casa en la montaña con vistas increíbles y que 
   <programme start="20261023090000 +0000" stop="20261023120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261023090000 +0000" stop="20261023120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261023090500 +0000" stop="20261023093000 +0000" channel="Nick.cl">
@@ -93605,6 +93528,11 @@ Nathan y Jenny construyen una yurta en una granja y lo hacen con una madera extr
     <category>Romántica</category>
     <country>Turquía</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261023100000 +0000" stop="20261023120000 +0000" channel="DIRECTVSports.cl">
+    <category lang="es">Soccer</category>
+    <category>Sports</category>
+    <title lang="es">Vasco da Gama vs. Boca Juniors</title>
   </programme>
   <programme start="20261023100000 +0000" stop="20261023110000 +0000" channel="LaRed.cl">
     <title>Problemas y soluciones</title>
@@ -95972,6 +95900,10 @@ El presentador Eric Adjepong invita a los jueces estrella de Chopped, Maneet Cha
   <programme channel="ENTComedy.cl" start="20261023115900 +0000" stop="20261023122900 +0000">
     <title lang="es">Dinosaurios</title>
   </programme>
+  <programme start="20261023120000 +0000" stop="20261023123000 +0000" channel="DIRECTVSports.cl">
+    <category lang="es">Talk</category>
+    <title lang="es">Juan Sebastián Verón</title>
+  </programme>
   <programme start="20261023120000 +0000" stop="20261023122000 +0000" channel="Nick.cl">
     <title>The Marsupilamis • El espectáculo de Stan / La verdad está allá afuera</title>
     <sub-title>El espectáculo de Stan / La verdad está allá afuera</sub-title>
@@ -96367,11 +96299,6 @@ El presentador Eric Adjepong invita a los jueces estrella de Chopped, Maneet Cha
   <programme channel="ENTChannel.cl" start="20261023120000 +0000" stop="20261023133700 +0000">
     <title lang="es">Propuesta de Muerte</title>
   </programme>
-  <programme start="20261023120000 +0000" stop="20261023150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261023120000 +0000" stop="20261023150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -96380,6 +96307,11 @@ El presentador Eric Adjepong invita a los jueces estrella de Chopped, Maneet Cha
   <programme start="20261023120000 +0000" stop="20261023150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261023120000 +0000" stop="20261023150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261023120200 +0000" stop="20261023125700 +0000" channel="NationalGeographic.cl">
@@ -96762,6 +96694,10 @@ El chef de hierro Jose Garces mantiene alerta a los Titanes de Bobby Flay en tre
   </programme>
   <programme channel="ENTComedy.cl" start="20261023122900 +0000" stop="20261023125900 +0000">
     <title lang="es">La niñera</title>
+  </programme>
+  <programme start="20261023123000 +0000" stop="20261023130000 +0000" channel="DIRECTVSports.cl">
+    <category lang="es">default</category>
+    <title lang="es">CONMEBOL Sudamericana: Vasco Da Gama vs. Boca Juniors</title>
   </programme>
   <programme start="20261023123000 +0000" stop="20261023130000 +0000" channel="DisneyChannel.cl">
     <title>Amphibia • Una noche en la posada / Wally y Anne</title>
@@ -97258,6 +97194,10 @@ Una pareja quiere escapar del ajetreo de Charlotte y disfrutar de las vistas en 
   </programme>
   <programme channel="ENTComedy.cl" start="20261023125900 +0000" stop="20261023132900 +0000">
     <title lang="es">El Chapulin Colorado</title>
+  </programme>
+  <programme start="20261023130000 +0000" stop="20261023150000 +0000" channel="DIRECTVSports.cl">
+    <category lang="es">Weather</category>
+    <title lang="es">DSPORTS Noticias Lite</title>
   </programme>
   <programme start="20261023130000 +0000" stop="20261023150000 +0000" channel="LaRed.cl">
     <title>Antena 3 Directo</title>
@@ -99628,6 +99568,11 @@ Kardea Brown prepara algunas de sus recetas favoritas que incluiría en su libro
   <programme channel="ENTComedy.cl" start="20261023145900 +0000" stop="20261023152900 +0000">
     <title lang="es">El Chavo del 8</title>
   </programme>
+  <programme start="20261023150000 +0000" stop="20261023160000 +0000" channel="DIRECTVSports.cl">
+    <category lang="es">Soccer</category>
+    <category>Sports</category>
+    <title lang="es">De Fútbol Se Habla Así Chile</title>
+  </programme>
   <programme start="20261023150000 +0000" stop="20261023170000 +0000" channel="LaRed.cl">
     <title>Al fondo hay sitio</title>
     <desc>Los González son una familia muy peculiar. Descomplicados, alegres y muy orgullosos de sus costumbres campesinas, tienen orgullo de lo que son. Por azares del destino, heredarán una casa en uno de los barrios más exclusivos de la capital y lejos de adaptarse a su nuevo entorno, continuarán con sus hábitos que molestarán a más de una familia.</desc>
@@ -100016,11 +99961,6 @@ Kardea Brown prepara algunas de sus recetas favoritas que incluiría en su libro
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023150000 +0000" stop="20261023180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261023150000 +0000" stop="20261023180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -100029,6 +99969,11 @@ Kardea Brown prepara algunas de sus recetas favoritas que incluiría en su libro
   <programme start="20261023150000 +0000" stop="20261023180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261023150000 +0000" stop="20261023180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261023150100 +0000" stop="20261023150200 +0000" channel="StarChannel.cl">
@@ -100911,6 +100856,10 @@ Conoce los detalles más resaltantes sobre los últimos acontecimientos ocurrido
     <icon src="https://iptv-epg.org/images/ACzUocTRAnqh58jUT0U1_knxTHQLPdq5AP7hKcoBnfuXcVZP5643L1MI1-e_nXhGAUW6nkpKVqD6ylt530Rj67Yde1hmkTY2tOvEgQ4Y44Ew2epaoHtsNbDz" />
     <title lang="es">24 horas al día</title>
   </programme>
+  <programme start="20261023160000 +0000" stop="20261023163000 +0000" channel="DIRECTVSports.cl">
+    <category lang="es">Talk</category>
+    <title lang="es">Juan Sebastián Verón</title>
+  </programme>
   <programme start="20261023160000 +0000" stop="20261023162300 +0000" channel="HGTV.ar">
     <desc lang="es">S1 E4 — Jordan Farmar busca una casa en Nueva Jersey
 La estrella de la NBA Jordan Farman busca un contrato de alquiler a corto plazo en Nueva Jersey. Mientras tanto, en Miami, el profesional de NFL Vontae Davis quiere que Jason Abrams lo ayude a vender su casa que fue renovada por su hermano.</desc>
@@ -101532,6 +101481,10 @@ La ciudad de Austin es conocida por su barbacoa. El chef Aarón Sánchez viaja a
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E1</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261023163000 +0000" stop="20261023180000 +0000" channel="DIRECTVSports.cl">
+    <category lang="es">Talk</category>
+    <title lang="es">DSPORTS Noticias</title>
   </programme>
   <programme start="20261023163000 +0000" stop="20261023165000 +0000" channel="Nick.cl">
     <title>The Loud House • No me saquen del juego / Demasiados amigos</title>
@@ -103270,6 +103223,10 @@ Ponemos en contexto la actualidad internacional y analizamos el contexto de los 
     <icon src="https://iptv-epg.org/images/4NN61gqMSrsqxYGBZMmBf3BgxJNTnEdLPxIpfgKowgDweilFdw3W6rrJqhkZthukATDXzvOZKUKbuebY08dVHskWE4_a1cNCBV35bAk0q1yzyLXldE-e" />
     <title lang="es">DW analiza</title>
   </programme>
+  <programme start="20261023180000 +0000" stop="20261023190000 +0000" channel="DIRECTVSports.cl">
+    <category lang="es">default</category>
+    <title lang="es">Puede pasar</title>
+  </programme>
   <programme start="20261023180000 +0000" stop="20261023190000 +0000" channel="LaRed.cl">
     <title>El Hombre Nuclear</title>
     <desc>Steve Austin, un piloto de pruebas y astronauta sufre un terrible accidente de trabajo durante un vuelo experimental. Los doctores se ven obligados a amputarle ambas piernas y el brazo derecho. Steve también pierde la visión del ojo derecho. Pero el Dr. Rudy Wells, que se encontraba trabajando en un proyecto secreto, es autorizado por el gobierno a reemplazar los miembros amputados con partes biónicas. Estas 'nuevas partes' le dan a Steve una fuerza enorme y velocidad y una visión envidiable. Para compensar a sus benefactores, Steve se convierte en agente y debe cumplir peligrosas misiones.</desc>
@@ -103502,11 +103459,6 @@ Ponemos en contexto la actualidad internacional y analizamos el contexto de los 
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasestrellas.jpg" />
   </programme>
-  <programme start="20261023180000 +0000" stop="20261023210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261023180000 +0000" stop="20261023210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -103515,6 +103467,11 @@ Ponemos en contexto la actualidad internacional y analizamos el contexto de los 
   <programme start="20261023180000 +0000" stop="20261023210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261023180000 +0000" stop="20261023210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme channel="ENTDrama.cl" start="20261023180200 +0000" stop="20261023200300 +0000">
@@ -104681,6 +104638,10 @@ Nueve maestros pasteleros tienen el desafío de preparar Petit fours y un pastel
 Resumen noticioso nacional e internacional.</desc>
     <icon src="https://iptv-epg.org/images/kXF_aX4TwCUMUbrj-GjqoMYaiQY3T0amAu5mMT8dsMEX10d_lBPcy2Rhybt7RUlaQuJ5ThIEyjCTGxBbfqFscpW8QraPCV_W79iYwfpA-R6PX3O9HjY" />
     <title lang="es">Noticias 24</title>
+  </programme>
+  <programme start="20261023190000 +0000" stop="20261023203000 +0000" channel="DIRECTVSports.cl">
+    <category lang="es">Business</category>
+    <title lang="es">DSPORTS Noticias Lite Tarde</title>
   </programme>
   <programme start="20261023190000 +0000" stop="20261023200000 +0000" channel="LaRed.cl">
     <title>Los ángeles de Charlie</title>
@@ -106379,6 +106340,11 @@ Bobby Flay invita a la prometedora chef Ashleigh Shanti a enfrentarse a los Tita
     <country>Turquía</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fuerzademujer.jpg" />
   </programme>
+  <programme start="20261023203000 +0000" stop="20261023220000 +0000" channel="DIRECTVSports.cl">
+    <category lang="es">Soccer</category>
+    <category>Sports</category>
+    <title lang="es">Fútbol Total</title>
+  </programme>
   <programme start="20261023203000 +0000" stop="20261023220000 +0000" channel="TVN.cl">
     <title>Caso cerrado</title>
     <desc>La abogada Ana María Polo está lista para enfrentarse a cualquier situación y resolver de una vez por todas cualquier polémica. Con mediación sensata busca mantener la armonía y la paz en las relaciones personales. Resuelve en poco más de quince minutos casos que pueden tomar meses en una corte y lo hace de manera bastante equilibrada. Antes de la transmisión del espacio, ambas partes firman un acuerdo legal, jurando que se regirán por las decisiones que ella tome.</desc>
@@ -107201,11 +107167,6 @@ Resumen noticioso nacional e internacional.</desc>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023210000 +0000" stop="20261024000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261023210000 +0000" stop="20261024000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -107214,6 +107175,11 @@ Resumen noticioso nacional e internacional.</desc>
   <programme start="20261023210000 +0000" stop="20261024000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261023210000 +0000" stop="20261024000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261023210200 +0000" stop="20261023232500 +0000" channel="HBOFamily.cl">
@@ -120230,14 +120196,14 @@ Una pareja se muda al valle de Hudson y busca una casa con muchas hectáreas y e
     <episode-num system="onscreen">S1E16</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024083000 +0000" stop="20261024095500 +0000" channel="ESPN3.cl">
-    <title>ESPN 3 Argentina</title>
-    <desc>Programación deportiva.</desc>
-    <date>2024</date>
-    <category>Deportes</category>
-    <category>Reportaje</category>
+  <programme start="20261024083000 +0000" stop="20261024103000 +0000" channel="ESPN3.cl">
+    <title>Fútbol Premier League • Ipswich Town vs Nottingham Forest</title>
+    <sub-title>Ipswich Town vs. Nottingham Forest</sub-title>
+    <desc>Ipswich Town vs Nottingham Forest | Jornada 8 de la temporada 2026-27 de la Premier League. Ipswich Town se enfrenta a Nottingham Forest. Desde el estadio Portman Road.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
     <rating>
-      <value>PG-13</value>
+      <value>PG0</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -121886,16 +121852,6 @@ Nathan y Jenny construyen la cocina más importante hasta el momento para una jo
     <episode-num system="onscreen">S4E9</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024095500 +0000" stop="20261024102500 +0000" channel="ESPN3.cl">
-    <title>Acción de la NBA</title>
-    <desc>Programa semanal con reportajes, entrevistas y toda la información de la liga de baloncesto más espectacular: la NBA. Incluye resúmenes de los partidos de la jornada y entrevistas a los personajes más destacados.</desc>
-    <date>2009</date>
-    <category>Básquet</category>
-    <rating>
-      <value>PG0</value>
-    </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/acciondelanba.jpg" />
-  </programme>
   <programme start="20261024095600 +0000" stop="20261024103900 +0000" channel="History.cl">
     <title>Maravillas siniestras • Deportes sangrientos</title>
     <sub-title>Deportes sangrientos</sub-title>
@@ -122643,17 +122599,6 @@ Guy Fieri reinventa los clásicos de la comida reconfortante. Él prepara un pas
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/srcocodrilo.jpg" />
   </programme>
-  <programme start="20261024102500 +0000" stop="20261024110000 +0000" channel="ESPN3.cl">
-    <title>ESPN 3 Argentina</title>
-    <desc>Programación deportiva.</desc>
-    <date>2024</date>
-    <category>Deportes</category>
-    <category>Reportaje</category>
-    <rating>
-      <value>PG-13</value>
-    </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
   <programme start="20261024102500 +0000" stop="20261024111000 +0000" channel="UniversalCrime.cl">
     <title>Parejas asesinas • Christine y Jeremy Moody</title>
     <sub-title>Christine y Jeremy Moody</sub-title>
@@ -122764,6 +122709,16 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <country>EE. UU</country>
     <episode-num system="onscreen">S1E12</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261024103000 +0000" stop="20261024110000 +0000" channel="ESPN3.cl">
+    <title>Acción de la NBA</title>
+    <desc>Programa semanal con reportajes, entrevistas y toda la información de la liga de baloncesto más espectacular: la NBA. Incluye resúmenes de los partidos de la jornada y entrevistas a los personajes más destacados.</desc>
+    <date>2009</date>
+    <category>Básquet</category>
+    <rating>
+      <value>PG0</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/acciondelanba.jpg" />
   </programme>
   <programme start="20261024103000 +0000" stop="20261024110000 +0000" channel="EnlaceTBN.cl">
     <title>Mensajes de vida</title>
@@ -131459,18 +131414,15 @@ Michael Symon visita una cervecería de Cleveland que sirve alitas de pollo conf
     <category>Noticiero</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sportscenter.jpg" />
   </programme>
-  <programme start="20261024182500 +0000" stop="20261024193000 +0000" channel="ESPN3.cl">
-    <title>ESPN KnockOut</title>
-    <desc>Ciclo de boxeo con los mejores combates en directo y en español para toda Latinoamérica en ESPN.</desc>
-    <credits>
-      <actor>Renato Bermúdez</actor>
-    </credits>
-    <date>2019</date>
-    <category>Series</category>
+  <programme start="20261024182500 +0000" stop="20261024185800 +0000" channel="ESPN3.cl">
+    <title>Acción de la NBA</title>
+    <desc>Programa semanal con reportajes, entrevistas y toda la información de la liga de baloncesto más espectacular: la NBA. Incluye resúmenes de los partidos de la jornada y entrevistas a los personajes más destacados.</desc>
+    <date>2009</date>
+    <category>Básquet</category>
     <rating>
-      <value>R</value>
+      <value>PG0</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/espnknockout.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/acciondelanba.jpg" />
   </programme>
   <programme start="20261024183000 +0000" stop="20261024190000 +0000" channel="24Horas.cl">
     <icon src="https://iptv-epg.org/images/Azu5JebyqTLNW0lE-vOOtFiEb3bNio1aKEj_cfmJXdmayLwKn-MxpAWTBHMjUdTkia-1UTd8J3-sZjKMfEUNIbaq56ZY_kXaqjHnjlCHwtRge5tWAQk" />
@@ -131946,6 +131898,16 @@ Mike, Jen y Rich deben decidir si van a tomar una casa estilo Cabo Cod de 1735 c
 Bobby y Sophie visitan la escena culinaria en los pueblos costeros de Los Ángeles. Desde Malibú hasta Venecia y Playa del Rey, visitan chefs que aprovechan los pescados y mariscos frescos de la zona. Bobby prepara una comida inspirada en la playa.</desc>
     <episode-num>S1 E2</episode-num>
     <title lang="es">Bobby y Sophie en California</title>
+  </programme>
+  <programme start="20261024185800 +0000" stop="20261024193000 +0000" channel="ESPN3.cl">
+    <title>ATP Tour Uncovered • ATP Tour: This Week</title>
+    <sub-title>ATP Tour: This Week</sub-title>
+    <desc>ATP Tour: This Week | Los momentos más destacados de semana.</desc>
+    <category>Otros</category>
+    <rating>
+      <value>R</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/atptouruncovered.jpg" />
   </programme>
   <programme start="20261024190000 +0000" stop="20261024200000 +0000" channel="24Horas.cl">
     <desc lang="es">Interés general
@@ -136764,16 +136726,16 @@ Desde sus orígenes pantanosos hasta los moldes de las máquinas modernas, el pr
     <episode-num system="onscreen">S2E22</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/agentebinkyalrescate.jpg" />
   </programme>
-  <programme start="20261024235500 +0000" stop="20261025020000 +0000" channel="ESPN3.cl">
-    <title>ESPN 3 Argentina</title>
-    <desc>Programación deportiva.</desc>
-    <date>2024</date>
-    <category>Deportes</category>
-    <category>Reportaje</category>
+  <programme start="20261024235500 +0000" stop="20261025004000 +0000" channel="ESPN3.cl">
+    <title>F1 Academy • Austin: Carrera de pista invertida</title>
+    <sub-title>Austin: Carrera de pista invertida</sub-title>
+    <desc>Austin: Carrera de pista invertida | Acción de la carrera con pista invertida de la F1 Academy temporada 2026. Desde el Circuito de las Américas, en Austin, Texas.</desc>
+    <date>2026</date>
+    <category>Automovilismo</category>
     <rating>
       <value>PG-13</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/f1academy.jpg" />
   </programme>
   <programme start="20261025000000 +0000" stop="20261025014500 +0000" channel="24Horas.cl">
     <desc lang="es">Noticiero
@@ -137759,6 +137721,18 @@ En Seattle, Brad Miller prueba una hamburguesa con queso y chips de tortilla de 
     <country>EE. UU</country>
     <episode-num system="onscreen">S2 E2</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elmundodecraig.jpg" />
+  </programme>
+  <programme start="20261025004000 +0000" stop="20261025051500 +0000" channel="ESPN3.cl">
+    <title>Campeonato Mundial de MotoGP • Gran Premio de Australia: Carrera principal</title>
+    <sub-title>Gran Premio de Australia: Carrera principal</sub-title>
+    <desc>Gran Premio de Australia: Carrera principal | Cobertura de la carrera principal de la ronda 18 del MotoGP 2026 con el Gran Premio de Australia. Desde el Circuito de Phillip Island, en Victoria, Australia.</desc>
+    <date>2026</date>
+    <category>Automovilismo</category>
+    <category>Motociclismo</category>
+    <rating>
+      <value>PG-13</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261025004300 +0000" stop="20261025005600 +0000" channel="DiscoveryKids.cl">
     <title>Hermanos constructores: fábrica de sueños • Insignia de apoyo al vecindario</title>
@@ -139230,17 +139204,6 @@ Programa que brinda información actualizada de los acontecimientos más importa
     <date>2000</date>
     <category>Boxeo</category>
     <country>Argentina</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261025020000 +0000" stop="20261025060000 +0000" channel="ESPN3.cl">
-    <title>ESPN 3 Argentina</title>
-    <desc>Programación deportiva.</desc>
-    <date>2024</date>
-    <category>Deportes</category>
-    <category>Reportaje</category>
-    <rating>
-      <value>PG-13</value>
-    </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261025020000 +0000" stop="20261025140000 +0000" channel="ESPN5.cl">
@@ -141518,6 +141481,17 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <episode-num system="onscreen">T3 E8</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chucky.jpg" />
   </programme>
+  <programme start="20261025051500 +0000" stop="20261025061500 +0000" channel="ESPN3.cl">
+    <title>Fútbol LaLiga • Atlético de Madrid vs Deportivo de La Coruña</title>
+    <sub-title>Atlético de Madrid vs. Deportivo de La Coruña</sub-title>
+    <desc>Atlético de Madrid vs Deportivo de La Coruña | Jornada 10 de la temporada 2026-27 de LaLiga. Atlético de Madrid se enfrenta a Deportivo de La Coruña. Desde el Estadio Metropolitano.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating>
+      <value>PG0</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbollaliga.jpg" />
+  </programme>
   <programme start="20261025051500 +0000" stop="20261025061000 +0000" channel="AMC.cl">
     <title>The Terror: Devil in Silver • Bermellón</title>
     <sub-title>Bermellón</sub-title>
@@ -141754,17 +141728,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
 Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <icon src="https://iptv-epg.org/images/xYEU3c--IseiTcGvDF7yR4uiPKsrubawk6gaX7BQzb-I7ht8VCmYGac3616dzAmGLEMePTYnQq5AZa_susHtSXU8HExItAr3u0ov0204CQ1agv8GZryph1WrDRYO" />
     <title lang="es">24 horas a la hora</title>
-  </programme>
-  <programme start="20261025060000 +0000" stop="20261025080000 +0000" channel="ESPN3.cl">
-    <title>ESPN 3 Argentina</title>
-    <desc>Programación deportiva.</desc>
-    <date>2024</date>
-    <category>Deportes</category>
-    <category>Reportaje</category>
-    <rating>
-      <value>PG-13</value>
-    </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261025060000 +0000" stop="20261025110000 +0000" channel="PASIONES.uy">
     <title>Bahar</title>
@@ -142004,6 +141967,16 @@ El chef Aaron Sanchez regresa a su ciudad de origen en El Paso, Texas, para prob
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubblecrew.jpg" />
+  </programme>
+  <programme start="20261025061500 +0000" stop="20261025071500 +0000" channel="ESPN3.cl">
+    <title>ESPN F nacional</title>
+    <desc>Un programa de discusión sobre el fútbol de ascenso de Argentina.</desc>
+    <date>2021</date>
+    <category>Fútbol</category>
+    <rating>
+      <value>PG-13</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/espnfnacional.jpg" />
   </programme>
   <programme start="20261025061700 +0000" stop="20261025075500 +0000" channel="Cinemax.cl">
     <title>Sin piedad</title>
@@ -142497,6 +142470,17 @@ El diseñador Vern Yip y un agente de bienes raíces local analizan tres espacio
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laluzdelfindelmundo.jpg" />
+  </programme>
+  <programme start="20261025071500 +0000" stop="20261025080000 +0000" channel="ESPN3.cl">
+    <title>F1 Academy • Austin: Carrera de pista invertida</title>
+    <sub-title>Austin: Carrera de pista invertida</sub-title>
+    <desc>Austin: Carrera de pista invertida | Acción de la carrera con pista invertida de la F1 Academy temporada 2026. Desde el Circuito de las Américas, en Austin, Texas.</desc>
+    <date>2026</date>
+    <category>Automovilismo</category>
+    <rating>
+      <value>PG-13</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/f1academy.jpg" />
   </programme>
   <programme start="20261025072500 +0000" stop="20261025075000 +0000" channel="NickJr.bo">
     <title>PAW Patrol: Patrulla de cachorros • Los cachorros salvan un barco desaparecido; Los cachorros salvan al pequeño abuelo y al Sr. Alex</title>
@@ -144957,16 +144941,15 @@ Guerra de Pasteles atravesará el espejo con cuatro increíbles pasteleros que m
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elespantatiburones.jpg" />
   </programme>
-  <programme start="20261025132000 +0000" stop="20261025140000 +0000" channel="ESPN3.cl">
-    <title>ESPN 3 Argentina</title>
-    <desc>Programación deportiva.</desc>
-    <date>2024</date>
-    <category>Deportes</category>
-    <category>Reportaje</category>
+  <programme start="20261025132000 +0000" stop="20261025142000 +0000" channel="ESPN3.cl">
+    <title>ESPN F nacional</title>
+    <desc>Un programa de discusión sobre el fútbol de ascenso de Argentina.</desc>
+    <date>2021</date>
+    <category>Fútbol</category>
     <rating>
       <value>PG-13</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/espnfnacional.jpg" />
   </programme>
   <programme start="20261025132000 +0000" stop="20261025141000 +0000" channel="USANetwork.bo">
     <title>The Rookie • Secretos y mentiras</title>
@@ -145215,17 +145198,6 @@ El presentador Eric Adjepong da la bienvenida de nuevo a los chefs Kevin Lee, Ta
   </programme>
   <programme channel="ENTComedy.cl" start="20261025135900 +0000" stop="20261025142900 +0000">
     <title lang="es">Malcolm el de en Medio</title>
-  </programme>
-  <programme start="20261025140000 +0000" stop="20261025142000 +0000" channel="ESPN3.cl">
-    <title>ESPN 3 Argentina</title>
-    <desc>Programación deportiva.</desc>
-    <date>2024</date>
-    <category>Deportes</category>
-    <category>Reportaje</category>
-    <rating>
-      <value>PG-13</value>
-    </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261025140000 +0000" stop="20261025180000 +0000" channel="ESPN5.cl">
     <title>ESPN 5</title>
@@ -148631,7 +148603,7 @@ Programa que brinda información actualizada de los acontecimientos más importa
     <icon src="https://iptv-epg.org/images/l-B6DHOzZWnqXl8Du0dT0N4bIGIYB4THBPvmw1QbGgkN9Det8IcRLoFHzsfZFRlBbXoSunbbf7iloHdgCV6nkabkRZ7FFV8K-NX5OeRZ6Gs_WNAGCo4UfScM" />
     <title lang="es">Frontera global</title>
   </programme>
-  <programme start="20261025220000 +0000" stop="20261026020000 +0000" channel="ESPN3.cl">
+  <programme start="20261025220000 +0000" stop="20261026011500 +0000" channel="ESPN3.cl">
     <title>ESPN 3 Argentina</title>
     <desc>Programación deportiva.</desc>
     <date>2024</date>
@@ -149435,6 +149407,12 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ungalloconmuchoshuevos.jpg" />
   </programme>
+  <programme start="20261026000000 +0000" stop="20261026014500 +0000" channel="24Horas.cl">
+    <desc lang="es">Noticiero
+Revisa las noticias más relevantes de la jornada.</desc>
+    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
+    <title lang="es">24 Horas Central</title>
+  </programme>
   <programme start="20261026000000 +0000" stop="20261026040000 +0000" channel="Mega.cl">
     <title>Mega</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
@@ -150110,6 +150088,16 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/santiagodelosmares.jpg" />
   </programme>
+  <programme start="20261026011500 +0000" stop="20261026021500 +0000" channel="ESPN3.cl">
+    <title>Scrum</title>
+    <desc>Un programa que trae lo mejor del rugby mundial con todos los últimos acontecimientos de la URBA, reportajes, entrevistas exclusivas a los protagonistas, los análisis más profundos y los resúmenes de cada partido y evento.</desc>
+    <date>2012</date>
+    <category>Rugby</category>
+    <rating>
+      <value>PG-13</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/scrum.jpg" />
+  </programme>
   <programme channel="ENTMovies.cl" start="20261026011800 +0000" stop="20261026030000 +0000">
     <title lang="es">Whiplash: Música y obsesión</title>
   </programme>
@@ -150204,6 +150192,12 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
   <programme channel="ENTDrama.cl" start="20261026013600 +0000" stop="20261026030000 +0000">
     <title lang="es">Asalto al camión blindado</title>
   </programme>
+  <programme start="20261026014500 +0000" stop="20261026031500 +0000" channel="24Horas.cl">
+    <desc lang="es">Político
+Espacio de actualidad y debate político, trasmitido cada domingo. Éste cuenta, cada semana, con uno o dos invitados que nos ayudaran a conocer lo que sucede en nuestro país.</desc>
+    <icon src="https://iptv-epg.org/images/d2EsUfITL_GeH4Igr2fuGrUJ6t-Sxlmml_kkqjShIu2c8Juzf6kg6akKEbt0_ci3Q5UsceYEzOcOR1690D61v53HTvNs_S5fPQSeQJ4YNSw1x5koXdxNW8tL" />
+    <title lang="es">Estado nacional</title>
+  </programme>
   <programme start="20261026014500 +0000" stop="20261026020500 +0000" channel="NickJr.bo">
     <title>Barbapapá: ¡Una gran familia! • Un último cuento y a dormir; Insectos</title>
     <sub-title>Un último cuento y a dormir; Insectos</sub-title>
@@ -150250,17 +150244,6 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     <country>USA</country>
     <episode-num system="onscreen">T3 E18</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/bluebloods.jpg" />
-  </programme>
-  <programme start="20261026020000 +0000" stop="20261026021500 +0000" channel="ESPN3.cl">
-    <title>ESPN 3 Argentina</title>
-    <desc>Programación deportiva.</desc>
-    <date>2024</date>
-    <category>Deportes</category>
-    <category>Reportaje</category>
-    <rating>
-      <value>PG-13</value>
-    </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261026020000 +0000" stop="20261026060000 +0000" channel="ESPN5.cl">
     <title>ESPN 5</title>
@@ -150432,7 +150415,7 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laleyyelordenunidaddevictimasespeciales.jpg" />
   </programme>
-  <programme start="20261026021500 +0000" stop="20261026031200 +0000" channel="ESPN3.cl">
+  <programme start="20261026021500 +0000" stop="20261026031800 +0000" channel="ESPN3.cl">
     <title>ESPN Compact</title>
     <desc>Los mejores resúmenes y momentos destacados de los eventos deportivos más importantes a nivel mundial.</desc>
     <date>2012</date>
@@ -150903,16 +150886,11 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/karatekidleyendas.jpg" />
   </programme>
-  <programme start="20261026031200 +0000" stop="20261026050000 +0000" channel="ESPN3.cl">
-    <title>ESPN 3 Argentina</title>
-    <desc>Programación deportiva.</desc>
-    <date>2024</date>
-    <category>Deportes</category>
-    <category>Reportaje</category>
-    <rating>
-      <value>PG-13</value>
-    </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261026031500 +0000" stop="20261026033000 +0000" channel="24Horas.cl">
+    <desc lang="es">Tecnología
+Un nuevo espacio multiplataforma, creado para visibilizar historias de innovación, desarrollo y de futuro que están sucediendo a lo largo de Chile. Un espacio con una amplia oferta de productos de ciencia, tecnología, ciudad y transporte.</desc>
+    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
+    <title lang="es">Conciencia 24/7</title>
   </programme>
   <programme start="20261026031500 +0000" stop="20261026034000 +0000" channel="NickJr.bo">
     <title>Rubble &amp; Crew • El equipo construye una oficina de correos; El equipo construye una maquina para lavar animales</title>
@@ -150963,6 +150941,18 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261026031800 +0000" stop="20261026042000 +0000" channel="ESPN3.cl">
+    <title>ESPN Compact • Premier League: Manchester United vs Bournemouth</title>
+    <sub-title>Premier League: Manchester United vs. Bournemouth</sub-title>
+    <desc>Premier League: Manchester United vs Bournemouth | Compacto de la jornada 8 de la Premier League 2026-27. Disputado el 25 de octubre de 2026 en Old Trafford.</desc>
+    <date>2026</date>
+    <category>Deportes</category>
+    <episode-num system="onscreen">Episodio 384</episode-num>
+    <rating>
+      <value>PG-13</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/espncompact.jpg" />
+  </programme>
   <programme start="20261026032700 +0000" stop="20261026040000 +0000" channel="StarChannel.cl">
     <title>Los Simpsons • Mata Al Cocodrilo Y Huye</title>
     <sub-title>Mata Al Cocodrilo Y Huye</sub-title>
@@ -150973,6 +150963,11 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     </credits>
     <episode-num system="onscreen">T11 E19</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lossimpsons.jpg" />
+  </programme>
+  <programme start="20261026033000 +0000" stop="20261026040000 +0000" channel="24Horas.cl">
+    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
+    <icon src="https://iptv-epg.org/images/GwMMZx5TTXIRFAzFNEyx_K8KUcqmRx0sbBHsp-SICQzWynEXEAMOSserVh93n26jvNSaUr1EF5ZcNFuwpuhbJKC2peCDTa6YxYBMvBr39WQXjPrP_Ae0bxFCjU3rVGnNNReYfaOV" />
+    <title lang="es">24 Horas deportes</title>
   </programme>
   <programme start="20261026033000 +0000" stop="20261026040000 +0000" channel="EnlaceTBN.cl">
     <title>Ministración del Espíritu Santo</title>
@@ -151083,6 +151078,12 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laleyyelordenunidaddevictimasespeciales.jpg" />
+  </programme>
+  <programme start="20261026040000 +0000" stop="20261026043000 +0000" channel="24Horas.cl">
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+    <icon src="https://iptv-epg.org/images/xYEU3c--IseiTcGvDF7yR4uiPKsrubawk6gaX7BQzb-I7ht8VCmYGac3616dzAmGLEMePTYnQq5AZa_susHtSXU8HExItAr3u0ov0204CQ1agv8GZryph1WrDRYO" />
+    <title lang="es">24 horas a la hora</title>
   </programme>
   <programme start="20261026040000 +0000" stop="20261026080000 +0000" channel="Mega.cl">
     <title>Mega</title>
@@ -151221,6 +151222,17 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261026042000 +0000" stop="20261026050000 +0000" channel="ESPN3.cl">
+    <title>F1 Academy • Austin: Carrera 3</title>
+    <sub-title>Austin: Carrera 3</sub-title>
+    <desc>Austin: Carrera 3 | Acción de la serie femenil en F1 Academy.</desc>
+    <date>2026</date>
+    <category>Automovilismo</category>
+    <rating>
+      <value>PG-13</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/f1academy.jpg" />
+  </programme>
   <programme start="20261026042500 +0000" stop="20261026044500 +0000" channel="NickJr.bo">
     <title>Barbapapá: ¡Una gran familia! • Rebeldes; Barbaciencia</title>
     <sub-title>Rebeldes; Barbaciencia</sub-title>
@@ -151292,6 +151304,12 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tiburon.jpg" />
+  </programme>
+  <programme start="20261026043000 +0000" stop="20261026050000 +0000" channel="24Horas.cl">
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+    <icon src="https://iptv-epg.org/images/xYEU3c--IseiTcGvDF7yR4uiPKsrubawk6gaX7BQzb-I7ht8VCmYGac3616dzAmGLEMePTYnQq5AZa_susHtSXU8HExItAr3u0ov0204CQ1agv8GZryph1WrDRYO" />
+    <title lang="es">24 horas a la hora</title>
   </programme>
   <programme start="20261026043000 +0000" stop="20261026050000 +0000" channel="EnlaceTBN.cl">
     <title>Cartas abiertas</title>
@@ -151509,6 +151527,12 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rescatesuicida.jpg" />
   </programme>
+  <programme start="20261026050000 +0000" stop="20261026053000 +0000" channel="24Horas.cl">
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+    <icon src="https://iptv-epg.org/images/xYEU3c--IseiTcGvDF7yR4uiPKsrubawk6gaX7BQzb-I7ht8VCmYGac3616dzAmGLEMePTYnQq5AZa_susHtSXU8HExItAr3u0ov0204CQ1agv8GZryph1WrDRYO" />
+    <title lang="es">24 horas a la hora</title>
+  </programme>
   <programme start="20261026050000 +0000" stop="20261026090000 +0000" channel="Chilevision.cl">
     <title>Chilevisión</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
@@ -151520,14 +151544,15 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261026050000 +0000" stop="20261026060000 +0000" channel="ESPN3.cl">
-    <title>ESPN Compact</title>
-    <desc>Los mejores resúmenes y momentos destacados de los eventos deportivos más importantes a nivel mundial.</desc>
-    <date>2012</date>
-    <category>Deportes</category>
+    <title>Fútbol Bundesliga • SC Freiburg vs Bayern Munich</title>
+    <sub-title>SC Freiburg vs. Bayern Munich</sub-title>
+    <desc>SC Freiburg vs Bayern Munich | Acción de la jornada 7 de la Bundesliga 2026-27. Freiburg busca el liderato y los Bávaros mantenerse en la cima.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
     <rating>
-      <value>PG-13</value>
+      <value>PG0</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/espncompact.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261026050000 +0000" stop="20261026090000 +0000" channel="ESPN4.cl">
     <title>ESPN 4</title>
@@ -151776,6 +151801,12 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     <episode-num system="onscreen">T3 E5</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hannibal.jpg" />
   </programme>
+  <programme start="20261026053000 +0000" stop="20261026060000 +0000" channel="24Horas.cl">
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+    <icon src="https://iptv-epg.org/images/xYEU3c--IseiTcGvDF7yR4uiPKsrubawk6gaX7BQzb-I7ht8VCmYGac3616dzAmGLEMePTYnQq5AZa_susHtSXU8HExItAr3u0ov0204CQ1agv8GZryph1WrDRYO" />
+    <title lang="es">24 horas a la hora</title>
+  </programme>
   <programme start="20261026053000 +0000" stop="20261026055500 +0000" channel="NickJr.bo">
     <title>Barbapapá: ¡Una gran familia! • Ya no soy un bebé; Roboxman</title>
     <sub-title>Ya no soy un bebé; Roboxman</sub-title>
@@ -151906,6 +151937,12 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261026060000 +0000" stop="20261026063000 +0000" channel="24Horas.cl">
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+    <icon src="https://iptv-epg.org/images/xYEU3c--IseiTcGvDF7yR4uiPKsrubawk6gaX7BQzb-I7ht8VCmYGac3616dzAmGLEMePTYnQq5AZa_susHtSXU8HExItAr3u0ov0204CQ1agv8GZryph1WrDRYO" />
+    <title lang="es">24 horas a la hora</title>
   </programme>
   <programme start="20261026060000 +0000" stop="20261026080000 +0000" channel="ESPN3.cl">
     <title>Fútbol Bundesliga • TSG 1899 Hoffenheim vs Bayer 04 Leverkusen</title>
@@ -152057,6 +152094,12 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
       <value>B15</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comoimpedirunaboda.jpg" />
+  </programme>
+  <programme start="20261026063000 +0000" stop="20261026070000 +0000" channel="24Horas.cl">
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+    <icon src="https://iptv-epg.org/images/xYEU3c--IseiTcGvDF7yR4uiPKsrubawk6gaX7BQzb-I7ht8VCmYGac3616dzAmGLEMePTYnQq5AZa_susHtSXU8HExItAr3u0ov0204CQ1agv8GZryph1WrDRYO" />
+    <title lang="es">24 horas a la hora</title>
   </programme>
   <programme start="20261026063700 +0000" stop="20261026080800 +0000" channel="Cinemax.cl">
     <title>El destino final 4</title>
@@ -152254,6 +152297,12 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/topgunmaverick.jpg" />
+  </programme>
+  <programme start="20261026070000 +0000" stop="20261026073000 +0000" channel="24Horas.cl">
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+    <icon src="https://iptv-epg.org/images/xYEU3c--IseiTcGvDF7yR4uiPKsrubawk6gaX7BQzb-I7ht8VCmYGac3616dzAmGLEMePTYnQq5AZa_susHtSXU8HExItAr3u0ov0204CQ1agv8GZryph1WrDRYO" />
+    <title lang="es">24 horas a la hora</title>
   </programme>
   <programme start="20261026070000 +0000" stop="20261026110000 +0000" channel="LaRed.cl">
     <title>La Red</title>
@@ -152567,6 +152616,11 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pawpatrolpatrulladecachorros.jpg" />
   </programme>
+  <programme start="20261026073000 +0000" stop="20261026080000 +0000" channel="24Horas.cl">
+    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
+    <icon src="https://iptv-epg.org/images/GwMMZx5TTXIRFAzFNEyx_K8KUcqmRx0sbBHsp-SICQzWynEXEAMOSserVh93n26jvNSaUr1EF5ZcNFuwpuhbJKC2peCDTa6YxYBMvBr39WQXjPrP_Ae0bxFCjU3rVGnNNReYfaOV" />
+    <title lang="es">24 Horas deportes</title>
+  </programme>
   <programme start="20261026073000 +0000" stop="20261026090000 +0000" channel="EnlaceTBN.cl">
     <title>En concierto</title>
     <desc>Espectáculos musicales en versión concierto con las canciones favoritas para deleite y edificación de todos.</desc>
@@ -152668,6 +152722,12 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
       <value>B15</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rec.jpg" />
+  </programme>
+  <programme start="20261026080000 +0000" stop="20261026083000 +0000" channel="24Horas.cl">
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+    <icon src="https://iptv-epg.org/images/xYEU3c--IseiTcGvDF7yR4uiPKsrubawk6gaX7BQzb-I7ht8VCmYGac3616dzAmGLEMePTYnQq5AZa_susHtSXU8HExItAr3u0ov0204CQ1agv8GZryph1WrDRYO" />
+    <title lang="es">24 horas a la hora</title>
   </programme>
   <programme start="20261026080000 +0000" stop="20261026120000 +0000" channel="Mega.cl">
     <title>Mega</title>
@@ -152866,6 +152926,11 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pistasdeblueytu.jpg" />
   </programme>
+  <programme start="20261026083000 +0000" stop="20261026090000 +0000" channel="24Horas.cl">
+    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
+    <icon src="https://iptv-epg.org/images/GwMMZx5TTXIRFAzFNEyx_K8KUcqmRx0sbBHsp-SICQzWynEXEAMOSserVh93n26jvNSaUr1EF5ZcNFuwpuhbJKC2peCDTa6YxYBMvBr39WQXjPrP_Ae0bxFCjU3rVGnNNReYfaOV" />
+    <title lang="es">24 Horas deportes</title>
+  </programme>
   <programme start="20261026083500 +0000" stop="20261026085500 +0000" channel="NickJr.bo">
     <title>Tim Rex en el espacio • Walky Talkie; Hermanos; Blobuloso</title>
     <sub-title>Walky Talkie; Hermanos; Blobuloso</sub-title>
@@ -153037,6 +153102,12 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubblecrew.jpg" />
+  </programme>
+  <programme start="20261026090000 +0000" stop="20261026110000 +0000" channel="24Horas.cl">
+    <desc lang="es">Noticiero
+Un programa sobre los hechos más destacados de la agenda diaria a nivel nacional e internacional. A través del trabajo de periodistas, reporteros y expertos, el público podrá informarse al completo sobre la coyuntura.</desc>
+    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
+    <title lang="es">24horas tu mañana</title>
   </programme>
   <programme start="20261026090000 +0000" stop="20261026130000 +0000" channel="Chilevision.cl">
     <title>Chilevisión</title>
@@ -153440,16 +153511,15 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026100300 +0000" stop="20261026110000 +0000" channel="ESPN3.cl">
-    <title>ESPN 3 Argentina</title>
-    <desc>Programación deportiva.</desc>
-    <date>2024</date>
-    <category>Deportes</category>
-    <category>Reportaje</category>
+  <programme start="20261026100300 +0000" stop="20261026110500 +0000" channel="ESPN3.cl">
+    <title>Scrum</title>
+    <desc>Un programa que trae lo mejor del rugby mundial con todos los últimos acontecimientos de la URBA, reportajes, entrevistas exclusivas a los protagonistas, los análisis más profundos y los resúmenes de cada partido y evento.</desc>
+    <date>2012</date>
+    <category>Rugby</category>
     <rating>
       <value>PG-13</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/scrum.jpg" />
   </programme>
   <programme start="20261026100500 +0000" stop="20261026102500 +0000" channel="NickJr.bo">
     <title>Pistas de Blue y tú • Creciendo con Blue</title>
@@ -153722,6 +153792,12 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/inframundoguerrasdesangre.jpg" />
   </programme>
+  <programme start="20261026110000 +0000" stop="20261026113000 +0000" channel="24Horas.cl">
+    <desc lang="es">Entrevista
+La señal noticiosa 24H realiza estos reportajes de actualidad, que son emitidos en forma exclusiva al exterior.</desc>
+    <icon src="https://iptv-epg.org/images/bWOAp68Vy6EGZ7LFHO85uFMzZz0tTP_vTqi9cohxiITbApVHRcrwxTltCIXDnKhtCjfxxDJOsaTEN9UMyTLhWPOA273ZRxYaaFfnudB6yAYRzBdVKLA6_CkuMg" />
+    <title lang="es">Mirada económica</title>
+  </programme>
   <programme start="20261026110000 +0000" stop="20261026150000 +0000" channel="LaRed.cl">
     <title>La Red</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
@@ -153766,16 +153842,6 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     <title>ESPN 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261026110000 +0000" stop="20261026130000 +0000" channel="ESPN3.cl">
-    <title>ESPN Fútbol 1</title>
-    <desc>Todo lo que sucedió al término de cada fecha del campeonato de fútbol argentino. Las jugadas más destacadas, los goles, las polémicas y análisis del juego, todo ello aderezado con imágenes y sonidos captados por cámaras exclusivas.</desc>
-    <date>2022</date>
-    <category>Deportes</category>
-    <rating>
-      <value>PG-13</value>
-    </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/espnfutbol1.jpg" />
   </programme>
   <programme start="20261026110000 +0000" stop="20261026150000 +0000" channel="ESPN7.cl">
     <title>ESPN 7</title>
@@ -153921,6 +153987,16 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     <title>AXN</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261026110500 +0000" stop="20261026130000 +0000" channel="ESPN3.cl">
+    <title>ESPN Fútbol 1</title>
+    <desc>Todo lo que sucedió al término de cada fecha del campeonato de fútbol argentino. Las jugadas más destacadas, los goles, las polémicas y análisis del juego, todo ello aderezado con imágenes y sonidos captados por cámaras exclusivas.</desc>
+    <date>2022</date>
+    <category>Deportes</category>
+    <rating>
+      <value>PG-13</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/espnfutbol1.jpg" />
   </programme>
   <programme start="20261026111500 +0000" stop="20261026113500 +0000" channel="NickJr.bo">
     <title>Barbapapá: ¡Una gran familia! • Sueños e ilusiones; Aprendiendo a soñar</title>
@@ -154073,6 +154149,12 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
       <value>A</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/miabuelaesunpeligro2.jpg" />
+  </programme>
+  <programme start="20261026113000 +0000" stop="20261026134500 +0000" channel="24Horas.cl">
+    <desc lang="es">Noticiero
+Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
+    <icon src="https://iptv-epg.org/images/s8n9u7d5p-QkWop4cnnhrV1GG_gXiAxZn0dlS8m1aDVzIP4A-zWuUgmwpiizIdqn3VmSsEl-RJV6XdfbGzzNjYk6wI1NfN3xZ0FmbiheCfr_gBZ04U_sV8Lm8dtsOoAX" />
+    <title lang="es">La mañana informativa</title>
   </programme>
   <programme start="20261026113000 +0000" stop="20261026120000 +0000" channel="EnlaceTBN.cl">
     <title>Hechos</title>
@@ -154586,14 +154668,14 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026130000 +0000" stop="20261026140000 +0000" channel="ESPN3.cl">
-    <title>ESPN 3 Argentina</title>
-    <desc>Programación deportiva.</desc>
-    <date>2024</date>
+  <programme start="20261026130000 +0000" stop="20261026144500 +0000" channel="ESPN3.cl">
+    <title>Hockey sobre césped de Argentina • Masculino: Santa Bárbara vs San Fernando</title>
+    <sub-title>Masculino: Santa Bárbara vs. San Fernando</sub-title>
+    <desc>Masculino: Santa Bárbara vs San Fernando | Fecha 26 del Torneo Metropolitano 2026 de la Primera Caballeros A. Santa Bárbara se enfrenta a San Fernando. Desde el Buenos Aires Cricket &amp; Rugby Club, en San Fernando, Buenos Aires.</desc>
+    <date>2026</date>
     <category>Deportes</category>
-    <category>Reportaje</category>
     <rating>
-      <value>PG-13</value>
+      <value>PG0</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -155013,6 +155095,12 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/supergirl.jpg" />
   </programme>
+  <programme start="20261026134500 +0000" stop="20261026140000 +0000" channel="24Horas.cl">
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+    <icon src="https://iptv-epg.org/images/PyCOaxEc7huO9LsREMGwseMNkv2VTDnB-y50tqdFrAhQ3D5EOwK-7CSanErJwdSVbRWbqDkstG1URYsg7xg7h9Yx0ftgWqZPfm7XwXs1HjCQES5b0OoOcKNI5bktORc" />
+    <title lang="es">Entrevistas 24 horas</title>
+  </programme>
   <programme channel="ENTChannel.cl" start="20261026134500 +0000" stop="20261026153100 +0000">
     <title lang="es">Más allá de los sueños</title>
   </programme>
@@ -155078,16 +155166,11 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026140000 +0000" stop="20261026144500 +0000" channel="ESPN3.cl">
-    <title>ESPN 3 Argentina</title>
-    <desc>Programación deportiva.</desc>
-    <date>2024</date>
-    <category>Deportes</category>
-    <category>Reportaje</category>
-    <rating>
-      <value>PG-13</value>
-    </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261026140000 +0000" stop="20261026153000 +0000" channel="24Horas.cl">
+    <desc lang="es">Noticiero
+Espacio informativo en el que se abordan los acontecimientos más relevantes de la actualidad, datos de servicios como el tiempo y el tráfico vehicular.</desc>
+    <icon src="https://iptv-epg.org/images/s8n9u7d5p-QkWop4cnnhrV1GG_gXiAxZn0dlS8m1aDVzIP4A-zWuUgmwpiizIdqn3VmSsEl-RJV6XdfbGzzNjYk6wI1NfN3xZ0FmbiheCfr_gBZ04U_sV8Lm8dtsOoAX" />
+    <title lang="es">La mañana informativa</title>
   </programme>
   <programme start="20261026140000 +0000" stop="20261026180000 +0000" channel="ESPN5.cl">
     <title>ESPN 5</title>
@@ -155724,6 +155807,11 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/timrexenelespacio.jpg" />
   </programme>
+  <programme start="20261026153000 +0000" stop="20261026160000 +0000" channel="24Horas.cl">
+    <desc lang="es">Conoce las novedades de la industria automotriz y actualízate con la información de los principales eventos motorsport.</desc>
+    <icon src="https://iptv-epg.org/images/QejRHFF7OO3gPtEHko28PhRf2Dxu0LlIcJ20PYfK_NcR0eyXHchzhAMzu2oGt9mgSAvPA2J3qUEBFRZnFLNT-NS-9JPOcCzuGNXLlS7mzXoupmEn-QixONxvBkSnJJ31AN0" />
+    <title lang="es">Más motor</title>
+  </programme>
   <programme channel="ENTChannel.cl" start="20261026153100 +0000" stop="20261026174900 +0000">
     <title lang="es">Rápidos y Furiosos: Hobbs y Shaw</title>
   </programme>
@@ -155876,6 +155964,12 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261026160000 +0000" stop="20261026180000 +0000" channel="24Horas.cl">
+    <desc lang="es">Noticiero
+Conoce los detalles más resaltantes sobre los últimos acontecimientos ocurridos en Chile, América Latina y el mundo, en este segmento especial, donde te presentamos un resumen con informaciones referidas a diversos ámbitos.</desc>
+    <icon src="https://iptv-epg.org/images/ACzUocTRAnqh58jUT0U1_knxTHQLPdq5AP7hKcoBnfuXcVZP5643L1MI1-e_nXhGAUW6nkpKVqD6ylt530Rj67Yde1hmkTY2tOvEgQ4Y44Ew2epaoHtsNbDz" />
+    <title lang="es">24 horas al día</title>
   </programme>
   <programme start="20261026160000 +0000" stop="20261026200000 +0000" channel="Mega.cl">
     <title>Mega</title>
@@ -156274,11 +156368,13 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026170000 +0000" stop="20261026195500 +0000" channel="ESPN3.cl">
-    <title>ESPN Compact</title>
-    <desc>Los mejores resúmenes y momentos destacados de los eventos deportivos más importantes a nivel mundial.</desc>
-    <date>2012</date>
+  <programme start="20261026170000 +0000" stop="20261026180000 +0000" channel="ESPN3.cl">
+    <title>ESPN Compact • Moto3: Gran Premio de Australia</title>
+    <sub-title>Moto3: Gran Premio de Australia</sub-title>
+    <desc>Moto3: Gran Premio de Australia | Los momentos más destacados de la carrera principal del Moto3 de 2026 con el Gran Premio de Australia. Disputado el 25 de octubre de 2026.</desc>
+    <date>2026</date>
     <category>Deportes</category>
+    <episode-num system="onscreen">Episodio 387</episode-num>
     <rating>
       <value>PG-13</value>
     </rating>
@@ -156716,6 +156812,24 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
   <programme channel="ENTComedy.cl" start="20261026175900 +0000" stop="20261026194000 +0000">
     <title lang="es">Los Cazafantasmas</title>
   </programme>
+  <programme start="20261026180000 +0000" stop="20261026181500 +0000" channel="24Horas.cl">
+    <desc lang="es">Político
+Espacio que promueve y difunde una serie de actividades culturales de gran diversidad, entre ellas, teatro, ópera, cine, recitales de distintos géneros musicales, para todos los públicos para que todos puedan disfrutar y divertirse.</desc>
+    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
+    <title lang="es">Escena 24</title>
+  </programme>
+  <programme start="20261026180000 +0000" stop="20261026190000 +0000" channel="ESPN3.cl">
+    <title>ESPN Compact • Moto2: Gran Premio de Australia</title>
+    <sub-title>Moto2: Gran Premio de Australia</sub-title>
+    <desc>Moto2: Gran Premio de Australia | Los momentos más destacados de la carrera principal del Moto2 2026 con el Gran Premio de Australia. Disputado el 25 de octubre de 2026.</desc>
+    <date>2026</date>
+    <category>Deportes</category>
+    <episode-num system="onscreen">Episodio 386</episode-num>
+    <rating>
+      <value>PG-13</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/espncompact.jpg" />
+  </programme>
   <programme start="20261026180000 +0000" stop="20261026220000 +0000" channel="ESPN5.cl">
     <title>ESPN 5</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
@@ -156837,6 +156951,12 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubblecrew.jpg" />
+  </programme>
+  <programme start="20261026181500 +0000" stop="20261026184500 +0000" channel="24Horas.cl">
+    <desc lang="es">Salud
+Un espacio que aborda diversos temas relacionados con la salud a través de consejos, tips y reflexiones de especialistas.</desc>
+    <icon src="https://iptv-epg.org/images/Ac_z0-8h-7p51n1iUpqpvlBPL-GVgtJywAMxV4iZqbgmxFJk_4Trk1n0ytu9jkDcx_Olq-70K_kFxC8X-56YGsH15RdXlbOV8aNdEIQI3nKAmTjfcew" />
+    <title lang="es">Especialista</title>
   </programme>
   <programme start="20261026182000 +0000" stop="20261026191000 +0000" channel="USANetwork.bo">
     <title>The Rookie • Desengaño</title>
@@ -156995,6 +157115,12 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laleyyelordenunidaddevictimasespeciales.jpg" />
   </programme>
+  <programme start="20261026184500 +0000" stop="20261026193000 +0000" channel="24Horas.cl">
+    <desc lang="es">Interés general
+Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
+    <icon src="https://iptv-epg.org/images/xYEU3c--IseiTcGvDF7yR4uiPKsrubawk6gaX7BQzb-I7ht8VCmYGac3616dzAmGLEMePTYnQq5AZa_susHtSXU8HExItAr3u0ov0204CQ1agv8GZryph1WrDRYO" />
+    <title lang="es">24 horas a la hora</title>
+  </programme>
   <programme start="20261026184500 +0000" stop="20261026204500 +0000" channel="AMC.cl">
     <title>Al borde del abismo</title>
     <desc>Nick Cassidy, un antiguo agente de policía, se escapa de la cárcel y se dirige al Hotel Roosevelt de Nueva York. Al subirse a la cornisa de uno de los pisos más altos, pone en peligro mucho más que su vida. La ciudad entera está a punto de quedarse paralizada, incluidos ciertos individuos que guardan grandes secretos.</desc>
@@ -157104,6 +157230,18 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     <title>ESPN 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261026190000 +0000" stop="20261026195500 +0000" channel="ESPN3.cl">
+    <title>ESPN Compact • MotoGP: Gran Premio de Australia</title>
+    <sub-title>MotoGP: Gran Premio de Australia</sub-title>
+    <desc>MotoGP: Gran Premio de Australia | Los momentos más destacados de la carrera principal del MotoGP 2026 con el Gran Premio de Australia. Disputado el 25 de octubre de 2026.</desc>
+    <date>2026</date>
+    <category>Deportes</category>
+    <episode-num system="onscreen">Episodio 385</episode-num>
+    <rating>
+      <value>PG-13</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/espncompact.jpg" />
   </programme>
   <programme start="20261026190000 +0000" stop="20261026210000 +0000" channel="ESPN6.cl">
     <title>Campeonato Mundial de MotoGP • Gran Premio de Malasia: Carrera principal</title>
@@ -157300,6 +157438,12 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261026193000 +0000" stop="20261026194500 +0000" channel="24Horas.cl">
+    <desc lang="es">Entrevista
+Espacio en el que conversamos con un invitado especial quien nos habla de la situación política, social, económica de Chile, o de tan variados temas de interés general para el ciudadano común.</desc>
+    <icon src="https://iptv-epg.org/images/PyCOaxEc7huO9LsREMGwseMNkv2VTDnB-y50tqdFrAhQ3D5EOwK-7CSanErJwdSVbRWbqDkstG1URYsg7xg7h9Yx0ftgWqZPfm7XwXs1HjCQES5b0OoOcKNI5bktORc" />
+    <title lang="es">Entrevistas 24 horas</title>
+  </programme>
   <programme start="20261026193000 +0000" stop="20261026200000 +0000" channel="EnlaceTBN.cl">
     <title>Ancient nutrition</title>
     <desc>Se aborda la relación entre la alimentación ancestral y la salud integral. Se intenta rescatar prácticas nutricionales tradicionales, vinculándolas con principios bíblicos y con el bienestar físico y espiritual.</desc>
@@ -157469,6 +157613,12 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261026194500 +0000" stop="20261026200000 +0000" channel="24Horas.cl">
+    <desc lang="es">Noticiero
+Ponemos en contexto la actualidad internacional y analizamos el contexto de los hechos. Hablamos con especialistas para conocer todos los ángulos de la noticia y presentamos todo con un lenguaje para acercar a los más jóvenes.</desc>
+    <icon src="https://iptv-epg.org/images/4NN61gqMSrsqxYGBZMmBf3BgxJNTnEdLPxIpfgKowgDweilFdw3W6rrJqhkZthukATDXzvOZKUKbuebY08dVHskWE4_a1cNCBV35bAk0q1yzyLXldE-e" />
+    <title lang="es">DW analiza</title>
+  </programme>
   <programme start="20261026194600 +0000" stop="20261026212600 +0000" channel="Golden.cl">
     <title>Contrarreloj</title>
     <desc>Matt, un empresario estadounidense que reside en Berlín, lleva a sus dos hijos en auto cuando, de improvisto, recibe una llamada. Un desconocido le informa de que hay una bomba en el vehículo, y la hará estallar si no sigue sus indicaciones.</desc>
@@ -157541,6 +157691,12 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
   </programme>
   <programme channel="ENTMovies.cl" start="20261026195800 +0000" stop="20261026213000 +0000">
     <title lang="es">Soy Leyenda</title>
+  </programme>
+  <programme start="20261026200000 +0000" stop="20261026220000 +0000" channel="24Horas.cl">
+    <desc lang="es">Noticiero
+Resumen noticioso nacional e internacional.</desc>
+    <icon src="https://iptv-epg.org/images/kXF_aX4TwCUMUbrj-GjqoMYaiQY3T0amAu5mMT8dsMEX10d_lBPcy2Rhybt7RUlaQuJ5ThIEyjCTGxBbfqFscpW8QraPCV_W79iYwfpA-R6PX3O9HjY" />
+    <title lang="es">Noticias 24</title>
   </programme>
   <programme start="20261026200000 +0000" stop="20261027000000 +0000" channel="Mega.cl">
     <title>Mega</title>
@@ -158337,6 +158493,12 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/monsterhouselacasadelossustos.jpg" />
   </programme>
+  <programme start="20261026220000 +0000" stop="20261026224500 +0000" channel="24Horas.cl">
+    <desc lang="es">Noticiero
+Resumen noticioso nacional e internacional.</desc>
+    <icon src="https://iptv-epg.org/images/kXF_aX4TwCUMUbrj-GjqoMYaiQY3T0amAu5mMT8dsMEX10d_lBPcy2Rhybt7RUlaQuJ5ThIEyjCTGxBbfqFscpW8QraPCV_W79iYwfpA-R6PX3O9HjY" />
+    <title lang="es">Noticias 24</title>
+  </programme>
   <programme start="20261026220000 +0000" stop="20261027020000 +0000" channel="ESPN5.cl">
     <title>ESPN 5</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
@@ -158571,6 +158733,11 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     <episode-num system="onscreen">T3 E18</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/bluebloods.jpg" />
   </programme>
+  <programme start="20261026224500 +0000" stop="20261027000000 +0000" channel="24Horas.cl">
+    <desc lang="es">Lo más destacado del día en diferentes disciplinas. Sigue la actualidad deportiva nacional e internacional a través de TVN.</desc>
+    <icon src="https://iptv-epg.org/images/GwMMZx5TTXIRFAzFNEyx_K8KUcqmRx0sbBHsp-SICQzWynEXEAMOSserVh93n26jvNSaUr1EF5ZcNFuwpuhbJKC2peCDTa6YxYBMvBr39WQXjPrP_Ae0bxFCjU3rVGnNNReYfaOV" />
+    <title lang="es">24 Horas deportes</title>
+  </programme>
   <programme start="20261026224500 +0000" stop="20261027010000 +0000" channel="AMC.cl">
     <title>Jumanji: El siguiente nivel</title>
     <desc>En esta ocasión, los 'jugadores' vuelven al juego, pero sus personajes se han intercambiado entre sí, lo que ofrece un curioso plantel: los mismos héroes con distinta apariencia. Pero, ¿dónde está el resto de la gente? Los participantes sólo tienen una opción: jugar una vez más a esta peligrosa partida para descubrir qué es realmente lo que está sucediendo.</desc>
@@ -158748,16 +158915,16 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026230000 +0000" stop="20261027020000 +0000" channel="ESPN3.cl">
-    <title>ESPN 3 Argentina</title>
-    <desc>Programación deportiva.</desc>
-    <date>2024</date>
+  <programme start="20261026230000 +0000" stop="20261027000000 +0000" channel="ESPN3.cl">
+    <title>SportsCenter</title>
+    <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
+    <date>1979</date>
     <category>Deportes</category>
     <category>Reportaje</category>
     <rating>
       <value>PG-13</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sportscenter.jpg" />
   </programme>
   <programme start="20261026230000 +0000" stop="20261027010000 +0000" channel="ESPN6.cl">
     <title>Fútbol Eredivisie • PSV vs Feyenoord</title>
@@ -159218,6 +159385,16 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261027000000 +0000" stop="20261027010000 +0000" channel="ESPN3.cl">
+    <title>Equipo Scrum</title>
+    <desc>Lo mejor del mundo del Rugby en este especial que resume los acontecimientos más recientes.</desc>
+    <date>2023</date>
+    <category>Deportes</category>
+    <rating>
+      <value>PG-13</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/equiposcrum.jpg" />
+  </programme>
   <programme start="20261027000000 +0000" stop="20261027025959 +0000" channel="ESPNPremium.cl">
     <title>ESPN Premium</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
@@ -159542,6 +159719,17 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
   <programme start="20261027010000 +0000" stop="20261027025959 +0000" channel="TyCSports.cl">
     <title>TyC Sports</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261027010000 +0000" stop="20261027041500 +0000" channel="ESPN3.cl">
+    <title>Fútbol Americano NFL • Dallas Cowboys vs Philadelphia Eagles</title>
+    <sub-title>Dallas Cowboys vs. Philadelphia Eagles</sub-title>
+    <desc>Dallas Cowboys vs Philadelphia Eagles | Philadelphia Eagles recibe a Dallas Cowboys en un duelo de la temporada regular de la NFL en el Lincoln Financial Field. Dak Prescott lidera a los Cowboys, mientras que Jalen Hurts de los Eagles está en duda debido a un problema médico.</desc>
+    <date>2026</date>
+    <category>Fútbol Americano</category>
+    <rating>
+      <value>PG0</value>
+    </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261027010000 +0000" stop="20261027025959 +0000" channel="ESPN4.cl">
@@ -160037,17 +160225,6 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261027020000 +0000" stop="20261027030000 +0000" channel="ESPN3.cl">
-    <title>ESPN 3 Argentina</title>
-    <desc>Programación deportiva.</desc>
-    <date>2024</date>
-    <category>Deportes</category>
-    <category>Reportaje</category>
-    <rating>
-      <value>PG-13</value>
-    </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
   <programme start="20261027020000 +0000" stop="20261027025959 +0000" channel="ESPN5.cl">
     <title>ESPN 5</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
@@ -160402,16 +160579,6 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubblecrew.jpg" />
   </programme>
-  <programme start="20261027030000 +0000" stop="20261027033000 +0000" channel="ESPN3.cl">
-    <title>FIM Road Racing World Championship Highlights</title>
-    <desc>Recopilación de los momentos más emocionantes de las carreras del campeonato mundial de motociclismo.</desc>
-    <date>2005</date>
-    <category>Series</category>
-    <rating>
-      <value>R</value>
-    </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fimroadracingworldchampionshiphighlights.jpg" />
-  </programme>
   <programme start="20261027030000 +0000" stop="20261027050000 +0000" channel="ESPN6.cl">
     <title>ESPN KnockOut • Emmanuel Navarrete vs O'Shaquie Foster</title>
     <sub-title>Emmanuel Navarrete vs. O'Shaquie Foster</sub-title>
@@ -160606,17 +160773,6 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     <episode-num system="onscreen">T11 E21</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lossimpsons.jpg" />
   </programme>
-  <programme start="20261027033000 +0000" stop="20261027043000 +0000" channel="ESPN3.cl">
-    <title>ESPN 3 Argentina</title>
-    <desc>Programación deportiva.</desc>
-    <date>2024</date>
-    <category>Deportes</category>
-    <category>Reportaje</category>
-    <rating>
-      <value>PG-13</value>
-    </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
   <programme start="20261027033000 +0000" stop="20261027040000 +0000" channel="EnlaceTBN.cl">
     <title>Especial</title>
     <desc>Programas recomendados de ministerio para llevar la palabra divina, la fe y la esperanza a los seguidores.</desc>
@@ -160785,6 +160941,16 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/m3gan20.jpg" />
   </programme>
+  <programme start="20261027041500 +0000" stop="20261027051500 +0000" channel="ESPN3.cl">
+    <title>Goles de la Premier League</title>
+    <desc>El repaso a las grandes emociones con los goles del campeonato inglés de fútbol.</desc>
+    <date>2022</date>
+    <category>Fútbol</category>
+    <rating>
+      <value>PG-13</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/golesdelapremierleague.jpg" />
+  </programme>
   <programme start="20261027042500 +0000" stop="20261027044500 +0000" channel="NickJr.bo">
     <title>Barbapapá: ¡Una gran familia! • Los títeres; Glup glup ah-ah</title>
     <sub-title>Los títeres; Glup glup ah-ah</sub-title>
@@ -160900,8 +161066,76 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261027051500 +0000" stop="20261027054500 +0000" channel="ESPN3.cl">
+    <title>Goles de la Ligue 1 • 2025-2026</title>
+    <sub-title>Goles de la Ligue 1: 2025-2026</sub-title>
+    <desc>2025-2026 | Las jugadas y anotaciones más destacadas de la temporada 2025-26 de la Ligue 1.</desc>
+    <date>2025</date>
+    <category>Fútbol</category>
+    <rating>
+      <value>PG-13</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/golesdelaligue1.jpg" />
+  </programme>
+  <programme start="20261027054500 +0000" stop="20261027061500 +0000" channel="ESPN3.cl">
+    <title>Fútbol LaLiga • Goles de LaLiga 2026-27</title>
+    <sub-title>Goles de LaLiga 2026-27</sub-title>
+    <desc>Goles de LaLiga 2026-27 | Recopilación de los mejores goles de la temporada 2026-27 de LaLiga.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating>
+      <value>PG-13</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbollaliga.jpg" />
+  </programme>
+  <programme start="20261027061500 +0000" stop="20261027081000 +0000" channel="ESPN3.cl">
+    <title>ESPN KnockOut • Dalton Smith vs Alberto Puello</title>
+    <sub-title>Dalton Smith vs. Alberto Puello</sub-title>
+    <desc>Dalton Smith vs Alberto Puello | Pelea por el título CMB de peso superligero. Dalton Smith cruza puños con Alberto Puello. Desde el Utilita Arena, en Sheffield, Inglaterra.</desc>
+    <credits>
+      <actor>Renato Bermúdez</actor>
+    </credits>
+    <date>2026</date>
+    <category>Series</category>
+    <rating>
+      <value>R</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/espnknockout.jpg" />
+  </programme>
+  <programme start="20261027081000 +0000" stop="20261027100500 +0000" channel="ESPN3.cl">
+    <title>Fútbol LaLiga • Sevilla vs Osasuna</title>
+    <sub-title>Sevilla vs. Osasuna</sub-title>
+    <desc>Sevilla vs Osasuna | Jornada 10 de la temporada 2026-27 de LaLiga. Sevilla se enfrenta a Osasuna. Desde el estadio Ramón Sánchez Pizjuán.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating>
+      <value>PG0</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbollaliga.jpg" />
+  </programme>
+  <programme start="20261027100500 +0000" stop="20261027110500 +0000" channel="ESPN3.cl">
+    <title>Equipo Scrum</title>
+    <desc>Lo mejor del mundo del Rugby en este especial que resume los acontecimientos más recientes.</desc>
+    <date>2023</date>
+    <category>Deportes</category>
+    <rating>
+      <value>PG-13</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/equiposcrum.jpg" />
+  </programme>
   <programme channel="ENTComedy.cl" start="20261027104000 +0000" stop="20261027115900 +0000">
     <title lang="es">Detective por error</title>
+  </programme>
+  <programme start="20261027110500 +0000" stop="20261027130000 +0000" channel="ESPN3.cl">
+    <title>Rugby Top 14 de Francia • RC Vannes vs ASM Clermont</title>
+    <sub-title>RC Vannes vs. ASM Clermont</sub-title>
+    <desc>RC Vannes vs ASM Clermont | Cobertura de los partidos del campeonato Top 14 de Francia.</desc>
+    <date>2026</date>
+    <category>Rugby</category>
+    <rating>
+      <value>PG0</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme channel="ENTChannel.cl" start="20261027111800 +0000" stop="20261027125800 +0000">
     <title lang="es">DC Liga de Supermascotas</title>
@@ -160924,11 +161158,32 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
   <programme channel="ENTComedy.cl" start="20261027125900 +0000" stop="20261027132900 +0000">
     <title lang="es">El Chapulin Colorado</title>
   </programme>
+  <programme start="20261027130000 +0000" stop="20261027140000 +0000" channel="ESPN3.cl">
+    <title>Goles de la Premier League</title>
+    <desc>El repaso a las grandes emociones con los goles del campeonato inglés de fútbol.</desc>
+    <date>2022</date>
+    <category>Fútbol</category>
+    <rating>
+      <value>PG-13</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/golesdelapremierleague.jpg" />
+  </programme>
   <programme channel="ENTComedy.cl" start="20261027132900 +0000" stop="20261027135900 +0000">
     <title lang="es">Alf</title>
   </programme>
   <programme channel="ENTComedy.cl" start="20261027135900 +0000" stop="20261027142900 +0000">
     <title lang="es">Malcolm el de en Medio</title>
+  </programme>
+  <programme start="20261027140000 +0000" stop="20261027150000 +0000" channel="ESPN3.cl">
+    <title>Fútbol Bundesliga • SC Freiburg vs Bayern Munich</title>
+    <sub-title>SC Freiburg vs. Bayern Munich</sub-title>
+    <desc>SC Freiburg vs Bayern Munich | Acción de la jornada 7 de la Bundesliga 2026-27. Freiburg busca el liderato y los Bávaros mantenerse en la cima.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating>
+      <value>PG0</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme channel="ENTChannel.cl" start="20261027141300 +0000" stop="20261027162900 +0000">
     <title lang="es">Star Wars: Episodio II: El Ataque de los clones</title>
@@ -160948,8 +161203,28 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
   <programme channel="ENTComedy.cl" start="20261027145900 +0000" stop="20261027152900 +0000">
     <title lang="es">El Chavo del 8</title>
   </programme>
+  <programme start="20261027150000 +0000" stop="20261027153000 +0000" channel="ESPN3.cl">
+    <title>Acción de la NBA</title>
+    <desc>Programa semanal con reportajes, entrevistas y toda la información de la liga de baloncesto más espectacular: la NBA. Incluye resúmenes de los partidos de la jornada y entrevistas a los personajes más destacados.</desc>
+    <date>2009</date>
+    <category>Básquet</category>
+    <rating>
+      <value>PG0</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/acciondelanba.jpg" />
+  </programme>
   <programme channel="ENTComedy.cl" start="20261027152900 +0000" stop="20261027155900 +0000">
     <title lang="es">Los Simpson</title>
+  </programme>
+  <programme start="20261027153000 +0000" stop="20261027162700 +0000" channel="ESPN3.cl">
+    <title>Equipo Scrum</title>
+    <desc>Lo mejor del mundo del Rugby en este especial que resume los acontecimientos más recientes.</desc>
+    <date>2023</date>
+    <category>Deportes</category>
+    <rating>
+      <value>PG-13</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/equiposcrum.jpg" />
   </programme>
   <programme channel="ENTMovies.cl" start="20261027154400 +0000" stop="20261027173200 +0000">
     <title lang="es">Los increíbles</title>
@@ -160960,11 +161235,41 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
   <programme channel="ENTDrama.cl" start="20261027160800 +0000" stop="20261027181500 +0000">
     <title lang="es">Fantasmas del pasado</title>
   </programme>
+  <programme start="20261027162700 +0000" stop="20261027165500 +0000" channel="ESPN3.cl">
+    <title>ATP Tour Uncovered • ATP Tour: This Week</title>
+    <sub-title>ATP Tour: This Week</sub-title>
+    <desc>ATP Tour: This Week | Los momentos más destacados de semana.</desc>
+    <category>Otros</category>
+    <rating>
+      <value>R</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/atptouruncovered.jpg" />
+  </programme>
   <programme channel="ENTChannel.cl" start="20261027162900 +0000" stop="20261027181700 +0000">
     <title lang="es">Vuelo a la libertad</title>
   </programme>
   <programme channel="ENTExtreme.cl" start="20261027164400 +0000" stop="20261027183400 +0000">
     <title lang="es">My Hero Academia: Ahora es tu turno</title>
+  </programme>
+  <programme start="20261027165500 +0000" stop="20261027172300 +0000" channel="ESPN3.cl">
+    <title>UEFA Champions League Weekly</title>
+    <desc>Momentos destacados, entrevistas y toda la información de la jornada semanal de la UEFA Champions League.</desc>
+    <date>2004</date>
+    <category>Fútbol</category>
+    <rating>
+      <value>PG-13</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/uefachampionsleagueweekly.jpg" />
+  </programme>
+  <programme start="20261027172300 +0000" stop="20261027182000 +0000" channel="ESPN3.cl">
+    <title>Italian Serie A Highlights</title>
+    <desc>Lo más destacado de la jornada del fútbol Italiano.</desc>
+    <date>2012</date>
+    <category>Fútbol</category>
+    <rating>
+      <value>PG-13</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/italianserieahighlights.jpg" />
   </programme>
   <programme channel="ENTMovies.cl" start="20261027173200 +0000" stop="20261027193900 +0000">
     <title lang="es">Godzilla Minus One</title>
@@ -160977,6 +161282,17 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
   </programme>
   <programme channel="ENTChannel.cl" start="20261027181700 +0000" stop="20261027203300 +0000">
     <title lang="es">Kingsman: El Círculo Dorado</title>
+  </programme>
+  <programme start="20261027182000 +0000" stop="20261027203000 +0000" channel="ESPN3.cl">
+    <title>Fútbol Serie A • Sassuolo vs Lazio</title>
+    <sub-title>Sassuolo vs. Lazio</sub-title>
+    <desc>Sassuolo vs Lazio | Acción de la fecha 9 de la Serie A de Italia 2025-26. Sassuolo se enfrenta a Lazio. Desde el estadio Mapei, en Reggio Emilia, Italia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating>
+      <value>PG0</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme channel="ENTExtreme.cl" start="20261027183400 +0000" stop="20261027200600 +0000">
     <title lang="es">Angry Birds: La Película</title>
@@ -160992,6 +161308,17 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
   </programme>
   <programme channel="ENTExtreme.cl" start="20261027200600 +0000" stop="20261027214000 +0000">
     <title lang="es">Ecos mortales</title>
+  </programme>
+  <programme start="20261027203000 +0000" stop="20261027224500 +0000" channel="ESPN3.cl">
+    <title>Fútbol Serie A • Roma vs Cagliari</title>
+    <sub-title>Roma vs. Cagliari</sub-title>
+    <desc>Roma vs Cagliari | Acción de la fecha 9 de la Serie A de Italia 2025-26. Roma se enfrenta a Cagliari. Desde el Estadio Olímpico de Roma.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating>
+      <value>PG0</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme channel="ENTChannel.cl" start="20261027203300 +0000" stop="20261027215400 +0000">
     <title lang="es">Hombres de Negro 2</title>
@@ -161017,6 +161344,28 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
   <programme channel="ENTMovies.cl" start="20261027223800 +0000" stop="20261028001000 +0000">
     <title lang="es">Grandes Héroes</title>
   </programme>
+  <programme start="20261027224500 +0000" stop="20261027230000 +0000" channel="ESPN3.cl">
+    <title>Fútbol internacional • PSG: Campeón UEFA Champions League 2025-2026</title>
+    <sub-title>PSG: Campeón UEFA Champions League 2025-2026</sub-title>
+    <desc>PSG: Campeón UEFA Champions League 2025-2026 | El Paris Saint-Germain (PSG) se coronó campeón de la UEFA Champions League 2025-2026 al derrotar al Arsenal 4-3 en tanda de penales. Disputado el 30 de mayo de 2026.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating>
+      <value>PG-13</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolinternacional.jpg" />
+  </programme>
+  <programme start="20261027230000 +0000" stop="20261028003000 +0000" channel="ESPN3.cl">
+    <title>SportsCenter</title>
+    <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
+    <date>1979</date>
+    <category>Deportes</category>
+    <category>Reportaje</category>
+    <rating>
+      <value>PG-13</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sportscenter.jpg" />
+  </programme>
   <programme channel="ENTChannel.cl" start="20261027231500 +0000" stop="20261028005300 +0000">
     <title lang="es">El Día de la Marmota</title>
   </programme>
@@ -161032,11 +161381,32 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
   <programme channel="ENTComedy.cl" start="20261028001200 +0000" stop="20261028022900 +0000">
     <title lang="es">Mickey 17</title>
   </programme>
+  <programme start="20261028003000 +0000" stop="20261028010000 +0000" channel="ESPN3.cl">
+    <title>FIM Road Racing World Championship Highlights</title>
+    <desc>Recopilación de los momentos más emocionantes de las carreras del campeonato mundial de motociclismo.</desc>
+    <date>2005</date>
+    <category>Series</category>
+    <rating>
+      <value>R</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fimroadracingworldchampionshiphighlights.jpg" />
+  </programme>
   <programme channel="ENTChannel.cl" start="20261028005300 +0000" stop="20261028023000 +0000">
     <title lang="es">Enseñanza de Vida</title>
   </programme>
   <programme channel="ENTExtreme.cl" start="20261028005600 +0000" stop="20261028023100 +0000">
     <title lang="es">Bleach: Fade to black</title>
+  </programme>
+  <programme start="20261028010000 +0000" stop="20261028033000 +0000" channel="ESPN3.cl">
+    <title>Hockey NHL • Boston Bruins vs Carolina Hurricanes</title>
+    <sub-title>Boston Bruins vs. Carolina Hurricanes</sub-title>
+    <desc>Boston Bruins vs Carolina Hurricanes | Toda la acción del hockey sobre hielo de la NHL.</desc>
+    <date>2026</date>
+    <category>Hockey</category>
+    <rating>
+      <value>PG0</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hockeynhl.jpg" />
   </programme>
   <programme channel="ENTDrama.cl" start="20261028010500 +0000" stop="20261028030000 +0000">
     <title lang="es">Agua para elefantes</title>
@@ -161064,6 +161434,20 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
   </programme>
   <programme channel="ENTDrama.cl" start="20261028030000 +0000" stop="20261028124200 +0000">
     <title lang="es">Sintonía de amor</title>
+  </programme>
+  <programme start="20261028033000 +0000" stop="20261028043000 +0000" channel="ESPN3.cl">
+    <title>ESPN KnockOut • Emmanuel Navarrete vs O'Shaquie Foster</title>
+    <sub-title>Emmanuel Navarrete vs. O'Shaquie Foster</sub-title>
+    <desc>Emmanuel Navarrete vs O'Shaquie Foster | Combate por la unificación de los títulos superligeros del WBO, IBF y WBC. Emmanuel Navarrete en trifulca con O'Shaquie Foster. Disputado el 24 de octubre de 2026 en el Frost Bank Center, en San Antonio, Texas.</desc>
+    <credits>
+      <actor>Renato Bermúdez</actor>
+    </credits>
+    <date>2026</date>
+    <category>Series</category>
+    <rating>
+      <value>R</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/espnknockout.jpg" />
   </programme>
   <programme channel="ENTExtreme.cl" start="20261028035900 +0000" stop="20261028135900 +0000">
     <title lang="es">El señor de los anillos: El retorno del rey</title>
