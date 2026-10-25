@@ -1534,11 +1534,6 @@
   <programme channel="ENTChannel.cl" start="20261023235300 +0000" stop="20261024011300 +0000">
     <title lang="es">Space Jam: El Juego del Siglo</title>
   </programme>
-  <programme start="20261024000000 +0000" stop="20261024030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261024000000 +0000" stop="20261024030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -1547,6 +1542,11 @@
   <programme start="20261024000000 +0000" stop="20261024030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261024000000 +0000" stop="20261024030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme channel="ENTExtreme.cl" start="20261024004400 +0000" stop="20261024021100 +0000">
@@ -1585,11 +1585,6 @@
   <programme channel="ENTDrama.cl" start="20261024030000 +0000" stop="20261024121500 +0000">
     <title lang="es">Luna de miel para tres</title>
   </programme>
-  <programme start="20261024030000 +0000" stop="20261024060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261024030000 +0000" stop="20261024060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -1600,13 +1595,13 @@
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme channel="ENTExtreme.cl" start="20261024040000 +0000" stop="20261024121000 +0000">
-    <title lang="es">Loca academia de pilotos 2</title>
-  </programme>
-  <programme start="20261024060000 +0000" stop="20261024090000 +0000" channel="CHVNoticias.cl">
+  <programme start="20261024030000 +0000" stop="20261024060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261024040000 +0000" stop="20261024121000 +0000">
+    <title lang="es">Loca academia de pilotos 2</title>
   </programme>
   <programme start="20261024060000 +0000" stop="20261024090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -1618,14 +1613,14 @@
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261024090000 +0000" stop="20261024100000 +0000" channel="DIRECTVSports.cl">
-    <category lang="es">Talk</category>
-    <title lang="es">DSPORTS Noticias Nite</title>
-  </programme>
-  <programme start="20261024090000 +0000" stop="20261024120000 +0000" channel="CHVNoticias.cl">
+  <programme start="20261024060000 +0000" stop="20261024090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261024090000 +0000" stop="20261024100000 +0000" channel="DIRECTVSports.cl">
+    <category lang="es">Talk</category>
+    <title lang="es">DSPORTS Noticias Nite</title>
   </programme>
   <programme start="20261024090000 +0000" stop="20261024120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -1635,6 +1630,11 @@
   <programme start="20261024090000 +0000" stop="20261024120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261024090000 +0000" stop="20261024120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261024092100 +0000" stop="20261024094400 +0000" channel="HGTV.ar">
@@ -1779,11 +1779,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/makingthemovies.jpg" />
   </programme>
-  <programme start="20261024120000 +0000" stop="20261024150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261024120000 +0000" stop="20261024150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -1792,6 +1787,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme start="20261024120000 +0000" stop="20261024150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261024120000 +0000" stop="20261024150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme channel="ENTExtreme.cl" start="20261024121000 +0000" stop="20261024135100 +0000">
@@ -2400,11 +2400,6 @@ Kardea invita a su tía TC a un brunch. La comida sureña incluye camarones y po
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sietealmas.jpg" />
   </programme>
-  <programme start="20261024150000 +0000" stop="20261024180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261024150000 +0000" stop="20261024180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -2413,6 +2408,11 @@ Kardea invita a su tía TC a un brunch. La comida sureña incluye camarones y po
   <programme start="20261024150000 +0000" stop="20261024180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261024150000 +0000" stop="20261024180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261024150100 +0000" stop="20261024170100 +0000" channel="FX.cl">
@@ -4469,6 +4469,7 @@ Duff Goldman hace un pastel de los Muppets para unos estudiantes y otro para el 
     <title>Don Gato y su pandilla • Invierno caliente</title>
     <sub-title>Invierno caliente</sub-title>
     <desc>Invierno caliente | Don Gato habla tan bien a la prensa sobre las virtudes del oficial Matute, que el oficial deja pasar a Don gato y a su pandilla todo el invierno dentro de su departamento.</desc>
+    <category>Infantil</category>
     <episode-num system="onscreen">T1 E15</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dongatoysupandilla.jpg" />
   </programme>
@@ -5248,6 +5249,7 @@ Guy Fieri visita un lugar original en Fargo, Dakota del Norte, que sirve asado c
     <title>Don Gato y su pandilla • Don gato se enamora</title>
     <sub-title>Don gato se enamora</sub-title>
     <desc>Don gato se enamora | Don Gato se interna en un hospital para ganar el amor de la enfermera.</desc>
+    <category>Infantil</category>
     <episode-num system="onscreen">T1 E7</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dongatoysupandilla.jpg" />
   </programme>
@@ -5894,11 +5896,6 @@ Una madre y su hija buscan un pastel ideal para el cumpleaños de 16 de la hija,
     <category>Religious</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/especial.jpg" />
   </programme>
-  <programme start="20261024180000 +0000" stop="20261024210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261024180000 +0000" stop="20261024210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -5907,6 +5904,11 @@ Una madre y su hija buscan un pastel ideal para el cumpleaños de 16 de la hija,
   <programme start="20261024180000 +0000" stop="20261024210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261024180000 +0000" stop="20261024210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme channel="ENTExtreme.cl" start="20261024180100 +0000" stop="20261024194500 +0000">
@@ -8842,6 +8844,9 @@ El amor está en el aire porque celebramos el día de San Valentín con algo que
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -8854,6 +8859,7 @@ El amor está en el aire porque celebramos el día de San Valentín con algo que
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -9534,11 +9540,6 @@ Corey y Kyrene buscan comprar su primera casa juntos en Nassau, Bahamas. Ella es
     <category>Religious</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/equilibradamentesanos.jpg" />
   </programme>
-  <programme start="20261024210000 +0000" stop="20261025000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261024210000 +0000" stop="20261025000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -9547,6 +9548,11 @@ Corey y Kyrene buscan comprar su primera casa juntos en Nassau, Bahamas. Ella es
   <programme start="20261024210000 +0000" stop="20261025000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261024210000 +0000" stop="20261025000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme channel="ENTDrama.cl" start="20261024210300 +0000" stop="20261024225900 +0000">
@@ -13417,11 +13423,6 @@ Revisa las noticias más relevantes de la jornada.</desc>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025000000 +0000" stop="20261025030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261025000000 +0000" stop="20261025030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -13430,6 +13431,11 @@ Revisa las noticias más relevantes de la jornada.</desc>
   <programme start="20261025000000 +0000" stop="20261025030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261025000000 +0000" stop="20261025030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261025000100 +0000" stop="20261025000700 +0000" channel="Tooncast.cl">
@@ -15176,6 +15182,9 @@ Guy Fieri visita un lugar original en Fargo, Dakota del Norte, que sirve asado c
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -15188,6 +15197,7 @@ Guy Fieri visita un lugar original en Fargo, Dakota del Norte, que sirve asado c
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -18330,11 +18340,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme channel="ENTDrama.cl" start="20261025030000 +0000" stop="20261025124500 +0000">
     <title lang="es">La teoría del todo</title>
   </programme>
-  <programme start="20261025030000 +0000" stop="20261025060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261025030000 +0000" stop="20261025060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -18343,6 +18348,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme start="20261025030000 +0000" stop="20261025060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261025030000 +0000" stop="20261025060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261025030100 +0000" stop="20261025035000 +0000" channel="AnimalPlanet.cl">
@@ -22360,11 +22370,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <category>Religious</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/misteriosdeisrael.jpg" />
   </programme>
-  <programme start="20261025060000 +0000" stop="20261025090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261025060000 +0000" stop="20261025090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -22373,6 +22378,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme start="20261025060000 +0000" stop="20261025090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261025060000 +0000" stop="20261025090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261025060100 +0000" stop="20261025062300 +0000" channel="DisneyChannel.cl">
@@ -22474,20 +22484,6 @@ La colección de casas de todo el mundo incluye una casa alemana que se encuentr
     <category>Romántica</category>
     <country>Turquía</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261025060600 +0000" stop="20261025071500 +0000">
-    <title>Oh My Venus LATAM</title>
-    <episode-num system="onscreen">S01E08</episode-num>
-    <episode-num system="pluto">623df6a57936240013148d4d</episode-num>
-    <episode-num system="original-air-date">20151208000000 +0000</episode-num>
-    <desc>Young-ho tiene una segunda oportunidad con Ju-eun, mientras tanto, Woo-shik se entera y le dice al tío de Young-ho que Young-ho es posiblemente John Kim, ya que este último se presenta como el nuevo director de la compañía de su abuela.</desc>
-    <icon src="https://images.pluto.tv/series/623df67e7936240013148790/tile_1769212802209.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20151208</date>
-    <series-id system="pluto">623df67e7936240013148790</series-id>
-    <sub-title>Episodio 8</sub-title>
-    <category>Romantic comedy</category>
-    <category>Series</category>
-    <category>Romance</category>
   </programme>
   <programme start="20261025060700 +0000" stop="20261025063000 +0000" channel="FOODNETWORK.uy">
     <date>2020</date>
@@ -23609,7 +23605,20 @@ Giada De Laurentiis desafía a los pasteleros a hacer un pastel de boda para los
   <programme start="20261025064400 +0000" stop="20261025090000 +0000" channel="HBOPop.cl">
     <title>Inocencia interrumpida</title>
     <desc>Año 1967. Susanna Kaysen, de 17 años, es como la mayoría de las chicas americanas de su edad: está confusa, se siente insegura y lucha por entender el mundo que la rodea. Su psiquiatra decide ingresarla en el Hospital Claymoore, diagnosticándole un trastorno de la personalidad, que se manifiesta a través de una gran inseguridad respecto a la propia imagen, a los objetivos a largo plazo y a los amigos. En el centro Susanna conoce a Lisa, Georgina, Polly y Janet, un grupo de chicas inadaptadas con las que entabla una estrecha amistad y que, además, le muestran el camino para encontrarse a sí misma.</desc>
+    <credits>
+      <director>James Mangold</director>
+      <actor>Winona Ryder</actor>
+      <actor>Angelina Jolie</actor>
+      <actor>Clea DuVall</actor>
+      <actor>Brittany Murphy</actor>
+      <actor>Elisabeth Moss</actor>
+      <actor>Jared Leto</actor>
+      <actor>Jeffrey Tambor</actor>
+      <actor>Vanessa Redgrave</actor>
+    </credits>
+    <date>1999</date>
     <category>Drama</category>
+    <country>Estados Unidos</country>
     <rating>
       <value>R</value>
     </rating>
@@ -23791,20 +23800,6 @@ La estrella de la NBA Jordan Farman busca un contrato de alquiler a corto plazo 
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme channel="DramasCoreanos.cl" start="20261025065500 +0000" stop="20261025080600 +0000">
-    <title>Healer LATAM</title>
-    <episode-num system="onscreen">S01E02</episode-num>
-    <episode-num system="pluto">623b2ab1fc8de900130c2a23</episode-num>
-    <episode-num system="original-air-date">20141209000000 +0000</episode-num>
-    <desc>La tarea actual del Sanador involucra tanto a Moon-ho como a Young-shin.</desc>
-    <icon src="https://images.pluto.tv/series/623b294825269a0013a925f0/tile_1769212802086.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20141209</date>
-    <series-id system="pluto">623b294825269a0013a925f0</series-id>
-    <sub-title>Episodio 2</sub-title>
-    <category>Series</category>
-    <category>Romance</category>
-    <category>Drama</category>
   </programme>
   <programme start="20261025065500 +0000" stop="20261025072000 +0000" channel="Nick.cl">
     <title>Best and Bester • Corazón de animal / Best y la bestia</title>
@@ -24534,20 +24529,6 @@ Guerra de Pasteles atravesará el espejo con cuatro increíbles pasteleros que m
     <category>Drama</category>
     <country>EE. UU</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/reefaelartista.jpg" />
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261025071500 +0000" stop="20261025082400 +0000">
-    <title>Oh My Venus LATAM</title>
-    <episode-num system="onscreen">S01E09</episode-num>
-    <episode-num system="pluto">623df69c7936240013148b96</episode-num>
-    <episode-num system="original-air-date">20151224000000 +0000</episode-num>
-    <desc>Ju-eun descubre más sobre el dolor constante de Young-ho cada vez que se siente perturbado por algo, Woo-shik le da a Ju-eun devolver la corbata que le dio cuando se rompieron.</desc>
-    <icon src="https://images.pluto.tv/series/623df67e7936240013148790/tile_1769212802209.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20151224</date>
-    <series-id system="pluto">623df67e7936240013148790</series-id>
-    <sub-title>Episodio 9</sub-title>
-    <category>Romantic comedy</category>
-    <category>Series</category>
-    <category>Romance</category>
   </programme>
   <programme start="20261025071500 +0000" stop="20261025084500 +0000" channel="TVN.cl">
     <title>La vida es una lotería</title>
@@ -25836,20 +25817,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <episode-num system="onscreen">S1E12</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20261025080600 +0000" stop="20261025092100 +0000">
-    <title>Healer LATAM</title>
-    <episode-num system="onscreen">S01E03</episode-num>
-    <episode-num system="pluto">623b2ad5fc8de900130c2a4e</episode-num>
-    <episode-num system="original-air-date">20141215000000 +0000</episode-num>
-    <desc>A medida que el Sanador se acerca a Young-shin, continúa preguntándose cómo sabe sobre él y por qué.</desc>
-    <icon src="https://images.pluto.tv/series/623b294825269a0013a925f0/tile_1769212802086.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20141215</date>
-    <series-id system="pluto">623b294825269a0013a925f0</series-id>
-    <sub-title>Episodio 3</sub-title>
-    <category>Series</category>
-    <category>Romance</category>
-    <category>Drama</category>
-  </programme>
   <programme start="20261025080800 +0000" stop="20261025083200 +0000" channel="DisneyJunior.cl">
     <title>La Guardia del León • Viaje a las praderas</title>
     <sub-title>Viaje a las praderas</sub-title>
@@ -26337,20 +26304,6 @@ Un chef y su esposa buscan mudarse a Hudson Valley y quieren un hogar con una gr
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261025082400 +0000" stop="20261025093300 +0000">
-    <title>Oh My Venus LATAM</title>
-    <episode-num system="onscreen">S01E10</episode-num>
-    <episode-num system="pluto">623df69f7936240013148bbb</episode-num>
-    <episode-num system="original-air-date">20151215000000 +0000</episode-num>
-    <desc>Young Ho se siente frustrado por mantener su vida laboral separada de su vida personal; Joo Eun se prepara para mudarse.</desc>
-    <icon src="https://images.pluto.tv/series/623df67e7936240013148790/tile_1769212802209.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20151215</date>
-    <series-id system="pluto">623df67e7936240013148790</series-id>
-    <sub-title>Episodio 10</sub-title>
-    <category>Romantic comedy</category>
-    <category>Series</category>
-    <category>Romance</category>
   </programme>
   <programme start="20261025082400 +0000" stop="20261025083500 +0000" channel="Tooncast.cl">
     <title>Hermano de Jorel • Chico sirena</title>
@@ -27637,11 +27590,6 @@ Molly Yeh está preparando un almuerzo acogedor con ramen de miso y luego tiene 
     <episode-num system="onscreen">T4 E6</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025090000 +0000" stop="20261025120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261025090000 +0000" stop="20261025120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -27650,6 +27598,11 @@ Molly Yeh está preparando un almuerzo acogedor con ramen de miso y luego tiene 
   <programme start="20261025090000 +0000" stop="20261025120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261025090000 +0000" stop="20261025120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261025090100 +0000" stop="20261025091200 +0000" channel="CartoonNetwork.cl">
@@ -27968,6 +27921,9 @@ Molly Yeh está preparando un almuerzo acogedor con ramen de miso y luego tiene 
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -27980,6 +27936,7 @@ Molly Yeh está preparando un almuerzo acogedor con ramen de miso y luego tiene 
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -28031,20 +27988,6 @@ El diseñador Vern Yip y un agente de bienes raíces local evalúan tres renovac
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
     <title lang="es">La mejor inversión</title>
     <title lang="en">Bang for Your Buck</title>
-  </programme>
-  <programme channel="DramasCoreanos.cl" start="20261025092100 +0000" stop="20261025103500 +0000">
-    <title>Healer LATAM</title>
-    <episode-num system="onscreen">S01E04</episode-num>
-    <episode-num system="pluto">623b2d84d0f36a0013df0780</episode-num>
-    <episode-num system="original-air-date">20141216000000 +0000</episode-num>
-    <desc>Jung-ho, ahora encubierto como Bong-soo, continúa vinculado con Yong-shin como colegas.</desc>
-    <icon src="https://images.pluto.tv/series/623b294825269a0013a925f0/tile_1769212802086.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20141216</date>
-    <series-id system="pluto">623b294825269a0013a925f0</series-id>
-    <sub-title>Episodio 4</sub-title>
-    <category>Series</category>
-    <category>Romance</category>
-    <category>Drama</category>
   </programme>
   <programme start="20261025092100 +0000" stop="20261025094500 +0000" channel="DisneyChannel.cl">
     <title>Acampados • Un desastre muuuuy grande</title>
@@ -28435,20 +28378,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
       <value>TVPG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/quiendama.jpg" />
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261025093300 +0000" stop="20261025104200 +0000">
-    <title>Oh My Venus LATAM</title>
-    <episode-num system="onscreen">S01E11</episode-num>
-    <episode-num system="pluto">623df6a97936240013148dd9</episode-num>
-    <episode-num system="original-air-date">20151221000000 +0000</episode-num>
-    <desc>Con tantas cosas malas a su alrededor, Young-ho encuentra en Ju-eun todo lo que necesita para superar la presión.</desc>
-    <icon src="https://images.pluto.tv/series/623df67e7936240013148790/tile_1769212802209.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20151221</date>
-    <series-id system="pluto">623df67e7936240013148790</series-id>
-    <sub-title>Episodio 11</sub-title>
-    <category>Romantic comedy</category>
-    <category>Series</category>
-    <category>Romance</category>
   </programme>
   <programme start="20261025093400 +0000" stop="20261025102000 +0000" channel="DiscoveryTurbo.cl">
     <title>El dúo mecánico • A contrarreloj</title>
@@ -30201,20 +30130,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/csimiami.jpg" />
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20261025103500 +0000" stop="20261025115000 +0000">
-    <title>Healer LATAM</title>
-    <episode-num system="onscreen">S01E05</episode-num>
-    <episode-num system="pluto">623b2da8d0f36a0013df0864</episode-num>
-    <episode-num system="original-air-date">20141222000000 +0000</episode-num>
-    <desc>El Sanador se ha atado a Young-shin después de que él intervino en su nombre durante un ataque.</desc>
-    <icon src="https://images.pluto.tv/series/623b294825269a0013a925f0/tile_1769212802086.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20141222</date>
-    <series-id system="pluto">623b294825269a0013a925f0</series-id>
-    <sub-title>Episodio 5</sub-title>
-    <category>Series</category>
-    <category>Romance</category>
-    <category>Drama</category>
-  </programme>
   <programme start="20261025103500 +0000" stop="20261025104700 +0000" channel="CartoonNetwork.cl">
     <title>Los Jóvenes Titanes en acción • Libros</title>
     <sub-title>Libros</sub-title>
@@ -30487,20 +30402,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/maydaycatastrofesaereas.jpg" />
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261025104200 +0000" stop="20261025115200 +0000">
-    <title>Oh My Venus LATAM</title>
-    <episode-num system="onscreen">S01E12</episode-num>
-    <episode-num system="pluto">623df7fe4f80a80014ee9171</episode-num>
-    <episode-num system="original-air-date">20151222000000 +0000</episode-num>
-    <desc>La toma de posesión de Young-ho va según lo planeado y se convierte en el nuevo director ejecutivo. Está ocupado estableciéndose en su nueva posición, pero se hace tiempo para pasar junto a Ju-eun.</desc>
-    <icon src="https://images.pluto.tv/series/623df67e7936240013148790/tile_1769212802209.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20151222</date>
-    <series-id system="pluto">623df67e7936240013148790</series-id>
-    <sub-title>Episodio 12</sub-title>
-    <category>Romantic comedy</category>
-    <category>Series</category>
-    <category>Romance</category>
   </programme>
   <programme start="20261025104500 +0000" stop="20261025115500 +0000" channel="ESPNPremium.cl">
     <title>Práctica - Fórmula 1 • Gran Premio de los Estados Unidos, Práctica 3, Circuito de las Américas</title>
@@ -32966,11 +32867,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     <episode-num system="onscreen">T4 E5</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025120000 +0000" stop="20261025150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261025120000 +0000" stop="20261025150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -32979,6 +32875,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme start="20261025120000 +0000" stop="20261025150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261025120000 +0000" stop="20261025150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261025120400 +0000" stop="20261025135900 +0000" channel="HBO.Plus.cl">
@@ -34571,7 +34472,7 @@ Después de los problemas con los retrasos en la construcción, EJ y Jason compl
   </programme>
   <programme start="20261025131600 +0000" stop="20261025154500 +0000" channel="FX.cl">
     <title>Agua para elefantes</title>
-    <desc>Un estudiante de medicina veterinaria, se encuentra cerca de graduarse, pero una terrible tragedia le obliga a abandonar la escuela.</desc>
+    <desc>En la época de la Gran Depresión, un joven estudiante de veterinaria se ve obligado a dejar sus estudios tras la muerte de sus padres. Empieza entonces a trabajar para el circo de los hermanos Benzini como veterinario y encargado de los animales. El joven se enamora de Marlena, una amazona que está casada con August, el dueño del circo, un hombre tan carismático como retorcido... Adaptación del aclamado best-seller homónimo de Sara Gruen</desc>
     <credits>
       <director>Francis Lawrence</director>
       <actor>Reese Witherspoon</actor>
@@ -34607,6 +34508,7 @@ Después de los problemas con los retrasos en la construcción, EJ y Jason compl
     <category>Movie</category>
     <category>Drama</category>
     <category>Romance</category>
+    <country>Estados Unidos</country>
     <rating>
       <value>B</value>
     </rating>
@@ -36560,6 +36462,9 @@ Los Bader se enamoran de una casa con garaje para cinco coches. Sin embargo, su 
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -36572,6 +36477,7 @@ Los Bader se enamoran de una casa con garaje para cinco coches. Sin embargo, su 
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -37237,11 +37143,6 @@ Daphne Brogdon prepara comida apta para el auto para un viaje familiar. El menú
     <episode-num system="onscreen">T3 E5</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/bluebloods.jpg" />
   </programme>
-  <programme start="20261025150000 +0000" stop="20261025180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261025150000 +0000" stop="20261025180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -37250,6 +37151,11 @@ Daphne Brogdon prepara comida apta para el auto para un viaje familiar. El menú
   <programme start="20261025150000 +0000" stop="20261025180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261025150000 +0000" stop="20261025180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261025150500 +0000" stop="20261025153000 +0000" channel="Nick.cl">
@@ -39046,8 +38952,8 @@ Conoce los detalles más resaltantes sobre los últimos acontecimientos ocurrido
     <date>20110502</date>
     <series-id system="pluto">66e050eb38c4a000133e43fd</series-id>
     <sub-title>Episodio 1</sub-title>
-    <category>Telenovela</category>
     <category>Series</category>
+    <category>Telenovela</category>
   </programme>
   <programme start="20261025163300 +0000" stop="20261025164400 +0000" channel="DiscoveryKids.cl">
     <title>Hello Kitty: Super Style! • ¡Hola, Haroshee</title>
@@ -39618,6 +39524,7 @@ Siete equipos se enfrentan a su tercer conjunto de desafíos. Un camión atrae l
     <title>Don Gato y su pandilla • El gran marajá</title>
     <sub-title>El gran marajá</sub-title>
     <desc>El gran marajá | Confunden a Don Gato con un Marajá, pero cuando el verdadero Marajá se encuentra con él y le da una bolsa llena de rubíes, Don Gato lo confunde con otro impostor y se deshace de los rubíes.</desc>
+    <category>Infantil</category>
     <episode-num system="onscreen">T1 E2</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dongatoysupandilla.jpg" />
   </programme>
@@ -40238,6 +40145,7 @@ Siete equipos se enfrentan a su tercer conjunto de desafíos. Un camión atrae l
     <title>Don Gato y su pandilla • Salvando al osito hormiguero</title>
     <sub-title>Salvando al osito hormiguero</sub-title>
     <desc>Salvando al osito hormiguero | Don Gato encuentra un oso hormiguero y ve en él una oportunidad para ganar dinero. Convencido de que recibirá una recompensa, planea llevarlo al zoológico, pero sus intentos por cumplir el objetivo terminan generando divertidos enredos.</desc>
+    <category>Infantil</category>
     <episode-num system="onscreen">T1 E16</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dongatoysupandilla.jpg" />
   </programme>
@@ -40862,8 +40770,8 @@ Jin-wook acosa a So-young, presentándola a las personas que la rodean como meno
     <date>20110503</date>
     <series-id system="pluto">66e050eb38c4a000133e43fd</series-id>
     <sub-title>Episodio 2</sub-title>
-    <category>Telenovela</category>
     <category>Series</category>
+    <category>Telenovela</category>
   </programme>
   <programme start="20261025175000 +0000" stop="20261025181000 +0000" channel="Nick.cl">
     <title>The Loud House • Un presente tenso / Un helado cualquiera</title>
@@ -41317,11 +41225,6 @@ Jin-wook acosa a So-young, presentándola a las personas que la rodean como meno
     <category>Religious</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/disruptivas.jpg" />
   </programme>
-  <programme start="20261025180000 +0000" stop="20261025210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261025180000 +0000" stop="20261025210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -41330,6 +41233,11 @@ Jin-wook acosa a So-young, presentándola a las personas que la rodean como meno
   <programme start="20261025180000 +0000" stop="20261025210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261025180000 +0000" stop="20261025210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261025180100 +0000" stop="20261025180400 +0000" channel="DisneyJunior.cl">
@@ -42802,8 +42710,8 @@ Ella está decidida a revelar su identidad esta vez.</desc>
     <date>20110509</date>
     <series-id system="pluto">66e050eb38c4a000133e43fd</series-id>
     <sub-title>Episodio 3</sub-title>
-    <category>Telenovela</category>
     <category>Series</category>
+    <category>Telenovela</category>
   </programme>
   <programme start="20261025190800 +0000" stop="20261025195000 +0000" channel="FOODNETWORK.uy">
     <category lang="es">Reality</category>
@@ -44502,14 +44410,17 @@ Dos diseñadores deben hacer un piloto de un programa de TV, para demostrar sus 
     <date>20110510</date>
     <series-id system="pluto">66e050eb38c4a000133e43fd</series-id>
     <sub-title>Episodio 4</sub-title>
-    <category>Telenovela</category>
     <category>Series</category>
+    <category>Telenovela</category>
   </programme>
   <programme start="20261025202500 +0000" stop="20261025211500 +0000" channel="NickJr.bo">
     <title>Santiago de los mares • La maldición del Halcón Dorado; La isla de las Cosas Perdidas</title>
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -44522,6 +44433,7 @@ Dos diseñadores deben hacer un piloto de un programa de TV, para demostrar sus 
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -45373,11 +45285,6 @@ Después de pasar algunos años en Estados Unidos, una pareja de las Bahamas ext
     <category>Religious</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/unapalabradelcorazondedios.jpg" />
   </programme>
-  <programme start="20261025210000 +0000" stop="20261026000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261025210000 +0000" stop="20261026000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -45386,6 +45293,11 @@ Después de pasar algunos años en Estados Unidos, una pareja de las Bahamas ext
   <programme start="20261025210000 +0000" stop="20261026000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261025210000 +0000" stop="20261026000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261025210300 +0000" stop="20261025215300 +0000" channel="Discovery.cl">
@@ -46104,8 +46016,8 @@ So-young revela su verdadera edad en una cena de empresa”.</desc>
     <date>20110516</date>
     <series-id system="pluto">66e050eb38c4a000133e43fd</series-id>
     <sub-title>Episodio 5</sub-title>
-    <category>Telenovela</category>
     <category>Series</category>
+    <category>Telenovela</category>
   </programme>
   <programme start="20261025214300 +0000" stop="20261025235300 +0000" channel="TNT.cl">
     <title>Una esposa de mentira</title>
@@ -47829,8 +47741,8 @@ Yoon-seo siente que So-young es molesta y tira el boceto de So-young”.</desc>
     <date>20110517</date>
     <series-id system="pluto">66e050eb38c4a000133e43fd</series-id>
     <sub-title>Episodio 6</sub-title>
-    <category>Telenovela</category>
     <category>Series</category>
+    <category>Telenovela</category>
   </programme>
   <programme channel="ENTChannel.cl" start="20261025225800 +0000" stop="20261026004100 +0000">
     <title lang="es">Hannah Montana: La película</title>
@@ -49352,11 +49264,6 @@ Revisa las noticias más relevantes de la jornada.</desc>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/caminoalavictoria.jpg" />
   </programme>
-  <programme start="20261026000000 +0000" stop="20261026030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261026000000 +0000" stop="20261026030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -49365,6 +49272,11 @@ Revisa las noticias más relevantes de la jornada.</desc>
   <programme start="20261026000000 +0000" stop="20261026030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261026000000 +0000" stop="20261026030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261026000100 +0000" stop="20261026020200 +0000" channel="HBO.cl">
@@ -49438,6 +49350,20 @@ Revisa las noticias más relevantes de la jornada.</desc>
       <value>PG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/todoterreno.jpg" />
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261026000300 +0000" stop="20261026011500 +0000">
+    <title>Healer LATAM</title>
+    <episode-num system="onscreen">S01E16</episode-num>
+    <episode-num system="pluto">623b31ca7936240013141b57</episode-num>
+    <episode-num system="original-air-date">20150127000000 +0000</episode-num>
+    <desc>Jeong-hu sigue una pista dada por Moon-ho para encontrar la verdad detrás del caso de su padre. La Sra. Jo nota algo raro sobre el rastreador de ubicación de Young-shin.</desc>
+    <icon src="https://images.pluto.tv/series/623b294825269a0013a925f0/tile_1769212802086.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20150127</date>
+    <series-id system="pluto">623b294825269a0013a925f0</series-id>
+    <sub-title>Episodio 16</sub-title>
+    <category>Series</category>
+    <category>Romance</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261026000300 +0000" stop="20261026020700 +0000" channel="FX.cl">
     <title>Bad Hair</title>
@@ -49633,6 +49559,20 @@ Una pareja quiere usar el complejo del patio trasero de su casa, pero el piso de
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comoencasa.jpg" />
+  </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261026001500 +0000" stop="20261026013200 +0000">
+    <title>Belleza Juvenil</title>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <episode-num system="pluto">66e050fa38c4a000133e495d</episode-num>
+    <episode-num system="original-air-date">20110523000000 +0000</episode-num>
+    <desc>So-young, Jinwook, Yun-seo y Seung-il se reúnen en la casa de Jin-wook.
+Gracias a la hija de Seung-il, las cuatro personas descubren los verdaderos sentimientos del otro y Jin-wook besa inesperadamente a So-young.</desc>
+    <icon src="https://images.pluto.tv/series/66e050eb38c4a000133e43fd/tile_1776895253677.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20110523</date>
+    <series-id system="pluto">66e050eb38c4a000133e43fd</series-id>
+    <sub-title>Episodio 7</sub-title>
+    <category>Series</category>
+    <category>Telenovela</category>
   </programme>
   <programme start="20261026001500 +0000" stop="20261026004000 +0000" channel="Nick.cl">
     <title>The Loud House • Robando cámara / Cuidado con lo que pescas</title>
@@ -51094,6 +51034,9 @@ Un piloto y un auxiliar de vuelo se sorprenden con la renovación de una cocina 
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -51106,6 +51049,7 @@ Un piloto y un auxiliar de vuelo se sorprenden con la renovación de una cocina 
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -51303,6 +51247,20 @@ Un piloto y un auxiliar de vuelo se sorprenden con la renovación de una cocina 
       <value>TVPG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261026011500 +0000" stop="20261026022800 +0000">
+    <title>Healer LATAM</title>
+    <episode-num system="onscreen">S01E17</episode-num>
+    <episode-num system="pluto">623b31df7936240013141e89</episode-num>
+    <episode-num system="original-air-date">20150202000000 +0000</episode-num>
+    <desc>La fuente podría haber desaparecido, pero no la pista. El Sanador continúa buscando la cinta de la confesión de su padre, una cinta que podría cambiar todo.</desc>
+    <icon src="https://images.pluto.tv/series/623b294825269a0013a925f0/tile_1769212802086.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20150202</date>
+    <series-id system="pluto">623b294825269a0013a925f0</series-id>
+    <sub-title>Episodio 17</sub-title>
+    <category>Series</category>
+    <category>Romance</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261026011500 +0000" stop="20261026021500 +0000" channel="ESPN3.cl">
     <title>Scrum</title>
@@ -51758,6 +51716,19 @@ El diseñador Vern Yip y un agente de bienes raíces local evalúan tres renovac
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/phineasyferb.jpg" />
+  </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261026013200 +0000" stop="20261026025000 +0000">
+    <title>Belleza Juvenil</title>
+    <episode-num system="onscreen">S01E08</episode-num>
+    <episode-num system="pluto">66e050fe38c4a000133e4a76</episode-num>
+    <episode-num system="original-air-date">20110524000000 +0000</episode-num>
+    <desc>So-young, que está esperando que le liberen la ropa, encuentra dificultades inesperadas y Jinwook intenta proteger el sueño de So-young.</desc>
+    <icon src="https://images.pluto.tv/series/66e050eb38c4a000133e43fd/tile_1776895253677.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20110524</date>
+    <series-id system="pluto">66e050eb38c4a000133e43fd</series-id>
+    <sub-title>Episodio 8</sub-title>
+    <category>Series</category>
+    <category>Telenovela</category>
   </programme>
   <programme start="20261026013500 +0000" stop="20261026014000 +0000" channel="TVN.cl">
     <title>TV tiempo</title>
@@ -52946,6 +52917,20 @@ Una pareja fanática de las motocicletas de Salt Lake City quiere estar más cer
     <episode-num system="onscreen">T1 E32</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="DramasCoreanos.cl" start="20261026022800 +0000" stop="20261026034100 +0000">
+    <title>Healer LATAM</title>
+    <episode-num system="onscreen">S01E18</episode-num>
+    <episode-num system="pluto">623b31d97936240013141d71</episode-num>
+    <episode-num system="original-air-date">20150203000000 +0000</episode-num>
+    <desc>Mun-ho transmite el contenido de la cinta de audio en las noticias en vivo.</desc>
+    <icon src="https://images.pluto.tv/series/623b294825269a0013a925f0/tile_1769212802086.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20150203</date>
+    <series-id system="pluto">623b294825269a0013a925f0</series-id>
+    <sub-title>Episodio 18</sub-title>
+    <category>Series</category>
+    <category>Romance</category>
+    <category>Drama</category>
+  </programme>
   <programme channel="ENTChannel.cl" start="20261026022900 +0000" stop="20261026030000 +0000">
     <title lang="es">Los Simpson</title>
   </programme>
@@ -53304,6 +53289,19 @@ Una pareja de recién casados busca una casa en la montaña en Wasatch Range cer
     <country>EE. UU</country>
     <episode-num system="onscreen">S1 E2</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261026025000 +0000" stop="20261026040800 +0000">
+    <title>Belleza Juvenil</title>
+    <episode-num system="onscreen">S01E09</episode-num>
+    <episode-num system="pluto">66e0989d6ec6ad00130d7baf</episode-num>
+    <episode-num system="original-air-date">20110530000000 +0000</episode-num>
+    <desc>So-young y Jin-wook están varados porque su auto se avería. Jin-wook le hace una confesión sincera a So-young, y Seung-il también tiene sentimientos especiales por So-young.</desc>
+    <icon src="https://images.pluto.tv/series/66e050eb38c4a000133e43fd/tile_1776895253677.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20110530</date>
+    <series-id system="pluto">66e050eb38c4a000133e43fd</series-id>
+    <sub-title>Episodio 9</sub-title>
+    <category>Series</category>
+    <category>Telenovela</category>
   </programme>
   <programme start="20261026025000 +0000" stop="20261026031000 +0000" channel="ComedyCentral.cl">
     <title>El rey del barrio • Noches sin descanso</title>
@@ -53878,11 +53876,6 @@ Una pareja de recién casados busca una casa en la montaña en Wasatch Range cer
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/criminalminds.jpg" />
   </programme>
-  <programme start="20261026030000 +0000" stop="20261026060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261026030000 +0000" stop="20261026060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -53891,6 +53884,11 @@ Una pareja de recién casados busca una casa en la montaña en Wasatch Range cer
   <programme start="20261026030000 +0000" stop="20261026060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261026030000 +0000" stop="20261026060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261026030100 +0000" stop="20261026032900 +0000" channel="DisneyChannel.cl">
@@ -54695,6 +54693,20 @@ Un nuevo espacio multiplataforma, creado para visibilizar historias de innovaci�
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dora.jpg" />
   </programme>
+  <programme channel="DramasCoreanos.cl" start="20261026034100 +0000" stop="20261026045400 +0000">
+    <title>Healer LATAM</title>
+    <episode-num system="onscreen">S01E19</episode-num>
+    <episode-num system="pluto">623b31e27936240013141eeb</episode-num>
+    <episode-num system="original-air-date">20150209000000 +0000</episode-num>
+    <desc>El anciano pone una trampa que pone en peligro a los que rodean a el Sanador y lo obligan a hacer algo que no quiere hacer.</desc>
+    <icon src="https://images.pluto.tv/series/623b294825269a0013a925f0/tile_1769212802086.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20150209</date>
+    <series-id system="pluto">623b294825269a0013a925f0</series-id>
+    <sub-title>Episodio 19</sub-title>
+    <category>Series</category>
+    <category>Romance</category>
+    <category>Drama</category>
+  </programme>
   <programme start="20261026034500 +0000" stop="20261026044500 +0000" channel="TVN.cl">
     <title>Avenida Brasil</title>
     <desc>Nina, de seis años, abandonada por su madrastra, Carmina, en un basural después de que estafara y dejara muerto a su padre. Ella promete vengar el nombre de su papá y hacer la vida imposible a la mujer que le quitó todo. En el vertedero, Nina conoce al amor de su vida, del que termina separándose al ser adoptada por una familia argentina que la rebautizaría como Rita. Doce años después, esta se convierte en la cocinera de Carmina, quién no la reconoce, y comienza su plan de justicia que complicará su propia vida, además de intentar reencontrarse con su amor de la infancia.</desc>
@@ -55382,6 +55394,20 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
 Katie busca especialidades gastronómicas regionales en playas de varios lugares. En su periplo, Katie prueba el calabacín caribeño y un licor mexicano llamado raicilla.</desc>
     <episode-num>S1 E2</episode-num>
     <title lang="es">Beach Bites with Katie Lee</title>
+  </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261026040800 +0000" stop="20261026052500 +0000">
+    <title>Belleza Juvenil</title>
+    <episode-num system="onscreen">S01E10</episode-num>
+    <episode-num system="pluto">66e098a06ec6ad00130d7d38</episode-num>
+    <episode-num system="original-air-date">20110531000000 +0000</episode-num>
+    <desc>A medida que crecen sus sentimientos por Jin-wook, So-young, que sufre de culpa, intenta revelar su identidad.
+Yun-seo planea revelar públicamente la identidad de So-young en un evento conmemorativo.</desc>
+    <icon src="https://images.pluto.tv/series/66e050eb38c4a000133e43fd/tile_1776895253677.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20110531</date>
+    <series-id system="pluto">66e050eb38c4a000133e43fd</series-id>
+    <sub-title>Episodio 10</sub-title>
+    <category>Series</category>
+    <category>Telenovela</category>
   </programme>
   <programme start="20261026040900 +0000" stop="20261026060100 +0000" channel="HBOPop.cl">
     <title>¿Quién *&amp;$%! son los Miller?</title>
@@ -56505,6 +56531,20 @@ Los diseñadores compiten para crear cocinas de diseño dignas de aparecer en la
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="DramasCoreanos.cl" start="20261026045400 +0000" stop="20261026060700 +0000">
+    <title>Healer LATAM</title>
+    <episode-num system="onscreen">S01E20</episode-num>
+    <episode-num system="pluto">623b31be7936240013141963</episode-num>
+    <episode-num system="original-air-date">20150210000000 +0000</episode-num>
+    <desc>Dado que el plan A para derribar a los ancianos y los agricultores no fue tan bien, el Sanador y su equipo buscan un plan B.</desc>
+    <icon src="https://images.pluto.tv/series/623b294825269a0013a925f0/tile_1769212802086.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20150210</date>
+    <series-id system="pluto">623b294825269a0013a925f0</series-id>
+    <sub-title>Episodio 20</sub-title>
+    <category>Series</category>
+    <category>Romance</category>
+    <category>Drama</category>
+  </programme>
   <programme start="20261026045600 +0000" stop="20261026050700 +0000" channel="CartoonNetwork.cl">
     <title>Escandalosos • Más del canal de todos</title>
     <sub-title>Más del canal de todos</sub-title>
@@ -56570,6 +56610,7 @@ Los diseñadores compiten para crear cocinas de diseño dignas de aparecer en la
     <title>Don Gato y su pandilla • El gran marajá</title>
     <sub-title>El gran marajá</sub-title>
     <desc>El gran marajá | Confunden a Don Gato con un Marajá, pero cuando el verdadero Marajá se encuentra con él y le da una bolsa llena de rubíes, Don Gato lo confunde con otro impostor y se deshace de los rubíes.</desc>
+    <category>Infantil</category>
     <episode-num system="onscreen">T1 E2</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dongatoysupandilla.jpg" />
   </programme>
@@ -57447,6 +57488,7 @@ Una pareja está lista para cambiar su apartamento por una casa con mucho terren
     <title>Don Gato y su pandilla • Salvando al osito hormiguero</title>
     <sub-title>Salvando al osito hormiguero</sub-title>
     <desc>Salvando al osito hormiguero | Don Gato encuentra un oso hormiguero y ve en él una oportunidad para ganar dinero. Convencido de que recibirá una recompensa, planea llevarlo al zoológico, pero sus intentos por cumplir el objetivo terminan generando divertidos enredos.</desc>
+    <category>Infantil</category>
     <episode-num system="onscreen">T1 E16</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dongatoysupandilla.jpg" />
   </programme>
@@ -58306,11 +58348,6 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubi.jpg" />
   </programme>
-  <programme start="20261026060000 +0000" stop="20261026090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261026060000 +0000" stop="20261026090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -58319,6 +58356,11 @@ Noticiero, con despachos en directo y corresponsalías en todo el mundo.</desc>
   <programme start="20261026060000 +0000" stop="20261026090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261026060000 +0000" stop="20261026090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261026060100 +0000" stop="20261026073000 +0000" channel="HBOPop.cl">
@@ -63455,11 +63497,6 @@ Molly Yeh está preparando una cena de inauguración con mezclas judías del med
     <episode-num system="onscreen">T2 E9</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ncishawaii.jpg" />
   </programme>
-  <programme start="20261026090000 +0000" stop="20261026120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261026090000 +0000" stop="20261026120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -63468,6 +63505,11 @@ Molly Yeh está preparando una cena de inauguración con mezclas judías del med
   <programme start="20261026090000 +0000" stop="20261026120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261026090000 +0000" stop="20261026120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261026090500 +0000" stop="20261026093000 +0000" channel="Nick.cl">
@@ -63729,6 +63771,9 @@ Molly Yeh está preparando una cena de inauguración con mezclas judías del med
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -63741,6 +63786,7 @@ Molly Yeh está preparando una cena de inauguración con mezclas judías del med
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -68758,11 +68804,6 @@ En la cocina se está sirviendo un plato perfecto con los mejores sabores del ve
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/csimiami.jpg" />
   </programme>
-  <programme start="20261026120000 +0000" stop="20261026150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261026120000 +0000" stop="20261026150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -68771,6 +68812,11 @@ En la cocina se está sirviendo un plato perfecto con los mejores sabores del ve
   <programme start="20261026120000 +0000" stop="20261026150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261026120000 +0000" stop="20261026150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261026120200 +0000" stop="20261026121300 +0000" channel="CartoonNetwork.cl">
@@ -72760,6 +72806,9 @@ Kardea es anfitriona de un club de cenas itinerante y su menú sureño incluye p
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -72772,6 +72821,7 @@ Kardea es anfitriona de un club de cenas itinerante y su menú sureño incluye p
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -73498,11 +73548,6 @@ Nancy Fuller llega con su menú de picnic para un espectáculo aéreo.</desc>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/doraylaciudadperdida.jpg" />
   </programme>
-  <programme start="20261026150000 +0000" stop="20261026180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261026150000 +0000" stop="20261026180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -73511,6 +73556,11 @@ Nancy Fuller llega con su menú de picnic para un espectáculo aéreo.</desc>
   <programme start="20261026150000 +0000" stop="20261026180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261026150000 +0000" stop="20261026180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261026150200 +0000" stop="20261026155300 +0000" channel="Discovery.cl">
@@ -77872,11 +77922,6 @@ Espacio que promueve y difunde una serie de actividades culturales de gran diver
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hoteltransylvania2.jpg" />
   </programme>
-  <programme start="20261026180000 +0000" stop="20261026210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261026180000 +0000" stop="20261026210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -77885,6 +77930,11 @@ Espacio que promueve y difunde una serie de actividades culturales de gran diver
   <programme start="20261026180000 +0000" stop="20261026210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261026180000 +0000" stop="20261026210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261026180300 +0000" stop="20261026181300 +0000" channel="CartoonNetwork.cl">
@@ -81447,6 +81497,9 @@ Resumen noticioso nacional e internacional.</desc>
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -81459,6 +81512,7 @@ Resumen noticioso nacional e internacional.</desc>
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -82377,11 +82431,6 @@ Una artista que sueña con tener una casa de campo histórica en un entorno trop
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026210000 +0000" stop="20261027000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261026210000 +0000" stop="20261027000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -82390,6 +82439,11 @@ Una artista que sueña con tener una casa de campo histórica en un entorno trop
   <programme start="20261026210000 +0000" stop="20261027000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261026210000 +0000" stop="20261027000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261026210600 +0000" stop="20261026211900 +0000" channel="CartoonNetwork.cl">
@@ -86949,11 +87003,6 @@ Revisa las noticias más relevantes de la jornada.</desc>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lanochedeldemoniocapitulo2.jpg" />
   </programme>
-  <programme start="20261027000000 +0000" stop="20261027030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261027000000 +0000" stop="20261027030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -86962,6 +87011,11 @@ Revisa las noticias más relevantes de la jornada.</desc>
   <programme start="20261027000000 +0000" stop="20261027030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261027000000 +0000" stop="20261027030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261027000400 +0000" stop="20261027001800 +0000" channel="CartoonNetwork.cl">
@@ -88628,6 +88682,9 @@ Duff Goldman entrega un pastel de toro de 45 kilogramos y crea un pastel de un Z
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -88640,6 +88697,7 @@ Duff Goldman entrega un pastel de toro de 45 kilogramos y crea un pastel de un Z
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -92006,11 +92064,6 @@ Programación a confirmar.</desc>
   <programme channel="ENTDrama.cl" start="20261027030000 +0000" stop="20261027142700 +0000">
     <title lang="es">La otra reina</title>
   </programme>
-  <programme start="20261027030000 +0000" stop="20261027060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261027030000 +0000" stop="20261027060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -92019,6 +92072,11 @@ Programación a confirmar.</desc>
   <programme start="20261027030000 +0000" stop="20261027060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261027030000 +0000" stop="20261027060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261027030100 +0000" stop="20261027035600 +0000" channel="History.cl">
@@ -97104,11 +97162,6 @@ Una pareja de recién casados busca establecerse en una casa familiar de Hudson 
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasestrellas.jpg" />
   </programme>
-  <programme start="20261027060000 +0000" stop="20261027090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261027060000 +0000" stop="20261027090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -97117,6 +97170,11 @@ Una pareja de recién casados busca establecerse en una casa familiar de Hudson 
   <programme start="20261027060000 +0000" stop="20261027090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261027060000 +0000" stop="20261027090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261027060400 +0000" stop="20261027064800 +0000" channel="HGTV.ar">
@@ -100348,6 +100406,9 @@ Una pareja de recién casados busca establecerse en una casa familiar de Hudson 
     <date>2020</date>
     <category>Suspenso</category>
     <country>EE. UU</country>
+    <rating>
+      <value>4.9</value>
+    </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aciegas.jpg" />
   </programme>
   <programme start="20261027082100 +0000" stop="20261027084400 +0000" channel="DisneyJunior.cl">
@@ -101845,11 +101906,6 @@ Molly Yeh está preparando la cena para sus suegros para agradecerles toda su ay
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/criminalminds.jpg" />
   </programme>
-  <programme start="20261027090000 +0000" stop="20261027120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261027090000 +0000" stop="20261027120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -101858,6 +101914,11 @@ Molly Yeh está preparando la cena para sus suegros para agradecerles toda su ay
   <programme start="20261027090000 +0000" stop="20261027120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261027090000 +0000" stop="20261027120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261027090200 +0000" stop="20261027093900 +0000" channel="DiscoveryTurbo.cl">
@@ -102183,6 +102244,9 @@ Molly Yeh está preparando la cena para sus suegros para agradecerles toda su ay
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -102195,6 +102259,7 @@ Molly Yeh está preparando la cena para sus suegros para agradecerles toda su ay
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -106502,11 +106567,6 @@ Eric Adjepong trae chefs de California, Texas y Nueva York para presentar a Alex
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261027120000 +0000" stop="20261027150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261027120000 +0000" stop="20261027150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -106515,6 +106575,11 @@ Eric Adjepong trae chefs de California, Texas y Nueva York para presentar a Alex
   <programme start="20261027120000 +0000" stop="20261027150000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261027120000 +0000" stop="20261027150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261027120300 +0000" stop="20261027121500 +0000" channel="CartoonNetwork.cl">
@@ -110216,6 +110281,9 @@ Daphne transforma su patio trasero en un teatro de exterior, y también tiene co
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -110228,6 +110296,7 @@ Daphne transforma su patio trasero en un teatro de exterior, y también tiene co
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -111059,11 +111128,6 @@ Programación a confirmar.</desc>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elapocalipsis.jpg" />
   </programme>
-  <programme start="20261027150000 +0000" stop="20261027180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261027150000 +0000" stop="20261027180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -111072,6 +111136,11 @@ Programación a confirmar.</desc>
   <programme start="20261027150000 +0000" stop="20261027180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261027150000 +0000" stop="20261027180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261027150300 +0000" stop="20261027152900 +0000" channel="WarnerChannel.cl">
@@ -113736,7 +113805,7 @@ Un camión reemplaza a un miembro de su equipo por una cara conocida y el plan d
   </programme>
   <programme start="20261027170000 +0000" stop="20261027192800 +0000" channel="FX.cl">
     <title>Agua para elefantes</title>
-    <desc>Un estudiante de medicina veterinaria, se encuentra cerca de graduarse, pero una terrible tragedia le obliga a abandonar la escuela.</desc>
+    <desc>En la época de la Gran Depresión, un joven estudiante de veterinaria se ve obligado a dejar sus estudios tras la muerte de sus padres. Empieza entonces a trabajar para el circo de los hermanos Benzini como veterinario y encargado de los animales. El joven se enamora de Marlena, una amazona que está casada con August, el dueño del circo, un hombre tan carismático como retorcido... Adaptación del aclamado best-seller homónimo de Sara Gruen</desc>
     <credits>
       <director>Francis Lawrence</director>
       <actor>Reese Witherspoon</actor>
@@ -113772,6 +113841,7 @@ Un camión reemplaza a un miembro de su equipo por una cara conocida y el plan d
     <category>Movie</category>
     <category>Drama</category>
     <category>Romance</category>
+    <country>Estados Unidos</country>
     <rating>
       <value>B</value>
     </rating>
@@ -115012,11 +115082,6 @@ Cuatro equipos compuestos por madre e hija tratarán de ganarse la posibilidad d
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasestrellas.jpg" />
   </programme>
-  <programme start="20261027180000 +0000" stop="20261027210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261027180000 +0000" stop="20261027210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -115025,6 +115090,11 @@ Cuatro equipos compuestos por madre e hija tratarán de ganarse la posibilidad d
   <programme start="20261027180000 +0000" stop="20261027210000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261027180000 +0000" stop="20261027210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261027180500 +0000" stop="20261027191000 +0000" channel="USANetwork.bo">
@@ -118308,6 +118378,9 @@ Hasta a los hipopótamos les encanta el pastel y los pasteleros ayudan a celebra
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -118320,6 +118393,7 @@ Hasta a los hipopótamos les encanta el pastel y los pasteleros ayudan a celebra
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -119394,11 +119468,6 @@ Una pareja quiere escapar de los fríos meses de invierno en el norte del estado
     <category>Religious</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ministraciondelespiritusanto.jpg" />
   </programme>
-  <programme start="20261027210000 +0000" stop="20261028000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261027210000 +0000" stop="20261028000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -119407,6 +119476,11 @@ Una pareja quiere escapar de los fríos meses de invierno en el norte del estado
   <programme start="20261027210000 +0000" stop="20261028000000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261027210000 +0000" stop="20261028000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261027210100 +0000" stop="20261027213000 +0000" channel="DisneyJunior.cl">
@@ -125029,6 +125103,9 @@ La anfitriona Molly Yeh les pide a los pasteleros que usen algunos de los platos
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -125041,6 +125118,7 @@ La anfitriona Molly Yeh les pide a los pasteleros que usen algunos de los platos
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -137536,6 +137614,9 @@ Para el Día del Padre, Molly Yeh está preparando los platos más cremosos y de
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -137548,6 +137629,7 @@ Para el Día del Padre, Molly Yeh está preparando los platos más cremosos y de
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -145234,6 +145316,9 @@ Kardea invita a su tía TC a una comida elegante. La cena incluye salmón con me
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -145246,6 +145331,7 @@ Kardea invita a su tía TC a una comida elegante. La cena incluye salmón con me
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -146282,6 +146368,9 @@ Guy Fieri invita a sus amigos chefs para que conozcan la cocina mediterránea. A
     <date>2021</date>
     <category>Misterio</category>
     <country>EE. UU</country>
+    <rating>
+      <value>A12</value>
+    </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261028152100 +0000" stop="20261028165600 +0000" channel="HBOXtreme.cl">
@@ -152840,6 +152929,9 @@ El ogro favorito de todos está en camino a Guerra de Pasteles y nos referimos a
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -152852,6 +152944,7 @@ El ogro favorito de todos está en camino a Guerra de Pasteles y nos referimos a
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -159118,6 +159211,9 @@ Se vuelve a saborear un clásico estadounidense cuando Alton Brown hace el favor
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -159130,6 +159226,7 @@ Se vuelve a saborear un clásico estadounidense cuando Alton Brown hace el favor
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -164064,6 +164161,9 @@ Se vuelve a saborear un clásico estadounidense cuando Alton Brown hace el favor
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -164076,6 +164176,7 @@ Se vuelve a saborear un clásico estadounidense cuando Alton Brown hace el favor
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -166391,6 +166492,9 @@ Se vuelve a saborear un clásico estadounidense cuando Alton Brown hace el favor
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -166403,6 +166507,7 @@ Se vuelve a saborear un clásico estadounidense cuando Alton Brown hace el favor
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -169044,6 +169149,9 @@ Se vuelve a saborear un clásico estadounidense cuando Alton Brown hace el favor
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -169056,6 +169164,7 @@ Se vuelve a saborear un clásico estadounidense cuando Alton Brown hace el favor
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -171127,6 +171236,9 @@ Se vuelve a saborear un clásico estadounidense cuando Alton Brown hace el favor
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -171139,6 +171251,7 @@ Se vuelve a saborear un clásico estadounidense cuando Alton Brown hace el favor
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -171310,6 +171423,7 @@ Se vuelve a saborear un clásico estadounidense cuando Alton Brown hace el favor
     <category>Comedy</category>
     <category>Action</category>
     <category>Fantasy</category>
+    <country>Estados Unidos</country>
     <rating>
       <value>A</value>
     </rating>
@@ -174741,6 +174855,9 @@ Se vuelve a saborear un clásico estadounidense cuando Alton Brown hace el favor
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -174753,6 +174870,7 @@ Se vuelve a saborear un clásico estadounidense cuando Alton Brown hace el favor
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -177021,6 +177139,9 @@ Se vuelve a saborear un clásico estadounidense cuando Alton Brown hace el favor
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -177033,6 +177154,7 @@ Se vuelve a saborear un clásico estadounidense cuando Alton Brown hace el favor
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -178105,7 +178227,7 @@ Se vuelve a saborear un clásico estadounidense cuando Alton Brown hace el favor
   </programme>
   <programme start="20261030164800 +0000" stop="20261030190300 +0000" channel="HBOXtreme.cl">
     <title>Ferrari</title>
-    <desc>Durante el verano de 1957, la quiebra se cierne sobre la empresa que Enzo Ferrari y su esposa Laura levantaron diez años antes. Desesperado, Enzo se juega el futuro profesional en Mille Miglia, una emblemática carrera que atraviesa Italia.</desc>
+    <desc>Verano de 1957. El expiloto de carreras Enzo Ferrari está en crisis. La bancarrota acecha a la empresa que él y su esposa, Laura, construyeron de la nada diez años atrás. Su tormentoso matrimonio se encuentra en medio de una gran crisis, mientras lidian con la muerte de su hijo. En esta crucial etapa, Ferrari tomará decisiones arriesgadas apostándolo todo en una única carrera que atraviesa 1.000 millas a lo largo de toda Italia: la Mille Miglia.</desc>
     <credits>
       <director>Michael Mann</director>
       <director>Carmine Palmentieri</director>
@@ -179770,6 +179892,9 @@ Se vuelve a saborear un clásico estadounidense cuando Alton Brown hace el favor
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -179782,6 +179907,7 @@ Se vuelve a saborear un clásico estadounidense cuando Alton Brown hace el favor
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
@@ -180339,6 +180465,7 @@ Se vuelve a saborear un clásico estadounidense cuando Alton Brown hace el favor
     <category>Comedy</category>
     <category>Action</category>
     <category>Fantasy</category>
+    <country>Estados Unidos</country>
     <rating>
       <value>A</value>
     </rating>
@@ -181931,6 +182058,9 @@ Se vuelve a saborear un clásico estadounidense cuando Alton Brown hace el favor
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
     <desc>La maldición del Halcón Dorado; La isla de las Cosas Perdidas | Santiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.</desc>
     <credits>
+      <director>Valerie Walsh</director>
+      <director>Chris Gifford</director>
+      <director>Leslie Valdes</director>
       <actor>Kevin Chacon</actor>
       <actor>Justice Quiroz</actor>
       <actor>Alyssa Cheatham</actor>
@@ -181943,6 +182073,7 @@ Se vuelve a saborear un clásico estadounidense cuando Alton Brown hace el favor
     <category>Children</category>
     <category>Adventure</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E14</episode-num>
     <rating>
       <value>TVY</value>
