@@ -830,18 +830,13 @@
   <programme start="20260921210000 +0000" stop="20260922000000 +0000" channel="24Horas.cl">
     <title lang="es">Juegos Suramericanos Santa Fe 2026</title>
   </programme>
-  <programme start="20261106000000 +0000" stop="20261106030000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261106000000 +0000" stop="20261106030000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261106000000 +0000" stop="20261106030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261106000000 +0000" stop="20261106030000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261106000000 +0000" stop="20261106030000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -850,10 +845,15 @@
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261106000000 +0000" stop="20261106030000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261106000000 +0000" stop="20261106030000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261106000000 +0000" stop="20261106030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261106000000 +0000" stop="20261106030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -865,17 +865,7 @@
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261106000000 +0000" stop="20261106030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261106030000 +0000" stop="20261106060000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261106030000 +0000" stop="20261106060000 +0000" channel="T13Noticias.cl">
+  <programme start="20261106000000 +0000" stop="20261106030000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
@@ -885,15 +875,25 @@
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20261106030000 +0000" stop="20261106060000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261106030000 +0000" stop="20261106060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261106030000 +0000" stop="20261106060000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261106030000 +0000" stop="20261106060000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261106030000 +0000" stop="20261106060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261106030000 +0000" stop="20261106060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -905,17 +905,7 @@
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261106030000 +0000" stop="20261106060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261106060000 +0000" stop="20261106090000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261106060000 +0000" stop="20261106090000 +0000" channel="T13Noticias.cl">
+  <programme start="20261106030000 +0000" stop="20261106060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
@@ -925,15 +915,25 @@
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20261106060000 +0000" stop="20261106090000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261106060000 +0000" stop="20261106090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261106060000 +0000" stop="20261106090000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261106060000 +0000" stop="20261106090000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261106060000 +0000" stop="20261106090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261106060000 +0000" stop="20261106090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -945,17 +945,7 @@
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261106060000 +0000" stop="20261106090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261106090000 +0000" stop="20261106120000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261106090000 +0000" stop="20261106120000 +0000" channel="T13Noticias.cl">
+  <programme start="20261106060000 +0000" stop="20261106090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
@@ -965,15 +955,25 @@
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme start="20261106090000 +0000" stop="20261106120000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261106090000 +0000" stop="20261106120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261106090000 +0000" stop="20261106120000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261106090000 +0000" stop="20261106120000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261106090000 +0000" stop="20261106120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261106090000 +0000" stop="20261106120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -985,10 +985,10 @@
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261106090000 +0000" stop="20261106120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261106090000 +0000" stop="20261106120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261106120000 +0000" stop="20261106140000 +0000" channel="AMC.cl">
     <title>Planet Action</title>
@@ -1004,18 +1004,13 @@
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/planetaction.jpg" />
   </programme>
-  <programme start="20261106120000 +0000" stop="20261106150000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261106120000 +0000" stop="20261106150000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261106120000 +0000" stop="20261106150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261106120000 +0000" stop="20261106150000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261106120000 +0000" stop="20261106150000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -1024,10 +1019,15 @@
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261106120000 +0000" stop="20261106150000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261106120000 +0000" stop="20261106150000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261106120000 +0000" stop="20261106150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261106120000 +0000" stop="20261106150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -1039,10 +1039,10 @@
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261106120000 +0000" stop="20261106150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261106120000 +0000" stop="20261106150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261106124700 +0000" stop="20261106144500 +0000" channel="FX.cl">
     <title>Hitchcock, el maestro del suspenso</title>
@@ -1585,18 +1585,13 @@
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261106150000 +0000" stop="20261106180000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261106150000 +0000" stop="20261106180000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261106150000 +0000" stop="20261106180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261106150000 +0000" stop="20261106180000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261106150000 +0000" stop="20261106180000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -1605,10 +1600,15 @@
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261106150000 +0000" stop="20261106180000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261106150000 +0000" stop="20261106180000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261106150000 +0000" stop="20261106180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261106150000 +0000" stop="20261106180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -1620,10 +1620,10 @@
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261106150000 +0000" stop="20261106180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261106150000 +0000" stop="20261106180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261106150200 +0000" stop="20261106151300 +0000" channel="Tooncast.cl">
     <title>Los pequeños Looney Tunes • Cock-a-Doodle-Doo-It</title>
@@ -3452,14 +3452,6 @@
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261106162300 +0000" stop="20261106164500 +0000" channel="HGTV.ar">
-    <desc lang="es">S8 E7 — Renovaciones extravagantes en Florida
-El diseñador Vern Yip y un agente de bienes raíces local evalúan tres renovaciones de espacios de esparcimiento exterior de $135,000 en Florida.</desc>
-    <episode-num>S8 E7</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">La mejor inversión</title>
-    <title lang="en">Bang for Your Buck</title>
-  </programme>
   <programme start="20261106162500 +0000" stop="20261106165100 +0000" channel="DisneyChannel.cl">
     <title>Hannah Montana • Yo amo a Rico</title>
     <sub-title>Yo amo a Rico</sub-title>
@@ -4015,14 +4007,6 @@ El diseñador Vern Yip y un agente de bienes raíces local evalúan tres renovac
       <value>TVPG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261106164500 +0000" stop="20261106172800 +0000" channel="HGTV.ar">
-    <desc lang="es">S7 E8 — De yurtas a habitaciones fantásticas
-El último desafío antes de la final, los diseñadores transforman yurtas en habitaciones fantásticas.</desc>
-    <episode-num>S7 E8</episode-num>
-    <icon src="https://iptv-epg.org/images/VlHMcHgzDrgBOICne3MZS1m0eObbRyfhhhJIvW1-8SOB_xTdu0_hQKPDmND9fRiY5n694U_j8OFIdYK1RZ1d4lmWnqhSsYV335f93WFM5rM8OvzicH327Qr6FeN07PtjEt_n4OwMiAe2uujnfwydKlb02GZiUqBRqj2ut5MeSVByFixllY5JB3xXXVRe5RNIZeT3F9SczDgg" />
-    <title lang="es">La búsqueda del diseñador estrella</title>
-    <title lang="en">HGTV Design Star</title>
   </programme>
   <programme start="20261106164500 +0000" stop="20261106170800 +0000" channel="DiscoveryKids.cl">
     <title>Peppa Pig • La Abuela Oveja se muda</title>
@@ -5082,14 +5066,6 @@ El último desafío antes de la final, los diseñadores transforman yurtas en ha
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/clarence.jpg" />
   </programme>
-  <programme start="20261106172800 +0000" stop="20261106181300 +0000" channel="HGTV.ar">
-    <desc lang="es">S1 E5 — Todo entre familia
-Después de años de intentarlo, Davina convenció a su madre de mudarse al valle de Hudson para estar más cerca de ella y Kristin.</desc>
-    <episode-num>S1 E5</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Mi casa en los suburbios</title>
-    <title lang="en">Small Town Potential</title>
-  </programme>
   <programme start="20261106172800 +0000" stop="20261106175500 +0000" channel="Tooncast.cl">
     <title>Don Gato y su pandilla • El casi-difunto</title>
     <sub-title>El casi-difunto</sub-title>
@@ -6017,18 +5993,13 @@ Después de años de intentarlo, Davina convenció a su madre de mudarse al vall
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/francotiradorsinnacion.jpg" />
   </programme>
-  <programme start="20261106180000 +0000" stop="20261106210000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261106180000 +0000" stop="20261106210000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261106180000 +0000" stop="20261106210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261106180000 +0000" stop="20261106210000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261106180000 +0000" stop="20261106210000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -6037,10 +6008,15 @@ Después de años de intentarlo, Davina convenció a su madre de mudarse al vall
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261106180000 +0000" stop="20261106210000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261106180000 +0000" stop="20261106210000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261106180000 +0000" stop="20261106210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261106180000 +0000" stop="20261106210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -6052,10 +6028,10 @@ Después de años de intentarlo, Davina convenció a su madre de mudarse al vall
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261106180000 +0000" stop="20261106210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261106180000 +0000" stop="20261106210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261106180100 +0000" stop="20261106182900 +0000" channel="DisneyChannel.cl">
     <title>Moon Girl y Devil, el dinosaurio • En el atraco</title>
@@ -6256,14 +6232,6 @@ Después de años de intentarlo, Davina convenció a su madre de mudarse al vall
     <country>EE. UU</country>
     <episode-num system="onscreen">S5 E1</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261106181300 +0000" stop="20261106183600 +0000" channel="HGTV.ar">
-    <desc lang="es">S17 E7 — Recién casados en St. Croix
-Una pareja de Michigan se muda a St. Croix para encontrar un hogar en la isla. Ella va a trabajar para la Guardia Nacional y espera encontrar un hogar cerca de la armería.</desc>
-    <episode-num>S17 E7</episode-num>
-    <icon src="https://iptv-epg.org/images/3bezkVEIyHfdyllC8unfdX6e-PWedBHr1oPoZ5oO_IeAoRJ1Ec6X9nGs4DkSGaiP-p6AMzsiI288ZOidAB72jYrhgloEwCDGnCmVP5hX06pvHiT8fK5gsRMrwzu317lHsNi4Ci1ioXJJDsm56NbKfXBrnb7TnMt85j7OQQnK_WnZQxwpetTt" />
-    <title lang="es">Nuestro hogar en el Caribe</title>
-    <title lang="en">Caribbean Life</title>
   </programme>
   <programme start="20261106181300 +0000" stop="20261106203300 +0000" channel="HBO.cl">
     <title>Spider-Man: de regreso a casa</title>
@@ -6997,14 +6965,6 @@ Una pareja de Michigan se muda a St. Croix para encontrar un hogar en la isla. E
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/residentevilbienvenidosaraccooncity.jpg" />
   </programme>
-  <programme start="20261106183600 +0000" stop="20261106185800 +0000" channel="HGTV.ar">
-    <desc lang="es">S3 E7 — Buscando una casa en los Hamptons
-Ingenieros comprometidos hacen un plan para encontrar su primer hogar en las costas de Hampton. Ella busca una cocina bien equipada, mientras que él quiere una oficina con grandes ventanales para alegrar su día mientras trabaja en casa.</desc>
-    <episode-num>S3 E7</episode-num>
-    <icon src="https://iptv-epg.org/images/yAloRpj6_bx11V6FUKAJzWkHTK847K89k6omioPGnID6YyReOD3TtvPoe6WttHQ4FzriF5pZtSfghUen-Z9ddwlNpyZyb1pBXotKMsZj4hyEt_o68GuvpBM2z4VBRhPmkRCC6VY48tTP7FFHwJERb0KXLiPoOtTyPdxMEPUChO_51Kt1YcXDeVL9RxDo010" />
-    <title lang="es">Los cazahogares en la playa</title>
-    <title lang="en">Beach Hunters</title>
-  </programme>
   <programme start="20261106183600 +0000" stop="20261106190000 +0000" channel="DiscoveryWorld.cl">
     <title>Tocinolandia • La superhamburguesa</title>
     <sub-title>La superhamburguesa</sub-title>
@@ -7393,14 +7353,6 @@ Ingenieros comprometidos hacen un plan para encontrar su primer hogar en las cos
       <value>6.1</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261106185800 +0000" stop="20261106194300 +0000" channel="HGTV.ar">
-    <desc lang="es">S1 E1 — La del pantano de arándanos
-Mike, Jen y Rich deben decidir si van a tomar una casa estilo Cabo Cod de 1735 con una chimenea descentrada y una historia tormentosa, o una casa colonial de 1830 que se rumorea que es la posada Old John Carver.</desc>
-    <episode-num>S1 E1</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Casas históricas</title>
-    <title lang="en">Houses with History</title>
   </programme>
   <programme start="20261106185800 +0000" stop="20261106192700 +0000" channel="DisneyChannel.cl">
     <title>ZOMBIES: La serie re-animada • Loba estrella / Amigas en viernes 13</title>
@@ -8620,14 +8572,6 @@ Mike, Jen y Rich deben decidir si van a tomar una casa estilo Cabo Cod de 1735 c
     <episode-num system="onscreen">S1 E13</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/thundercats.jpg" />
   </programme>
-  <programme start="20261106194300 +0000" stop="20261106202600 +0000" channel="HGTV.ar">
-    <desc lang="es">S7 E8 — De yurtas a habitaciones fantásticas
-El último desafío antes de la final, los diseñadores transforman yurtas en habitaciones fantásticas.</desc>
-    <episode-num>S7 E8</episode-num>
-    <icon src="https://iptv-epg.org/images/VlHMcHgzDrgBOICne3MZS1m0eObbRyfhhhJIvW1-8SOB_xTdu0_hQKPDmND9fRiY5n694U_j8OFIdYK1RZ1d4lmWnqhSsYV335f93WFM5rM8OvzicH327Qr6FeN07PtjEt_n4OwMiAe2uujnfwydKlb02GZiUqBRqj2ut5MeSVByFixllY5JB3xXXVRe5RNIZeT3F9SczDgg" />
-    <title lang="es">La búsqueda del diseñador estrella</title>
-    <title lang="en">HGTV Design Star</title>
-  </programme>
   <programme start="20261106194500 +0000" stop="20261106211000 +0000" channel="Mega.cl">
     <title>La Baronesa</title>
     <desc>Sigue la historia de Aurora Valdés, una mujer que hará todo por proteger el legado de su familia. Pero los secretos, el poder y el control pondrán a prueba los vínculos que durante años creyó inquebrantables.</desc>
@@ -9756,14 +9700,6 @@ El último desafío antes de la final, los diseñadores transforman yurtas en ha
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261106202600 +0000" stop="20261106204900 +0000" channel="HGTV.ar">
-    <desc lang="es">S2 E3 — Cocina rústica del chef
-Los primos renuevan una cocina anticuada con un estilo industrial moderno ideal para un chef profesional.</desc>
-    <episode-num>S2 E3</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Primos al rescate: cocinas desastrosas</title>
-    <title lang="en">America's Most Desperate Kitchens</title>
-  </programme>
   <programme start="20261106202600 +0000" stop="20261106211400 +0000" channel="History.cl">
     <title>Inexplicable • Secretos de civilizaciones antiguas</title>
     <sub-title>Secretos de civilizaciones antiguas</sub-title>
@@ -10372,14 +10308,6 @@ Los primos renuevan una cocina anticuada con un estilo industrial moderno ideal 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/thednaofmurderwithpaulholes.jpg" />
   </programme>
-  <programme start="20261106204900 +0000" stop="20261106211100 +0000" channel="HGTV.ar">
-    <desc lang="es">S4 E7 — Haciendo que cada día cuente
-Una pareja de profesionales busca escapar de sus agitadas vidas en Virginia y encontrar un retiro tranquilo en Eleuthera. Están buscando un lugar con poco o ningún mantenimiento, con una piscina y una vista al mar es imprescindible.</desc>
-    <episode-num>S4 E7</episode-num>
-    <icon src="https://iptv-epg.org/images/gNO8ygqTDfvr_ORmsmXHRIqYQPQkflZmLNClBLQoDcq1oW0l2yLFKA7I3Cymdo3ScSOgn-QY2BRJ8u6RSOxTck01oCFEgHcfaZDPfTXHz1K_DkaW6Qn_fw7tnZ-GJNTE0a8KKZQQyHYmMAoOLDxT6CEHtLeCkXHL_SEM80FS1wXMrKUspqdGPykItw" />
-    <title lang="es">Nuestro hogar en las Bahamas</title>
-    <title lang="en">Bahamas Life</title>
-  </programme>
   <programme start="20261106205000 +0000" stop="20261106210200 +0000" channel="CartoonNetwork.cl">
     <title>El submarino de Jim • The Sub Teacher</title>
     <sub-title>The Sub Teacher</sub-title>
@@ -10657,18 +10585,13 @@ Una pareja de profesionales busca escapar de sus agitadas vidas en Virginia y en
     <category>Religious</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ministraciondelespiritusanto.jpg" />
   </programme>
-  <programme start="20261106210000 +0000" stop="20261107000000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261106210000 +0000" stop="20261107000000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261106210000 +0000" stop="20261107000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261106210000 +0000" stop="20261107000000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261106210000 +0000" stop="20261107000000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -10677,10 +10600,15 @@ Una pareja de profesionales busca escapar de sus agitadas vidas en Virginia y en
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261106210000 +0000" stop="20261107000000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261106210000 +0000" stop="20261107000000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261106210000 +0000" stop="20261107000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261106210000 +0000" stop="20261107000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -10692,10 +10620,10 @@ Una pareja de profesionales busca escapar de sus agitadas vidas en Virginia y en
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261106210000 +0000" stop="20261107000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261106210000 +0000" stop="20261107000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261106210100 +0000" stop="20261106215200 +0000" channel="Discovery.cl">
     <title>Tentados por la fortuna</title>
@@ -10943,14 +10871,6 @@ Una pareja de profesionales busca escapar de sus agitadas vidas en Virginia y en
       <value>14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/daleplay.jpg" />
-  </programme>
-  <programme start="20261106211100 +0000" stop="20261106215600 +0000" channel="HGTV.ar">
-    <desc lang="es">S3 E7 — Trabajando juntos en el lago Cedar Creek
-Una familia de Dallas quiere escapar del calor del verano de la ciudad. Ellos buscan transformar una casa frente al agua en el lago Cedar Creek y le agregan algunos toques personales para que sus perros se sientan como en casa.</desc>
-    <episode-num>S3 E7</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Nuestro hogar frente al lago: renovación</title>
-    <title lang="en">Lakefront Bargain Hunt Renovation</title>
   </programme>
   <programme start="20261106211400 +0000" stop="20261106220100 +0000" channel="History.cl">
     <title>Increíble con Dan Aykroyd • Mil maneras de morir</title>
@@ -11852,14 +11772,6 @@ Una familia de Dallas quiere escapar del calor del verano de la ciudad. Ellos bu
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E14</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261106215600 +0000" stop="20261106224100 +0000" channel="HGTV.ar">
-    <desc lang="es">S1 E6 — Niños y caos
-A una familia le encanta poder vivir al lado del abuelo, pero su casa ha sido invadida por el desorden de sus hijos. Kim llega para ayudarlos a crear un espacio personal y hacer que la casa funcione.</desc>
-    <episode-num>S1 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/kIOYHSggl0RmGBEtFH0Qclz6hVom3eiIwADyqYdordUQ_xQ8TIf8NokRgNWNyd_a1KiCz0oLaf26P9spuPcqmvRIz6i0O81aI6GG5IdC1lOdrZa36RcDnJpj13WawtzobVBooDhAAqUZTpXQ6cnfnGK9Gu8RFpg" />
-    <title lang="es">¿Por qué compré esta casa?</title>
-    <title lang="en">Why the Heck Did I Buy This House?</title>
   </programme>
   <programme start="20261106215600 +0000" stop="20261106220800 +0000" channel="CartoonNetwork.cl">
     <title>El maravillosamente extraño mundo de Gumball • La invocación</title>
@@ -13043,14 +12955,6 @@ A una familia le encanta poder vivir al lado del abuelo, pero su casa ha sido in
     <episode-num system="onscreen">S4 E3</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261106224100 +0000" stop="20261106232400 +0000" channel="HGTV.ar">
-    <desc lang="es">S7 E8 — De yurtas a habitaciones fantásticas
-El último desafío antes de la final, los diseñadores transforman yurtas en habitaciones fantásticas.</desc>
-    <episode-num>S7 E8</episode-num>
-    <icon src="https://iptv-epg.org/images/VlHMcHgzDrgBOICne3MZS1m0eObbRyfhhhJIvW1-8SOB_xTdu0_hQKPDmND9fRiY5n694U_j8OFIdYK1RZ1d4lmWnqhSsYV335f93WFM5rM8OvzicH327Qr6FeN07PtjEt_n4OwMiAe2uujnfwydKlb02GZiUqBRqj2ut5MeSVByFixllY5JB3xXXVRe5RNIZeT3F9SczDgg" />
-    <title lang="es">La búsqueda del diseñador estrella</title>
-    <title lang="en">HGTV Design Star</title>
-  </programme>
   <programme start="20261106224100 +0000" stop="20261107010100 +0000" channel="Cinecanal.cl">
     <title>No soy tu mami</title>
     <desc>Una periodista sostiene en su columna semanal las razones por las cuales no quiere tener hijos, defendiendo su posición frente a la vida y la maternidad. Pero la misma comenzará a aflojarse cuando un nuevo vecino y su pequeña hija lleguen al edificio.</desc>
@@ -14133,14 +14037,6 @@ El último desafío antes de la final, los diseñadores transforman yurtas en ha
       <value>TVPG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/quiendama.jpg" />
-  </programme>
-  <programme start="20261106232400 +0000" stop="20261107000900 +0000" channel="HGTV.ar">
-    <desc lang="es">S1 E6 — La del herrero
-El propietario de una casa con chimenea central de 1707 le dice a Mike que quiere venderla. Pero al enterarse de que la propiedad era de un herrero, optan por un diseño americano que destaca el trabajo de los artesanos del pasado.</desc>
-    <episode-num>S1 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT" />
-    <title lang="es">Casas históricas</title>
-    <title lang="en">Houses with History</title>
   </programme>
   <programme start="20261106232400 +0000" stop="20261106234800 +0000" channel="DiscoveryWorld.cl">
     <title>Renuévelo usted mismo • Balcón</title>
@@ -15491,18 +15387,13 @@ El propietario de una casa con chimenea central de 1707 le dice a Mike que quier
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elhermanodesanta.jpg" />
   </programme>
-  <programme start="20261107000000 +0000" stop="20261107030000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261107000000 +0000" stop="20261107030000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261107000000 +0000" stop="20261107030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261107000000 +0000" stop="20261107030000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261107000000 +0000" stop="20261107030000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -15511,10 +15402,15 @@ El propietario de una casa con chimenea central de 1707 le dice a Mike que quier
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261107000000 +0000" stop="20261107030000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261107000000 +0000" stop="20261107030000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261107000000 +0000" stop="20261107030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261107000000 +0000" stop="20261107030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -15526,10 +15422,10 @@ El propietario de una casa con chimenea central de 1707 le dice a Mike que quier
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261107000000 +0000" stop="20261107030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261107000000 +0000" stop="20261107030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261107000200 +0000" stop="20261107001500 +0000" channel="DisneyChannel.cl">
     <title>Coven Academy: El secreto de las brujas • Entre mundos</title>
@@ -20753,18 +20649,13 @@ Después de vivir por todo el país, una familia decide echar raíces en una peq
     <country>EE. UU</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107030000 +0000" stop="20261107060000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261107030000 +0000" stop="20261107060000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261107030000 +0000" stop="20261107060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261107030000 +0000" stop="20261107060000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261107030000 +0000" stop="20261107060000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -20773,10 +20664,15 @@ Después de vivir por todo el país, una familia decide echar raíces en una peq
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261107030000 +0000" stop="20261107060000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261107030000 +0000" stop="20261107060000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261107030000 +0000" stop="20261107060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261107030000 +0000" stop="20261107060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -20788,10 +20684,10 @@ Después de vivir por todo el país, una familia decide echar raíces en una peq
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261107030000 +0000" stop="20261107060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261107030000 +0000" stop="20261107060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261107030200 +0000" stop="20261107034800 +0000" channel="DiscoveryTurbo.cl">
     <title>Invasión de garajes • El pastor más veloz</title>
@@ -25831,18 +25727,13 @@ Después de años de intentarlo, Davina convenció a su madre de mudarse al vall
     <episode-num system="onscreen">S23 E2</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/southpark.jpg" />
   </programme>
-  <programme start="20261107060000 +0000" stop="20261107090000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261107060000 +0000" stop="20261107090000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261107060000 +0000" stop="20261107090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261107060000 +0000" stop="20261107090000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261107060000 +0000" stop="20261107090000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -25851,10 +25742,15 @@ Después de años de intentarlo, Davina convenció a su madre de mudarse al vall
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261107060000 +0000" stop="20261107090000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261107060000 +0000" stop="20261107090000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261107060000 +0000" stop="20261107090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261107060000 +0000" stop="20261107090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -25866,10 +25762,10 @@ Después de años de intentarlo, Davina convenció a su madre de mudarse al vall
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261107060000 +0000" stop="20261107090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261107060000 +0000" stop="20261107090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261107060200 +0000" stop="20261107064700 +0000" channel="Discovery.cl">
     <title>Mirada policial • Carrera contra el tiempo</title>
@@ -28994,7 +28890,7 @@ Soportando una tormenta de hielo, Dani y Jon superan los desafíos de la madre n
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107080000 +0000" stop="20261107140000 +0000" channel="ESPN3.cl">
+  <programme start="20261107080000 +0000" stop="20261107120000 +0000" channel="ESPN3.cl">
     <title>Golf ️ DP World Tour • Abu Dhabi Aldar Championship, tercera ronda</title>
     <sub-title>Abu Dhabi Aldar Championship, tercera ronda</sub-title>
     <desc>Abu Dhabi Aldar Championship, tercera ronda | Acción de la tercera ronda del Abu Dhabi Aldar Championship. Desde el campo de golf Yas Links, en Abu Dabi.</desc>
@@ -31193,18 +31089,13 @@ Una pareja que se ha quedado sola, ya que sus hijos han crecido y se han ido de 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/911.jpg" />
   </programme>
-  <programme start="20261107090000 +0000" stop="20261107120000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261107090000 +0000" stop="20261107120000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261107090000 +0000" stop="20261107120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261107090000 +0000" stop="20261107120000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261107090000 +0000" stop="20261107120000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -31213,10 +31104,15 @@ Una pareja que se ha quedado sola, ya que sus hijos han crecido y se han ido de 
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261107090000 +0000" stop="20261107120000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261107090000 +0000" stop="20261107120000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261107090000 +0000" stop="20261107120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261107090000 +0000" stop="20261107120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -31228,10 +31124,10 @@ Una pareja que se ha quedado sola, ya que sus hijos han crecido y se han ido de 
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261107090000 +0000" stop="20261107120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261107090000 +0000" stop="20261107120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261107090200 +0000" stop="20261107093300 +0000" channel="DisneyChannel.cl">
     <title>Miraculous: Las aventuras de Ladybug • Jugador</title>
@@ -36250,6 +36146,17 @@ Esta asombrosa variedad de hogares incluye una casa en Francia protegida bajo un
     <episode-num system="onscreen">S0  Clausura 2026</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261107120000 +0000" stop="20261107140000 +0000" channel="ESPN3.cl">
+    <title>Golf ️ DP World Tour • Abu Dhabi Aldar Championship, tercera ronda</title>
+    <sub-title>Abu Dhabi Aldar Championship, tercera ronda</sub-title>
+    <desc>Abu Dhabi Aldar Championship, tercera ronda | Acción de la tercera ronda del Abu Dhabi Aldar Championship. Desde el campo de golf Yas Links, en Abu Dabi.</desc>
+    <date>2026</date>
+    <category>Golf</category>
+    <rating>
+      <value>PG-13</value>
+    </rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
   <programme start="20261107120000 +0000" stop="20261107140000 +0000" channel="ESPN6.cl">
     <title>ESPN KnockOut • Damián Arce vs Mario Gutiérrez</title>
     <sub-title>Damián Arce vs. Mario Gutiérrez</sub-title>
@@ -36668,18 +36575,13 @@ Esta asombrosa variedad de hogares incluye una casa en Francia protegida bajo un
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107120000 +0000" stop="20261107150000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261107120000 +0000" stop="20261107150000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261107120000 +0000" stop="20261107150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261107120000 +0000" stop="20261107150000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261107120000 +0000" stop="20261107150000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -36688,10 +36590,15 @@ Esta asombrosa variedad de hogares incluye una casa en Francia protegida bajo un
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261107120000 +0000" stop="20261107150000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261107120000 +0000" stop="20261107150000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261107120000 +0000" stop="20261107150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261107120000 +0000" stop="20261107150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -36703,10 +36610,10 @@ Esta asombrosa variedad de hogares incluye una casa en Francia protegida bajo un
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261107120000 +0000" stop="20261107150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261107120000 +0000" stop="20261107150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261107120100 +0000" stop="20261107123000 +0000" channel="DisneyJunior.cl">
     <title>Spidey y sus sorprendentes amigos • ¡La casa voladora de la tía May! / ¡Arañas contra moscas</title>
@@ -39644,11 +39551,6 @@ Los diseñadores se unen para renovar espacios interiores y exteriores para due�
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107140000 +0000" stop="20261107150000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261107140000 +0000" stop="20261107141100 +0000" channel="Tooncast.cl">
     <title>Las maravillosas desventuras de Flapjack • El blues del crucero</title>
     <sub-title>El blues del crucero</sub-title>
@@ -41207,21 +41109,6 @@ El jardín de ensueño de una pareja vino con una casa adjunta que es una pesadi
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107150000 +0000" stop="20261107160000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261107150000 +0000" stop="20261107160000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261107150000 +0000" stop="20261107160000 +0000" channel="FOODNETWORK.uy">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261107150000 +0000" stop="20261108000000 +0000" channel="TVN.cl">
     <title>Teletón Chile 2026</title>
     <desc>'Súmate a lo que nos une' es el eslogan escogido este año para este evento solidario que busca recaudar fondos para financiar la rehabilitación integral de cerca de 32 mil niños, niñas y jóvenes con discapacidad motora en Chile.</desc>
@@ -41518,18 +41405,13 @@ El jardín de ensueño de una pareja vino con una casa adjunta que es una pesadi
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/911.jpg" />
   </programme>
-  <programme start="20261107150000 +0000" stop="20261107180000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261107150000 +0000" stop="20261107180000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261107150000 +0000" stop="20261107180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261107150000 +0000" stop="20261107180000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261107150000 +0000" stop="20261107180000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -41538,10 +41420,15 @@ El jardín de ensueño de una pareja vino con una casa adjunta que es una pesadi
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261107150000 +0000" stop="20261107180000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261107150000 +0000" stop="20261107180000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261107150000 +0000" stop="20261107180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261107150000 +0000" stop="20261107180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -41553,10 +41440,10 @@ El jardín de ensueño de una pareja vino con una casa adjunta que es una pesadi
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261107150000 +0000" stop="20261107180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261107150000 +0000" stop="20261107180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261107150100 +0000" stop="20261107151700 +0000" channel="CartoonNetwork.cl">
     <title>Un show más • El mejor VHS en el mundo</title>
@@ -41840,20 +41727,6 @@ El jardín de ensueño de una pareja vino con una casa adjunta que es una pesadi
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pelotasenjuego.jpg" />
-  </programme>
-  <programme channel="DramasCoreanos.cl" start="20261107151400 +0000" stop="20261107162700 +0000">
-    <title>Healer LATAM</title>
-    <episode-num system="onscreen">S01E10</episode-num>
-    <episode-num system="pluto">623b31b97936240013141916</episode-num>
-    <episode-num system="original-air-date">20150106000000 +0000</episode-num>
-    <desc>En Someday News, todos esperan ansiosamente los informes de Young-shin. Mun-sik y Boss ven la transmisión en vivo del anuncio de candidatura de Kim Ui-chan.</desc>
-    <icon src="https://images.pluto.tv/series/623b294825269a0013a925f0/tile_1769212802086.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20150106</date>
-    <series-id system="pluto">623b294825269a0013a925f0</series-id>
-    <sub-title>Episodio 10</sub-title>
-    <category>Drama</category>
-    <category>Romance</category>
-    <category>Series</category>
   </programme>
   <programme start="20261107151400 +0000" stop="20261107160000 +0000" channel="InvestigationDiscovery.cl">
     <title>Asesinato en la calle Elm • Siguiendo a un asesino</title>
@@ -42626,20 +42499,6 @@ Nathan y Jenny diseñan un nuevo hogar para un joyero y su hijo. El equipo tendr
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261107154700 +0000" stop="20261107164000 +0000">
-    <title>Mi Adorado Encuentro</title>
-    <episode-num system="onscreen">S01E22</episode-num>
-    <episode-num system="pluto">68765ab3fd92ab53e83e1dd8</episode-num>
-    <episode-num system="original-air-date">20180408000000 +0000</episode-num>
-    <desc>Joon asiste a Lee tras haber resultado herida en una crisis alcohólica. Joo-ran recibe su primer quimioterapia, aún enferma, trata de motivar a Lee Young-jae. Dong-jae visita a a Joo-ran en el hospital. Joon confiesa a Min Se-eun haberle mentido.</desc>
-    <icon src="https://images.pluto.tv/series/68765940655e1e0578ee9fb0/tile_1769628961688.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20180408</date>
-    <series-id system="pluto">68765940655e1e0578ee9fb0</series-id>
-    <sub-title>Capítulo 22</sub-title>
-    <category>Drama</category>
-    <category>Romance</category>
-    <category>Series</category>
-  </programme>
   <programme start="20261107154700 +0000" stop="20261107161400 +0000" channel="DisneyChannel.cl">
     <title>Wizards Beyond Waverly Place • La leyenda de los seguidores espeluznantes</title>
     <sub-title>La leyenda de los seguidores espeluznantes</sub-title>
@@ -43049,16 +42908,6 @@ Nathan y Jenny diseñan un nuevo hogar para un joyero y su hijo. El equipo tendr
     <episode-num system="onscreen">S2 E1</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107160000 +0000" stop="20261107170000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261107160000 +0000" stop="20261107170000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261107160000 +0000" stop="20261107162300 +0000" channel="HGTV.ar">
     <desc lang="es">S9 E1 — Café y mármol de Carrara
 Un pequeño cuarto de baño es transformado en un clásico espacio lleno de luz natural al que se le agrega un bar-cafetería y una ducha de vapor.</desc>
@@ -43066,11 +42915,6 @@ Un pequeño cuarto de baño es transformado en un clásico espacio lleno de luz 
     <icon src="https://iptv-epg.org/images/p1FFVIedp5OESzXRktJwRwBqGjyaYt1Z6YaHQioXRzMppJSOIvgZ63rzM07kvFo6nGKssPw7lJI9EWILfUEretkSTxVOOn36FGpYQaDy19ZUBNAUWIEzocLnkfvTuUzARA0-8J49S8zD5CmmQBn3BG-hWKy86xYxGmeUfdw" />
     <title lang="es">Mi baño como nuevo</title>
     <title lang="en">Bath Crashers</title>
-  </programme>
-  <programme start="20261107160000 +0000" stop="20261107170000 +0000" channel="FOODNETWORK.uy">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261107160000 +0000" stop="20261107160500 +0000" channel="CNNChile.cl">
     <title>CNN Ahora</title>
@@ -43650,20 +43494,6 @@ El diseñador Vern Yip y un agente de bienes raíces local evalúan tres renovac
     <title lang="es">La mejor inversión</title>
     <title lang="en">Bang for Your Buck</title>
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20261107162700 +0000" stop="20261107174000 +0000">
-    <title>Healer LATAM</title>
-    <episode-num system="onscreen">S01E11</episode-num>
-    <episode-num system="pluto">623b31cd7936240013141c22</episode-num>
-    <episode-num system="original-air-date">20150112000000 +0000</episode-num>
-    <desc>Al volver a casa del trabajo, Moon-ho descubre que ha habido un intruso y recibe una llamada de un número restringido preguntando sobre lo que sucedió en 1992.</desc>
-    <icon src="https://images.pluto.tv/series/623b294825269a0013a925f0/tile_1769212802086.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20150112</date>
-    <series-id system="pluto">623b294825269a0013a925f0</series-id>
-    <sub-title>Episodio 11</sub-title>
-    <category>Drama</category>
-    <category>Romance</category>
-    <category>Series</category>
-  </programme>
   <programme start="20261107163000 +0000" stop="20261107173000 +0000" channel="CNNChile.cl">
     <title>Aquí se debate</title>
     <desc>Repetición ║ Espacio donde se abordan las principales ideas de los candidatos que buscan escribir la nueva Constitución del país.</desc>
@@ -43905,20 +43735,6 @@ El diseñador Vern Yip y un agente de bienes raíces local evalúan tres renovac
     <country>EE. UU</country>
     <episode-num system="onscreen">S1 E18</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/scoobydoomisteriossa.jpg" />
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261107164000 +0000" stop="20261107173000 +0000">
-    <title>Mi Adorado Encuentro</title>
-    <episode-num system="onscreen">S01E23</episode-num>
-    <episode-num system="pluto">68765ab1fd92ab53e83dbbee</episode-num>
-    <episode-num system="original-air-date">20180417000000 +0000</episode-num>
-    <desc>Lee confiesa a Joon su pasado y el motivo de su depresión. Joon decide terminar con Min Se-eun provocando la furia de su padre. Dong-jae lleva a Joon- ra a una bella casa de descanso para recuperarse de su segunda quimio.</desc>
-    <icon src="https://images.pluto.tv/series/68765940655e1e0578ee9fb0/tile_1769628961688.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20180417</date>
-    <series-id system="pluto">68765940655e1e0578ee9fb0</series-id>
-    <sub-title>Capítulo 23</sub-title>
-    <category>Drama</category>
-    <category>Romance</category>
-    <category>Series</category>
   </programme>
   <programme start="20261107164000 +0000" stop="20261107170500 +0000" channel="Nick.cl">
     <title>The Loud House • Intercambio de corazón / Daño comunitario</title>
@@ -44218,21 +44034,6 @@ Dos diseñadores deben hacer un piloto de un programa de TV, para demostrar sus 
       <value>14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/loscroods.jpg" />
-  </programme>
-  <programme start="20261107170000 +0000" stop="20261107180000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261107170000 +0000" stop="20261107180000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261107170000 +0000" stop="20261107180000 +0000" channel="FOODNETWORK.uy">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261107170000 +0000" stop="20261107172500 +0000" channel="NickJr.bo">
     <title>Sr. Cocodrilo • No pícnic: El misterio del gnomo</title>
@@ -45144,20 +44945,6 @@ Una pareja se muda al valle de Hudson y busca una casa con muchas hectáreas y e
     <episode-num system="onscreen">S7 E1</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261107173000 +0000" stop="20261107183100 +0000">
-    <title>Mi Adorado Encuentro</title>
-    <episode-num system="onscreen">S01E24</episode-num>
-    <episode-num system="pluto">68765d798eef10068fb39a46</episode-num>
-    <episode-num system="original-air-date">20180101000000 +0000</episode-num>
-    <desc>Dong-jae pasa grandes momentos con Joon-ra y le ayuda en su convalecencia. Joon, tratando de aclarar su mente, vuelve a la isla en donde hizo el voluntariado y casualmente se encuentra de nuevo con Lee. Una gran boda se lleva a cabo. Fin.</desc>
-    <icon src="https://images.pluto.tv/series/68765940655e1e0578ee9fb0/tile_1769628961688.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20180101</date>
-    <series-id system="pluto">68765940655e1e0578ee9fb0</series-id>
-    <sub-title>Capítulo 24</sub-title>
-    <category>Drama</category>
-    <category>Romance</category>
-    <category>Series</category>
-  </programme>
   <programme start="20261107173000 +0000" stop="20261107180000 +0000" channel="CNNChile.cl">
     <title>Bien estar</title>
     <desc>Repetición ║ Un espacio que explora todo lo necesario para llevar una vida sana, en plenitud y consciencia con el cuerpo y la mente. Un programa para aprender todas aquellas cosas que tienen que ver con el cuerpo, con la mente y con las emociones. El propósito es proveer todo el conocimiento posible para que el público tenga una mejor expectativa de vida y pueda, sin importar tu edad, alcanzar sus metas y cumplir sus sueños.</desc>
@@ -45503,20 +45290,6 @@ Una pareja se muda al valle de Hudson y busca una casa con muchas hectáreas y e
       <value>14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jurassicpark3.jpg" />
-  </programme>
-  <programme channel="DramasCoreanos.cl" start="20261107174000 +0000" stop="20261107185400 +0000">
-    <title>Healer LATAM</title>
-    <episode-num system="onscreen">S01E12</episode-num>
-    <episode-num system="pluto">623b31d07936240013141c84</episode-num>
-    <episode-num system="original-air-date">20150113000000 +0000</episode-num>
-    <desc>Moon-ho está furioso con su hermano por venir a visitar Someday News. Jeong-hu conoce a uno de los amigos cercanos de su padre.</desc>
-    <icon src="https://images.pluto.tv/series/623b294825269a0013a925f0/tile_1769212802086.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20150113</date>
-    <series-id system="pluto">623b294825269a0013a925f0</series-id>
-    <sub-title>Episodio 12</sub-title>
-    <category>Drama</category>
-    <category>Romance</category>
-    <category>Series</category>
   </programme>
   <programme start="20261107174100 +0000" stop="20261107183200 +0000" channel="Discovery.cl">
     <title>Desolado con Ed Stafford • Borneo</title>
@@ -45982,21 +45755,6 @@ Una pareja se muda al valle de Hudson y busca una casa con muchas hectáreas y e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107180000 +0000" stop="20261107190000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261107180000 +0000" stop="20261107190000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261107180000 +0000" stop="20261107190000 +0000" channel="FOODNETWORK.uy">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261107180000 +0000" stop="20261107180500 +0000" channel="CNNChile.cl">
     <title>CNN Ahora</title>
     <desc>Disfruta la mejor programación de CNN.</desc>
@@ -46056,18 +45814,13 @@ Una pareja se muda al valle de Hudson y busca una casa con muchas hectáreas y e
     <country>Venezuela</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/especial.jpg" />
   </programme>
-  <programme start="20261107180000 +0000" stop="20261107210000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261107180000 +0000" stop="20261107210000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261107180000 +0000" stop="20261107210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261107180000 +0000" stop="20261107210000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261107180000 +0000" stop="20261107210000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -46076,10 +45829,15 @@ Una pareja se muda al valle de Hudson y busca una casa con muchas hectáreas y e
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261107180000 +0000" stop="20261107210000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261107180000 +0000" stop="20261107210000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261107180000 +0000" stop="20261107210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261107180000 +0000" stop="20261107210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -46091,10 +45849,10 @@ Una pareja se muda al valle de Hudson y busca una casa con muchas hectáreas y e
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261107180000 +0000" stop="20261107210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261107180000 +0000" stop="20261107210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261107180400 +0000" stop="20261107202000 +0000" channel="WarnerChannel.cl">
     <title>Dos policías rebeldes</title>
@@ -46769,20 +46527,6 @@ Una familia de cinco integrantes se muda de Canadá a las cálidas playas de are
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261107183100 +0000" stop="20261107194600 +0000">
-    <title>Shopping King Louie</title>
-    <episode-num system="onscreen">S01E01</episode-num>
-    <episode-num system="pluto">65ae95395884b4001367f5b9</episode-num>
-    <episode-num system="original-air-date">20160921000000 +0000</episode-num>
-    <desc>Shopaholic Louis sigue a Louis, un rico adicto a las compras que pierde la memoria y se queda sin hogar. Su inesperado romance con Koh Bok-shil, una humilde campesina, resalta la inestimable naturaleza del amor verdadero más allá de la riqueza material.</desc>
-    <icon src="https://images.pluto.tv/series/65ae93dfa40ff7001370015e/tile_1769467321466.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20160921</date>
-    <series-id system="pluto">65ae93dfa40ff7001370015e</series-id>
-    <sub-title>It's crazy!!</sub-title>
-    <category>Romantic comedy</category>
-    <category>Romance</category>
-    <category>Series</category>
-  </programme>
   <programme start="20261107183100 +0000" stop="20261107184500 +0000" channel="CartoonNetwork.cl">
     <title>El submarino de Jim • Bob</title>
     <sub-title>Bob</sub-title>
@@ -47203,20 +46947,6 @@ Una pareja busca un pedazo de paraíso para ellos y sus dos hijos en la isla Ann
     <episode-num system="onscreen">S9E37</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/peppapig.jpg" />
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20261107185400 +0000" stop="20261107200800 +0000">
-    <title>Healer LATAM</title>
-    <episode-num system="onscreen">S01E13</episode-num>
-    <episode-num system="pluto">623b31d37936240013141ce6</episode-num>
-    <episode-num system="original-air-date">20150119000000 +0000</episode-num>
-    <desc>Bae Sang-Su tiene confianza en que finalmente ha atrapado a el Sanador. Mun-sik llega a la sede de Double S Guard para conocer al hombre que trajeron.</desc>
-    <icon src="https://images.pluto.tv/series/623b294825269a0013a925f0/tile_1769212802086.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20150119</date>
-    <series-id system="pluto">623b294825269a0013a925f0</series-id>
-    <sub-title>Episodio 13</sub-title>
-    <category>Drama</category>
-    <category>Romance</category>
-    <category>Series</category>
-  </programme>
   <programme start="20261107185500 +0000" stop="20261107192000 +0000" channel="NickJr.bo">
     <title>PAW Patrol: Patrulla de cachorros • Los cachorros salvan la piscina; Cachorros de circo</title>
     <sub-title>Los cachorros salvan la piscina; Cachorros de circo</sub-title>
@@ -47454,21 +47184,6 @@ El equipo se prepara para un gran trabajo de dos casas en diferentes estados de 
       <value>18</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261107190000 +0000" stop="20261107200000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261107190000 +0000" stop="20261107200000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261107190000 +0000" stop="20261107200000 +0000" channel="FOODNETWORK.uy">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261107190000 +0000" stop="20261107200000 +0000" channel="CNNChile.cl">
     <title>Pares impares</title>
@@ -48895,20 +48610,6 @@ Dos diseñadores deben hacer un piloto de un programa de TV, para demostrar sus 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261107194600 +0000" stop="20261107210100 +0000">
-    <title>Shopping King Louie</title>
-    <episode-num system="onscreen">S01E02</episode-num>
-    <episode-num system="pluto">65ae9ad9b65b8700133520da</episode-num>
-    <episode-num system="original-air-date">20160922000000 +0000</episode-num>
-    <desc>Shopaholic Louis sigue a Louis, un rico adicto a las compras que pierde la memoria y se queda sin hogar. Su inesperado romance con Koh Bok-shil, una humilde campesina, resalta la inestimable naturaleza del amor verdadero más allá de la riqueza material.</desc>
-    <icon src="https://images.pluto.tv/series/65ae93dfa40ff7001370015e/tile_1769467321466.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20160922</date>
-    <series-id system="pluto">65ae93dfa40ff7001370015e</series-id>
-    <sub-title>Bok Shil, don't leave me, please!!</sub-title>
-    <category>Romantic comedy</category>
-    <category>Romance</category>
-    <category>Series</category>
-  </programme>
   <programme start="20261107194800 +0000" stop="20261107203500 +0000" channel="InvestigationDiscovery.cl">
     <title>Desaparecidos • Lejos de todo</title>
     <sub-title>Lejos de todo</sub-title>
@@ -49182,21 +48883,6 @@ Dos diseñadores deben hacer un piloto de un programa de TV, para demostrar sus 
       <value>TVY7</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losvecinosgreen.jpg" />
-  </programme>
-  <programme start="20261107200000 +0000" stop="20261107210000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261107200000 +0000" stop="20261107210000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261107200000 +0000" stop="20261107210000 +0000" channel="FOODNETWORK.uy">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261107200000 +0000" stop="20261107200500 +0000" channel="CNNChile.cl">
     <title>CNN Ahora</title>
@@ -49540,20 +49226,6 @@ Dos diseñadores deben hacer un piloto de un programa de TV, para demostrar sus 
     <country>EE. UU</country>
     <episode-num system="onscreen">S9 E23</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/frasier.jpg" />
-  </programme>
-  <programme channel="DramasCoreanos.cl" start="20261107200800 +0000" stop="20261107212100 +0000">
-    <title>Healer LATAM</title>
-    <episode-num system="onscreen">S01E14</episode-num>
-    <episode-num system="pluto">623b31c77936240013141aca</episode-num>
-    <episode-num system="original-air-date">20150120000000 +0000</episode-num>
-    <desc>La Sra. Jo intenta hackear al servidor de la policía para obtener la declaración de Yeong-Jae. Young-shin se preocupa cuando Bong-su se vuelve inalcanzable.</desc>
-    <icon src="https://images.pluto.tv/series/623b294825269a0013a925f0/tile_1769212802086.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>20150120</date>
-    <series-id system="pluto">623b294825269a0013a925f0</series-id>
-    <sub-title>Episodio 14</sub-title>
-    <category>Drama</category>
-    <category>Romance</category>
-    <category>Series</category>
   </programme>
   <programme start="20261107201000 +0000" stop="20261107203500 +0000" channel="Nick.cl">
     <title>That Girl Lay Lay • Beastie Pie</title>
@@ -50785,21 +50457,6 @@ Una pareja de Washington DC está buscando un segundo hogar con un sentido de co
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107210000 +0000" stop="20261107220000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261107210000 +0000" stop="20261107220000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261107210000 +0000" stop="20261107220000 +0000" channel="FOODNETWORK.uy">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261107210000 +0000" stop="20261107220000 +0000" channel="CNNChile.cl">
     <title>Salvar la democracia de sí misma</title>
     <desc>Repetición ║ Un nuevo ciclo de conversaciones conducido por José Antonio Valenzuela junto a voces del mundo académico, empresarial y público. La charla busca reflexionar sobre los desafíos que enfrenta nuestra democracia y las reformas necesarias para fortalecerla.</desc>
@@ -50990,18 +50647,13 @@ Una pareja de Washington DC está buscando un segundo hogar con un sentido de co
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107210000 +0000" stop="20261108000000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261107210000 +0000" stop="20261108000000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261107210000 +0000" stop="20261108000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261107210000 +0000" stop="20261108000000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261107210000 +0000" stop="20261108000000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -51010,10 +50662,15 @@ Una pareja de Washington DC está buscando un segundo hogar con un sentido de co
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261107210000 +0000" stop="20261108000000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261107210000 +0000" stop="20261108000000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261107210000 +0000" stop="20261108000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261107210000 +0000" stop="20261108000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -51025,10 +50682,10 @@ Una pareja de Washington DC está buscando un segundo hogar con un sentido de co
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261107210000 +0000" stop="20261108000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261107210000 +0000" stop="20261108000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme channel="DramasCoreanosTeen.cl" start="20261107210100 +0000" stop="20261107221600 +0000">
     <title>Shopping King Louie</title>
@@ -51040,9 +50697,9 @@ Una pareja de Washington DC está buscando un segundo hogar con un sentido de co
     <date>20160928</date>
     <series-id system="pluto">65ae93dfa40ff7001370015e</series-id>
     <sub-title>Who am I? What kind of person was I?</sub-title>
+    <category>Series</category>
     <category>Romantic comedy</category>
     <category>Romance</category>
-    <category>Series</category>
   </programme>
   <programme start="20261107210400 +0000" stop="20261107215200 +0000" channel="Discovery.cl">
     <title>África • El Kalahari</title>
@@ -51497,9 +51154,9 @@ Una pareja de Nueva Jersey busca cumplir su sueño de comprar una casa en el sur
     <date>20150126</date>
     <series-id system="pluto">623b294825269a0013a925f0</series-id>
     <sub-title>Episodio 15</sub-title>
+    <category>Series</category>
     <category>Drama</category>
     <category>Romance</category>
-    <category>Series</category>
   </programme>
   <programme start="20261107212100 +0000" stop="20261107230000 +0000" channel="DisneyChannel.cl">
     <title>Camp Rock 3</title>
@@ -52396,17 +52053,7 @@ Una pareja se enamoró de la sensación nostálgica de su hogar, pero la combina
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/talentosocultos.jpg" />
   </programme>
-  <programme start="20261107220000 +0000" stop="20261107230000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261107220000 +0000" stop="20261107230000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261107220000 +0000" stop="20261107230000 +0000" channel="FOODNETWORK.uy">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
@@ -52813,9 +52460,9 @@ Una pareja se enamoró de la sensación nostálgica de su hogar, pero la combina
     <date>20160929</date>
     <series-id system="pluto">65ae93dfa40ff7001370015e</series-id>
     <sub-title>Ridiculously good-looking!</sub-title>
+    <category>Series</category>
     <category>Romantic comedy</category>
     <category>Romance</category>
-    <category>Series</category>
   </programme>
   <programme start="20261107222400 +0000" stop="20261107231500 +0000" channel="AXN.cl">
     <title>CSI • No Way Out</title>
@@ -53123,9 +52770,9 @@ Una pareja se enamoró de la sensación nostálgica de su hogar, pero la combina
     <date>20150127</date>
     <series-id system="pluto">623b294825269a0013a925f0</series-id>
     <sub-title>Episodio 16</sub-title>
+    <category>Series</category>
     <category>Drama</category>
     <category>Romance</category>
-    <category>Series</category>
   </programme>
   <programme start="20261107223600 +0000" stop="20261107230000 +0000" channel="DiscoveryWorld.cl">
     <title>Piscinas fabulosas • Experiencia VIP</title>
@@ -54726,9 +54373,9 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     <date>20161006</date>
     <series-id system="pluto">65ae93dfa40ff7001370015e</series-id>
     <sub-title>Are we living together?</sub-title>
+    <category>Series</category>
     <category>Romantic comedy</category>
     <category>Romance</category>
-    <category>Series</category>
   </programme>
   <programme start="20261107233100 +0000" stop="20261108002300 +0000" channel="Discovery.cl">
     <title>Sobreviviendo al tiburón</title>
@@ -55080,9 +54727,9 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     <date>20150202</date>
     <series-id system="pluto">623b294825269a0013a925f0</series-id>
     <sub-title>Episodio 17</sub-title>
+    <category>Series</category>
     <category>Drama</category>
     <category>Romance</category>
-    <category>Series</category>
   </programme>
   <programme start="20261107234600 +0000" stop="20261108020000 +0000" channel="Space.cl">
     <title>Rápidos y furiosos</title>
@@ -55732,18 +55379,13 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/imparable.jpg" />
   </programme>
-  <programme start="20261108000000 +0000" stop="20261108030000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261108000000 +0000" stop="20261108030000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261108000000 +0000" stop="20261108030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108030000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261108000000 +0000" stop="20261108030000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -55752,10 +55394,15 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261108000000 +0000" stop="20261108030000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261108000000 +0000" stop="20261108030000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261108030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261108000000 +0000" stop="20261108030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -55767,10 +55414,10 @@ Mike, Jen y Rich consideran dos casas que no podrían ser más diferentes entre 
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261108000000 +0000" stop="20261108030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261108000000 +0000" stop="20261108030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261108000100 +0000" stop="20261108000800 +0000" channel="Tooncast.cl">
     <title>Hi Hi Puffy AmiYumi • Desarmonía</title>
@@ -56885,9 +56532,9 @@ Una pareja se enamoró de la sensación nostálgica de su hogar, pero la combina
     <date>20161012</date>
     <series-id system="pluto">65ae93dfa40ff7001370015e</series-id>
     <sub-title>It's okay... I'll protect you...</sub-title>
+    <category>Series</category>
     <category>Romantic comedy</category>
     <category>Romance</category>
-    <category>Series</category>
   </programme>
   <programme start="20261108004800 +0000" stop="20261108010100 +0000" channel="Tooncast.cl">
     <title>Mike, Lu y Og • El rey de las cortinas</title>
@@ -57303,9 +56950,9 @@ Un piloto y un auxiliar de vuelo se sorprenden con la renovación de una cocina 
     <date>20150203</date>
     <series-id system="pluto">623b294825269a0013a925f0</series-id>
     <sub-title>Episodio 18</sub-title>
+    <category>Series</category>
     <category>Drama</category>
     <category>Romance</category>
-    <category>Series</category>
   </programme>
   <programme start="20261108010000 +0000" stop="20261108020000 +0000" channel="24Horas.cl">
     <title>No Data</title>
@@ -59597,9 +59244,9 @@ Estas casas increíbles están inspiradas en el yoga, los fósiles y mucho más.
     <date>20161013</date>
     <series-id system="pluto">65ae93dfa40ff7001370015e</series-id>
     <sub-title>Louis, I'm sure!!</sub-title>
+    <category>Series</category>
     <category>Romantic comedy</category>
     <category>Romance</category>
-    <category>Series</category>
   </programme>
   <programme start="20261108020200 +0000" stop="20261108021300 +0000" channel="Tooncast.cl">
     <title>Las maravillosas desventuras de Flapjack • El blues del crucero</title>
@@ -59887,9 +59534,9 @@ Estas casas increíbles están inspiradas en el yoga, los fósiles y mucho más.
     <date>20150209</date>
     <series-id system="pluto">623b294825269a0013a925f0</series-id>
     <sub-title>Episodio 19</sub-title>
+    <category>Series</category>
     <category>Drama</category>
     <category>Romance</category>
-    <category>Series</category>
   </programme>
   <programme start="20261108021200 +0000" stop="20261108030000 +0000" channel="DiscoveryWorld.cl">
     <title>1000 lugares que ver antes de morir • México</title>
@@ -61295,18 +60942,13 @@ Después de visitar Park City, Utah, durante años, una pareja de Birmingham dec
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261108030000 +0000" stop="20261108060000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261108030000 +0000" stop="20261108060000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261108030000 +0000" stop="20261108060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261108030000 +0000" stop="20261108060000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261108030000 +0000" stop="20261108060000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -61315,10 +60957,15 @@ Después de visitar Park City, Utah, durante años, una pareja de Birmingham dec
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261108030000 +0000" stop="20261108060000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261108030000 +0000" stop="20261108060000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261108030000 +0000" stop="20261108060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261108030000 +0000" stop="20261108060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -61330,10 +60977,10 @@ Después de visitar Park City, Utah, durante años, una pareja de Birmingham dec
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261108030000 +0000" stop="20261108060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261108030000 +0000" stop="20261108060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261108030300 +0000" stop="20261108031900 +0000" channel="CartoonNetwork.cl">
     <title>Un show más • La guitarra del rock</title>
@@ -61662,9 +61309,9 @@ Una pareja de Nueva Jersey busca cumplir su sueño de comprar una casa en el sur
     <date>20161019</date>
     <series-id system="pluto">65ae93dfa40ff7001370015e</series-id>
     <sub-title>Bok Shil... I only have Bok Shil...</sub-title>
+    <category>Series</category>
     <category>Romantic comedy</category>
     <category>Romance</category>
-    <category>Series</category>
   </programme>
   <programme start="20261108031700 +0000" stop="20261108052700 +0000" channel="WarnerChannel.cl">
     <title>Día de entrenamiento</title>
@@ -61774,9 +61421,9 @@ Una pareja de Nueva Jersey busca cumplir su sueño de comprar una casa en el sur
     <date>20150210</date>
     <series-id system="pluto">623b294825269a0013a925f0</series-id>
     <sub-title>Episodio 20</sub-title>
+    <category>Series</category>
     <category>Drama</category>
     <category>Romance</category>
-    <category>Series</category>
   </programme>
   <programme start="20261108032500 +0000" stop="20261108035000 +0000" channel="Nick.cl">
     <title>iCarly • Cazando pollos</title>
@@ -63681,9 +63328,9 @@ El equipo ayuda al jugador EJ Manuel a encontrar una casa en Buffalo, Nueva York
     <date>20161020</date>
     <series-id system="pluto">65ae93dfa40ff7001370015e</series-id>
     <sub-title>Louis is... alive!</sub-title>
+    <category>Series</category>
     <category>Romantic comedy</category>
     <category>Romance</category>
-    <category>Series</category>
   </programme>
   <programme start="20261108043200 +0000" stop="20261108062500 +0000" channel="Space.cl">
     <title>Bloodshot</title>
@@ -63919,9 +63566,9 @@ Dos diseñadores deben hacer un piloto de un programa de TV, para demostrar sus 
     <date>20180604</date>
     <series-id system="pluto">61aa62c791347f0013334cdc</series-id>
     <sub-title>Episodio 1 y 2</sub-title>
-    <category>Drama</category>
-    <category>Dramedy</category>
     <category>Series</category>
+    <category>Dramedy</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261108043800 +0000" stop="20261108050000 +0000" channel="Tooncast.cl">
     <title>Scooby-Doo! Misterios SA • El secreto del dragón</title>
@@ -65727,9 +65374,9 @@ Una pareja se muda al valle de Hudson y busca una casa con muchas hectáreas y e
     <date>20161026</date>
     <series-id system="pluto">65ae93dfa40ff7001370015e</series-id>
     <sub-title>I like Bok Shil.</sub-title>
+    <category>Series</category>
     <category>Romantic comedy</category>
     <category>Romance</category>
-    <category>Series</category>
   </programme>
   <programme start="20261108054700 +0000" stop="20261108063400 +0000" channel="NationalGeographic.cl">
     <title>Secreto en los océanos • Submarinos nazis</title>
@@ -66081,9 +65728,9 @@ Una pareja se muda al valle de Hudson y busca una casa con muchas hectáreas y e
     <date>20180605</date>
     <series-id system="pluto">61aa62c791347f0013334cdc</series-id>
     <sub-title>Episodio 3 y 4</sub-title>
-    <category>Drama</category>
-    <category>Dramedy</category>
     <category>Series</category>
+    <category>Dramedy</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261108055300 +0000" stop="20261108063700 +0000" channel="InvestigationDiscovery.cl">
     <title>911: ¿Llamó el asesino? • Amigo por codicia</title>
@@ -66339,18 +65986,13 @@ Una pareja se muda al valle de Hudson y busca una casa con muchas hectáreas y e
     <episode-num system="onscreen">S25 E6</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/southpark.jpg" />
   </programme>
-  <programme start="20261108060000 +0000" stop="20261108090000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261108060000 +0000" stop="20261108090000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261108060000 +0000" stop="20261108090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261108060000 +0000" stop="20261108090000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261108060000 +0000" stop="20261108090000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -66359,10 +66001,15 @@ Una pareja se muda al valle de Hudson y busca una casa con muchas hectáreas y e
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261108060000 +0000" stop="20261108090000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261108060000 +0000" stop="20261108090000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261108060000 +0000" stop="20261108090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261108060000 +0000" stop="20261108090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -66374,10 +66021,10 @@ Una pareja se muda al valle de Hudson y busca una casa con muchas hectáreas y e
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261108060000 +0000" stop="20261108090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261108060000 +0000" stop="20261108090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261108060200 +0000" stop="20261108064800 +0000" channel="Discovery.cl">
     <title>Mirada policial • Háblame</title>
@@ -68401,9 +68048,9 @@ El jugador de fútbol Cato June le pide a Jason que encuentre un lujoso apartame
     <date>20161027</date>
     <series-id system="pluto">65ae93dfa40ff7001370015e</series-id>
     <sub-title>I want to go back to Doronmet Village...</sub-title>
+    <category>Series</category>
     <category>Romantic comedy</category>
     <category>Romance</category>
-    <category>Series</category>
   </programme>
   <programme start="20261108070400 +0000" stop="20261108075300 +0000" channel="DiscoveryTurbo.cl">
     <title>Texas Metal</title>
@@ -68594,9 +68241,9 @@ El jugador de fútbol Cato June le pide a Jason que encuentre un lujoso apartame
     <date>20180611</date>
     <series-id system="pluto">61aa62c791347f0013334cdc</series-id>
     <sub-title>Episodio 5 y 6</sub-title>
-    <category>Drama</category>
-    <category>Dramedy</category>
     <category>Series</category>
+    <category>Dramedy</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261108070900 +0000" stop="20261108075300 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title>Mi cuerpo, mi desafío • Mi cabeza está llena de hormigas</title>
@@ -70477,6 +70124,20 @@ Después de los problemas con los retrasos en la construcción, EJ y Jason compl
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261108081400 +0000" stop="20261108092300 +0000">
+    <title>Shopping King Louie</title>
+    <episode-num system="onscreen">S01E12</episode-num>
+    <episode-num system="pluto">65ae93e0a40ff7001370017d</episode-num>
+    <episode-num system="original-air-date">20161102000000 +0000</episode-num>
+    <desc>Shopaholic Louis sigue a Louis, un rico adicto a las compras que pierde la memoria y se queda sin hogar. Su inesperado romance con Koh Bok-shil, una humilde campesina, resalta la inestimable naturaleza del amor verdadero más allá de la riqueza material.</desc>
+    <icon src="https://images.pluto.tv/series/65ae93dfa40ff7001370015e/tile_1769467321466.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20161102</date>
+    <series-id system="pluto">65ae93dfa40ff7001370015e</series-id>
+    <sub-title>Who are you...?</sub-title>
+    <category>Series</category>
+    <category>Romantic comedy</category>
+    <category>Romance</category>
+  </programme>
   <programme start="20261108081500 +0000" stop="20261108090000 +0000" channel="InvestigationDiscovery.cl">
     <title>La casa del mal • Mi amor me apuntó con una pistola</title>
     <sub-title>Mi amor me apuntó con una pistola</sub-title>
@@ -70687,6 +70348,20 @@ Una pareja se muda al valle de Hudson y busca una casa con muchas hectáreas y e
     <country>EE. UU</country>
     <episode-num system="onscreen">S2 E1</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/miracleworkers.jpg" />
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261108082300 +0000" stop="20261108093600 +0000">
+    <title>¿Tú también eres humano?</title>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <episode-num system="pluto">61aa62cd91347f0013334db8</episode-num>
+    <episode-num system="original-air-date">20180612000000 +0000</episode-num>
+    <desc>Sin saber que Nam-shin III es un robot, Sobong lo salva de una crisis. Después de eso, mientras mira la cámara oculta instalada en la habitación de Nam-shin, Sobong escucha una extraña conversación entre el líder del equipo Ji Young-hoon y Nam-shin III...</desc>
+    <icon src="https://images.pluto.tv/series/61aa62c791347f0013334cdc/tile_1769211001681.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20180612</date>
+    <series-id system="pluto">61aa62c791347f0013334cdc</series-id>
+    <sub-title>Episodio 7 y 8</sub-title>
+    <category>Series</category>
+    <category>Dramedy</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261108082400 +0000" stop="20261108083600 +0000" channel="Tooncast.cl">
     <title>Hermano de Jorel • Se busca a Susana desesperadamente</title>
@@ -72085,18 +71760,13 @@ Una pareja de Dallas busca mudarse a las montañas de Crested Butte, Colorado. E
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108120000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261108090000 +0000" stop="20261108120000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261108090000 +0000" stop="20261108120000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261108090000 +0000" stop="20261108120000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -72105,10 +71775,15 @@ Una pareja de Dallas busca mudarse a las montañas de Crested Butte, Colorado. E
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108120000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261108090000 +0000" stop="20261108120000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261108090000 +0000" stop="20261108120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261108090000 +0000" stop="20261108120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -72120,10 +71795,10 @@ Una pareja de Dallas busca mudarse a las montañas de Crested Butte, Colorado. E
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261108090000 +0000" stop="20261108120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261108090300 +0000" stop="20261108111600 +0000" channel="GoldenEdge.cl">
     <title>Máxima traición</title>
@@ -72619,6 +72294,20 @@ El diseñador Vern Yip y un agente de bienes raíces recorren tres renovaciones 
     <title lang="es">La mejor inversión</title>
     <title lang="en">Bang for Your Buck</title>
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261108092300 +0000" stop="20261108102800 +0000">
+    <title>Shopping King Louie</title>
+    <episode-num system="onscreen">S01E13</episode-num>
+    <episode-num system="pluto">65aeaa59b65b87001337a3e5</episode-num>
+    <episode-num system="original-air-date">20161103000000 +0000</episode-num>
+    <desc>Shopaholic Louis sigue a Louis, un rico adicto a las compras que pierde la memoria y se queda sin hogar. Su inesperado romance con Koh Bok-shil, una humilde campesina, resalta la inestimable naturaleza del amor verdadero más allá de la riqueza material.</desc>
+    <icon src="https://images.pluto.tv/series/65ae93dfa40ff7001370015e/tile_1769467321466.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20161103</date>
+    <series-id system="pluto">65ae93dfa40ff7001370015e</series-id>
+    <sub-title>Mister, why did you lie to me?</sub-title>
+    <category>Series</category>
+    <category>Romantic comedy</category>
+    <category>Romance</category>
+  </programme>
   <programme start="20261108092300 +0000" stop="20261108100900 +0000" channel="Discovery.cl">
     <title>Fiebre del oro • Visita sorpresa</title>
     <sub-title>Visita sorpresa</sub-title>
@@ -72997,6 +72686,20 @@ El diseñador Vern Yip y un agente de bienes raíces recorren tres renovaciones 
     <country>EE. UU</country>
     <episode-num system="onscreen">S1 E4</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hacialodesconocido.jpg" />
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261108093600 +0000" stop="20261108105100 +0000">
+    <title>¿Tú también eres humano?</title>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <episode-num system="pluto">61aa62cc91347f0013334d26</episode-num>
+    <episode-num system="original-air-date">20180618000000 +0000</episode-num>
+    <desc>Sobong está asombrado por la increíble realidad. El líder del equipo, Ji Young-hoon, la convence de que mantenga el secreto para Nam-shin y Nam-shin III, pero finalmente va a ver al director Seo Jong-gil...</desc>
+    <icon src="https://images.pluto.tv/series/61aa62c791347f0013334cdc/tile_1769211001681.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20180618</date>
+    <series-id system="pluto">61aa62c791347f0013334cdc</series-id>
+    <sub-title>Episodio 9 y 10</sub-title>
+    <category>Series</category>
+    <category>Dramedy</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261108093600 +0000" stop="20261108100000 +0000" channel="DisneyChannel.cl">
     <title>Star vs Las fuerzas del mal • Cupido / Espíritu escolar</title>
@@ -74611,6 +74314,20 @@ Una pareja de Nashville quiere una casa frente al agua en el lago Smith de Alaba
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261108102800 +0000" stop="20261108113400 +0000">
+    <title>Shopping King Louie</title>
+    <episode-num system="onscreen">S01E14</episode-num>
+    <episode-num system="pluto">65aea0812e62fe00136c853f</episode-num>
+    <episode-num system="original-air-date">20161109000000 +0000</episode-num>
+    <desc>Shopaholic Louis sigue a Louis, un rico adicto a las compras que pierde la memoria y se queda sin hogar. Su inesperado romance con Koh Bok-shil, una humilde campesina, resalta la inestimable naturaleza del amor verdadero más allá de la riqueza material.</desc>
+    <icon src="https://images.pluto.tv/series/65ae93dfa40ff7001370015e/tile_1769467321466.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20161109</date>
+    <series-id system="pluto">65ae93dfa40ff7001370015e</series-id>
+    <sub-title>Shall we get married? Bok Shil, are you okay with it?</sub-title>
+    <category>Series</category>
+    <category>Romantic comedy</category>
+    <category>Romance</category>
+  </programme>
   <programme start="20261108103000 +0000" stop="20261108113000 +0000" channel="CNNChile.cl">
     <title>Futuro 360</title>
     <desc>Repetición ║ Humberto Sichel presentan las historias y los protagonistas de las tecnologías que están moldeando el futuro.</desc>
@@ -75142,6 +74859,20 @@ Los diseñadores se unen para crear una sala de fiestas, para celebrar una nueva
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261108105100 +0000" stop="20261108120500 +0000">
+    <title>¿Tú también eres humano?</title>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <episode-num system="pluto">61aa62cf91347f0013334e7a</episode-num>
+    <episode-num system="original-air-date">20180625000000 +0000</episode-num>
+    <desc>Sobong está muy sorprendido por el repentino beso de Nam-shin III. Pronto, Sobong, dándose cuenta de que Nam-shin III no tenía malas intenciones, propone una relación especial a cambio de ayudarlo...</desc>
+    <icon src="https://images.pluto.tv/series/61aa62c791347f0013334cdc/tile_1769211001681.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20180625</date>
+    <series-id system="pluto">61aa62c791347f0013334cdc</series-id>
+    <sub-title>Episodio 11 y 12</sub-title>
+    <category>Series</category>
+    <category>Dramedy</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261108105400 +0000" stop="20261108115300 +0000" channel="NationalGeographic.cl">
     <title>Ciudades perdidas con Albert Lin • Los secretos de Petra</title>
@@ -76703,6 +76434,20 @@ La colección de casas de todo el mundo incluye una casa alemana que se encuentr
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lagranmuralla.jpg" />
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261108113400 +0000" stop="20261108124300 +0000">
+    <title>Shopping King Louie</title>
+    <episode-num system="onscreen">S01E15</episode-num>
+    <episode-num system="pluto">65ae9f2a5884b400136811b0</episode-num>
+    <episode-num system="original-air-date">20161110000000 +0000</episode-num>
+    <desc>Shopaholic Louis sigue a Louis, un rico adicto a las compras que pierde la memoria y se queda sin hogar. Su inesperado romance con Koh Bok-shil, una humilde campesina, resalta la inestimable naturaleza del amor verdadero más allá de la riqueza material.</desc>
+    <icon src="https://images.pluto.tv/series/65ae93dfa40ff7001370015e/tile_1769467321466.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20161110</date>
+    <series-id system="pluto">65ae93dfa40ff7001370015e</series-id>
+    <sub-title>I shouldn't regain my memory.</sub-title>
+    <category>Series</category>
+    <category>Romantic comedy</category>
+    <category>Romance</category>
+  </programme>
   <programme start="20261108113400 +0000" stop="20261108120400 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title>Por confirmar</title>
     <desc>Programación pendiente de confirmación.</desc>
@@ -77753,18 +77498,13 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261108120000 +0000" stop="20261108150000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261108120000 +0000" stop="20261108150000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261108120000 +0000" stop="20261108150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261108120000 +0000" stop="20261108150000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261108120000 +0000" stop="20261108150000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -77773,10 +77513,15 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261108120000 +0000" stop="20261108150000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261108120000 +0000" stop="20261108150000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261108120000 +0000" stop="20261108150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261108120000 +0000" stop="20261108150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -77788,10 +77533,10 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261108120000 +0000" stop="20261108150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261108120000 +0000" stop="20261108150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261108120100 +0000" stop="20261108121200 +0000" channel="DiscoveryKids.cl">
     <title>Bubble's Hotel • Bostezo escurridizo</title>
@@ -77847,6 +77592,20 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
       <value>18</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261108120500 +0000" stop="20261108131500 +0000">
+    <title>¿Tú también eres humano?</title>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <episode-num system="pluto">61aa62cf91347f0013334dde</episode-num>
+    <episode-num system="original-air-date">20180703000000 +0000</episode-num>
+    <desc>Jong-gil se asegura de que el presidente Nam tiene demencia y le dice a Sobong que se mantenga en silencio al respecto. Mientras tanto, Nam-sin se entera del secreto de Hee Dong y ofrece un trato a Ho Yun.</desc>
+    <icon src="https://images.pluto.tv/series/61aa62c791347f0013334cdc/tile_1769211001681.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20180703</date>
+    <series-id system="pluto">61aa62c791347f0013334cdc</series-id>
+    <sub-title>Episodio 13 y 14</sub-title>
+    <category>Series</category>
+    <category>Dramedy</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261108120500 +0000" stop="20261108121200 +0000" channel="Tooncast.cl">
     <title>Hi Hi Puffy AmiYumi • Buenas películas</title>
@@ -78695,6 +78454,20 @@ Una pareja que se ha quedado sola, ya que sus hijos han crecido y se han ido de 
       <value>SAM 13</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/casadoconhijos.jpg" />
+  </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261108124300 +0000" stop="20261108135200 +0000">
+    <title>Shopping King Louie</title>
+    <episode-num system="onscreen">S01E16</episode-num>
+    <episode-num system="pluto">65aea8ea2e62fe00136c9a54</episode-num>
+    <episode-num system="original-air-date">20161110000000 +0000</episode-num>
+    <desc>Shopaholic Louis sigue a Louis, un rico adicto a las compras que pierde la memoria y se queda sin hogar. Su inesperado romance con Koh Bok-shil, una humilde campesina, resalta la inestimable naturaleza del amor verdadero más allá de la riqueza material.</desc>
+    <icon src="https://images.pluto.tv/series/65ae93dfa40ff7001370015e/tile_1769467321466.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20161110</date>
+    <series-id system="pluto">65ae93dfa40ff7001370015e</series-id>
+    <sub-title>I will tell you forever.</sub-title>
+    <category>Series</category>
+    <category>Romantic comedy</category>
+    <category>Romance</category>
   </programme>
   <programme start="20261108124500 +0000" stop="20261108160000 +0000" channel="TVN.cl">
     <title>Copa Mundial de Triatlón 2026 San Pedro de la Paz</title>
@@ -79659,6 +79432,20 @@ Con solo unas pocas semanas para la fecha límite, Dani y Jon luchan por una imp
     <episode-num system="onscreen">S23 E9</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/southpark.jpg" />
   </programme>
+  <programme channel="DramasCoreanos.cl" start="20261108131500 +0000" stop="20261108142500 +0000">
+    <title>¿Tú también eres humano?</title>
+    <episode-num system="onscreen">S01E08</episode-num>
+    <episode-num system="pluto">61aa62d191347f0013334f0f</episode-num>
+    <episode-num system="original-air-date">20180703000000 +0000</episode-num>
+    <desc>En el comportamiento inesperado de Nam-shin III, no sólo él mismo, sino también Sobong y Yena están todos avergonzados. Mientras tanto, Gunho desconfía de Young-hoon y Laura, y Yena impulsa el matrimonio con más fuerza.</desc>
+    <icon src="https://images.pluto.tv/series/61aa62c791347f0013334cdc/tile_1769211001681.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20180703</date>
+    <series-id system="pluto">61aa62c791347f0013334cdc</series-id>
+    <sub-title>Episodio 15 y 16</sub-title>
+    <category>Series</category>
+    <category>Dramedy</category>
+    <category>Drama</category>
+  </programme>
   <programme start="20261108131500 +0000" stop="20261108134500 +0000" channel="ESPN2.cl">
     <title>UEFA Champions League Weekly</title>
     <desc>Grabado ║ La revista semanal de la UEFA Champions League con entrevistas, notas y curiosidades del torneo de clubes más importante del mundo.</desc>
@@ -80561,6 +80348,20 @@ Los diseñadores se unen para crear una sala de fiestas, para celebrar una nueva
       <value>A</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261108135200 +0000" stop="20261108150600 +0000">
+    <title>W - Two Worlds Apart</title>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <episode-num system="pluto">65a820e7b8685b0013a505e0</episode-num>
+    <episode-num system="original-air-date">20160720000000 +0000</episode-num>
+    <desc>El cruce entre el mundo virtual de "W" y el mundo real crea todo tipo de situaciones inesperadas que desembocan en conflictos y peligros.</desc>
+    <icon src="https://images.pluto.tv/series/65a6d7d008d0ab00136db883/tile_1769467321499.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>20160720</date>
+    <series-id system="pluto">65a6d7d008d0ab00136db883</series-id>
+    <sub-title>The teacher has disappeared!</sub-title>
+    <category>Series</category>
+    <category>Drama</category>
+    <category>Romance</category>
   </programme>
   <programme start="20261108135200 +0000" stop="20261108160400 +0000" channel="HBO.cl">
     <title>Jurassic Park</title>
@@ -82728,18 +82529,13 @@ Después de años de trabajar juntos, una pareja está desesperada por encontrar
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/csimiami.jpg" />
   </programme>
-  <programme start="20261108150000 +0000" stop="20261108180000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261108150000 +0000" stop="20261108180000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261108150000 +0000" stop="20261108180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261108150000 +0000" stop="20261108180000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261108150000 +0000" stop="20261108180000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -82748,10 +82544,15 @@ Después de años de trabajar juntos, una pareja está desesperada por encontrar
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261108150000 +0000" stop="20261108180000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261108150000 +0000" stop="20261108180000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261108150000 +0000" stop="20261108180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261108150000 +0000" stop="20261108180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -82763,10 +82564,10 @@ Después de años de trabajar juntos, una pareja está desesperada por encontrar
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261108150000 +0000" stop="20261108180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261108150000 +0000" stop="20261108180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261108150200 +0000" stop="20261108152800 +0000" channel="DiscoveryKids.cl">
     <title>Mini Beat Power Rockers • Superfiesta de superdisfraces / El jurado / El reemplazo / La samba tiene la culpa / ¡Otra v</title>
@@ -87504,18 +87305,13 @@ Un chef y su esposa buscan mudarse a Hudson Valley y quieren un hogar con una gr
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lospequenostraviesos.jpg" />
   </programme>
-  <programme start="20261108180000 +0000" stop="20261108210000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261108180000 +0000" stop="20261108210000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261108180000 +0000" stop="20261108210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261108180000 +0000" stop="20261108210000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261108180000 +0000" stop="20261108210000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -87524,10 +87320,15 @@ Un chef y su esposa buscan mudarse a Hudson Valley y quieren un hogar con una gr
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261108180000 +0000" stop="20261108210000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261108180000 +0000" stop="20261108210000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261108180000 +0000" stop="20261108210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261108180000 +0000" stop="20261108210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -87539,10 +87340,10 @@ Un chef y su esposa buscan mudarse a Hudson Valley y quieren un hogar con una gr
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261108180000 +0000" stop="20261108210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261108180000 +0000" stop="20261108210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261108180200 +0000" stop="20261108181900 +0000" channel="DisneyJunior.cl">
     <title>Pequeñas historias de Bluey • Compilation 3</title>
@@ -92395,18 +92196,13 @@ Una pareja busca hacer de Bimini una parte permanente de sus vidas. Están busca
     <episode-num system="onscreen">S2 E16</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/becker.jpg" />
   </programme>
-  <programme start="20261108210000 +0000" stop="20261109000000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261108210000 +0000" stop="20261109000000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261108210000 +0000" stop="20261109000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261108210000 +0000" stop="20261109000000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261108210000 +0000" stop="20261109000000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -92415,10 +92211,15 @@ Una pareja busca hacer de Bimini una parte permanente de sus vidas. Están busca
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261108210000 +0000" stop="20261109000000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261108210000 +0000" stop="20261109000000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261108210000 +0000" stop="20261109000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261108210000 +0000" stop="20261109000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -92430,10 +92231,10 @@ Una pareja busca hacer de Bimini una parte permanente de sus vidas. Están busca
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261108210000 +0000" stop="20261109000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261108210000 +0000" stop="20261109000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261108210300 +0000" stop="20261108215000 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title>Renovaciones sorpresa • Marcas del pasado</title>
@@ -96899,18 +96700,13 @@ Mike, Jen y Rich tienen que elegir entre dos casas de renacimiento griego del si
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261109000000 +0000" stop="20261109030000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261109000000 +0000" stop="20261109030000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261109000000 +0000" stop="20261109030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261109000000 +0000" stop="20261109030000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261109000000 +0000" stop="20261109030000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -96919,10 +96715,15 @@ Mike, Jen y Rich tienen que elegir entre dos casas de renacimiento griego del si
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261109000000 +0000" stop="20261109030000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261109000000 +0000" stop="20261109030000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261109000000 +0000" stop="20261109030000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261109000000 +0000" stop="20261109030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -96934,10 +96735,10 @@ Mike, Jen y Rich tienen que elegir entre dos casas de renacimiento griego del si
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261109000000 +0000" stop="20261109030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261109000000 +0000" stop="20261109030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261109000100 +0000" stop="20261109001200 +0000" channel="CartoonNetwork.cl">
     <title>El mundo de Craig • Campista prófuga</title>
@@ -102406,18 +102207,13 @@ Una pareja de Texas, cuyos hijos se fueron de su casa, espera escapar de los ver
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/luce.jpg" />
   </programme>
-  <programme start="20261109030000 +0000" stop="20261109060000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261109030000 +0000" stop="20261109060000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261109030000 +0000" stop="20261109060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261109030000 +0000" stop="20261109060000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261109030000 +0000" stop="20261109060000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -102426,10 +102222,15 @@ Una pareja de Texas, cuyos hijos se fueron de su casa, espera escapar de los ver
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261109030000 +0000" stop="20261109060000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261109030000 +0000" stop="20261109060000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261109030000 +0000" stop="20261109060000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261109030000 +0000" stop="20261109060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -102441,10 +102242,10 @@ Una pareja de Texas, cuyos hijos se fueron de su casa, espera escapar de los ver
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261109030000 +0000" stop="20261109060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261109030000 +0000" stop="20261109060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261109030100 +0000" stop="20261109040100 +0000" channel="NationalGeographic.cl">
     <title>Alerta aeropuerto • Blancas aventuras</title>
@@ -107269,18 +107070,13 @@ Un chef y su esposa buscan mudarse a Hudson Valley y quieren un hogar con una gr
     <episode-num system="onscreen">S01E04</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261109060000 +0000" stop="20261109090000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261109060000 +0000" stop="20261109090000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261109060000 +0000" stop="20261109090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261109060000 +0000" stop="20261109090000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261109060000 +0000" stop="20261109090000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -107289,10 +107085,15 @@ Un chef y su esposa buscan mudarse a Hudson Valley y quieren un hogar con una gr
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261109060000 +0000" stop="20261109090000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261109060000 +0000" stop="20261109090000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261109060000 +0000" stop="20261109090000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261109060000 +0000" stop="20261109090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -107304,10 +107105,10 @@ Un chef y su esposa buscan mudarse a Hudson Valley y quieren un hogar con una gr
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261109060000 +0000" stop="20261109090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261109060000 +0000" stop="20261109090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261109060100 +0000" stop="20261109062400 +0000" channel="DisneyChannel.cl">
     <title>Miraculous: Las aventuras de Ladybug • Papá lobo</title>
@@ -112609,18 +112410,13 @@ Una madre y su hijo buscan una casa en la montaña con vistas increíbles y que 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ncishawaii.jpg" />
   </programme>
-  <programme start="20261109090000 +0000" stop="20261109120000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261109090000 +0000" stop="20261109120000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261109090000 +0000" stop="20261109120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261109090000 +0000" stop="20261109120000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261109090000 +0000" stop="20261109120000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -112629,10 +112425,15 @@ Una madre y su hijo buscan una casa en la montaña con vistas increíbles y que 
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261109090000 +0000" stop="20261109120000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261109090000 +0000" stop="20261109120000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261109090000 +0000" stop="20261109120000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261109090000 +0000" stop="20261109120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -112644,10 +112445,10 @@ Una madre y su hijo buscan una casa en la montaña con vistas increíbles y que 
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261109090000 +0000" stop="20261109120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261109090000 +0000" stop="20261109120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261109090300 +0000" stop="20261109113700 +0000" channel="FX.cl">
     <title>Déjà Vu</title>
@@ -117825,18 +117626,13 @@ Esta increíble variedad de casas de todo el mundo incluye una antigua bodega qu
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/csimiami.jpg" />
   </programme>
-  <programme start="20261109120000 +0000" stop="20261109150000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261109120000 +0000" stop="20261109150000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261109120000 +0000" stop="20261109150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261109120000 +0000" stop="20261109150000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261109120000 +0000" stop="20261109150000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -117845,10 +117641,15 @@ Esta increíble variedad de casas de todo el mundo incluye una antigua bodega qu
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261109120000 +0000" stop="20261109150000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261109120000 +0000" stop="20261109150000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261109120000 +0000" stop="20261109150000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261109120000 +0000" stop="20261109150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -117860,10 +117661,10 @@ Esta increíble variedad de casas de todo el mundo incluye una antigua bodega qu
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261109120000 +0000" stop="20261109150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261109120000 +0000" stop="20261109150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261109120100 +0000" stop="20261109122600 +0000" channel="WarnerChannel.cl">
     <title>The Big Bang Theory • La infiltración en la sala blanca</title>
@@ -123562,18 +123363,13 @@ Una familia se enamoró del encanto de una casa que parecía sacada de un progra
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261109150000 +0000" stop="20261109180000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261109150000 +0000" stop="20261109180000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261109150000 +0000" stop="20261109180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261109150000 +0000" stop="20261109180000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261109150000 +0000" stop="20261109180000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -123582,10 +123378,15 @@ Una familia se enamoró del encanto de una casa que parecía sacada de un progra
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261109150000 +0000" stop="20261109180000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261109150000 +0000" stop="20261109180000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261109150000 +0000" stop="20261109180000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261109150000 +0000" stop="20261109180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -123597,10 +123398,10 @@ Una familia se enamoró del encanto de una casa que parecía sacada de un progra
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261109150000 +0000" stop="20261109180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261109150000 +0000" stop="20261109180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261109150200 +0000" stop="20261109151200 +0000" channel="Tooncast.cl">
     <title>Los pequeños Looney Tunes • Petunia the Piggy Bank</title>
@@ -128835,18 +128636,13 @@ Una pareja está lista para cambiar su apartamento por una casa con mucho terren
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/enlospasosdelmaestro.jpg" />
   </programme>
-  <programme start="20261109180000 +0000" stop="20261109210000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261109180000 +0000" stop="20261109210000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261109180000 +0000" stop="20261109210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261109180000 +0000" stop="20261109210000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261109180000 +0000" stop="20261109210000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -128855,10 +128651,15 @@ Una pareja está lista para cambiar su apartamento por una casa con mucho terren
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261109180000 +0000" stop="20261109210000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261109180000 +0000" stop="20261109210000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261109180000 +0000" stop="20261109210000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261109180000 +0000" stop="20261109210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -128870,10 +128671,10 @@ Una pareja está lista para cambiar su apartamento por una casa con mucho terren
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261109180000 +0000" stop="20261109210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261109180000 +0000" stop="20261109210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261109180300 +0000" stop="20261109195500 +0000" channel="Cinemax.cl">
     <title>Lo mejor que puedas</title>
@@ -134116,18 +133917,13 @@ Amantes de las motos acuáticas buscan una escapada a las Bahamas a la que pueda
     <country>Argentina</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasestrellas.jpg" />
   </programme>
-  <programme start="20261109210000 +0000" stop="20261110000000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
+  <programme start="20261109210000 +0000" stop="20261110000000 +0000" channel="ENTMovies.cl">
+    <title lang="es">ENTMovies.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261109210000 +0000" stop="20261110000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261109210000 +0000" stop="20261110000000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
+  <programme start="20261109210000 +0000" stop="20261110000000 +0000" channel="ENTDrama.cl">
+    <title lang="es">ENTDrama.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
@@ -134136,10 +133932,15 @@ Amantes de las motos acuáticas buscan una escapada a las Bahamas a la que pueda
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261109210000 +0000" stop="20261110000000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
+  <programme start="20261109210000 +0000" stop="20261110000000 +0000" channel="ENTExtreme.cl">
+    <title lang="es">ENTExtreme.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261109210000 +0000" stop="20261110000000 +0000" channel="ENTChannel.cl">
+    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
+    <desc lang="es">Las mejores producciones cinematográficas.</desc>
+    <category lang="es">Cine</category>
   </programme>
   <programme start="20261109210000 +0000" stop="20261110000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -134151,10 +133952,10 @@ Amantes de las motos acuáticas buscan una escapada a las Bahamas a la que pueda
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261109210000 +0000" stop="20261110000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
+  <programme start="20261109210000 +0000" stop="20261110000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261109210200 +0000" stop="20261109230100 +0000" channel="WarnerChannel.cl">
     <title>El protector</title>
@@ -162023,6 +161824,11 @@ Mike, Jen y Rich deben decidir si van a tomar una casa estilo Cabo Cod de 1735 c
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
+  <programme start="20261110140000 +0000" stop="20261110150000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261110140000 +0000" stop="20261110150000 +0000" channel="FOODNETWORK.uy">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -163637,6 +163443,21 @@ Mike, Jen y Rich deben decidir si van a tomar una casa estilo Cabo Cod de 1735 c
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/phineasyferb.jpg" />
   </programme>
+  <programme start="20261110150000 +0000" stop="20261110160000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261110150000 +0000" stop="20261110160000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261110150000 +0000" stop="20261110160000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261110150000 +0000" stop="20261110170000 +0000" channel="LaRed.cl">
     <title>Al fondo hay sitio</title>
     <desc>Los González son una familia muy peculiar. Descomplicados, alegres y muy orgullosos de sus costumbres campesinas, tienen orgullo de lo que son. Por azares del destino, heredarán una casa en uno de los barrios más exclusivos de la capital y lejos de adaptarse a su nuevo entorno, continuarán con sus hábitos que molestarán a más de una familia.</desc>
@@ -164910,7 +164731,7 @@ Mike, Jen y Rich deben decidir si van a tomar una casa estilo Cabo Cod de 1735 c
   </programme>
   <programme start="20261110154500 +0000" stop="20261110174000 +0000" channel="AMC.cl">
     <title>Rocky V</title>
-    <desc>Para sobrevivir, el campeón retirado Rocky Balboa debe entrenar y promocionar a jóvenes promesas del boxeo, además de luchar contra los empresarios que lo adulaban cuando era una máquina de lanzar puños.</desc>
+    <desc>Rocky, arruinado y retirado del boxeo, se ve obligado a volver a su barrio de siempre. Allí conoce a un joven con aptitudes para boxear y decide entrenarle.</desc>
     <credits>
       <director>John G. Avildsen</director>
       <actor>Sylvester Stallone</actor>
@@ -164942,6 +164763,7 @@ Mike, Jen y Rich deben decidir si van a tomar una casa estilo Cabo Cod de 1735 c
     <date>1990</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>Estados Unidos</country>
     <rating>
       <value>B</value>
     </rating>
@@ -165333,6 +165155,21 @@ Mike, Jen y Rich deben decidir si van a tomar una casa estilo Cabo Cod de 1735 c
       <value>TV14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cobrakai.jpg" />
+  </programme>
+  <programme start="20261110160000 +0000" stop="20261110170000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261110160000 +0000" stop="20261110170000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261110160000 +0000" stop="20261110170000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261110160000 +0000" stop="20261110180000 +0000" channel="TVN.cl">
     <title>24 horas al día</title>
@@ -166711,6 +166548,21 @@ Mike, Jen y Rich deben decidir si van a tomar una casa estilo Cabo Cod de 1735 c
     <country>México</country>
     <episode-num system="onscreen">E92</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261110170000 +0000" stop="20261110180000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261110170000 +0000" stop="20261110180000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261110170000 +0000" stop="20261110180000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261110170000 +0000" stop="20261110180000 +0000" channel="LaRed.cl">
     <title>Comisario Rex</title>
@@ -168576,6 +168428,21 @@ Mike, Jen y Rich deben decidir si van a tomar una casa estilo Cabo Cod de 1735 c
     <episode-num system="onscreen">S4E11</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/doctorajuguetes.jpg" />
   </programme>
+  <programme start="20261110180000 +0000" stop="20261110190000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261110180000 +0000" stop="20261110190000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261110180000 +0000" stop="20261110190000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261110180000 +0000" stop="20261110190000 +0000" channel="LaRed.cl">
     <title>El Hombre Nuclear</title>
     <desc>Steve Austin, un piloto de pruebas y astronauta sufre un terrible accidente de trabajo durante un vuelo experimental. Los doctores se ven obligados a amputarle ambas piernas y el brazo derecho. Steve también pierde la visión del ojo derecho. Pero el Dr. Rudy Wells, que se encontraba trabajando en un proyecto secreto, es autorizado por el gobierno a reemplazar los miembros amputados con partes biónicas. Estas 'nuevas partes' le dan a Steve una fuerza enorme y velocidad y una visión envidiable. Para compensar a sus benefactores, Steve se convierte en agente y debe cumplir peligrosas misiones.</desc>
@@ -169698,6 +169565,21 @@ Mike, Jen y Rich deben decidir si van a tomar una casa estilo Cabo Cod de 1735 c
     <country>EE. UU</country>
     <episode-num system="onscreen">S8E10</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losjovenestitanesenaccion.jpg" />
+  </programme>
+  <programme start="20261110190000 +0000" stop="20261110200000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261110190000 +0000" stop="20261110200000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261110190000 +0000" stop="20261110200000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261110190000 +0000" stop="20261110200000 +0000" channel="LaRed.cl">
     <title>Los ángeles de Charlie</title>
@@ -171408,6 +171290,21 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/minibeatpowerrockers.jpg" />
   </programme>
+  <programme start="20261110200000 +0000" stop="20261110210000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261110200000 +0000" stop="20261110210000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261110200000 +0000" stop="20261110210000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261110200000 +0000" stop="20261110210000 +0000" channel="LaRed.cl">
     <title>Los magníficos</title>
     <desc>Cuatro excombatientes y héroes de guerra en Vietnam son llevados a un juicio militar en 1972 y encarcelados por un delito que supuestamente no cometieron. Sin embargo, tras lograr escapar, comienzan a ser perseguidos por la policía y el gobierno estadounidense. Ahora, los fugitivos se verán obligados a convertirse en mercenarios para sobrevivir.</desc>
@@ -172788,6 +172685,21 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tesorosperdidosdeegipto.jpg" />
+  </programme>
+  <programme start="20261110210000 +0000" stop="20261110220000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261110210000 +0000" stop="20261110220000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261110210000 +0000" stop="20261110220000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261110210000 +0000" stop="20261110220000 +0000" channel="LaRed.cl">
     <title>El auto fantástico</title>
@@ -174309,6 +174221,16 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/phineasyferb.jpg" />
+  </programme>
+  <programme start="20261110220000 +0000" stop="20261110230000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261110220000 +0000" stop="20261110230000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261110220000 +0000" stop="20261110230000 +0000" channel="LaRed.cl">
     <title>Lobo del aire</title>
