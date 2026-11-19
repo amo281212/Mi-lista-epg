@@ -101,18 +101,23 @@
   </channel>
   <channel id="ENTChannel.cl">
     <display-name>ENT Channel</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20Channel.png" />
   </channel>
   <channel id="ENTComedy.cl">
-    <display-name>ENTComedy.cl</display-name>
+    <display-name>ENT Comedy</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20COMEDY.png" />
   </channel>
   <channel id="ENTDrama.cl">
-    <display-name>ENTDrama.cl</display-name>
+    <display-name>ENT Drama</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20DRAMA.png" />
   </channel>
   <channel id="ENTExtreme.cl">
-    <display-name>ENTExtreme.cl</display-name>
+    <display-name>ENT Extreme</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20EXTREME.png" />
   </channel>
   <channel id="ENTMovies.cl">
-    <display-name>ENTMovies.cl</display-name>
+    <display-name>ENT Movies</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20MOVIES.png" />
   </channel>
   <channel id="ESPN.cl">
     <display-name lang="es">ESPN • Chile</display-name>
@@ -524,11 +529,6 @@
     <title lang="es">Rally WRC Chile Bío-Bío 2026</title>
     <desc lang="es">Sin información.</desc>
   </programme>
-  <programme start="20261118000000 +0000" stop="20261118030000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261118000000 +0000" stop="20261118030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -539,35 +539,10 @@
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261118000000 +0000" stop="20261118030000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261118000000 +0000" stop="20261118030000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261118000000 +0000" stop="20261118030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261118000000 +0000" stop="20261118030000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261118000000 +0000" stop="20261118030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261118030000 +0000" stop="20261118060000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261118030000 +0000" stop="20261118060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -579,35 +554,10 @@
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261118030000 +0000" stop="20261118060000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261118030000 +0000" stop="20261118060000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261118030000 +0000" stop="20261118060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261118030000 +0000" stop="20261118060000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261118030000 +0000" stop="20261118060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261118060000 +0000" stop="20261118090000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261118060000 +0000" stop="20261118090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -619,35 +569,10 @@
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261118060000 +0000" stop="20261118090000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261118060000 +0000" stop="20261118090000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261118060000 +0000" stop="20261118090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261118060000 +0000" stop="20261118090000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261118060000 +0000" stop="20261118090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261118090000 +0000" stop="20261118120000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261118090000 +0000" stop="20261118120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -658,26 +583,6 @@
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261118090000 +0000" stop="20261118120000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261118090000 +0000" stop="20261118120000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261118090000 +0000" stop="20261118120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261118090000 +0000" stop="20261118120000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261118090000 +0000" stop="20261118120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -698,11 +603,6 @@
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/planetaction.jpg" />
   </programme>
-  <programme start="20261118120000 +0000" stop="20261118150000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261118120000 +0000" stop="20261118150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -712,26 +612,6 @@
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261118120000 +0000" stop="20261118150000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261118120000 +0000" stop="20261118150000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261118120000 +0000" stop="20261118150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261118120000 +0000" stop="20261118150000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261118120000 +0000" stop="20261118150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -1315,11 +1195,6 @@
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118150000 +0000" stop="20261118180000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261118150000 +0000" stop="20261118180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -1329,26 +1204,6 @@
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261118150000 +0000" stop="20261118180000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261118150000 +0000" stop="20261118180000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261118150000 +0000" stop="20261118180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261118150000 +0000" stop="20261118180000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261118150000 +0000" stop="20261118180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -6039,11 +5894,6 @@
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasagacrepusculolunanueva.jpg" />
   </programme>
-  <programme start="20261118180000 +0000" stop="20261118210000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261118180000 +0000" stop="20261118210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -6053,26 +5903,6 @@
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261118180000 +0000" stop="20261118210000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261118180000 +0000" stop="20261118210000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261118180000 +0000" stop="20261118210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261118180000 +0000" stop="20261118210000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261118180000 +0000" stop="20261118210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -11046,11 +10876,6 @@
     <episode-num system="onscreen">S1 E6</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118210000 +0000" stop="20261119000000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261118210000 +0000" stop="20261119000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -11060,26 +10885,6 @@
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261118210000 +0000" stop="20261119000000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261118210000 +0000" stop="20261119000000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261118210000 +0000" stop="20261119000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261118210000 +0000" stop="20261119000000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261118210000 +0000" stop="20261119000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -16144,11 +15949,6 @@
     <episode-num system="onscreen">S3E7</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
-  <programme start="20261119000000 +0000" stop="20261119030000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261119000000 +0000" stop="20261119030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -16158,26 +15958,6 @@
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261119000000 +0000" stop="20261119030000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261119000000 +0000" stop="20261119030000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261119000000 +0000" stop="20261119030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261119000000 +0000" stop="20261119030000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261119000000 +0000" stop="20261119030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -21659,10 +21439,20 @@
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261119030000 +0000" stop="20261119060000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme channel="ENTChannel.cl" start="20261119030000 +0000" stop="20261119111200 +0000">
+    <title lang="es">El mensajero del miedo</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261119030000 +0000" stop="20261119103900 +0000">
+    <title lang="es">La familia Addams</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261119030000 +0000" stop="20261119124900 +0000">
+    <title lang="es">Star Wars: Episodio II: El Ataque de los Clones</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261119030000 +0000" stop="20261119133900 +0000">
+    <title lang="es">Titanic</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261119030000 +0000" stop="20261119125900 +0000">
+    <title lang="es">Jurassic World: Renace</title>
   </programme>
   <programme start="20261119030000 +0000" stop="20261119060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -21673,26 +21463,6 @@
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261119030000 +0000" stop="20261119060000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261119030000 +0000" stop="20261119060000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261119030000 +0000" stop="20261119060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261119030000 +0000" stop="20261119060000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261119030000 +0000" stop="20261119060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -26984,11 +26754,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/micorazonestuyo.jpg" />
   </programme>
-  <programme start="20261119060000 +0000" stop="20261119090000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261119060000 +0000" stop="20261119090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -26998,26 +26763,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261119060000 +0000" stop="20261119090000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261119060000 +0000" stop="20261119090000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261119060000 +0000" stop="20261119090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261119060000 +0000" stop="20261119090000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261119060000 +0000" stop="20261119090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -32652,11 +32397,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ncisorigins.jpg" />
   </programme>
-  <programme start="20261119090000 +0000" stop="20261119120000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261119090000 +0000" stop="20261119120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -32666,26 +32406,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261119090000 +0000" stop="20261119120000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261119090000 +0000" stop="20261119120000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261119090000 +0000" stop="20261119120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261119090000 +0000" stop="20261119120000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261119090000 +0000" stop="20261119120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -35390,6 +35110,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <episode-num system="onscreen">S2E16</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261119103900 +0000" stop="20261119115800 +0000">
+    <title lang="es">Emoji: La Película</title>
+  </programme>
   <programme start="20261119104000 +0000" stop="20261119121000 +0000" channel="TNTSports.cl">
     <title>TNT data sports</title>
     <desc>Repetición ║ Un noticiero diario que brinda no solo noticias sino el más pormenorizado análisis deportivo, con imágenes al instante de lo que ocurre en el mundo y con el foco puesto en las estadísticas.</desc>
@@ -36493,6 +36216,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <episode-num system="onscreen">S1E8</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/micompanerodeclaseesunmono.jpg" />
   </programme>
+  <programme channel="ENTChannel.cl" start="20261119111200 +0000" stop="20261119125400 +0000">
+    <title lang="es">El laberinto del fauno</title>
+  </programme>
   <programme start="20261119111500 +0000" stop="20261119120000 +0000" channel="UniversalTV.cl">
     <title>La ley y el orden: Unidad de Víctimas Especiales • Hermanos de sangre</title>
     <sub-title>Hermanos de sangre</sub-title>
@@ -37565,6 +37291,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/todscaen.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261119115800 +0000" stop="20261119122800 +0000">
+    <title lang="es">Dinosaurios</title>
+  </programme>
   <programme start="20261119115900 +0000" stop="20261119122600 +0000" channel="DisneyChannel.cl">
     <title>Kiff • Farley / Perritos calientes dos por uno</title>
     <sub-title>Farley / Perritos calientes dos por uno</sub-title>
@@ -38158,11 +37887,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/csimiami.jpg" />
   </programme>
-  <programme start="20261119120000 +0000" stop="20261119150000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261119120000 +0000" stop="20261119150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -38172,26 +37896,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261119120000 +0000" stop="20261119150000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261119120000 +0000" stop="20261119150000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261119120000 +0000" stop="20261119150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261119120000 +0000" stop="20261119150000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261119120000 +0000" stop="20261119150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -38743,6 +38447,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>B15</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elduelofinal.jpg" />
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261119122800 +0000" stop="20261119125800 +0000">
+    <title lang="es">La niñera</title>
   </programme>
   <programme start="20261119123000 +0000" stop="20261119124000 +0000" channel="CartoonNetwork.cl">
     <title>We Baby Bears • Osos en la oscuridad</title>
@@ -39339,6 +39046,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elconjuro2.jpg" />
   </programme>
+  <programme channel="ENTMovies.cl" start="20261119124900 +0000" stop="20261119144700 +0000">
+    <title lang="es">Volver al futuro</title>
+  </programme>
   <programme start="20261119125000 +0000" stop="20261119130000 +0000" channel="CartoonNetwork.cl">
     <title>We Baby Bears • Excalibúrsido</title>
     <sub-title>Excalibúrsido</sub-title>
@@ -39416,6 +39126,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="ENTChannel.cl" start="20261119125400 +0000" stop="20261119142600 +0000">
+    <title lang="es">Joe Dirt</title>
+  </programme>
   <programme start="20261119125500 +0000" stop="20261119135000 +0000" channel="UniversalTV.cl">
     <title>Chicago Med • La realidad deja mucho a la imaginación</title>
     <sub-title>La realidad deja mucho a la imaginación</sub-title>
@@ -39442,6 +39155,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chicagomed.jpg" />
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261119125800 +0000" stop="20261119132900 +0000">
+    <title lang="es">El chapulín colorado</title>
   </programme>
   <programme start="20261119125900 +0000" stop="20261119132900 +0000" channel="DisneyChannel.cl">
     <title>Hamster &amp; Gretel • Fiebre de baile escolar / El Dr. Eelgood</title>
@@ -39513,6 +39229,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>TVPG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261119125900 +0000" stop="20261119151200 +0000">
+    <title lang="es">Rápidos y Furiosos: Hobbs y Shaw</title>
   </programme>
   <programme start="20261119130000 +0000" stop="20261119140000 +0000" channel="24Horas.cl">
     <title>No Data</title>
@@ -40869,6 +40588,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261119132900 +0000" stop="20261119135800 +0000">
+    <title lang="es">ALF</title>
+  </programme>
   <programme start="20261119133000 +0000" stop="20261119135500 +0000" channel="NickJr.bo">
     <title>PAW Patrol: Patrulla de cachorros</title>
     <desc>Un grupo de seis perritos de rescate dirigidos por un chico experto en tecnología llamado Ryder, tienen muchas aventuras con la patrulla de cachorros, ningún trabajo es demasiado grande y ningún cachorro muy pequeño para proteger a la comunidad.</desc>
@@ -41150,6 +40872,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <country>EE. UU</country>
     <episode-num system="onscreen">S5E10</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261119133900 +0000" stop="20261119152500 +0000">
+    <title lang="es">Contratiempo</title>
   </programme>
   <programme start="20261119134000 +0000" stop="20261119140500 +0000" channel="History2.cl1">
     <title>Boys Toys • Hoosier Daddy?</title>
@@ -41519,6 +41244,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <sub-title>Episodio 3</sub-title>
     <category>Series</category>
     <category>Telenovela</category>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261119135800 +0000" stop="20261119142900 +0000">
+    <title lang="es">Malcolm</title>
   </programme>
   <programme start="20261119135900 +0000" stop="20261119142900 +0000" channel="DisneyChannel.cl">
     <title>StuGo: Campamento de verano • Hermana de formas / El juego de Lullah</title>
@@ -42528,6 +42256,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="ENTChannel.cl" start="20261119142600 +0000" stop="20261119163300 +0000">
+    <title lang="es">Pantera Negra</title>
+  </programme>
   <programme start="20261119142900 +0000" stop="20261119145900 +0000" channel="DisneyChannel.cl">
     <title>ZOMBIES: La serie re-animada • Falsa detective / El secreto de improvisar</title>
     <sub-title>Falsa detective / El secreto de improvisar</sub-title>
@@ -42581,6 +42312,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <country>EE. UU</country>
     <episode-num system="onscreen">S1E23</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261119142900 +0000" stop="20261119145800 +0000">
+    <title lang="es">Friends</title>
   </programme>
   <programme start="20261119143000 +0000" stop="20261119150000 +0000" channel="CNNChile.cl">
     <title>Entrevistas CNN</title>
@@ -43168,6 +42902,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/csimiami.jpg" />
   </programme>
+  <programme channel="ENTMovies.cl" start="20261119144700 +0000" stop="20261119162200 +0000">
+    <title lang="es">Furia de Titanes 2</title>
+  </programme>
   <programme start="20261119145000 +0000" stop="20261119150000 +0000" channel="Nick.cl">
     <title>Spongebob Squarepants • Granjero Bob</title>
     <sub-title>Granjero Bob</sub-title>
@@ -43463,6 +43200,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <category>Reality Show</category>
     <country>Argentina</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/masterchefcelebrityargentina.jpg" />
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261119145800 +0000" stop="20261119152900 +0000">
+    <title lang="es">El Chavo</title>
   </programme>
   <programme start="20261119145900 +0000" stop="20261119153300 +0000" channel="DisneyChannel.cl">
     <title>Phineas y Ferb: La noche de los farmacéuticos vivientes • ¡El apagón! / ¿De qué me perdí</title>
@@ -43969,11 +43709,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261119150000 +0000" stop="20261119180000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261119150000 +0000" stop="20261119180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -43983,26 +43718,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261119150000 +0000" stop="20261119180000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261119150000 +0000" stop="20261119180000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261119150000 +0000" stop="20261119180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261119150000 +0000" stop="20261119180000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261119150000 +0000" stop="20261119180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -44181,6 +43896,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <country>EE. UU</country>
     <episode-num system="onscreen">S1E18</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261119151200 +0000" stop="20261119170900 +0000">
+    <title lang="es">Creed III</title>
   </programme>
   <programme start="20261119151500 +0000" stop="20261119160500 +0000" channel="TLNovelas.cl">
     <title>Maratón Eternamente amandonos</title>
@@ -44431,6 +44149,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <episode-num system="onscreen">S11 E22</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/frasier.jpg" />
   </programme>
+  <programme channel="ENTDrama.cl" start="20261119152500 +0000" stop="20261119172300 +0000">
+    <title lang="es">En busca de la felicidad</title>
+  </programme>
   <programme start="20261119152600 +0000" stop="20261119180000 +0000" channel="HBOFamily.cl">
     <title>Harry Potter y la piedra filosofal</title>
     <desc>Harry Potter es un huérfano que vive con sus desagradables tíos, los Dursley, y su repelente primo Dudley. Se acerca su undécimo cumpleaños y tiene pocas esperanzas de recibir algún regalo, ya que nunca nadie se acuerda de él. Sin embargo, pocos días antes de su cumpleaños, una serie de misteriosas cartas dirigidas a él y escritas con una estridente tinta verde rompen la monotonía de su vida: Harry es un mago y sus padres también lo eran.</desc>
@@ -44457,6 +44178,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/harrypotterylapiedrafilosofal.jpg" />
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261119152900 +0000" stop="20261119155900 +0000">
+    <title lang="es">Los Simpson</title>
   </programme>
   <programme start="20261119153000 +0000" stop="20261119160000 +0000" channel="24Horas.cl">
     <title lang="es">Vía Pública</title>
@@ -45539,6 +45263,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jessie.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261119155900 +0000" stop="20261119173600 +0000">
+    <title lang="es">La nana mágica: Nanny McPhee</title>
+  </programme>
   <programme start="20261119160000 +0000" stop="20261119170000 +0000" channel="24Horas.cl">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -46237,6 +45964,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="ENTMovies.cl" start="20261119162200 +0000" stop="20261119183100 +0000">
+    <title lang="es">Black Widow</title>
+  </programme>
   <programme start="20261119162400 +0000" stop="20261119163300 +0000" channel="CartoonNetwork.cl">
     <title>El increíble mundo de Gumball • La jaula</title>
     <sub-title>La jaula</sub-title>
@@ -46522,6 +46252,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <country>EE. UU</country>
     <episode-num system="onscreen">S1 E6</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261119163300 +0000" stop="20261119184600 +0000">
+    <title lang="es">Golpes del destino</title>
   </programme>
   <programme start="20261119163400 +0000" stop="20261119163900 +0000" channel="DiscoveryKids.cl">
     <title>Peppa Pig • Cuidando al abuelo cerdito</title>
@@ -47877,6 +47610,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mexicanicos.jpg" />
   </programme>
+  <programme channel="ENTExtreme.cl" start="20261119170900 +0000" stop="20261119193900 +0000">
+    <title lang="es">Batman: El Caballo de la Noche</title>
+  </programme>
   <programme start="20261119171000 +0000" stop="20261119172000 +0000" channel="CartoonNetwork.cl">
     <title>El mundo de Craig • La calle de Craig</title>
     <sub-title>La calle de Craig</sub-title>
@@ -48049,6 +47785,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <country>EE. UU</country>
     <episode-num system="onscreen">S3 E12</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/becker.jpg" />
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261119172300 +0000" stop="20261119210900 +0000">
+    <title lang="es">Lo que el viento se llevó</title>
   </programme>
   <programme start="20261119172400 +0000" stop="20261119174800 +0000" channel="DiscoveryWorld.cl">
     <title>Pantano: se vende • Diversión en deslizadores</title>
@@ -48550,6 +48289,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <country>EE. UU</country>
     <episode-num system="onscreen">S6E14</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261119173600 +0000" stop="20261119191300 +0000">
+    <title lang="es">Elementos</title>
   </programme>
   <programme start="20261119173800 +0000" stop="20261119183700 +0000" channel="TNTSeries.cl">
     <title>CSI: Miami • Backstabbers</title>
@@ -49412,11 +49154,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/volveralfuturo.jpg" />
   </programme>
-  <programme start="20261119180000 +0000" stop="20261119210000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261119180000 +0000" stop="20261119210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -49426,26 +49163,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261119180000 +0000" stop="20261119210000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261119180000 +0000" stop="20261119210000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261119180000 +0000" stop="20261119210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261119180000 +0000" stop="20261119210000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261119180000 +0000" stop="20261119210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -50256,6 +49973,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lamonja.jpg" />
   </programme>
+  <programme channel="ENTMovies.cl" start="20261119183100 +0000" stop="20261119210000 +0000">
+    <title lang="es">Transformers: La venganza de los caídos</title>
+  </programme>
   <programme start="20261119183200 +0000" stop="20261119203300 +0000" channel="Cinemax.cl">
     <title>RocknRolla</title>
     <desc>Cuando un mafioso ruso crea una estafa inmobiliaria que genera millones de libras, varios miembros del hampa de Londres empiezan a perseguir su parte del botín. Varios personajes sospechosos, entre ellos Mr One-Two, Stella la contable, y Johnny Quid, estrella del rock y drogadicto, tratan de reclamar su tajada.</desc>
@@ -50582,6 +50302,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>TVPG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hermanosalaobrabajopresion.jpg" />
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261119184600 +0000" stop="20261119205500 +0000">
+    <title lang="es">El juego</title>
   </programme>
   <programme start="20261119184700 +0000" stop="20261119194400 +0000" channel="AE.cl">
     <title>Secretos de Bunny Ranch • The Cathouse Murders</title>
@@ -51466,6 +51189,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <country>Turquía</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261119191300 +0000" stop="20261119205100 +0000">
+    <title lang="es">Unidos</title>
+  </programme>
   <programme start="20261119191500 +0000" stop="20261119193000 +0000" channel="CartoonNetwork.cl">
     <title>Los Jóvenes Titanes en acción • Elefante blanco</title>
     <sub-title>Elefante blanco</sub-title>
@@ -51963,6 +51689,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <country>EE. UU</country>
     <episode-num system="onscreen">S3 E19</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/theexes.jpg" />
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261119193900 +0000" stop="20261119213500 +0000">
+    <title lang="es">Indiana Jones: Los cazadores del arca perdida</title>
   </programme>
   <programme start="20261119194000 +0000" stop="20261119202500 +0000" channel="NickJr.bo">
     <title>Barbapapá: ¡Una gran familia! • El Louvre; El día de los contrarios</title>
@@ -54079,6 +53808,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/csimiami.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261119205100 +0000" stop="20261119222900 +0000">
+    <title lang="es">Austin Powers 2: El espía seductor</title>
+  </programme>
   <programme start="20261119205300 +0000" stop="20261119210500 +0000" channel="Tooncast.cl">
     <title>Hermano de Jorel • The Last of the Romantics</title>
     <sub-title>The Last of the Romantics</sub-title>
@@ -54215,6 +53947,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>A</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261119205500 +0000" stop="20261119225200 +0000">
+    <title lang="es">Colateral</title>
   </programme>
   <programme start="20261119205700 +0000" stop="20261119215800 +0000" channel="NationalGeographic.cl">
     <title>Tesoros perdidos de Egipto • La dinastía más grande de Egipto</title>
@@ -54503,10 +54238,8 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/traicionada.jpg" />
   </programme>
-  <programme start="20261119210000 +0000" stop="20261120000000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme channel="ENTMovies.cl" start="20261119210000 +0000" stop="20261119234700 +0000">
+    <title lang="es">Misión Imposible: Sentencia Final</title>
   </programme>
   <programme start="20261119210000 +0000" stop="20261120000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -54517,26 +54250,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261119210000 +0000" stop="20261120000000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261119210000 +0000" stop="20261120000000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261119210000 +0000" stop="20261120000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261119210000 +0000" stop="20261120000000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261119210000 +0000" stop="20261120000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -54715,6 +54428,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>TVPG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hermanosalaobrabajopresion.jpg" />
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261119210900 +0000" stop="20261119231300 +0000">
+    <title lang="es">Diario de una pasión</title>
   </programme>
   <programme start="20261119211000 +0000" stop="20261119212000 +0000" channel="CartoonNetwork.cl">
     <title>El mundo de Craig • Don pellizco</title>
@@ -55291,6 +55007,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/nientucasanienlamia.jpg" />
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261119213500 +0000" stop="20261119232800 +0000">
+    <title lang="es">Río Salvaje</title>
   </programme>
   <programme start="20261119213600 +0000" stop="20261119231800 +0000" channel="HBOFamily.cl">
     <title>La cabra que cambió el juego: Goat</title>
@@ -56654,6 +56373,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/csimiami.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261119222900 +0000" stop="20261120003500 +0000">
+    <title lang="es">Thor: Ragnarok</title>
+  </programme>
   <programme start="20261119223000 +0000" stop="20261119224000 +0000" channel="CartoonNetwork.cl">
     <title>Un show más • Yo soy Pam</title>
     <sub-title>Yo soy Pam</sub-title>
@@ -57374,6 +57096,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/minibeatpowerrockers.jpg" />
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261119225200 +0000" stop="20261120005800 +0000">
+    <title lang="es">El Planeta de los Simios: Confrontación</title>
   </programme>
   <programme start="20261119225700 +0000" stop="20261119230200 +0000" channel="DiscoveryKids.cl">
     <title>Mini Beat Power Rockers • Batalla de bandas</title>
@@ -58146,6 +57871,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <episode-num system="onscreen">S6E14</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="ENTDrama.cl" start="20261119231300 +0000" stop="20261120005500 +0000">
+    <title lang="es">Hannah Montana: La Película</title>
+  </programme>
   <programme start="20261119231400 +0000" stop="20261119232500 +0000" channel="Tooncast.cl">
     <title>Mi compañero de clase es un mono • La letra 'A</title>
     <sub-title>La letra 'A</sub-title>
@@ -58642,6 +58370,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/legodreamzzz.jpg" />
   </programme>
+  <programme channel="ENTExtreme.cl" start="20261119232800 +0000" stop="20261120012200 +0000">
+    <title lang="es">Popeye</title>
+  </programme>
   <programme start="20261119232900 +0000" stop="20261119235900 +0000" channel="DisneyChannel.cl">
     <title>Jessie • Tira a mamá de la terraza</title>
     <sub-title>Tira a mamá de la terraza</sub-title>
@@ -59099,6 +58830,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E7</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/menordeedadinfiltrada.jpg" />
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261119234700 +0000" stop="20261120012200 +0000">
+    <title lang="es">Un viernes de locos</title>
   </programme>
   <programme start="20261119234800 +0000" stop="20261120001200 +0000" channel="DiscoveryWorld.cl">
     <title>Fanáticos de los viajes • Nueva Orleans</title>
@@ -59667,11 +59401,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <country>EE. UU</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261120000000 +0000" stop="20261120030000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261120000000 +0000" stop="20261120030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -59681,26 +59410,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261120000000 +0000" stop="20261120030000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120000000 +0000" stop="20261120030000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120000000 +0000" stop="20261120030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261120000000 +0000" stop="20261120030000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261120000000 +0000" stop="20261120030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -60771,6 +60480,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261120003500 +0000" stop="20261120023000 +0000">
+    <title lang="es">Locura de verano</title>
+  </programme>
   <programme start="20261120003600 +0000" stop="20261120010100 +0000" channel="DiscoveryKids.cl">
     <title>Academia Unicornio • El sueño de Wildstar</title>
     <sub-title>El sueño de Wildstar</sub-title>
@@ -61130,6 +60842,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="ENTDrama.cl" start="20261120005500 +0000" stop="20261120030000 +0000">
+    <title lang="es">Filadelfia</title>
+  </programme>
   <programme start="20261120005800 +0000" stop="20261120023000 +0000" channel="HBOFamily.cl">
     <title>Mi villano favorito 3</title>
     <desc>En una alegre urbanización con cuidados jardines rodeados por verjas de madera pintadas de blanco y llenos de rosales, sobresale una casa negra con el césped amarillento. Los vecinos ignoran que debajo de la vivienda hay un enorme escondite secreto. Allí está Gru, rodeado por un pequeño ejército de lacayos, planeando el mayor robo de toda la historia. ¡Va a hacerse con la luna!</desc>
@@ -61158,6 +60873,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mivillanofavorito3.jpg" />
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261120005800 +0000" stop="20261120023300 +0000">
+    <title lang="es">Valiente</title>
   </programme>
   <programme start="20261120010000 +0000" stop="20261120020000 +0000" channel="24Horas.cl">
     <title>No Data</title>
@@ -62196,6 +61914,12 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>TV14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261120012200 +0000" stop="20261120030000 +0000">
+    <title lang="es">Mi Novia Polly</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261120012200 +0000" stop="20261120040000 +0000">
+    <title lang="es">Mujer Maravilla 1984</title>
   </programme>
   <programme start="20261120012400 +0000" stop="20261120014800 +0000" channel="DiscoveryKids.cl">
     <title>Mermaid Magic • El guardián de las perlas</title>
@@ -64231,6 +63955,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/harrypotterylapiedrafilosofal.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261120023000 +0000" stop="20261120030000 +0000">
+    <title lang="es">Smiling Friends</title>
+  </programme>
   <programme start="20261120023100 +0000" stop="20261120024200 +0000" channel="Tooncast.cl">
     <title>Los pequeños Looney Tunes • Daffy Did It</title>
     <sub-title>Daffy Did It</sub-title>
@@ -64337,6 +64064,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>B15</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pruebadefuego.jpg" />
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261120023300 +0000" stop="20261120030000 +0000">
+    <title lang="es">Los Simpson</title>
   </programme>
   <programme start="20261120023400 +0000" stop="20261120032100 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title>Hermanos a la obra: Bajo presión • Un día para decidir</title>
@@ -65317,10 +65047,17 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elmenu.jpg" />
   </programme>
-  <programme start="20261120030000 +0000" stop="20261120060000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
+  <programme channel="ENTChannel.cl" start="20261120030000 +0000" stop="20261120123600 +0000">
+    <title lang="es">Pasante de moda</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261120030000 +0000" stop="20261120115800 +0000">
+    <title lang="es">Bichos: Una aventura en miniatura</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261120030000 +0000" stop="20261120111800 +0000">
+    <title lang="es">Apolo 13</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261120030000 +0000" stop="20261120125800 +0000">
+    <title lang="es">Batman Inicia</title>
   </programme>
   <programme start="20261120030000 +0000" stop="20261120060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
@@ -65331,26 +65068,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261120030000 +0000" stop="20261120060000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120030000 +0000" stop="20261120060000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120030000 +0000" stop="20261120060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261120030000 +0000" stop="20261120060000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261120030000 +0000" stop="20261120060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -67218,6 +66935,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>18</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261120040000 +0000" stop="20261120124400 +0000">
+    <title lang="es">Thunderbolts*</title>
   </programme>
   <programme start="20261120040300 +0000" stop="20261120041500 +0000" channel="DisneyChannel.cl">
     <title>ZOMBIES: La serie re-animada • Agitado y confundido</title>
@@ -70696,11 +70416,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <country>Argentina</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasestrellas.jpg" />
   </programme>
-  <programme start="20261120060000 +0000" stop="20261120090000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261120060000 +0000" stop="20261120090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -70710,26 +70425,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261120060000 +0000" stop="20261120090000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120060000 +0000" stop="20261120090000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120060000 +0000" stop="20261120090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261120060000 +0000" stop="20261120090000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261120060000 +0000" stop="20261120090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -76028,11 +75723,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261120090000 +0000" stop="20261120120000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261120090000 +0000" stop="20261120120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -76042,26 +75732,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261120090000 +0000" stop="20261120120000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120090000 +0000" stop="20261120120000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120090000 +0000" stop="20261120120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261120090000 +0000" stop="20261120120000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261120090000 +0000" stop="20261120120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -79684,6 +79354,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <episode-num system="onscreen">S9E200</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="ENTMovies.cl" start="20261120111800 +0000" stop="20261120132300 +0000">
+    <title lang="es">Shang-Chi y la leyenda de los Diez Anillos</title>
+  </programme>
   <programme start="20261120111900 +0000" stop="20261120135600 +0000" channel="FX.cl">
     <title>Mrs. Doubtfire</title>
     <desc>Luego de divorciarse, un actor sin trabajo se disfraza de niñera anciana para pasar más tiempo con su familia.</desc>
@@ -80738,6 +80411,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cocomelonplaydateswithsanriofriends.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261120115800 +0000" stop="20261120122900 +0000">
+    <title lang="es">Dinosaurios</title>
+  </programme>
   <programme start="20261120115900 +0000" stop="20261120134800 +0000" channel="Golden.cl">
     <title>Ladrón que roba a ladrón</title>
     <desc>Dos brillantes ladrones, Emilio y Alejandro, vuelven a unirse para su próximo plan: robarle al gurú de los anuncios televisivos Moctezuma Valdez, un multimillionario encantador de serpientes que vende placebos para bajar de peso, resolver problemas masculinos e incluso hasta para curar el cáncer. La idea es reunir a su equipo habitual de ladrones profesionales y ubicarlos, como una célula dormida, en la vida cotidiana de su potencial víctima. El objetivo: robarle a Valdez en sus propias narices. Pero ninguno de los integrantes del equipo habitual de ladrones quiere participar. Es por eso que terminan recurriendo a verdaderos inmigrantes que no habían delinquido antes. El resultado es un equipo de diversos perdedores tratando de sacar adelante una tarea imposible, con probabilidades casi nulas de lograrlo. Pero, a veces, que te subestimen puede convertirse en tu mejor recurso...</desc>
@@ -81264,11 +80940,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/csimiami.jpg" />
   </programme>
-  <programme start="20261120120000 +0000" stop="20261120150000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261120120000 +0000" stop="20261120150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -81278,26 +80949,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261120120000 +0000" stop="20261120150000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120120000 +0000" stop="20261120150000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120120000 +0000" stop="20261120150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261120120000 +0000" stop="20261120150000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261120120000 +0000" stop="20261120150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -81830,6 +81481,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <episode-num system="onscreen">S3E35</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hihipuffyamiyumi.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261120122900 +0000" stop="20261120125800 +0000">
+    <title lang="es">La niñera</title>
+  </programme>
   <programme start="20261120123000 +0000" stop="20261120124000 +0000" channel="CartoonNetwork.cl">
     <title>We Baby Bears • Primer día en la escuela de arte</title>
     <sub-title>Primer día en la escuela de arte</sub-title>
@@ -82163,6 +81817,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="ENTChannel.cl" start="20261120123600 +0000" stop="20261120143100 +0000">
+    <title lang="es">E.T. El Extraterrestre</title>
+  </programme>
   <programme start="20261120123700 +0000" stop="20261120124800 +0000" channel="DiscoveryKids.cl">
     <title>Polly Pocket • Duquesa doble</title>
     <sub-title>Duquesa doble</sub-title>
@@ -82244,6 +81901,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <country>EE. UU</country>
     <episode-num system="onscreen">S1 E24</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261120124400 +0000" stop="20261120161000 +0000">
+    <title lang="es">El Señor de los Anillos: La comunidad del anillo</title>
   </programme>
   <programme start="20261120124500 +0000" stop="20261120131000 +0000" channel="NickJr.bo">
     <title>Rubble &amp; Crew • El equipo construye el domo de un estadio; El equipo construye una cinta de equipaje</title>
@@ -82519,6 +82179,12 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/maydaycatastrofesaereas.jpg" />
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261120125800 +0000" stop="20261120132900 +0000">
+    <title lang="es">El chapulín colorado</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261120125800 +0000" stop="20261120164600 +0000">
+    <title lang="es">Ben-Hur</title>
   </programme>
   <programme start="20261120125900 +0000" stop="20261120132300 +0000" channel="DiscoveryKids.cl">
     <title>Academia Unicornio • La prueba final - Parte 1</title>
@@ -83537,6 +83203,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <episode-num system="onscreen">S13E16</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/masterchefus.jpg" />
   </programme>
+  <programme channel="ENTMovies.cl" start="20261120132300 +0000" stop="20261120150100 +0000">
+    <title lang="es">Todopoderoso</title>
+  </programme>
   <programme start="20261120132400 +0000" stop="20261120141200 +0000" channel="DiscoveryScience.cl">
     <title>Momias al descubierto • Fuego en la tumba del rey Tut</title>
     <sub-title>Fuego en la tumba del rey Tut</sub-title>
@@ -83671,6 +83340,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <country>EE. UU</country>
     <episode-num system="onscreen">S1E8</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sheepenlagranciudad.jpg" />
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261120132900 +0000" stop="20261120135900 +0000">
+    <title lang="es">ALF</title>
   </programme>
   <programme start="20261120133000 +0000" stop="20261120135500 +0000" channel="NickJr.bo">
     <title>PAW Patrol: Patrulla de cachorros</title>
@@ -84432,6 +84104,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>PG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/todoterreno.jpg" />
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261120135900 +0000" stop="20261120142800 +0000">
+    <title lang="es">Malcolm</title>
   </programme>
   <programme start="20261120140000 +0000" stop="20261120150000 +0000" channel="24Horas.cl">
     <title>No Data</title>
@@ -85371,6 +85046,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elviajemaslargo.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261120142800 +0000" stop="20261120145900 +0000">
+    <title lang="es">Friends</title>
+  </programme>
   <programme start="20261120143000 +0000" stop="20261120150000 +0000" channel="CNNChile.cl">
     <title>Entrevistas CNN</title>
     <desc>Una conversación en profundidad con un personaje contingente.</desc>
@@ -85613,6 +85291,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>A</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hoteltransylvania2.jpg" />
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261120143100 +0000" stop="20261120160700 +0000">
+    <title lang="es">Enredados</title>
   </programme>
   <programme start="20261120143400 +0000" stop="20261120150100 +0000" channel="DisneyJunior.cl">
     <title>La casa de Mickey Mouse+ • La gran sorpresa de Pete</title>
@@ -86142,6 +85823,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <episode-num system="onscreen">S1E26</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261120145900 +0000" stop="20261120152800 +0000">
+    <title lang="es">El chavo</title>
+  </programme>
   <programme start="20261120150000 +0000" stop="20261120160000 +0000" channel="24Horas.cl">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -86619,11 +86303,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261120150000 +0000" stop="20261120180000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261120150000 +0000" stop="20261120180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -86633,26 +86312,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261120150000 +0000" stop="20261120180000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120150000 +0000" stop="20261120180000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120150000 +0000" stop="20261120180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261120150000 +0000" stop="20261120180000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261120150000 +0000" stop="20261120180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -86679,6 +86338,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <category>Animación</category>
     <country>EE. UU</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261120150100 +0000" stop="20261120164300 +0000">
+    <title lang="es">Enséñame de vida</title>
   </programme>
   <programme start="20261120150500 +0000" stop="20261120153000 +0000" channel="ComedyCentral.cl">
     <title>Frasier • El regreso de Maris</title>
@@ -87165,6 +86827,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>6.7</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alfa.jpg" />
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261120152800 +0000" stop="20261120155800 +0000">
+    <title lang="es">Los Simpson</title>
   </programme>
   <programme start="20261120153000 +0000" stop="20261120160000 +0000" channel="24Horas.cl">
     <title lang="es">Vía Pública</title>
@@ -87950,6 +87615,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/salvajementefamosos.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261120155800 +0000" stop="20261120174800 +0000">
+    <title lang="es">El rey de la comedia</title>
+  </programme>
   <programme start="20261120155900 +0000" stop="20261120161200 +0000" channel="DiscoveryKids.cl">
     <title>Topo Gigio • Un nuevo instrumento musical</title>
     <sub-title>Un nuevo instrumento musical</sub-title>
@@ -88403,6 +88071,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="ENTChannel.cl" start="20261120160700 +0000" stop="20261120173700 +0000">
+    <title lang="es">Aladdín</title>
+  </programme>
   <programme start="20261120160800 +0000" stop="20261120181700 +0000" channel="TNT.cl">
     <title>El especialista</title>
     <desc>Es un doble de acción, y al igual que todos en la comunidad de especialistas, sale volando, le disparan, se estrella, se tira desde ventanas y cae desde las alturas más extremas, todo para nuestro entretenimiento. Y ahora, tras un accidente que casi acaba con su carrera, este héroe de clase trabajadora debe seguir la pista de una estrella de cine desaparecida, resolver una conspiración y tratar de recuperar el amor de su vida mientras sigue haciendo su trabajo. ¿Qué podría salir bien?</desc>
@@ -88510,6 +88181,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <country>EE. UU</country>
     <episode-num system="onscreen">S1 E10</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/suits.jpg" />
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261120161000 +0000" stop="20261120175900 +0000">
+    <title lang="es">Megalodón</title>
   </programme>
   <programme start="20261120161200 +0000" stop="20261120162400 +0000" channel="DiscoveryKids.cl">
     <title>Topo Gigio • El aniversario de papá y mamá</title>
@@ -89468,6 +89142,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <episode-num system="onscreen">S5 E26</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="ENTMovies.cl" start="20261120164300 +0000" stop="20261120182800 +0000">
+    <title lang="es">Sin escalas</title>
+  </programme>
   <programme start="20261120164400 +0000" stop="20261120173100 +0000" channel="InvestigationDiscovery.cl">
     <title>Perfecto desconocido • Pesadilla en los suburbios</title>
     <sub-title>Pesadilla en los suburbios</sub-title>
@@ -89483,6 +89160,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <country>EE. UU</country>
     <episode-num system="onscreen">S2 E4</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/perfectodesconocido.jpg" />
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261120164600 +0000" stop="20261120190400 +0000">
+    <title lang="es">La edad de la inocencia</title>
   </programme>
   <programme start="20261120165000 +0000" stop="20261120170000 +0000" channel="Nick.cl">
     <title>Spongebob Squarepants • La espátula de los cielos</title>
@@ -90880,6 +90560,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/csimiami.jpg" />
   </programme>
+  <programme channel="ENTChannel.cl" start="20261120173700 +0000" stop="20261120191400 +0000">
+    <title lang="es">Unidos</title>
+  </programme>
   <programme start="20261120174000 +0000" stop="20261120175000 +0000" channel="CartoonNetwork.cl">
     <title>Clarence • genial</title>
     <sub-title>Clarence genial</sub-title>
@@ -91093,6 +90776,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E12</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/buyingalaska.jpg" />
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261120174800 +0000" stop="20261120194600 +0000">
+    <title lang="es">Volver al futuro</title>
   </programme>
   <programme start="20261120174900 +0000" stop="20261120202200 +0000" channel="Cinemax.cl">
     <title>Rey Richard: Una familia ganadora</title>
@@ -91476,6 +91162,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/maydaycatastrofesaereas.jpg" />
   </programme>
+  <programme channel="ENTExtreme.cl" start="20261120175900 +0000" stop="20261120194200 +0000">
+    <title lang="es">Jack Ryan: Código Sombra</title>
+  </programme>
   <programme start="20261120180000 +0000" stop="20261120190000 +0000" channel="24Horas.cl">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -91772,11 +91461,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <country>Argentina</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasestrellas.jpg" />
   </programme>
-  <programme start="20261120180000 +0000" stop="20261120210000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261120180000 +0000" stop="20261120210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -91786,26 +91470,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261120180000 +0000" stop="20261120210000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120180000 +0000" stop="20261120210000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120180000 +0000" stop="20261120210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261120180000 +0000" stop="20261120210000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261120180000 +0000" stop="20261120210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -92271,6 +91935,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <country>EE. UU</country>
     <episode-num system="onscreen">S7E18</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261120182800 +0000" stop="20261120201800 +0000">
+    <title lang="es">Maze Runner: Correr o morir</title>
   </programme>
   <programme start="20261120183000 +0000" stop="20261120190000 +0000" channel="CNNChile.cl">
     <title>Regiones al aire</title>
@@ -93580,6 +93247,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="ENTDrama.cl" start="20261120190400 +0000" stop="20261120205700 +0000">
+    <title lang="es">En un lugar del corazón</title>
+  </programme>
   <programme start="20261120190500 +0000" stop="20261120195200 +0000" channel="InvestigationDiscovery.cl">
     <title>Desaparecidos • En la neblina</title>
     <sub-title>En la neblina</sub-title>
@@ -93702,6 +93372,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261120191400 +0000" stop="20261120204400 +0000">
+    <title lang="es">Madagascar 3</title>
   </programme>
   <programme start="20261120191500 +0000" stop="20261120193900 +0000" channel="DiscoveryKids.cl">
     <title>Peppa Pig • Comida para llevar en la casa club</title>
@@ -94333,6 +94006,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <episode-num system="onscreen">S1 E45</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/thundercats.jpg" />
   </programme>
+  <programme channel="ENTExtreme.cl" start="20261120194200 +0000" stop="20261120212500 +0000">
+    <title lang="es">Horizonte Profundo</title>
+  </programme>
   <programme start="20261120194400 +0000" stop="20261120194900 +0000" channel="DiscoveryKids.cl">
     <title>Mini Beat Power Rockers • Carlos invisible</title>
     <sub-title>Carlos invisible</sub-title>
@@ -94501,6 +94177,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261120194600 +0000" stop="20261120213000 +0000">
+    <title lang="es">Súper rápidos y Mega furiosos</title>
   </programme>
   <programme start="20261120194800 +0000" stop="20261120201200 +0000" channel="DiscoveryWorld.cl">
     <title>Fanáticos de los viajes • Cayo Hueso</title>
@@ -95411,6 +95090,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="ENTMovies.cl" start="20261120201800 +0000" stop="20261120221600 +0000">
+    <title lang="es">Capitán América: El primer vengador</title>
+  </programme>
   <programme start="20261120202000 +0000" stop="20261120222500 +0000" channel="ESPN3.cl">
     <title>Fútbol Bundesliga • Bayern Munich vs Köln</title>
     <sub-title>Bayern Munich vs. Köln</sub-title>
@@ -96171,6 +95853,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elconjuro4losultimosritos.jpg" />
   </programme>
+  <programme channel="ENTChannel.cl" start="20261120204400 +0000" stop="20261120224800 +0000">
+    <title lang="es">Doctor Strange en el Multiverso de la Locura</title>
+  </programme>
   <programme start="20261120204500 +0000" stop="20261120225000 +0000" channel="UniversalCinema.cl">
     <title>Lo que ellas quieren</title>
     <desc>Accidentalmente, una descarga eléctrica otorga a un publicista machista la habilidad de leer la mente de las mujeres.</desc>
@@ -96471,6 +96156,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losvecinosgreen.jpg" />
   </programme>
+  <programme channel="ENTDrama.cl" start="20261120205700 +0000" stop="20261120223900 +0000">
+    <title lang="es">El gran Showman</title>
+  </programme>
   <programme start="20261120205800 +0000" stop="20261120214400 +0000" channel="DiscoveryTurbo.cl">
     <title>Gas Monkey al rescate • Low Life Industries</title>
     <sub-title>Low Life Industries</sub-title>
@@ -96701,11 +96389,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261120210000 +0000" stop="20261121000000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261120210000 +0000" stop="20261121000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -96715,26 +96398,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261120210000 +0000" stop="20261121000000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120210000 +0000" stop="20261121000000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120210000 +0000" stop="20261121000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261120210000 +0000" stop="20261121000000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261120210000 +0000" stop="20261121000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -97323,6 +96986,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/uefachampionsleagueweekly.jpg" />
   </programme>
+  <programme channel="ENTExtreme.cl" start="20261120212500 +0000" stop="20261120230100 +0000">
+    <title lang="es">Hombres de Negro</title>
+  </programme>
   <programme start="20261120212600 +0000" stop="20261120221300 +0000" channel="InvestigationDiscovery.cl">
     <title>Infidelidades fatales • Lección en lujuria</title>
     <sub-title>Lección en lujuria</sub-title>
@@ -97497,6 +97163,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>C</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/therealmurdersofatlanta.jpg" />
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261120213000 +0000" stop="20261120231600 +0000">
+    <title lang="es">Hechizo de amor</title>
   </programme>
   <programme start="20261120213100 +0000" stop="20261120220000 +0000" channel="DisneyChannel.cl">
     <title>Dragon Striker • Fiebre dragón</title>
@@ -98668,6 +98337,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/nosoytumami.jpg" />
   </programme>
+  <programme channel="ENTMovies.cl" start="20261120221600 +0000" stop="20261121004800 +0000">
+    <title lang="es">Mujer Maravilla 1984</title>
+  </programme>
   <programme start="20261120221800 +0000" stop="20261121005400 +0000" channel="GoldenEdge.cl">
     <title>Hombre en llamas</title>
     <desc>Contratado como guardaespaldas de una niña de nueve años, hija de un rico empresario, un exagente de la CIA se venga de sus captores en México, una ciudad asediada por una ola de secuestros.</desc>
@@ -99145,6 +98817,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="ENTDrama.cl" start="20261120223900 +0000" stop="20261121002600 +0000">
+    <title lang="es">Contagio</title>
+  </programme>
   <programme start="20261120224000 +0000" stop="20261120230000 +0000" channel="Nick.cl">
     <title>Spongebob Squarepants • La salchicha se lleva todo / Encerrado en el ascensor</title>
     <sub-title>La salchicha se lleva todo / Encerrado en el ascensor</sub-title>
@@ -99271,6 +98946,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <country>EE. UU</country>
     <episode-num system="onscreen">S4 E13</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261120224800 +0000" stop="20261121001000 +0000">
+    <title lang="es">Toy Story</title>
   </programme>
   <programme start="20261120224900 +0000" stop="20261121020000 +0000" channel="Space.cl">
     <title>Flash</title>
@@ -99877,6 +99555,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <episode-num system="onscreen">S5 E15</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="ENTExtreme.cl" start="20261120230100 +0000" stop="20261121012400 +0000">
+    <title lang="es">007: Operación Skyfall</title>
+  </programme>
   <programme start="20261120230200 +0000" stop="20261121010000 +0000" channel="WarnerChannel.cl">
     <title>Son como niños</title>
     <desc>Cinco amigos y ex-compañeros se reencuentran después de treinta años a raíz del fallecimiento del que fuera su entrenador de baloncesto en la infancia. Junto con sus esposas e hijos, deciden pasar el fin de semana del cuatro de julio en una casa en el lago, en la que tiempo atrás celebraron su campeonato. Esta experiencia les servirá para darse cuenta de que, a pesar de tener más edad, realmente no han crecido.</desc>
@@ -100122,6 +99803,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>TV14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/csimiami.jpg" />
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261120231600 +0000" stop="20261121010300 +0000">
+    <title lang="es">Ratatouille</title>
   </programme>
   <programme start="20261120231700 +0000" stop="20261121001400 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title>Kilos mortales México • Jaime Esparza</title>
@@ -101335,11 +101019,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261121000000 +0000" stop="20261121030000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261121000000 +0000" stop="20261121030000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -101349,26 +101028,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261121000000 +0000" stop="20261121030000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261121000000 +0000" stop="20261121030000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261121000000 +0000" stop="20261121030000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261121000000 +0000" stop="20261121030000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261121000000 +0000" stop="20261121030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -101770,6 +101429,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/criminalminds.jpg" />
   </programme>
+  <programme channel="ENTChannel.cl" start="20261121001000 +0000" stop="20261121022900 +0000">
+    <title lang="es">Batman</title>
+  </programme>
   <programme start="20261121001100 +0000" stop="20261121002200 +0000" channel="DiscoveryKids.cl">
     <title>Zuk, la brujita • La niña perfecta</title>
     <sub-title>La niña perfecta</sub-title>
@@ -102107,6 +101769,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <category>Reality Show</category>
     <country>Argentina</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/masterchefcelebrityargentina.jpg" />
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261121002600 +0000" stop="20261121014700 +0000">
+    <title lang="es">Pocahontas</title>
   </programme>
   <programme start="20261121002900 +0000" stop="20261121003800 +0000" channel="Tooncast.cl">
     <title>Hi Hi Puffy AmiYumi • Sumo Kaz</title>
@@ -102471,6 +102136,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261121004800 +0000" stop="20261121030000 +0000">
+    <title lang="es">Ahora son 13</title>
   </programme>
   <programme start="20261121004900 +0000" stop="20261121010200 +0000" channel="Tooncast.cl">
     <title>Mike, Lu y Og • Destellos</title>
@@ -103139,6 +102807,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/espnknockout.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261121010300 +0000" stop="20261121023200 +0000">
+    <title lang="es">Abominable</title>
+  </programme>
   <programme start="20261121010500 +0000" stop="20261121011000 +0000" channel="Mega.cl">
     <title>El tiempo</title>
     <desc>Presentación de la información sobre el pronóstico meteorológico de todas las provincias a nivel nacional.</desc>
@@ -103675,6 +103346,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>14+</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261121012400 +0000" stop="20261121040000 +0000">
+    <title lang="es">Guardianes de la Galaxia 3</title>
   </programme>
   <programme start="20261121012500 +0000" stop="20261121015000 +0000" channel="Nick.cl">
     <title>The Thundermans: Undercover • La visita de Cherry</title>
@@ -104236,6 +103910,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>TVPG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/kilosmortalesroomies.jpg" />
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261121014700 +0000" stop="20261121030000 +0000">
+    <title lang="es">Bambi</title>
   </programme>
   <programme start="20261121014800 +0000" stop="20261121021200 +0000" channel="DiscoveryWorld.cl">
     <title>Playas alrededor del mundo • Echando raíces en España</title>
@@ -105433,6 +105110,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <episode-num system="onscreen">S14 E11</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/southpark.jpg" />
   </programme>
+  <programme channel="ENTChannel.cl" start="20261121022900 +0000" stop="20261121030000 +0000">
+    <title lang="es">Los Simpson</title>
+  </programme>
   <programme start="20261121023000 +0000" stop="20261121024500 +0000" channel="24Horas.cl">
     <title lang="es">Entrevistas 24</title>
   </programme>
@@ -105584,6 +105264,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/topogigio.jpg" />
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261121023200 +0000" stop="20261121030000 +0000">
+    <title lang="es">Smiling Friends</title>
   </programme>
   <programme start="20261121023400 +0000" stop="20261121032100 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title>Kilos mortales: Roomies • Y el amor, ¿qué</title>
@@ -106654,11 +106337,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261121030000 +0000" stop="20261121060000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261121030000 +0000" stop="20261121060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -106668,26 +106346,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261121030000 +0000" stop="20261121060000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261121030000 +0000" stop="20261121060000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261121030000 +0000" stop="20261121060000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261121030000 +0000" stop="20261121060000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261121030000 +0000" stop="20261121060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -111633,11 +111291,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <country>Argentina</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasestrellas.jpg" />
   </programme>
-  <programme start="20261121060000 +0000" stop="20261121090000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261121060000 +0000" stop="20261121090000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -111647,26 +111300,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261121060000 +0000" stop="20261121090000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261121060000 +0000" stop="20261121090000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261121060000 +0000" stop="20261121090000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261121060000 +0000" stop="20261121090000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261121060000 +0000" stop="20261121090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -117074,11 +116707,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/911.jpg" />
   </programme>
-  <programme start="20261121090000 +0000" stop="20261121120000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261121090000 +0000" stop="20261121120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -117088,26 +116716,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261121090000 +0000" stop="20261121120000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261121090000 +0000" stop="20261121120000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261121090000 +0000" stop="20261121120000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261121090000 +0000" stop="20261121120000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261121090000 +0000" stop="20261121120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -122358,11 +121966,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261121120000 +0000" stop="20261121150000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261121120000 +0000" stop="20261121150000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -122372,26 +121975,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261121120000 +0000" stop="20261121150000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261121120000 +0000" stop="20261121150000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261121120000 +0000" stop="20261121150000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261121120000 +0000" stop="20261121150000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261121120000 +0000" stop="20261121150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -127147,11 +126730,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/911.jpg" />
   </programme>
-  <programme start="20261121150000 +0000" stop="20261121180000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261121150000 +0000" stop="20261121180000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -127161,26 +126739,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261121150000 +0000" stop="20261121180000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261121150000 +0000" stop="20261121180000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261121150000 +0000" stop="20261121180000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261121150000 +0000" stop="20261121180000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261121150000 +0000" stop="20261121180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -131529,11 +131087,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261121180000 +0000" stop="20261121210000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261121180000 +0000" stop="20261121210000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -131543,26 +131096,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261121180000 +0000" stop="20261121210000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261121180000 +0000" stop="20261121210000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261121180000 +0000" stop="20261121210000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261121180000 +0000" stop="20261121210000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261121180000 +0000" stop="20261121210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -136050,11 +135583,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fivenightsatfreddys2.jpg" />
   </programme>
-  <programme start="20261121210000 +0000" stop="20261122000000 +0000" channel="ENTExtreme.cl">
-    <title lang="es">ENTExtreme.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261121210000 +0000" stop="20261122000000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
@@ -136064,26 +135592,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261121210000 +0000" stop="20261122000000 +0000" channel="ENTDrama.cl">
-    <title lang="es">ENTDrama.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261121210000 +0000" stop="20261122000000 +0000" channel="ENTComedy.cl">
-    <title lang="es">ENTComedy.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261121210000 +0000" stop="20261122000000 +0000" channel="ENTChannel.cl">
-    <title lang="es">ENT Channel: Selección de Cine 24/7</title>
-    <desc lang="es">Las mejores producciones cinematográficas.</desc>
-    <category lang="es">Cine</category>
-  </programme>
-  <programme start="20261121210000 +0000" stop="20261122000000 +0000" channel="ENTMovies.cl">
-    <title lang="es">ENTMovies.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
   </programme>
   <programme start="20261121210000 +0000" stop="20261122000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
@@ -178422,5 +177930,308 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261126030000 +0000" stop="20261126111200 +0000">
+    <title lang="es">El mensajero del miedo</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261126030000 +0000" stop="20261126103900 +0000">
+    <title lang="es">La familia Addams</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261126030000 +0000" stop="20261126124900 +0000">
+    <title lang="es">Star Wars: Episodio II: El Ataque de los Clones</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261126030000 +0000" stop="20261126133900 +0000">
+    <title lang="es">Titanic</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261126030000 +0000" stop="20261126125900 +0000">
+    <title lang="es">Jurassic World: Renace</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261126103900 +0000" stop="20261126115800 +0000">
+    <title lang="es">Emoji: La Película</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261126111200 +0000" stop="20261126125400 +0000">
+    <title lang="es">El laberinto del fauno</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261126115800 +0000" stop="20261126122800 +0000">
+    <title lang="es">Dinosaurios</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261126122800 +0000" stop="20261126125800 +0000">
+    <title lang="es">La niñera</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261126124900 +0000" stop="20261126144700 +0000">
+    <title lang="es">Volver al futuro</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261126125400 +0000" stop="20261126142600 +0000">
+    <title lang="es">Joe Dirt</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261126125800 +0000" stop="20261126132900 +0000">
+    <title lang="es">El chapulín colorado</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261126125900 +0000" stop="20261126151200 +0000">
+    <title lang="es">Rápidos y Furiosos: Hobbs y Shaw</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261126132900 +0000" stop="20261126135800 +0000">
+    <title lang="es">ALF</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261126133900 +0000" stop="20261126152500 +0000">
+    <title lang="es">Contratiempo</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261126135800 +0000" stop="20261126142900 +0000">
+    <title lang="es">Malcolm</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261126142600 +0000" stop="20261126163300 +0000">
+    <title lang="es">Pantera Negra</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261126142900 +0000" stop="20261126145800 +0000">
+    <title lang="es">Friends</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261126144700 +0000" stop="20261126162200 +0000">
+    <title lang="es">Furia de Titanes 2</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261126145800 +0000" stop="20261126152900 +0000">
+    <title lang="es">El Chavo</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261126151200 +0000" stop="20261126170900 +0000">
+    <title lang="es">Creed III</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261126152500 +0000" stop="20261126172300 +0000">
+    <title lang="es">En busca de la felicidad</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261126152900 +0000" stop="20261126155900 +0000">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261126155900 +0000" stop="20261126173600 +0000">
+    <title lang="es">La nana mágica: Nanny McPhee</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261126162200 +0000" stop="20261126183100 +0000">
+    <title lang="es">Black Widow</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261126163300 +0000" stop="20261126184600 +0000">
+    <title lang="es">Golpes del destino</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261126170900 +0000" stop="20261126193900 +0000">
+    <title lang="es">Batman: El Caballo de la Noche</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261126172300 +0000" stop="20261126210900 +0000">
+    <title lang="es">Lo que el viento se llevó</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261126173600 +0000" stop="20261126191300 +0000">
+    <title lang="es">Elementos</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261126183100 +0000" stop="20261126210000 +0000">
+    <title lang="es">Transformers: La venganza de los caídos</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261126184600 +0000" stop="20261126205500 +0000">
+    <title lang="es">El juego</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261126191300 +0000" stop="20261126205100 +0000">
+    <title lang="es">Unidos</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261126193900 +0000" stop="20261126213500 +0000">
+    <title lang="es">Indiana Jones: Los cazadores del arca perdida</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261126205100 +0000" stop="20261126222900 +0000">
+    <title lang="es">Austin Powers 2: El espía seductor</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261126205500 +0000" stop="20261126225200 +0000">
+    <title lang="es">Colateral</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261126210000 +0000" stop="20261126234700 +0000">
+    <title lang="es">Misión Imposible: Sentencia Final</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261126210900 +0000" stop="20261126231300 +0000">
+    <title lang="es">Diario de una pasión</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261126213500 +0000" stop="20261126232800 +0000">
+    <title lang="es">Río Salvaje</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261126222900 +0000" stop="20261127003500 +0000">
+    <title lang="es">Thor: Ragnarok</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261126225200 +0000" stop="20261127005800 +0000">
+    <title lang="es">El Planeta de los Simios: Confrontación</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261126231300 +0000" stop="20261127005500 +0000">
+    <title lang="es">Hannah Montana: La Película</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261126232800 +0000" stop="20261127012200 +0000">
+    <title lang="es">Popeye</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261126234700 +0000" stop="20261127012200 +0000">
+    <title lang="es">Un viernes de locos</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261127003500 +0000" stop="20261127023000 +0000">
+    <title lang="es">Locura de verano</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261127005500 +0000" stop="20261127030000 +0000">
+    <title lang="es">Filadelfia</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261127005800 +0000" stop="20261127023300 +0000">
+    <title lang="es">Valiente</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261127012200 +0000" stop="20261127030000 +0000">
+    <title lang="es">Mi Novia Polly</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261127012200 +0000" stop="20261127040000 +0000">
+    <title lang="es">Mujer Maravilla 1984</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261127023000 +0000" stop="20261127030000 +0000">
+    <title lang="es">Smiling Friends</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261127023300 +0000" stop="20261127030000 +0000">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261127030000 +0000" stop="20261127123600 +0000">
+    <title lang="es">Pasante de moda</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261127030000 +0000" stop="20261127115800 +0000">
+    <title lang="es">Bichos: Una aventura en miniatura</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261127030000 +0000" stop="20261127111800 +0000">
+    <title lang="es">Apolo 13</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261127030000 +0000" stop="20261127125800 +0000">
+    <title lang="es">Batman Inicia</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261127040000 +0000" stop="20261127124400 +0000">
+    <title lang="es">Thunderbolts*</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261127111800 +0000" stop="20261127132300 +0000">
+    <title lang="es">Shang-Chi y la leyenda de los Diez Anillos</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261127115800 +0000" stop="20261127122900 +0000">
+    <title lang="es">Dinosaurios</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261127122900 +0000" stop="20261127125800 +0000">
+    <title lang="es">La niñera</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261127123600 +0000" stop="20261127143100 +0000">
+    <title lang="es">E.T. El Extraterrestre</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261127124400 +0000" stop="20261127161000 +0000">
+    <title lang="es">El Señor de los Anillos: La comunidad del anillo</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261127125800 +0000" stop="20261127132900 +0000">
+    <title lang="es">El chapulín colorado</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261127125800 +0000" stop="20261127164600 +0000">
+    <title lang="es">Ben-Hur</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261127132300 +0000" stop="20261127150100 +0000">
+    <title lang="es">Todopoderoso</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261127132900 +0000" stop="20261127135900 +0000">
+    <title lang="es">ALF</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261127135900 +0000" stop="20261127142800 +0000">
+    <title lang="es">Malcolm</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261127142800 +0000" stop="20261127145900 +0000">
+    <title lang="es">Friends</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261127143100 +0000" stop="20261127160700 +0000">
+    <title lang="es">Enredados</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261127145900 +0000" stop="20261127152800 +0000">
+    <title lang="es">El chavo</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261127150100 +0000" stop="20261127164300 +0000">
+    <title lang="es">Enséñame de vida</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261127152800 +0000" stop="20261127155800 +0000">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261127155800 +0000" stop="20261127174800 +0000">
+    <title lang="es">El rey de la comedia</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261127160700 +0000" stop="20261127173700 +0000">
+    <title lang="es">Aladdín</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261127161000 +0000" stop="20261127175900 +0000">
+    <title lang="es">Megalodón</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261127164300 +0000" stop="20261127182800 +0000">
+    <title lang="es">Sin escalas</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261127164600 +0000" stop="20261127190400 +0000">
+    <title lang="es">La edad de la inocencia</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261127173700 +0000" stop="20261127191400 +0000">
+    <title lang="es">Unidos</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261127174800 +0000" stop="20261127194600 +0000">
+    <title lang="es">Volver al futuro</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261127175900 +0000" stop="20261127194200 +0000">
+    <title lang="es">Jack Ryan: Código Sombra</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261127182800 +0000" stop="20261127201800 +0000">
+    <title lang="es">Maze Runner: Correr o morir</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261127190400 +0000" stop="20261127205700 +0000">
+    <title lang="es">En un lugar del corazón</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261127191400 +0000" stop="20261127204400 +0000">
+    <title lang="es">Madagascar 3</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261127194200 +0000" stop="20261127212500 +0000">
+    <title lang="es">Horizonte Profundo</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261127194600 +0000" stop="20261127213000 +0000">
+    <title lang="es">Súper rápidos y Mega furiosos</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261127201800 +0000" stop="20261127221600 +0000">
+    <title lang="es">Capitán América: El primer vengador</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261127204400 +0000" stop="20261127224800 +0000">
+    <title lang="es">Doctor Strange en el Multiverso de la Locura</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261127205700 +0000" stop="20261127223900 +0000">
+    <title lang="es">El gran Showman</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261127212500 +0000" stop="20261127230100 +0000">
+    <title lang="es">Hombres de Negro</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261127213000 +0000" stop="20261127231600 +0000">
+    <title lang="es">Hechizo de amor</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261127221600 +0000" stop="20261128004800 +0000">
+    <title lang="es">Mujer Maravilla 1984</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261127223900 +0000" stop="20261128002600 +0000">
+    <title lang="es">Contagio</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261127224800 +0000" stop="20261128001000 +0000">
+    <title lang="es">Toy Story</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261127230100 +0000" stop="20261128012400 +0000">
+    <title lang="es">007: Operación Skyfall</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261127231600 +0000" stop="20261128010300 +0000">
+    <title lang="es">Ratatouille</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261128001000 +0000" stop="20261128022900 +0000">
+    <title lang="es">Batman</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261128002600 +0000" stop="20261128014700 +0000">
+    <title lang="es">Pocahontas</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261128004800 +0000" stop="20261128030000 +0000">
+    <title lang="es">Ahora son 13</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261128010300 +0000" stop="20261128023200 +0000">
+    <title lang="es">Abominable</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261128012400 +0000" stop="20261128040000 +0000">
+    <title lang="es">Guardianes de la Galaxia 3</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261128014700 +0000" stop="20261128030000 +0000">
+    <title lang="es">Bambi</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261128022900 +0000" stop="20261128030000 +0000">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261128023200 +0000" stop="20261128030000 +0000">
+    <title lang="es">Smiling Friends</title>
   </programme>
 </tv>
