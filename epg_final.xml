@@ -529,21 +529,6 @@
     <title lang="es">Rally WRC Chile Bío-Bío 2026</title>
     <desc lang="es">Sin información.</desc>
   </programme>
-  <programme start="20261120000000 +0000" stop="20261120030000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120000000 +0000" stop="20261120030000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261120000000 +0000" stop="20261120030000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme channel="ENTChannel.cl" start="20261120030000 +0000" stop="20261120123600 +0000">
     <title lang="es">Pasante de moda</title>
   </programme>
@@ -556,53 +541,8 @@
   <programme channel="ENTDrama.cl" start="20261120030000 +0000" stop="20261120125800 +0000">
     <title lang="es">Batman Inicia</title>
   </programme>
-  <programme start="20261120030000 +0000" stop="20261120060000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120030000 +0000" stop="20261120060000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261120030000 +0000" stop="20261120060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme channel="ENTExtreme.cl" start="20261120040000 +0000" stop="20261120124400 +0000">
     <title lang="es">Thunderbolts*</title>
-  </programme>
-  <programme start="20261120060000 +0000" stop="20261120090000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120060000 +0000" stop="20261120090000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261120060000 +0000" stop="20261120090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261120090000 +0000" stop="20261120120000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120090000 +0000" stop="20261120120000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261120090000 +0000" stop="20261120120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme channel="ENTMovies.cl" start="20261120111800 +0000" stop="20261120132300 +0000">
     <title lang="es">Shang-Chi y la leyenda de los Diez Anillos</title>
@@ -620,21 +560,6 @@
     <category>Entertainment</category>
     <category>Action</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261120120000 +0000" stop="20261120150000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120120000 +0000" stop="20261120150000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261120120000 +0000" stop="20261120150000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme channel="ENTComedy.cl" start="20261120122900 +0000" stop="20261120125800 +0000">
     <title lang="es">La niñera</title>
@@ -1158,21 +1083,6 @@
       <value>14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261120150000 +0000" stop="20261120180000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120150000 +0000" stop="20261120180000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261120150000 +0000" stop="20261120180000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261120150100 +0000" stop="20261120155600 +0000" channel="DisneyJunior.cl">
     <title>Doctora juguetes - Rescate en el ártico: el gran derretimiento</title>
@@ -5655,21 +5565,6 @@
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laleyyelordenunidaddevictimasespeciales.jpg" />
-  </programme>
-  <programme start="20261120180000 +0000" stop="20261120210000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120180000 +0000" stop="20261120210000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261120180000 +0000" stop="20261120210000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261120180600 +0000" stop="20261120181700 +0000" channel="CartoonNetwork.cl">
     <title>Los Jóvenes Titanes en acción • Maestro detective</title>
@@ -10154,21 +10049,6 @@
     <date>2012</date>
     <category>Religious</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261120210000 +0000" stop="20261121000000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261120210000 +0000" stop="20261121000000 +0000" channel="T13Noticias.cl">
-    <title lang="es">T13 En Vivo: Noticias T13</title>
-    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
-  <programme start="20261120210000 +0000" stop="20261121000000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261120210100 +0000" stop="20261120211700 +0000" channel="CartoonNetwork.cl">
     <title>El mundo de Craig • Lo que se pierde, vuelve</title>
@@ -27863,9 +27743,6 @@ Primer plano: interesante, impactante, informativo.</desc>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261121081500 +0000" stop="20261121090000 +0000" channel="24Horas.cl">
-    <title lang="es">24 Horas a la Hora</title>
-  </programme>
   <programme start="20261121081500 +0000" stop="20261121090000 +0000" channel="InvestigationDiscovery.cl">
     <title>La casa del mal • El asesino de ancianas</title>
     <sub-title>El asesino de ancianas</sub-title>
@@ -28907,9 +28784,6 @@ Primer plano: interesante, impactante, informativo.</desc>
       <value>6.5</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/melindaymelinda.jpg" />
-  </programme>
-  <programme start="20261121090000 +0000" stop="20261121093000 +0000" channel="24Horas.cl">
-    <title lang="es">24 Horas a la Hora</title>
   </programme>
   <programme start="20261121090000 +0000" stop="20261121100000 +0000" channel="Chilevision.cl">
     <title>Sabingo AM</title>
@@ -30037,9 +29911,6 @@ Primer plano: interesante, impactante, informativo.</desc>
     <category>Fútbol</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/uefachampionsleagueweekly.jpg" />
   </programme>
-  <programme start="20261121093000 +0000" stop="20261121100000 +0000" channel="24Horas.cl">
-    <title lang="es">24 Horas a la Hora</title>
-  </programme>
   <programme start="20261121093000 +0000" stop="20261121095500 +0000" channel="Nick.cl">
     <title>Henry Danger • La caricatura</title>
     <sub-title>La caricatura</sub-title>
@@ -30769,9 +30640,6 @@ Primer plano: interesante, impactante, informativo.</desc>
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/morningshowmysteriesdeathbydesign.jpg" />
-  </programme>
-  <programme start="20261121100000 +0000" stop="20261121103000 +0000" channel="24Horas.cl">
-    <title lang="es">24 Horas a la Hora</title>
   </programme>
   <programme start="20261121100000 +0000" stop="20261121110000 +0000" channel="LaRed.cl">
     <title>Problemas y soluciones</title>
@@ -31708,9 +31576,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <episode-num system="onscreen">S10E9</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261121103000 +0000" stop="20261121110000 +0000" channel="24Horas.cl">
-    <title lang="es">24 Horas a la Hora</title>
-  </programme>
   <programme start="20261121103000 +0000" stop="20261121113000 +0000" channel="CNNChile.cl">
     <title>CNN íntimo</title>
     <desc>Repetición ║ Matilde Burgos recibe y conversa en profundidad con sus invitados, quienes son distintos personajes del quehacer nacional e internacional, todos con algún tipo de influencia social en el país.</desc>
@@ -32369,9 +32234,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>EE. UU</country>
     <episode-num system="onscreen">S1 E10</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261121110000 +0000" stop="20261121113000 +0000" channel="24Horas.cl">
-    <title lang="es">24 Horas a la Hora</title>
   </programme>
   <programme start="20261121110000 +0000" stop="20261121120000 +0000" channel="LaRed.cl">
     <title>Spot central</title>
@@ -37684,11 +37546,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>EE. UU</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/bichosunaaventuraenminiatura.jpg" />
   </programme>
-  <programme start="20261121140000 +0000" stop="20261121150000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261121140000 +0000" stop="20261121183000 +0000" channel="24Horas.cl">
     <title lang="es">Será Anunciado</title>
   </programme>
@@ -39075,26 +38932,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
       <value>A</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/turbo.jpg" />
-  </programme>
-  <programme start="20261121150000 +0000" stop="20261121160000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121150000 +0000" stop="20261121160000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121150000 +0000" stop="20261121160000 +0000" channel="HGTV.ar">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121150000 +0000" stop="20261121160000 +0000" channel="FOODNETWORK.uy">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261121150000 +0000" stop="20261121160000 +0000" channel="CNNChile.cl">
     <title>Influyentes</title>
@@ -40741,26 +40578,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <episode-num system="onscreen">S9E35</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losjovenestitanesenaccion.jpg" />
   </programme>
-  <programme start="20261121160000 +0000" stop="20261121170000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121160000 +0000" stop="20261121170000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121160000 +0000" stop="20261121170000 +0000" channel="HGTV.ar">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121160000 +0000" stop="20261121170000 +0000" channel="FOODNETWORK.uy">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261121160000 +0000" stop="20261121170000 +0000" channel="LaRed.cl">
     <title>Al fondo hay sitio</title>
     <desc>Los González son una familia muy peculiar. Descomplicados, alegres y muy orgullosos de sus costumbres campesinas, tienen orgullo de lo que son. Por azares del destino, heredarán una casa en uno de los barrios más exclusivos de la capital y lejos de adaptarse a su nuevo entorno, continuarán con sus hábitos que molestarán a más de una familia.</desc>
@@ -41887,20 +41704,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20261121164900 +0000" stop="20261121180500 +0000">
-    <title>When a Man Falls in Loves</title>
-    <episode-num system="onscreen">S01E01</episode-num>
-    <episode-num system="pluto">65a6d3a7478df60013233189</episode-num>
-    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
-    <desc>El amor es un viaje polifacético, que ofrece calidez y superación, pero también conlleva celos e inseguridades. Incontrolable e imprevisible, moldea nuestro crecimiento y madurez.</desc>
-    <icon src="https://images.pluto.tv/series/65a6d398478df60013232c01/tile_1769466961483.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>00010101</date>
-    <series-id system="pluto">65a6d398478df60013232c01</series-id>
-    <sub-title>Don't let go of you recklessly</sub-title>
-    <category>Series</category>
-    <category>Dramedy</category>
-    <category>Drama</category>
-  </programme>
   <programme start="20261121164900 +0000" stop="20261121170200 +0000" channel="CartoonNetwork.cl">
     <title>Los Jóvenes Titanes en acción • Yo soy silla</title>
     <sub-title>Yo soy silla</sub-title>
@@ -41995,26 +41798,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>EE. UU</country>
     <episode-num system="onscreen">S3E4</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261121170000 +0000" stop="20261121180000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121170000 +0000" stop="20261121180000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121170000 +0000" stop="20261121180000 +0000" channel="HGTV.ar">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121170000 +0000" stop="20261121180000 +0000" channel="FOODNETWORK.uy">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261121170000 +0000" stop="20261121180000 +0000" channel="LaRed.cl">
     <title>Comisario Rex</title>
@@ -42638,20 +42421,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
       <value>B15</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elresplandor.jpg" />
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261121172200 +0000" stop="20261121183100 +0000">
-    <title>Weightlifting Fairy, Kim Bok-joo</title>
-    <episode-num system="onscreen">S01E05</episode-num>
-    <episode-num system="pluto">65a6d7ee08d0ab00136dc1aa</episode-num>
-    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
-    <desc>Bok-joo, una levantadora de pesas, se enfrenta a un difícil dilema al enamorarse por primera vez. Equilibrar su pasión por la halterofilia con su recién descubierto romance es una dura prueba, especialmente con el sueño de una medalla de oro en juego.</desc>
-    <icon src="https://images.pluto.tv/series/65a6d0c8478df600132322d5/tile_1769466961364.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>00010101</date>
-    <series-id system="pluto">65a6d0c8478df600132322d5</series-id>
-    <sub-title>Do you really like our hyung that much?</sub-title>
-    <category>Series</category>
-    <category>Romantic comedy</category>
-    <category>Romance</category>
   </programme>
   <programme channel="ENTDrama.cl" start="20261121172200 +0000" stop="20261121190600 +0000">
     <title lang="es">La llave maestra</title>
@@ -43464,26 +43233,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cocomelonplaydateswithsanriofriends.jpg" />
   </programme>
-  <programme start="20261121180000 +0000" stop="20261121190000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121180000 +0000" stop="20261121190000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121180000 +0000" stop="20261121190000 +0000" channel="HGTV.ar">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121180000 +0000" stop="20261121190000 +0000" channel="FOODNETWORK.uy">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261121180000 +0000" stop="20261121230000 +0000" channel="LaRed.cl">
     <title>Antena 3 Directo</title>
     <desc>Segmento de televenta que ofrece una amplia y exclusiva gama de productos para el cuidado del hogar, belleza, salud y bienestar personal.</desc>
@@ -43734,20 +43483,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>Australia</country>
     <episode-num system="onscreen">S1E16</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme channel="DramasCoreanos.cl" start="20261121180500 +0000" stop="20261121192100 +0000">
-    <title>When a Man Falls in Loves</title>
-    <episode-num system="onscreen">S01E02</episode-num>
-    <episode-num system="pluto">65a6d3aa478df60013233309</episode-num>
-    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
-    <desc>El amor es un viaje polifacético, que ofrece calidez y superación, pero también conlleva celos e inseguridades. Incontrolable e imprevisible, moldea nuestro crecimiento y madurez.</desc>
-    <icon src="https://images.pluto.tv/series/65a6d398478df60013232c01/tile_1769466961483.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>00010101</date>
-    <series-id system="pluto">65a6d398478df60013232c01</series-id>
-    <sub-title>What are you doing here?</sub-title>
-    <category>Series</category>
-    <category>Dramedy</category>
-    <category>Drama</category>
   </programme>
   <programme start="20261121180500 +0000" stop="20261121190000 +0000" channel="CNNChile.cl">
     <title>CNN íntimo</title>
@@ -44422,20 +44157,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261121183100 +0000" stop="20261121194600 +0000">
-    <title>Weightlifting Fairy, Kim Bok-joo</title>
-    <episode-num system="onscreen">S01E06</episode-num>
-    <episode-num system="pluto">65a6d80008d0ab00136dc8b7</episode-num>
-    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
-    <desc>Bok-joo, una levantadora de pesas, se enfrenta a un difícil dilema al enamorarse por primera vez. Equilibrar su pasión por la halterofilia con su recién descubierto romance es una dura prueba, especialmente con el sueño de una medalla de oro en juego.</desc>
-    <icon src="https://images.pluto.tv/series/65a6d0c8478df600132322d5/tile_1769466961364.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>00010101</date>
-    <series-id system="pluto">65a6d0c8478df600132322d5</series-id>
-    <sub-title>Why are you going to the obesity clinic?</sub-title>
-    <category>Series</category>
-    <category>Romantic comedy</category>
-    <category>Romance</category>
-  </programme>
   <programme start="20261121183100 +0000" stop="20261121190200 +0000" channel="DisneyJunior.cl">
     <title>Los magicampistas • Enchanted Gardening / Gem Scouting</title>
     <sub-title>Enchanted Gardening / Gem Scouting</sub-title>
@@ -45016,26 +44737,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <category>Comedia</category>
     <country>EE. UU</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261121190000 +0000" stop="20261121200000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121190000 +0000" stop="20261121200000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121190000 +0000" stop="20261121200000 +0000" channel="HGTV.ar">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121190000 +0000" stop="20261121200000 +0000" channel="FOODNETWORK.uy">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261121190000 +0000" stop="20261121200000 +0000" channel="CNNChile.cl">
     <title>Pares impares</title>
@@ -45645,20 +45346,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>EE. UU</country>
     <episode-num system="onscreen">S11 E13</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/frasier.jpg" />
-  </programme>
-  <programme channel="DramasCoreanos.cl" start="20261121192100 +0000" stop="20261121203700 +0000">
-    <title>When a Man Falls in Loves</title>
-    <episode-num system="onscreen">S01E03</episode-num>
-    <episode-num system="pluto">65a6d399478df60013232c20</episode-num>
-    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
-    <desc>El amor es un viaje polifacético, que ofrece calidez y superación, pero también conlleva celos e inseguridades. Incontrolable e imprevisible, moldea nuestro crecimiento y madurez.</desc>
-    <icon src="https://images.pluto.tv/series/65a6d398478df60013232c01/tile_1769466961483.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>00010101</date>
-    <series-id system="pluto">65a6d398478df60013232c01</series-id>
-    <sub-title>I want to make you feel that way.</sub-title>
-    <category>Series</category>
-    <category>Dramedy</category>
-    <category>Drama</category>
   </programme>
   <programme channel="ENTComedy.cl" start="20261121192300 +0000" stop="20261121210000 +0000">
     <title lang="es">Un viernes de locos</title>
@@ -46338,20 +46025,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261121194600 +0000" stop="20261121205500 +0000">
-    <title>Weightlifting Fairy, Kim Bok-joo</title>
-    <episode-num system="onscreen">S01E07</episode-num>
-    <episode-num system="pluto">65a6d80c08d0ab00136dcd88</episode-num>
-    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
-    <desc>Bok-joo, una levantadora de pesas, se enfrenta a un difícil dilema al enamorarse por primera vez. Equilibrar su pasión por la halterofilia con su recién descubierto romance es una dura prueba, especialmente con el sueño de una medalla de oro en juego.</desc>
-    <icon src="https://images.pluto.tv/series/65a6d0c8478df600132322d5/tile_1769466961364.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>00010101</date>
-    <series-id system="pluto">65a6d0c8478df600132322d5</series-id>
-    <sub-title>I... like the teacher.</sub-title>
-    <category>Series</category>
-    <category>Romantic comedy</category>
-    <category>Romance</category>
-  </programme>
   <programme start="20261121194800 +0000" stop="20261121201200 +0000" channel="DiscoveryWorld.cl">
     <title>Fanáticos de los viajes • Alaska</title>
     <sub-title>Alaska</sub-title>
@@ -46552,26 +46225,6 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>EE. UU</country>
     <episode-num system="onscreen">S8E27</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losjovenestitanesenaccion.jpg" />
-  </programme>
-  <programme start="20261121200000 +0000" stop="20261121210000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121200000 +0000" stop="20261121210000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121200000 +0000" stop="20261121210000 +0000" channel="HGTV.ar">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121200000 +0000" stop="20261121210000 +0000" channel="FOODNETWORK.uy">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261121200000 +0000" stop="20261121210000 +0000" channel="Mega.cl">
     <title>Viajando ando • Shanghai</title>
@@ -47663,20 +47316,6 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/eltigresiberiano.jpg" />
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20261121203700 +0000" stop="20261121215300 +0000">
-    <title>When a Man Falls in Loves</title>
-    <episode-num system="onscreen">S01E04</episode-num>
-    <episode-num system="pluto">65a6d39d478df60013232da5</episode-num>
-    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
-    <desc>El amor es un viaje polifacético, que ofrece calidez y superación, pero también conlleva celos e inseguridades. Incontrolable e imprevisible, moldea nuestro crecimiento y madurez.</desc>
-    <icon src="https://images.pluto.tv/series/65a6d398478df60013232c01/tile_1769466961483.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>00010101</date>
-    <series-id system="pluto">65a6d398478df60013232c01</series-id>
-    <sub-title>I think I really like you a lot...</sub-title>
-    <category>Series</category>
-    <category>Dramedy</category>
-    <category>Drama</category>
-  </programme>
   <programme start="20261121203800 +0000" stop="20261121212600 +0000" channel="InvestigationDiscovery.cl">
     <title>La casa del mal • La sangre en las manos de mi hermano</title>
     <sub-title>La sangre en las manos de mi hermano</sub-title>
@@ -48106,20 +47745,6 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dicenporahi.jpg" />
   </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261121205500 +0000" stop="20261121220100 +0000">
-    <title>Weightlifting Fairy, Kim Bok-joo</title>
-    <episode-num system="onscreen">S01E08</episode-num>
-    <episode-num system="pluto">65a7d665debc810013a28596</episode-num>
-    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
-    <desc>Bok-joo, una levantadora de pesas, se enfrenta a un difícil dilema al enamorarse por primera vez. Equilibrar su pasión por la halterofilia con su recién descubierto romance es una dura prueba, especialmente con el sueño de una medalla de oro en juego.</desc>
-    <icon src="https://images.pluto.tv/series/65a6d0c8478df600132322d5/tile_1769466961364.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>00010101</date>
-    <series-id system="pluto">65a6d0c8478df600132322d5</series-id>
-    <sub-title>Are you coming again, love.</sub-title>
-    <category>Series</category>
-    <category>Romantic comedy</category>
-    <category>Romance</category>
-  </programme>
   <programme start="20261121205500 +0000" stop="20261121211500 +0000" channel="Nick.cl">
     <title>Spongebob Squarepants • Sin fotos, por favor / Atrapado en el techo</title>
     <sub-title>Sin fotos, por favor / Atrapado en el techo</sub-title>
@@ -48209,26 +47834,6 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261121210000 +0000" stop="20261121220000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121210000 +0000" stop="20261121220000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121210000 +0000" stop="20261121220000 +0000" channel="HGTV.ar">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121210000 +0000" stop="20261121220000 +0000" channel="FOODNETWORK.uy">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261121210000 +0000" stop="20261121220000 +0000" channel="24Horas.cl">
     <title lang="es">Será Anunciado</title>
@@ -49452,20 +49057,6 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jumanjielsiguientenivel.jpg" />
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20261121215300 +0000" stop="20261121230900 +0000">
-    <title>When a Man Falls in Loves</title>
-    <episode-num system="onscreen">S01E05</episode-num>
-    <episode-num system="pluto">65a6d80f08d0ab00136dce75</episode-num>
-    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
-    <desc>El amor es un viaje polifacético, que ofrece calidez y superación, pero también conlleva celos e inseguridades. Incontrolable e imprevisible, moldea nuestro crecimiento y madurez.</desc>
-    <icon src="https://images.pluto.tv/series/65a6d398478df60013232c01/tile_1769466961483.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>00010101</date>
-    <series-id system="pluto">65a6d398478df60013232c01</series-id>
-    <sub-title>Tell me. I've met a friend who seems to be better than you!</sub-title>
-    <category>Series</category>
-    <category>Dramedy</category>
-    <category>Drama</category>
-  </programme>
   <programme start="20261121215300 +0000" stop="20261121220400 +0000" channel="Tooncast.cl">
     <title>El campamento de Lazlo • Escarabajos en Dulcelandia</title>
     <sub-title>Escarabajos en Dulcelandia</sub-title>
@@ -49505,22 +49096,7 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261121220000 +0000" stop="20261121230000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261121220000 +0000" stop="20261121230000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121220000 +0000" stop="20261121230000 +0000" channel="HGTV.ar">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261121220000 +0000" stop="20261121230000 +0000" channel="FOODNETWORK.uy">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
@@ -49638,20 +49214,6 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chicagopd.jpg" />
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261121220100 +0000" stop="20261121231100 +0000">
-    <title>Weightlifting Fairy, Kim Bok-joo</title>
-    <episode-num system="onscreen">S01E09</episode-num>
-    <episode-num system="pluto">65a7d7c4b65b87001310331b</episode-num>
-    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
-    <desc>Bok-joo, una levantadora de pesas, se enfrenta a un difícil dilema al enamorarse por primera vez. Equilibrar su pasión por la halterofilia con su recién descubierto romance es una dura prueba, especialmente con el sueño de una medalla de oro en juego.</desc>
-    <icon src="https://images.pluto.tv/series/65a6d0c8478df600132322d5/tile_1769466961364.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>00010101</date>
-    <series-id system="pluto">65a6d0c8478df600132322d5</series-id>
-    <sub-title>Did you like me in the past?</sub-title>
-    <category>Series</category>
-    <category>Romantic comedy</category>
-    <category>Romance</category>
   </programme>
   <programme start="20261121220100 +0000" stop="20261121222500 +0000" channel="DiscoveryKids.cl">
     <title>Peppa Pig • Vamos a esquiar / Perfume / El arenero / La tetera del señor Toribio</title>
@@ -51489,8 +51051,8 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <series-id system="pluto">65a6d0c8478df600132322d5</series-id>
     <sub-title>Why do you make me care so much?</sub-title>
     <category>Series</category>
-    <category>Romantic comedy</category>
     <category>Romance</category>
+    <category>Romantic comedy</category>
   </programme>
   <programme start="20261121231200 +0000" stop="20261122020000 +0000" channel="Space.cl">
     <title>Matrix revoluciones</title>
@@ -53428,8 +52990,8 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <series-id system="pluto">65a6d0c8478df600132322d5</series-id>
     <sub-title>I guess I'm doing that, dating.</sub-title>
     <category>Series</category>
-    <category>Romantic comedy</category>
     <category>Romance</category>
+    <category>Romantic comedy</category>
   </programme>
   <programme start="20261122002200 +0000" stop="20261122002900 +0000" channel="Tooncast.cl">
     <title>Hi Hi Puffy AmiYumi • Un desastre de casa</title>
@@ -55633,8 +55195,8 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <series-id system="pluto">65a6d0c8478df600132322d5</series-id>
     <sub-title>Why? Did your heart flutter?</sub-title>
     <category>Series</category>
-    <category>Romantic comedy</category>
     <category>Romance</category>
+    <category>Romantic comedy</category>
   </programme>
   <programme start="20261122013000 +0000" stop="20261122013500 +0000" channel="TVN.cl">
     <title>TV tiempo</title>
@@ -57668,8 +57230,8 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <series-id system="pluto">65a6d0c8478df600132322d5</series-id>
     <sub-title>Why are you acting all sulky?</sub-title>
     <category>Series</category>
-    <category>Romantic comedy</category>
     <category>Romance</category>
+    <category>Romantic comedy</category>
   </programme>
   <programme start="20261122024000 +0000" stop="20261122025500 +0000" channel="NickJr.bo">
     <title>PAW Patrol: Patrulla de cachorros • Los cachorros salvan al director</title>
@@ -59356,8 +58918,8 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <series-id system="pluto">65a6d0c8478df600132322d5</series-id>
     <sub-title>No backstabbing, especially Kim Bok-joo.</sub-title>
     <category>Series</category>
-    <category>Romantic comedy</category>
     <category>Romance</category>
+    <category>Romantic comedy</category>
   </programme>
   <programme start="20261122034900 +0000" stop="20261122043700 +0000" channel="InvestigationDiscovery.cl">
     <title>Desaparecidos • La última parada</title>
@@ -61511,8 +61073,8 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <series-id system="pluto">65a6d0c8478df600132322d5</series-id>
     <sub-title>It hurts more than when my mom left.</sub-title>
     <category>Series</category>
-    <category>Romantic comedy</category>
     <category>Romance</category>
+    <category>Romantic comedy</category>
   </programme>
   <programme start="20261122050300 +0000" stop="20261122052600 +0000" channel="DisneyChannel.cl">
     <title>The Owl House - La Casa Búho • Cacería de taliamigos</title>
@@ -63700,8 +63262,8 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <series-id system="pluto">65a6d0c8478df600132322d5</series-id>
     <sub-title>Can't you see I'm head over heels for you?</sub-title>
     <category>Series</category>
-    <category>Romantic comedy</category>
     <category>Romance</category>
+    <category>Romantic comedy</category>
   </programme>
   <programme start="20261122061800 +0000" stop="20261122070500 +0000" channel="DiscoveryTurbo.cl">
     <title>Al estilo Kindig • Transformación completa</title>
@@ -65674,8 +65236,8 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <date>00010101</date>
     <series-id system="pluto">61aa62a2a6334f001307c0e7</series-id>
     <sub-title>Episodio 1</sub-title>
-    <category>Historical Drama</category>
     <category>Series</category>
+    <category>Historical Drama</category>
     <category>Drama</category>
   </programme>
   <programme start="20261122072600 +0000" stop="20261122073700 +0000" channel="CartoonNetwork.cl">
@@ -67654,8 +67216,8 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <date>00010101</date>
     <series-id system="pluto">61aa62a2a6334f001307c0e7</series-id>
     <sub-title>Episodio 2</sub-title>
-    <category>Historical Drama</category>
     <category>Series</category>
+    <category>Historical Drama</category>
     <category>Drama</category>
   </programme>
   <programme start="20261122083400 +0000" stop="20261122084600 +0000" channel="DisneyChannel.cl">
@@ -69834,8 +69396,8 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <date>00010101</date>
     <series-id system="pluto">61aa62a2a6334f001307c0e7</series-id>
     <sub-title>Episodio 3</sub-title>
-    <category>Historical Drama</category>
     <category>Series</category>
+    <category>Historical Drama</category>
     <category>Drama</category>
   </programme>
   <programme start="20261122094400 +0000" stop="20261122100000 +0000" channel="DisneyJunior.cl">
@@ -71121,6 +70683,20 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lavidasecretadetusmascotas.jpg" />
   </programme>
+  <programme channel="DramasCoreanos.cl" start="20261122103300 +0000" stop="20261122114900 +0000">
+    <title>When a Man Falls in Loves</title>
+    <episode-num system="onscreen">S01E15</episode-num>
+    <episode-num system="pluto">65b2653870ac4400134a2205</episode-num>
+    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
+    <desc>El amor es un viaje polifacético, que ofrece calidez y superación, pero también conlleva celos e inseguridades. Incontrolable e imprevisible, moldea nuestro crecimiento y madurez.</desc>
+    <icon src="https://images.pluto.tv/series/65a6d398478df60013232c01/tile_1769466961483.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>00010101</date>
+    <series-id system="pluto">65a6d398478df60013232c01</series-id>
+    <sub-title>Mido, will you recognize who I am?</sub-title>
+    <category>Series</category>
+    <category>Dramedy</category>
+    <category>Drama</category>
+  </programme>
   <programme start="20261122103400 +0000" stop="20261122104400 +0000" channel="Tooncast.cl">
     <title>El campamento de Lazlo • Premios al por mayor</title>
     <sub-title>Premios al por mayor</sub-title>
@@ -71512,6 +71088,20 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
       <value>B15</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hollywoodoneonone.jpg" />
+  </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261122105000 +0000" stop="20261122115800 +0000">
+    <title>Hwarang: La Juventud Del Guerrero Poeta</title>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <episode-num system="pluto">61aa62aba6334f001307c2bc</episode-num>
+    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
+    <desc>La reina Jiso logra ganar miembros Hwarang, aunque a regañadientes. Aro intenta enseñarle a Perro-Pájaro lo que necesitará saber entre la nobleza.</desc>
+    <icon src="https://images.pluto.tv/series/61aa62a2a6334f001307c0e7/tile_1769211001917.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>00010101</date>
+    <series-id system="pluto">61aa62a2a6334f001307c0e7</series-id>
+    <sub-title>Episodio 4</sub-title>
+    <category>Series</category>
+    <category>Historical Drama</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261122105000 +0000" stop="20261122113500 +0000" channel="NickJr.bo">
     <title>Barbapapá: ¡Una gran familia! • El Louvre; El día de los contrarios</title>
@@ -73410,6 +73000,20 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="DramasCoreanos.cl" start="20261122114900 +0000" stop="20261122130500 +0000">
+    <title>When a Man Falls in Loves</title>
+    <episode-num system="onscreen">S01E16</episode-num>
+    <episode-num system="pluto">65b163e5a40ff700138251a2</episode-num>
+    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
+    <desc>El amor es un viaje polifacético, que ofrece calidez y superación, pero también conlleva celos e inseguridades. Incontrolable e imprevisible, moldea nuestro crecimiento y madurez.</desc>
+    <icon src="https://images.pluto.tv/series/65a6d398478df60013232c01/tile_1769466961483.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>00010101</date>
+    <series-id system="pluto">65a6d398478df60013232c01</series-id>
+    <sub-title>There must be a reason why only I remember...!</sub-title>
+    <category>Series</category>
+    <category>Dramedy</category>
+    <category>Drama</category>
+  </programme>
   <programme start="20261122115000 +0000" stop="20261122125000 +0000" channel="ESPN7.cl">
     <title>ESPN Compact - Premier Padel - Dubai P1 • Final Masculina</title>
     <sub-title>Final Masculina</sub-title>
@@ -73479,6 +73083,20 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E19</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hihipuffyamiyumi.jpg" />
+  </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261122115800 +0000" stop="20261122130600 +0000">
+    <title>Hwarang: La Juventud Del Guerrero Poeta</title>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <episode-num system="pluto">61aa62aba6334f001307c2ee</episode-num>
+    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
+    <desc>Perro-Pájaro y Jinheung trabajan juntos para escapar de sus secuestradores. Todos los miembros de Hwarang prestan juramento y reciben su primera asignación.</desc>
+    <icon src="https://images.pluto.tv/series/61aa62a2a6334f001307c0e7/tile_1769211001917.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>00010101</date>
+    <series-id system="pluto">61aa62a2a6334f001307c0e7</series-id>
+    <sub-title>Episodio 5</sub-title>
+    <category>Series</category>
+    <category>Historical Drama</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261122115900 +0000" stop="20261122122700 +0000" channel="DisneyChannel.cl">
     <title>Gravity Falls: un verano de misterios • La tiendita de regalos del horror</title>
@@ -75671,6 +75289,20 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/csimiami.jpg" />
   </programme>
+  <programme channel="DramasCoreanos.cl" start="20261122130500 +0000" stop="20261122142300 +0000">
+    <title>When a Man Falls in Loves</title>
+    <episode-num system="onscreen">S01E17</episode-num>
+    <episode-num system="pluto">65b2a1aeecf2e500131d46b4</episode-num>
+    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
+    <desc>El amor es un viaje polifacético, que ofrece calidez y superación, pero también conlleva celos e inseguridades. Incontrolable e imprevisible, moldea nuestro crecimiento y madurez.</desc>
+    <icon src="https://images.pluto.tv/series/65a6d398478df60013232c01/tile_1769466961483.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>00010101</date>
+    <series-id system="pluto">65a6d398478df60013232c01</series-id>
+    <sub-title>Please, save Changhee!</sub-title>
+    <category>Series</category>
+    <category>Dramedy</category>
+    <category>Drama</category>
+  </programme>
   <programme start="20261122130500 +0000" stop="20261122130600 +0000" channel="Tooncast.cl">
     <title>Sheep en la gran ciudad • Sombrero Brothers 'Film Star World Jumble</title>
     <sub-title>Sombrero Brothers 'Film Star World Jumble</sub-title>
@@ -75716,6 +75348,20 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <country>EE. UU</country>
     <episode-num system="onscreen">S16 E7</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/southpark.jpg" />
+  </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261122130600 +0000" stop="20261122141400 +0000">
+    <title>Hwarang: La Juventud Del Guerrero Poeta</title>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <episode-num system="pluto">61aa62a8a6334f001307c22a</episode-num>
+    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
+    <desc>El comienzo de Hwarang rápidamente se vuelve violento, lo que hace que Aro sea llamado como médico. A la reina Jiso le disgusta que el grupo parezca desmoronarse tan rápidamente.</desc>
+    <icon src="https://images.pluto.tv/series/61aa62a2a6334f001307c0e7/tile_1769211001917.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>00010101</date>
+    <series-id system="pluto">61aa62a2a6334f001307c0e7</series-id>
+    <sub-title>Episodio 6</sub-title>
+    <category>Series</category>
+    <category>Historical Drama</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261122130600 +0000" stop="20261122130700 +0000" channel="Tooncast.cl">
     <title>Sheep en la gran ciudad • Haven't Seen You in Years</title>
@@ -77447,6 +77093,20 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261122141400 +0000" stop="20261122152200 +0000">
+    <title>Hwarang: La Juventud Del Guerrero Poeta</title>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <episode-num system="pluto">61aa62aca6334f001307c307</episode-num>
+    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
+    <desc>Los miembros de Hwarang afrontan su primer examen escrito. Ansioso por evitar a Jinheung, Aro pide dinero prestado para pagar su deuda.</desc>
+    <icon src="https://images.pluto.tv/series/61aa62a2a6334f001307c0e7/tile_1769211001917.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>00010101</date>
+    <series-id system="pluto">61aa62a2a6334f001307c0e7</series-id>
+    <sub-title>Episodio 7</sub-title>
+    <category>Series</category>
+    <category>Historical Drama</category>
+    <category>Drama</category>
+  </programme>
   <programme start="20261122141400 +0000" stop="20261122150200 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title>100 cocineros • Solo quedan 41 cocineros</title>
     <sub-title>Solo quedan 41 cocineros</sub-title>
@@ -77728,6 +77388,19 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
       <value>PG-13</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261122142300 +0000" stop="20261122153200 +0000">
+    <title>Descubrimiento del Amor</title>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <episode-num system="pluto">66e8739773aa510013467d1e</episode-num>
+    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
+    <desc>Midsummer, de 32 años, está en una relación apasionada con Nam Ha-jin, un "hombre decente". Sin embargo, su ex, Kang Tae-ha, el "chico malo" con quien rompió hace 5 años, reaparece cuando Yeo-reum persigue a Ha-jin, quien salió a ver un partido.</desc>
+    <icon src="https://images.pluto.tv/series/66e8739673aa510013467cff/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>00010101</date>
+    <series-id system="pluto">66e8739673aa510013467cff</series-id>
+    <sub-title>Episodio 1</sub-title>
+    <category>Series</category>
+    <category>Telenovela</category>
   </programme>
   <programme start="20261122142500 +0000" stop="20261122160000 +0000" channel="Golden.cl">
     <title>Hotel Transylvania 4: Transformania</title>
@@ -79297,6 +78970,20 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <episode-num system="onscreen">S1E16</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261122152200 +0000" stop="20261122163000 +0000">
+    <title>Hwarang: La Juventud Del Guerrero Poeta</title>
+    <episode-num system="onscreen">S01E08</episode-num>
+    <episode-num system="pluto">61aa62a8a6334f001307c1f8</episode-num>
+    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
+    <desc>El maestro Ahnji descubre que la reina Jiso está siendo envenenada. La segunda tarea de Hwarang es una actuación en un festival para la gente de Silla.</desc>
+    <icon src="https://images.pluto.tv/series/61aa62a2a6334f001307c0e7/tile_1769211001917.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>00010101</date>
+    <series-id system="pluto">61aa62a2a6334f001307c0e7</series-id>
+    <sub-title>Episodio 8</sub-title>
+    <category>Series</category>
+    <category>Historical Drama</category>
+    <category>Drama</category>
+  </programme>
   <programme start="20261122152400 +0000" stop="20261122154800 +0000" channel="DiscoveryWorld.cl">
     <title>Pantano: se vende • Chicos del pantano</title>
     <sub-title>Chicos del pantano</sub-title>
@@ -79558,6 +79245,19 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
   </programme>
   <programme channel="ENTComedy.cl" start="20261122153000 +0000" stop="20261122160000 +0000">
     <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261122153200 +0000" stop="20261122164700 +0000">
+    <title>Descubrimiento del Amor</title>
+    <episode-num system="onscreen">S01E02</episode-num>
+    <episode-num system="pluto">66e874f185f1df0013c7e1ce</episode-num>
+    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
+    <desc>Yeoreum pasa la noche accidentalmente con Taeha y miente a Hajin al recibir su llamada. Después de un cumpleaños arruinado y una gran pelea con Hajin, Yeoreum se quita el anillo de pareja.</desc>
+    <icon src="https://images.pluto.tv/series/66e8739673aa510013467cff/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>00010101</date>
+    <series-id system="pluto">66e8739673aa510013467cff</series-id>
+    <sub-title>Episodio 2</sub-title>
+    <category>Series</category>
+    <category>Telenovela</category>
   </programme>
   <programme start="20261122153200 +0000" stop="20261122154300 +0000" channel="CartoonNetwork.cl">
     <title>Los Jóvenes Titanes en acción • Hermano-Lipsis</title>
@@ -132535,6 +132235,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
+  <programme start="20261124000000 +0000" stop="20261124014500 +0000" channel="24Horas.cl">
+    <title lang="es">24 Horas Central</title>
+  </programme>
   <programme start="20261124000000 +0000" stop="20261124010000 +0000" channel="LaRed.cl">
     <title>Miami Vice</title>
     <desc>James 'Sonny' Crockett vive en un velero junto con su mascota, un cocodrilo llamado 'Elvis', y Tubbs, un antiguo policía de Nueva York, no se separa de su escopeta de cañones recortados. Ambos se enfrentan a los bajos fondos de Florida e intentan encontrar a los asesinos del hermano de Tubbs.</desc>
@@ -132822,6 +132525,21 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <category>Variety</category>
     <category>Religious</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261124000000 +0000" stop="20261124030000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261124000000 +0000" stop="20261124030000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261124000000 +0000" stop="20261124030000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261124000100 +0000" stop="20261124001800 +0000" channel="DisneyChannel.cl">
     <title>Coven Academy: El secreto de las brujas • Prueba de fuego</title>
@@ -135571,6 +135289,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261124014500 +0000" stop="20261124020000 +0000" channel="24Horas.cl">
+    <title lang="es">Entrevistas 24</title>
+  </programme>
   <programme start="20261124014500 +0000" stop="20261124020500 +0000" channel="NickJr.bo">
     <title>Barbapapá: ¡Una gran familia! • Torneo de cuentos; El mundo de los Barbabebés</title>
     <sub-title>Torneo de cuentos; El mundo de los Barbabebés</sub-title>
@@ -135802,6 +135523,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124020000 +0000" stop="20261124030000 +0000" channel="24Horas.cl">
+    <title lang="es">Vía Pública</title>
   </programme>
   <programme start="20261124020000 +0000" stop="20261124033000 +0000" channel="Mega.cl">
     <title>¿Volverías con tu ex? 2</title>
@@ -137214,6 +136938,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
+  <programme start="20261124030000 +0000" stop="20261124040000 +0000" channel="24Horas.cl">
+    <title lang="es">24 Horas a la Hora</title>
+  </programme>
   <programme start="20261124030000 +0000" stop="20261124033000 +0000" channel="LaRed.cl">
     <title>Pare de sufrir</title>
     <desc>Segmento conducido por pastores brasileños y argentinos que muestran testimonios de los adherentes a la Iglesia Universal del Reino de Dios.</desc>
@@ -137632,6 +137359,21 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
       <value>7.2</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elmenu.jpg" />
+  </programme>
+  <programme start="20261124030000 +0000" stop="20261124060000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261124030000 +0000" stop="20261124060000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261124030000 +0000" stop="20261124060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261124030200 +0000" stop="20261124031400 +0000" channel="DiscoveryKids.cl">
     <title>Bubble's Hotel • Búsqueda del tesoro</title>
@@ -138796,6 +138538,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
+  <programme start="20261124040000 +0000" stop="20261124043000 +0000" channel="24Horas.cl">
+    <title lang="es">Medianoche</title>
+  </programme>
   <programme start="20261124040000 +0000" stop="20261124053000 +0000" channel="Canal13.cl">
     <title>Vale todo</title>
     <desc>Repetición ║ Una serie que sigue el conflicto entre Raquel, una madre de valores firmes, y su hija María de Fátima, fría y ambiciosa. La jóven está dispuesta a traicionar a su familia y vender su hogar para conseguir fama y lujos en Río de Janeiro.</desc>
@@ -139651,6 +139396,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/topogigio.jpg" />
   </programme>
+  <programme start="20261124043000 +0000" stop="20261124050000 +0000" channel="24Horas.cl">
+    <title lang="es">24 Horas a la Hora</title>
+  </programme>
   <programme start="20261124043000 +0000" stop="20261124053000 +0000" channel="Chilevision.cl">
     <title>Traicionada</title>
     <desc>Asya es una doctora exitosa que tiene una vida perfecta con su esposo y su hijo. Pero tras encontrar un cabello rubio en el pañuelo de su esposo, descubre su aventura extramatrimonial su vida da un giro inesperado.</desc>
@@ -140442,6 +140190,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124050000 +0000" stop="20261124053000 +0000" channel="24Horas.cl">
+    <title lang="es">24 Horas a la Hora</title>
   </programme>
   <programme start="20261124050000 +0000" stop="20261124052500 +0000" channel="Nick.cl">
     <title>Tales of the Teenage Mutant Ninja Turtles • Leonardo se defiende solo</title>
@@ -141378,6 +141129,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/minibeatpowerrockers.jpg" />
   </programme>
+  <programme start="20261124053000 +0000" stop="20261124060000 +0000" channel="24Horas.cl">
+    <title lang="es">24 Horas a la Hora</title>
+  </programme>
   <programme start="20261124053000 +0000" stop="20261124061500 +0000" channel="TVN.cl">
     <title>Pampa ilusión</title>
     <desc>Repetición ║ Una apasionada historia donde el amor no respeta tradiciones y suele quebrar con los esquemas de la época, todo ello enmarcado en la salitrera chilena Pampa Ilusión.</desc>
@@ -142106,6 +141860,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
+  <programme start="20261124060000 +0000" stop="20261124063000 +0000" channel="24Horas.cl">
+    <title lang="es">24 Horas a la Hora</title>
+  </programme>
   <programme start="20261124060000 +0000" stop="20261124070000 +0000" channel="Mega.cl">
     <title>Reunión de superados</title>
     <desc>Repetición ║ Un grupo de WhatsApp de apoderados del establecimiento Thomas Campbell School, liderado por el profesor jefe Rubén, invita a los padres estar comunicados, en donde se vivirarán intensos momentos.</desc>
@@ -142289,6 +142046,21 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <title>HBO Pop</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261124060000 +0000" stop="20261124090000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261124060000 +0000" stop="20261124090000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261124060000 +0000" stop="20261124090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261124060200 +0000" stop="20261124075800 +0000" channel="HBO.cl">
     <title>Exterminio: el templo de huesos</title>
@@ -142950,6 +142722,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
       <value>TVPG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261124063000 +0000" stop="20261124070000 +0000" channel="24Horas.cl">
+    <title lang="es">24 Horas a la Hora</title>
   </programme>
   <programme start="20261124063000 +0000" stop="20261124080000 +0000" channel="Canal13.cl">
     <title>Tu día</title>
@@ -143693,6 +143468,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124070000 +0000" stop="20261124073000 +0000" channel="24Horas.cl">
+    <title lang="es">24 Horas a la Hora</title>
   </programme>
   <programme start="20261124070000 +0000" stop="20261124084500 +0000" channel="Mega.cl">
     <title>Meganoticias ahora</title>
@@ -144645,6 +144423,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/zathuraunaaventuraespacial.jpg" />
   </programme>
+  <programme start="20261124073000 +0000" stop="20261124080000 +0000" channel="24Horas.cl">
+    <title lang="es">24 Horas a la Hora</title>
+  </programme>
   <programme start="20261124073000 +0000" stop="20261124080000 +0000" channel="CNNChile.cl">
     <title>Agenda económica PM</title>
     <desc>Repetición ║ En 30 minutos revisamos los hechos más relevantes de la economía, finanzas y mercados nacionales e internacionales, con análisis, explicación y entrevistas con los actores de distintos sectores e industrias.</desc>
@@ -145335,6 +145116,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124080000 +0000" stop="20261124083000 +0000" channel="24Horas.cl">
+    <title lang="es">24 Horas a la Hora</title>
   </programme>
   <programme start="20261124080000 +0000" stop="20261124083000 +0000" channel="TVN.cl">
     <title>Hora 24</title>
@@ -146135,6 +145919,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261124083000 +0000" stop="20261124090000 +0000" channel="24Horas.cl">
+    <title lang="es">24 Horas a la Hora</title>
+  </programme>
   <programme start="20261124083000 +0000" stop="20261124090000 +0000" channel="TVN.cl">
     <title>Previa 24</title>
     <desc>Espacio matutino de noticias, con toda la información de la jornada.</desc>
@@ -146857,6 +146644,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
+  <programme start="20261124090000 +0000" stop="20261124093000 +0000" channel="24Horas.cl">
+    <title lang="es">Previa 24</title>
+  </programme>
   <programme start="20261124090000 +0000" stop="20261124110000 +0000" channel="TVN.cl">
     <title>24 horas: Tu mañana</title>
     <desc>Revisa las principales noticias de la jornada junto a 24 Horas - Tu mañana.</desc>
@@ -147348,6 +147138,21 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
       <value>14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261124090000 +0000" stop="20261124120000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261124090000 +0000" stop="20261124120000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261124090000 +0000" stop="20261124120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261124090700 +0000" stop="20261124093100 +0000" channel="DisneyJunior.cl">
     <title>Doctora Juguetes • El murciélago gruñón / La rockstar Ruby y los juguetes</title>
@@ -147869,6 +147674,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
       <value>B15</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261124093000 +0000" stop="20261124110000 +0000" channel="24Horas.cl">
+    <title lang="es">24 AM</title>
   </programme>
   <programme start="20261124093000 +0000" stop="20261124095500 +0000" channel="Nick.cl">
     <title>Henry Danger • El problema con las Frittle</title>
@@ -150008,6 +149816,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
+  <programme start="20261124110000 +0000" stop="20261124113000 +0000" channel="24Horas.cl">
+    <title lang="es">El especialista responde</title>
+  </programme>
   <programme start="20261124110000 +0000" stop="20261124130000 +0000" channel="LaRed.cl">
     <title>Spot central</title>
     <desc>Reúne las campañas más creativas y memorables de la publicidad.</desc>
@@ -151071,6 +150882,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
       <value>B15</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261124113000 +0000" stop="20261124140000 +0000" channel="24Horas.cl">
+    <title lang="es">Mañana informativa</title>
   </programme>
   <programme start="20261124113000 +0000" stop="20261124143000 +0000" channel="CNNChile.cl">
     <title>[En vivo] CNN Radio AM</title>
@@ -152178,6 +151992,21 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
       <value>14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/csimiami.jpg" />
+  </programme>
+  <programme start="20261124120000 +0000" stop="20261124150000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261124120000 +0000" stop="20261124150000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261124120000 +0000" stop="20261124150000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261124120300 +0000" stop="20261124121500 +0000" channel="DisneyJunior.cl">
     <title>CoComelon Playdates with Sanrio Friends • Itsy bitsy araña</title>
@@ -155141,6 +154970,11 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
+  <programme start="20261124140000 +0000" stop="20261124150000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261124140000 +0000" stop="20261124150000 +0000" channel="HGTV.ar">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -155150,6 +154984,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124140000 +0000" stop="20261124141500 +0000" channel="24Horas.cl">
+    <title lang="es">Entrevistas 24</title>
   </programme>
   <programme start="20261124140000 +0000" stop="20261124160000 +0000" channel="TVN.cl">
     <title>El mediodía</title>
@@ -155656,6 +155493,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <country>Reino Unido</country>
     <episode-num system="onscreen">S11E17</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261124141500 +0000" stop="20261124153000 +0000" channel="24Horas.cl">
+    <title lang="es">Mañana Informativa</title>
   </programme>
   <programme start="20261124141500 +0000" stop="20261124144000 +0000" channel="NickJr.bo">
     <title>DORA • Super Little Dog; Benny y las mascotas</title>
@@ -156652,6 +156492,26 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <episode-num system="onscreen">S4E1</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261124150000 +0000" stop="20261124160000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124150000 +0000" stop="20261124160000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124150000 +0000" stop="20261124160000 +0000" channel="HGTV.ar">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124150000 +0000" stop="20261124160000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261124150000 +0000" stop="20261124170000 +0000" channel="LaRed.cl">
     <title>Al fondo hay sitio</title>
     <desc>Los González son una familia muy peculiar. Descomplicados, alegres y muy orgullosos de sus costumbres campesinas, tienen orgullo de lo que son. Por azares del destino, heredarán una casa en uno de los barrios más exclusivos de la capital y lejos de adaptarse a su nuevo entorno, continuarán con sus hábitos que molestarán a más de una familia.</desc>
@@ -157015,6 +156875,21 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
       <value>14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261124150000 +0000" stop="20261124180000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261124150000 +0000" stop="20261124180000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261124150000 +0000" stop="20261124180000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261124150500 +0000" stop="20261124151600 +0000" channel="Tooncast.cl">
     <title>Los pequeños Looney Tunes • Comfort Level</title>
@@ -157475,6 +157350,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261124153000 +0000" stop="20261124160000 +0000" channel="24Horas.cl">
+    <title lang="es">Vía Pública</title>
   </programme>
   <programme start="20261124153000 +0000" stop="20261124155900 +0000" channel="DisneyChannel.cl">
     <title>Miraculous: Las aventuras de Ladybug • Rebobinadora</title>
@@ -158237,6 +158115,29 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <country>EE. UU</country>
     <episode-num system="onscreen">S1E2</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261124160000 +0000" stop="20261124170000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124160000 +0000" stop="20261124170000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124160000 +0000" stop="20261124170000 +0000" channel="HGTV.ar">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124160000 +0000" stop="20261124170000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124160000 +0000" stop="20261124180000 +0000" channel="24Horas.cl">
+    <title lang="es">24 Tarde</title>
   </programme>
   <programme start="20261124160000 +0000" stop="20261124180000 +0000" channel="TVN.cl">
     <title>24 horas al día</title>
@@ -159696,6 +159597,26 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <episode-num system="onscreen">S2 E5</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dongatoysupandilla.jpg" />
   </programme>
+  <programme start="20261124170000 +0000" stop="20261124180000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124170000 +0000" stop="20261124180000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124170000 +0000" stop="20261124180000 +0000" channel="HGTV.ar">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124170000 +0000" stop="20261124180000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261124170000 +0000" stop="20261124180000 +0000" channel="LaRed.cl">
     <title>Comisario Rex</title>
     <desc>Espacio que narra las aventuras de un perro de raza pastor alemán llamado Rex. A las órdenes del Inspector Moser y dos comisarios de la brigada Anticrimen de Viena, este canino tratará de interceptar a los criminales más buscados del país para obligarles a cumplir la ley.</desc>
@@ -161106,6 +161027,29 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/denocheconeldiablo.jpg" />
   </programme>
+  <programme start="20261124180000 +0000" stop="20261124190000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124180000 +0000" stop="20261124190000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124180000 +0000" stop="20261124190000 +0000" channel="HGTV.ar">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124180000 +0000" stop="20261124190000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124180000 +0000" stop="20261124181500 +0000" channel="24Horas.cl">
+    <title lang="es">24 Cuadros</title>
+  </programme>
   <programme start="20261124180000 +0000" stop="20261124190000 +0000" channel="LaRed.cl">
     <title>El hombre nuclear</title>
     <desc>Steve Austin, un piloto de pruebas y astronauta sufre un terrible accidente de trabajo durante un vuelo experimental. Los doctores se ven obligados a amputarle ambas piernas y el brazo derecho. Steve también pierde la visión del ojo derecho. Pero el Dr. Rudy Wells, que se encontraba trabajando en un proyecto secreto, es autorizado por el gobierno a reemplazar los miembros amputados con partes biónicas. Estas 'nuevas partes' le dan a Steve una fuerza enorme y velocidad y una visión envidiable. Para compensar a sus benefactores, Steve se convierte en agente y debe cumplir peligrosas misiones.</desc>
@@ -161297,6 +161241,21 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <title>HBO Pop</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261124180000 +0000" stop="20261124210000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261124180000 +0000" stop="20261124210000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261124180000 +0000" stop="20261124210000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261124180100 +0000" stop="20261124182800 +0000" channel="DisneyChannel.cl">
     <title>Moon Girl y Devil, el dinosaurio • Un cumpleaños a la Devil</title>
@@ -161611,6 +161570,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
       <value>TE</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dcligadesupermascotas.jpg" />
+  </programme>
+  <programme start="20261124181500 +0000" stop="20261124184500 +0000" channel="24Horas.cl">
+    <title lang="es">¿Cuál es tu huella?</title>
   </programme>
   <programme start="20261124181500 +0000" stop="20261124183500 +0000" channel="Nick.cl">
     <title>Henry Danger • Mucho en juego</title>
@@ -162273,6 +162235,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <episode-num system="onscreen">S1</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losautoslocos.jpg" />
   </programme>
+  <programme start="20261124184500 +0000" stop="20261124193000 +0000" channel="24Horas.cl">
+    <title lang="es">24 Horas a la Hora</title>
+  </programme>
   <programme start="20261124184500 +0000" stop="20261124194500 +0000" channel="Mega.cl">
     <title>Carmen Gloria: Fuerte &amp; claro</title>
     <desc>Talk show de actualidad social con foco en los conflictos ciudadanos de forma cercana y clara.</desc>
@@ -162633,6 +162598,26 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
       <value>TVPG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/zombieslaseriereanimada.jpg" />
+  </programme>
+  <programme start="20261124190000 +0000" stop="20261124200000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124190000 +0000" stop="20261124200000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124190000 +0000" stop="20261124200000 +0000" channel="HGTV.ar">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124190000 +0000" stop="20261124200000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261124190000 +0000" stop="20261124200000 +0000" channel="LaRed.cl">
     <title>Los ángeles de Charlie</title>
@@ -163489,6 +163474,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <country>EE. UU</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261124193000 +0000" stop="20261124210000 +0000" channel="24Horas.cl">
+    <title lang="es">Noticias 24</title>
+  </programme>
   <programme start="20261124193000 +0000" stop="20261124194500 +0000" channel="CartoonNetwork.cl">
     <title>Los Jóvenes Titanes en acción • La pierna izquierda</title>
     <sub-title>La pierna izquierda</sub-title>
@@ -164218,6 +164206,26 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/minibeatpowerrockers.jpg" />
+  </programme>
+  <programme start="20261124200000 +0000" stop="20261124210000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124200000 +0000" stop="20261124210000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124200000 +0000" stop="20261124210000 +0000" channel="HGTV.ar">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124200000 +0000" stop="20261124210000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261124200000 +0000" stop="20261124210000 +0000" channel="LaRed.cl">
     <title>Los magníficos</title>
@@ -165740,6 +165748,29 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20261124210000 +0000" stop="20261124220000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124210000 +0000" stop="20261124220000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124210000 +0000" stop="20261124220000 +0000" channel="HGTV.ar">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124210000 +0000" stop="20261124220000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124210000 +0000" stop="20261124220000 +0000" channel="24Horas.cl">
+    <title lang="es">Noticias 24</title>
+  </programme>
   <programme start="20261124210000 +0000" stop="20261124220000 +0000" channel="LaRed.cl">
     <title>El auto fantástico</title>
     <desc>El detective Michael Knight es dado por muerto, por lo que la Fundación para la Ley y el Orden decide darle un nuevo rostro, una nueva identidad y reclutarlo. Es así como, junto a un automóvil inteligente casi indestructible con personalidad propia llamado KITT, perseguirá a los más peligrosos criminales y peleará por la justicia.</desc>
@@ -165882,6 +165913,21 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <title>Las Estrellas</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasestrellas.jpg" />
+  </programme>
+  <programme start="20261124210000 +0000" stop="20261125000000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
+  <programme start="20261124210000 +0000" stop="20261125000000 +0000" channel="T13Noticias.cl">
+    <title lang="es">T13 En Vivo: Noticias T13</title>
+    <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261124210000 +0000" stop="20261125000000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261124210100 +0000" stop="20261124213000 +0000" channel="DisneyJunior.cl">
     <title>Bluey • Bedroom / Perfect / Obstacle Course</title>
@@ -167147,6 +167193,24 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261124220000 +0000" stop="20261124230000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124220000 +0000" stop="20261124230000 +0000" channel="HGTV.ar">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124220000 +0000" stop="20261124230000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261124220000 +0000" stop="20261124231500 +0000" channel="24Horas.cl">
+    <title lang="es">Noticias 24</title>
   </programme>
   <programme start="20261124220000 +0000" stop="20261124230000 +0000" channel="LaRed.cl">
     <title>Lobo del aire</title>
@@ -169055,6 +169119,9 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <country>EE. UU</country>
     <episode-num system="onscreen">S1E12</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/micompanerodeclaseesunmono.jpg" />
+  </programme>
+  <programme start="20261124231500 +0000" stop="20261125000000 +0000" channel="24Horas.cl">
+    <title lang="es">Sin miedo</title>
   </programme>
   <programme start="20261124231500 +0000" stop="20261125001000 +0000" channel="History.cl">
     <title>Cosas extrañas de la historia • El falso el espía y el cerebro de vapor</title>
