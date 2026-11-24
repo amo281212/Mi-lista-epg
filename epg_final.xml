@@ -534,15 +534,15 @@
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261123000000 +0000" stop="20261123030000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261123000000 +0000" stop="20261123030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261123000000 +0000" stop="20261123030000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme channel="ENTChannel.cl" start="20261123030000 +0000" stop="20261123131400 +0000">
     <title lang="es">Duna</title>
@@ -564,19 +564,24 @@
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261123030000 +0000" stop="20261123060000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261123030000 +0000" stop="20261123060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
+  <programme start="20261123030000 +0000" stop="20261123060000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
+  </programme>
   <programme start="20261123060000 +0000" stop="20261123090000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261123060000 +0000" stop="20261123090000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261123060000 +0000" stop="20261123090000 +0000" channel="NTV.cl">
@@ -584,25 +589,20 @@
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261123060000 +0000" stop="20261123090000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
-  </programme>
   <programme start="20261123090000 +0000" stop="20261123120000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261123090000 +0000" stop="20261123120000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
   </programme>
   <programme start="20261123090000 +0000" stop="20261123120000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme start="20261123090000 +0000" stop="20261123120000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
   </programme>
   <programme start="20261123120000 +0000" stop="20261123150000 +0000" channel="AMC.cl">
     <title>Planet Action</title>
@@ -620,15 +620,15 @@
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261123120000 +0000" stop="20261123150000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261123120000 +0000" stop="20261123150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261123120000 +0000" stop="20261123150000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261123122200 +0000" stop="20261123143200 +0000" channel="FX.cl">
     <title>Volando alto</title>
@@ -1221,15 +1221,15 @@
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261123150000 +0000" stop="20261123180000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261123150000 +0000" stop="20261123180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261123150000 +0000" stop="20261123180000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme channel="ENTDrama.cl" start="20261123150200 +0000" stop="20261123164900 +0000">
     <title lang="es">La Supremacía Bourne</title>
@@ -5565,15 +5565,15 @@
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261123180000 +0000" stop="20261123210000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261123180000 +0000" stop="20261123210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261123180000 +0000" stop="20261123210000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261123180500 +0000" stop="20261123181600 +0000" channel="CartoonNetwork.cl">
     <title>Los Jóvenes Titanes en acción • Fiesta de albóndigas</title>
@@ -10354,15 +10354,15 @@
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261123210000 +0000" stop="20261124000000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261123210000 +0000" stop="20261124000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261123210000 +0000" stop="20261124000000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261123210100 +0000" stop="20261123211300 +0000" channel="CartoonNetwork.cl">
     <title>El mundo de Craig • Craig y la fábrica de slime</title>
@@ -11753,9 +11753,6 @@
     <category>Rugby</category>
     <country>Reino Unido</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0414_fallback.jpg" />
-  </programme>
-  <programme start="20261123220000 +0000" stop="20261123231500 +0000" channel="24Horas.cl">
-    <title lang="es">Noticias 24</title>
   </programme>
   <programme start="20261123220000 +0000" stop="20261123230000 +0000" channel="LaRed.cl">
     <title>Lobo del aire</title>
@@ -13766,9 +13763,6 @@
     <episode-num system="onscreen">S1E41</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0701_fallback.jpg" />
   </programme>
-  <programme start="20261123231500 +0000" stop="20261124000000 +0000" channel="24Horas.cl">
-    <title lang="es">Sin miedo</title>
-  </programme>
   <programme start="20261123231500 +0000" stop="20261123232600 +0000" channel="Tooncast.cl">
     <title>Mi compañero de clase es un mono • Mi león salvaje</title>
     <sub-title>Mi león salvaje</sub-title>
@@ -14999,9 +14993,6 @@
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0702_fallback.jpg" />
   </programme>
-  <programme start="20261124000000 +0000" stop="20261124014500 +0000" channel="24Horas.cl">
-    <title lang="es">24 Horas Central</title>
-  </programme>
   <programme start="20261124000000 +0000" stop="20261124010000 +0000" channel="LaRed.cl">
     <title>Miami Vice</title>
     <desc>James 'Sonny' Crockett vive en un velero junto con su mascota, un cocodrilo llamado 'Elvis', y Tubbs, un antiguo policía de Nueva York, no se separa de su escopeta de cañones recortados. Ambos se enfrentan a los bajos fondos de Florida e intentan encontrar a los asesinos del hermano de Tubbs.</desc>
@@ -15274,15 +15265,15 @@
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261124000000 +0000" stop="20261124030000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261124000000 +0000" stop="20261124030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261124000000 +0000" stop="20261124030000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261124000100 +0000" stop="20261124001800 +0000" channel="DisneyChannel.cl">
     <title>Coven Academy: El secreto de las brujas • Prueba de fuego</title>
@@ -18273,9 +18264,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/angrybirds2lapelicula.jpg" />
   </programme>
-  <programme start="20261124014500 +0000" stop="20261124020000 +0000" channel="24Horas.cl">
-    <title lang="es">Entrevistas 24</title>
-  </programme>
   <programme start="20261124014500 +0000" stop="20261124020500 +0000" channel="NickJr.bo">
     <title>Barbapapá: ¡Una gran familia! • Torneo de cuentos; El mundo de los Barbabebés</title>
     <sub-title>Torneo de cuentos; El mundo de los Barbabebés</sub-title>
@@ -18590,9 +18578,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/godzillaykongelnuevoimperio.jpg" />
   </programme>
-  <programme start="20261124020000 +0000" stop="20261124030000 +0000" channel="24Horas.cl">
-    <title lang="es">Vía Pública</title>
-  </programme>
   <programme start="20261124020000 +0000" stop="20261124033000 +0000" channel="Mega.cl">
     <title>¿Volverías con tu ex? 2</title>
     <desc>Reality donde los participantes se verán enfrentados a la posibilidad de ir por una segunda oportunidad con su ex pareja, o elegir el camino de la venganza.</desc>
@@ -18636,7 +18621,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <rating>
       <value>A</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0311_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/puppydogpals.jpg" />
   </programme>
   <programme start="20261124020000 +0000" stop="20261124040000 +0000" channel="TyCSports.cl">
     <title>🔴 Sportia • El post partido de Boca vs Ind. Rivadavia y la cobertura del Torneo Clausura</title>
@@ -20217,9 +20202,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/kungfupanda.jpg" />
   </programme>
-  <programme start="20261124030000 +0000" stop="20261124040000 +0000" channel="24Horas.cl">
-    <title lang="es">24 Horas a la Hora</title>
-  </programme>
   <programme start="20261124030000 +0000" stop="20261124033000 +0000" channel="LaRed.cl">
     <title>Pare de sufrir</title>
     <desc>Segmento conducido por pastores brasileños y argentinos que muestran testimonios de los adherentes a la Iglesia Universal del Reino de Dios.</desc>
@@ -20475,15 +20457,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261124030000 +0000" stop="20261124060000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261124030000 +0000" stop="20261124060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261124030000 +0000" stop="20261124060000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261124030100 +0000" stop="20261124031400 +0000" channel="CartoonNetwork.cl">
     <title>Batwheels • El robo holográfico</title>
@@ -24895,11 +24877,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0808_fallback.jpg" />
   </programme>
-  <programme start="20261124060000 +0000" stop="20261124070000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261124060000 +0000" stop="20261124063000 +0000" channel="24Horas.cl">
     <title lang="es">24 Horas a la Hora</title>
   </programme>
@@ -25118,15 +25095,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261124060000 +0000" stop="20261124090000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261124060000 +0000" stop="20261124090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261124060000 +0000" stop="20261124090000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261124060200 +0000" stop="20261124075800 +0000" channel="HBO.cl">
     <title>Exterminio: el templo de huesos</title>
@@ -26541,26 +26518,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/badabean.jpg" />
-  </programme>
-  <programme start="20261124070000 +0000" stop="20261124080000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124070000 +0000" stop="20261124080000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124070000 +0000" stop="20261124080000 +0000" channel="HGTV.ar">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124070000 +0000" stop="20261124080000 +0000" channel="FOODNETWORK.uy">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261124070000 +0000" stop="20261124073000 +0000" channel="24Horas.cl">
     <title lang="es">24 Horas a la Hora</title>
@@ -28320,20 +28277,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/miraculouslasaventurasdeladybug.jpg" />
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20261124075800 +0000" stop="20261124091200 +0000">
-    <title>She Was Pretty</title>
-    <episode-num system="onscreen">S01E04</episode-num>
-    <episode-num system="pluto">65a96b6a5884b4001349bb75</episode-num>
-    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
-    <desc>Hye-jin, antaño privilegiada, trabaja a tiempo parcial y vive con una amiga. Cuando su amor de la infancia, Sung-joon, quiere verla, envía a su amiga en su lugar. Al conseguir un trabajo mejor, descubre que Sung-joon es su jefe y la trata mal.</desc>
-    <icon src="https://images.pluto.tv/series/65a96b585884b4001349b5cc/tile_1769467321653.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>00010101</date>
-    <series-id system="pluto">65a96b585884b4001349b5cc</series-id>
-    <sub-title>Should I spill everything?</sub-title>
-    <category>Series</category>
-    <category>Romance</category>
-    <category>Romantic comedy</category>
-  </programme>
   <programme start="20261124075800 +0000" stop="20261124082100 +0000" channel="DisneyJunior.cl">
     <title>Disney Jr.'s Ariel: The Little Mermaid • Día de Atlántica / Espíritu ganador</title>
     <sub-title>Día de Atlántica / Espíritu ganador</sub-title>
@@ -28382,26 +28325,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Terror</category>
     <country>EE. UU</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lanochedeldemoniocapitulo2.jpg" />
-  </programme>
-  <programme start="20261124080000 +0000" stop="20261124090000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124080000 +0000" stop="20261124090000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124080000 +0000" stop="20261124090000 +0000" channel="HGTV.ar">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124080000 +0000" stop="20261124090000 +0000" channel="FOODNETWORK.uy">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261124080000 +0000" stop="20261124083000 +0000" channel="24Horas.cl">
     <title lang="es">24 Horas a la Hora</title>
@@ -28806,19 +28729,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TV14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0808_fallback.jpg" />
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261124080800 +0000" stop="20261124092300 +0000">
-    <title>Big</title>
-    <episode-num system="onscreen">S01E05</episode-num>
-    <episode-num system="pluto">66e0525a6ec6ad0013083241</episode-num>
-    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
-    <desc>Da Ran encuentra un boleto a Los Ángeles en la habitación de Yoon-jae y descubre que él planeaba una ruptura. Mari sospecha que Gyeong-jun está usando la identidad de Yoon-jae, y la madre de Yoon-jae regresa a Corea tras oír sobre el accidente.</desc>
-    <icon src="https://images.pluto.tv/series/66e04fad38c4a000133e3c94/tile_1776893436022.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>00010101</date>
-    <series-id system="pluto">66e04fad38c4a000133e3c94</series-id>
-    <sub-title>Episodio 5</sub-title>
-    <category>Series</category>
-    <category>Telenovela</category>
   </programme>
   <programme start="20261124081000 +0000" stop="20261124083500 +0000" channel="NickJr.bo">
     <title>Pistas de Blue y tú • El fantasma de la sala de estar</title>
@@ -30032,26 +29942,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0304_fallback.jpg" />
   </programme>
-  <programme start="20261124090000 +0000" stop="20261124100000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124090000 +0000" stop="20261124100000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124090000 +0000" stop="20261124100000 +0000" channel="HGTV.ar">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124090000 +0000" stop="20261124100000 +0000" channel="FOODNETWORK.uy">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261124090000 +0000" stop="20261124093000 +0000" channel="24Horas.cl">
     <title lang="es">Previa 24</title>
   </programme>
@@ -30553,15 +30443,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261124090000 +0000" stop="20261124120000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261124090000 +0000" stop="20261124120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261124090000 +0000" stop="20261124120000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261124090200 +0000" stop="20261124091300 +0000" channel="CartoonNetwork.cl">
     <title>El mundo de Craig • La palabra maldita</title>
@@ -30749,20 +30639,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TV14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0808_fallback.jpg" />
-  </programme>
-  <programme channel="DramasCoreanos.cl" start="20261124091200 +0000" stop="20261124102000 +0000">
-    <title>She Was Pretty</title>
-    <episode-num system="onscreen">S01E05</episode-num>
-    <episode-num system="pluto">65a96cca5884b4001349c0eb</episode-num>
-    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
-    <desc>Hye-jin, antaño privilegiada, trabaja a tiempo parcial y vive con una amiga. Cuando su amor de la infancia, Sung-joon, quiere verla, envía a su amiga en su lugar. Al conseguir un trabajo mejor, descubre que Sung-joon es su jefe y la trata mal.</desc>
-    <icon src="https://images.pluto.tv/series/65a96b585884b4001349b5cc/tile_1769467321653.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>00010101</date>
-    <series-id system="pluto">65a96b585884b4001349b5cc</series-id>
-    <sub-title>Did I... look pretty?</sub-title>
-    <category>Series</category>
-    <category>Romance</category>
-    <category>Romantic comedy</category>
   </programme>
   <programme start="20261124091300 +0000" stop="20261124092600 +0000" channel="CartoonNetwork.cl">
     <title>El mundo de Craig • Amor de cachorro</title>
@@ -31019,19 +30895,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>C</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0823_fallback.jpg" />
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261124092300 +0000" stop="20261124103200 +0000">
-    <title>Big</title>
-    <episode-num system="onscreen">S01E06</episode-num>
-    <episode-num system="pluto">66e053b522dfe90013872525</episode-num>
-    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
-    <desc>Confundida por el regreso de Yoon-jae, Da-ran dejó el lugar y fue a recoger el equipaje en la casa de Gyeong-jun, donde se encontró con Yoon-jae. Mientras tanto, la madre de Yoon-jae desde Estados Unidos avanza con su matrimonio con Se-young.</desc>
-    <icon src="https://images.pluto.tv/series/66e04fad38c4a000133e3c94/tile_1776893436022.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>00010101</date>
-    <series-id system="pluto">66e04fad38c4a000133e3c94</series-id>
-    <sub-title>Episodio 6</sub-title>
-    <category>Series</category>
-    <category>Telenovela</category>
   </programme>
   <programme start="20261124092300 +0000" stop="20261124101000 +0000" channel="Discovery.cl">
     <title>Fiebre del oro • Guerra de trincheras</title>
@@ -31861,26 +31724,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <episode-num system="onscreen">S4 E4</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/drasandraleeespecialistaenpiel.jpg" />
   </programme>
-  <programme start="20261124100000 +0000" stop="20261124110000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124100000 +0000" stop="20261124110000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124100000 +0000" stop="20261124110000 +0000" channel="HGTV.ar">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124100000 +0000" stop="20261124110000 +0000" channel="FOODNETWORK.uy">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261124100000 +0000" stop="20261124110000 +0000" channel="LaRed.cl">
     <title>Problemas y soluciones</title>
     <desc>Espacio de contenido religioso.</desc>
@@ -32560,20 +32403,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0808_fallback.jpg" />
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20261124102000 +0000" stop="20261124113400 +0000">
-    <title>She Was Pretty</title>
-    <episode-num system="onscreen">S01E06</episode-num>
-    <episode-num system="pluto">65a96cd75884b4001349c513</episode-num>
-    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
-    <desc>Hye-jin, antaño privilegiada, trabaja a tiempo parcial y vive con una amiga. Cuando su amor de la infancia, Sung-joon, quiere verla, envía a su amiga en su lugar. Al conseguir un trabajo mejor, descubre que Sung-joon es su jefe y la trata mal.</desc>
-    <icon src="https://images.pluto.tv/series/65a96b585884b4001349b5cc/tile_1769467321653.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>00010101</date>
-    <series-id system="pluto">65a96b585884b4001349b5cc</series-id>
-    <sub-title>We spent the night together, but you're acting distant~</sub-title>
-    <category>Series</category>
-    <category>Romance</category>
-    <category>Romantic comedy</category>
-  </programme>
   <programme start="20261124102000 +0000" stop="20261124104500 +0000" channel="Nick.cl">
     <title>The Loud House • Paraíso de tontos / Inseguridad en el trabajo</title>
     <sub-title>Paraíso de tontos / Inseguridad en el trabajo</sub-title>
@@ -32911,19 +32740,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TVY</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0311_fallback.jpg" />
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261124103200 +0000" stop="20261124114900 +0000">
-    <title>Big</title>
-    <episode-num system="onscreen">S01E07</episode-num>
-    <episode-num system="pluto">66e053ba22dfe900138726a0</episode-num>
-    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
-    <desc>Chung-sik se sorprende al ver a Yoon-jae con los tres juntos. La madre de Yoon-jae se encuentra con los padres de Da-ran en un restaurante, y Se-young duda de la relación entre el comatoso Gyeong-jun y Yoon-jae.</desc>
-    <icon src="https://images.pluto.tv/series/66e04fad38c4a000133e3c94/tile_1776893436022.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>00010101</date>
-    <series-id system="pluto">66e04fad38c4a000133e3c94</series-id>
-    <sub-title>Episodio 7</sub-title>
-    <category>Series</category>
-    <category>Telenovela</category>
   </programme>
   <programme start="20261124103200 +0000" stop="20261124110000 +0000" channel="DiscoveryWorld.cl">
     <title>Buying Hawaii • Supervivencia en el patio trasero</title>
@@ -33573,26 +33389,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E24</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/micompanerodeclaseesunmono.jpg" />
-  </programme>
-  <programme start="20261124110000 +0000" stop="20261124120000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124110000 +0000" stop="20261124120000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124110000 +0000" stop="20261124120000 +0000" channel="HGTV.ar">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124110000 +0000" stop="20261124120000 +0000" channel="FOODNETWORK.uy">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261124110000 +0000" stop="20261124113000 +0000" channel="24Horas.cl">
     <title lang="es">El especialista responde</title>
@@ -34893,20 +34689,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/bourneidentidaddesconocida.jpg" />
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20261124113400 +0000" stop="20261124124700 +0000">
-    <title>She Was Pretty</title>
-    <episode-num system="onscreen">S01E07</episode-num>
-    <episode-num system="pluto">65a96cd05884b4001349c357</episode-num>
-    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
-    <desc>Hye-jin, antaño privilegiada, trabaja a tiempo parcial y vive con una amiga. Cuando su amor de la infancia, Sung-joon, quiere verla, envía a su amiga en su lugar. Al conseguir un trabajo mejor, descubre que Sung-joon es su jefe y la trata mal.</desc>
-    <icon src="https://images.pluto.tv/series/65a96b585884b4001349b5cc/tile_1769467321653.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>00010101</date>
-    <series-id system="pluto">65a96b585884b4001349b5cc</series-id>
-    <sub-title>I'm about to tell a really surprising story.</sub-title>
-    <category>Series</category>
-    <category>Romance</category>
-    <category>Romantic comedy</category>
-  </programme>
   <programme start="20261124113400 +0000" stop="20261124114600 +0000" channel="Tooncast.cl">
     <title>Mi compañero de clase es un mono • Docu-Trauma</title>
     <sub-title>Docu-Trauma</sub-title>
@@ -35354,19 +35136,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0705_fallback.jpg" />
   </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261124114900 +0000" stop="20261124130500 +0000">
-    <title>Big</title>
-    <episode-num system="onscreen">S01E08</episode-num>
-    <episode-num system="pluto">66e053bd22dfe90013872827</episode-num>
-    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
-    <desc>Al ver el anillo de Yoon-jae, Da-ran se confunde y pregunta a Se-young sobre su relación con él. Creyendo que Se-young ya no puede influir en Yoon-jae, Da-ran decide casarse con Gyeong-jun.</desc>
-    <icon src="https://images.pluto.tv/series/66e04fad38c4a000133e3c94/tile_1776893436022.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>00010101</date>
-    <series-id system="pluto">66e04fad38c4a000133e3c94</series-id>
-    <sub-title>Episodio 8</sub-title>
-    <category>Series</category>
-    <category>Telenovela</category>
-  </programme>
   <programme start="20261124115000 +0000" stop="20261124120200 +0000" channel="CartoonNetwork.cl">
     <title>El increíble mundo de Gumball • Las opciones</title>
     <sub-title>Las opciones</sub-title>
@@ -35475,26 +35244,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <country>EE. UU</country>
     <episode-num system="onscreen">S3E3</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hihipuffyamiyumi.jpg" />
-  </programme>
-  <programme start="20261124120000 +0000" stop="20261124130000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124120000 +0000" stop="20261124130000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124120000 +0000" stop="20261124130000 +0000" channel="HGTV.ar">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124120000 +0000" stop="20261124130000 +0000" channel="FOODNETWORK.uy">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261124120000 +0000" stop="20261124122500 +0000" channel="Nick.cl">
     <title>The Patrick Star Show • El show de Patricio Estrella da dividendos / Los juegos estrella</title>
@@ -36008,15 +35757,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261124120000 +0000" stop="20261124150000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261124120000 +0000" stop="20261124150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261124120000 +0000" stop="20261124150000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261124120100 +0000" stop="20261124121400 +0000" channel="DiscoveryKids.cl">
     <title>Bubble's Hotel • Reacciones en cadena</title>
@@ -37068,20 +36817,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <episode-num system="onscreen">S7 E2</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/frasier.jpg" />
   </programme>
-  <programme channel="DramasCoreanos.cl" start="20261124124700 +0000" stop="20261124140100 +0000">
-    <title>She Was Pretty</title>
-    <episode-num system="onscreen">S01E08</episode-num>
-    <episode-num system="pluto">65a96cc85884b4001349bffa</episode-num>
-    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
-    <desc>Hye-jin, antaño privilegiada, trabaja a tiempo parcial y vive con una amiga. Cuando su amor de la infancia, Sung-joon, quiere verla, envía a su amiga en su lugar. Al conseguir un trabajo mejor, descubre que Sung-joon es su jefe y la trata mal.</desc>
-    <icon src="https://images.pluto.tv/series/65a96b585884b4001349b5cc/tile_1769467321653.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>00010101</date>
-    <series-id system="pluto">65a96b585884b4001349b5cc</series-id>
-    <sub-title>I like Ms. Kim Hye-jin!</sub-title>
-    <category>Series</category>
-    <category>Romance</category>
-    <category>Romantic comedy</category>
-  </programme>
   <programme start="20261124124700 +0000" stop="20261124130000 +0000" channel="Tooncast.cl">
     <title>Mike, Lu y Og • El rey de las cortinas</title>
     <sub-title>El rey de las cortinas</sub-title>
@@ -37391,26 +37126,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hamstergretel.jpg" />
-  </programme>
-  <programme start="20261124130000 +0000" stop="20261124140000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124130000 +0000" stop="20261124140000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124130000 +0000" stop="20261124140000 +0000" channel="HGTV.ar">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124130000 +0000" stop="20261124140000 +0000" channel="FOODNETWORK.uy">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261124130000 +0000" stop="20261124150000 +0000" channel="LaRed.cl">
     <title>Antena 3 Directo</title>
@@ -37978,19 +37693,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TVPG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/boystoys.jpg" />
-  </programme>
-  <programme channel="DramasCoreanosTeen.cl" start="20261124130500 +0000" stop="20261124142100 +0000">
-    <title>Big</title>
-    <episode-num system="onscreen">S01E09</episode-num>
-    <episode-num system="pluto">66e053c422dfe900138729df</episode-num>
-    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
-    <desc>Gyeong-jun y Da-ran abandonan su luna de miel y corren al hospital, temiendo que sus almas regresen a sus cuerpos originales. La madre de Yoon-jae se sorprende al descubrir que Kang Gyeong-jun es el chico que Yoon-jae buscaba.</desc>
-    <icon src="https://images.pluto.tv/series/66e04fad38c4a000133e3c94/tile_1776893436022.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
-    <date>00010101</date>
-    <series-id system="pluto">66e04fad38c4a000133e3c94</series-id>
-    <sub-title>Episodio 9</sub-title>
-    <category>Series</category>
-    <category>Telenovela</category>
   </programme>
   <programme start="20261124130800 +0000" stop="20261124135500 +0000" channel="InvestigationDiscovery.cl">
     <title>Desaparecidos • Madre perdida</title>
@@ -39211,22 +38913,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0832_fallback.jpg" />
   </programme>
-  <programme start="20261124140000 +0000" stop="20261124150000 +0000" channel="24Horas.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
   <programme start="20261124140000 +0000" stop="20261124150000 +0000" channel="DIRECTVSports.cl">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124140000 +0000" stop="20261124150000 +0000" channel="HGTV.ar">
-    <title>No Data</title>
-    <desc>https://iptv-epg.org/help</desc>
-    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
-  </programme>
-  <programme start="20261124140000 +0000" stop="20261124150000 +0000" channel="FOODNETWORK.uy">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
@@ -41288,15 +40975,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261124150000 +0000" stop="20261124180000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261124150000 +0000" stop="20261124180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261124150000 +0000" stop="20261124180000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261124150200 +0000" stop="20261124151700 +0000" channel="CartoonNetwork.cl">
     <title>Los Jóvenes Titanes en acción • Locura de anuario</title>
@@ -46050,15 +45737,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261124180000 +0000" stop="20261124210000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261124180000 +0000" stop="20261124210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261124180000 +0000" stop="20261124210000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261124180100 +0000" stop="20261124182900 +0000" channel="DisneyChannel.cl">
     <title>Moon Girl y Devil, el dinosaurio • Un cumpleaños a la Devil</title>
@@ -51175,15 +50862,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261124210000 +0000" stop="20261125000000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261124210000 +0000" stop="20261125000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261124210000 +0000" stop="20261125000000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261124210100 +0000" stop="20261124213000 +0000" channel="DisneyJunior.cl">
     <title>Bluey • Bedroom / Perfect / Obstacle Course</title>
@@ -56119,15 +55806,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261125000000 +0000" stop="20261125030000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261125000000 +0000" stop="20261125030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261125000000 +0000" stop="20261125030000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261125000100 +0000" stop="20261125000800 +0000" channel="Tooncast.cl">
     <title>Hi Hi Puffy AmiYumi • Duplicados</title>
@@ -57357,7 +57044,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <rating>
       <value>B15</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0823_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/guason.jpg" />
   </programme>
   <programme start="20261125004900 +0000" stop="20261125010200 +0000" channel="Tooncast.cl">
     <title>Mike, Lu y Og • El rey de las cortinas</title>
@@ -59122,6 +58809,19 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <episode-num system="onscreen">S1E45</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losjovenestitanesenaccion.jpg" />
   </programme>
+  <programme channel="DramasCoreanos.cl" start="20261125014200 +0000" stop="20261125030100 +0000">
+    <title>The Princess' Man LATAM</title>
+    <episode-num system="onscreen">S01E03</episode-num>
+    <episode-num system="pluto">626aa39ce6e53d00135fb428</episode-num>
+    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
+    <desc>Seung-yoo se encuentra cada vez más atraído por el revelde Se-ryung, a quien todavía cree que es la princesa.</desc>
+    <icon src="https://images.pluto.tv/series/626aa218b55dbf0013515a20/tile_1769213161807.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>00010101</date>
+    <series-id system="pluto">626aa218b55dbf0013515a20</series-id>
+    <sub-title>El Hombre de la Princesa</sub-title>
+    <category>Series</category>
+    <category>Drama</category>
+  </programme>
   <programme start="20261125014300 +0000" stop="20261125022900 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title>Los cuerpos más extremos • El hombre 'más feo</title>
     <sub-title>El hombre 'más feo</sub-title>
@@ -59169,6 +58869,20 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0307_fallback.jpg" />
+  </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261125014600 +0000" stop="20261125025700 +0000">
+    <title>I'm not a Robot</title>
+    <episode-num system="onscreen">S01E03</episode-num>
+    <episode-num system="pluto">65956e0553180b0013a3bd3e</episode-num>
+    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
+    <desc>Kim Min-gyu, máximo accionista de la mayor empresa financiera del país, no puede salir con ninguna chica porque es alérgico al contacto humano. Un día, un robot llamado "Aji 3" llega a su casa. Pero él no tiene idea de que Aji 3 no es un robot.</desc>
+    <icon src="https://images.pluto.tv/series/659454cbb2cbaf00135ad2d0/tile_1769466961421.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>00010101</date>
+    <series-id system="pluto">659454cbb2cbaf00135ad2d0</series-id>
+    <sub-title>I hope you recognize me.</sub-title>
+    <category>Series</category>
+    <category>Romance</category>
+    <category>Romantic comedy</category>
   </programme>
   <programme start="20261125014700 +0000" stop="20261125015800 +0000" channel="DiscoveryKids.cl">
     <title>Topo Gigio • El chef Gigio</title>
@@ -59478,7 +59192,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <rating>
       <value>A</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0311_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/puppydogpals.jpg" />
   </programme>
   <programme start="20261125020000 +0000" stop="20261125040000 +0000" channel="TNTSports.cl">
     <title>Copa Chile • Coquimbo Unido vs Unión La Calera, Cuartos de final - Vuelta, Estadio Francisco Sánchez Rumoroso</title>
@@ -61035,6 +60749,20 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <episode-num system="onscreen">S1E6</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0808_fallback.jpg" />
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261125025700 +0000" stop="20261125041000 +0000">
+    <title>I'm not a Robot</title>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <episode-num system="pluto">6595642e478df60013bc46c2</episode-num>
+    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
+    <desc>Kim Min-gyu, máximo accionista de la mayor empresa financiera del país, no puede salir con ninguna chica porque es alérgico al contacto humano. Un día, un robot llamado "Aji 3" llega a su casa. Pero él no tiene idea de que Aji 3 no es un robot.</desc>
+    <icon src="https://images.pluto.tv/series/659454cbb2cbaf00135ad2d0/tile_1769466961421.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>00010101</date>
+    <series-id system="pluto">659454cbb2cbaf00135ad2d0</series-id>
+    <sub-title>Congratulations, you've just upgraded to "Cutie" status.</sub-title>
+    <category>Series</category>
+    <category>Romance</category>
+    <category>Romantic comedy</category>
+  </programme>
   <programme start="20261125025700 +0000" stop="20261125035700 +0000" channel="NationalGeographic.cl">
     <title>Gordon Ramsay: sabores extremos • Los acantilados de Irlanda</title>
     <sub-title>Los acantilados de Irlanda</sub-title>
@@ -61516,15 +61244,28 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
+  <programme start="20261125030000 +0000" stop="20261125060000 +0000" channel="CHVNoticias.cl">
+    <title lang="es">CHV Noticias: Noticias en Vivo</title>
+    <desc lang="es">Información continua las 24 horas.</desc>
+    <category lang="es">Noticias</category>
+  </programme>
   <programme start="20261125030000 +0000" stop="20261125060000 +0000" channel="NTV.cl">
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme start="20261125030000 +0000" stop="20261125060000 +0000" channel="CHVNoticias.cl">
-    <title lang="es">CHV Noticias: Noticias en Vivo</title>
-    <desc lang="es">Información continua las 24 horas.</desc>
-    <category lang="es">Noticias</category>
+  <programme channel="DramasCoreanos.cl" start="20261125030100 +0000" stop="20261125042100 +0000">
+    <title>The Princess' Man LATAM</title>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <episode-num system="pluto">626aa4ed73a0a100144f45be</episode-num>
+    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
+    <desc>La artimaña se revela, y las tensiones entre las primas surgen cuando el Rey elige a Seung-yoo como el prometido de Kyung-hye.</desc>
+    <icon src="https://images.pluto.tv/series/626aa218b55dbf0013515a20/tile_1769213161807.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>00010101</date>
+    <series-id system="pluto">626aa218b55dbf0013515a20</series-id>
+    <sub-title>El Hombre de la Princesa</sub-title>
+    <category>Series</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261125030100 +0000" stop="20261125051600 +0000" channel="HBOXtreme.cl">
     <title>El robo perfecto: Pantera</title>
@@ -63302,6 +63043,20 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pollypocket.jpg" />
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261125041000 +0000" stop="20261125051800 +0000">
+    <title>I'm not a Robot</title>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <episode-num system="pluto">6595642a478df60013bc45d5</episode-num>
+    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
+    <desc>Kim Min-gyu, máximo accionista de la mayor empresa financiera del país, no puede salir con ninguna chica porque es alérgico al contacto humano. Un día, un robot llamado "Aji 3" llega a su casa. Pero él no tiene idea de que Aji 3 no es un robot.</desc>
+    <icon src="https://images.pluto.tv/series/659454cbb2cbaf00135ad2d0/tile_1769466961421.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>00010101</date>
+    <series-id system="pluto">659454cbb2cbaf00135ad2d0</series-id>
+    <sub-title>Now, you're my most precious treasure.</sub-title>
+    <category>Series</category>
+    <category>Romance</category>
+    <category>Romantic comedy</category>
+  </programme>
   <programme start="20261125041000 +0000" stop="20261125050000 +0000" channel="TLNovelas.cl">
     <title>Baila conmigo</title>
     <desc>Ambientada a finales de los años cincuenta, en pleno auge del nacimiento del Rock and Roll, la historia presenta a Pilar y Andrea, quienes se enamoran de Bruno, un joven que solo busca una relación sin compromiso. A su vez, Eddy, un aspirante a cantante, está enamorado de Pilar.</desc>
@@ -63593,6 +63348,19 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <country>EE. UU</country>
     <episode-num system="onscreen">S6E16</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/bluebloods.jpg" />
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261125042100 +0000" stop="20261125054000 +0000">
+    <title>The Princess' Man LATAM</title>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <episode-num system="pluto">626aa4f573a0a100144f45e7</episode-num>
+    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
+    <desc>Seung-yoo es castigado por su supuesta incorrección con la princesa.</desc>
+    <icon src="https://images.pluto.tv/series/626aa218b55dbf0013515a20/tile_1769213161807.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>00010101</date>
+    <series-id system="pluto">626aa218b55dbf0013515a20</series-id>
+    <sub-title>El Hombre de la Princesa</sub-title>
+    <category>Series</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261125042200 +0000" stop="20261125043400 +0000" channel="DiscoveryKids.cl">
     <title>Topo Gigio • La invitación</title>
@@ -65114,6 +64882,20 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <episode-num system="onscreen">S3E3</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0701_fallback.jpg" />
   </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261125051800 +0000" stop="20261125062700 +0000">
+    <title>I'm not a Robot</title>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <episode-num system="pluto">65956441478df60013bc4a92</episode-num>
+    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
+    <desc>Kim Min-gyu, máximo accionista de la mayor empresa financiera del país, no puede salir con ninguna chica porque es alérgico al contacto humano. Un día, un robot llamado "Aji 3" llega a su casa. Pero él no tiene idea de que Aji 3 no es un robot.</desc>
+    <icon src="https://images.pluto.tv/series/659454cbb2cbaf00135ad2d0/tile_1769466961421.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>00010101</date>
+    <series-id system="pluto">659454cbb2cbaf00135ad2d0</series-id>
+    <sub-title>I want to kiss you.</sub-title>
+    <category>Series</category>
+    <category>Romance</category>
+    <category>Romantic comedy</category>
+  </programme>
   <programme start="20261125051900 +0000" stop="20261125053100 +0000" channel="CartoonNetwork.cl">
     <title>Escandalosos • Pardo ayuda</title>
     <sub-title>Pardo ayuda</sub-title>
@@ -65733,6 +65515,19 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>B15</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/eldragonrojo.jpg" />
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261125054000 +0000" stop="20261125070000 +0000">
+    <title>The Princess' Man LATAM</title>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <episode-num system="pluto">626aa667e500b000134c9b29</episode-num>
+    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
+    <desc>Se-ryung está devastado cuando Seung-yoo le da el hombro frío.</desc>
+    <icon src="https://images.pluto.tv/series/626aa218b55dbf0013515a20/tile_1769213161807.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>00010101</date>
+    <series-id system="pluto">626aa218b55dbf0013515a20</series-id>
+    <sub-title>El Hombre de la Princesa</sub-title>
+    <category>Series</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261125054000 +0000" stop="20261125063500 +0000" channel="TelemundoInternacional.ar">
     <title>Enemigo íntimo • Veinticuatro horas para matar</title>
@@ -66461,15 +66256,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261125060000 +0000" stop="20261125090000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261125060000 +0000" stop="20261125090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261125060000 +0000" stop="20261125090000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261125060200 +0000" stop="20261125064700 +0000" channel="Discovery.cl">
     <title>Mirada policial • Fuego y furia</title>
@@ -67042,6 +66837,20 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>B15</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/doctorsueno.jpg" />
+  </programme>
+  <programme channel="DramasCoreanosTeen.cl" start="20261125062700 +0000" stop="20261125073400 +0000">
+    <title>I'm not a Robot</title>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <episode-num system="pluto">65946cb2a95cb100145a5d86</episode-num>
+    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
+    <desc>Kim Min-gyu, máximo accionista de la mayor empresa financiera del país, no puede salir con ninguna chica porque es alérgico al contacto humano. Un día, un robot llamado "Aji 3" llega a su casa. Pero él no tiene idea de que Aji 3 no es un robot.</desc>
+    <icon src="https://images.pluto.tv/series/659454cbb2cbaf00135ad2d0/tile_1769466961421.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>00010101</date>
+    <series-id system="pluto">659454cbb2cbaf00135ad2d0</series-id>
+    <sub-title>Does this one really like me so much?</sub-title>
+    <category>Series</category>
+    <category>Romance</category>
+    <category>Romantic comedy</category>
   </programme>
   <programme start="20261125062800 +0000" stop="20261125065100 +0000" channel="DisneyChannel.cl">
     <title>Los hechiceros de Waverly Place • Hechiceros contra vampiros en Waverly</title>
@@ -67780,6 +67589,19 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   </programme>
   <programme start="20261125070000 +0000" stop="20261125073000 +0000" channel="24Horas.cl">
     <title lang="es">24 Horas a la Hora</title>
+  </programme>
+  <programme channel="DramasCoreanos.cl" start="20261125070000 +0000" stop="20261125081900 +0000">
+    <title>The Princess' Man LATAM</title>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <episode-num system="pluto">626aa660e500b000134c9a94</episode-num>
+    <episode-num system="original-air-date">00010101000000 +0000</episode-num>
+    <desc>Se-ryung se encuentra en problemas cuando le da a Seung-yoo un nombre falso para sí misma.</desc>
+    <icon src="https://images.pluto.tv/series/626aa218b55dbf0013515a20/tile_1769213161807.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" />
+    <date>00010101</date>
+    <series-id system="pluto">626aa218b55dbf0013515a20</series-id>
+    <sub-title>El Hombre de la Princesa</sub-title>
+    <category>Series</category>
+    <category>Drama</category>
   </programme>
   <programme start="20261125070000 +0000" stop="20261125084500 +0000" channel="Mega.cl">
     <title>Meganoticias ahora</title>
@@ -71743,15 +71565,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261125090000 +0000" stop="20261125120000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261125090000 +0000" stop="20261125120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261125090000 +0000" stop="20261125120000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261125090500 +0000" stop="20261125093000 +0000" channel="Sony.cl">
     <title>Casados con hijos México • Cuestión de amor</title>
@@ -76997,15 +76819,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261125120000 +0000" stop="20261125150000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261125120000 +0000" stop="20261125150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261125120000 +0000" stop="20261125150000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261125120200 +0000" stop="20261125121000 +0000" channel="CartoonNetwork.cl">
     <title>Los Jóvenes Titanes en acción • Camarones y costillas</title>
@@ -82297,15 +82119,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261125150000 +0000" stop="20261125180000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261125150000 +0000" stop="20261125180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261125150000 +0000" stop="20261125180000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261125150200 +0000" stop="20261125160400 +0000" channel="ESPN2.cl">
     <title>Goles de la Premier League</title>
@@ -87120,15 +86942,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261125180000 +0000" stop="20261125210000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261125180000 +0000" stop="20261125210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261125180000 +0000" stop="20261125210000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261125180100 +0000" stop="20261125183000 +0000" channel="DisneyChannel.cl">
     <title>Moon Girl y Devil, el dinosaurio • La chica de las fiestas</title>
@@ -90975,7 +90797,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <rating>
       <value>B15</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0823_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/guason.jpg" />
   </programme>
   <programme start="20261125203000 +0000" stop="20261125230000 +0000" channel="Chilevision.cl">
     <title>Plan perfecto</title>
@@ -91954,15 +91776,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261125210000 +0000" stop="20261126000000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261125210000 +0000" stop="20261126000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261125210000 +0000" stop="20261126000000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261125210100 +0000" stop="20261125212900 +0000" channel="DisneyJunior.cl">
     <title>Bluey • Promises / Magic / Mini Bluey</title>
@@ -96878,15 +96700,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261126000000 +0000" stop="20261126030000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261126000000 +0000" stop="20261126030000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261126000000 +0000" stop="20261126030000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261126000200 +0000" stop="20261126000900 +0000" channel="Tooncast.cl">
     <title>Hi Hi Puffy AmiYumi • Ami juega fútbol</title>
@@ -98911,8 +98733,21 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   </programme>
   <programme start="20261126010500 +0000" stop="20261126030000 +0000" channel="HBOPop.cl">
     <title>Violent Night</title>
-    <desc>Un grupo de mercenarios de élite irrumpe en la casa de una familia rica en la noche de Navidad. Lo que no esperaban encontrar era al enemigo más improbable, sin embargo violento, posible: Santa Claus.</desc>
+    <desc>Cuando un equipo de mercenarios irrumpe en Nochebuena dentro de un complejo familiar adinerado y toma como rehenes a todos los que están dentro, no estaban preparados para un defensor sorpresa: Santa Claus (David Harbour) está en el edificio y a punto de demostrar por qué este Santa Claus, no es ningún santo.</desc>
+    <credits>
+      <director>Tommy Wirkola</director>
+      <actor>David Harbour</actor>
+      <actor>John Leguizamo</actor>
+      <actor>Beverly D'Angelo</actor>
+      <actor>Alex Hassell</actor>
+      <actor>Alexis Louder</actor>
+      <actor>Edi Patterson</actor>
+      <actor>Cam Gigandet</actor>
+      <actor>Leah Brady</actor>
+    </credits>
+    <date>2022</date>
     <category>Holiday</category>
+    <country>Canadá</country>
     <rating>
       <value>R</value>
     </rating>
@@ -100028,7 +99863,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <rating>
       <value>A</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0311_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/puppydogpals.jpg" />
   </programme>
   <programme start="20261126020000 +0000" stop="20261126030000 +0000" channel="24Horas.cl">
     <title>No Data</title>
@@ -101897,15 +101732,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261126030000 +0000" stop="20261126060000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261126030000 +0000" stop="20261126060000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261126030000 +0000" stop="20261126060000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261126030400 +0000" stop="20261126040400 +0000" channel="NationalGeographic.cl">
     <title>Gordon Ramsay: sabores extremos - Aventuras extremas • Costa jurásica de Inglaterra</title>
@@ -107087,15 +106922,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261126060000 +0000" stop="20261126090000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261126060000 +0000" stop="20261126090000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261126060000 +0000" stop="20261126090000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261126060300 +0000" stop="20261126062600 +0000" channel="WarnerChannel.cl">
     <title>Two and a Half Men • Viajando con Alan</title>
@@ -108142,8 +107977,21 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   </programme>
   <programme start="20261126064000 +0000" stop="20261126090000 +0000" channel="HBOPop.cl">
     <title>Comer, rezar, amar</title>
-    <desc>Liz Gilbert pensó que tenía todo lo que ella quería en la vida: una casa, un marido y una carrera exitosa. Pero un día descubre que ya no quiere más esa vida, por lo que decide poner fin a su matrimonio y emprender un viaje de autodescubrimiento que la lleva a Italia, India e Indonesia.</desc>
+    <desc>Tras varios fracasos sentimentales, una mujer decide encontrarse a sí misma a través de un viaje por Italia, la India, Bali e Indonesia. Liz Gilbert tenía todo lo que una mujer puede soñar, un marido, una casa y una brillante carrera, pero se encontraba perdida, confusa, insatisfecha. Una vez divorciada, y tras un periodo de reflexión, decide abandonar su acomodada vida y lo arriesga todo, emprendiendo un viaje alrededor del mundo. Película basada en el best-seller homónimo y autobiográfico de Elizabeth Gilbert.</desc>
+    <credits>
+      <director>Ryan Murphy</director>
+      <actor>Julia Roberts</actor>
+      <actor>Javier Bardem</actor>
+      <actor>James Franco</actor>
+      <actor>Billy Crudup</actor>
+      <actor>Richard Jenkins</actor>
+      <actor>Viola Davis</actor>
+      <actor>I. Gusti Ayu Puspawati</actor>
+      <actor>Hadi Subiyanto</actor>
+    </credits>
+    <date>2010</date>
     <category>Drama</category>
+    <country>Estados Unidos</country>
     <rating>
       <value>PG-13</value>
     </rating>
@@ -112197,8 +112045,21 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   </programme>
   <programme start="20261126090000 +0000" stop="20261126112500 +0000" channel="HBOPop.cl">
     <title>Sensatez y sentimientos</title>
-    <desc>Dos hermanas enfrentan sus problemas románticos en la Inglaterra del siglo XIX donde reinan el dinero y la sociedad.</desc>
+    <desc>La señora Dashwood, Elinor, Marianne y Margaret, son tres hermanas del segundo matrimonio del señor Dashwood. Cuando este muere, deja toda la herencia al hijo de su primer matrimonio. Las Dashwood, se quedan un corto tiempo en la que era su casa, donde conocen a Edward Ferrars, cuñado de su hermanastro del cual Elinor se enamora. Cuando se trasladan a una casa en el campo, Marianne se enamora de John Willoughby, que vive cerca de su nueva casa. Durante su estancia allí ella aprenderá a madurar acerca de los conceptos del amor.</desc>
+    <credits>
+      <director>李安</director>
+      <actor>Emma Thompson</actor>
+      <actor>Kate Winslet</actor>
+      <actor>Alan Rickman</actor>
+      <actor>Hugh Grant</actor>
+      <actor>Gemma Jones</actor>
+      <actor>Greg Wise</actor>
+      <actor>Elizabeth Spriggs</actor>
+      <actor>Imogen Stubbs</actor>
+    </credits>
+    <date>1995</date>
     <category>Comedy drama</category>
+    <country>Estados Unidos</country>
     <rating>
       <value>PG</value>
     </rating>
@@ -112301,15 +112162,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261126090000 +0000" stop="20261126120000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261126090000 +0000" stop="20261126120000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261126090000 +0000" stop="20261126120000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261126090100 +0000" stop="20261126110700 +0000" channel="Golden.cl">
     <title>Charlie: un perro especial</title>
@@ -117630,15 +117491,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261126120000 +0000" stop="20261126150000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261126120000 +0000" stop="20261126150000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261126120000 +0000" stop="20261126150000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261126120300 +0000" stop="20261126123000 +0000" channel="WarnerChannel.cl">
     <title>Two and a Half Men • Mi madre es una bolsa de papas</title>
@@ -122735,15 +122596,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261126150000 +0000" stop="20261126180000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261126150000 +0000" stop="20261126180000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261126150000 +0000" stop="20261126180000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261126150100 +0000" stop="20261126162500 +0000" channel="HBOFamily.cl">
     <title>Jóvenes Titanes en acción: La película</title>
@@ -127748,15 +127609,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261126180000 +0000" stop="20261126210000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261126180000 +0000" stop="20261126210000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261126180000 +0000" stop="20261126210000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261126180100 +0000" stop="20261126190100 +0000" channel="NationalGeographic.cl">
     <title>Mayday: catástrofes aéreas • Trampa letal</title>
@@ -132467,15 +132328,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
     <category lang="es">Noticias</category>
   </programme>
-  <programme start="20261126210000 +0000" stop="20261127000000 +0000" channel="NTV.cl">
-    <title lang="es">NTV.cl: Programación General</title>
-    <desc lang="es">Transmisión continua.</desc>
-    <category lang="es">Variado</category>
-  </programme>
   <programme start="20261126210000 +0000" stop="20261127000000 +0000" channel="CHVNoticias.cl">
     <title lang="es">CHV Noticias: Noticias en Vivo</title>
     <desc lang="es">Información continua las 24 horas.</desc>
     <category lang="es">Noticias</category>
+  </programme>
+  <programme start="20261126210000 +0000" stop="20261127000000 +0000" channel="NTV.cl">
+    <title lang="es">NTV.cl: Programación General</title>
+    <desc lang="es">Transmisión continua.</desc>
+    <category lang="es">Variado</category>
   </programme>
   <programme start="20261126210100 +0000" stop="20261126213000 +0000" channel="DisneyJunior.cl">
     <title>Bluey • Unicorse / Born Yesterday / Curry Quest</title>
@@ -136458,7 +136319,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   </programme>
   <programme start="20261126233100 +0000" stop="20261127010000 +0000" channel="HBOFamily.cl">
     <title>La vida secreta de tus mascotas</title>
-    <desc>La vida secreta de seis mascotas y todo lo que hacen cuando sus dueños salen de la casa, desde mirar la televisión hasta vaciar la heladera, hasta que todo queda al descubierto.</desc>
+    <desc>Ambientada en un apartamento de Manhattan, las mascotas se reúnen tras la marcha de sus dueños para contar humillantes historias sobre ellos y dar y recibir consejos sobre cómo ser más adorables. El líder de ellos es un Fox Terrier que ve amenazada su posición de privilegio por la llegada de un perro mestizo. Su rivalidad les llevará a acabar en las duras calles de Nueva York, donde se encontrarán con un aparentemente adorable conejo que en realidad es el líder de un ejército de mascotas abandonadas que ha jurado vengarse.</desc>
     <credits>
       <director>Chris Renaud</director>
       <director>Yarrow Cheney</director>
@@ -138411,7 +138272,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/nosoytumami.jpg" />
   </programme>
-  <programme start="20261127004000 +0000" stop="20261127014000 +0000" channel="TNTSportsPremium.cl">
+  <programme start="20261127004000 +0000" stop="20261127024000 +0000" channel="TNTSportsPremium.cl">
     <title>Todos Somos Técnicos • 26-11-2026</title>
     <sub-title>26-11-2026</sub-title>
     <desc>Repetición ║ 26-11-2026 | La información de este programa no se encuentra disponible.</desc>
@@ -140169,11 +140030,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0107_fallback.jpg" />
   </programme>
-  <programme start="20261127014000 +0000" stop="20261127020000 +0000" channel="TNTSportsPremium.cl">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
-  </programme>
   <programme start="20261127014200 +0000" stop="20261127014900 +0000" channel="Tooncast.cl">
     <title>Escuadrón del tiempo • Confucio confuso</title>
     <sub-title>Confucio confuso</sub-title>
@@ -140544,12 +140400,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <rating>
       <value>A</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0311_fallback.jpg" />
-  </programme>
-  <programme start="20261127020000 +0000" stop="20261127060000 +0000" channel="TNTSportsPremium.cl">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/puppydogpals.jpg" />
   </programme>
   <programme start="20261127020000 +0000" stop="20261127030000 +0000" channel="ESPN2.cl">
     <title>Highlights - UEFA Europa League</title>
@@ -141645,6 +141496,13 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TVY</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pawpatrolpatrulladecachorros.jpg" />
+  </programme>
+  <programme start="20261127024000 +0000" stop="20261127034000 +0000" channel="TNTSportsPremium.cl">
+    <title>TNT Data Sports • Data Sports 26-11-2026</title>
+    <sub-title>Data Sports 26-11-2026</sub-title>
+    <desc>Repetición ║ Data Sports 26-11-2026 | La información de este programa no se encuentra disponible.</desc>
+    <episode-num system="onscreen">Episodio 418</episode-num>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntdatasports.jpg" />
   </programme>
   <programme start="20261127024000 +0000" stop="20261127080000 +0000" channel="TyCSports.cl">
     <title>🔴 Sportia</title>
@@ -143276,6 +143134,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dora.jpg" />
   </programme>
+  <programme start="20261127034000 +0000" stop="20261127040000 +0000" channel="TNTSportsPremium.cl">
+    <title>TNT Sports Premium Chile</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
+  </programme>
   <programme start="20261127034000 +0000" stop="20261127043000 +0000" channel="AXN.cl">
     <title>S.W.A.T • Memento Mori</title>
     <sub-title>Memento Mori</sub-title>
@@ -143887,6 +143750,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TVY</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dora.jpg" />
+  </programme>
+  <programme start="20261127040000 +0000" stop="20261127080000 +0000" channel="TNTSportsPremium.cl">
+    <title>TNT Sports Premium Chile</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
   <programme start="20261127040000 +0000" stop="20261127053000 +0000" channel="ESPN2.cl">
     <title>ESPN F90</title>
@@ -147239,6 +147107,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc>https://iptv-epg.org/help</desc>
     <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
+  <programme start="20261127060000 +0000" stop="20261127070000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261127060000 +0000" stop="20261127070000 +0000" channel="HGTV.ar">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -147335,11 +147208,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <country>EE. UU</country>
     <episode-num system="onscreen">S4 E31</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elincreiblemundodegumball.jpg" />
-  </programme>
-  <programme start="20261127060000 +0000" stop="20261127100000 +0000" channel="TNTSportsPremium.cl">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
   <programme start="20261127060000 +0000" stop="20261127070000 +0000" channel="ESPN4.cl">
     <title>El show de la F1</title>
@@ -148756,6 +148624,26 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TVPG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/boystoys.jpg" />
+  </programme>
+  <programme start="20261127070000 +0000" stop="20261127080000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127070000 +0000" stop="20261127080000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127070000 +0000" stop="20261127080000 +0000" channel="HGTV.ar">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127070000 +0000" stop="20261127080000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261127070000 +0000" stop="20261127084500 +0000" channel="Mega.cl">
     <title>Meganoticias ahora</title>
@@ -150486,6 +150374,26 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0323_fallback.jpg" />
   </programme>
+  <programme start="20261127080000 +0000" stop="20261127090000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127080000 +0000" stop="20261127090000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127080000 +0000" stop="20261127090000 +0000" channel="HGTV.ar">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127080000 +0000" stop="20261127090000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261127080000 +0000" stop="20261127083000 +0000" channel="TVN.cl">
     <title>Hora 24</title>
     <desc>Actualidad e información.</desc>
@@ -150574,6 +150482,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <country>EE. UU</country>
     <episode-num system="onscreen">S1 E11</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/stevenuniversefuturo.jpg" />
+  </programme>
+  <programme start="20261127080000 +0000" stop="20261127120000 +0000" channel="TNTSportsPremium.cl">
+    <title>TNT Sports Premium Chile</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
   <programme start="20261127080000 +0000" stop="20261127100000 +0000" channel="TyCSports.cl">
     <title>Sportia</title>
@@ -152002,6 +151915,26 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Fútbol</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0418_fallback.jpg" />
   </programme>
+  <programme start="20261127090000 +0000" stop="20261127100000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127090000 +0000" stop="20261127100000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127090000 +0000" stop="20261127100000 +0000" channel="HGTV.ar">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127090000 +0000" stop="20261127100000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261127090000 +0000" stop="20261127110000 +0000" channel="TVN.cl">
     <title>24 horas: Tu mañana</title>
     <desc>Revisa las principales noticias de la jornada junto a 24 Horas - Tu mañana.</desc>
@@ -152441,12 +152374,25 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   </programme>
   <programme start="20261127090000 +0000" stop="20261127103500 +0000" channel="HBOPop.cl">
     <title>Crossroads</title>
-    <desc>Una adolescente busca a sus amigas de la infancia, para realizar un viaje por carretera para visitar a su madre.</desc>
+    <desc>Eugene tiene un gran talento para la guitarra clásica, aunque su verdadero sueño es llegar a ser una estrella del Blues. Para conseguirlo, se pone en contacto con el legendario músico Willie Brown, que, después de una vida marcada por el éxito, vive en un asilo de ancianos.</desc>
+    <credits>
+      <director>Walter Hill</director>
+      <actor>Ralph Macchio</actor>
+      <actor>Joe Seneca</actor>
+      <actor>Jami Gertz</actor>
+      <actor>Joe Morton</actor>
+      <actor>Robert Judd</actor>
+      <actor>Steve Vai</actor>
+      <actor>Tim Russ</actor>
+      <actor>Dennis Lipscomb</actor>
+    </credits>
+    <date>1986</date>
     <category>Comedy drama</category>
+    <country>Estados Unidos</country>
     <rating>
       <value>PG-13</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0819_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/crossroads.jpg" />
   </programme>
   <programme start="20261127090000 +0000" stop="20261127105600 +0000" channel="HBOXtreme.cl">
     <title>Policías de repuesto</title>
@@ -153653,6 +153599,26 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0304_fallback.jpg" />
   </programme>
+  <programme start="20261127100000 +0000" stop="20261127110000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127100000 +0000" stop="20261127110000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127100000 +0000" stop="20261127110000 +0000" channel="HGTV.ar">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127100000 +0000" stop="20261127110000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261127100000 +0000" stop="20261127110000 +0000" channel="LaRed.cl">
     <title>Problemas y soluciones</title>
     <desc>Espacio de contenido religioso.</desc>
@@ -153765,11 +153731,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TVY</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lacasademickeymouse.jpg" />
-  </programme>
-  <programme start="20261127100000 +0000" stop="20261127140000 +0000" channel="TNTSportsPremium.cl">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
   <programme start="20261127100000 +0000" stop="20261127120000 +0000" channel="TyCSports.cl">
     <title>Copa Argentina • Banfield vs Boca Jrs., Semifinal, Estadio Malvinas Argentinas</title>
@@ -154837,12 +154798,24 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   </programme>
   <programme start="20261127103500 +0000" stop="20261127122000 +0000" channel="HBOPop.cl">
     <title>Miss You, Love You</title>
-    <desc>Una viuda dura y afligida se ve obligada a planear el funeral de su marido con un completo desconocido, el asistente de su hijo, con quien no tenía relación.</desc>
+    <desc>Una viuda, afligida por la muerte de su marido, entabla una inesperada relación con el asistente de su hijo, del que está distanciada, mientras ambos organizan el funeral de su esposo.</desc>
+    <credits>
+      <director>Jim Rash</director>
+      <actor>Allison Janney</actor>
+      <actor>Andrew Rannells</actor>
+      <actor>Suzy Nakamura</actor>
+      <actor>Bonnie Hunt</actor>
+      <actor>Oscar Nuñez</actor>
+      <actor>Lisa Schurga</actor>
+      <actor>Rocky Lippman</actor>
+    </credits>
+    <date>2026</date>
     <category>Drama</category>
+    <country>Estados Unidos</country>
     <rating>
       <value>8+</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0819_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/missyouloveyou.jpg" />
   </programme>
   <programme start="20261127103600 +0000" stop="20261127104800 +0000" channel="CartoonNetwork.cl">
     <title>Los Jóvenes Titanes en acción • La chispa</title>
@@ -155246,6 +155219,26 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hancock.jpg" />
+  </programme>
+  <programme start="20261127110000 +0000" stop="20261127120000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127110000 +0000" stop="20261127120000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127110000 +0000" stop="20261127120000 +0000" channel="HGTV.ar">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127110000 +0000" stop="20261127120000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261127110000 +0000" stop="20261127130000 +0000" channel="LaRed.cl">
     <title>Spot central</title>
@@ -157011,6 +157004,26 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/minovioesunzombie.jpg" />
   </programme>
+  <programme start="20261127120000 +0000" stop="20261127130000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127120000 +0000" stop="20261127130000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127120000 +0000" stop="20261127130000 +0000" channel="HGTV.ar">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127120000 +0000" stop="20261127130000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261127120000 +0000" stop="20261127122000 +0000" channel="Nick.cl">
     <title>The Patrick Star Show • La ira de Mandilor / Se perdió el vecindario</title>
     <sub-title>La ira de Mandilor / Se perdió el vecindario</sub-title>
@@ -157154,6 +157167,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/bubbleshotel.jpg" />
+  </programme>
+  <programme start="20261127120000 +0000" stop="20261127160000 +0000" channel="TNTSportsPremium.cl">
+    <title>TNT Sports Premium Chile</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
   <programme start="20261127120000 +0000" stop="20261127140000 +0000" channel="TyCSports.cl">
     <title>🔴 Sportia</title>
@@ -157812,12 +157830,25 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   </programme>
   <programme start="20261127122000 +0000" stop="20261127141500 +0000" channel="HBOPop.cl">
     <title>¿Cómo sobrevivir a mi ex?</title>
-    <desc>Un cantante intenta superar una mala separación, pero se encuentra con su examante y su nuevo novio mientras pasan unas vacaciones en Hawái.</desc>
+    <desc>Peter Bretter es un músico desconocido que ha pasado seis años de su vida idolatrando a su novia, la estrella televisiva Sarah Marshall. Es el típico chico que le guarda el bolso mientras la fotografían los paparazzi y al que ella olvida mencionar en sus discursos de agradecimiento. Pero el mundo de Peter se derrumba cuando Sarah le deja y se encuentra solo. Después de intentar, con más bien poco éxito, convertirse en un donjuán y de tener una crisis de histerismo en el trabajo, se convence de que no tener a Sarah en su vida es el equivalente a no tener vida. En un intento de aclararse las ideas, decide irse a Oahu, Hawái, donde el azar quiere enfrentarle a su peor pesadilla: su ex y su modernísimo nuevo novio británico, el roquero Aldous Snow, se hospedan en el mismo hotel de lujo.</desc>
+    <credits>
+      <director>Nicholas Stoller</director>
+      <actor>Jason Segel</actor>
+      <actor>Kristen Bell</actor>
+      <actor>Mila Kunis</actor>
+      <actor>Russell Brand</actor>
+      <actor>Bill Hader</actor>
+      <actor>Jonah Hill</actor>
+      <actor>Liz Cackowski</actor>
+      <actor>Jack McBrayer</actor>
+    </credits>
+    <date>2008</date>
     <category>Romantic comedy</category>
+    <country>Estados Unidos</country>
     <rating>
       <value>R</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0819_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comosobreviviramiex.jpg" />
   </programme>
   <programme start="20261127122400 +0000" stop="20261127123000 +0000" channel="Tooncast.cl">
     <title>Hi Hi Puffy AmiYumi • La abuela</title>
@@ -158648,6 +158679,26 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losrenegados.jpg" />
+  </programme>
+  <programme start="20261127130000 +0000" stop="20261127140000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127130000 +0000" stop="20261127140000 +0000" channel="DIRECTVSports.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127130000 +0000" stop="20261127140000 +0000" channel="HGTV.ar">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127130000 +0000" stop="20261127140000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
   </programme>
   <programme start="20261127130000 +0000" stop="20261127150000 +0000" channel="LaRed.cl">
     <title>Antena 3 Directo</title>
@@ -160147,6 +160198,21 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/boystoys.jpg" />
   </programme>
+  <programme start="20261127140000 +0000" stop="20261127150000 +0000" channel="24Horas.cl">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127140000 +0000" stop="20261127150000 +0000" channel="HGTV.ar">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
+  <programme start="20261127140000 +0000" stop="20261127150000 +0000" channel="FOODNETWORK.uy">
+    <title>No Data</title>
+    <desc>https://iptv-epg.org/help</desc>
+    <icon src="https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW" />
+  </programme>
   <programme start="20261127140000 +0000" stop="20261127160000 +0000" channel="TVN.cl">
     <title>El mediodía</title>
     <desc>Una propuesta cargada de entretenimiento, juegos y una conexión directa con la calle. Este programa está conducido por el animador Daniel Fuenzalida en un espacio dinámico y cercano, donde el animador interactuará directamente con el público a través de concursos y actividades que invitarán a la audiencia a sentirse parte del programa.</desc>
@@ -160209,6 +160275,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <sub-title>¡Bam</sub-title>
     <desc>¡Bam | Un grupo de marineros acosa al Capitán Nudillos en el Barril de Caramelos, y Flapjack intenta convencerlo de que no es un debilucho.</desc>
     <credits>
+      <director>Thurop Van Orman</director>
       <actor>Mark K Van Orman</actor>
       <actor>Thurop Van Orman</actor>
       <actor>Roz Ryan</actor>
@@ -160225,7 +160292,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Infantil</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E26</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0308_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/themarvelousmisadventuresofflapjack.jpg" />
   </programme>
   <programme start="20261127140000 +0000" stop="20261127143000 +0000" channel="DisneyJunior.cl">
     <title>Bluey • Subibaja / Cine / Abuelo</title>
@@ -160250,11 +160317,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TE</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/bluey.jpg" />
-  </programme>
-  <programme start="20261127140000 +0000" stop="20261127180000 +0000" channel="TNTSportsPremium.cl">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
   <programme start="20261127140000 +0000" stop="20261127160000 +0000" channel="TyCSports.cl">
     <title>🔴 Estudio fútbol</title>
@@ -160536,6 +160598,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <sub-title>¿Qué se lo está comiendo, capitán</sub-title>
     <desc>¿Qué se lo está comiendo, capitán | Las termitas plagan al Capitán Nudillos.</desc>
     <credits>
+      <director>Thurop Van Orman</director>
       <actor>Mark K Van Orman</actor>
       <actor>Thurop Van Orman</actor>
       <actor>Roz Ryan</actor>
@@ -160552,7 +160615,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Infantil</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E31</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0308_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/themarvelousmisadventuresofflapjack.jpg" />
   </programme>
   <programme start="20261127141000 +0000" stop="20261127143500 +0000" channel="Discovery.cl">
     <title>Todoterreno • Scout personalizado</title>
@@ -160750,6 +160813,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <sub-title>Con deseos nada buenos</sub-title>
     <desc>Con deseos nada buenos | Se cumple el deseo del Capitán Nudillos: todos en Bahía Tormentosa desaparecen, pero pronto se arrepiente de su propio deseo.</desc>
     <credits>
+      <director>Thurop Van Orman</director>
       <actor>Mark K Van Orman</actor>
       <actor>Thurop Van Orman</actor>
       <actor>Roz Ryan</actor>
@@ -160766,7 +160830,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Infantil</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E37</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0308_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/themarvelousmisadventuresofflapjack.jpg" />
   </programme>
   <programme start="20261127142000 +0000" stop="20261127144500 +0000" channel="ComedyCentral.cl">
     <title>Frasier • Persecución caliente</title>
@@ -163554,6 +163618,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Animación</category>
     <country>EE. UU</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/unshowmaslascintasperdidas.jpg" />
+  </programme>
+  <programme start="20261127160000 +0000" stop="20261127200000 +0000" channel="TNTSportsPremium.cl">
+    <title>TNT Sports Premium Chile</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
   <programme start="20261127160000 +0000" stop="20261127180000 +0000" channel="TyCSports.cl">
     <title>🔴 Dale al medio</title>
@@ -166629,11 +166698,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0311_fallback.jpg" />
   </programme>
-  <programme start="20261127180000 +0000" stop="20261127220000 +0000" channel="TNTSportsPremium.cl">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
-  </programme>
   <programme start="20261127180000 +0000" stop="20261127200000 +0000" channel="TyCSports.cl">
     <title>🔴 Líbero</title>
     <desc>En vivo ║ Ponemos la lupa en los detalles del planeta redondo para brindar el análisis más completo de lo que pasa en el fútbol argentino. Además, entrevistas a las figuras, informes originales, Líbero versus y la Rockola del Nacional.</desc>
@@ -169648,6 +169712,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lacasademickeymouse.jpg" />
   </programme>
+  <programme start="20261127200000 +0000" stop="20261128000000 +0000" channel="TNTSportsPremium.cl">
+    <title>TNT Sports Premium Chile</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
+  </programme>
   <programme start="20261127200000 +0000" stop="20261127210000 +0000" channel="TNTSports.cl">
     <title>🔴 #NoEsParaTanto</title>
     <desc>En vivo ║ Un espacio en el que se habla de fútbol y de otras cosas también. Información, móviles en la calle, risas y mucho más.</desc>
@@ -171851,8 +171920,21 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   </programme>
   <programme start="20261127213000 +0000" stop="20261127232500 +0000" channel="HBOPop.cl">
     <title>Violent Night</title>
-    <desc>Un grupo de mercenarios de élite irrumpe en la casa de una familia rica en la noche de Navidad. Lo que no esperaban encontrar era al enemigo más improbable, sin embargo violento, posible: Santa Claus.</desc>
+    <desc>Cuando un equipo de mercenarios irrumpe en Nochebuena dentro de un complejo familiar adinerado y toma como rehenes a todos los que están dentro, no estaban preparados para un defensor sorpresa: Santa Claus (David Harbour) está en el edificio y a punto de demostrar por qué este Santa Claus, no es ningún santo.</desc>
+    <credits>
+      <director>Tommy Wirkola</director>
+      <actor>David Harbour</actor>
+      <actor>John Leguizamo</actor>
+      <actor>Beverly D'Angelo</actor>
+      <actor>Alex Hassell</actor>
+      <actor>Alexis Louder</actor>
+      <actor>Edi Patterson</actor>
+      <actor>Cam Gigandet</actor>
+      <actor>Leah Brady</actor>
+    </credits>
+    <date>2022</date>
     <category>Holiday</category>
+    <country>Canadá</country>
     <rating>
       <value>R</value>
     </rating>
@@ -172504,11 +172586,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <country>EE. UU</country>
     <episode-num system="onscreen">S4E47</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elcampamentodelazlo.jpg" />
-  </programme>
-  <programme start="20261127220000 +0000" stop="20261128020000 +0000" channel="TNTSportsPremium.cl">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
   <programme start="20261127220000 +0000" stop="20261128000000 +0000" channel="TyCSports.cl">
     <title>🔴 Presión alta</title>
@@ -175512,6 +175589,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0311_fallback.jpg" />
   </programme>
+  <programme start="20261128000000 +0000" stop="20261128040000 +0000" channel="TNTSportsPremium.cl">
+    <title>TNT Sports Premium Chile</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
+  </programme>
   <programme start="20261128000000 +0000" stop="20261128020000 +0000" channel="TyCSports.cl">
     <title>🔴 La noche de TyC Sports</title>
     <desc>En vivo ║ Pablo Lamédica conduce el programa que baja el telón de la jornada con el análisis y el post de los partidos nocturnos del fútbol argentino y las copas internacionales.</desc>
@@ -178134,6 +178216,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <sub-title>¡Bam</sub-title>
     <desc>¡Bam | Un grupo de marineros acosa al Capitán Nudillos en el Barril de Caramelos, y Flapjack intenta convencerlo de que no es un debilucho.</desc>
     <credits>
+      <director>Thurop Van Orman</director>
       <actor>Mark K Van Orman</actor>
       <actor>Thurop Van Orman</actor>
       <actor>Roz Ryan</actor>
@@ -178150,7 +178233,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Infantil</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E26</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0308_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/themarvelousmisadventuresofflapjack.jpg" />
   </programme>
   <programme start="20261128020000 +0000" stop="20261128023000 +0000" channel="DisneyJunior.cl">
     <title>Puppy Dog Pals • El cinto azul de Bob / El asalto a la guardería</title>
@@ -178174,12 +178257,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <rating>
       <value>A</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0311_fallback.jpg" />
-  </programme>
-  <programme start="20261128020000 +0000" stop="20261128060000 +0000" channel="TNTSportsPremium.cl">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/puppydogpals.jpg" />
   </programme>
   <programme start="20261128020000 +0000" stop="20261128040000 +0000" channel="TyCSports.cl">
     <title>🔴 Sportia</title>
@@ -178554,6 +178632,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <sub-title>¿Qué se lo está comiendo, capitán</sub-title>
     <desc>¿Qué se lo está comiendo, capitán | Las termitas plagan al Capitán Nudillos.</desc>
     <credits>
+      <director>Thurop Van Orman</director>
       <actor>Mark K Van Orman</actor>
       <actor>Thurop Van Orman</actor>
       <actor>Roz Ryan</actor>
@@ -178570,7 +178649,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Infantil</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E31</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0308_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/themarvelousmisadventuresofflapjack.jpg" />
   </programme>
   <programme start="20261128021000 +0000" stop="20261128032000 +0000" channel="ESPN5.cl">
     <title>Práctica - Fórmula 1 • Gran Premio de Catar, Práctica 2, Circuito Internacional de Losail</title>
@@ -178744,6 +178823,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <sub-title>Con deseos nada buenos</sub-title>
     <desc>Con deseos nada buenos | Se cumple el deseo del Capitán Nudillos: todos en Bahía Tormentosa desaparecen, pero pronto se arrepiente de su propio deseo.</desc>
     <credits>
+      <director>Thurop Van Orman</director>
       <actor>Mark K Van Orman</actor>
       <actor>Thurop Van Orman</actor>
       <actor>Roz Ryan</actor>
@@ -178760,7 +178840,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Infantil</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E37</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0308_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/themarvelousmisadventuresofflapjack.jpg" />
   </programme>
   <programme start="20261128022000 +0000" stop="20261128031000 +0000" channel="UniversalTV.cl">
     <title>La ley y el orden: Unidad de Víctimas Especiales • Las disecciones del diablo</title>
@@ -180081,6 +180161,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0323_fallback.jpg" />
   </programme>
+  <programme start="20261128040000 +0000" stop="20261128080000 +0000" channel="TNTSportsPremium.cl">
+    <title>TNT Sports Premium Chile</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
+  </programme>
   <programme start="20261128040000 +0000" stop="20261128080000 +0000" channel="TyCSports.cl">
     <title>TyC Sports</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
@@ -181038,11 +181123,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pecadores.jpg" />
   </programme>
-  <programme start="20261128060000 +0000" stop="20261128100000 +0000" channel="TNTSportsPremium.cl">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
-  </programme>
   <programme start="20261128060000 +0000" stop="20261128070000 +0000" channel="PASIONES.uy">
     <title>Bahar</title>
     <desc>Bahar, una joven de la opulenta sociedad estambulí, y Demir, un brillante abogado de origen humilde, lucharán por su amor mientras sortean diversos obstáculos.</desc>
@@ -181844,6 +181924,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <title>Discovery Kids</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0323_fallback.jpg" />
+  </programme>
+  <programme start="20261128080000 +0000" stop="20261128120000 +0000" channel="TNTSportsPremium.cl">
+    <title>TNT Sports Premium Chile</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
   <programme start="20261128080000 +0000" stop="20261128120000 +0000" channel="TNTSports.cl">
     <title>TNT Sports</title>
@@ -182723,11 +182808,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0810_fallback.jpg" />
   </programme>
-  <programme start="20261128100000 +0000" stop="20261128140000 +0000" channel="TNTSportsPremium.cl">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
-  </programme>
   <programme start="20261128100000 +0000" stop="20261128110000 +0000" channel="PASIONES.uy">
     <title>Tres hermanas</title>
     <desc>Una historia de lazos fraternales. Un grupo de jóvenes pasan a la adultez mediante un camino lleno de problemas y situaciones que las hacen crecer.</desc>
@@ -183567,6 +183647,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0323_fallback.jpg" />
   </programme>
+  <programme start="20261128120000 +0000" stop="20261128160000 +0000" channel="TNTSportsPremium.cl">
+    <title>TNT Sports Premium Chile</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
+  </programme>
   <programme start="20261128120000 +0000" stop="20261128160000 +0000" channel="TNTSports.cl">
     <title>TNT Sports</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
@@ -184245,11 +184330,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deersquad.jpg" />
-  </programme>
-  <programme start="20261128140000 +0000" stop="20261128180000 +0000" channel="TNTSportsPremium.cl">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
   <programme start="20261128140000 +0000" stop="20261128180000 +0000" channel="TNT.cl">
     <title>TNT</title>
@@ -185085,6 +185165,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0323_fallback.jpg" />
   </programme>
+  <programme start="20261128160000 +0000" stop="20261128200000 +0000" channel="TNTSportsPremium.cl">
+    <title>TNT Sports Premium Chile</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
+  </programme>
   <programme start="20261128160000 +0000" stop="20261128200000 +0000" channel="TNTSports.cl">
     <title>TNT Sports</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
@@ -185851,11 +185936,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
-  </programme>
-  <programme start="20261128180000 +0000" stop="20261128220000 +0000" channel="TNTSportsPremium.cl">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
   <programme start="20261128180000 +0000" stop="20261128210000 +0000" channel="ESPN6.cl">
     <title>Fútbol Americano NFL • Kansas City Chiefs vs Buffalo Bills</title>
@@ -186626,6 +186706,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <title>Discovery Kids</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0323_fallback.jpg" />
+  </programme>
+  <programme start="20261128200000 +0000" stop="20261129000000 +0000" channel="TNTSportsPremium.cl">
+    <title>TNT Sports Premium Chile</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
   <programme start="20261128200000 +0000" stop="20261129000000 +0000" channel="TNTSports.cl">
     <title>TNT Sports</title>
@@ -187444,11 +187529,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/larazondeestarcontigo.jpg" />
   </programme>
-  <programme start="20261128220000 +0000" stop="20261129020000 +0000" channel="TNTSportsPremium.cl">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
-  </programme>
   <programme start="20261128220000 +0000" stop="20261128223000 +0000" channel="EnlaceTBN.cl">
     <title>En los pasos del maestro</title>
     <desc>Ray Comfort y su equipo abordan algunas de las preguntas más difíciles sobre Dios, la Biblia y temas candentes que tanto los escépticos como los creyentes enfrentan, de una manera profunda y a menudo humorística.</desc>
@@ -188210,6 +188290,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <title>Discovery Kids</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0323_fallback.jpg" />
+  </programme>
+  <programme start="20261129000000 +0000" stop="20261129040000 +0000" channel="TNTSportsPremium.cl">
+    <title>TNT Sports Premium Chile</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
   <programme start="20261129000000 +0000" stop="20261129040000 +0000" channel="TNTSports.cl">
     <title>TNT Sports</title>
@@ -189094,11 +189179,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <country>Argentina</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/homoargentum.jpg" />
   </programme>
-  <programme start="20261129020000 +0000" stop="20261129060000 +0000" channel="TNTSportsPremium.cl">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
-  </programme>
   <programme start="20261129020000 +0000" stop="20261129023000 +0000" channel="EnlaceTBN.cl">
     <title>Vida real con Jack Hibbs</title>
     <desc>El deseo de conocer la vida real por medio de Jesucristo.</desc>
@@ -189944,6 +190024,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0323_fallback.jpg" />
   </programme>
+  <programme start="20261129040000 +0000" stop="20261129080000 +0000" channel="TNTSportsPremium.cl">
+    <title>TNT Sports Premium Chile</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
+  </programme>
   <programme start="20261129040000 +0000" stop="20261129080000 +0000" channel="TNTSports.cl">
     <title>TNT Sports</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
@@ -190651,11 +190736,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <date>2015</date>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0801_fallback.jpg" />
   </programme>
-  <programme start="20261129060000 +0000" stop="20261129100000 +0000" channel="TNTSportsPremium.cl">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
-  </programme>
   <programme start="20261129060000 +0000" stop="20261129110000 +0000" channel="PASIONES.uy">
     <title>Bahar</title>
     <desc>Bahar, una joven de la opulenta sociedad estambulí, y Demir, un brillante abogado de origen humilde, lucharán por su amor mientras sortean diversos obstáculos.</desc>
@@ -191354,6 +191434,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <title>Discovery Kids</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0323_fallback.jpg" />
+  </programme>
+  <programme start="20261129080000 +0000" stop="20261129120000 +0000" channel="TNTSportsPremium.cl">
+    <title>TNT Sports Premium Chile</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
   <programme start="20261129080000 +0000" stop="20261129120000 +0000" channel="TNTSports.cl">
     <title>TNT Sports</title>
@@ -192147,11 +192232,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elpesodeltalento.jpg" />
   </programme>
-  <programme start="20261129100000 +0000" stop="20261129140000 +0000" channel="TNTSportsPremium.cl">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
-  </programme>
   <programme start="20261129100000 +0000" stop="20261129103000 +0000" channel="EnlaceTBN.cl">
     <title>Cartas abiertas</title>
     <desc>Un espacio en el que se transmiten especiales de distintos países del continente americano.</desc>
@@ -192737,6 +192817,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <title>Discovery Kids</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0323_fallback.jpg" />
+  </programme>
+  <programme start="20261129120000 +0000" stop="20261129160000 +0000" channel="TNTSportsPremium.cl">
+    <title>TNT Sports Premium Chile</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
   <programme start="20261129120000 +0000" stop="20261129160000 +0000" channel="TNTSports.cl">
     <title>TNT Sports</title>
@@ -193612,11 +193697,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deersquad.jpg" />
   </programme>
-  <programme start="20261129140000 +0000" stop="20261129180000 +0000" channel="TNTSportsPremium.cl">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
-  </programme>
   <programme start="20261129140000 +0000" stop="20261129143000 +0000" channel="EnlaceTBN.cl">
     <title>Es sobrenatural</title>
     <desc>El reportero judío ha pasado más de 35 años investigando la cualidad sobrenatural de Dios y ahora busca guiar al pueblo hacia una relación íntima con Dios y el camino de los milagros.</desc>
@@ -194430,6 +194510,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0323_fallback.jpg" />
   </programme>
+  <programme start="20261129160000 +0000" stop="20261129200000 +0000" channel="TNTSportsPremium.cl">
+    <title>TNT Sports Premium Chile</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
+  </programme>
   <programme start="20261129160000 +0000" stop="20261129200000 +0000" channel="TNTSports.cl">
     <title>TNT Sports</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
@@ -194535,7 +194620,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   </programme>
   <programme start="20261129160600 +0000" stop="20261129175800 +0000" channel="HBO2.cl">
     <title>Sí señor</title>
-    <desc>Carl Allen es un hombre que muestra una tendencia enfermiza a decir siempre no, hasta que se inscribe en un programa de autoayuda basado en una única condición: decir "sí" a todo. Su vida empieza a transformarse de forma sorprendente e inesperada.</desc>
+    <desc>Carl se inscribió un programa de autoayuda cuyo principio básico consiste en decir "sí" a todo, sea lo que sea. Aunque puede implicar ciertos riesgos.</desc>
     <credits>
       <director>Peyton Reed</director>
       <actor>Jim Carrey</actor>
@@ -194571,10 +194656,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <date>2008</date>
     <category>Movie</category>
     <category>Comedy</category>
+    <country>Reino Unido</country>
     <rating>
       <value>B</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0814_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sisenor.jpg" />
   </programme>
   <programme start="20261129161000 +0000" stop="20261129170000 +0000" channel="UniversalTV.cl">
     <title>La ley y el orden: Unidad de Víctimas Especiales • Inmunidad</title>
@@ -195301,11 +195387,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/barbie.jpg" />
-  </programme>
-  <programme start="20261129180000 +0000" stop="20261129220000 +0000" channel="TNTSportsPremium.cl">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
   <programme start="20261129180000 +0000" stop="20261129183000 +0000" channel="EnlaceTBN.cl">
     <title>Disruptivas</title>
@@ -196150,6 +196231,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0323_fallback.jpg" />
   </programme>
+  <programme start="20261129200000 +0000" stop="20261130000000 +0000" channel="TNTSportsPremium.cl">
+    <title>TNT Sports Premium Chile</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
+  </programme>
   <programme start="20261129200000 +0000" stop="20261130000000 +0000" channel="TNTSports.cl">
     <title>TNT Sports</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
@@ -196856,11 +196942,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elgrinch.jpg" />
   </programme>
-  <programme start="20261129220000 +0000" stop="20261130020000 +0000" channel="TNTSportsPremium.cl">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
-  </programme>
   <programme start="20261129220000 +0000" stop="20261129223000 +0000" channel="EnlaceTBN.cl">
     <title>Iglesia Lakewood</title>
     <desc>La Iglesia Lakewood es la congregación cristiana más grande de los Estados Unidos, localizada en Houston, Texas; su misión es extender por todo el mundo la palabra de Dios a través de la Biblia, la Santísima Trinidad y la pasión de Cristo.</desc>
@@ -196910,7 +196991,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   </programme>
   <programme start="20261129220000 +0000" stop="20261129235800 +0000" channel="FX.cl">
     <title>Plan de vuelo</title>
-    <desc>Una viuda pierde el control cuando su hija de seis años desaparece, sin dejar rastro, en un avión de última generación que vuela de Berlín a Nueva York, lo que desata una intensa búsqueda.</desc>
+    <desc>Tras perder a su marido, Kyle decide regresar a casa con su hija de seis años en un avión. Sin embargo, la niña desaparece misteriosamente durante el vuelo. Nadie de la tripulación o del pasaje recuerda haberla visto a bordo.</desc>
     <credits>
       <director>Robert Schwentke</director>
       <actor>Jodie Foster</actor>
@@ -196940,10 +197021,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Thriller</category>
     <category>Mystery</category>
     <category>Drama</category>
+    <country>Estados Unidos</country>
     <rating>
       <value>B</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0811_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/plandevuelo.jpg" />
   </programme>
   <programme start="20261129220000 +0000" stop="20261130020000 +0000" channel="HBOPop.cl">
     <title>HBO Pop</title>
@@ -197747,6 +197829,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0323_fallback.jpg" />
   </programme>
+  <programme start="20261130000000 +0000" stop="20261130025959 +0000" channel="TNTSportsPremium.cl">
+    <title>TNT Sports Premium Chile</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
+  </programme>
   <programme start="20261130000000 +0000" stop="20261130025959 +0000" channel="TNTSports.cl">
     <title>TNT Sports</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
@@ -197877,7 +197964,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   </programme>
   <programme start="20261130002800 +0000" stop="20261130030000 +0000" channel="HBO2.cl">
     <title>Spider-Man: Un nuevo día</title>
-    <desc>Peter combate el crimen como Spider-Man en un mundo que ya no lo recuerda y en el cual experimenta profundos cambios que quizá no pueda controlar. Pronto los súbitos cambios se convierten en lo único capaz de detener una nueva amenaza que no puede verse.</desc>
+    <desc>A medida qué Spider-Man está en la cima de su carrera protegiendo la ciudad de Nueva York, una serie de crímenes inusuales lo arrastran a una red de misterios más grande de lo que jamás haya enfrentado.</desc>
     <credits>
       <director>Destin Daniel Cretton</director>
       <actor>Tom Holland</actor>
@@ -197907,10 +197994,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Action</category>
     <category>Adventure</category>
     <category>Fantasy</category>
+    <country>Estados Unidos</country>
     <rating>
       <value>PG-13</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0814_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spidermanunnuevodia.jpg" />
   </programme>
   <programme start="20261130003000 +0000" stop="20261130005000 +0000" channel="NickJr.bo">
     <title>PAW Patrol: Patrulla de cachorros • Los cachorros salvan un dino documental; Los cachorros salvan a un gruño-saurio</title>
@@ -198211,10 +198299,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Movie</category>
     <category>Action</category>
     <category>Comedy</category>
+    <country>Bulgaria</country>
     <rating>
       <value>B15</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0836_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/durodecuidar2.jpg" />
   </programme>
   <programme start="20261130010000 +0000" stop="20261130024000 +0000" channel="UniversalCinema.cl">
     <title>🔴 Las Brujas</title>
@@ -198524,11 +198613,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/csimiami.jpg" />
   </programme>
-  <programme start="20261130020000 +0000" stop="20261130025959 +0000" channel="TNTSportsPremium.cl">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
-  </programme>
   <programme start="20261130020000 +0000" stop="20261130070000 +0000" channel="PASIONES.uy">
     <title>Corona de lágrimas</title>
     <desc>Una mujer sola inicia una nueva vida junto a sus tres hijos.</desc>
@@ -198769,7 +198853,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   </programme>
   <programme start="20261130024000 +0000" stop="20261130042500 +0000" channel="UniversalCinema.cl">
     <title>Paddington 2</title>
-    <desc>Después de haber sido adoptado por la familia Brown, Paddington se ha convertido en una celebridad en Windsor Gardens. Con motivo del centésimo cumpleaños de su amada tía Lucy, acepta una serie de trabajos para ahorrar dinero y comprarle un libro. Sin embargo, cuando se entera de que alguien ha robado el libro de la tienda de antigüedades en la que se encontraba, se embarca en una aventura para recuperarlo a tiempo.</desc>
+    <desc>Paddington, ahora felizmente establecido con los Brown, realiza una serie de trabajos ocasionales para comprar el regalo perfecto para su tía Lucy, pero se lo roban.</desc>
     <credits>
       <director>Paul King</director>
       <actor>Ben Whishaw</actor>
@@ -198811,6 +198895,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedy</category>
     <category>Adventure</category>
     <category>Animated</category>
+    <country>Francia</country>
     <rating>
       <value>A</value>
     </rating>
@@ -199868,10 +199953,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/vickycristinabarcelona.jpg" />
   </programme>
-  <programme start="20261130060400 +0000" stop="20261130120400 +0000" channel="StarChannel.cl">
-    <title>NA</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0801_fallback.jpg" />
+  <programme start="20261130060400 +0000" stop="20261130080900 +0000" channel="StarChannel.cl">
+    <title>Boda sangrienta</title>
+    <desc>Todd es un joven locamente enamorado de Cammie, y pretende pedirle matrimonio en un romántico fin de semana en la cabaña rural de su familia. Pero todo el plan se tuerce cuando de pronto aparece el holgazán del hermano de Cammie y tienen un accidente con un hacha.</desc>
+    <credits>
+      <director>Matt Bettinelli-olpin Tyler Gillett</director>
+      <director>Matt Bettinelli-olpintyler Gillett</director>
+    </credits>
+    <date>2019</date>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/bodasangrienta.jpg" />
   </programme>
   <programme start="20261130060500 +0000" stop="20261130080000 +0000" channel="UniversalCinema.cl">
     <title>La familia Mitchell vs las máquinas</title>
@@ -200585,6 +200675,32 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ncishawaii.jpg" />
   </programme>
+  <programme start="20261130080900 +0000" stop="20261130100200 +0000" channel="StarChannel.cl">
+    <title>60 segundos</title>
+    <desc>Hace ya tiempo que Randall Raines ha dejado su pasado delictivo. Pero recibe la desagradable visita de un viejo compañero y, para salvar a su hermano, se ve obligado a hacer lo que mejor hace: robar coches en sesenta segundos.</desc>
+    <credits>
+      <director>Dominic Sena</director>
+      <actor>Robert Duvall</actor>
+      <actor>Giovanni Ribisi</actor>
+      <actor>Will Patton</actor>
+      <actor>James Duval</actor>
+      <actor>Delroy Lindo</actor>
+      <actor>Grace Zabriskie</actor>
+      <actor>Chi McBride</actor>
+      <actor>TJ Cross</actor>
+      <actor>Timothy Olyphant</actor>
+      <actor>Christopher Eccleston</actor>
+      <actor>Vinnie Jones</actor>
+      <actor>Nicolas Cage</actor>
+      <actor>Angelina Jolie</actor>
+      <actor>William Lee Scott</actor>
+      <actor>Scott Caan</actor>
+    </credits>
+    <date>2000</date>
+    <category>Acción</category>
+    <country>EE. UU</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/60segundos.jpg" />
+  </programme>
   <programme start="20261130081000 +0000" stop="20261130083500 +0000" channel="NickJr.bo">
     <title>Pistas de Blue y tú • El fantasma de la sala de estar</title>
     <sub-title>El fantasma de la sala de estar</sub-title>
@@ -200902,7 +201018,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   </programme>
   <programme start="20261130090800 +0000" stop="20261130105700 +0000" channel="Golden.cl">
     <title>Philomena</title>
-    <desc>El periodista Martin Sixsmith ayuda a Philomena Lee a buscar a su hijo extraviado, quien le fue robado por unas monjas en un convento irlandés y vendido en adopción cuando ella era una adolescente y aún no se casaba.</desc>
+    <desc>Una bondadosa mujer irlandesa y un mordaz periodista se disponen a buscar al hijo que la obligaron a dar en adopción hace 50 años en un internado de monjas.</desc>
     <credits>
       <director>Stephen Frears</director>
       <actor>Judi Dench</actor>
@@ -200931,10 +201047,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Drama</category>
     <category>Comedy</category>
     <category>Biography</category>
+    <country>Reino Unido</country>
     <rating>
       <value>B</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0821_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/philomena.jpg" />
   </programme>
   <programme start="20261130092000 +0000" stop="20261130094000 +0000" channel="NickJr.bo">
     <title>Santiago de los mares • La maldición del Halcón Dorado; La isla de las Cosas Perdidas</title>
@@ -201185,6 +201302,27 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ncishawaii.jpg" />
+  </programme>
+  <programme start="20261130100200 +0000" stop="20261130113600 +0000" channel="StarChannel.cl">
+    <title>Al Mejor Postor</title>
+    <desc>Virgil Oldman, un hombre solitario y excéntrico, es un experto en arte y un agente de subastas muy apreciado. Su vida transcurre al margen de cualquier sentimiento o emoción hasta que conoce a una hermosa y misteriosa joven (Sylvia Hoeks) que le encarga tasar y vender las obras de arte heredadas de sus padres. Esta joven, que sufre una extraña enfermedad psicológica que la mantiene aislada del mundo, transformará para siempre la vida de Virgil.</desc>
+    <credits>
+      <director>Ken Kushner</director>
+      <actor>Geoffrey Rush</actor>
+      <actor>Jim Sturgess</actor>
+      <actor>Sylvia Hoeks</actor>
+      <actor>Donald Sutherland</actor>
+      <actor>Maximilian Dirr</actor>
+      <actor>Philip Jackson</actor>
+      <actor>Dermot Crowley</actor>
+      <actor>Liya Kebede</actor>
+    </credits>
+    <date>2019</date>
+    <category>Drama</category>
+    <category>Romance</category>
+    <category>Crimen</category>
+    <country>Italia</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/almejorpostor.jpg" />
   </programme>
   <programme start="20261130100500 +0000" stop="20261130102500 +0000" channel="NickJr.bo">
     <title>Pistas de Blue y tú • El fantasma de la sala de estar</title>
@@ -201683,6 +201821,33 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/timrexenelespacio.jpg" />
   </programme>
+  <programme start="20261130113600 +0000" stop="20261130151500 +0000" channel="StarChannel.cl">
+    <title>Scrubs</title>
+    <desc>Sigue la frenética rutina de los médicos residentes en un hospital poblado de pacientes e imprevisibles empleados, donde el humor y la tragedia se crean y entrelazan a cada momento.</desc>
+    <credits>
+      <director>Bill Lawrence</director>
+      <actor>Donald Faison</actor>
+      <actor>Ken Jenkins</actor>
+      <actor>Sarah Chalke</actor>
+      <actor>Judy Reyes</actor>
+      <actor>Robert Maschio</actor>
+      <actor>Sam Lloyd</actor>
+      <actor>Aloma Wright</actor>
+      <actor>Christa Miller</actor>
+      <actor>Johnny Kastl</actor>
+      <actor>Travis Schuldt</actor>
+      <actor>Eliza Coupe</actor>
+      <actor>Charles Rahi Chun</actor>
+      <actor>Adam Bernstein</actor>
+      <actor>John C McGinley</actor>
+      <actor>Neil Flynn</actor>
+      <actor>Zach Braff</actor>
+    </credits>
+    <date>2001</date>
+    <category>Comedia</category>
+    <country>EE. UU</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/scrubs.jpg" />
+  </programme>
   <programme start="20261130120000 +0000" stop="20261130130000 +0000" channel="PASIONES.uy">
     <title>Corona de lágrimas</title>
     <desc>Una mujer sola inicia una nueva vida junto a sus tres hijos.</desc>
@@ -201881,11 +202046,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>B15</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lacarretera.jpg" />
-  </programme>
-  <programme start="20261130120400 +0000" stop="20261130180400 +0000" channel="StarChannel.cl">
-    <title>NA</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0801_fallback.jpg" />
   </programme>
   <programme start="20261130123000 +0000" stop="20261130130000 +0000" channel="EnlaceTBN.cl">
     <title>La voz de victoria del creyente</title>
@@ -202450,7 +202610,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   </programme>
   <programme start="20261130140300 +0000" stop="20261130153100 +0000" channel="Cinemax.cl">
     <title>La vida secreta de tus mascotas</title>
-    <desc>La vida secreta de seis mascotas y todo lo que hacen cuando sus dueños salen de la casa, desde mirar la televisión hasta vaciar la heladera, hasta que todo queda al descubierto.</desc>
+    <desc>Ambientada en un apartamento de Manhattan, las mascotas se reúnen tras la marcha de sus dueños para contar humillantes historias sobre ellos y dar y recibir consejos sobre cómo ser más adorables. El líder de ellos es un Fox Terrier que ve amenazada su posición de privilegio por la llegada de un perro mestizo. Su rivalidad les llevará a acabar en las duras calles de Nueva York, donde se encontrarán con un aparentemente adorable conejo que en realidad es el líder de un ejército de mascotas abandonadas que ha jurado vengarse.</desc>
     <credits>
       <director>Chris Renaud</director>
       <actor>Louis C.K.</actor>
@@ -202481,6 +202641,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Children</category>
     <category>Comedy</category>
     <category>Adventure</category>
+    <country>Estados Unidos</country>
     <rating>
       <value>AA</value>
     </rating>
@@ -202891,6 +203052,27 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   </programme>
   <programme channel="ENTDrama.cl" start="20261130150200 +0000" stop="20261130164900 +0000">
     <title lang="es">La Supremacía Bourne</title>
+  </programme>
+  <programme start="20261130151500 +0000" stop="20261130172200 +0000" channel="StarChannel.cl">
+    <title>Reefa: El artista</title>
+    <desc>Israel 'Reefa' Hernandez Jr, un inmigrante colombiano de 18 años que tiene bastante talento artístico, está pasando el verano en Miami con amigos, familia y su nueva chica, Frankie, antes de mudarse a Nueva York con una beca de arte. Pero todo cambia cuando después de hacer un grafiti en una pared, Israel se topa con un policía.</desc>
+    <credits>
+      <director>Jessica Kavana Dornbusch</director>
+      <actor>Cinthya Carmona</actor>
+      <actor>José Zúñiga</actor>
+      <actor>Ricardo Chavira</actor>
+      <actor>George Sear</actor>
+      <actor>Clara McGregor</actor>
+      <actor>Ezana Alem</actor>
+      <actor>Richard Haylor</actor>
+      <actor>Antonella Cassia</actor>
+      <actor>Margarita Rosa De Francisco</actor>
+      <actor>Tyler Dean Flores</actor>
+    </credits>
+    <date>2021</date>
+    <category>Drama</category>
+    <country>EE. UU</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/reefaelartista.jpg" />
   </programme>
   <programme channel="ENTExtreme.cl" start="20261130151900 +0000" stop="20261130172100 +0000">
     <title lang="es">Ronin</title>
@@ -203603,6 +203785,15 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   <programme channel="ENTExtreme.cl" start="20261130172100 +0000" stop="20261130190700 +0000">
     <title lang="es">Titanes del Pacífico: La insurrección</title>
   </programme>
+  <programme start="20261130172200 +0000" stop="20261130193100 +0000" channel="StarChannel.cl">
+    <title>Dime Que No Es Cierto</title>
+    <desc>Dime que no es cierto</desc>
+    <credits>
+      <director>J.b. Rogers</director>
+    </credits>
+    <date>2001</date>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0801_fallback.jpg" />
+  </programme>
   <programme start="20261130172500 +0000" stop="20261130174500 +0000" channel="NickJr.bo">
     <title>Misterios animales • El caso del bandido azul; La estrategia del tejón de la miel</title>
     <sub-title>El caso del bandido azul; La estrategia del tejón de la miel</sub-title>
@@ -203641,7 +203832,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   </programme>
   <programme start="20261130172900 +0000" stop="20261130192700 +0000" channel="FX.cl">
     <title>Plan de vuelo</title>
-    <desc>Una viuda pierde el control cuando su hija de seis años desaparece, sin dejar rastro, en un avión de última generación que vuela de Berlín a Nueva York, lo que desata una intensa búsqueda.</desc>
+    <desc>Tras perder a su marido, Kyle decide regresar a casa con su hija de seis años en un avión. Sin embargo, la niña desaparece misteriosamente durante el vuelo. Nadie de la tripulación o del pasaje recuerda haberla visto a bordo.</desc>
     <credits>
       <director>Robert Schwentke</director>
       <actor>Jodie Foster</actor>
@@ -203671,10 +203862,11 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Thriller</category>
     <category>Mystery</category>
     <category>Drama</category>
+    <country>Estados Unidos</country>
     <rating>
       <value>B</value>
     </rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0811_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/plandevuelo.jpg" />
   </programme>
   <programme start="20261130173000 +0000" stop="20261130180000 +0000" channel="EnlaceTBN.cl">
     <title>Él puede hacerlo de nuevo</title>
@@ -203897,11 +204089,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0814_fallback.jpg" />
-  </programme>
-  <programme start="20261130180400 +0000" stop="20261201000400 +0000" channel="StarChannel.cl">
-    <title>NA</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0801_fallback.jpg" />
   </programme>
   <programme start="20261130181000 +0000" stop="20261130183000 +0000" channel="NickJr.bo">
     <title>Rubble &amp; Crew • El equipo construye una casa flotante; El equipo construye un spa</title>
@@ -204446,6 +204633,26 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chicagopd.jpg" />
+  </programme>
+  <programme start="20261130193100 +0000" stop="20261130214700 +0000" channel="StarChannel.cl">
+    <title>Espiando a los vecinos</title>
+    <desc>Una convencional pareja (Zach Galifianakis &amp;amp; Isla Fisher) de un aburrido barrio residencial se ve envuelta en una trama de espionaje internacional cuando descubren que sus nuevos vecinos (Jon Hamm &amp;amp; Gal Gadot), una pareja de lo más sofisticada, son espías del gobierno</desc>
+    <credits>
+      <director>Greg Mottola</director>
+      <actor>Jon Hamm</actor>
+      <actor>Isla Fisher</actor>
+      <actor>Zach Galifianakis</actor>
+      <actor>Gal Gadot</actor>
+      <actor>Patton Oswalt</actor>
+      <actor>Matt Walsh</actor>
+      <actor>Maribeth Monroe</actor>
+      <actor>Kevin Dunn</actor>
+    </credits>
+    <date>2016</date>
+    <category>Acción</category>
+    <category>Comedia</category>
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/espiandoalosvecinos.jpg" />
   </programme>
   <programme start="20261130194000 +0000" stop="20261130200500 +0000" channel="NickJr.bo">
     <title>Barbapapá: ¡Una gran familia! • Para mamá; Barba-choque</title>
@@ -205001,7 +205208,7 @@ Mientras tanto, Oh Jin Pyo y Seo Eun Joo son una pareja de casados. Ambos son de
   </programme>
   <programme start="20261130212700 +0000" stop="20261130225600 +0000" channel="Cinemax.cl">
     <title>La vida secreta de tus mascotas</title>
-    <desc>La vida secreta de seis mascotas y todo lo que hacen cuando sus dueños salen de la casa, desde mirar la televisión hasta vaciar la heladera, hasta que todo queda al descubierto.</desc>
+    <desc>Ambientada en un apartamento de Manhattan, las mascotas se reúnen tras la marcha de sus dueños para contar humillantes historias sobre ellos y dar y recibir consejos sobre cómo ser más adorables. El líder de ellos es un Fox Terrier que ve amenazada su posición de privilegio por la llegada de un perro mestizo. Su rivalidad les llevará a acabar en las duras calles de Nueva York, donde se encontrarán con un aparentemente adorable conejo que en realidad es el líder de un ejército de mascotas abandonadas que ha jurado vengarse.</desc>
     <credits>
       <director>Chris Renaud</director>
       <actor>Louis C.K.</actor>
@@ -205032,6 +205239,7 @@ Mientras tanto, Oh Jin Pyo y Seo Eun Joo son una pareja de casados. Ambos son de
     <category>Children</category>
     <category>Comedy</category>
     <category>Adventure</category>
+    <country>Estados Unidos</country>
     <rating>
       <value>AA</value>
     </rating>
@@ -205177,6 +205385,15 @@ Mientras tanto, Oh Jin Pyo y Seo Eun Joo son una pareja de casados. Ambos son de
       <value>B15</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/matandocabos.jpg" />
+  </programme>
+  <programme start="20261130214700 +0000" stop="20261201001300 +0000" channel="StarChannel.cl">
+    <title>Yo Soy Simón</title>
+    <desc>Todos merecen una gran historia de amor, pero para Simon Spier, de 17 anos, es mas complicado. Debe decirle a su familia y amigos que es gay y que no conoce la identidad del companero anonimo del que se enamoro en linea.</desc>
+    <credits>
+      <director>Greg Berlanti</director>
+    </credits>
+    <date>2018</date>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0801_fallback.jpg" />
   </programme>
   <programme start="20261130220000 +0000" stop="20261130230000 +0000" channel="PASIONES.uy">
     <title>Bahar</title>
@@ -206044,11 +206261,6 @@ Mientras tanto, Oh Jin Pyo y Seo Eun Joo son una pareja de casados. Ambos son de
     <category>Religious</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquientrenos.jpg" />
   </programme>
-  <programme start="20261201000400 +0000" stop="20261201030400 +0000" channel="StarChannel.cl">
-    <title>NA</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0801_fallback.jpg" />
-  </programme>
   <programme start="20261201001000 +0000" stop="20261201010500 +0000" channel="AXN.cl">
     <title>Criminal Minds • Ashes and Dust</title>
     <sub-title>Ashes and Dust</sub-title>
@@ -206072,6 +206284,16 @@ Mientras tanto, Oh Jin Pyo y Seo Eun Joo son una pareja de casados. Ambos son de
       <value>14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/criminalminds.jpg" />
+  </programme>
+  <programme start="20261201001300 +0000" stop="20261201025600 +0000" channel="StarChannel.cl">
+    <title>Duro De Matar 2</title>
+    <desc>Regresa John McClane y mientras espera a su esposa en el aeropuerto Dulles, debe enfrentarse a un grupo de terroristas que asumio el control aereo sobre Washington para liberar a un ex-dictador.</desc>
+    <credits>
+      <director>John Mctiernan</director>
+      <director>Renny Harlin</director>
+    </credits>
+    <date>1990</date>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/durodematar2.jpg" />
   </programme>
   <programme channel="ENTComedy.cl" start="20261201001700 +0000" stop="20261201023000 +0000">
     <title lang="es">Mickey 17</title>
@@ -206894,5 +207116,47 @@ Mientras tanto, Oh Jin Pyo y Seo Eun Joo son una pareja de casados. Ambos son de
       <value>14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+  </programme>
+  <programme start="20261201025600 +0000" stop="20261201032800 +0000" channel="StarChannel.cl">
+    <title>Los Simpsons • Mypods Y Dinamita</title>
+    <sub-title>Mypods Y Dinamita</sub-title>
+    <desc>Mypods Y Dinamita | Homero empieza a sospechar que el nuevo amigo de Bart, Bashir, es miembro de un complot terrorista que amenaza con destruir el centro comercial de Springfield. Mientras tanto, Lisa adquiere su primer My-Pod, un dispositivo muy similar al I-Pod, aunque las cosas se le iran rapidamente de las manos.</desc>
+    <credits>
+      <director>Michael Polcino</director>
+      <director>Nancy Kruse</director>
+      <actor>Dan Castellaneta</actor>
+      <actor>Julie Kavner</actor>
+      <actor>Nancy Cartwright</actor>
+      <actor>Yeardley Smith</actor>
+      <actor>Hank Azaria</actor>
+      <actor>Harry Shearer</actor>
+    </credits>
+    <date>1989</date>
+    <category>Animación</category>
+    <category>Comedia</category>
+    <country>Estados Unidos</country>
+    <episode-num system="onscreen">T20 E7</episode-num>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lossimpsons.jpg" />
+  </programme>
+  <programme start="20261201032800 +0000" stop="20261201042800 +0000" channel="StarChannel.cl">
+    <title>Los Simpsons • Burns Y Las Abejas</title>
+    <sub-title>Burns Y Las Abejas</sub-title>
+    <desc>Burns Y Las Abejas | Lisa se enfrenta a Burns en defensa de una colonia de abejas.</desc>
+    <credits>
+      <director>Michael Polcino</director>
+      <director>Nancy Kruse</director>
+      <actor>Dan Castellaneta</actor>
+      <actor>Julie Kavner</actor>
+      <actor>Nancy Cartwright</actor>
+      <actor>Yeardley Smith</actor>
+      <actor>Hank Azaria</actor>
+      <actor>Harry Shearer</actor>
+    </credits>
+    <date>1989</date>
+    <category>Animación</category>
+    <category>Comedia</category>
+    <country>Estados Unidos</country>
+    <episode-num system="onscreen">T20 E8</episode-num>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lossimpsons.jpg" />
   </programme>
 </tv>
