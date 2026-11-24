@@ -544,21 +544,6 @@
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261123030000 +0000" stop="20261123131400 +0000">
-    <title lang="es">Duna</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261123030000 +0000" stop="20261123130000 +0000">
-    <title lang="es">La niñera</title>
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261123030000 +0000" stop="20261123145700 +0000">
-    <title lang="es">Star Wars: El ascenso de Skywalker</title>
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261123030000 +0000" stop="20261123130000 +0000">
-    <title lang="es">Batman: El caballero de la noche</title>
-  </programme>
-  <programme channel="ENTExtreme.cl" start="20261123030000 +0000" stop="20261123151900 +0000">
-    <title lang="es">Misión Imposible: Sentencia mortal - Parte 1</title>
-  </programme>
   <programme start="20261123030000 +0000" stop="20261123060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -704,18 +689,6 @@
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mylittleponylapelicula.jpg" />
   </programme>
-  <programme channel="ENTComedy.cl" start="20261123130000 +0000" stop="20261123133000 +0000">
-    <title lang="es">El chapulín colorado</title>
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261123130000 +0000" stop="20261123150200 +0000">
-    <title lang="es">Ahora son 13</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261123131400 +0000" stop="20261123161400 +0000">
-    <title lang="es">¿Conoces a Joe Black?</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261123133000 +0000" stop="20261123140000 +0000">
-    <title lang="es">ALF</title>
-  </programme>
   <programme start="20261123140000 +0000" stop="20261123154000 +0000" channel="UniversalCinema.cl">
     <title>Angry Birds 2: La película</title>
     <desc>Los cerdos y los pájaros tendrán que unir sus fuerzas para hacer frente a Zeta, que ha venido desde su isla helada en busca de un lugar más cómodo para vivir. La vida de Red, Chuck, Bomb y Leonard esta por ponerse patas arriba.</desc>
@@ -770,9 +743,6 @@
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/angrybirds2lapelicula.jpg" />
   </programme>
-  <programme channel="ENTComedy.cl" start="20261123140000 +0000" stop="20261123143000 +0000">
-    <title lang="es">Malcolm</title>
-  </programme>
   <programme start="20261123143000 +0000" stop="20261123164200 +0000" channel="Cinemax.cl">
     <title>Parque Jurásico</title>
     <desc>El multimillonario John Hammond construye un parque temático basado en la clonación de ADN de fósiles de dinosaurios para la creación de ejemplares vivientes. A partir de la muerte accidental de uno de sus trabajadores, contrata a un equipo de científicos para certificar el parque: el paleontólogo Alan Grant, la paleobotánica Ellie Sattler y el matemático Malcolm. Aprovechando la ocasión, Hammond también recibe la visita de sus nietos, Tim y Alex. Una vez comenzada la inspección de las instalaciones, un empleado sabotea los controles en un intento por robar embriones de los reptiles y venderlos a la competencia. De esta manera, con todos los sistemas de seguridad caídos, los científicos y los niños quedan a merced del ataque de las letales criaturas.</desc>
@@ -823,9 +793,6 @@
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/parquejurasico.jpg" />
   </programme>
-  <programme channel="ENTComedy.cl" start="20261123143000 +0000" stop="20261123150000 +0000">
-    <title lang="es">Friends</title>
-  </programme>
   <programme start="20261123143200 +0000" stop="20261123161800 +0000" channel="FX.cl">
     <title>Los viajes de Gulliver</title>
     <desc>Un médico inglés que había desaparecido durante un naufragio es encontrado sano y salvo nueve años después. Cuando regresa a casa empieza a contar historias increíbles en las que habla de mundos y seres imposibles. Algunos lo tachan de loco y tratan de encerrarlo, pero él intenta demostrar que todo lo que cuenta es cierto.</desc>
@@ -868,9 +835,6 @@
       <value>A</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losviajesdegulliver.jpg" />
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261123145700 +0000" stop="20261123165900 +0000">
-    <title lang="es">Rocky II</title>
   </programme>
   <programme start="20261123150000 +0000" stop="20261123170000 +0000" channel="LaRed.cl">
     <title>Al fondo hay sitio</title>
@@ -1213,9 +1177,6 @@
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
   </programme>
-  <programme channel="ENTComedy.cl" start="20261123150000 +0000" stop="20261123153000 +0000">
-    <title lang="es">El chavo</title>
-  </programme>
   <programme start="20261123150000 +0000" stop="20261123180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -1230,9 +1191,6 @@
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261123150200 +0000" stop="20261123164900 +0000">
-    <title lang="es">La Supremacía Bourne</title>
   </programme>
   <programme start="20261123150300 +0000" stop="20261123151800 +0000" channel="CartoonNetwork.cl">
     <title>Los Jóvenes Titanes en acción • Titanes clásicos</title>
@@ -1519,9 +1477,6 @@
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/bluebeetle.jpg" />
   </programme>
-  <programme channel="ENTExtreme.cl" start="20261123151900 +0000" stop="20261123172100 +0000">
-    <title lang="es">Ronin</title>
-  </programme>
   <programme start="20261123152000 +0000" stop="20261123161000 +0000" channel="UniversalTV.cl">
     <title>Chicago Fire • Sacudida en la Segunda Ciudad</title>
     <sub-title>Sacudida en la Segunda Ciudad</sub-title>
@@ -1801,9 +1756,6 @@
     <country>EE. UU</country>
     <episode-num system="onscreen">S7 E5</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/frasier.jpg" />
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261123153000 +0000" stop="20261123160000 +0000">
-    <title lang="es">Los Simpson</title>
   </programme>
   <programme start="20261123153200 +0000" stop="20261123155900 +0000" channel="DisneyChannel.cl">
     <title>Miraculous: Las aventuras de Ladybug • The Chained Titans</title>
@@ -2546,9 +2498,6 @@
     <category>Self improvement</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/esperanzahoy.jpg" />
   </programme>
-  <programme channel="ENTComedy.cl" start="20261123160000 +0000" stop="20261123172800 +0000">
-    <title lang="es">Luca</title>
-  </programme>
   <programme start="20261123160400 +0000" stop="20261123162900 +0000" channel="AE.cl">
     <title>¿Quién da má$? • Manifestando la subasta</title>
     <sub-title>Manifestando la subasta</sub-title>
@@ -2794,9 +2743,6 @@
     <country>EE. UU</country>
     <episode-num system="onscreen">S1 E7</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/scoobydoomisteriossa.jpg" />
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261123161400 +0000" stop="20261123183200 +0000">
-    <title lang="es">Star Wars: Episodio III</title>
   </programme>
   <programme start="20261123161500 +0000" stop="20261123163500 +0000" channel="ComedyCentral.cl">
     <title>The Exes • Amigos sin beneficios</title>
@@ -3635,9 +3581,6 @@
     <episode-num system="onscreen">S5 E10</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elincreiblemundodegumball.jpg" />
   </programme>
-  <programme channel="ENTDrama.cl" start="20261123164900 +0000" stop="20261123185800 +0000">
-    <title lang="es">La intérprete</title>
-  </programme>
   <programme start="20261123165000 +0000" stop="20261123170000 +0000" channel="Nick.cl">
     <title>Spongebob Squarepants • Tontos en el agua</title>
     <sub-title>Tontos en el agua</sub-title>
@@ -3775,9 +3718,6 @@
     <country>México</country>
     <episode-num system="onscreen">E125</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cunadelobos.jpg" />
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261123165900 +0000" stop="20261123190500 +0000">
-    <title lang="es">Thor: Ragnarok</title>
   </programme>
   <programme start="20261123170000 +0000" stop="20261123180000 +0000" channel="LaRed.cl">
     <title>Comisario Rex</title>
@@ -4457,9 +4397,6 @@
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/quiendama.jpg" />
   </programme>
-  <programme channel="ENTExtreme.cl" start="20261123172100 +0000" stop="20261123190700 +0000">
-    <title lang="es">Titanes del Pacífico: La insurrección</title>
-  </programme>
   <programme start="20261123172400 +0000" stop="20261123174800 +0000" channel="DiscoveryWorld.cl">
     <title>Pantano: se vende • Las Bahamas cajunes</title>
     <sub-title>Las Bahamas cajunes</sub-title>
@@ -4647,9 +4584,6 @@
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jorgeelcurioso.jpg" />
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261123172800 +0000" stop="20261123190800 +0000">
-    <title lang="es">Corre, gordo, corre</title>
   </programme>
   <programme start="20261123173000 +0000" stop="20261123175000 +0000" channel="Nick.cl">
     <title>The Thundermans: Undercover • Fiesta y sorpresa</title>
@@ -6363,9 +6297,6 @@
     <episode-num system="onscreen">S3E11</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
-  <programme channel="ENTChannel.cl" start="20261123183200 +0000" stop="20261123200600 +0000">
-    <title lang="es">Angry Birds: La película</title>
-  </programme>
   <programme start="20261123183300 +0000" stop="20261123184400 +0000" channel="CartoonNetwork.cl">
     <title>Los Jóvenes Titanes en acción • El día de la colmena</title>
     <sub-title>El día de la colmena</sub-title>
@@ -6989,9 +6920,6 @@
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/zombieslaseriereanimada.jpg" />
   </programme>
-  <programme channel="ENTDrama.cl" start="20261123185800 +0000" stop="20261123210400 +0000">
-    <title lang="es">Moulin Rouge, amor en rojo</title>
-  </programme>
   <programme start="20261123185900 +0000" stop="20261123192400 +0000" channel="DiscoveryKids.cl">
     <title>Peppa Pig • El diario de Peppa / Juguemos golf / El safari de insectos / Aros / Un día en el parque</title>
     <sub-title>El diario de Peppa / Juguemos golf / El safari de insectos / Aros / Un día en el parque</sub-title>
@@ -7343,9 +7271,6 @@
     <episode-num system="onscreen">S1E8</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/maravillassagradascondennisquaid.jpg" />
   </programme>
-  <programme channel="ENTMovies.cl" start="20261123190500 +0000" stop="20261123203700 +0000">
-    <title lang="es">Hércules</title>
-  </programme>
   <programme start="20261123190600 +0000" stop="20261123191800 +0000" channel="Tooncast.cl">
     <title>Los autos locos • Un futuro incierto en la carrera del desierto</title>
     <sub-title>Un futuro incierto en la carrera del desierto</sub-title>
@@ -7367,12 +7292,6 @@
     <country>EE. UU</country>
     <episode-num system="onscreen">S1</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losautoslocos.jpg" />
-  </programme>
-  <programme channel="ENTExtreme.cl" start="20261123190700 +0000" stop="20261123213600 +0000">
-    <title lang="es">Armageddon</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261123190800 +0000" stop="20261123204500 +0000">
-    <title lang="es">Solo falta el asesino</title>
   </programme>
   <programme start="20261123191000 +0000" stop="20261123195700 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title>100 cocineros • Solo quedan 41 cocineros</title>
@@ -9066,9 +8985,6 @@
     <episode-num system="onscreen">S1 E27</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/thundercats.jpg" />
   </programme>
-  <programme channel="ENTChannel.cl" start="20261123200600 +0000" stop="20261123222700 +0000">
-    <title lang="es">Superman</title>
-  </programme>
   <programme start="20261123200900 +0000" stop="20261123203700 +0000" channel="AE.cl">
     <title>¿Quién da má$? • Kenny: el perseguidor</title>
     <sub-title>Kenny: el perseguidor</sub-title>
@@ -9828,9 +9744,6 @@
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/quiendama.jpg" />
   </programme>
-  <programme channel="ENTMovies.cl" start="20261123203700 +0000" stop="20261123224000 +0000">
-    <title lang="es">Terminator: Génesis</title>
-  </programme>
   <programme start="20261123204000 +0000" stop="20261123210200 +0000" channel="DiscoveryKids.cl">
     <title>Winx Club: Vuelve la magia • En el bosque</title>
     <sub-title>En el bosque</sub-title>
@@ -9984,9 +9897,6 @@
     <country>EE. UU</country>
     <episode-num system="onscreen">S3 E8</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/becker.jpg" />
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261123204500 +0000" stop="20261123222200 +0000">
-    <title lang="es">Grandes héroes</title>
   </programme>
   <programme start="20261123204900 +0000" stop="20261123222400 +0000" channel="HBOXtreme.cl">
     <title>Lucy</title>
@@ -10491,9 +10401,6 @@
       <value>18</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mortalkombat.jpg" />
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261123210400 +0000" stop="20261123225200 +0000">
-    <title lang="es">Cantando bajo la lluvia</title>
   </programme>
   <programme start="20261123210500 +0000" stop="20261123212900 +0000" channel="Tooncast.cl">
     <title>Mansión Foster para amigos imaginarios • Vecino gruñón</title>
@@ -11316,9 +11223,6 @@
       <value>TVPG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0706_fallback.jpg" />
-  </programme>
-  <programme channel="ENTExtreme.cl" start="20261123213600 +0000" stop="20261123234500 +0000">
-    <title lang="es">Maze Runner: Prueba de fuego</title>
   </programme>
   <programme start="20261123213900 +0000" stop="20261123220200 +0000" channel="DiscoveryKids.cl">
     <title>Peppa Pig • Cajas de cartón</title>
@@ -12476,9 +12380,6 @@
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/parquejurasico.jpg" />
   </programme>
-  <programme channel="ENTComedy.cl" start="20261123222200 +0000" stop="20261124001700 +0000">
-    <title lang="es">Locura de verano</title>
-  </programme>
   <programme start="20261123222300 +0000" stop="20261123223500 +0000" channel="CartoonNetwork.cl">
     <title>El maravillosamente extraño mundo de Gumball • La tripa</title>
     <sub-title>La tripa</sub-title>
@@ -12623,9 +12524,6 @@
       <value>B15</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/valentinlamuertedelgallodeoro.jpg" />
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261123222700 +0000" stop="20261124003400 +0000">
-    <title lang="es">Talentos ocultos</title>
   </programme>
   <programme start="20261123222900 +0000" stop="20261123232500 +0000" channel="AE.cl">
     <title>¿Quién da má$? • El increíble señor Calvin</title>
@@ -12973,9 +12871,6 @@
     <episode-num system="onscreen">S1 E2</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0842_fallback.jpg" />
   </programme>
-  <programme channel="ENTMovies.cl" start="20261123224000 +0000" stop="20261124004000 +0000">
-    <title lang="es">El hombre araña</title>
-  </programme>
   <programme start="20261123224500 +0000" stop="20261123234500 +0000" channel="ESPN3.cl">
     <title>Scrum</title>
     <desc>Grabado ║ Repasamos lo mejor del fin de semana ovalado. Invitados en los estudios y toda la información y el análisis de nuestros especialistas.</desc>
@@ -13168,9 +13063,6 @@
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/minibeatpowerrockers.jpg" />
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261123225200 +0000" stop="20261124010000 +0000">
-    <title lang="es">Karate Kid</title>
   </programme>
   <programme start="20261123225600 +0000" stop="20261123230100 +0000" channel="DiscoveryKids.cl">
     <title>Mini Beat Power Rockers • ¿Dónde está Wat</title>
@@ -14786,9 +14678,6 @@
     <episode-num system="onscreen">S4E6</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/theexes.jpg" />
   </programme>
-  <programme channel="ENTExtreme.cl" start="20261123234500 +0000" stop="20261124015100 +0000">
-    <title lang="es">El planeta de los Simios: Confrontación</title>
-  </programme>
   <programme start="20261123234800 +0000" stop="20261124001200 +0000" channel="DiscoveryWorld.cl">
     <title>Fanáticos de los viajes • Marrakech</title>
     <sub-title>Marrakech</sub-title>
@@ -15751,9 +15640,6 @@
     <episode-num system="onscreen">S1E4</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hihipuffyamiyumi.jpg" />
   </programme>
-  <programme channel="ENTComedy.cl" start="20261124001700 +0000" stop="20261124023000 +0000">
-    <title lang="es">Mickey 17</title>
-  </programme>
   <programme start="20261124001800 +0000" stop="20261124003700 +0000" channel="DisneyChannel.cl">
     <title>Coven Academy: El secreto de las brujas • Hechizo del tiempo</title>
     <sub-title>Hechizo del tiempo</sub-title>
@@ -16307,9 +16193,6 @@
     <country>EE. UU</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lluviadehamburguesas2lavenganzadelassobras.jpg" />
   </programme>
-  <programme channel="ENTChannel.cl" start="20261124003400 +0000" stop="20261124023000 +0000">
-    <title lang="es">Dónde estás, hermano?</title>
-  </programme>
   <programme start="20261124003500 +0000" stop="20261124022400 +0000" channel="TNTNovelas.cl">
     <title>El chico de oro</title>
     <desc>Ferit es obligado a casarse con una joven. Pero él, además de ser rico, vive una vida sin restricciones ni obligaciones. ¿La vida matrimonial cambiará sus hábitos? ¿Y cómo será aceptado un hombre así por una esposa de buen corazón.</desc>
@@ -16531,9 +16414,6 @@
       <value>TVPG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/quiendama.jpg" />
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261124004000 +0000" stop="20261124030000 +0000">
-    <title lang="es">El Legado Bourne</title>
   </programme>
   <programme start="20261124004300 +0000" stop="20261124005400 +0000" channel="CartoonNetwork.cl">
     <title>Un show más: Las cintas perdidas • Flor cadáver</title>
@@ -17156,9 +17036,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jasonbourne.jpg" />
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261124010000 +0000" stop="20261124030000 +0000">
-    <title lang="es">Creed III</title>
   </programme>
   <programme start="20261124010100 +0000" stop="20261124015000 +0000" channel="AnimalPlanet.cl">
     <title>Guaridas con estilo • La casa para los gatos</title>
@@ -18453,9 +18330,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <episode-num system="onscreen">S2E21</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0308_fallback.jpg" />
   </programme>
-  <programme channel="ENTExtreme.cl" start="20261124015100 +0000" stop="20261124030000 +0000">
-    <title lang="es">Insomnia</title>
-  </programme>
   <programme start="20261124015500 +0000" stop="20261124024100 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title>Piel en crisis</title>
     <desc>Cuatro dermatólogos de primer nivel tratan diversos tipos de enfermedades en una clínica especializada.</desc>
@@ -19581,12 +19455,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <date>2003</date>
     <category>Religious</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/casadedios.jpg" />
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261124023000 +0000" stop="20261124030000 +0000">
-    <title lang="es">Los Simpson</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261124023000 +0000" stop="20261124030000 +0000">
-    <title lang="es">Smiling Friends</title>
   </programme>
   <programme start="20261124023500 +0000" stop="20261124030000 +0000" channel="Nick.cl">
     <title>Danger Force • Peleas callejeras</title>
@@ -40985,6 +40853,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
   </programme>
+  <programme channel="ENTMovies.cl" start="20261124150100 +0000" stop="20261124171400 +0000">
+    <title lang="es">El Legado Bourne</title>
+  </programme>
   <programme start="20261124150200 +0000" stop="20261124151700 +0000" channel="CartoonNetwork.cl">
     <title>Los Jóvenes Titanes en acción • Locura de anuario</title>
     <sub-title>Locura de anuario</sub-title>
@@ -41110,6 +40981,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Telenovela</category>
     <country>México</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0611_fallback.jpg" />
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261124151500 +0000" stop="20261124171500 +0000">
+    <title lang="es">Insomnia</title>
   </programme>
   <programme start="20261124151600 +0000" stop="20261124152900 +0000" channel="Tooncast.cl">
     <title>Los pequeños Looney Tunes • Stop and Smell up the Flowers</title>
@@ -42290,6 +42164,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <country>México</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/salvandoalsoldadoperez.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261124155800 +0000" stop="20261124173200 +0000">
+    <title lang="es">La casa de muñecas de Gabby: La película</title>
+  </programme>
   <programme start="20261124155900 +0000" stop="20261124162500 +0000" channel="DisneyChannel.cl">
     <title>Liv y Maddie • Rooney recuerdos</title>
     <sub-title>Rooney recuerdos</sub-title>
@@ -42954,6 +42831,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <country>EE. UU</country>
     <episode-num system="onscreen">S1 E17</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/scoobydoomisteriossa.jpg" />
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261124161300 +0000" stop="20261124174700 +0000">
+    <title lang="es">Los Indestructibles 4</title>
   </programme>
   <programme start="20261124161500 +0000" stop="20261124175000 +0000" channel="StudioUniversal.ar">
     <title>Mrs. Miracle y la alegría de la Navidad</title>
@@ -43751,6 +43631,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <episode-num system="onscreen">S2 E6</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elincreiblemundodegumball.jpg" />
   </programme>
+  <programme channel="ENTDrama.cl" start="20261124164800 +0000" stop="20261124184400 +0000">
+    <title lang="es">Creed III</title>
+  </programme>
   <programme start="20261124165000 +0000" stop="20261124170000 +0000" channel="Nick.cl">
     <title>Spongebob Squarepants • El Cacahue-padrino</title>
     <sub-title>El Cacahue-padrino</sub-title>
@@ -44377,6 +44260,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0602_fallback.jpg" />
   </programme>
+  <programme channel="ENTMovies.cl" start="20261124171400 +0000" stop="20261124185500 +0000">
+    <title lang="es">Jack Frost</title>
+  </programme>
   <programme start="20261124171500 +0000" stop="20261124180500 +0000" channel="USANetwork.bo">
     <title>Suits • La decisión</title>
     <sub-title>La decisión</sub-title>
@@ -44411,6 +44297,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E2</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/suits.jpg" />
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261124171500 +0000" stop="20261124194200 +0000">
+    <title lang="es">Eternals</title>
   </programme>
   <programme start="20261124171600 +0000" stop="20261124172700 +0000" channel="CartoonNetwork.cl">
     <title>El mundo de Craig • La solución brillante</title>
@@ -44957,6 +44846,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <episode-num system="onscreen">S2E8</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/wizardsbeyondwaverlyplace.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261124173200 +0000" stop="20261124191000 +0000">
+    <title lang="es">Austin Powers 2: El espía seductor</title>
+  </programme>
   <programme start="20261124173300 +0000" stop="20261124193800 +0000" channel="ESPN3.cl">
     <title>Nacional de Clubes Masculino • Tala vs Newman, Final</title>
     <sub-title>Tala vs. Newman, Final</sub-title>
@@ -45196,6 +45088,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>B15</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chicuarotes.jpg" />
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261124174700 +0000" stop="20261124193400 +0000">
+    <title lang="es">007: Quantum</title>
   </programme>
   <programme start="20261124174800 +0000" stop="20261124181200 +0000" channel="DiscoveryWorld.cl">
     <title>Buying Alaska • Casas pequeñas, montaña grande</title>
@@ -46894,6 +46789,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <episode-num system="onscreen">S1</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losautoslocos.jpg" />
   </programme>
+  <programme channel="ENTDrama.cl" start="20261124184400 +0000" stop="20261124204200 +0000">
+    <title lang="es">Colateral</title>
+  </programme>
   <programme start="20261124184500 +0000" stop="20261124193000 +0000" channel="24Horas.cl">
     <title lang="es">24 Horas a la Hora</title>
   </programme>
@@ -47191,6 +47089,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TVY</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pawpatrolpatrulladecachorros.jpg" />
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261124185500 +0000" stop="20261124210100 +0000">
+    <title lang="es">Sherlock Holmes: El juego de sombras</title>
   </programme>
   <programme start="20261124185700 +0000" stop="20261124192700 +0000" channel="DisneyChannel.cl">
     <title>ZOMBIES: La serie re-animada • Noticias Bree / Canciones espectaculares de karaoke</title>
@@ -47836,6 +47737,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261124191000 +0000" stop="20261124205500 +0000">
+    <title lang="es">Sing: ¡Ven y canta!</title>
+  </programme>
   <programme start="20261124191500 +0000" stop="20261124192500 +0000" channel="Tooncast.cl">
     <title>Los autos locos • Carrera entre madera</title>
     <sub-title>Carrera entre madera</sub-title>
@@ -48436,6 +48340,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ligadelajusticia.jpg" />
   </programme>
+  <programme channel="ENTChannel.cl" start="20261124193400 +0000" stop="20261124213400 +0000">
+    <title lang="es">Capitán América: El primer vengador</title>
+  </programme>
   <programme start="20261124193500 +0000" stop="20261124195500 +0000" channel="ComedyCentral.cl">
     <title>The Exes • Hermano, aquí estás</title>
     <sub-title>Hermano, aquí estás</sub-title>
@@ -48613,6 +48520,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Fútbol</category>
     <episode-num system="onscreen">S0  20262027</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0418_fallback.jpg" />
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261124194200 +0000" stop="20261124225900 +0000">
+    <title lang="es">El Señor de los Anillos: El retorno del rey</title>
   </programme>
   <programme start="20261124194300 +0000" stop="20261124203900 +0000" channel="AE.cl">
     <title>Asesinos seriales: monstruos ocultos • Parte 5: Poder y control</title>
@@ -50366,6 +50276,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hechizodeamor.jpg" />
   </programme>
+  <programme channel="ENTDrama.cl" start="20261124204200 +0000" stop="20261124223800 +0000">
+    <title lang="es">La Gran Estafa</title>
+  </programme>
   <programme channel="DramasCoreanosTeen.cl" start="20261124204500 +0000" stop="20261124220100 +0000">
     <title>Big</title>
     <episode-num system="onscreen">S01E15</episode-num>
@@ -50635,6 +50548,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <country>EE. UU</country>
     <episode-num system="onscreen">S14E2</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spongebobsquarepants.jpg" />
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261124205500 +0000" stop="20261124223500 +0000">
+    <title lang="es">Toy Story 5</title>
   </programme>
   <programme start="20261124205700 +0000" stop="20261124210900 +0000" channel="CartoonNetwork.cl">
     <title>El mundo de Craig • El misterio de la guardiana del tiempo</title>
@@ -50910,6 +50826,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <country>EE. UU</country>
     <episode-num system="onscreen">S9 E20</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/drasandraleeespecialistaenpiel.jpg" />
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261124210100 +0000" stop="20261124225900 +0000">
+    <title lang="es">Ant-Man and the Wasp: Quantumania</title>
   </programme>
   <programme start="20261124210300 +0000" stop="20261124225800 +0000" channel="Cinecanal.cl">
     <title>La verdad sobre la inteligencia artificial</title>
@@ -51549,6 +51468,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TV14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0808_fallback.jpg" />
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261124213400 +0000" stop="20261124233800 +0000">
+    <title lang="es">Oblivion: El tiempo del olvido</title>
   </programme>
   <programme start="20261124213500 +0000" stop="20261124222500 +0000" channel="History.cl">
     <title>Grandes misterios de la historia con Laurence Fishburne • El asesinato de Sam Giancana</title>
@@ -53300,6 +53222,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <episode-num system="onscreen">S1 E2</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0812_fallback.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261124223500 +0000" stop="20261125002100 +0000">
+    <title lang="es">Sintonía de amor</title>
+  </programme>
   <programme start="20261124223600 +0000" stop="20261124230000 +0000" channel="DiscoveryWorld.cl">
     <title>Tocinolandia • La Zombie-hamburguesa</title>
     <sub-title>La Zombie-hamburguesa</sub-title>
@@ -53365,6 +53290,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <country>EE. UU</country>
     <episode-num system="onscreen">S1E13</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elcampamentodelazlo.jpg" />
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261124223800 +0000" stop="20261125005800 +0000">
+    <title lang="es">Apolo 13</title>
   </programme>
   <programme start="20261124223900 +0000" stop="20261124232900 +0000" channel="Discovery.cl">
     <title>Joyas sobre ruedas: por el mundo • Alemania: Audi RS2</title>
@@ -53771,6 +53699,12 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Drama</category>
     <country>Francia</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/nightshift.jpg" />
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261124225900 +0000" stop="20261125012400 +0000">
+    <title lang="es">Misión Imposible 6: Repercusión</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261124225900 +0000" stop="20261125010400 +0000">
+    <title lang="es">La guerra de las galaxias</title>
   </programme>
   <programme start="20261124230000 +0000" stop="20261125000000 +0000" channel="24Horas.cl">
     <title>No Data</title>
@@ -55008,6 +54942,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <country>EE. UU</country>
     <episode-num system="onscreen">S1E9</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/micompanerodeclaseesunmono.jpg" />
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261124233800 +0000" stop="20261125010200 +0000">
+    <title lang="es">Frankenweenie</title>
   </programme>
   <programme start="20261124234000 +0000" stop="20261125002800 +0000" channel="InvestigationDiscovery.cl">
     <title>911: ¿Llamó el asesino? • Amigo por codicia</title>
@@ -56311,6 +56248,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0701_fallback.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261125002100 +0000" stop="20261125023000 +0000">
+    <title lang="es">Cruella</title>
+  </programme>
   <programme start="20261125002200 +0000" stop="20261125002900 +0000" channel="Tooncast.cl">
     <title>Hi Hi Puffy AmiYumi • Mini Puffs</title>
     <sub-title>Mini Puffs</sub-title>
@@ -57262,6 +57202,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tesorosperdidosdeegipto.jpg" />
   </programme>
+  <programme channel="ENTDrama.cl" start="20261125005800 +0000" stop="20261125030000 +0000">
+    <title lang="es">Una esposa de mentira</title>
+  </programme>
   <programme start="20261125010000 +0000" stop="20261125020000 +0000" channel="24Horas.cl">
     <title>No Data</title>
     <desc>https://iptv-epg.org/help</desc>
@@ -57775,6 +57718,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0707_fallback.jpg" />
   </programme>
+  <programme channel="ENTChannel.cl" start="20261125010200 +0000" stop="20261125023000 +0000">
+    <title lang="es">Lilo y Stitch</title>
+  </programme>
   <programme start="20261125010300 +0000" stop="20261125010600 +0000" channel="Tooncast.cl">
     <title>Sheep en la gran ciudad • I'll Ask the Questions Here Game Show</title>
     <sub-title>I'll Ask the Questions Here Game Show</sub-title>
@@ -57823,6 +57769,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TVPG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0808_fallback.jpg" />
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261125010400 +0000" stop="20261125040000 +0000">
+    <title lang="es">El Código Da Vinci</title>
   </programme>
   <programme start="20261125010500 +0000" stop="20261125012500 +0000" channel="NickJr.bo">
     <title>Santiago de los mares • La maldición del Halcón Dorado; La isla de las Cosas Perdidas</title>
@@ -58410,6 +58359,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elregresodelgrantiburonblanco.jpg" />
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261125012400 +0000" stop="20261125030000 +0000">
+    <title lang="es">Loca Academia de Pilotos 2</title>
   </programme>
   <programme start="20261125012500 +0000" stop="20261125015000 +0000" channel="Nick.cl">
     <title>The Thundermans: Undercover • Delirios de espías</title>
@@ -60215,6 +60167,12 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Religious</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/casadedios.jpg" />
   </programme>
+  <programme channel="ENTChannel.cl" start="20261125023000 +0000" stop="20261125030000 +0000">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125023000 +0000" stop="20261125030000 +0000">
+    <title lang="es">Smiling Friends</title>
+  </programme>
   <programme start="20261125023300 +0000" stop="20261125024600 +0000" channel="CartoonNetwork.cl">
     <title>Summer Memories • El arrogante</title>
     <sub-title>El arrogante</sub-title>
@@ -61238,6 +61196,18 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/27bodas.jpg" />
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261125030000 +0000" stop="20261125131800 +0000">
+    <title lang="es">Fantasmas del pasado</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125030000 +0000" stop="20261125122900 +0000">
+    <title lang="es">Dinosaurios</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261125030000 +0000" stop="20261125130800 +0000">
+    <title lang="es">Mary Poppins</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261125030000 +0000" stop="20261125131600 +0000">
+    <title lang="es">Milagro en la calle 34</title>
   </programme>
   <programme start="20261125030000 +0000" stop="20261125060000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
@@ -62859,6 +62829,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>B15</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0814_fallback.jpg" />
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261125040000 +0000" stop="20261125123600 +0000">
+    <title lang="es">Jurassic World</title>
   </programme>
   <programme start="20261125040100 +0000" stop="20261125042300 +0000" channel="WarnerChannel.cl">
     <title>The Big Bang Theory • La derivación de la concesión de la beca</title>
@@ -77523,6 +77496,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <episode-num system="onscreen">S1E3</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0311_fallback.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261125122900 +0000" stop="20261125130000 +0000">
+    <title lang="es">La niñera</title>
+  </programme>
   <programme start="20261125123000 +0000" stop="20261125124000 +0000" channel="CartoonNetwork.cl">
     <title>We Baby Bears • Hoyo negro</title>
     <sub-title>Hoyo negro</sub-title>
@@ -77806,6 +77782,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>PG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0705_fallback.jpg" />
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261125123600 +0000" stop="20261125150300 +0000">
+    <title lang="es">007: Spectre</title>
   </programme>
   <programme start="20261125123900 +0000" stop="20261125125000 +0000" channel="DiscoveryKids.cl">
     <title>Polly Pocket • Amigos peludos</title>
@@ -78664,6 +78643,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/csimiami.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261125130000 +0000" stop="20261125133000 +0000">
+    <title lang="es">El chapulín colorado</title>
+  </programme>
   <programme start="20261125130100 +0000" stop="20261125132600 +0000" channel="DiscoveryKids.cl">
     <title>Academia Unicornio • El templo oculto</title>
     <sub-title>El templo oculto</sub-title>
@@ -78774,6 +78756,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <country>EE. UU</country>
     <episode-num system="onscreen">S1E21</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sheepenlagranciudad.jpg" />
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261125130800 +0000" stop="20261125150100 +0000">
+    <title lang="es">Thor: Amor y trueno</title>
   </programme>
   <programme start="20261125130900 +0000" stop="20261125131000 +0000" channel="Tooncast.cl">
     <title>Sheep en la gran ciudad</title>
@@ -78962,6 +78947,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <episode-num system="onscreen">S1 E6</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0842_fallback.jpg" />
   </programme>
+  <programme channel="ENTDrama.cl" start="20261125131600 +0000" stop="20261125152000 +0000">
+    <title lang="es">Leyendas de vida</title>
+  </programme>
   <programme start="20261125131800 +0000" stop="20261125140400 +0000" channel="DiscoveryTurbo.cl">
     <title>Misfit Garage • Pelea callejera y un Camaro 70 ½</title>
     <sub-title>Pelea callejera y un Camaro 70 ½</sub-title>
@@ -78972,6 +78960,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TV14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/misfitgarage.jpg" />
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261125131800 +0000" stop="20261125153100 +0000">
+    <title lang="es">Ready Player One: Comienza el juego</title>
   </programme>
   <programme start="20261125131900 +0000" stop="20261125144700 +0000" channel="HBOFamily.cl">
     <title>El Grinch</title>
@@ -79448,6 +79439,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <country>EE. UU</country>
     <episode-num system="onscreen">S7 E8</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/frasier.jpg" />
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125133000 +0000" stop="20261125140000 +0000">
+    <title lang="es">ALF</title>
   </programme>
   <programme start="20261125133500 +0000" stop="20261125134600 +0000" channel="Tooncast.cl">
     <title>Escuadrón del tiempo • Billy, el bebé</title>
@@ -80352,6 +80346,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261125140000 +0000" stop="20261125142800 +0000">
+    <title lang="es">Malcolm</title>
+  </programme>
   <programme start="20261125140400 +0000" stop="20261125145000 +0000" channel="DiscoveryTurbo.cl">
     <title>Máquinas renovadas • Trans Am Bird negro del 77</title>
     <sub-title>Trans Am Bird negro del 77</sub-title>
@@ -80921,6 +80918,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TVPG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/zombieslaseriereanimada.jpg" />
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125142800 +0000" stop="20261125150000 +0000">
+    <title lang="es">Friends</title>
   </programme>
   <programme start="20261125143000 +0000" stop="20261125150000 +0000" channel="CNNChile.cl">
     <title>Agenda motor</title>
@@ -82114,6 +82114,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261125150000 +0000" stop="20261125153000 +0000">
+    <title lang="es">El chavo</title>
+  </programme>
   <programme start="20261125150000 +0000" stop="20261125180000 +0000" channel="T13Noticias.cl">
     <title lang="es">T13 En Vivo: Noticias T13</title>
     <desc lang="es">Actualidad y noticias nacionales e internacionales.</desc>
@@ -82128,6 +82131,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <title lang="es">NTV.cl: Programación General</title>
     <desc lang="es">Transmisión continua.</desc>
     <category lang="es">Variado</category>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261125150100 +0000" stop="20261125163200 +0000">
+    <title lang="es">Monsters, Inc.</title>
   </programme>
   <programme start="20261125150200 +0000" stop="20261125160400 +0000" channel="ESPN2.cl">
     <title>Goles de la Premier League</title>
@@ -82144,6 +82150,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Fútbol</category>
     <episode-num system="onscreen">S0  20262027</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0414_fallback.jpg" />
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261125150300 +0000" stop="20261125164900 +0000">
+    <title lang="es">Thor: Un mundo oscuro</title>
   </programme>
   <programme start="20261125150500 +0000" stop="20261125151600 +0000" channel="Tooncast.cl">
     <title>Los pequeños Looney Tunes • In Bugs We Trust</title>
@@ -82363,6 +82372,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chicagofire.jpg" />
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261125152000 +0000" stop="20261125172400 +0000">
+    <title lang="es">Ágora: La caída del imperio romano</title>
   </programme>
   <programme start="20261125152200 +0000" stop="20261125175300 +0000" channel="WarnerChannel.cl">
     <title>Jack Reacher: Bajo la mira</title>
@@ -82679,6 +82691,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/accidentesuicidiooasesinato.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261125153000 +0000" stop="20261125160000 +0000">
+    <title lang="es">Los Simpson</title>
+  </programme>
   <programme start="20261125153100 +0000" stop="20261125154400 +0000" channel="DiscoveryKids.cl">
     <title>El mundo de Luna • ¡Las plantas pueden hacerlo todo</title>
     <sub-title>¡Las plantas pueden hacerlo todo</sub-title>
@@ -82714,6 +82729,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <date>2000</date>
     <category>Fútbol</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0415_fallback.jpg" />
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261125153100 +0000" stop="20261125172700 +0000">
+    <title lang="es">Locura de verano</title>
   </programme>
   <programme start="20261125153200 +0000" stop="20261125155800 +0000" channel="DisneyChannel.cl">
     <title>Miraculous: Las aventuras de Ladybug • Chrysalis</title>
@@ -83789,6 +83807,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Self improvement</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/esperanzahoy.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261125160000 +0000" stop="20261125172500 +0000">
+    <title lang="es">Frankenweenie</title>
+  </programme>
   <programme start="20261125160400 +0000" stop="20261125170600 +0000" channel="ESPN2.cl">
     <title>Italian Serie A Highlights</title>
     <desc>Grabado ║ El repaso de lo mejor de la fecha de la Serie A TIM, la primera división del calcio italiano.</desc>
@@ -84484,6 +84505,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <episode-num system="onscreen">S1E8</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losmagicampistas.jpg" />
   </programme>
+  <programme channel="ENTMovies.cl" start="20261125163200 +0000" stop="20261125175700 +0000">
+    <title lang="es">Minions: Nace un villano</title>
+  </programme>
   <programme start="20261125163300 +0000" stop="20261125164200 +0000" channel="CartoonNetwork.cl">
     <title>El increíble mundo de Gumball • El jefe</title>
     <sub-title>El jefe</sub-title>
@@ -84942,6 +84966,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/buenasuertecharlie.jpg" />
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261125164900 +0000" stop="20261125185700 +0000">
+    <title lang="es">Pantera Negra</title>
   </programme>
   <programme start="20261125165000 +0000" stop="20261125170000 +0000" channel="Nick.cl">
     <title>Spongebob Squarepants • Ataque de alergia</title>
@@ -85717,6 +85744,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0705_fallback.jpg" />
   </programme>
+  <programme channel="ENTDrama.cl" start="20261125172400 +0000" stop="20261125193100 +0000">
+    <title lang="es">El planeta de los simios: Confrontación</title>
+  </programme>
   <programme start="20261125172500 +0000" stop="20261125174500 +0000" channel="NickJr.bo">
     <title>Misterios animales • El caso del bandido azul; La estrategia del tejón de la miel</title>
     <sub-title>El caso del bandido azul; La estrategia del tejón de la miel</sub-title>
@@ -85826,6 +85856,12 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hercules.jpg" />
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125172500 +0000" stop="20261125190300 +0000">
+    <title lang="es">¡Cuidado: Bebé suelto!</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261125172700 +0000" stop="20261125190100 +0000">
+    <title lang="es">Un jefe en pañales</title>
   </programme>
   <programme start="20261125172800 +0000" stop="20261125175300 +0000" channel="Tooncast.cl">
     <title>Don Gato y su pandilla • La visita de mamá</title>
@@ -86753,6 +86789,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>B15</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0821_fallback.jpg" />
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261125175700 +0000" stop="20261125202800 +0000">
+    <title lang="es">Batman: El caballero de la noche</title>
   </programme>
   <programme start="20261125175800 +0000" stop="20261125193100 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title>Kilos mortales • La historia de Shakyia</title>
@@ -88300,6 +88339,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <episode-num system="onscreen">S1</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losautoslocos.jpg" />
   </programme>
+  <programme channel="ENTExtreme.cl" start="20261125185700 +0000" stop="20261125210100 +0000">
+    <title lang="es">La nueva gran estafa</title>
+  </programme>
   <programme start="20261125185900 +0000" stop="20261125193000 +0000" channel="DisneyChannel.cl">
     <title>ZOMBIES: La serie re-animada • Un mini bar demasiado lejos/ El Ter-men-nator</title>
     <sub-title>Un mini bar demasiado lejos/ El Ter-men-nator</sub-title>
@@ -88675,6 +88717,12 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>12</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alaskahombresprimitivos.jpg" />
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261125190100 +0000" stop="20261125205700 +0000">
+    <title lang="es">Nueve reinas</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125190300 +0000" stop="20261125203300 +0000">
+    <title lang="es">Viaje al centro de la Tierra</title>
   </programme>
   <programme start="20261125190500 +0000" stop="20261125193700 +0000" channel="ESPN3.cl">
     <title>Lo mejor de MotoGP</title>
@@ -89420,6 +89468,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>G</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0601_fallback.jpg" />
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261125193100 +0000" stop="20261125212100 +0000">
+    <title lang="es">El diablo viste a la moda</title>
   </programme>
   <programme start="20261125193200 +0000" stop="20261125200000 +0000" channel="DisneyJunior.cl">
     <title>Disney Jr.'s Ariel: The Little Mermaid • Las pequeñas aletas / El mayor tesoro terrestre</title>
@@ -90799,6 +90850,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/guason.jpg" />
   </programme>
+  <programme channel="ENTMovies.cl" start="20261125202800 +0000" stop="20261125223600 +0000">
+    <title lang="es">Spider-Man: De regreso a casa</title>
+  </programme>
   <programme start="20261125203000 +0000" stop="20261125230000 +0000" channel="Chilevision.cl">
     <title>Plan perfecto</title>
     <desc>Un programa donde la entretención y el espectáculo son protagonistas.</desc>
@@ -91037,6 +91091,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TV14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/csimiami.jpg" />
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125203300 +0000" stop="20261125220900 +0000">
+    <title lang="es">Anaconda</title>
   </programme>
   <programme start="20261125203600 +0000" stop="20261125210000 +0000" channel="DiscoveryWorld.cl">
     <title>Mi casa en la playa • Playa en el patio trasero</title>
@@ -91577,6 +91634,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <episode-num system="onscreen">S1 E2</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0706_fallback.jpg" />
   </programme>
+  <programme channel="ENTChannel.cl" start="20261125205700 +0000" stop="20261125230100 +0000">
+    <title lang="es">Orgullo y prejuicio</title>
+  </programme>
   <programme start="20261125205800 +0000" stop="20261125214400 +0000" channel="DiscoveryTurbo.cl">
     <title>El dúo mecánico • En espera de las vacaciones</title>
     <sub-title>En espera de las vacaciones</sub-title>
@@ -91829,6 +91889,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinforme.jpg" />
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261125210100 +0000" stop="20261125231900 +0000">
+    <title lang="es">El hombre araña 3</title>
   </programme>
   <programme start="20261125210400 +0000" stop="20261125211700 +0000" channel="DiscoveryKids.cl">
     <title>Topo Gigio • La clase de judo</title>
@@ -92204,6 +92267,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <country>Reino Unido</country>
     <episode-num system="onscreen">S8E6</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/peppapig.jpg" />
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261125212100 +0000" stop="20261125233100 +0000">
+    <title lang="es">El embajador del miedo</title>
   </programme>
   <programme start="20261125212400 +0000" stop="20261125214800 +0000" channel="DiscoveryWorld.cl">
     <title>Buying Alaska • Pioneros</title>
@@ -93517,6 +93583,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pawpatrolpatrulladecachorros.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261125220900 +0000" stop="20261125233800 +0000">
+    <title lang="es">Kung Fu Panda 2</title>
+  </programme>
   <programme start="20261125221000 +0000" stop="20261125222000 +0000" channel="CartoonNetwork.cl">
     <title>The Wonderfully Weird World of Gumball • El castigo</title>
     <sub-title>El castigo</sub-title>
@@ -94187,6 +94256,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>B15</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hombreenllamas.jpg" />
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261125223600 +0000" stop="20261126002800 +0000">
+    <title lang="es">Barry Seal: Sólo en América</title>
   </programme>
   <programme start="20261125223900 +0000" stop="20261125225000 +0000" channel="Tooncast.cl">
     <title>El campamento de Lazlo • Las aguas termales</title>
@@ -94969,6 +95041,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <episode-num system="onscreen">S1 E6</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0842_fallback.jpg" />
   </programme>
+  <programme channel="ENTChannel.cl" start="20261125230100 +0000" stop="20261126003800 +0000">
+    <title lang="es">Luna de miel para tres</title>
+  </programme>
   <programme start="20261125230200 +0000" stop="20261125232900 +0000" channel="DisneyChannel.cl">
     <title>Vampirina: Teenage Vampire • Primer viaje de poder</title>
     <sub-title>Primer viaje de poder</sub-title>
@@ -95325,6 +95400,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TV14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0602_fallback.jpg" />
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261125231900 +0000" stop="20261126014500 +0000">
+    <title lang="es">El Origen</title>
   </programme>
   <programme start="20261125232000 +0000" stop="20261125233000 +0000" channel="CartoonNetwork.cl">
     <title>El increíble mundo de Gumball • El exterior</title>
@@ -95896,6 +95974,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/regresoalfuturoii.jpg" />
   </programme>
+  <programme channel="ENTDrama.cl" start="20261125233100 +0000" stop="20261126012700 +0000">
+    <title lang="es">Loco y Estúpido Amor</title>
+  </programme>
   <programme start="20261125233200 +0000" stop="20261126010000 +0000" channel="HBOFamily.cl">
     <title>El Grinch</title>
     <desc>Cuando todos deciden hacer que la fiesta sea más grande, más ruidosa y más brillante, el descontento Grinch trama un plan para hacerse pasar por Santa Claus, robar la Navidad y silenciar la alegría festiva de una vez por todas.</desc>
@@ -95955,6 +96036,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <country>EE. UU</country>
     <episode-num system="onscreen">S1E7</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/micompanerodeclaseesunmono.jpg" />
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125233800 +0000" stop="20261126010700 +0000">
+    <title lang="es">Shrek 4: Para Siempre</title>
   </programme>
   <programme start="20261125234000 +0000" stop="20261126003000 +0000" channel="UniversalTV.cl">
     <title>Chicago Fire • Ruta de escape</title>
@@ -97371,6 +97455,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0323_fallback.jpg" />
   </programme>
+  <programme channel="ENTMovies.cl" start="20261126002800 +0000" stop="20261126030000 +0000">
+    <title lang="es">Eternals</title>
+  </programme>
   <programme start="20261126002900 +0000" stop="20261126003900 +0000" channel="Tooncast.cl">
     <title>Hi Hi Puffy AmiYumi • Seguridad doméstica</title>
     <sub-title>Seguridad doméstica</sub-title>
@@ -97748,6 +97835,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>B15</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/eeniemeanie.jpg" />
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261126003800 +0000" stop="20261126023000 +0000">
+    <title lang="es">El Planeta de los Simios: (R)evolución</title>
   </programme>
   <programme start="20261126003900 +0000" stop="20261126004900 +0000" channel="Tooncast.cl">
     <title>Mike, Lu y Og • Lancelot se pierde</title>
@@ -98777,6 +98867,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/criminalminds.jpg" />
   </programme>
+  <programme channel="ENTComedy.cl" start="20261126010700 +0000" stop="20261126023400 +0000">
+    <title lang="es">31 Minutos: Calurosa Navidad</title>
+  </programme>
   <programme start="20261126011000 +0000" stop="20261126020000 +0000" channel="Mega.cl">
     <title>Prohibida obsesión</title>
     <desc>Narra la historia de Luciano, un arquitecto con su vida personal y profesional resuelta, hasta que una noche se cruza con Bárbara, que hará que la aventura de una noche termine trastornando para siempre sus destinos.</desc>
@@ -99288,6 +99381,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mermaidmagic.jpg" />
   </programme>
+  <programme channel="ENTDrama.cl" start="20261126012700 +0000" stop="20261126030000 +0000">
+    <title lang="es">Rebeldes</title>
+  </programme>
   <programme start="20261126012800 +0000" stop="20261126015700 +0000" channel="DisneyChannel.cl">
     <title>Electric Bloom: La mejor banda del mundo • Cómo (no) hacer un video musical</title>
     <sub-title>Cómo (no) hacer un video musical</sub-title>
@@ -99600,6 +99696,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0307_fallback.jpg" />
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261126014500 +0000" stop="20261126030000 +0000">
+    <title lang="es">X-Men 2</title>
   </programme>
   <programme start="20261126014700 +0000" stop="20261126032100 +0000" channel="DiscoveryHomeAndHealth.cl">
     <title>Kilos mortales • La historia de Abi</title>
@@ -100782,6 +100881,12 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <date>2003</date>
     <category>Religious</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/casadedios.jpg" />
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261126023000 +0000" stop="20261126030000 +0000">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261126023400 +0000" stop="20261126030000 +0000">
+    <title lang="es">Smiling Friends</title>
   </programme>
   <programme start="20261126023500 +0000" stop="20261126030000 +0000" channel="Nick.cl">
     <title>Danger Force • Tío Hambone</title>
@@ -199145,21 +199250,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rapidosyfuriosos5incontrol.jpg" />
   </programme>
-  <programme channel="ENTChannel.cl" start="20261130030000 +0000" stop="20261130131400 +0000">
-    <title lang="es">Duna</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261130030000 +0000" stop="20261130130000 +0000">
-    <title lang="es">La niñera</title>
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261130030000 +0000" stop="20261130145700 +0000">
-    <title lang="es">Star Wars: El ascenso de Skywalker</title>
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261130030000 +0000" stop="20261130130000 +0000">
-    <title lang="es">Batman: El caballero de la noche</title>
-  </programme>
-  <programme channel="ENTExtreme.cl" start="20261130030000 +0000" stop="20261130151900 +0000">
-    <title lang="es">Misión Imposible: Sentencia mortal - Parte 1</title>
-  </programme>
   <programme start="20261130030800 +0000" stop="20261130051500 +0000" channel="HBOFamily.cl">
     <title>Aquaman y el reino perdido</title>
     <desc>Black Manta busca vengarse de Aquaman por la muerte de su padre. Al ejercer el poder del Tridente Negro, se convierte en un enemigo formidable. Para defender la Atlántida, Aquaman forja una alianza con su hermano encarcelado. Deben proteger el reino.</desc>
@@ -202321,12 +202411,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/csimiami.jpg" />
   </programme>
-  <programme channel="ENTComedy.cl" start="20261130130000 +0000" stop="20261130133000 +0000">
-    <title lang="es">El chapulín colorado</title>
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261130130000 +0000" stop="20261130150200 +0000">
-    <title lang="es">Ahora son 13</title>
-  </programme>
   <programme start="20261130131000 +0000" stop="20261130133000 +0000" channel="NickJr.bo">
     <title>Rubble &amp; Crew • ¡El equipo arregla el escenario del show de talentos!; ¡El equipo construye instrumentos!</title>
     <sub-title>¡El equipo arregla el escenario del show de talentos!; ¡El equipo construye instrumentos!</sub-title>
@@ -202391,9 +202475,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/volandoalto.jpg" />
   </programme>
-  <programme channel="ENTChannel.cl" start="20261130131400 +0000" stop="20261130161400 +0000">
-    <title lang="es">¿Conoces a Joe Black?</title>
-  </programme>
   <programme start="20261130133000 +0000" stop="20261130135500 +0000" channel="NickJr.bo">
     <title>PAW Patrol: Patrulla de cachorros • Salvemos a las tortugas; Un enorme bebé</title>
     <sub-title>Salvemos a las tortugas; Un enorme bebé</sub-title>
@@ -202428,9 +202509,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <date>2005</date>
     <category>Religious</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/disfrutandolavidadiaria.jpg" />
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261130133000 +0000" stop="20261130140000 +0000">
-    <title lang="es">ALF</title>
   </programme>
   <programme start="20261130134000 +0000" stop="20261130143000 +0000" channel="UniversalTV.cl">
     <title>Chicago Med • Mamá dijo que habría días así</title>
@@ -202605,9 +202683,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
   </programme>
-  <programme channel="ENTComedy.cl" start="20261130140000 +0000" stop="20261130143000 +0000">
-    <title lang="es">Malcolm</title>
-  </programme>
   <programme start="20261130140300 +0000" stop="20261130153100 +0000" channel="Cinemax.cl">
     <title>La vida secreta de tus mascotas</title>
     <desc>Ambientada en un apartamento de Manhattan, las mascotas se reúnen tras la marcha de sus dueños para contar humillantes historias sobre ellos y dar y recibir consejos sobre cómo ser más adorables. El líder de ellos es un Fox Terrier que ve amenazada su posición de privilegio por la llegada de un perro mestizo. Su rivalidad les llevará a acabar en las duras calles de Nueva York, donde se encontrarán con un aparentemente adorable conejo que en realidad es el líder de un ejército de mascotas abandonadas que ha jurado vengarse.</desc>
@@ -202770,9 +202845,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Action</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/planetaction.jpg" />
   </programme>
-  <programme channel="ENTComedy.cl" start="20261130143000 +0000" stop="20261130150000 +0000">
-    <title lang="es">Friends</title>
-  </programme>
   <programme start="20261130144000 +0000" stop="20261130150000 +0000" channel="NickJr.bo">
     <title>Santiago de los mares • La maldición del Halcón Dorado; La isla de las Cosas Perdidas</title>
     <sub-title>La maldición del Halcón Dorado; La isla de las Cosas Perdidas</sub-title>
@@ -202907,9 +202979,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>B15</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/srysrasmith.jpg" />
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261130145700 +0000" stop="20261130165900 +0000">
-    <title lang="es">Rocky II</title>
   </programme>
   <programme start="20261130150000 +0000" stop="20261130152500 +0000" channel="NickJr.bo">
     <title>Tim Rex en el espacio • La vaquita lunar; El nebulizador; El bicho espacial</title>
@@ -203047,12 +203116,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
   </programme>
-  <programme channel="ENTComedy.cl" start="20261130150000 +0000" stop="20261130153000 +0000">
-    <title lang="es">El chavo</title>
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261130150200 +0000" stop="20261130164900 +0000">
-    <title lang="es">La Supremacía Bourne</title>
-  </programme>
   <programme start="20261130151500 +0000" stop="20261130172200 +0000" channel="StarChannel.cl">
     <title>Reefa: El artista</title>
     <desc>Israel 'Reefa' Hernandez Jr, un inmigrante colombiano de 18 años que tiene bastante talento artístico, está pasando el verano en Miami con amigos, familia y su nueva chica, Frankie, antes de mudarse a Nueva York con una beca de arte. Pero todo cambia cuando después de hacer un grafiti en una pared, Israel se topa con un policía.</desc>
@@ -203073,9 +203136,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Drama</category>
     <country>EE. UU</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/reefaelartista.jpg" />
-  </programme>
-  <programme channel="ENTExtreme.cl" start="20261130151900 +0000" stop="20261130172100 +0000">
-    <title lang="es">Ronin</title>
   </programme>
   <programme start="20261130152000 +0000" stop="20261130161000 +0000" channel="UniversalTV.cl">
     <title>Chicago Fire • Sin sobrevivientes</title>
@@ -203170,9 +203230,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TVG</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/timrexenelespacio.jpg" />
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261130153000 +0000" stop="20261130160000 +0000">
-    <title lang="es">Los Simpson</title>
   </programme>
   <programme start="20261130153100 +0000" stop="20261130170000 +0000" channel="Cinemax.cl">
     <title>Mi villano favorito 3</title>
@@ -203391,9 +203448,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0820_fallback.jpg" />
   </programme>
-  <programme channel="ENTComedy.cl" start="20261130160000 +0000" stop="20261130172800 +0000">
-    <title lang="es">Luca</title>
-  </programme>
   <programme start="20261130160300 +0000" stop="20261130180000 +0000" channel="HBO2.cl">
     <title>Línea mortal: Al límite</title>
     <desc>Cinco estudiantes de medicina llevan a cabo un peligroso experimento con la esperanza de entender el misterio sobre aquello que hay más allá de la vida. Cuando sus corazones son detenidos por un corto período de tiempo, viven una experiencia cercana a la muerte…</desc>
@@ -203462,9 +203516,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chicagofire.jpg" />
   </programme>
-  <programme channel="ENTChannel.cl" start="20261130161400 +0000" stop="20261130183200 +0000">
-    <title lang="es">Star Wars: Episodio III</title>
-  </programme>
   <programme start="20261130163000 +0000" stop="20261130170000 +0000" channel="EnlaceTBN.cl">
     <title>Más vida</title>
     <desc>Programa que tiene como objetivo enseñar y edificar a la iglesia de Dios a través de la palabra y de testimonios.</desc>
@@ -203506,9 +203557,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/criminalminds.jpg" />
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261130164900 +0000" stop="20261130185800 +0000">
-    <title lang="es">La intérprete</title>
   </programme>
   <programme start="20261130165000 +0000" stop="20261130184000 +0000" channel="AMC.cl">
     <title>El peso del talento</title>
@@ -203635,9 +203683,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/thebatman.jpg" />
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261130165900 +0000" stop="20261130190500 +0000">
-    <title lang="es">Thor: Ragnarok</title>
   </programme>
   <programme start="20261130170000 +0000" stop="20261130172500 +0000" channel="NickJr.bo">
     <title>Sr. Cocodrilo • No pícnic: El misterio del gnomo</title>
@@ -203782,9 +203827,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/robinhood.jpg" />
   </programme>
-  <programme channel="ENTExtreme.cl" start="20261130172100 +0000" stop="20261130190700 +0000">
-    <title lang="es">Titanes del Pacífico: La insurrección</title>
-  </programme>
   <programme start="20261130172200 +0000" stop="20261130193100 +0000" channel="StarChannel.cl">
     <title>Dime Que No Es Cierto</title>
     <desc>Dime que no es cierto</desc>
@@ -203826,9 +203868,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>TVY</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/misteriosanimales.jpg" />
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261130172800 +0000" stop="20261130190800 +0000">
-    <title lang="es">Corre, gordo, corre</title>
   </programme>
   <programme start="20261130172900 +0000" stop="20261130192700 +0000" channel="FX.cl">
     <title>Plan de vuelo</title>
@@ -204210,9 +204249,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Religious</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/reflexionespiritual.jpg" />
   </programme>
-  <programme channel="ENTChannel.cl" start="20261130183200 +0000" stop="20261130200600 +0000">
-    <title lang="es">Angry Birds: La película</title>
-  </programme>
   <programme start="20261130184000 +0000" stop="20261130193000 +0000" channel="UniversalTV.cl">
     <title>La ley y el orden: Unidad de Víctimas Especiales • Las disecciones del diablo</title>
     <sub-title>Las disecciones del diablo</sub-title>
@@ -204284,9 +204320,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elcazarecompensas.jpg" />
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261130185800 +0000" stop="20261130210400 +0000">
-    <title lang="es">Moulin Rouge, amor en rojo</title>
   </programme>
   <programme start="20261130190000 +0000" stop="20261130230000 +0000" channel="ESPN6.cl">
     <title>ESPN 6 Sur</title>
@@ -204395,15 +204428,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
       <value>14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0815_fallback.jpg" />
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261130190500 +0000" stop="20261130203700 +0000">
-    <title lang="es">Hércules</title>
-  </programme>
-  <programme channel="ENTExtreme.cl" start="20261130190700 +0000" stop="20261130213600 +0000">
-    <title lang="es">Armageddon</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261130190800 +0000" stop="20261130204500 +0000">
-    <title lang="es">Solo falta el asesino</title>
   </programme>
   <programme start="20261130191000 +0000" stop="20261130200000 +0000" channel="AXN.cl">
     <title>Csi • Angle of Attack</title>
@@ -204873,9 +204897,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0307_fallback.jpg" />
   </programme>
-  <programme channel="ENTChannel.cl" start="20261130200600 +0000" stop="20261130222700 +0000">
-    <title lang="es">Superman</title>
-  </programme>
   <programme start="20261130201000 +0000" stop="20261130214400 +0000" channel="HBOXtreme.cl">
     <title>Sisu: Camino a la Venganza</title>
     <desc>En plena Segunda Guerra Mundial, un hombre conocido como "el hombre que se niega a morir" regresa a la casa donde su familia fue brutalmente asesinada. Con determinación, desmantela la casa, la carga en un camión y se propone reconstruirla en un lugar seguro en honor a sus seres queridos. Cuando el comandante del Ejército Rojo responsable de la masacre regresa decidido a eliminarlo, se desata una implacable y espectacular persecución a través del país. La película está llena de escenas de acción trepidantes y una lucha a muerte, reafirmando la leyenda de un guerrero solitario que no se detiene ante nada ni nadie. "Sisu: Camino a la venganza" es una secuela de la exitosa "Sisu" (2022) y combina aventura, acción y drama de guerra con influencias de Indiana Jones y James Bond bajo la dirección de Jalmari Helander.</desc>
@@ -204967,9 +204988,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Talk</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/viviendosinlimites.jpg" />
   </programme>
-  <programme channel="ENTMovies.cl" start="20261130203700 +0000" stop="20261130224000 +0000">
-    <title lang="es">Terminator: Génesis</title>
-  </programme>
   <programme start="20261130204000 +0000" stop="20261130224500 +0000" channel="AMC.cl">
     <title>RED</title>
     <desc>Mei Lee, una niña de 13 años un poco rara pero segura de sí misma, se debate entre ser la hija obediente que su madre quiere que sea y el caos propio de la adolescencia. Ming, su protectora y ligeramente exigente madre, no se separa nunca de ella lo que es una situación poco deseable para una adolescente. Y por si los cambios en su vida y en su cuerpo no fueran suficientes, cada vez que se emociona demasiado (lo que le ocurre prácticamente todo el tiempo), se convierte en un panda rojo gigante.</desc>
@@ -205057,9 +205075,6 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spidermanunnuevouniverso.jpg" />
   </programme>
-  <programme channel="ENTComedy.cl" start="20261130204500 +0000" stop="20261130222200 +0000">
-    <title lang="es">Grandes héroes</title>
-  </programme>
   <programme start="20261130205000 +0000" stop="20261130214000 +0000" channel="AXN.cl">
     <title>CSI: Miami • Fallen</title>
     <sub-title>Fallen</sub-title>
@@ -205121,9 +205136,6 @@ Mientras tanto, Oh Jin Pyo y Seo Eun Joo son una pareja de casados. Ambos son de
     <date>2016</date>
     <category>Religious</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ministraciondelespiritusanto.jpg" />
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261130210400 +0000" stop="20261130225200 +0000">
-    <title lang="es">Cantando bajo la lluvia</title>
   </programme>
   <programme start="20261130210500 +0000" stop="20261130225500 +0000" channel="HBO.Plus.cl">
     <title>Five Nights at Freddy's 2</title>
@@ -205282,9 +205294,6 @@ Mientras tanto, Oh Jin Pyo y Seo Eun Joo son una pareja de casados. Ambos son de
       <value>TE</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pokemondetectivepikachu.jpg" />
-  </programme>
-  <programme channel="ENTExtreme.cl" start="20261130213600 +0000" stop="20261130234500 +0000">
-    <title lang="es">Maze Runner: Prueba de fuego</title>
   </programme>
   <programme start="20261130214000 +0000" stop="20261130220500 +0000" channel="NickJr.bo">
     <title>PAW Patrol: Patrulla de cachorros • Los cachorros salvan la cosechamática; Los cachorros salvan a la mascota del equipo</title>
@@ -205556,12 +205565,6 @@ Mientras tanto, Oh Jin Pyo y Seo Eun Joo son una pareja de casados. Ambos son de
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pawpatrolpatrulladecachorros.jpg" />
   </programme>
-  <programme channel="ENTComedy.cl" start="20261130222200 +0000" stop="20261201001700 +0000">
-    <title lang="es">Locura de verano</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261130222700 +0000" stop="20261201003400 +0000">
-    <title lang="es">Talentos ocultos</title>
-  </programme>
   <programme start="20261130223000 +0000" stop="20261130225000 +0000" channel="NickJr.bo">
     <title>DORA • Unicornosaurio; Los juegos gruñones</title>
     <sub-title>Unicornosaurio; Los juegos gruñones</sub-title>
@@ -205621,9 +205624,6 @@ Mientras tanto, Oh Jin Pyo y Seo Eun Joo son una pareja de casados. Ambos son de
       <value>14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261130224000 +0000" stop="20261201004000 +0000">
-    <title lang="es">El hombre araña</title>
   </programme>
   <programme start="20261130224500 +0000" stop="20261201010000 +0000" channel="AMC.cl">
     <title>Bad boys para siempre</title>
@@ -205779,9 +205779,6 @@ Mientras tanto, Oh Jin Pyo y Seo Eun Joo son una pareja de casados. Ambos son de
       <value>B</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chicagofire.jpg" />
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261130225200 +0000" stop="20261201010000 +0000">
-    <title lang="es">Karate Kid</title>
   </programme>
   <programme start="20261130225500 +0000" stop="20261201010000 +0000" channel="HBO.Plus.cl">
     <title>Liga de la justicia</title>
@@ -206179,9 +206176,6 @@ Mientras tanto, Oh Jin Pyo y Seo Eun Joo son una pareja de casados. Ambos son de
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0307_fallback.jpg" />
   </programme>
-  <programme channel="ENTExtreme.cl" start="20261130234500 +0000" stop="20261201015100 +0000">
-    <title lang="es">El planeta de los Simios: Confrontación</title>
-  </programme>
   <programme start="20261201000000 +0000" stop="20261201002000 +0000" channel="NickJr.bo">
     <title>Rubble &amp; Crew • El equipo construye la habitación de Sierra Sparkle; El equipo construye una rampa de esquí acuático</title>
     <sub-title>El equipo construye la habitación de Sierra Sparkle; El equipo construye una rampa de esquí acuático</sub-title>
@@ -206294,9 +206288,6 @@ Mientras tanto, Oh Jin Pyo y Seo Eun Joo son una pareja de casados. Ambos son de
     </credits>
     <date>1990</date>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/durodematar2.jpg" />
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261201001700 +0000" stop="20261201023000 +0000">
-    <title lang="es">Mickey 17</title>
   </programme>
   <programme start="20261201002000 +0000" stop="20261201003000 +0000" channel="NickJr.bo">
     <title>Rubble &amp; Crew • El equipo contruye un estadio de béisbol; El equipo construye un puente de surf</title>
@@ -206435,12 +206426,6 @@ Mientras tanto, Oh Jin Pyo y Seo Eun Joo son una pareja de casados. Ambos son de
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laleyyelordenunidaddevictimasespeciales.jpg" />
   </programme>
-  <programme channel="ENTChannel.cl" start="20261201003400 +0000" stop="20261201023000 +0000">
-    <title lang="es">Dónde estás, hermano?</title>
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261201004000 +0000" stop="20261201030000 +0000">
-    <title lang="es">El Legado Bourne</title>
-  </programme>
   <programme start="20261201005000 +0000" stop="20261201010500 +0000" channel="NickJr.bo">
     <title>PAW Patrol: Patrulla de cachorros • Los cachorros salvan la pijamada</title>
     <sub-title>Los cachorros salvan la pijamada</sub-title>
@@ -206553,9 +206538,6 @@ Mientras tanto, Oh Jin Pyo y Seo Eun Joo son una pareja de casados. Ambos son de
       <value>14</value>
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lacabraquecambioeljuegogoat.jpg" />
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261201010000 +0000" stop="20261201030000 +0000">
-    <title lang="es">Creed III</title>
   </programme>
   <programme start="20261201010500 +0000" stop="20261201012500 +0000" channel="NickJr.bo">
     <title>Santiago de los mares • La maldición del Halcón Dorado; La isla de las Cosas Perdidas</title>
@@ -206814,9 +206796,6 @@ Mientras tanto, Oh Jin Pyo y Seo Eun Joo son una pareja de casados. Ambos son de
     </rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0307_fallback.jpg" />
   </programme>
-  <programme channel="ENTExtreme.cl" start="20261201015100 +0000" stop="20261201030000 +0000">
-    <title lang="es">Insomnia</title>
-  </programme>
   <programme start="20261201020000 +0000" stop="20261201030000 +0000" channel="PASIONES.uy">
     <title>La chica del momento</title>
     <desc>Beatriz se convierte en publicista de una fábrica de jabones del país, revolucionando la publicidad en los años cincuenta. Criada por su abuela paterna, decide embarcarse rumbo a Río de Janeiro cuando encuentra una foto de su madre en una revista.</desc>
@@ -207008,12 +206987,6 @@ Mientras tanto, Oh Jin Pyo y Seo Eun Joo son una pareja de casados. Ambos son de
     <category>Religious</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/casadedios.jpg" />
   </programme>
-  <programme channel="ENTChannel.cl" start="20261201023000 +0000" stop="20261201030000 +0000">
-    <title lang="es">Los Simpson</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261201023000 +0000" stop="20261201030000 +0000">
-    <title lang="es">Smiling Friends</title>
-  </programme>
   <programme start="20261201024000 +0000" stop="20261201025500 +0000" channel="NickJr.bo">
     <title>PAW Patrol: Patrulla de cachorros • ¡Los cachorros salvan a las marionetas!</title>
     <sub-title>¡Los cachorros salvan a las marionetas!</sub-title>
@@ -207158,5 +207131,242 @@ Mientras tanto, Oh Jin Pyo y Seo Eun Joo son una pareja de casados. Ambos son de
     <country>Estados Unidos</country>
     <episode-num system="onscreen">T20 E8</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lossimpsons.jpg" />
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261201150100 +0000" stop="20261201171400 +0000">
+    <title lang="es">El Legado Bourne</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261201151500 +0000" stop="20261201171500 +0000">
+    <title lang="es">Insomnia</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261201155800 +0000" stop="20261201173200 +0000">
+    <title lang="es">La casa de muñecas de Gabby: La película</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261201161300 +0000" stop="20261201174700 +0000">
+    <title lang="es">Los Indestructibles 4</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261201164800 +0000" stop="20261201184400 +0000">
+    <title lang="es">Creed III</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261201171400 +0000" stop="20261201185500 +0000">
+    <title lang="es">Jack Frost</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261201171500 +0000" stop="20261201194200 +0000">
+    <title lang="es">Eternals</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261201173200 +0000" stop="20261201191000 +0000">
+    <title lang="es">Austin Powers 2: El espía seductor</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261201174700 +0000" stop="20261201193400 +0000">
+    <title lang="es">007: Quantum</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261201184400 +0000" stop="20261201204200 +0000">
+    <title lang="es">Colateral</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261201185500 +0000" stop="20261201210100 +0000">
+    <title lang="es">Sherlock Holmes: El juego de sombras</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261201191000 +0000" stop="20261201205500 +0000">
+    <title lang="es">Sing: ¡Ven y canta!</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261201193400 +0000" stop="20261201213400 +0000">
+    <title lang="es">Capitán América: El primer vengador</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261201194200 +0000" stop="20261201225900 +0000">
+    <title lang="es">El Señor de los Anillos: El retorno del rey</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261201204200 +0000" stop="20261201223800 +0000">
+    <title lang="es">La Gran Estafa</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261201205500 +0000" stop="20261201223500 +0000">
+    <title lang="es">Toy Story 5</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261201210100 +0000" stop="20261201225900 +0000">
+    <title lang="es">Ant-Man and the Wasp: Quantumania</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261201213400 +0000" stop="20261201233800 +0000">
+    <title lang="es">Oblivion: El tiempo del olvido</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261201223500 +0000" stop="20261202002100 +0000">
+    <title lang="es">Sintonía de amor</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261201223800 +0000" stop="20261202005800 +0000">
+    <title lang="es">Apolo 13</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261201225900 +0000" stop="20261202012400 +0000">
+    <title lang="es">Misión Imposible 6: Repercusión</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261201225900 +0000" stop="20261202010400 +0000">
+    <title lang="es">La guerra de las galaxias</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261201233800 +0000" stop="20261202010200 +0000">
+    <title lang="es">Frankenweenie</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202002100 +0000" stop="20261202023000 +0000">
+    <title lang="es">Cruella</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261202005800 +0000" stop="20261202030000 +0000">
+    <title lang="es">Una esposa de mentira</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261202010200 +0000" stop="20261202023000 +0000">
+    <title lang="es">Lilo y Stitch</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261202010400 +0000" stop="20261202040000 +0000">
+    <title lang="es">El Código Da Vinci</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261202012400 +0000" stop="20261202030000 +0000">
+    <title lang="es">Loca Academia de Pilotos 2</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261202023000 +0000" stop="20261202030000 +0000">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202023000 +0000" stop="20261202030000 +0000">
+    <title lang="es">Smiling Friends</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261202030000 +0000" stop="20261202131800 +0000">
+    <title lang="es">Fantasmas del pasado</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202030000 +0000" stop="20261202122900 +0000">
+    <title lang="es">Dinosaurios</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261202030000 +0000" stop="20261202130800 +0000">
+    <title lang="es">Mary Poppins</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261202030000 +0000" stop="20261202131600 +0000">
+    <title lang="es">Milagro en la calle 34</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261202040000 +0000" stop="20261202123600 +0000">
+    <title lang="es">Jurassic World</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202122900 +0000" stop="20261202130000 +0000">
+    <title lang="es">La niñera</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261202123600 +0000" stop="20261202150300 +0000">
+    <title lang="es">007: Spectre</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202130000 +0000" stop="20261202133000 +0000">
+    <title lang="es">El chapulín colorado</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261202130800 +0000" stop="20261202150100 +0000">
+    <title lang="es">Thor: Amor y trueno</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261202131600 +0000" stop="20261202152000 +0000">
+    <title lang="es">Leyendas de vida</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261202131800 +0000" stop="20261202153100 +0000">
+    <title lang="es">Ready Player One: Comienza el juego</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202133000 +0000" stop="20261202140000 +0000">
+    <title lang="es">ALF</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202140000 +0000" stop="20261202142800 +0000">
+    <title lang="es">Malcolm</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202142800 +0000" stop="20261202150000 +0000">
+    <title lang="es">Friends</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202150000 +0000" stop="20261202153000 +0000">
+    <title lang="es">El chavo</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261202150100 +0000" stop="20261202163200 +0000">
+    <title lang="es">Monsters, Inc.</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261202150300 +0000" stop="20261202164900 +0000">
+    <title lang="es">Thor: Un mundo oscuro</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261202152000 +0000" stop="20261202172400 +0000">
+    <title lang="es">Ágora: La caída del imperio romano</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202153000 +0000" stop="20261202160000 +0000">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261202153100 +0000" stop="20261202172700 +0000">
+    <title lang="es">Locura de verano</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202160000 +0000" stop="20261202172500 +0000">
+    <title lang="es">Frankenweenie</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261202163200 +0000" stop="20261202175700 +0000">
+    <title lang="es">Minions: Nace un villano</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261202164900 +0000" stop="20261202185700 +0000">
+    <title lang="es">Pantera Negra</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261202172400 +0000" stop="20261202193100 +0000">
+    <title lang="es">El planeta de los simios: Confrontación</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202172500 +0000" stop="20261202190300 +0000">
+    <title lang="es">¡Cuidado: Bebé suelto!</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261202172700 +0000" stop="20261202190100 +0000">
+    <title lang="es">Un jefe en pañales</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261202175700 +0000" stop="20261202202800 +0000">
+    <title lang="es">Batman: El caballero de la noche</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261202185700 +0000" stop="20261202210100 +0000">
+    <title lang="es">La nueva gran estafa</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261202190100 +0000" stop="20261202205700 +0000">
+    <title lang="es">Nueve reinas</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202190300 +0000" stop="20261202203300 +0000">
+    <title lang="es">Viaje al centro de la Tierra</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261202193100 +0000" stop="20261202212100 +0000">
+    <title lang="es">El diablo viste a la moda</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261202202800 +0000" stop="20261202223600 +0000">
+    <title lang="es">Spider-Man: De regreso a casa</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202203300 +0000" stop="20261202220900 +0000">
+    <title lang="es">Anaconda</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261202205700 +0000" stop="20261202230100 +0000">
+    <title lang="es">Orgullo y prejuicio</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261202210100 +0000" stop="20261202231900 +0000">
+    <title lang="es">El hombre araña 3</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261202212100 +0000" stop="20261202233100 +0000">
+    <title lang="es">El embajador del miedo</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202220900 +0000" stop="20261202233800 +0000">
+    <title lang="es">Kung Fu Panda 2</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261202223600 +0000" stop="20261203002800 +0000">
+    <title lang="es">Barry Seal: Sólo en América</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261202230100 +0000" stop="20261203003800 +0000">
+    <title lang="es">Luna de miel para tres</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261202231900 +0000" stop="20261203014500 +0000">
+    <title lang="es">El Origen</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261202233100 +0000" stop="20261203012700 +0000">
+    <title lang="es">Loco y Estúpido Amor</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202233800 +0000" stop="20261203010700 +0000">
+    <title lang="es">Shrek 4: Para Siempre</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261203002800 +0000" stop="20261203030000 +0000">
+    <title lang="es">Eternals</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261203003800 +0000" stop="20261203023000 +0000">
+    <title lang="es">El Planeta de los Simios: (R)evolución</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261203010700 +0000" stop="20261203023400 +0000">
+    <title lang="es">31 Minutos: Calurosa Navidad</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261203012700 +0000" stop="20261203030000 +0000">
+    <title lang="es">Rebeldes</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261203014500 +0000" stop="20261203030000 +0000">
+    <title lang="es">X-Men 2</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261203023000 +0000" stop="20261203030000 +0000">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261203023400 +0000" stop="20261203030000 +0000">
+    <title lang="es">Smiling Friends</title>
   </programme>
 </tv>
